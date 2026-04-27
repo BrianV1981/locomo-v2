@@ -1,0 +1,941 @@
+[
+    {
+        "original_dialogue_id": "conv-26",
+        "original_question": "What LGBTQ+ events has Caroline participated in?",
+        "category": 1,
+        "old_evidence": [
+            "D5:1",
+            "D8:17",
+            "D3:1",
+            "D1:3"
+        ],
+        "new_image_url": "https://cdn.i-scmp.com/sites/default/files/styles/landscape/public/d8/yp/images/shutterstock533807500.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-26",
+        "original_question": "What kind of art does Caroline make?",
+        "category": 1,
+        "old_evidence": [
+            "D11:12",
+            "D11:8",
+            "D9:14"
+        ],
+        "new_image_url": "https://www.etonline.com/sites/default/files/images/2019-10/gettyimages-1093168760.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-26",
+        "original_question": "What has Melanie painted?",
+        "category": 1,
+        "old_evidence": [
+            "D13:8",
+            "D8:6",
+            "D1:12"
+        ],
+        "new_image_url": "https://thethoughtfulgamer.com/wp-content/uploads/2017/10/20171027_105814-e1509116397258.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-26",
+        "original_question": "When did Melanie go to the park?",
+        "category": 2,
+        "old_evidence": [
+            "D15:2"
+        ],
+        "new_image_url": "https://images.pexels.com/photos/1974521/pexels-photo-1974521.jpeg?cs\\u003dsrgb\\u0026dl\\u003dpexels-julia-kuzenkov-1974521.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-30",
+        "original_question": "Did Jon and Gina both participate in dance competitions?",
+        "category": 1,
+        "old_evidence": [
+            "D1:14",
+            "D14:14",
+            "D1:16",
+            "D1:17",
+            "D9:10"
+        ],
+        "new_image_url": "https://media2.inlander.com/inlander/imager/u/original/27047427/1.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-41",
+        "original_question": "When did John have a party with veterans?",
+        "category": 2,
+        "old_evidence": [
+            "D15:11"
+        ],
+        "new_image_url": "https://i.redd.it/z6jusjhd0pd71.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-41",
+        "original_question": "What events for veterans has John participated in?",
+        "category": 1,
+        "old_evidence": [
+            "D15:1",
+            "D15:11",
+            "D21:22",
+            "D24:1",
+            "D29:4"
+        ],
+        "new_image_url": "https://i.redd.it/d1g89l9ba7b61.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-41",
+        "original_question": "When did John go on a camping trip with Max?",
+        "category": 2,
+        "old_evidence": [
+            "D30:6"
+        ],
+        "new_image_url": "https://live.staticflickr.com/7351/14090438714_33bec862fe_b.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-41",
+        "original_question": "What sparked John's interest in improving education and infrastructure in the community?",
+        "category": 4,
+        "old_evidence": [
+            "D1:10"
+        ],
+        "new_image_url": "https://marianainla.com/wp-content/uploads/2021/12/unnamed-20.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-41",
+        "original_question": "What did John do the week before August 3, 2023 involving his kids?",
+        "category": 4,
+        "old_evidence": [
+            "D27:9"
+        ],
+        "new_image_url": "https://i.pinimg.com/originals/d5/2b/de/d52bde85a9eb63ee034d5ffb7be7d3c2.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-41",
+        "original_question": "What activity did John and Max enjoy together last summer?",
+        "category": 4,
+        "old_evidence": [
+            "D30:6"
+        ],
+        "new_image_url": "https://i.redd.it/qjblw3fb7hnb1.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-41",
+        "original_question": "How does John describe the camping trip with Max?",
+        "category": 4,
+        "old_evidence": [
+            "D30:6"
+        ],
+        "new_image_url": "https://i.redd.it/frciwtnbroza1.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-41",
+        "original_question": "How does Maria describe the camping trip with Max?",
+        "category": 5,
+        "old_evidence": [
+            "D30:6"
+        ],
+        "new_image_url": "https://i.redd.it/yroilm3jgct71.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-42",
+        "original_question": "What kind of interests do Joanna and Nate share?",
+        "category": 1,
+        "old_evidence": [
+            "D1:10",
+            "D1:11",
+            "D1:12",
+            "D3:4",
+            "D4:9",
+            "D10:9",
+            "D20:2"
+        ],
+        "new_image_url": "https://i.pinimg.com/originals/2d/be/40/2dbe40682781579e457e7ee5a0cc79fc.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-42",
+        "original_question": "Where did Joanna travel to in July 2022?",
+        "category": 2,
+        "old_evidence": [
+            "D17:4"
+        ],
+        "new_image_url": "https://i.pinimg.com/originals/c7/f7/30/c7f7308cbae589efb28ffee439cff05f.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-42",
+        "original_question": "When did Nate win a lot of money in a video game tournament?",
+        "category": 2,
+        "old_evidence": [
+            "D22:2"
+        ],
+        "new_image_url": "https://images.pexels.com/photos/18047550/pexels-photo-18047550/free-photo-of-people-dancing-on-party.jpeg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-42",
+        "original_question": "What is something Nate gave to Joanna that brings her a lot of joy?",
+        "category": 1,
+        "old_evidence": [
+            "D13:9",
+            "D24:2"
+        ],
+        "new_image_url": "https://i.redd.it/8ugwccgkw6u81.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-42",
+        "original_question": "When did Nate get Tilly for Joanna?",
+        "category": 1,
+        "old_evidence": [
+            "D13:9",
+            "D24:2"
+        ],
+        "new_image_url": "https://i.redd.it/cuurrb4qyl961.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-42",
+        "original_question": "How many times has Nate taken his turtles on a walk?",
+        "category": 1,
+        "old_evidence": [
+            "D5:4",
+            "D25:15"
+        ],
+        "new_image_url": "https://i.redd.it/tdukekw3wlp91.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-42",
+        "original_question": "What animal do both Nate and Joanna like?",
+        "category": 1,
+        "old_evidence": [
+            "D5:6",
+            "D26:9"
+        ],
+        "new_image_url": "https://i.redd.it/i2l2lpmkj2mb1.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-42",
+        "original_question": "What mediums does Nate use to play games?",
+        "category": 1,
+        "old_evidence": [
+            "D22:2",
+            "D27:21",
+            "D27:15"
+        ],
+        "new_image_url": "https://i.redd.it/n5hled3cve841.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-42",
+        "original_question": "How many video game tournaments has Nate participated in?",
+        "category": 1,
+        "old_evidence": [
+            "D1:3",
+            "D6:7",
+            "D10:4",
+            "D14:8",
+            "D17:1",
+            "D19:1",
+            "D20:1",
+            "D22:2",
+            "D27:1"
+        ],
+        "new_image_url": "https://i.redd.it/ckp5j9w7q7q41.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-42",
+        "original_question": "How many tournaments has Nate won?",
+        "category": 1,
+        "old_evidence": [
+            "D1:3",
+            "D10:4",
+            "D14:8",
+            "D17:1",
+            "D19:1",
+            "D22:2",
+            "D27:1"
+        ],
+        "new_image_url": "https://i.redd.it/50qvgfuva33b1.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-42",
+        "original_question": "What recipes has Joanna made?",
+        "category": 1,
+        "old_evidence": [
+            "D10:9",
+            "D10:11",
+            "D19:8",
+            "D20:2",
+            "D20:10",
+            "D21:11",
+            "D22:1",
+            "D21:3",
+            "D21:17"
+        ],
+        "new_image_url": "https://live.staticflickr.com/664/22051849804_cff4f4e532_b.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-42",
+        "original_question": "Why does Nate like turtles as pets?",
+        "category": 4,
+        "old_evidence": [
+            "D5:6"
+        ],
+        "new_image_url": "https://i.redd.it/nbyl9ym1dpj41.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-42",
+        "original_question": "What did Nate do for Joanna on 25 May, 2022?",
+        "category": 4,
+        "old_evidence": [
+            "D13:9"
+        ],
+        "new_image_url": "https://freerangestock.com/sample/134391/happy-family-holding-hands-with-ocean-and-sunset-in-the-background.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-42",
+        "original_question": "Where did Joanna go for a road trip for research?",
+        "category": 4,
+        "old_evidence": [
+            "D17:4"
+        ],
+        "new_image_url": "https://i.redd.it/p1ok9m9zkrw61.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-42",
+        "original_question": "What did Joanna discover at the library in Woodhaven?",
+        "category": 4,
+        "old_evidence": [
+            "D17:4"
+        ],
+        "new_image_url": "https://i.redd.it/w5vwdrledbb41.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-42",
+        "original_question": "What two main ingredients are part of the dessert Joanna shared a photo of with blueberries, coconut milk, and a gluten-free crust?",
+        "category": 4,
+        "old_evidence": [
+            "D21:17"
+        ],
+        "new_image_url": "https://i.redd.it/bwoh4be8d3m41.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-42",
+        "original_question": "Where did Nate go for a road trip for research?",
+        "category": 5,
+        "old_evidence": [
+            "D17:4"
+        ],
+        "new_image_url": "https://christinasearsetternet.files.wordpress.com/2020/08/img_1232.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-42",
+        "original_question": "What did Joanna discover at the museum in Woodhaven?",
+        "category": 5,
+        "old_evidence": [
+            "D17:4"
+        ],
+        "new_image_url": "https://photos.bringfido.com/restaurants/6/7/1/176/176_272122.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-42",
+        "original_question": "What two main ingredients are part of the dessert Nate shared a photo of with blueberries, coconut milk, and a gluten-free crust?",
+        "category": 5,
+        "old_evidence": [
+            "D21:17"
+        ],
+        "new_image_url": "https://i.redd.it/kwnuvwl3wha01.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-43",
+        "original_question": "What similar sports collectible do Tim and John own?",
+        "category": 1,
+        "old_evidence": [
+            "D7:7",
+            "D7:9",
+            "D16:7",
+            "D16:9"
+        ],
+        "new_image_url": "https://ashleenichols.com/wp-content/uploads/2018/01/IMG_1546-e1515707058552.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-43",
+        "original_question": "When did John take a trip to the Rocky Mountains?",
+        "category": 2,
+        "old_evidence": [
+            "D20:40"
+        ],
+        "new_image_url": "https://s0.geograph.org.uk/geophotos/06/18/45/6184556_bc98b08f.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-43",
+        "original_question": "What would be a good hobby related to his travel dreams for Tim to pick up?",
+        "category": 3,
+        "old_evidence": [
+            "D4:1",
+            "D6:6",
+            "D15:3",
+            "D27:37"
+        ],
+        "new_image_url": "https://i.ytimg.com/vi/uqizCzE85B8/maxresdefault.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-43",
+        "original_question": "What did John's teammates give him when they met on Aug 15th?",
+        "category": 4,
+        "old_evidence": [
+            "D7:7"
+        ],
+        "new_image_url": "https://bloximages.newyork1.vip.townnews.com/yakimaherald.com/content/tncms/assets/v3/editorial/4/2d/42d9b634-18c9-11ed-8a1b-039214ad9eb3/62f3dc54b5a61.image.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-43",
+        "original_question": "What does John find rewarding about mentoring the younger players?",
+        "category": 4,
+        "old_evidence": [
+            "D14:7"
+        ],
+        "new_image_url": "https://i.redd.it/nzwhfzovo8q61.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-43",
+        "original_question": "What is one cause that John supports with his influence and resources?",
+        "category": 4,
+        "old_evidence": [
+            "D26:21"
+        ],
+        "new_image_url": "https://hips.hearstapps.com/hmg-prod/images/2020-ferrari-f8-tributo-120-1551808626.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-43",
+        "original_question": "What did Tim's teammates give him when they met on Aug 15th?",
+        "category": 5,
+        "old_evidence": [
+            "D7:7"
+        ],
+        "new_image_url": "https://live.staticflickr.com/4030/4426181605_d36196a029_c.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-43",
+        "original_question": "What does Tim find rewarding about mentoring the younger players?",
+        "category": 5,
+        "old_evidence": [
+            "D14:7"
+        ],
+        "new_image_url": "https://i.redd.it/3yrgb86abnl81.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-43",
+        "original_question": "What is one cause that John opposes with his influence and resources?",
+        "category": 5,
+        "old_evidence": [
+            "D26:21"
+        ],
+        "new_image_url": "https://res.cloudinary.com/sagacity/image/upload/c_crop,h_2151,w_2403,x_0,y_1044/c_limit,dpr_auto,f_auto,fl_lossy,q_80,w_1080/export-1-37_l33gst.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-44",
+        "original_question": "When did Audrey adopt Pixie?",
+        "category": 2,
+        "old_evidence": [
+            "D2:1"
+        ],
+        "new_image_url": "https://i.redd.it/6p8nisgp4dq41.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-44",
+        "original_question": "How many years passed between Audrey adopting Pixie and her other three dogs?",
+        "category": 2,
+        "old_evidence": [
+            "D2:1",
+            "D1:7"
+        ],
+        "new_image_url": "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL2ZsNTI0NzQ3Nzg3NzQtaW1hZ2UuanBn.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-44",
+        "original_question": "When is Andrew going to go hiking with Audrey?",
+        "category": 2,
+        "old_evidence": [
+            "D11:7"
+        ],
+        "new_image_url": "https://varnikadesigns.files.wordpress.com/2020/11/img_3505.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-44",
+        "original_question": "How many times did Audrey and Andew plan to hike together?",
+        "category": 1,
+        "old_evidence": [
+            "D11:7",
+            "D24:13",
+            "D26:20"
+        ],
+        "new_image_url": "https://api.army.mil/e2/c/images/2017/12/22/502617/original.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-44",
+        "original_question": "Where did Audrey get Pixie from?",
+        "category": 1,
+        "old_evidence": [
+            "D11:4",
+            "D2:1"
+        ],
+        "new_image_url": "https://get.pxhere.com/photo/black-and-white-old-audience-fashion-performance-art-theatre-children-stage-performance-entertainment-scenario-performing-arts-monochrome-photography-musical-theatre-541499.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-44",
+        "original_question": "What are the names of Audrey's dogs?",
+        "category": 1,
+        "old_evidence": [
+            "D1:7",
+            "D2:1",
+            "D19:12"
+        ],
+        "new_image_url": "https://i.redd.it/bkol9biz39j21.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-44",
+        "original_question": "When did Audrey get into an accident in the park?",
+        "category": 2,
+        "old_evidence": [
+            "D25:2"
+        ],
+        "new_image_url": "https://i.redd.it/kkt623tlufk11.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-44",
+        "original_question": "What is something that Andrew could do to make birdwatching hobby to fit in his city schedule?",
+        "category": 3,
+        "old_evidence": [
+            "D20:5",
+            "D20:21",
+            "D23:1",
+            "D1:14"
+        ],
+        "new_image_url": "https://images.pexels.com/photos/18690079/pexels-photo-18690079/free-photo-of-white-terrier-lying-on-a-sofa.jpeg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-44",
+        "original_question": "How often does Audrey take her dogs for walks?",
+        "category": 4,
+        "old_evidence": [
+            "D19:10"
+        ],
+        "new_image_url": "https://guitarsonmain.com/cdn/shop/files/1968-kustom-k-200a-vintage-guitar-w-ohsc-40274115559663_5000x.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-44",
+        "original_question": "How often does Andrew take his dogs for walks?",
+        "category": 5,
+        "old_evidence": [
+            "D19:10"
+        ],
+        "new_image_url": "https://i.imgur.com/uvVOoeM.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-47",
+        "original_question": "When did John start working on his 2D Adventure mobile game?",
+        "category": 2,
+        "old_evidence": [
+            "D25:9"
+        ],
+        "new_image_url": "https://i.redd.it/3096c8dr8tr71.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-47",
+        "original_question": "What did John use to play when he was younger to let off steam?",
+        "category": 4,
+        "old_evidence": [
+            "D24:15"
+        ],
+        "new_image_url": "https://i.pinimg.com/originals/d1/87/78/d187788dbb64158d2cbd6a1eaaa7e86b.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-47",
+        "original_question": "What type of game is John's upcoming mobile game?",
+        "category": 4,
+        "old_evidence": [
+            "D25:9"
+        ],
+        "new_image_url": "https://healthywaysfordays.files.wordpress.com/2020/11/61c247f0-cd80-4c81-916c-b905b92a93a3-ecdafc1d-2d3c-4cbb-b64a-258e84518cb3.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-47",
+        "original_question": "What did James use to play when he was younger to let off steam?",
+        "category": 5,
+        "old_evidence": [
+            "D24:15"
+        ],
+        "new_image_url": "https://images.pexels.com/photos/1655329/pexels-photo-1655329.jpeg?cs\\u003dsrgb\\u0026dl\\u003dpexels-lisa-fotios-1655329.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-48",
+        "original_question": "What were Deborah's mother's hobbies?",
+        "category": 1,
+        "old_evidence": [
+            "D2:17",
+            "D2:19",
+            "D12:3",
+            "D29:7"
+        ],
+        "new_image_url": "https://live.staticflickr.com/3674/10799791393_b3a685158c_b.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-48",
+        "original_question": "What new yoga poses did Deborah try?",
+        "category": 1,
+        "old_evidence": [
+            "D4:14",
+            "D14:3",
+            "D14:15"
+        ],
+        "new_image_url": "https://i.redd.it/pdwhtmvi74va1.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-48",
+        "original_question": "How old is Jolene?",
+        "category": 3,
+        "old_evidence": [
+            "D8:2",
+            "D13:5",
+            "D21:6",
+            "D21:8",
+            "D22:6",
+            "D22:14",
+            "D24:2",
+            "D24:14",
+            "D25:5",
+            "D26:6"
+        ],
+        "new_image_url": "http://www.binxberryconsignment.com/cdn/shop/products/IMG_3958.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-48",
+        "original_question": "When did Deborah start the yoga class in the neighborhood?",
+        "category": 2,
+        "old_evidence": [
+            "D9:5"
+        ],
+        "new_image_url": "http://petekozametalart.com/cdn/shop/products/image_2244493c-7118-4af4-9d82-6f8b0e99d9fa.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-48",
+        "original_question": "When did Deborah lead a meditation session during the sunset?",
+        "category": 2,
+        "old_evidence": [
+            "D18:8"
+        ],
+        "new_image_url": "https://i.imgur.com/s0wdXqH.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-48",
+        "original_question": "What was Jolene doing with her partner in Rio de Janeiro?",
+        "category": 4,
+        "old_evidence": [
+            "D23:15",
+            "D23:1",
+            "D23:3",
+            "D23:17"
+        ],
+        "new_image_url": "https://i.redd.it/z8zsh53ycfvb1.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-48",
+        "original_question": "What kind of professional activities does Jolene participate in to gain more experience in her field?",
+        "category": 1,
+        "old_evidence": [
+            "D21:6",
+            "D13:5"
+        ],
+        "new_image_url": "https://i.redd.it/3gzujt17mgkb1.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-48",
+        "original_question": "What was Jolene doing with her partner in Rio de Janeiro?",
+        "category": 4,
+        "old_evidence": [
+            "D23:15",
+            "D23:1",
+            "D23:3",
+            "D23:17"
+        ],
+        "new_image_url": "https://cdn.apartmenttherapy.info/image/upload/v1617734023/at/news-culture/2021-04/katharine-scrivener-nook.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-48",
+        "original_question": "What does Deborah bring with her whenever she comes to reflect on her mom?",
+        "category": 4,
+        "old_evidence": [
+            "D4:36"
+        ],
+        "new_image_url": "https://i.redd.it/jygby0ihz7o41.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-48",
+        "original_question": "What is Jolene currently doing in June 2023?",
+        "category": 4,
+        "old_evidence": [
+            "D13:5"
+        ],
+        "new_image_url": "https://i.pinimg.com/originals/a8/a1/ab/a8a1ab638060af2f6cb53ab7a5bb2b8c.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-48",
+        "original_question": "Which new yoga pose did Deborah share a photo of?",
+        "category": 4,
+        "old_evidence": [
+            "D14:15"
+        ],
+        "new_image_url": "https://images.pexels.com/photos/12473781/pexels-photo-12473781.jpeg?cs\\u003dsrgb\\u0026dl\\u003dpexels-pexels-user-12473781.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-48",
+        "original_question": "What was Deborah's mom passionate about?",
+        "category": 4,
+        "old_evidence": [
+            "D29:7"
+        ],
+        "new_image_url": "https://www.nps.gov/articles/000/images/trash-and-recycle-can.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-49",
+        "original_question": "Considering their conversations and personal growth, what advice might Evan and Sam give to someone facing a major life transition or challenge?",
+        "category": 3,
+        "old_evidence": [
+            "D3:10",
+            "D3:15",
+            "D22:1",
+            "D8:17",
+            "D8:22",
+            "D9:8",
+            "D9:11",
+            "D14:7",
+            "D14:12",
+            "D12:7",
+            "D12:11"
+        ],
+        "new_image_url": "https://i.redd.it/7dbys2s547b91.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-49",
+        "original_question": "What kind of subjects does Evan enjoy painting?",
+        "category": 1,
+        "old_evidence": [
+            "D8:20",
+            "D20:13",
+            "D20:15",
+            "D21:10",
+            "D21:14"
+        ],
+        "new_image_url": "https://i.redd.it/2308a70tm0m81.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-49",
+        "original_question": "Which places in Canada was Evan visiting in July 2023?",
+        "category": 2,
+        "old_evidence": [
+            "D8:27",
+            "D9:8",
+            "D9:10"
+        ],
+        "new_image_url": "https://i.redd.it/zcnesiymmou91.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-49",
+        "original_question": "When did Evan go skiing in Banff?",
+        "category": 2,
+        "old_evidence": [
+            "D8:26",
+            "D8:27",
+            "D8:28"
+        ],
+        "new_image_url": "https://i.redd.it/sqyihv2m1j871.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-49",
+        "original_question": "What did Evan suggest Sam should keep doing to find his own version of love?",
+        "category": 4,
+        "old_evidence": [
+            "D21:10"
+        ],
+        "new_image_url": "https://i.redd.it/yfeccwau4dya1.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-50",
+        "original_question": "Which country do Calvin and Dave want to meet in?",
+        "category": 3,
+        "old_evidence": [
+            "D3:9",
+            "D3:10"
+        ],
+        "new_image_url": "https://a.1stdibscdn.com/carol-steinberg-paintings-santa-monica-sunset-painting-acrylic-on-canvas-for-sale/22569652/a_97035921645177202523/8193_55e7214a395fa47074c3d3c18b4d3db297c34450_8E0FtEJwGDF4rlzk_1_master.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-50",
+        "original_question": "Which types of cars does Dave like the most?",
+        "category": 1,
+        "old_evidence": [
+            "D4:5",
+            "D1:2",
+            "D3:12",
+            "D4:7"
+        ],
+        "new_image_url": "https://i.redd.it/b9cuf3yfd3s91.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-50",
+        "original_question": "What is Dave's main passion?",
+        "category": 1,
+        "old_evidence": [
+            "D13:3",
+            "D5:5",
+            "D4:5",
+            "D3:12"
+        ],
+        "new_image_url": "https://i.redd.it/157m14rlacw51.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-50",
+        "original_question": "Can Dave work with engines?",
+        "category": 1,
+        "old_evidence": [
+            "D13:7",
+            "D22:5",
+            "D20:1"
+        ],
+        "new_image_url": "https://i.redd.it/5qw4hbg418561.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-50",
+        "original_question": "How many car shows has Dave attended?",
+        "category": 1,
+        "old_evidence": [
+            "D3:12",
+            "D22:1"
+        ],
+        "new_image_url": "https://i.redd.it/5hvq16lfcgy71.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-50",
+        "original_question": "Who supports Calvin in tough times?",
+        "category": 1,
+        "old_evidence": [
+            "D25:6",
+            "D29:7"
+        ],
+        "new_image_url": "https://i.redd.it/a2jbhj4bi6n61.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-50",
+        "original_question": "How long did Dave's work on the Ford Mustang take?",
+        "category": 2,
+        "old_evidence": [
+            "D14:11",
+            "D20:1",
+            "D21:4"
+        ],
+        "new_image_url": "https://assets.simpleviewinc.com/simpleview/image/upload/crm/maineta/7D10D61B-FFA4-44EB-B4DF-5E6002D715F5_14D84855-064F-4EDB-86FAE0FA2AB35244_60bff6ce-b8b0-4146-b88bb1d2cef69fcb.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-50",
+        "original_question": "Do all of Dave's car restoration projects go smoothly?",
+        "category": 1,
+        "old_evidence": [
+            "D27:10",
+            "D13:7",
+            "D25:17",
+            "D20:1"
+        ],
+        "new_image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjW88nSAhvDHq-ZyBSZlQ__czsDBW4hEFEvzdgkz06j4ByTnkAamu38jTEXQmzjkEgmS2VYyUYt4e0kz5cfhH7pChnTfAR2OKl9HZj7T91RxPZTV5qxTpi3jjpbFY1wD9Myi7633MAHlwiCL1LtCXt8iiQLed4Kzu2FY7thoxVxVBW8faEpQ-qyEFLwBTA/s4032/Photo%2023.07.23,%2014%2034%2052.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-50",
+        "original_question": "What workshop did Dave get picked for on 11 August, 2023?",
+        "category": 4,
+        "old_evidence": [
+            "D13:1"
+        ],
+        "new_image_url": "https://i.redd.it/e48of6zqmmi71.jpg",
+        "status": "Pending Generation"
+    },
+    {
+        "original_dialogue_id": "conv-50",
+        "original_question": "What workshop did Calvin get picked for on 11 August, 2023?",
+        "category": 5,
+        "old_evidence": [
+            "D13:1"
+        ],
+        "new_image_url": "https://i.redd.it/k78gqk5c5kx71.jpg",
+        "status": "Pending Generation"
+    }
+]
