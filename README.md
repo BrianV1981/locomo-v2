@@ -1,5 +1,12 @@
 # LoCoMo V2: The Definitive Long-Term Conversational Memory Benchmark
 
+<div align="center">
+  <a href="https://www.buymeacoffee.com/BrianV1981" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+  <p><em>Nobody is paying me to fix this broken dataset. If this repository saved you days of compute time, API tokens, or academic headaches, please consider supporting my work so I can continue repairing open-source AI infrastructure!</em></p>
+</div>
+
+---
+
 **LoCoMo V2** is a community-corrected, 100% solvable version of the original [LoCoMo (Long-term Conversational Memory)](https://github.com/snap-research/locomo) benchmark (Maharana et al., ACL 2024). 
 
 This repository fixes fatal structural flaws in the original dataset that previously prevented accurate end-to-end multimodal evaluation, establishing the definitive "Gold Standard" for testing LLM and MLLM memory systems.
