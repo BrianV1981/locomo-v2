@@ -1,0 +1,2667 @@
+[
+  {
+    "question_id": "locomo_0_qa1",
+    "question": "When did Melanie paint a sunrise?",
+    "golden_answer": "2022",
+    "category": 2,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D1:12"
+    ],
+    "correct_evidence": [
+      "D1:14"
+    ],
+    "reasoning": "D1:12 (cited) says 'By the way, take a look at this' with an image of a painting, but does NOT mention when it was painted. D1:14 (not cited) says 'Yeah, I painted that lake sunrise last year! It's special to me.' Session 1 is May 8, 2023, so 'last year' = 2022. The golden answer '2022' is correct, but the citation should be D1:14, not D1:12.",
+    "correct_answer": "2022"
+  },
+  {
+    "question_id": "locomo_0_qa2",
+    "question": "What fields would Caroline be likely to pursue in her educaton?",
+    "golden_answer": "Psychology, counseling certification",
+    "category": 3,
+    "error_type": "HALLUCINATION",
+    "cited_evidence": [
+      "D1:9",
+      "D1:11"
+    ],
+    "correct_evidence": [
+      "D1:9",
+      "D1:11"
+    ],
+    "reasoning": "D1:9 says 'Gonna continue my edu and check out career options'. D1:11 says 'I'm keen on counseling or working in mental health'. Neither 'psychology' nor 'counseling certification' appears anywhere in the transcript. The golden answer infers specific academic fields that Caroline never mentions. A more accurate answer would be 'counseling or mental health'.",
+    "correct_answer": "Counseling or mental health"
+  },
+  {
+    "question_id": "locomo_0_qa4",
+    "question": "What is Caroline's identity?",
+    "golden_answer": "Transgender woman",
+    "category": 1,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D1:5"
+    ],
+    "correct_evidence": [
+      "D3:1",
+      "D11:14"
+    ],
+    "reasoning": "D1:5 (cited) says 'The transgender stories were so inspiring!' which shows Caroline finds transgender stories inspiring, but does NOT explicitly state she IS transgender. D3:1 says 'I talked about my transgender journey' which directly confirms Caroline's identity. D11:14 says 'Art's allowed me to explore my transition and my changing body'. The golden answer is correct but D1:5 is insufficient evidence.",
+    "correct_answer": "Transgender woman"
+  },
+  {
+    "question_id": "locomo_0_qa5",
+    "question": "When did Melanie run a charity race?",
+    "golden_answer": "The sunday before 25 May 2023",
+    "category": 2,
+    "error_type": "TEMPORAL_ERROR",
+    "cited_evidence": [
+      "D2:1"
+    ],
+    "correct_evidence": [
+      "D2:1"
+    ],
+    "reasoning": "D2:1 says 'I ran a charity race for mental health last Saturday'. Session 2 is 1:14 pm on 25 May, 2023, which is a Thursday. 'Last Saturday' before Thursday May 25 is Saturday May 20, 2023. The golden answer says 'The sunday before 25 May 2023' (Sunday May 21), but D2:1 explicitly says 'Saturday', not 'Sunday'.",
+    "correct_answer": "The Saturday before 25 May 2023 (approximately May 20, 2023)"
+  },
+  {
+    "question_id": "locomo_0_qa23",
+    "question": "What books has Melanie read?",
+    "golden_answer": "\"Nothing is Impossible\", \"Charlotte's Web\"",
+    "category": 1,
+    "error_type": "HALLUCINATION",
+    "cited_evidence": [
+      "D7:8",
+      "D6:10"
+    ],
+    "correct_evidence": [
+      "D7:8",
+      "D6:10"
+    ],
+    "reasoning": "D7:8 says 'This book I read last year reminds me to always pursue my dreams' but does NOT name any book title. D6:10 says 'I loved reading Charlotte\u2019s Web as a kid' which supports 'Charlotte\u2019s Web'. The title 'Nothing is Impossible' does not appear anywhere in the conversation transcript. It is fabricated in the golden answer. The correct answer should reference the unnamed book from D7:8 and 'Charlotte\u2019s Web' from D6:10. D7:11 also mentions 'Becoming Nicole' which the golden answer omits.",
+    "correct_answer": "Charlotte's Web, an unnamed book about pursuing dreams, and Becoming Nicole"
+  },
+  {
+    "question_id": "locomo_0_qa26",
+    "question": "When did Melanie read the book \"nothing is impossible\"?",
+    "golden_answer": "2022",
+    "category": 2,
+    "error_type": "HALLUCINATION",
+    "cited_evidence": [
+      "D7:8"
+    ],
+    "correct_evidence": [
+      "D7:8"
+    ],
+    "reasoning": "The question premise is based on the fabricated book title 'Nothing is Impossible' which does not appear anywhere in the transcript. D7:8 says 'This book I read last year' without naming any title. Session 7 is July 12, 2023, so 'last year' = 2022. The date '2022' is inferable for the unnamed book, but the question itself contains a hallucinated title, making it unanswerable as stated.",
+    "correct_answer": "2022 (but the book title 'Nothing is Impossible' is fabricated; the transcript only says 'This book I read last year')"
+  },
+  {
+    "question_id": "locomo_0_qa32",
+    "question": "What LGBTQ+ events has Caroline participated in?",
+    "golden_answer": "Pride parade, school speech, support group",
+    "category": 1,
+    "error_type": "INCOMPLETE",
+    "cited_evidence": [
+      "D5:1",
+      "D8:17",
+      "D3:1",
+      "D1:3"
+    ],
+    "correct_evidence": [
+      "D5:1",
+      "D8:17",
+      "D3:1",
+      "D1:3",
+      "D7:1",
+      "D9:2",
+      "D10:3"
+    ],
+    "reasoning": "The golden answer lists only 3 events (pride parade, school speech, support group) but Caroline also participated in: an LGBTQ conference (D7:1: 'I went to an LGBTQ conference two days ago'), a mentorship program for LGBTQ youth (D9:2), and an LGBTQ activist group (D10:3). The answer is incomplete. While the 3 listed events are correct, the question asks broadly 'What LGBTQ+ events has Caroline participated in?' and the answer omits several significant events.",
+    "correct_answer": "Pride parade, school speech, support group, LGBTQ conference, mentorship program, activist group"
+  },
+  {
+    "question_id": "locomo_0_qa37",
+    "question": "What did Melanie paint recently?",
+    "golden_answer": "sunset",
+    "category": 1,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D8:6; D9:17"
+    ],
+    "correct_evidence": [
+      "D8:6",
+      "D9:17"
+    ],
+    "reasoning": "The evidence ID 'D8:6; D9:17' is a malformed compound ID that doesn't resolve in the transcript (error: NOT FOUND IN TRANSCRIPT). The correct citations are D8:6 and D9:17 as separate IDs. D8:6 shows a painting of a sunset with a palm tree (blip_caption). D9:17 says 'My kids and I just finished another painting like our last one.' The golden answer 'sunset' is correct based on D8:6's blip_caption.",
+    "correct_answer": "sunset"
+  },
+  {
+    "question_id": "locomo_0_qa38",
+    "question": "What activities has Melanie done with her family?",
+    "golden_answer": "Pottery, painting, camping, museum, swimming, hiking",
+    "category": 1,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D8:4",
+      "D8:6",
+      "D9:1",
+      "D6:4",
+      "D1:18",
+      "D3:14"
+    ],
+    "correct_evidence": [
+      "D8:4",
+      "D8:6",
+      "D9:1",
+      "D6:4",
+      "D1:18",
+      "D4:8"
+    ],
+    "reasoning": "D3:14 (cited) says 'I'm lucky to have my husband and kids; they keep me motivated' which does NOT mention any specific activity. It provides no evidence for any of the listed activities. The citation for hiking should be D4:8 which says 'We explored nature, roasted marshmallows around the campfire and even went on a hike.' The golden answer is factually correct but D3:14 is the wrong citation.",
+    "correct_answer": "Pottery, painting, camping, museum, swimming, hiking"
+  },
+  {
+    "question_id": "locomo_0_qa43",
+    "question": "What kind of art does Caroline make?",
+    "golden_answer": "abstract art",
+    "category": 1,
+    "error_type": "AMBIGUOUS",
+    "cited_evidence": [
+      "D11:12",
+      "D11:8",
+      "D9:14"
+    ],
+    "correct_evidence": [
+      "D17:13",
+      "D11:12",
+      "D14:5",
+      "D13:11",
+      "D14:17"
+    ],
+    "reasoning": "The cited evidence shows: D11:12 (painting of a woman with a red shirt - representational, not abstract), D11:8 (painting with brush - indeterminate), D9:14 (painting of a tree with a bright sun - representational, not abstract). Caroline mentions 'abstract stuff' in D17:13 ('I've been trying out abstract stuff recently') but this is a recent experiment, not her primary art form. Her art is predominantly representational: portraits (D13:11 self-portrait), women (D11:12), sunsets (D14:5), stained glass (D14:17). Labeling her art as 'abstract art' based on one mention of trying abstract stuff is reductive and not supported by the cited evidence.",
+    "correct_answer": "Paintings including portraits, figurative works, nature scenes, and stained glass; she has recently experimented with abstract art"
+  },
+  {
+    "question_id": "locomo_0_qa48",
+    "question": "What types of pottery have Melanie and her kids made?",
+    "golden_answer": "bowls, cup",
+    "category": 1,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D12:14",
+      "D8:4",
+      "D5:6"
+    ],
+    "correct_evidence": [
+      "D5:6",
+      "D5:8",
+      "D8:4",
+      "D12:4"
+    ],
+    "reasoning": "D12:14 (cited) says 'I appreciate our friendship too, Caroline. You've always been there for me.' This has NOTHING to do with pottery types. The correct evidence for bowls includes D5:6/D5:8 (bowl with black and white flower design), D12:4 (bowl with colorful design). D8:4 supports the cup (cup with dog face). The golden answer is factually correct but D12:14 is completely wrong as a citation. Also missing: pots (D8:2: 'We all made our own pots').",
+    "correct_answer": "bowls, cup, pots"
+  },
+  {
+    "question_id": "locomo_0_qa56",
+    "question": "What symbols are important to Caroline?",
+    "golden_answer": "Rainbow flag, transgender symbol",
+    "category": 1,
+    "error_type": "HALLUCINATION",
+    "cited_evidence": [
+      "D14:15",
+      "D4:1"
+    ],
+    "correct_evidence": [
+      "D14:15"
+    ],
+    "reasoning": "D14:15 explicitly mentions 'The rainbow flag mural is important to me' and 'The eagle symbolizes freedom and pride'. The 'rainbow flag' part of the golden answer is correct. However, 'transgender symbol' does not appear anywhere in the transcript text. D4:1 shows a necklace (blip: 'a photo of a person holding a necklace with a cross and a heart') but Caroline describes it in D4:3 as symbolizing 'love, faith and strength' as a gift from her grandma - not as a transgender symbol. The image search query for D4:1 was 'pendant transgender symbol' but that is metadata, not part of the conversation. The eagle from D14:15 would be a more accurate second symbol.",
+    "correct_answer": "Rainbow flag, eagle (symbolizing freedom and pride)"
+  },
+  {
+    "question_id": "locomo_0_qa66",
+    "question": "What does Melanie do with her family on hikes?",
+    "golden_answer": "Roast marshmallows, tell stories",
+    "category": 1,
+    "error_type": "AMBIGUOUS",
+    "cited_evidence": [
+      "D16:4",
+      "D10:12"
+    ],
+    "correct_evidence": [
+      "D4:8",
+      "D8:34",
+      "D10:12",
+      "D16:2",
+      "D16:4"
+    ],
+    "reasoning": "The question asks what Melanie does 'on hikes' but the golden answer describes camping/campfire activities, not hiking activities. D10:12: 'We always look forward to our family camping trip. We roast marshmallows, tell stories around the campfire and just enjoy each other's company.' D16:4: 'We roasted marshmallows and shared stories around the campfire.' Both cited evidence lines explicitly place these activities 'around the campfire' during camping trips. Actual hiking activities are described separately: D4:8: 'We explored nature...and even went on a hike. The view from the top was amazing!' D8:34: 'We enjoy hiking in the mountains and exploring forests.' The golden answer conflates camping with hiking.",
+    "correct_answer": "On hikes, Melanie's family explores nature, enjoys mountain views, and explores forests (D4:8, D8:34). The marshmallow roasting and storytelling happen around the campfire during camping trips, not on hikes."
+  },
+  {
+    "question_id": "locomo_0_qa70",
+    "question": "What transgender-specific events has Caroline attended?",
+    "golden_answer": "Poetry reading, conference",
+    "category": 1,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D17:19",
+      "D15:13"
+    ],
+    "correct_evidence": [
+      "D17:19",
+      "D7:1"
+    ],
+    "reasoning": "D15:13 (cited) says 'Wow! Did you see that band?' which has NOTHING to do with transgender events or conferences. The conference evidence should be D7:1 ('I went to an LGBTQ conference two days ago') or D5:13 ('I'm going to a transgender conference this month'). D17:19 correctly supports the poetry reading. The golden answer is factually correct but D15:13 is completely wrong as a citation for 'conference'.",
+    "correct_answer": "Poetry reading, conference"
+  },
+  {
+    "question_id": "locomo_0_qa72",
+    "question": "When did Melanie's friend adopt a child?",
+    "golden_answer": "2022",
+    "category": 2,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D17:3"
+    ],
+    "correct_evidence": [
+      "D17:4"
+    ],
+    "reasoning": "D17:3 (cited) is Caroline speaking: 'Do you have any experience with adoption, or know anyone who's gone through the process?' This is a question, not evidence of when someone adopted. D17:4 is Melanie's answer: 'Yeah, a buddy of mine adopted last year.' Session 17 is October 13, 2023, so 'last year' = 2022. The golden answer is correct but the citation should be D17:4, not D17:3.",
+    "correct_answer": "2022"
+  },
+  {
+    "question_id": "locomo_0_qa77",
+    "question": "Would Melanie go on another roadtrip soon?",
+    "golden_answer": "Likely no; since this one went badly",
+    "category": 3,
+    "error_type": "AMBIGUOUS",
+    "cited_evidence": [
+      "D18:3",
+      "D18:1"
+    ],
+    "correct_evidence": [
+      "D18:1",
+      "D18:3",
+      "D18:5",
+      "D18:17"
+    ],
+    "reasoning": "The golden answer says 'Likely no; since this one went badly' but the evidence tells a more nuanced story. D18:1 says 'We were so lucky he was okay' and D18:3 says 'that was a reminder that life is precious and to cherish our family'. Crucially, the family CONTINUED the trip after the accident: D18:5 says 'Thankfully, they enjoyed the Grand Canyon a lot!' and D18:17 confirms they went hiking the next day. The trip started badly but ended positively. Melanie took it as a reminder to cherish family, not as a reason to avoid future trips. One could argue she would be cautious, but the evidence equally supports that she would continue family adventures.",
+    "correct_answer": "Uncertain; although the trip started badly with the accident, the family continued and enjoyed the Grand Canyon, suggesting Melanie values family trips"
+  },
+  {
+    "question_id": "locomo_0_qa94",
+    "question": "What is Melanie's hand-painted bowl a reminder of?",
+    "golden_answer": "art and self-expression",
+    "category": 4,
+    "error_type": "ATTRIBUTION_ERROR",
+    "cited_evidence": [
+      "D4:5"
+    ],
+    "correct_evidence": [
+      "D4:5"
+    ],
+    "reasoning": "The question says 'Melanie's hand-painted bowl' but D4:5 is CAROLINE speaking: 'I've got some other stuff with sentimental value, like my hand-painted bowl. A friend made it for my 18th birthday ten years ago. The pattern and colors are awesome-- it reminds me of art and self-expression.' The bowl belongs to Caroline, not Melanie. The golden answer ('art and self-expression') correctly reflects what D4:5 says the bowl reminds of, but the question wrongly attributes the bowl to Melanie.",
+    "correct_answer": "art and self-expression (but this is Caroline's bowl, not Melanie's)"
+  },
+  {
+    "question_id": "locomo_0_qa106",
+    "question": "What are the new shoes that Melanie got used for?",
+    "golden_answer": "Running",
+    "category": 4,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D7:19"
+    ],
+    "correct_evidence": [
+      "D7:20"
+    ],
+    "reasoning": "D7:19 (cited) is Caroline asking 'Love that purple color! For walking or running?' This is a question, not the answer. D7:20 is Melanie answering: 'Thanks, Caroline! These are for running. Been running longer since our last chat - a great way to destress and clear my mind.' The golden answer 'Running' is correct but the citation should be D7:20, not D7:19.",
+    "correct_answer": "Running"
+  },
+  {
+    "question_id": "locomo_0_qa107",
+    "question": "What is Melanie's reason for getting into running?",
+    "golden_answer": "To de-stress and clear her mind",
+    "category": 4,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D7:21"
+    ],
+    "correct_evidence": [
+      "D7:20",
+      "D7:22"
+    ],
+    "reasoning": "D7:21 (cited) is Caroline asking 'Wow! What got you into running?' This is a question, not the answer. The answer comes from D7:20 ('a great way to destress and clear my mind') and D7:22 ('I've been running farther to de-stress, which has been great for my headspace'). The golden answer 'To de-stress and clear her mind' is correct but the citation should be D7:20 or D7:22, not D7:21.",
+    "correct_answer": "To de-stress and clear her mind"
+  },
+  {
+    "question_id": "locomo_0_qa111",
+    "question": "What creative project do Mel and her kids do together besides pottery?",
+    "golden_answer": "painting",
+    "category": 4,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D8:5"
+    ],
+    "correct_evidence": [
+      "D8:6"
+    ],
+    "reasoning": "D8:5 (cited) is Caroline asking 'What other creative projects do you do with them, besides pottery?' This is a question, not the answer. D8:6 is Melanie answering: 'We love painting together lately, especially nature-inspired ones.' The golden answer 'painting' is correct but the citation should be D8:6, not D8:5.",
+    "correct_answer": "painting"
+  },
+  {
+    "question_id": "locomo_0_qa132",
+    "question": "How long has Melanie been creating art?",
+    "golden_answer": "7 years",
+    "category": 4,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D16:7"
+    ],
+    "correct_evidence": [
+      "D16:8"
+    ],
+    "reasoning": "D16:7 (cited) is Caroline speaking: 'Since I was 17 or so... How long have you been into art?' This is Caroline answering about herself and then asking Melanie. D16:8 is Melanie answering: 'Seven years now, and I've finally found my real muses: painting and pottery.' The golden answer '7 years' is correct but the citation should be D16:8, not D16:7.",
+    "correct_answer": "7 years"
+  },
+  {
+    "question_id": "locomo_0_qa135",
+    "question": "What setback did Melanie face in October 2023?",
+    "golden_answer": "She got hurt and had to take a break from pottery.",
+    "category": 4,
+    "error_type": "TEMPORAL_ERROR",
+    "cited_evidence": [
+      "D17:8"
+    ],
+    "correct_evidence": [
+      "D17:8"
+    ],
+    "reasoning": "Session 17 takes place on October 13, 2023. In D17:8, Melanie says: 'recently I had a setback. Last month I got hurt and had to take a break from pottery, which I use for self-expression and peace.' 'Last month' from October 13 = September 2023. The injury occurred in September 2023, not October. The question incorrectly frames this as an October setback; Melanie merely reported the September injury during an October session.",
+    "correct_answer": "The setback (getting hurt, taking a break from pottery) occurred in September 2023, not October. Melanie reported it on October 13, 2023."
+  },
+  {
+    "question_id": "locomo_0_qa137",
+    "question": "What painting did Melanie show to Caroline on October 13, 2023?",
+    "golden_answer": "A painting inspired by sunsets with a pink sky.",
+    "category": 4,
+    "error_type": "INCOMPLETE",
+    "cited_evidence": [
+      "D17:12"
+    ],
+    "correct_evidence": [
+      "D17:12",
+      "D17:14"
+    ],
+    "reasoning": "Melanie showed TWO paintings in Session 17 (October 13, 2023). D17:12: 'Here's one I did last week. It's inspired by the sunsets.' (blip_caption: 'a photo of a painting of a sunset with a pink sky'). D17:14: 'I've done an abstract painting too, take a look!' (blip_caption: 'a photo of a painting on a wall with a blue background'). The golden answer only mentions the sunset painting, omitting the abstract painting with blue background.",
+    "correct_answer": "Two paintings: (1) a sunset-inspired painting with a pink sky (D17:12), and (2) an abstract painting with a blue background (D17:14)."
+  },
+  {
+    "question_id": "locomo_0_qa138",
+    "question": "What kind of painting did Caroline share with Melanie on October 13, 2023?",
+    "golden_answer": "An abstract painting with blue streaks on a wall.",
+    "category": 4,
+    "error_type": "ATTRIBUTION_ERROR",
+    "cited_evidence": [
+      "D17:14"
+    ],
+    "correct_evidence": [
+      "D17:14",
+      "D17:21"
+    ],
+    "reasoning": "D17:14 is MELANIE speaking: 'I've done an abstract painting too, take a look!' with blip_caption 'a photo of a painting on a wall with a blue background'. The abstract painting with blue is Melanie's work, NOT Caroline's. Caroline mentions trying abstract stuff in D17:13 but doesn't share an abstract painting. Caroline's images in session 17 are: a poster (D17:17), a 'Trans Lives Matter' sign (D17:19), and a drawing of a woman in a dress (D17:21). The golden answer incorrectly attributes Melanie's abstract painting to Caroline.",
+    "correct_answer": "A drawing of a woman in a dress (D17:21), a poster (D17:17), and a 'Trans Lives Matter' sign (D17:19)"
+  },
+  {
+    "question_id": "locomo_0_qa139",
+    "question": "What was the poetry reading that Caroline attended about?",
+    "golden_answer": "It was a transgender poetry reading where transgender people shared their stories.",
+    "category": 4,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D17:18"
+    ],
+    "correct_evidence": [
+      "D17:19"
+    ],
+    "reasoning": "D17:18 (cited) is Melanie asking: 'Nope, never been to something like that. What was it about? What made it so special?' This is a question, not the answer. D17:19 is Caroline answering: 'It was a transgender poetry reading where transgender people shared their stories through poetry.' The golden answer is correct but the citation should be D17:19, not D17:18.",
+    "correct_answer": "It was a transgender poetry reading where transgender people shared their stories."
+  },
+  {
+    "question_id": "locomo_0_qa144",
+    "question": "How did Melanie's son handle the accident?",
+    "golden_answer": "He was scared but reassured by his family",
+    "category": 4,
+    "error_type": "ATTRIBUTION_ERROR",
+    "cited_evidence": [
+      "D18:6",
+      "D18:7"
+    ],
+    "correct_evidence": [
+      "D18:1",
+      "D18:3"
+    ],
+    "reasoning": "D18:7 says 'They were scared but we reassured them and explained their brother would be OK. They're tough kids.' Here 'They' refers to the OTHER children (siblings), NOT the son. 'Their brother' is the son. The evidence describes the siblings' fear about their brother, not the son's own emotional reaction. The golden answer claims 'He was scared' (the son) but the evidence says 'They were scared' (the siblings). D18:1 and D18:3 only tell us the son 'got into an accident' and that he's 'ok' - not that he was 'scared'.",
+    "correct_answer": "The son was in the accident and is OK (D18:1, D18:3); the evidence does not describe the son's emotional reaction directly"
+  },
+  {
+    "question_id": "locomo_0_qa149",
+    "question": "What do Melanie's family give her?",
+    "golden_answer": "Strength and motivation",
+    "category": 4,
+    "error_type": "HALLUCINATION",
+    "cited_evidence": [
+      "D18:9"
+    ],
+    "correct_evidence": [
+      "D18:9"
+    ],
+    "reasoning": "D18:9 says 'They're really amazing. Wish I was that resilient too. But they give me the strength to keep going.' The word 'strength' is supported by the evidence. However, 'motivation' does not appear in D18:9 or anywhere nearby in the transcript in this context. The golden answer adds 'motivation' which is not present in the cited evidence. A search of the broader transcript shows D3:14 mentions 'they keep me motivated' but that is not cited and is from a different context months earlier.",
+    "correct_answer": "Strength (to keep going)"
+  },
+  {
+    "question_id": "locomo_1_qa24",
+    "question": "Which events has Jon participated in to promote his business venture?",
+    "golden_answer": "fair, networking events, dance competition",
+    "category": 1,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D10:1",
+      "D16:6",
+      "D8:4"
+    ],
+    "correct_evidence": [
+      "D10:1",
+      "D16:6",
+      "D8:13"
+    ],
+    "reasoning": "D8:4 is Gina speaking about her own store: 'Oof, that's tough, Jon. I got some new offers and promotions going on my online store to try and bring in new customers. It's been a wild ride starting my business, but I'm not giving up!' This has nothing to do with Jon's promotional events. The 'dance competition' part of the golden answer is supported by D8:13, where Jon says: 'I'm also hosting a dance competition next month to showcase local talent and bring more attention to my studio.' The golden answer is factually correct, but the citation D8:4 should be D8:13.",
+    "correct_answer": "fair, networking events, dance competition"
+  },
+  {
+    "question_id": "locomo_1_qa31",
+    "question": "How long did it take for Jon to open his studio?",
+    "golden_answer": "six months",
+    "category": 1,
+    "error_type": "TEMPORAL_ERROR",
+    "cited_evidence": [
+      "D1:2",
+      "D15:13"
+    ],
+    "correct_evidence": [
+      "D1:2",
+      "D15:5"
+    ],
+    "reasoning": "D1:2 (session_1, 20 January 2023): Jon says 'Lost my job as a banker yesterday, so I'm gonna take a shot at starting my own business.' He announced his plan to start a business on 20 January 2023 (lost his job on 19 January). D15:5 (session_15, 19 June 2023): Jon says 'The official opening night is tomorrow.' So the studio opens on 20 June 2023. From 20 January 2023 to 20 June 2023 is exactly 5 months. Even counting from 19 January (when he actually lost his job) to 20 June 2023 is 5 months and 1 day. The golden answer of 'six months' is incorrect; it should be 'five months'.",
+    "correct_answer": "five months"
+  },
+  {
+    "question_id": "locomo_1_qa43",
+    "question": "What do the dancers in the photo represent?",
+    "golden_answer": "They are performing at the festival",
+    "category": 4,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D1:25"
+    ],
+    "correct_evidence": [
+      "D1:26"
+    ],
+    "reasoning": "D1:25 is Gina asking a question: 'Wow, it looks awesome! Are they yours at the festival? They're so graceful!' This is an interrogative sentence, not a factual assertion. The actual confirmation that the dancers are performing at the festival comes from Jon in D1:26: 'Yeah, they're the ones performing at the festival! They've been practicing hard and will definitely impress with their grace and skill.' The golden answer is factually correct but cites the question (D1:25) rather than the confirming answer (D1:26).",
+    "correct_answer": "They are performing at the festival"
+  },
+  {
+    "question_id": "locomo_1_qa44",
+    "question": "What does Gina say about the dancers in the photo?",
+    "golden_answer": "They look graceful",
+    "category": 4,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D1:26"
+    ],
+    "correct_evidence": [
+      "D1:25"
+    ],
+    "reasoning": "The cited evidence D1:26 is Jon speaking: 'Yeah, they're the ones performing at the festival! They've been practicing hard and will definitely impress with their grace and skill.' The question asks what GINA says about the dancers. Gina's actual comment is in D1:25: 'Wow, it looks awesome! Are they yours at the festival? They're so graceful!' The golden answer 'They look graceful' correctly reflects Gina's words ('They're so graceful!'), but the wrong dialog ID is cited -- D1:26 (Jon) instead of D1:25 (Gina).",
+    "correct_answer": "They look graceful"
+  },
+  {
+    "question_id": "locomo_1_qa47",
+    "question": "What did Gina find for her clothing store on 1 February, 2023?",
+    "golden_answer": "The perfect spot for her store",
+    "category": 4,
+    "error_type": "AMBIGUOUS",
+    "cited_evidence": [
+      "D3:2"
+    ],
+    "correct_evidence": [
+      "D3:2",
+      "D3:3"
+    ],
+    "reasoning": "D3:2 (Gina): 'Hi Jon! So happy you're pushing forward with dancing! Inspiring. I emailed some wholesalers and one replied and said yes today! I'm over the moon because now I can expand my clothing store and get closer to my customers. Check it out - here's a pic!' The blip_caption for D3:2 describes 'a photography of a shopping mall with a glass entrance and a sign.' Gina's text explicitly mentions finding a WHOLESALER who agreed, not a physical store location. However, Jon in D3:3 responds: 'Wow, Gina! You found the perfect spot for your store. Way to go, hard work's paying off!' Jon's interpretation (finding a physical spot) conflicts with Gina's explicit words (finding a wholesaler). The golden answer 'The perfect spot for her store' comes from Jon's response (D3:3) rather than Gina's own statement (D3:2). The attached image showing a shopping mall adds ambiguity -- it could represent the wholesaler's location or a new store spot.",
+    "correct_answer": "A wholesaler agreed to supply her store (per Gina's own words in D3:2), though Jon interpreted the news as finding 'the perfect spot' (D3:3)"
+  },
+  {
+    "question_id": "locomo_1_qa57",
+    "question": "What advice does Gina give to Jon about running a successful business?",
+    "golden_answer": "build relationships with customers, create a strong brand image, stay positive",
+    "category": 4,
+    "error_type": "ATTRIBUTION_ERROR",
+    "cited_evidence": [
+      "D7:5"
+    ],
+    "correct_evidence": [
+      "D7:5"
+    ],
+    "reasoning": "D7:5 is Jon speaking to Gina: 'Yeah, brand identity is key. Make sure yours stands out. Also be sure to build relationships with your customers - let them know you care. And don't forget to stay positive and motivate others. Your energy will be contagious!' This is clearly JON giving advice TO GINA about running her clothing store, not the other way around. D7:6 confirms this attribution with Gina responding: 'Thanks for the advice, Jon! Building relationships and creating a strong brand image for my store is something I'm always working on.' The question asks what advice GINA gives to JON, but the cited evidence and the actual advice content show the reverse -- it is JON advising GINA. Searching the rest of the transcript, Gina does not give Jon this specific three-part advice anywhere.",
+    "correct_answer": "This advice ('build relationships with customers, create a strong brand image, stay positive') was given by JON to GINA in D7:5, not by Gina to Jon. The attribution is reversed."
+  },
+  {
+    "question_id": "locomo_1_qa63",
+    "question": "What kind of professional experience did Gina get accepted for on May 23, 2023?",
+    "golden_answer": "fashion internship",
+    "category": 4,
+    "error_type": "AMBIGUOUS",
+    "cited_evidence": [
+      "D12:1"
+    ],
+    "correct_evidence": [
+      "D12:1"
+    ],
+    "reasoning": "The question states Gina was accepted 'on May 23, 2023' but D12:1 is from session_12 dated '7:18 pm on 27 May, 2023.' Gina says 'I just got accepted for a fashion internship!' -- using 'just' to indicate it happened very recently, on or around 27 May. There is no session or dialog on May 23 in the transcript. The golden answer 'fashion internship' is correct regarding what she was accepted for, but the date premise in the question (May 23) does not match the evidence (May 27). This makes the question itself misleading, though the answer content is accurate.",
+    "correct_answer": "fashion internship (but the acceptance was announced on 27 May 2023, not May 23 as stated in the question)"
+  },
+  {
+    "question_id": "locomo_2_qa5",
+    "question": "When did Maria go to the beach?",
+    "golden_answer": "December 2022",
+    "category": 2,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D3:15"
+    ],
+    "correct_evidence": [
+      "D3:14"
+    ],
+    "reasoning": "The cited evidence D3:15 is John's line: \"Wow, nature can be so beautiful! It reminds me of the film camera I had as a kid, I took plenty of beach pics. Thanks for sharing.\" This is about John's childhood film camera, not about Maria going to the beach. The correct evidence is D3:14, where Maria says: \"I took it at the beach last month. Watching the sunset was so peaceful, it made me feel connected to nature and appreciate life's small moments.\" Since session_3 is January 1, 2023, \"last month\" = December 2022. The golden answer \"December 2022\" is correct, but the citation points to the wrong dialog.",
+    "correct_answer": "December 2022 (answer is correct, citation is wrong)"
+  },
+  {
+    "question_id": "locomo_2_qa10",
+    "question": "When did Maria meet Jean?",
+    "golden_answer": "February 24, 2023",
+    "category": 2,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D7:1"
+    ],
+    "correct_evidence": [
+      "D7:5"
+    ],
+    "reasoning": "The cited evidence D7:1 is Maria saying: \"Hey John, how's it going? Just wanted to give you the heads up on what's been happening lately- I took a creative writing class recently, and it was super enlightening!\" This says nothing about meeting Jean. The correct evidence is D7:5, where Maria says: \"While volunteering yesterday, I met this amazing woman, Jean, who had been through a lot, yet stayed optimistic and resilient.\" Session_7 is February 25, 2023. \"yesterday\" = February 24, 2023. The golden answer \"February 24, 2023\" is correct, but the citation is wrong.",
+    "correct_answer": "February 24, 2023 (answer is correct, citation is wrong)"
+  },
+  {
+    "question_id": "locomo_2_qa16",
+    "question": "When did John get his degree?",
+    "golden_answer": "The week before 2 April 2023",
+    "category": 2,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D9:2"
+    ],
+    "correct_evidence": [
+      "D9:4"
+    ],
+    "reasoning": "The cited evidence D9:2 is John saying: \"Hey Maria! Awesome to hear from you. Sounds like a great way to delve into your feelings. Since we spoke last, I've had quite the adventure!\" with a blip_caption of \"a photo of a certificate of completion of a university degree.\" While the photo implies a degree, the temporal information (\"the week before\") comes from D9:4, where John says: \"I graduated last week!\" Session_9 is April 2, 2023, so \"last week\" = the week before April 2, 2023. The golden answer is correct but the citation should include D9:4 for the temporal claim.",
+    "correct_answer": "The week before 2 April 2023 (answer is correct, citation is incomplete)"
+  },
+  {
+    "question_id": "locomo_2_qa32",
+    "question": "What outdoor activities has John done with his colleagues?",
+    "golden_answer": "Hiking, mountaineering",
+    "category": 1,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D18:2",
+      "D16:2"
+    ],
+    "correct_evidence": [
+      "D18:2",
+      "D16:1"
+    ],
+    "reasoning": "D18:2 correctly supports mountaineering (John: \"I went on a mountaineering trip last week with some workmates\"). However, D16:2 is Maria's line: \"Hey John! Cool that it's going well - you and your friends look like a great team! I'm busy at the shelter getting ready for a fundraiser next week.\" This does not mention hiking with colleagues. The correct evidence for hiking is D16:1, where John says: \"I got this picture of my workmates when we went on a hiking trip.\" The golden answer \"Hiking, mountaineering\" is correct, but D16:2 should be D16:1.",
+    "correct_answer": "Hiking, mountaineering (answer is correct, citation D16:2 should be D16:1)"
+  },
+  {
+    "question_id": "locomo_2_qa44",
+    "question": "What activities has Maria done with her church friends?",
+    "golden_answer": "Hiking, picnic, volunteer work",
+    "category": 1,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D25:2",
+      "D24:6",
+      "D28:5"
+    ],
+    "correct_evidence": [
+      "D25:2",
+      "D24:6",
+      "D28:8"
+    ],
+    "reasoning": "D25:2 (hiking with church friends) and D24:6 (picnic with friends from church) are correct citations. However, D28:5 is John's line about finding a tech company job: \"Thanks Maria! I may have found a job at a tech company I like that needs my mechanical skills for their hardware team.\" This has nothing to do with Maria's activities with church friends. The correct evidence for volunteer/community work is D28:8, where Maria says: \"Yesterday, I took up some community work with my friends from church. It was super rewarding!\"",
+    "correct_answer": "Hiking, picnic, volunteer work (answer is correct, D28:5 should be D28:8)"
+  },
+  {
+    "question_id": "locomo_2_qa48",
+    "question": "When did John have his first firefighter call-out?",
+    "golden_answer": "The sunday before 3` July 2023",
+    "category": 2,
+    "error_type": "TEMPORAL_ERROR",
+    "cited_evidence": [
+      "D26:4"
+    ],
+    "correct_evidence": [
+      "D26:4"
+    ],
+    "reasoning": "D26:4 is from session_26, dated \"1:59 pm on 31 July, 2023\" (not July 3). John says: \"Last Sunday we had our first call-out.\" July 31, 2023 is a Monday, so \"Last Sunday\" = July 30, 2023. The golden answer states \"The sunday before 3 July 2023\" which would be July 2, 2023 -- a completely different date. The answer also contains a typographical backtick (3` instead of 3). The correct answer should be \"The Sunday before 31 July 2023\" (i.e., July 30, 2023).",
+    "correct_answer": "The Sunday before 31 July 2023 (July 30, 2023)"
+  },
+  {
+    "question_id": "locomo_2_qa49",
+    "question": "What food item did Maria drop off at the homeless shelter?",
+    "golden_answer": "Cakes",
+    "category": 1,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D26:1",
+      "D25:19"
+    ],
+    "correct_evidence": [
+      "D26:1",
+      "D25:20"
+    ],
+    "reasoning": "D26:1 correctly states Maria dropped off baked goods at the shelter (\"last week I dropped off that stuff I baked at the homeless shelter\") but does not specify what she baked. D25:19 is John's line: \"Yeah, it's been great for me. Let me know if you need any advice to get started\" -- completely unrelated to baking or cakes. The correct evidence for the specific item \"cakes\" is D25:20, where Maria says: \"I'm off to bake some cakes. Talk to you soon!\" This establishes that the baked items were cakes.",
+    "correct_answer": "Cakes (answer is correct, D25:19 should be D25:20)"
+  },
+  {
+    "question_id": "locomo_2_qa63",
+    "question": "How many weeks passed between Maria adopting Coco and Shadow?",
+    "golden_answer": "two weeks",
+    "category": 2,
+    "error_type": "AMBIGUOUS",
+    "cited_evidence": [
+      "D30:1",
+      "D31:2"
+    ],
+    "correct_evidence": [
+      "D30:1",
+      "D31:2"
+    ],
+    "reasoning": "D30:1 (Aug 11, 2023): Maria says she got Coco \"two weeks ago,\" giving a hard anchor of ~July 28, 2023. D31:2 (Aug 13, 2023): Maria says she adopted Shadow \"last week,\" a vague range of approximately Aug 4-12, 2023. The hard date (July 28) does not fall within the vague range, so the adoptions are definitively separate events, but the gap cannot be resolved to a point: it spans approximately 7-15 days (~1 to ~2 weeks) depending on when during \"last week\" Shadow was adopted. The golden answer of \"two weeks\" is the upper extreme of this range, not a confirmed value.",
+    "correct_answer": "Approximately 1-2 weeks (7-15 days); one adoption date is hard (~July 28, 2023) but the other is a vague range (\"last week\" = ~Aug 4-12, 2023), so the exact gap is unresolvable"
+  },
+  {
+    "question_id": "locomo_2_qa68",
+    "question": "What type of workout class did Maria start doing in December 2023?",
+    "golden_answer": "aerial yoga",
+    "category": 4,
+    "error_type": "TEMPORAL_ERROR",
+    "cited_evidence": [
+      "D1:3"
+    ],
+    "correct_evidence": [
+      "D1:3"
+    ],
+    "reasoning": "The question asks about \"December 2023\" but the cited evidence D1:3 is from session_1, dated \"11:01 am on 17 December, 2022\" (December 2022, not 2023). Maria says: \"Just started doing aerial yoga, it's great.\" The entire conversation dataset spans December 2022 to August 2023, so there is no December 2023 data. The golden answer \"aerial yoga\" is correct for the evidence, but the question references the wrong year. The question should say \"December 2022.\"",
+    "correct_answer": "aerial yoga (answer is correct, but question says 2023 when it should say 2022)"
+  },
+  {
+    "question_id": "locomo_2_qa69",
+    "question": "What did Maria donate to a homeless shelter in December 2023?",
+    "golden_answer": "old car",
+    "category": 4,
+    "error_type": "TEMPORAL_ERROR",
+    "cited_evidence": [
+      "D2:1"
+    ],
+    "correct_evidence": [
+      "D2:1"
+    ],
+    "reasoning": "The question asks about \"December 2023\" but the cited evidence D2:1 is from session_2, dated \"6:10 pm on 22 December, 2022\" (December 2022, not 2023). Maria says: \"I donated my old car to a homeless shelter I volunteer at yesterday.\" The conversation dataset ends in August 2023, so December 2023 does not exist in the data. The golden answer \"old car\" is correct for the evidence, but the question references the wrong year. The question should say \"December 2022.\"",
+    "correct_answer": "old car (answer is correct, but question says 2023 when it should say 2022)"
+  },
+  {
+    "question_id": "locomo_2_qa116",
+    "question": "Why did Maria need to help her cousin find a new place to live?",
+    "golden_answer": "Her cousin had to leave and find a new place in a hurry.",
+    "category": 4,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D21:5"
+    ],
+    "correct_evidence": [
+      "D21:5",
+      "D21:7"
+    ],
+    "reasoning": "The cited evidence D21:5 says: \"my cousin just had a tough time recently, so I'm lending a hand in helping her find a new place.\" This gives the general context but does not contain the specific detail about leaving \"in a hurry.\" The golden answer states \"Her cousin had to leave and find a new place in a hurry\" which comes from D21:7 (uncited): \"Things have been tough for her lately. She had to leave and find a new place in a hurry, which has been really stressful, but she's making progress.\" The citation should include D21:7.",
+    "correct_answer": "Her cousin had to leave and find a new place in a hurry (answer is correct, citation should include D21:7)"
+  },
+  {
+    "question_id": "locomo_2_qa129",
+    "question": "What does John think about trying new classes at the yoga studio?",
+    "golden_answer": "Trying new classes is a fun way to switch up the exercise routine.",
+    "category": 4,
+    "error_type": "ATTRIBUTION_ERROR",
+    "cited_evidence": [
+      "D25:14"
+    ],
+    "correct_evidence": [
+      "D25:15"
+    ],
+    "reasoning": "The cited evidence D25:14 is Maria's line (not John's): \"Cool, John! Trying new classes sounds like a fun way to switch up your exercise routine - I should give it a go!\" The golden answer directly quotes Maria's words but attributes them to John. John's actual response is in D25:15: \"Yeah, Maria! Trying new stuff is a great way to push yourself and mix things up. Let me know if you need any suggestions!\" The question asks what John thinks, but the answer uses Maria's phrasing.",
+    "correct_answer": "Trying new stuff is a great way to push yourself and mix things up (from D25:15, John's actual words)"
+  },
+  {
+    "question_id": "locomo_3_qa4",
+    "question": "What pets wouldn't cause any discomfort to Joanna?",
+    "golden_answer": "Hairless cats or pigs,since they don't have fur, which is one of the main causes of Joanna's allergy.",
+    "category": 3,
+    "error_type": "HALLUCINATION",
+    "cited_evidence": [
+      "D2:23"
+    ],
+    "correct_evidence": [
+      "D2:23",
+      "D5:11"
+    ],
+    "reasoning": "D2:23: 'I'm allergic to most reptiles and animals with fur. It can be a bit of a drag, but I find other ways to be happy.' D5:11: 'I wish I wasn't allergic! I would get two turtles today if I could! I found out recently I'm allergic to cockroaches as well, so who knows if I'll ever get a pet.' The golden answer fabricates specific pet recommendations ('hairless cats or pigs') that appear nowhere in the transcript. Neither 'hairless', 'cats', nor 'pigs' is mentioned anywhere in the conversation. The transcript only establishes Joanna's allergies (reptiles, furry animals, cockroaches) without suggesting any specific safe pets.",
+    "correct_answer": "The transcript does not suggest specific pets. Joanna is allergic to reptiles, animals with fur, and cockroaches (D2:23, D5:11). No specific safe pet types are proposed in the conversation."
+  },
+  {
+    "question_id": "locomo_3_qa5",
+    "question": "What are Joanna's hobbies?",
+    "golden_answer": "Writing, watchingmovies, exploringnature, hanging withfriends.",
+    "category": 1,
+    "error_type": "INCOMPLETE",
+    "cited_evidence": [
+      "D1:10",
+      "D2:25"
+    ],
+    "correct_evidence": [
+      "D1:10",
+      "D2:25"
+    ],
+    "reasoning": "The golden answer lists writing, watching movies, exploring nature, and hanging with friends. This is incomplete. D1:10 (cited evidence) explicitly says \"Besides writing, I also enjoy reading, watching movies, and exploring nature\" but reading is omitted from the golden answer. Additional hobbies mentioned elsewhere in the transcript include hiking (D8:4, D11:3), cooking and baking (D10:9, D10:13), acting (D9:7), and DIY/crafts (D22:19, D22:21). The golden answer is not fabricated but substantially incomplete.",
+    "correct_answer": "Writing, reading, watching movies, exploring nature, hiking, cooking and baking, hanging with friends, acting (past passion), DIY/crafts"
+  },
+  {
+    "question_id": "locomo_3_qa24",
+    "question": "When is Nate hosting a gaming party?",
+    "golden_answer": "The weekend after 3June, 2022.",
+    "category": 2,
+    "error_type": "TEMPORAL_ERROR",
+    "cited_evidence": [
+      "D14:20"
+    ],
+    "correct_evidence": [
+      "D14:20"
+    ],
+    "reasoning": "D14:20 (session: 5:44 pm on 3 June, 2022) states: 'I'm organizing a gaming party two weekends later'. 'Two weekends later' from June 3 means approximately June 17-18, 2022 (two weeks after). The golden answer says 'The weekend after 3 June, 2022' which would be June 4-5 (one weekend after), not two weekends later.",
+    "correct_answer": "Two weekends after 3 June, 2022 (approximately June 17-18, 2022)."
+  },
+  {
+    "question_id": "locomo_3_qa34",
+    "question": "What book recommendations has Joanna given to Nate?",
+    "golden_answer": "\"Little Women\",'A Court of Thorns andRoses'.",
+    "category": 1,
+    "error_type": "HALLUCINATION",
+    "cited_evidence": [
+      "D3:17",
+      "D19:14",
+      "D19:16"
+    ],
+    "correct_evidence": [
+      "D1:16",
+      "D3:17",
+      "D9:14",
+      "D19:14"
+    ],
+    "reasoning": "The golden answer claims Joanna recommended 'A Court of Thorns and Roses' to Nate, but this title never appears in the transcript text. In D19:14-16, Joanna generically recommends 'finding a fantasy book series', then NATE shows a photo of a specific series (D19:15, whose image query reveals it as 'A Court of Thorns and Roses'), and Joanna approves with 'That's a great one!' This is Nate selecting a book and Joanna validating his choice, not Joanna recommending it. Also, 'Little Women' in D3:17 is a movie recommendation ('I just watched'), not a book recommendation as the golden answer implies.",
+    "correct_answer": "'Eternal Sunshine of the Spotless Mind' movie (D1:16), 'Little Women' movie (D3:17). Joanna also generically recommended finding a fantasy book series (D19:14), but never named a specific title."
+  },
+  {
+    "question_id": "locomo_3_qa43",
+    "question": "How long did it take for Joanna to finish writing her book?",
+    "golden_answer": "four months",
+    "category": 2,
+    "error_type": "TEMPORAL_ERROR",
+    "cited_evidence": [
+      "D17:14",
+      "D22:9"
+    ],
+    "correct_evidence": [
+      "D17:14",
+      "D22:9"
+    ],
+    "reasoning": "D17:14 (session: 2:34 pm on 10 July, 2022) shows Joanna saying 'I actually started on a book recently'. D22:9 (session: 11:15 am on 6 October, 2022) says 'I finished up my writing for my book last week' (approximately late September 2022). From mid-July to late September is approximately 2.5-3 months, not four months. The golden answer of 'four months' overcounts the duration.",
+    "correct_answer": "Approximately three months (mid-July to late September 2022)."
+  },
+  {
+    "question_id": "locomo_3_qa50",
+    "question": "What is something Nate gave to Joanna that brings her a lot of joy?",
+    "golden_answer": "stuffed toy pup",
+    "category": 1,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D13:9",
+      "D24:2"
+    ],
+    "correct_evidence": [
+      "D13:9",
+      "D24:4",
+      "D24:8"
+    ],
+    "reasoning": "The cited evidence D24:2 reads: 'Hey Nate! I have been revising and perfecting the recipe I made for my family and it turned out really tasty. What's been happening with you?' This is about recipe revision and has nothing to do with the stuffed toy pup. The correct evidence for the stuffed pup bringing joy should include D24:4 ('I still have that stuffed animal dog you gave me! I named her Tilly, and she's always with me while I write') and D24:8 ('Tilly helps me stay focused and brings me so much joy').",
+    "correct_answer": "stuffed toy pup (Tilly)"
+  },
+  {
+    "question_id": "locomo_3_qa51",
+    "question": "When did Nate get Tilly for Joanna?",
+    "golden_answer": "25 May, 2022",
+    "category": 1,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D13:9",
+      "D24:2"
+    ],
+    "correct_evidence": [
+      "D13:9",
+      "D24:4"
+    ],
+    "reasoning": "The cited evidence D24:2 reads: 'Hey Nate! I have been revising and perfecting the recipe I made for my family and it turned out really tasty.' This has nothing to do with when Nate got the stuffed pup. The name 'Tilly' is first revealed in D24:4: 'I still have that stuffed animal dog you gave me! I named her Tilly'. D13:9 correctly shows Nate giving the stuffed animal on May 25, 2022.",
+    "correct_answer": "25 May, 2022"
+  },
+  {
+    "question_id": "locomo_3_qa52",
+    "question": "How many of Joanna's writing have made it to the big screen?",
+    "golden_answer": "two",
+    "category": 1,
+    "error_type": "HALLUCINATION",
+    "cited_evidence": [
+      "D15:1",
+      "D25:2"
+    ],
+    "correct_evidence": [
+      "D15:1",
+      "D25:2",
+      "D25:4"
+    ],
+    "reasoning": "The golden answer claims 'two' of Joanna's writings made it to the big screen, citing D15:1 and D25:2. However, D25:4 (Joanna, session: 8:16 pm on 25 October, 2022) explicitly states: 'I know this is the third time it's happened, but its just so awesome!' This clearly indicates THREE instances of her writing appearing on the big screen, not two. The third instance is mentioned but its evidence was not cited separately; Joanna herself counts it as the third time.",
+    "correct_answer": "Three (as stated by Joanna in D25:4: 'I know this is the third time it's happened')."
+  },
+  {
+    "question_id": "locomo_3_qa54",
+    "question": "When was Joanna's second movie script shown on the big screens?",
+    "golden_answer": "The Sunday before 25October, 2022.",
+    "category": 2,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D25:1"
+    ],
+    "correct_evidence": [
+      "D25:2"
+    ],
+    "reasoning": "The cited evidence D25:1 reads: 'Hey Joanna, what's been up since we last chatted? How's it going?' This is Nate's greeting and contains no information about when the movie was shown. The actual evidence is D25:2 (Joanna): 'Another movie script that I contributed to was shown on the big screen last Sunday for the first time!' The session date is October 25, 2022, so 'last Sunday' = the Sunday before October 25 = October 23, 2022. The golden answer 'The Sunday before 25 October, 2022' is factually correct but cites the wrong dialog.",
+    "correct_answer": "The Sunday before 25 October, 2022 (October 23, 2022)."
+  },
+  {
+    "question_id": "locomo_3_qa55",
+    "question": "What is Joanna inspired by?",
+    "golden_answer": "Personal experiences,her own journey ofself discovery, Nate,nature, validation,stories about findingcourage and takingrisks, people she knows, stuff she sees, imagination",
+    "category": 1,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D4:6",
+      "D7:6",
+      "D11:11",
+      "D26:3",
+      "D26:7",
+      "D25:10"
+    ],
+    "correct_evidence": [
+      "D4:16",
+      "D7:6",
+      "D11:11",
+      "D25:10",
+      "D26:3",
+      "D26:7"
+    ],
+    "reasoning": "The cited evidence D4:6 reads: 'Yeah, definitely! I'm keen to try your recipe. Always up for something sweet.' This is about trying a dessert recipe and has nothing to do with Joanna's sources of inspiration. The golden answer includes 'Personal experiences, her own journey of self-discovery' - the correct evidence for this is D4:16: 'It was inspired by personal experiences and my own journey of self-discovery.' D4:6 should be replaced with D4:16.",
+    "correct_answer": "Personal experiences, her own journey of self-discovery, Nate, nature, validation, stories about finding courage and taking risks, people she knows, stuff she sees, imagination"
+  },
+  {
+    "question_id": "locomo_3_qa58",
+    "question": "What things has Nate reccomended to Joanna?",
+    "golden_answer": "A pet,\"The Lord of the Rings\" movies,a dragon book series,coconut flavoring,\"Project Hail Mary\" book,Xenoblade Chronicles, dairy-free margarine, coconut oil",
+    "category": 1,
+    "error_type": "HALLUCINATION",
+    "cited_evidence": [
+      "D2:14",
+      "D9:12",
+      "D9:14",
+      "D10:11",
+      "D19:17",
+      "D27:23",
+      "D10:19"
+    ],
+    "correct_evidence": [
+      "D2:14",
+      "D9:12",
+      "D9:14",
+      "D10:11",
+      "D19:17",
+      "D20:15",
+      "D27:23"
+    ],
+    "reasoning": "The golden answer includes 'Project Hail Mary book' and 'a dragon book series' but neither title appears anywhere in the transcript text. D19:17 recommends a series with 'awesome battles and interesting characters' (image query: 'space opera book series'), but never names it as 'Project Hail Mary'. D9:14 mentions a series with 'adventures, magic, and great characters' (image query: 'fantasy novels dragon cover series'), but never calls it a 'dragon book series'. Additionally, evidence ID D10:19 does not exist in the dialog index. The golden answer also lists 'dairy-free margarine, coconut oil' which comes from D20:15, not D10:19.",
+    "correct_answer": "A pet (D2:14), 'The Lord of the Rings' movies (D9:12), a fantasy book series (D9:14), coconut flavoring (D10:11), a book series with battles and characters (D19:17), Xenoblade Chronicles (D27:23), dairy-free margarine or coconut oil (D20:15)."
+  },
+  {
+    "question_id": "locomo_3_qa61",
+    "question": "What mediums does Nate use to play games?",
+    "golden_answer": "Gamecube, PC,Playstation.",
+    "category": 1,
+    "error_type": "HALLUCINATION",
+    "cited_evidence": [
+      "D22:2",
+      "D27:21",
+      "D27:15"
+    ],
+    "correct_evidence": [
+      "D27:15",
+      "D27:17",
+      "D27:23"
+    ],
+    "reasoning": "The golden answer lists 'Gamecube, PC, Playstation' as mediums Nate uses to play games. The word 'Gamecube' never appears anywhere in the transcript text. 'Playstation' also never appears. The cited evidence consists of photos (trophy with controller, headphones with controller, desk with monitor), but the blip captions only show generic 'game controller' descriptions without identifying specific consoles. A PC is inferable from D27:15-17 (computer setup described as where he practices and competes). A Nintendo Switch might be inferable from D27:23 (Xenoblade Chronicles is a Nintendo game). But 'Gamecube' and 'Playstation' are not supported by any transcript evidence.",
+    "correct_answer": "PC (D27:15-17), Nintendo console (D27:23 - Xenoblade Chronicles). Other platforms cannot be determined from the transcript text alone."
+  },
+  {
+    "question_id": "locomo_3_qa66",
+    "question": "What alternative career might Nate consider after gaming?",
+    "golden_answer": "an animalkeeper at a localzoo and workingwith turtles; as heknows a great dealabout turtles andhow to care for them,and he enjoys it.",
+    "category": 3,
+    "error_type": "HALLUCINATION",
+    "cited_evidence": [
+      "D5:8",
+      "D19:3",
+      "D25:19",
+      "D28:25"
+    ],
+    "correct_evidence": [
+      "D5:8",
+      "D25:27",
+      "D28:25"
+    ],
+    "reasoning": "The cited evidence shows Nate keeps turtles as pets and knows how to care for them: D5:8: 'Just keep their area clean, feed them properly, and make sure they get enough light.' D25:27: 'I've always liked turtles since I was a boy, so I know all about them!' D28:25: 'Turtles really bring me joy and peace.' However, the golden answer fabricates 'animal keeper at a local zoo' as a career path. The words 'zoo' and 'keeper' appear nowhere in the transcript. The only career discussions involve Nate's gaming career (D19:2, D22:18, D27:21). The golden answer invents a career aspiration from a pet hobby with no textual support.",
+    "correct_answer": "Cannot be determined from transcript. Nate is passionate about turtles and knows how to care for them, but he never discusses leaving gaming or pursuing animal care professionally."
+  },
+  {
+    "question_id": "locomo_3_qa67",
+    "question": "What pets does Nate have?",
+    "golden_answer": "A dog and threeturtles.",
+    "category": 1,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D8:3",
+      "D12:3",
+      "D28:23"
+    ],
+    "correct_evidence": [
+      "D2:10",
+      "D12:3",
+      "D28:23",
+      "D28:25"
+    ],
+    "reasoning": "The cited evidence D8:3 reads: 'Sounds fun! I probably also have loads of books I haven't read in years. Sounds like a blast from the past!' This is about books and has nothing to do with Nate's pets. The correct evidence for Nate's pets should include D2:10 (photo of turtles), D12:3 (Max the dog), D28:23 (three turtles photo), and D28:25 (getting a third turtle).",
+    "correct_answer": "A dog (Max) and three turtles."
+  },
+  {
+    "question_id": "locomo_3_qa68",
+    "question": "How many hikes has Joanna been on?",
+    "golden_answer": "Four",
+    "category": 3,
+    "error_type": "AMBIGUOUS",
+    "cited_evidence": [
+      "D7:6",
+      "D11:5",
+      "D14:21",
+      "D28:22"
+    ],
+    "correct_evidence": [
+      "D7:6",
+      "D8:4",
+      "D11:3",
+      "D14:19",
+      "D28:22"
+    ],
+    "reasoning": "The golden answer 'Four' undercounts. Five hikes are mentioned: (1) D7:6 - hiking 'the other day' before April 15; (2) D8:4 - 'found an awesome hiking trail in my hometown yesterday' on April 16; (3) D11:3 - hiking in May; (4) D14:19 - 'I'm hiking with some buddies this weekend' on June 3; (5) D28:22 - 'on a hike last summer near Fort Wayne'. D14:19 is future tense at time of utterance, but the conversation continues for five more months (through November 2022) with no mention of cancellation, and Joanna is an established avid hiker. There is no reason to assume the hike did not take place. Even conservatively, 'Four' is too precise \u2014 'at least four' would be the floor. Additionally, the cited evidence has errors: D14:21 ('Are you going to invite your tournament friends?') is about Nate's gaming party, not a hike; and D11:5 is cited instead of D8:4.",
+    "correct_answer": "At least five (D7:6, D8:4, D11:3, D14:19, D28:22)"
+  },
+  {
+    "question_id": "locomo_3_qa69",
+    "question": "How many turtles does Nate have?",
+    "golden_answer": "Three",
+    "category": 1,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D8:3",
+      "D28:23"
+    ],
+    "correct_evidence": [
+      "D2:10",
+      "D28:23",
+      "D28:25"
+    ],
+    "reasoning": "The cited evidence D8:3 reads: 'Sounds fun! I probably also have loads of books I haven't read in years.' This is about books, not turtles. The relevant evidence for the number of turtles includes D2:10/D2:14 (two original turtles), D28:23 (photo of three turtles), and D28:25 (getting a third turtle from a pet store).",
+    "correct_answer": "Three"
+  },
+  {
+    "question_id": "locomo_3_qa73",
+    "question": "What state did Joanna visit in summer 2021?",
+    "golden_answer": "Indiana",
+    "category": 3,
+    "error_type": "TEMPORAL_ERROR",
+    "cited_evidence": [
+      "D28:22"
+    ],
+    "correct_evidence": [
+      "D28:22"
+    ],
+    "reasoning": "The question asks 'What state did Joanna visit in summer 2021?' D28:22 (session: 5:54 pm on 9 November, 2022) states: 'I took that pic on a hike last summer near Fort Wayne.' 'Last summer' relative to November 2022 is summer 2022, NOT summer 2021. Fort Wayne is in Indiana, so the golden answer 'Indiana' is correct for the state, but the question's premise of 'summer 2021' is wrong - it should be summer 2022. The golden answer 'Indiana' is correct for the state, but the temporal framing of the question is erroneous.",
+    "correct_answer": "Indiana (but the visit was in summer 2022, not summer 2021 as the question states)."
+  },
+  {
+    "question_id": "locomo_3_qa81",
+    "question": "What recipes has Joanna made?",
+    "golden_answer": "dairy free vanilla cake with strawberry filling and coconut cream frosting, parfait, strawberry chocolate cake, chocolate coconut cupcakes, chocolate raspberry tart, chocolate cake with raspberries, blueberry cheesecake bars",
+    "category": 1,
+    "error_type": "HALLUCINATION",
+    "cited_evidence": [
+      "D10:9",
+      "D10:11",
+      "D19:8",
+      "D20:2",
+      "D20:10",
+      "D21:11",
+      "D22:1",
+      "D21:3",
+      "D21:17"
+    ],
+    "correct_evidence": [
+      "D10:9",
+      "D10:11",
+      "D19:8",
+      "D20:2",
+      "D20:10",
+      "D21:11",
+      "D22:1",
+      "D21:17"
+    ],
+    "reasoning": "Golden answer lists 7 recipes. Verification against transcript: (1) \"dairy free vanilla cake with strawberry filling and coconut cream frosting\" - CONFIRMED, directly stated in D10:11. (2) \"parfait\" - FABRICATED, D19:8 says \"delicious treat\" with no name given. (3) \"strawberry chocolate cake\" - INFERRED from blip_caption only, never named in text. (4) \"chocolate coconut cupcakes\" - CONFIRMED, stated in D20:10. (5) \"chocolate raspberry tart\" - CONFIRMED, stated in D21:11. (6) \"chocolate cake with raspberries\" - CONFIRMED, stated in D21:13 (but evidence cites D21:3 which is about data backups). (7) \"blueberry cheesecake bars\" - FABRICATED, D21:17 says \"delicious dessert made with blueberries, coconut milk, and a gluten-free crust\" but never uses the words \"cheesecake\" or \"bars\". Two recipe names are fabricated and one is inferred from an image caption rather than stated in dialog.",
+    "correct_answer": "Dairy-free vanilla cake with strawberry filling and coconut cream frosting (D10:11), a delicious treat (D19:8, unnamed), revised old recipe with strawberries and chocolate (D20:2), dairy-free chocolate coconut cupcakes with raspberry frosting (D20:10), chocolate raspberry tart (D21:11), chocolate cake with raspberries (D22:1/D21:13), blueberry coconut milk dessert with gluten-free crust (D21:17)."
+  },
+  {
+    "question_id": "locomo_3_qa88",
+    "question": "What is one of Joanna's favorite movies?",
+    "golden_answer": "\"Eternal Sunshineof the Spotless Mind\"",
+    "category": 4,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D1:18",
+      "D",
+      "D1:20"
+    ],
+    "correct_evidence": [
+      "D1:16",
+      "D1:18",
+      "D1:20"
+    ],
+    "reasoning": "The evidence_ids list includes a malformed ID 'D' which does not correspond to any dialog entry in the transcript. The golden answer 'Eternal Sunshine of the Spotless Mind' is factually correct and supported by D1:18 and D1:20. The malformed 'D' should likely be 'D1:16' (where Joanna first mentions/shows the movie poster) or another valid dialog ID.",
+    "correct_answer": "'Eternal Sunshine of the Spotless Mind'"
+  },
+  {
+    "question_id": "locomo_3_qa91",
+    "question": "What is Nate's favorite book series about?",
+    "golden_answer": "dragons",
+    "category": 4,
+    "error_type": "HALLUCINATION",
+    "cited_evidence": [
+      "D9:14"
+    ],
+    "correct_evidence": [
+      "D9:14"
+    ],
+    "reasoning": "The golden answer says Nate's favorite book series is about 'dragons', but the word 'dragons' never appears in the transcript text. D9:14 states: 'I love this series. It has adventures, magic, and great characters - it's a must-read!' The image search query 'fantasy novels dragon cover series' is metadata for finding the image, not part of the conversation. The transcript only describes the series as having 'adventures, magic, and great characters'.",
+    "correct_answer": "Adventures, magic, and great characters (the specific subject 'dragons' is not stated in the transcript text)."
+  },
+  {
+    "question_id": "locomo_3_qa119",
+    "question": "What does Nate feel he could do when out in cool places like Whispering Falls?",
+    "golden_answer": "write a whole movie",
+    "category": 4,
+    "error_type": "ATTRIBUTION_ERROR",
+    "cited_evidence": [
+      "D11:13"
+    ],
+    "correct_evidence": [
+      "D11:13"
+    ],
+    "reasoning": "The question asks 'What does Nate feel he could do when out in cool places like Whispering Falls?' but D11:13 is spoken by JOANNA, not Nate: 'I always feel like I could write a whole movie when I'm out there in cool places like that!' The speaker in the evidence is Joanna. It is Joanna who feels she could write a movie in cool places, not Nate. The question has a speaker attribution error.",
+    "correct_answer": "This is Joanna's statement, not Nate's. Joanna feels she could write a whole movie when out in cool places like Whispering Falls."
+  },
+  {
+    "question_id": "locomo_3_qa184",
+    "question": "What did Joanna receive from her brother that brought back childhood memories?",
+    "golden_answer": "a handwritten letter",
+    "category": 4,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D27:29"
+    ],
+    "correct_evidence": [
+      "D27:28",
+      "D27:29",
+      "D27:30"
+    ],
+    "reasoning": "The golden answer says Joanna received 'a handwritten letter' from 'her brother'. The cited evidence D27:29 (Nate) reads: 'That letter is really awesome! Does it remind you of your childhood?' This is Nate's reaction and does NOT mention the brother. The crucial evidence is D27:30 (Joanna): 'Yeah, it does! My brother wrote it - he used to make me these cute notes when we were kids.' Also D27:28 introduces the letter. The citation should include D27:28 and D27:30.",
+    "correct_answer": "a handwritten letter (from her brother)"
+  },
+  {
+    "question_id": "locomo_4_qa6",
+    "question": "In which month's game did John achieve a career-high score in points?",
+    "golden_answer": "June 2023",
+    "category": 2,
+    "error_type": "TEMPORAL_ERROR",
+    "cited_evidence": [
+      "D3:1"
+    ],
+    "correct_evidence": [
+      "D3:1"
+    ],
+    "reasoning": "D3:1 is from session_3 dated '4:21 pm on 16 July, 2023'. John says: 'Last week I scored 40 points, my highest ever.' July 16, 2023 is a Sunday, so 'last week' refers to approximately July 9-15, 2023. The career-high score was in July 2023, not June 2023. The golden answer incorrectly computes the date as June.",
+    "correct_answer": "July 2023"
+  },
+  {
+    "question_id": "locomo_4_qa9",
+    "question": "Which endorsement deals has John been offered?",
+    "golden_answer": "basketball shoes and gear deal with Nike, potential sponsorship with Gatorade, Moxie a popular beverage company, outdoor gear company",
+    "category": 1,
+    "error_type": "HALLUCINATION",
+    "cited_evidence": [
+      "D3:13",
+      "D3:15",
+      "D25:2",
+      "D29:4"
+    ],
+    "correct_evidence": [
+      "D3:13",
+      "D3:15",
+      "D25:2",
+      "D29:4"
+    ],
+    "reasoning": "The golden answer includes 'Moxie a popular beverage company' but the name 'Moxie' appears nowhere in the entire transcript. D29:4 (John) says: 'I got an endorsement with a popular beverage company!' The company is never named. 'Moxie' is fabricated. The other endorsements (Nike, Gatorade, outdoor gear company) are correctly supported by the cited evidence.",
+    "correct_answer": "basketball shoes and gear deal with Nike, potential sponsorship with Gatorade, a popular beverage company (unnamed), outdoor gear company"
+  },
+  {
+    "question_id": "locomo_4_qa11",
+    "question": "What sports does John like besides basketball?",
+    "golden_answer": "surfing",
+    "category": 1,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D1:7",
+      "D2:14",
+      "D3:1",
+      "D3:25"
+    ],
+    "correct_evidence": [
+      "D3:25"
+    ],
+    "reasoning": "The golden answer 'surfing' is correct and supported by D3:25 where John says: 'I had an awesome summer with my friends, surfing and riding the waves.' However, three of the four cited evidence entries are basketball-related, not about other sports: D1:7 (shooting guard), D2:14 (pic from a recent game), D3:1 (scored 40 points). Only D3:25 is relevant to the answer.",
+    "correct_answer": "surfing"
+  },
+  {
+    "question_id": "locomo_4_qa16",
+    "question": "After how many weeks did Tim reconnect with the fellow Harry Potter fan from California?",
+    "golden_answer": "three weeks",
+    "category": 2,
+    "error_type": "TEMPORAL_ERROR",
+    "cited_evidence": [
+      "D3:2",
+      "D5:1"
+    ],
+    "correct_evidence": [
+      "D3:2",
+      "D5:1"
+    ],
+    "reasoning": "D3:2 (Session 3, July 16, 2023): 'Last week, I had a nice chat with a Harry Potter fan in California. It was magical!' 'Last week' from July 16 (Sunday) places the initial chat approximately July 9-15. D5:1 (Session 5, August 9, 2023): 'Just skyped with that Harry Potter fan I met in CA and had a great time.' The gap from the initial chat (~July 9-15) to the reconnection (August 9) is approximately 25-31 days, or about 4 weeks. The golden answer of 'three weeks' (21 days) undercounts by approximately one week.",
+    "correct_answer": "approximately four weeks"
+  },
+  {
+    "question_id": "locomo_4_qa17",
+    "question": "How many games has John mentioned winning?",
+    "golden_answer": "6",
+    "category": 1,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D3:3",
+      "D5:2",
+      "D22:4",
+      "D23:7",
+      "D24:2"
+    ],
+    "correct_evidence": [
+      "D3:3",
+      "D5:2",
+      "D13:8",
+      "D22:4",
+      "D23:7",
+      "D24:2"
+    ],
+    "reasoning": "The golden answer is 6 wins. The cited evidence provides only 5 explicit win references: D3:3 ('We pulled off a tough win!'), D5:2 ('We won it by a tight score'), D22:4 ('we fought hard and got the win!'), D23:7 ('I hit the buzzer-beater shot to win'), D24:2 ('we got the win'). The 6th win is in D13:8 where John says: 'We even won a trophy!' This dialog is not cited in the evidence but is needed to reach the count of 6.",
+    "correct_answer": "6"
+  },
+  {
+    "question_id": "locomo_4_qa26",
+    "question": "Which TV series does Tim mention watching?",
+    "golden_answer": "That, Wheel of Time",
+    "category": 1,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D17:1",
+      "D17:11",
+      "D26:36"
+    ],
+    "correct_evidence": [
+      "D17:10",
+      "D26:36"
+    ],
+    "reasoning": "The golden answer is correct: Tim mentions watching 'That' and 'The Wheel of Time'. However, the evidence cites D17:1 which is just John's greeting ('Hey Tim! Great to chat again. So much has happened!') and D17:11 which is John's response ('Yeah, I saw \"That\"!'). The correct citation for Tim mentioning 'That' is D17:10 where Tim says: '\"That\" is one of my favorite fantasy shows. Have you seen it?' D17:1 is irrelevant and D17:11 is John's line, not Tim's.",
+    "correct_answer": "That, Wheel of Time"
+  },
+  {
+    "question_id": "locomo_4_qa56",
+    "question": "When did Tim start playing the violin?",
+    "golden_answer": "August 2023",
+    "category": 2,
+    "error_type": "TEMPORAL_ERROR",
+    "cited_evidence": [
+      "D21:13"
+    ],
+    "correct_evidence": [
+      "D21:11"
+    ],
+    "reasoning": "D21:13 (Tim, Dec 6 2023) says: 'I've been playing for about four months now.' But this is answering John's question in D21:12: 'How long have you been playing the piano again?' The 'four months' refers to the PIANO, not the violin. Tim started piano in August 2023 (D8:12, Aug 21 2023: 'I've also started learning how to play the piano'). 4 months from Aug = Dec, consistent. For violin, D21:11 (Tim, Dec 6 2023) says: 'I'm learning how to play the violin now' - indicating violin was just recently started around December 2023, not August 2023. The golden answer confuses the piano and violin timelines.",
+    "correct_answer": "approximately December 2023"
+  },
+  {
+    "question_id": "locomo_4_qa59",
+    "question": "Which career-high performances did John achieve in 2023?",
+    "golden_answer": "highest point score, highest assist",
+    "category": 1,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D3:1",
+      "D23:2"
+    ],
+    "correct_evidence": [
+      "D3:1",
+      "D23:3"
+    ],
+    "reasoning": "The golden answer is correct: John achieved career-highs in points (D3:1: 'Last week I scored 40 points, my highest ever') and assists (D23:3: 'I had a career-high in assists last Friday'). However, the evidence cites D23:2 which is Tim's dialog about his English lit class: 'Hey John, I had a tough time with my English lit class.' The correct citation is D23:3 where John (not Tim) mentions the career-high assists.",
+    "correct_answer": "highest point score, highest assist"
+  },
+  {
+    "question_id": "locomo_4_qa60",
+    "question": "When did John achieve a career-high assist performance?",
+    "golden_answer": "December 11, 2023",
+    "category": 2,
+    "error_type": "TEMPORAL_ERROR",
+    "cited_evidence": [
+      "D23:2"
+    ],
+    "correct_evidence": [
+      "D23:3"
+    ],
+    "reasoning": "D23:3 (John, session on Dec 11, 2023) says: 'I had a career-high in assists last Friday in our big game against our rival.' December 11, 2023 is a Monday, so 'last Friday' refers to December 8, 2023. The golden answer states December 11, 2023 (the session date), but the actual event happened on December 8, 2023. Additionally, the cited evidence D23:2 is Tim's dialog about English lit class, not John's career-high assist (which is D23:3).",
+    "correct_answer": "December 8, 2023"
+  },
+  {
+    "question_id": "locomo_4_qa74",
+    "question": "What aspects of the Harry Potter universe will be discussed in John's fan project collaborations?",
+    "golden_answer": "characters, spells, magical creatures",
+    "category": 4,
+    "error_type": "ATTRIBUTION_ERROR",
+    "cited_evidence": [
+      "D1:16"
+    ],
+    "correct_evidence": [
+      "D1:16"
+    ],
+    "reasoning": "The question attributes the Harry Potter fan project to John, but it is Tim's project. D1:2 (Tim): 'Been discussing collaborations for a Harry Potter fan project I am working on.' D1:16 (Tim): 'We'll be discussing various aspects of the Harry Potter universe, like characters, spells, and magical creatures.' The answer content (characters, spells, magical creatures) is correct for Tim's project. The question should say 'Tim's fan project', not 'John's fan project'.",
+    "correct_answer": "characters, spells, magical creatures (but this is Tim's fan project, not John's)"
+  },
+  {
+    "question_id": "locomo_4_qa86",
+    "question": "What did John share with the person he skyped about?",
+    "golden_answer": "Characters from Harry Potter",
+    "category": 4,
+    "error_type": "ATTRIBUTION_ERROR",
+    "cited_evidence": [
+      "D5:1"
+    ],
+    "correct_evidence": [
+      "D5:1"
+    ],
+    "reasoning": "The question says 'John' skyped, but D5:1 is Tim's dialog: 'Hey John! Long time no see! Been super busy lately. Guess what? Just skyped with that Harry Potter fan I met in CA and had a great time. We talked characters and maybe collab-ing.' It was Tim who skyped with the Harry Potter fan, not John. There is no evidence of John skyping anyone in the transcript. The answer content ('Characters from Harry Potter') is correct for what Tim discussed, but the attribution to John is wrong.",
+    "correct_answer": "Characters from Harry Potter (but it was Tim who skyped, not John)"
+  },
+  {
+    "question_id": "locomo_4_qa128",
+    "question": "What type of meal does John often cook using a slow cooker?",
+    "golden_answer": "honey garlic chicken with roasted veg",
+    "category": 4,
+    "error_type": "HALLUCINATION",
+    "cited_evidence": [
+      "D15:32",
+      "D15:33"
+    ],
+    "correct_evidence": [
+      "D15:30",
+      "D15:31",
+      "D15:32"
+    ],
+    "reasoning": "D15:30 (John) shows a slow cooker image (blip_caption: 'a photo of a slow cooker filled with a mixture of food') but does not name the meal. D15:31 (Tim) responds: 'That slow cooker meal looks yum!' D15:32 (John) then shares a DIFFERENT dish: 'I make this yummy honey garlic chicken with roasted veg a lot' with image showing 'a photo of a pan of chicken and vegetables cooking on a stove' - notably in a PAN, not a slow cooker. The slow cooker meal and the honey garlic chicken appear to be two different dishes. The question conflates them.",
+    "correct_answer": "The slow cooker meal is unspecified; honey garlic chicken with roasted veg is a separate dish cooked in a pan"
+  },
+  {
+    "question_id": "locomo_4_qa135",
+    "question": "How does Tim stay motivated during difficult study sessions?",
+    "golden_answer": "Visualizing goals and success",
+    "category": 4,
+    "error_type": "ATTRIBUTION_ERROR",
+    "cited_evidence": [
+      "D18:6"
+    ],
+    "correct_evidence": [
+      "D18:7"
+    ],
+    "reasoning": "D18:6 is John's dialog, not Tim's: 'I visualize my goals and success for focus and motivation. It really helps me stay motivated during tough studying. Do you have any study tricks?' The visualization technique belongs to John. Tim's actual study technique is described in D18:7 (Tim): 'I like breaking up my studying into smaller parts. 25 minutes on, then 5 minutes off for something fun. It's less overwhelming and keeps me on track.' This is the Pomodoro technique. The golden answer attributes John's technique to Tim.",
+    "correct_answer": "Breaking study into smaller parts: 25 minutes on, then 5 minutes off (Pomodoro technique)"
+  },
+  {
+    "question_id": "locomo_4_qa136",
+    "question": "What did Tim say about his injury on 16 November, 2023?",
+    "golden_answer": "The doctor said it's not too serious",
+    "category": 4,
+    "error_type": "ATTRIBUTION_ERROR",
+    "cited_evidence": [
+      "D18:10"
+    ],
+    "correct_evidence": [
+      "D18:2",
+      "D18:9",
+      "D18:10"
+    ],
+    "reasoning": "The question says 'Tim' and 'his injury', but the injury belongs to John, not Tim. D18:2 (John): 'it's been a tough week for me with this injury.' D18:9 (Tim): 'I hope your injury heals soon.' D18:10 (John): 'Sure thing, Tim! Got your back. I hope so too. The doctor said it's not too serious.' John reports the doctor's assessment about his own injury. Tim has no injury on this date. The question wrongly attributes the injury to Tim and the doctor's quote to Tim.",
+    "correct_answer": "Tim did not have an injury. It was John's injury. John (not Tim) said the doctor said it's not too serious."
+  },
+  {
+    "question_id": "locomo_4_qa164",
+    "question": "What language does Tim know besides German?",
+    "golden_answer": "Spanish",
+    "category": 4,
+    "error_type": "ATTRIBUTION_ERROR",
+    "cited_evidence": [
+      "D27:6"
+    ],
+    "correct_evidence": [
+      "D27:7"
+    ],
+    "reasoning": "D27:6 is John's dialog: 'Wow! Impressive you're learning German. I know a bit of it myself and Spanish, it makes travel so much easier.' John says HE knows Spanish, not Tim. Tim's language background is revealed in D27:7 (Tim): 'Learning German has been tough but worth it. I like the structure of the language, it's much easier when I took French in high school.' Tim took French in high school, not Spanish. The golden answer wrongly attributes John's Spanish knowledge to Tim.",
+    "correct_answer": "French (Tim took French in high school, per D27:7)"
+  },
+  {
+    "question_id": "locomo_4_qa165",
+    "question": "What book did Tim get in Italy that inspired him to cook?",
+    "golden_answer": "a cooking book",
+    "category": 4,
+    "error_type": "ATTRIBUTION_ERROR",
+    "cited_evidence": [
+      "D27:4"
+    ],
+    "correct_evidence": [
+      "D27:4"
+    ],
+    "reasoning": "D27:4 is John's dialog: 'Italy was awesome! Everything from the food to the history and architecture was amazing. I even got this awesome book while I was there and it's been giving me some cooking inspiration.' It was John who went to Italy (D27:2: John says 'I had a blast there last month') and John who got the cooking book. Tim never went to Italy in the transcript. The question wrongly attributes John's Italy trip and cookbook to Tim.",
+    "correct_answer": "John (not Tim) got a cooking book in Italy"
+  },
+  {
+    "question_id": "locomo_4_qa166",
+    "question": "What is John's favorite book series?",
+    "golden_answer": "Harry Potter",
+    "category": 4,
+    "error_type": "ATTRIBUTION_ERROR",
+    "cited_evidence": [
+      "D27:19"
+    ],
+    "correct_evidence": [
+      "D27:19"
+    ],
+    "reasoning": "D27:19 is Tim's dialog: 'Harry Potter is my favorite book. It's so immersive!' This is Tim's favorite, not John's. The question asks about John's favorite book series but the evidence shows Tim's preference. John's explicit favorites include The Hobbit (D20:20: 'The Hobbit is one of my favorites too') and he enjoys The Alchemist, Dune, and a fantasy series, but never declares Harry Potter as his favorite. John even asks Tim in D19:14: 'Are Harry Potter and GoT still your favorites?' confirming those are Tim's favorites.",
+    "correct_answer": "The evidence does not support Harry Potter as John's favorite. John explicitly calls The Hobbit 'one of my favorites' (D20:20)."
+  },
+  {
+    "question_id": "locomo_5_qa2",
+    "question": "What kind of indoor activities has Andrew pursued with his girlfriend?",
+    "golden_answer": "boardgames, volunteering at pet shelter, wine tasting, growing flowers",
+    "category": 1,
+    "error_type": "HALLUCINATION",
+    "cited_evidence": [
+      "D13:1",
+      "D23:1",
+      "D25:1",
+      "D19:15"
+    ],
+    "correct_evidence": [
+      "D13:1",
+      "D23:1",
+      "D25:1"
+    ],
+    "reasoning": "Three of the four activities are correctly attributed to Andrew and his girlfriend: boardgames (D23:1: 'my gf, Toby, and I had a really awesome night playing board games'), volunteering at pet shelter (D13:1: 'My GF and I just had a great experience volunteering at a pet shelter'), and wine tasting (D25:1: 'My girlfriend and I went to this awesome wine tasting'). However, 'growing flowers' is cited from D19:15 where Andrew says 'Here\u2019s something I\u2019ve been taking care of lately. Look at those flowers!' with an image of flowers on a balcony. There is NO mention of his girlfriend being involved in growing flowers anywhere in the transcript. The girlfriend association with flower growing is fabricated. Additionally, growing flowers on a balcony is arguably not an 'indoor' activity.",
+    "correct_answer": "boardgames, volunteering at pet shelter, wine tasting"
+  },
+  {
+    "question_id": "locomo_5_qa4",
+    "question": "When did Audrey make muffins for herself?",
+    "golden_answer": "The week of April 3rd to 9th",
+    "category": 2,
+    "error_type": "AMBIGUOUS",
+    "cited_evidence": [
+      "D3:18"
+    ],
+    "correct_evidence": [
+      "D3:18"
+    ],
+    "reasoning": "Session 3 takes place on Sunday, April 16, 2023. D3:18: 'Since you metioned pastries, I made some of my favorite treats last week.' (blip_caption: 'a photo of a muffin pan filled with blueberries and muffins'). The golden answer 'The week of April 3rd to 9th' is correct under ISO/Monday-start convention (where Sunday April 16 is the last day of the week April 10-16, making 'last week' = April 3-9), but incorrect under US/Sunday-start convention (where Sunday April 16 starts a new week, making 'last week' = April 9-15). The answer is defensible under one valid calendar convention but may penalize systems using the other.",
+    "correct_answer": "Either April 3-9 (Monday-start convention) or April 9-15 (Sunday-start convention), depending on calendar interpretation."
+  },
+  {
+    "question_id": "locomo_5_qa5",
+    "question": "When did Audrey see a hummingbird?",
+    "golden_answer": "first week of May 2023",
+    "category": 2,
+    "error_type": "TEMPORAL_ERROR",
+    "cited_evidence": [
+      "D4:1"
+    ],
+    "correct_evidence": [
+      "D4:1"
+    ],
+    "reasoning": "D4:1 is from session_4, dated '5:41 pm on 3 May, 2023' (a Wednesday). Audrey says: 'Last week I finally went on a hike and had this amazing experience with a hummingbird.' The phrase 'last week' from Wednesday May 3 refers to the prior week, approximately April 24-30, 2023. The golden answer states 'first week of May 2023' (May 1-7), but the hummingbird sighting occurred BEFORE May 3, during the last week of April 2023.",
+    "correct_answer": "last week of April 2023 (approximately April 24-30, 2023)"
+  },
+  {
+    "question_id": "locomo_5_qa8",
+    "question": "Did Andrew have a pet dog during March 2023?",
+    "golden_answer": "No",
+    "category": 2,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D2:8"
+    ],
+    "correct_evidence": [
+      "D1:12"
+    ],
+    "reasoning": "The golden answer 'No' is correct, but the cited evidence D2:8 is from session_2 dated '2:42 pm on 2 April, 2023', which is April, not March. D2:8 reads: 'I\u2019m considering getting a dog too, but it can be challenging finding a dog-friendly place in the city.' The correct evidence for March 2023 is D1:12 from session_1 dated '1:10 pm on 27 March, 2023' where Andrew explicitly states: 'No, no pets right now. But I do love animals.'",
+    "correct_answer": "No"
+  },
+  {
+    "question_id": "locomo_5_qa18",
+    "question": "Where did Audrey get Pixie from?",
+    "golden_answer": "breeder",
+    "category": 1,
+    "error_type": "AMBIGUOUS",
+    "cited_evidence": [
+      "D11:4",
+      "D2:1"
+    ],
+    "correct_evidence": [
+      "D2:1",
+      "D11:4"
+    ],
+    "reasoning": "The two cited evidence entries contradict each other. D2:1 (session_2, April 2, 2023) specifically names Pixie and says: 'We adopted another puppy called Pixie.' The word 'adopted' suggests a shelter or rescue, not a breeder. D11:4 (session_11, July 8, 2023) says: 'I got lucky finding a breeder nearby that has the dogs I wanted.' However, D11:4 does not specifically reference Pixie - it could refer to any of Audrey's dogs. The golden answer 'breeder' directly contradicts the only evidence that specifically names Pixie (D2:1), which uses the word 'adopted.' The transcript contains an internal inconsistency about Audrey's dog acquisition method.",
+    "correct_answer": "Unclear - D2:1 says 'adopted' while D11:4 says 'breeder'. The evidence is contradictory."
+  },
+  {
+    "question_id": "locomo_5_qa37",
+    "question": "When did Audrey get into an accident in the park?",
+    "golden_answer": "between October 19 and 24, 2023",
+    "category": 2,
+    "error_type": "TEMPORAL_ERROR",
+    "cited_evidence": [
+      "D25:2"
+    ],
+    "correct_evidence": [
+      "D25:2"
+    ],
+    "reasoning": "D25:2 is from session_25 dated '10:14 am on 24 October, 2023' (a Tuesday). Audrey says: 'I had an accident while playing with my pups at the park' and 'I had an unexpected adventure last week.' The phrase 'last week' from Tuesday October 24 refers to approximately October 16-22. The golden answer states 'between October 19 and 24, 2023', but October 24 is the session date itself and should not be included as a possible date for an event described as happening 'last week.' The upper bound should be approximately October 22, not October 24.",
+    "correct_answer": "approximately between October 16 and 22, 2023"
+  },
+  {
+    "question_id": "locomo_5_qa41",
+    "question": "What are the breeds of Audrey's dogs?",
+    "golden_answer": "Mongrel mixed with Lab for Pepper and Panda. Mongrel mixed with Chihuahua for Precious and Pixie.",
+    "category": 1,
+    "error_type": "AMBIGUOUS",
+    "cited_evidence": [
+      "D19:12",
+      "D26:13"
+    ],
+    "correct_evidence": [
+      "D19:12",
+      "D26:13"
+    ],
+    "reasoning": "The two cited evidence entries contradict each other. D19:12 (session_19, September 24, 2023) states: 'They\u2019re all mutts. Two of them are Jack Russell mixes and the other two are Chihuahua mixes.' D26:13 (session_26, October 28, 2023) states: 'They\u2019re all mutts, but Pepper and Panda are Lab mixes, and Precious and Pixie are Chihuahua mixes.' The golden answer uses the D26:13 version (Lab mixes) and ignores the D19:12 version (Jack Russell mixes). Both are cited as evidence, but they are internally contradictory. The answer arbitrarily selects one version over the other without acknowledgment of the discrepancy.",
+    "correct_answer": "Contradictory evidence: D19:12 says Jack Russell mixes and Chihuahua mixes; D26:13 says Lab mixes (Pepper, Panda) and Chihuahua mixes (Precious, Pixie)"
+  },
+  {
+    "question_id": "locomo_5_qa51",
+    "question": "What items has Audrey bought or made for her dogs?",
+    "golden_answer": "dog tags, toys, dog beds, collars",
+    "category": 1,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D1:2",
+      "D9:5",
+      "D18:10",
+      "D24:1"
+    ],
+    "correct_evidence": [
+      "D1:3",
+      "D9:5",
+      "D18:10",
+      "D24:1"
+    ],
+    "reasoning": "The golden answer is factually correct, but the first cited evidence D1:2 is wrong. D1:2 is Andrew speaking: 'Hey Audrey! So, I started a new job as a Financial Analyst last week - it\u2019s been quite a change from my previous job.' This has nothing to do with items for dogs. The correct citation for 'collars and tags' is D1:3 where Audrey says: 'Congrats on the new job! So I got these new collars and tags for my dogs - so cute!' The other citations are correct: D9:5 (toys), D18:10 (dog beds), D24:1 (toys).",
+    "correct_answer": "dog tags, toys, dog beds, collars"
+  },
+  {
+    "question_id": "locomo_5_qa57",
+    "question": "When did Andrew adopt Scout?",
+    "golden_answer": "few days before November 2023",
+    "category": 2,
+    "error_type": "TEMPORAL_ERROR",
+    "cited_evidence": [
+      "D28:6"
+    ],
+    "correct_evidence": [
+      "D28:6"
+    ],
+    "reasoning": "D28:6 is from session_28 dated '9:02 am on 22 November, 2023'. Andrew says: 'I can\u2019t help myself but to adpot another dog the other day.' The phrase 'the other day' means a few days before November 22, 2023. The golden answer states 'few days before November 2023' which literally means late October 2023 (a few days before November 1). The correct answer should be 'a few days before November 22, 2023' to accurately reflect that the adoption happened in mid-to-late November, not late October.",
+    "correct_answer": "a few days before November 22, 2023"
+  },
+  {
+    "question_id": "locomo_5_qa103",
+    "question": "What organization does Audrey donate a portion of his profits to?",
+    "golden_answer": "Animal shelter",
+    "category": 4,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D22:7"
+    ],
+    "correct_evidence": [
+      "D22:9"
+    ],
+    "reasoning": "The golden answer 'Animal shelter' is correct, but the cited evidence D22:7 does not contain this information. D22:7 says: 'I donate a portion of my profits to a cause that\u2019s close to my heart.' The cause is not named in D22:7. The specific mention of 'animal shelter' appears in D22:9: 'I donate to an animal shelter. They do great work, so it\u2019s my way of helping out.' The citation should be D22:9, not D22:7.",
+    "correct_answer": "Animal shelter"
+  },
+  {
+    "question_id": "locomo_6_qa2",
+    "question": "Which places or events have John and James planned to meet at?",
+    "golden_answer": "VR Club, McGee's, baseball game",
+    "category": 1,
+    "error_type": "HALLUCINATION",
+    "cited_evidence": [
+      "D1:36",
+      "D21:15",
+      "D23:5",
+      "D23:6"
+    ],
+    "correct_evidence": [
+      "D1:33",
+      "D1:36",
+      "D21:15",
+      "D23:5",
+      "D23:6"
+    ],
+    "reasoning": "The golden answer says 'VR Club' but no 'VR Club' is mentioned anywhere in the transcript. D1:33 (John): 'Heard about VR gaming? It's pretty immersive. We can try it together!' and D1:36 (James): 'Yeah, VR gaming is awesome! Let's do it next Saturday!' They discuss VR gaming as an activity, not a specific venue called 'VR Club'. The term 'VR Club' is fabricated.",
+    "correct_answer": "VR gaming, McGee's, baseball game"
+  },
+  {
+    "question_id": "locomo_6_qa11",
+    "question": "How was John feeling on April 10, 2022?",
+    "golden_answer": "seeking solitude",
+    "category": 2,
+    "error_type": "TEMPORAL_ERROR",
+    "cited_evidence": [
+      "D6:7"
+    ],
+    "correct_evidence": [],
+    "reasoning": "The cited evidence D6:7 (John): 'two days ago I wanted to be alone with nature' is from session_6 dated '9:32 pm on 20 April, 2022'. Two days before April 20 = April 18, NOT April 10. The question asks about April 10 but the evidence points to April 18. There is no session covering April 10 (session_4 is April 4, session_5 is April 12), and no evidence in any session about John seeking solitude on April 10.",
+    "correct_answer": "The 'seeking solitude' event occurred on April 18, 2022, not April 10. There is no data about John's feelings on April 10."
+  },
+  {
+    "question_id": "locomo_6_qa17",
+    "question": "What is the board game where you have to find the imposter that John mentions to James?",
+    "golden_answer": "Mafia",
+    "category": 3,
+    "error_type": "HALLUCINATION",
+    "cited_evidence": [
+      "D8:36"
+    ],
+    "correct_evidence": [
+      "D8:36"
+    ],
+    "reasoning": "D8:36 (John): 'It's a game to figure out who the impostors are and it's super fun.' and D8:38 (John): 'I advise you to gather a large group, it will be much more interesting to play.' The game is never named in the transcript. The description could fit Mafia, Werewolf, The Resistance, or other social deduction games. 'Mafia' is a plausible guess but is nowhere stated or confirmed in the transcript. The word 'Mafia' does not appear anywhere in the conversation.",
+    "correct_answer": "Unknown - the game is described but never named. 'Mafia' is one possibility among several social deduction games."
+  },
+  {
+    "question_id": "locomo_6_qa19",
+    "question": "Was James feeling lonely before meeting Samantha?",
+    "golden_answer": "Most likely yes, because he mentioned that the only creatures that gave him joy are dogs and he was actively trying to date.",
+    "category": 3,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D9:16"
+    ],
+    "correct_evidence": [
+      "D9:16",
+      "D6:6"
+    ],
+    "reasoning": "The golden answer's conclusion (\"most likely yes, lonely\") is defensible, but the reasoning mischaracterizes the cited evidence. The citations themselves (D9:16, D6:6) are the right dialog lines, but the golden answer describes their contents inaccurately: (1) D9:16 says \"My pets, computer games, travel and pizza are all that bring me happiness in life\" - four sources of happiness, not \"the only creatures that gave him joy are dogs.\" (2) D6:6 describes James regretting not approaching a stranger on a walk - passive wistfulness, not \"actively trying to date.\" The conclusion happens to be defensible despite the wrong reasoning. Does not affect scoring because the judge evaluates the conclusion (\"likely lonely\"), not the quality of the supporting argument.",
+    "correct_answer": "Most likely yes (defensible inference); the cited evidence supports loneliness but not for the reasons stated in the golden answer"
+  },
+  {
+    "question_id": "locomo_6_qa24",
+    "question": "What kind of games has James tried to develop?",
+    "golden_answer": "football simulator, virtual world inspired by Witcher 3",
+    "category": 1,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D13:7",
+      "D1:4",
+      "D27:2"
+    ],
+    "correct_evidence": [
+      "D13:8",
+      "D6:2",
+      "D27:2",
+      "D27:6",
+      "D22:5"
+    ],
+    "reasoning": "Three citation problems: (1) D13:7 is John asking 'Are there any interesting projects you're working on?' - it is a question, not evidence of game development. The football simulator is mentioned in D13:8 (James): 'we are currently working on a new part of the football simulator.' (2) D1:4 is James talking about PLAYING Witcher 3, not developing a game inspired by it. The Witcher-inspired virtual world is in D6:2 (James): 'created this virtual world inspired by Witcher 3' and D27:6 mentions Witcher 3 inspiration. (3) Additionally, D22:5 (James): 'I decided to challenge myself and create one of my own' (strategy game like Civilization) is a third game type not included in the golden answer.",
+    "correct_answer": "football simulator (D13:8), virtual world inspired by Witcher 3 (D6:2, D27:2, D27:6), strategy game like Civilization (D22:5)"
+  },
+  {
+    "question_id": "locomo_6_qa31",
+    "question": "How many days did James plan to spend on his trip in Canada?",
+    "golden_answer": "19 days",
+    "category": 2,
+    "error_type": "TEMPORAL_ERROR",
+    "cited_evidence": [
+      "D16:9",
+      "D16:13"
+    ],
+    "correct_evidence": [
+      "D16:9",
+      "D16:13"
+    ],
+    "reasoning": "D16:9 (James): 'I'm leaving the day after tomorrow evening' from session_16 dated '5:13 pm on 9 July, 2022' means departure on July 11. D16:13 (James): 'I plan to return on July 20.' July 11 to July 20 = 9 days (or 10 days counting both endpoints). The golden answer '19 days' is arithmetically wrong. This appears to be a typographical error where '9' was written as '19'.",
+    "correct_answer": "9 days (July 11 to July 20)"
+  },
+  {
+    "question_id": "locomo_6_qa37",
+    "question": "When did John spend time with his sister and dogs?",
+    "golden_answer": "July 21, 2022",
+    "category": 2,
+    "error_type": "ATTRIBUTION_ERROR",
+    "cited_evidence": [
+      "D17:28"
+    ],
+    "correct_evidence": [
+      "D17:28"
+    ],
+    "reasoning": "D17:28 speaker is JAMES, not John: 'That's my sister and my dogs. We were just chilling together yesterday, and they bring so much happiness to my life.' The question asks about JOHN spending time with his sister and dogs, but the evidence shows it was JAMES who spent time with HIS sister and HIS dogs on July 21 (yesterday from session_17 on July 22). John does not have a sister mentioned in the transcript (he has 'siblings'). John also does not have dogs (D2:18, D17:21, D31:14 confirm he wants one but doesn't have one).",
+    "correct_answer": "The question should ask about JAMES, not John. James spent time with his sister and dogs on July 21, 2022."
+  },
+  {
+    "question_id": "locomo_6_qa38",
+    "question": "What happened to John's job situation in 2022?",
+    "golden_answer": "quit his IT Job, secured his dream job, aspires to become an eSports competition organizer",
+    "category": 1,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D4:36",
+      "D18:1",
+      "D18:7"
+    ],
+    "correct_evidence": [
+      "D18:1",
+      "D18:7"
+    ],
+    "reasoning": "D4:36 does not exist in the transcript. Session 4 only contains dialogs D4:1 through D4:25 (session_4, 2:13 pm on 4 April, 2022). The evidence_texts for this question marks D4:36 as 'NOT FOUND IN TRANSCRIPT'. The golden answer itself is factually correct based on D18:1 (quit IT job after 3 years, happy with new job) and D18:7 (wants to become tournament organizer), but the citation includes a non-existent dialog ID.",
+    "correct_answer": "The golden answer is factually correct; only the citation D4:36 is invalid."
+  },
+  {
+    "question_id": "locomo_6_qa53",
+    "question": "How long did it take for James to complete his Witcher-inspired game?",
+    "golden_answer": "six months",
+    "category": 2,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D6:1",
+      "D27:2"
+    ],
+    "correct_evidence": [
+      "D6:2",
+      "D27:2"
+    ],
+    "reasoning": "D6:1 is John speaking: 'I have great news! Last Tuesday I met three cool new friends in my programming course.' This is about John's social life, not about James's game development. The correct starting-point citation should be D6:2 (James): 'I got to work with one of my gaming pals on a programming project! We combined programming and gaming, and created this virtual world inspired by Witcher 3.' D6:2 is from session_6 (April 20, 2022) and D27:2 is from session_27 (October 13, 2022), giving approximately 6 months. The answer 'six months' is correct; only the citation D6:1 is wrong.",
+    "correct_answer": "six months (correct answer, wrong citation - should cite D6:2 not D6:1)"
+  },
+  {
+    "question_id": "locomo_6_qa61",
+    "question": "What was James' big moment with Samantha in October 2023?",
+    "golden_answer": "They decided to live together and rented an apartment not far from McGee's bar.",
+    "category": 2,
+    "error_type": "TEMPORAL_ERROR",
+    "cited_evidence": [
+      "D29:8",
+      "D29:10"
+    ],
+    "correct_evidence": [
+      "D29:8",
+      "D29:10"
+    ],
+    "reasoning": "The question refers to 'October 2023' but all events in the transcript take place in 2022. Session_29 is dated '12:37 am on 31 October, 2022'. D29:8 (James): 'Samantha and I have decided to move in together!' and D29:10 (James): 'We rented an apartment not far from McGee's bar' are both from October 2022, not 2023. The year in the question is wrong.",
+    "correct_answer": "The golden answer about the event is correct, but it happened in October 2022, not October 2023 as stated in the question."
+  },
+  {
+    "question_id": "locomo_6_qa65",
+    "question": "When did James and his family visit Mark and Josh?",
+    "golden_answer": "November 7, 2022",
+    "category": 2,
+    "error_type": "AMBIGUOUS",
+    "cited_evidence": [
+      "D31:1"
+    ],
+    "correct_evidence": [
+      "D31:1",
+      "D30:1"
+    ],
+    "reasoning": "D31:1 (James, session_31, November 7): 'Me and my family are currently on the road trip! We've already visited my friends Josh and Mark.' The phrase 'already visited' (past tense, completed action) indicates the visit happened BEFORE this message on November 7. D30:1 (session_30, November 5) confirms the road trip started November 4 ('Yesterday, we started on a road trip'). The visit to Josh and Mark could have occurred on any day from November 4-7. The golden answer assumes the visit was on November 7 (the conversation date) but this is not supported - 'already visited' suggests it was before November 7.",
+    "correct_answer": "Between November 4-7, 2022 (exact date indeterminable from transcript)"
+  },
+  {
+    "question_id": "locomo_6_qa88",
+    "question": "What did John organize with his friends on May 8, 2022?",
+    "golden_answer": "A tournament for CS:GO",
+    "category": 4,
+    "error_type": "TEMPORAL_ERROR",
+    "cited_evidence": [
+      "D10:4"
+    ],
+    "correct_evidence": [
+      "D10:2",
+      "D10:4"
+    ],
+    "reasoning": "The question asks what happened 'on May 8, 2022' but D10:2 (John): 'I've been organizing something with my friends yesterday' is from session_10 dated '12:45 am on 8 May, 2022'. 'Yesterday' from 12:45 am May 8 = May 7, 2022. The CS:GO tournament was organized on May 7, not May 8. The conversation about it occurred on May 8, but the event itself was on May 7.",
+    "correct_answer": "The CS:GO tournament was organized on May 7, 2022 (not May 8 as stated in the question)"
+  },
+  {
+    "question_id": "locomo_6_qa93",
+    "question": "What did John receive for achieving second place in the tournament?",
+    "golden_answer": "money and a trophy",
+    "category": 4,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D12:5",
+      "D12:6"
+    ],
+    "correct_evidence": [
+      "D12:6",
+      "D12:8"
+    ],
+    "reasoning": "The golden answer mentions 'money and a trophy'. D12:6 (John): 'I still received some money for the 2nd place' supports the money part. However, the trophy is mentioned in D12:8 (John): 'Yeah, I also got this trophy! So satisfying.' which is NOT cited. D12:5 (James) is a question asking about rewards and does not itself confirm what was received. The evidence should include D12:8 instead of D12:5.",
+    "correct_answer": "money and a trophy (correct answer, but evidence should include D12:8 for the trophy)"
+  },
+  {
+    "question_id": "locomo_6_qa113",
+    "question": "Whose phone number did James receive during the beach outing?",
+    "golden_answer": "Samantha",
+    "category": 4,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D19:14"
+    ],
+    "correct_evidence": [
+      "D19:14",
+      "D19:16"
+    ],
+    "reasoning": "D19:14 (James): 'I even met one beautiful girl... She left me her phone number' does NOT mention the name 'Samantha'. The name is revealed in D19:16 (James): 'She is Samantha. I'll definitely call her!' which is NOT cited in the evidence. Without D19:16, the evidence only supports that James received a phone number from an unnamed 'beautiful girl', not specifically 'Samantha'.",
+    "correct_answer": "Samantha (correct answer, but evidence must include D19:16 where the name is stated)"
+  },
+  {
+    "question_id": "locomo_6_qa115",
+    "question": "What is John organizing with his siblings?",
+    "golden_answer": "a gaming night",
+    "category": 4,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D20:17"
+    ],
+    "correct_evidence": [
+      "D20:15",
+      "D20:17"
+    ],
+    "reasoning": "D20:17 (John): 'Yep, I'm organizing one with my siblings next month' uses the pronoun 'one' which only makes sense in context of D20:15 (John): 'when we do we always try to plan a gaming night.' The cited evidence D20:17 alone does not contain the phrase 'gaming night' - it only says 'organizing one'. D20:15 is needed to establish what 'one' refers to.",
+    "correct_answer": "a gaming night (correct answer, but evidence must include D20:15 where 'gaming night' is stated)"
+  },
+  {
+    "question_id": "locomo_7_qa0",
+    "question": "What kind of project was Jolene working on in the beginning of January 2023?",
+    "golden_answer": "electricity engineering project",
+    "category": 2,
+    "error_type": "HALLUCINATION",
+    "cited_evidence": [
+      "D1:2"
+    ],
+    "correct_evidence": [
+      "D1:2"
+    ],
+    "reasoning": "D1:2 (Jolene): \"I finished an electrical engineering project last week\". The golden answer says \"electricity engineering project\" but the transcript says \"electrical engineering project\". \"Electricity engineering\" is not a recognized field name and does not appear anywhere in the transcript. The correct term from the dialog is \"electrical engineering\".",
+    "correct_answer": "electrical engineering project"
+  },
+  {
+    "question_id": "locomo_7_qa75",
+    "question": "What card game is Deborah talking about?",
+    "golden_answer": "Exploding Kittens",
+    "category": 3,
+    "error_type": "HALLUCINATION",
+    "cited_evidence": [
+      "D27:12"
+    ],
+    "correct_evidence": [
+      "D27:12"
+    ],
+    "reasoning": "D27:12 (Deborah): \"I recently played a game. I don't remember what it's called. This is a card game about cats, where you take cards one by one from a deck, and then you can attack your opponent with them.\" Deborah explicitly states she does NOT remember the name of the game. The name \"Exploding Kittens\" appears nowhere in the transcript. While the description loosely matches Exploding Kittens, the golden answer fabricates a game name that is not present in the data. The correct answer should be something like \"a card game about cats (name not remembered)\".",
+    "correct_answer": "an unnamed card game about cats where you draw cards and can attack opponents (Deborah says she does not remember the name)"
+  },
+  {
+    "question_id": "locomo_7_qa78",
+    "question": "Where did Jolene and her partner spend most of September 2023?",
+    "golden_answer": "Phuket",
+    "category": 2,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D2:1"
+    ],
+    "correct_evidence": [
+      "D27:1",
+      "D29:4"
+    ],
+    "reasoning": "The cited evidence D2:1 is Deborah saying \"my dad passed away two days ago\" from session_2 on January 27, 2023. This has absolutely nothing to do with Phuket or September 2023. The correct evidence is D27:1 (Jolene): \"Last weekend my partner and I traveled to a meditation retreat for a few weeks in Phuket\" from session_27 on September 12, 2023. The golden answer \"Phuket\" is factually correct but the citation is completely wrong.",
+    "correct_answer": "Phuket"
+  },
+  {
+    "question_id": "locomo_7_qa87",
+    "question": "Which countries has Deborah traveled to?",
+    "golden_answer": "Thailand, Brazil",
+    "category": 1,
+    "error_type": "HALLUCINATION",
+    "cited_evidence": [
+      "D6:10",
+      "D23:18"
+    ],
+    "correct_evidence": [
+      "D6:10",
+      "D23:18"
+    ],
+    "reasoning": "D6:10 (Deborah): \"Bali last year was one of my favs.\" Bali is in Indonesia, not Thailand. The only mention of Thailand in the entire transcript is D28:16 (Jolene): \"we tried a new style of meditation in Thailand\" - this is Jolene who went to Thailand, not Deborah. D23:18 (Deborah): \"Three years ago I was also in Rio de Janeiro\" - Rio de Janeiro is in Brazil, which is correct. The golden answer incorrectly attributes Thailand to Deborah and confuses Bali (Indonesia) with Thailand. Deborah traveled to Indonesia (Bali) and Brazil (Rio de Janeiro).",
+    "correct_answer": "Indonesia (Bali), Brazil (Rio de Janeiro)"
+  },
+  {
+    "question_id": "locomo_7_qa105",
+    "question": "What milestone did Jolene achieve recently on 4 February, 2023?",
+    "golden_answer": "Design and build a sustainable water purifier for a rural community",
+    "category": 4,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D4:3"
+    ],
+    "correct_evidence": [
+      "D4:3",
+      "D4:5"
+    ],
+    "reasoning": "The cited evidence D4:3 (Jolene): \"I had a major milestone last week and it went really well - I'm so relieved and proud. It was a huge accomplishment for me as an engineer.\" This dialog mentions a milestone but does NOT specify what it was. The specific detail \"design and build a sustainable water purifier for a rural community\" comes from D4:5 (Jolene): \"I had to plan and research a lot to design and build a sustainable water purifier for a rural community in need.\" The golden answer is factually correct but the citation is incomplete - D4:5 should be included.",
+    "correct_answer": "Design and build a sustainable water purifier for a rural community"
+  },
+  {
+    "question_id": "locomo_7_qa116",
+    "question": "According to Jolene, what does exercise help her to feel?",
+    "golden_answer": "connected to her body",
+    "category": 4,
+    "error_type": "ATTRIBUTION_ERROR",
+    "cited_evidence": [
+      "D7:20"
+    ],
+    "correct_evidence": [
+      "D7:20"
+    ],
+    "reasoning": "D7:20 speaker is Deborah, not Jolene. D7:20 (Deborah): \"Exercise is key for me - it makes me feel connected to my body.\" The question asks what Jolene said, but this statement was made by Deborah. Searching the full transcript, Jolene never says exercise makes her feel \"connected to her body\" anywhere. The golden answer attributes Deborah's statement to Jolene.",
+    "correct_answer": "This is Deborah's statement, not Jolene's. Deborah said exercise makes her feel connected to her body."
+  },
+  {
+    "question_id": "locomo_7_qa117",
+    "question": "What did Deb share a photo of, which brought a smile to Jolene's face?",
+    "golden_answer": "a yellow coffee cup with a handwritten message",
+    "category": 4,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D8:22"
+    ],
+    "correct_evidence": [
+      "D8:21"
+    ],
+    "reasoning": "The cited evidence D8:22 (Jolene): \"Thanks, Deb! This really cheered me up. All the best with your classes. Bye!\" This is Jolene's reaction, not the photo itself. The actual photo was shared in D8:21 (Deborah): \"Take care and good luck with your exams. I'll give you a mug just like this one! It encourages.\" with blip_caption: \"a photo of a yellow coffee cup with a handwritten message\". The golden answer is correct but the evidence citation points to Jolene's reaction instead of Deborah's photo share.",
+    "correct_answer": "a yellow coffee cup with a handwritten message"
+  },
+  {
+    "question_id": "locomo_7_qa123",
+    "question": "What did Jolene and Anna discuss while watching the sunset by the sea?",
+    "golden_answer": "They realized they inspire each other",
+    "category": 4,
+    "error_type": "ATTRIBUTION_ERROR",
+    "cited_evidence": [
+      "D10:17"
+    ],
+    "correct_evidence": [
+      "D10:17"
+    ],
+    "reasoning": "D10:17 (Deborah): \"Recently, Anna and I were sitting by the sea, watching the sunset and talking about each other. And we realized that we inspire each other.\" The question says \"Jolene and Anna\" but it was Deborah and Anna who had this conversation. Jolene was not present at this sunset scene - Deborah is telling Jolene about it. The golden answer content is correct (they realized they inspire each other) but the question wrongly attributes the interaction to Jolene instead of Deborah.",
+    "correct_answer": "Deborah and Anna (not Jolene) realized they inspire each other while watching the sunset by the sea."
+  },
+  {
+    "question_id": "locomo_7_qa152",
+    "question": "What is special about the bench at the park near Deborah's house?",
+    "golden_answer": "It holds special memories of conversations with her mom",
+    "category": 4,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D19:18"
+    ],
+    "correct_evidence": [
+      "D19:19"
+    ],
+    "reasoning": "The cited evidence D19:18 (Jolene): \"Sounds lovely! Nature can be calming. What makes this bench special to you?\" This is Jolene asking the question, not providing the answer. The actual answer comes from D19:19 (Deborah): \"It holds a lot of special memories for me and my mom - we would come here and chat about dreams and life. It's full of good moments.\" The golden answer is factually correct but the citation points to the question rather than the answer.",
+    "correct_answer": "It holds special memories of conversations with her mom"
+  },
+  {
+    "question_id": "locomo_7_qa155",
+    "question": "What habits does Jolene practice to feel balanced?",
+    "golden_answer": "yoga, meditation, walks, and mindfulness",
+    "category": 4,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D20:12"
+    ],
+    "correct_evidence": [
+      "D20:11",
+      "D15:32",
+      "D25:13"
+    ],
+    "reasoning": "The cited evidence D20:12 is spoken by Deborah, not Jolene. D20:12 (Deborah): \"Yoga and meditation help me find balance and inner peace. Going out for walks and staying mindful also keep me grounded.\" The question asks about Jolene's habits, but the evidence is Deborah's statement. Jolene does mention yoga and meditation in D20:11: \"I'm trying to do more yoga and meditation myself to help relax and stay focused.\" Jolene mentions walks in D15:32 and D25:13. The golden answer content is broadly supportable from scattered Jolene statements but the specific citation is wrong - it points to Deborah's habits, not Jolene's.",
+    "correct_answer": "yoga, meditation, walks, and mindfulness"
+  },
+  {
+    "question_id": "locomo_7_qa174",
+    "question": "Why did Jolene have to reschedule their meeting with Deborah on September 8, 2023?",
+    "golden_answer": "Jolene already had plans",
+    "category": 4,
+    "error_type": "ATTRIBUTION_ERROR",
+    "cited_evidence": [
+      "D26:15"
+    ],
+    "correct_evidence": [
+      "D26:15",
+      "D26:16"
+    ],
+    "reasoning": "D26:15 (Deborah): \"Sorry, I remembered that I already have plans for this day.\" It was DEBORAH who had prior plans and cancelled, not Jolene. The question and golden answer both incorrectly attribute the cancellation to Jolene. After Deborah cancelled, Jolene responded in D26:16: \"Now I'll see when it's more convenient for me.\" The reschedule happened because Deborah had plans, not Jolene.",
+    "correct_answer": "Deborah (not Jolene) already had plans for that day, causing the reschedule."
+  },
+  {
+    "question_id": "locomo_7_qa179",
+    "question": "What did Jolene recently play that she described to Deb?",
+    "golden_answer": "a card game about cats",
+    "category": 4,
+    "error_type": "ATTRIBUTION_ERROR",
+    "cited_evidence": [
+      "D27:12"
+    ],
+    "correct_evidence": [
+      "D27:12"
+    ],
+    "reasoning": "D27:12 speaker is Deborah, not Jolene. D27:12 (Deborah): \"By the way, I recently played a game. I don't remember what it's called. This is a card game about cats, where you take cards one by one from a deck, and then you can attack your opponent with them.\" The question asks what Jolene played, but it was Deborah who played the card game about cats and described it. Jolene's response in D27:13 is: \"I look forward to meeting you and playing this game!\" - confirming Jolene hasn't played it yet.",
+    "correct_answer": "Deborah (not Jolene) recently played a card game about cats."
+  },
+  {
+    "question_id": "locomo_7_qa188",
+    "question": "What outdoor activity did Jolene suggest doing together with Deborah?",
+    "golden_answer": "Surfing",
+    "category": 4,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D29:27"
+    ],
+    "correct_evidence": [
+      "D29:30"
+    ],
+    "reasoning": "The cited evidence D29:27 (Deborah): \"It's okay, maybe we can try it together sometime!\" is Deborah's suggestion, not Jolene's. Jolene does suggest surfing together in D29:30 (Jolene): \"Just started learning, but haven't gone yet. Want to come with me sometime?\" The golden answer \"Surfing\" is correct and Jolene did make the suggestion, but the citation points to Deborah's line rather than Jolene's actual invitation.",
+    "correct_answer": "Surfing"
+  },
+  {
+    "question_id": "locomo_8_qa4",
+    "question": "Which hobby did Sam take up in May 2023?",
+    "golden_answer": "painting",
+    "category": 2,
+    "error_type": "HALLUCINATION",
+    "cited_evidence": [
+      "D1:11"
+    ],
+    "correct_evidence": [
+      "D1:11",
+      "D1:13"
+    ],
+    "reasoning": "D1:11 (May 18, 2023) Sam says: 'Nothing so far, but I was thinking about trying painting.' D1:13 Sam explicitly says: 'Not yet, but I'm keen to give it a go.' Sam only CONSIDERED painting; he never actually took it up in May 2023. Later in D2:10 (May 24) he is still only 'thinking about trying painting.' The verb 'took up' implies Sam started doing it, but the evidence shows he did not.",
+    "correct_answer": "Sam did not take up any hobby in May 2023. He was considering painting but explicitly said 'Not yet'."
+  },
+  {
+    "question_id": "locomo_8_qa7",
+    "question": "What new hobbies did Sam consider trying?",
+    "golden_answer": "Painting, kayaking, hiking, cooking, running",
+    "category": 1,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D1:11",
+      "D2:10",
+      "D10:8",
+      "D13:6",
+      "D13:8",
+      "D20:6",
+      "D7:2",
+      "D7:4",
+      "D7:6",
+      "D21:19"
+    ],
+    "correct_evidence": [
+      "D1:11",
+      "D2:10",
+      "D10:8",
+      "D13:6",
+      "D13:8",
+      "D20:6",
+      "D7:2",
+      "D7:4",
+      "D7:6",
+      "D21:9"
+    ],
+    "reasoning": "The golden answer includes 'running' but the cited evidence D21:19 says: 'I do sketch occasionally, but I haven't created anything remarkable yet.' This does NOT mention running. The actual support for running is D21:9 where Sam says: 'I've started to enjoy running in the mornings, and it's been a great way to clear my head.' D21:9 is not included in the evidence_ids. Additionally, D20:6 ('I used to love hiking, but it's been a while since I had the chance to do it') describes a past activity Sam used to do, not something new he considered trying.",
+    "correct_answer": "Painting, kayaking, hiking, cooking, running"
+  },
+  {
+    "question_id": "locomo_8_qa18",
+    "question": "What kind of healthy food suggestions has Evan given to Sam?",
+    "golden_answer": "flavored seltzer water, dark chocolate with high cocoa content, air-popped popcorn and fruit, veggies, healthy sandwich snacks, energy balls, grilled chicken salad with avocado",
+    "category": 1,
+    "error_type": "HALLUCINATION",
+    "cited_evidence": [
+      "D3:5",
+      "D4:10",
+      "D22:10",
+      "D22:14",
+      "D24:15"
+    ],
+    "correct_evidence": [
+      "D3:5",
+      "D4:10",
+      "D22:14",
+      "D24:15"
+    ],
+    "reasoning": "The term 'healthy sandwich snacks' does not appear anywhere in the transcript text or image captions. No dialog contains the word 'sandwich' at all. Additionally, 'veggies' as a specific suggestion from Evan to Sam is unsupported - D4:6 where Evan mentions veggies is about his OWN dietary changes, not a suggestion to Sam, and D4:6 is not even cited in the evidence. The term 'grilled chicken salad with avocado' is an inference from D24:15's blip caption ('a photo of a salad with chicken, avocado, tomatoes, corn, and cheese') but Evan's text in D24:15 just says 'focus on a balanced diet and low-impact exercises' without specifically recommending this dish.",
+    "correct_answer": "flavored seltzer water, dark chocolate with high cocoa content, air-popped popcorn and fruit, energy balls"
+  },
+  {
+    "question_id": "locomo_8_qa24",
+    "question": "What significant event happened in Sam's life towards the end of summer 2023?",
+    "golden_answer": "He fell in love with a Canadian woman",
+    "category": 2,
+    "error_type": "ATTRIBUTION_ERROR",
+    "cited_evidence": [
+      "D5:1"
+    ],
+    "correct_evidence": [
+      "D5:1"
+    ],
+    "reasoning": "D5:1 speaker is EVAN, not Sam. Evan says: 'Last week I went on a trip to Canada and something unreal happened - I met this awesome Canadian woman and it was like something out of a movie.' The question asks about Sam's life, but the cited evidence describes an event in EVAN's life. It was Evan who fell in love with a Canadian woman, not Sam.",
+    "correct_answer": "This event happened to Evan, not Sam. No comparable significant event for Sam is documented at end of summer 2023 beyond his ongoing health journey."
+  },
+  {
+    "question_id": "locomo_8_qa28",
+    "question": "What kind of writing does Sam do to relax and cope with his health issues?",
+    "golden_answer": "journalling, creative writing",
+    "category": 1,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D6:4",
+      "D11:7"
+    ],
+    "correct_evidence": [
+      "D11:17",
+      "D11:19"
+    ],
+    "reasoning": "The cited evidence D6:4 does not mention writing at all - Sam says: 'Thanks, Evan. Your support means a lot to me.' The only connection is a blip_caption 'a photo of a notepad with a pen and a note' which is an image description, not Sam stating he writes. D11:7 also does not mention writing - Sam asks: 'And how's your watercolor painting going?' The actual support for 'journalling, creative writing' is in D11:17 where Sam says: 'Writing in my journal and doing creative writing is a good way for me to express my innermost thoughts and feelings.' D11:17 and D11:19 are the correct evidence dialogs.",
+    "correct_answer": "journalling, creative writing"
+  },
+  {
+    "question_id": "locomo_8_qa33",
+    "question": "What is the recurring dream that Sam keeps having?",
+    "golden_answer": "he's flying over a cityscape.",
+    "category": 1,
+    "error_type": "HALLUCINATION",
+    "cited_evidence": [
+      "D6:14",
+      "D24:22"
+    ],
+    "correct_evidence": [
+      "D6:14",
+      "D24:22"
+    ],
+    "reasoning": "The transcript consistently uses \"skyscrapers\" in both D6:14 (\"soaring over skyscrapers\") and D24:22 (\"flying over skyscrapers\"). The golden answer substitutes \"cityscape\" which does not appear anywhere in the conversation text, blip_caption, or query fields. While an LLM judge may accept \"cityscape\" as semantically close to \"skyscrapers,\" the golden answer uses a word the transcript never uses.",
+    "correct_answer": "he's flying/soaring over skyscrapers"
+  },
+  {
+    "question_id": "locomo_8_qa36",
+    "question": "What kind of foods or recipes has Sam recommended to Evan?",
+    "golden_answer": "grilled vegetables, grilled chicken and veggie stir-fry, poutine",
+    "category": 1,
+    "error_type": "HALLUCINATION",
+    "cited_evidence": [
+      "D7:8",
+      "D8:7",
+      "D23:26"
+    ],
+    "correct_evidence": [
+      "D7:8",
+      "D8:7"
+    ],
+    "reasoning": "D23:26 is Sam saying 'Sounds amazing, Ev! Skiing, trying local dishes, and enjoying the breathtaking views - the perfect honeymoon.' Sam is responding to Evan's honeymoon plans, NOT recommending poutine. The blip caption shows 'a photo of a container of french fries covered in caramel' which does not even clearly depict poutine. Furthermore, it is EVAN who mentions poutine in D23:27: 'Yeah, Sam! Gonna try some poutine while we're there - can't wait!' Poutine is Evan's own plan, not Sam's recommendation.",
+    "correct_answer": "roasted vegetables, grilled chicken and veggie stir-fry"
+  },
+  {
+    "question_id": "locomo_8_qa37",
+    "question": "What kind of healthy meals did Sam start eating after getting a health scare?",
+    "golden_answer": "salad, grilled salmon and vegetables, grilled chicken and veggie stir-fry, Beef Merlot, fruit bowl, smoothie bowl",
+    "category": 1,
+    "error_type": "HALLUCINATION",
+    "cited_evidence": [
+      "D3:2",
+      "D8:1",
+      "D7:4",
+      "D8:7",
+      "D10:2",
+      "D11:1",
+      "D18:6"
+    ],
+    "correct_evidence": [
+      "D3:2",
+      "D7:4",
+      "D8:1",
+      "D8:7",
+      "D11:1",
+      "D18:6"
+    ],
+    "reasoning": "The term 'Beef Merlot' does not appear anywhere in the transcript. A search for 'merlot' or 'Merlot' in all dialog text returns zero results. D10:2's blip caption says 'a photo of a bowl of beef and vegetables with a package of healthy choice' - the meal name 'Beef Merlot' appears to be fabricated. The 'Healthy Choice' brand visible in the image was apparently interpreted as a specific dish name. Additionally, 'smoothie bowl' from D18:6 is a stretch - the blip says 'a photo of a variety of bowls of fruit and yogurt' and Sam's text discusses a Weight Watchers meeting, not a smoothie bowl specifically.",
+    "correct_answer": "salad, grilled salmon and vegetables, grilled chicken and veggie stir-fry, fruit bowl"
+  },
+  {
+    "question_id": "locomo_8_qa43",
+    "question": "How often does Sam get health checkups?",
+    "golden_answer": "every three months",
+    "category": 3,
+    "error_type": "HALLUCINATION",
+    "cited_evidence": [
+      "D2:6",
+      "D7:2",
+      "D12:1"
+    ],
+    "correct_evidence": [
+      "D2:6",
+      "D7:2",
+      "D12:1",
+      "D24:12"
+    ],
+    "reasoning": "The checkup intervals are: D2:6 (~May 22) to D7:2 (Aug 15) = ~85 days (~2.8 months); D7:2 (Aug 15) to D12:1 (~Oct 2) = ~48 days (~1.6 months). These intervals are NOT consistently 'every three months.' Furthermore, in D24:12 (Jan 10, 2024), Sam says 'Haven't seen a doctor in a while, but it's probably a good idea to get some advice' - indicating he had NOT been going every three months. The pattern is irregular, not trimonthly.",
+    "correct_answer": "Irregularly, at varying intervals (approximately every 2-3 months in mid-2023, then a longer gap)"
+  },
+  {
+    "question_id": "locomo_8_qa54",
+    "question": "What personal health incidents does Evan face in 2023?",
+    "golden_answer": "heart palpitations, twisted ankle, twisted ankle",
+    "category": 1,
+    "error_type": "HALLUCINATION",
+    "cited_evidence": [
+      "D3:1",
+      "D9:2",
+      "D11:2"
+    ],
+    "correct_evidence": [
+      "D3:1",
+      "D9:2",
+      "D11:2"
+    ],
+    "reasoning": "D3:1 correctly identifies heart palpitations. However, D9:2 says 'Twisted my knee last Friday and it's really painful' - this is a KNEE injury, not an ankle. D11:2 says 'I had a setback last week - messed up my knee playing b-ball with the kids' - again a KNEE injury, not ankle. The golden answer says 'twisted ankle, twisted ankle' but both incidents clearly involve Evan's KNEE. Note: Evan's SON had an ankle injury (D7:1: 'hurt his ankle') but that is a different person entirely.",
+    "correct_answer": "heart palpitations, twisted knee, knee injury (from basketball)"
+  },
+  {
+    "question_id": "locomo_8_qa74",
+    "question": "When did Evan's son fall off his bike?",
+    "golden_answer": "Thursday before December 17, 2023.",
+    "category": 2,
+    "error_type": "TEMPORAL_ERROR",
+    "cited_evidence": [
+      "D20:3"
+    ],
+    "correct_evidence": [
+      "D20:3"
+    ],
+    "reasoning": "D20:3 (session_datetime: 6:48 pm on 17 December, 2023) states: 'my son had an accident last Tuesday, he fell off his bike and it was rough.' The dialog explicitly says 'last Tuesday', not Thursday. December 17, 2023 was a Sunday. The previous Tuesday was December 12, 2023.",
+    "correct_answer": "Tuesday before December 17, 2023 (approximately December 12, 2023)"
+  },
+  {
+    "question_id": "locomo_8_qa80",
+    "question": "When did Evan have a drunken night with his friends?",
+    "golden_answer": "January 9, 2023",
+    "category": 2,
+    "error_type": "TEMPORAL_ERROR",
+    "cited_evidence": [
+      "D24:3"
+    ],
+    "correct_evidence": [
+      "D24:3"
+    ],
+    "reasoning": "D24:3 (session_datetime: 12:17 am on 10 January, 2024) states: 'Yesterday I went out with my friends and had a bit too much to drink.' Yesterday from January 10, 2024 is January 9, 2024. The golden answer says 'January 9, 2023' which has the wrong year - it should be 2024.",
+    "correct_answer": "January 9, 2024"
+  },
+  {
+    "question_id": "locomo_8_qa102",
+    "question": "What dish did Sam make on 18 August, 2023 that turned out flavorful?",
+    "golden_answer": "grilled dish with salmon and vegetables",
+    "category": 4,
+    "error_type": "TEMPORAL_ERROR",
+    "cited_evidence": [
+      "D7:4"
+    ],
+    "correct_evidence": [
+      "D7:4"
+    ],
+    "reasoning": "D7:4 is from session_7 with session_datetime '4:20 pm on 15 August, 2023'. Sam says: 'Last night I made this yummy grilled dish, so good!' with a blip_caption 'a photo of a plate of food with a piece of salmon and some vegetables.' 'Last night' from August 15 means the dish was made on August 14, 2023. The question states '18 August, 2023' which is incorrect - that date corresponds to no dialog in session 7. The answer content ('grilled dish with salmon and vegetables') is correct but the date in the question is wrong.",
+    "correct_answer": "grilled dish with salmon and vegetables (but made on August 14, 2023, not August 18)"
+  },
+  {
+    "question_id": "locomo_8_qa103",
+    "question": "What kind of recipe did Evan request from Sam on 19 August, 2023?",
+    "golden_answer": "recipes with more vegetables",
+    "category": 4,
+    "error_type": "TEMPORAL_ERROR",
+    "cited_evidence": [
+      "D7:7"
+    ],
+    "correct_evidence": [
+      "D7:7"
+    ],
+    "reasoning": "D7:7 is from session_7 with session_datetime '4:20 pm on 15 August, 2023'. Evan says: 'That'd be great, Sam! I'm looking to add more vegetables to my meals. Do you have any recipes for that?' The question states '19 August, 2023' but D7:7 is from August 15, 2023. August 19 is the date of session_8, not session_7. The answer content is correct but the date in the question is wrong.",
+    "correct_answer": "recipes with more vegetables (but requested on August 15, 2023, not August 19)"
+  },
+  {
+    "question_id": "locomo_8_qa106",
+    "question": "What did Evan start painting years ago due to being inspired by a friend's gift?",
+    "golden_answer": "forest scene",
+    "category": 4,
+    "error_type": "HALLUCINATION",
+    "cited_evidence": [
+      "D8:14"
+    ],
+    "correct_evidence": [
+      "D8:14"
+    ],
+    "reasoning": "D8:14 says: 'It all started when a friend of mine gave me this painting one day, it inspired me a lot and that's when I started painting.' The blip_caption shows 'a photo of a painting of a forest scene on a easel.' The forest scene is the GIFT the friend gave Evan, not necessarily what Evan himself started painting. The question conflates the friend's gift with what Evan began creating. D8:20 shows Evan loves painting landscapes/sunsets, and D1:14 shows a cactus in desert painting. Evan started painting in general, inspired by the forest scene gift.",
+    "correct_answer": "The friend's gift was a forest scene painting, but Evan started painting in general (landscapes, nature scenes), not specifically forest scenes."
+  },
+  {
+    "question_id": "locomo_8_qa144",
+    "question": "What did Evan share with Sam after their hiking trip?",
+    "golden_answer": "a photo of a man standing on a rock looking out over a valley",
+    "category": 4,
+    "error_type": "ATTRIBUTION_ERROR",
+    "cited_evidence": [
+      "D22:1"
+    ],
+    "correct_evidence": [
+      "D22:1"
+    ],
+    "reasoning": "D22:1 speaker is SAM, not Evan. Sam says: 'Hey Evan! I'm really getting into this healthier lifestyle - just took my friends on an epic hiking trip last Friday!' with blip_caption 'a photography of a man standing on a rock looking out over a valley'. It was SAM who shared this photo about HIS OWN hiking trip, not Evan sharing with Sam. The question incorrectly attributes the sharing to Evan.",
+    "correct_answer": "Sam (not Evan) shared the photo after Sam's own hiking trip."
+  },
+  {
+    "question_id": "locomo_9_qa1",
+    "question": "What items did Calvin buy in March 2023?",
+    "golden_answer": "mansion in Japan, luxury car Ferrari 488 GTB",
+    "category": 1,
+    "error_type": "HALLUCINATION",
+    "cited_evidence": [
+      "D1:3",
+      "D2:1"
+    ],
+    "correct_evidence": [
+      "D1:3",
+      "D2:1",
+      "D2:5"
+    ],
+    "reasoning": "The model name 'Ferrari 488 GTB' appears nowhere in the conversation text. D2:1 says 'I just got a new car and it's amazing! Finally owning a luxury car was a dream come true.' D2:5 says 'I finally got myself this beauty.' The BLIP caption for D2:5 says 'a photo of a red sports car parked on the side of the road.' The term 'Ferrari 488 GTB' only appears in the internal query metadata field of D2:5 ('ferrari 488 gtb japanese mansion'), which is image search metadata and not part of the conversation. The car is only referred to as a 'luxury car' in the actual dialog. The correct answer should be 'mansion in Japan, luxury car' without the specific Ferrari 488 GTB model designation.",
+    "correct_answer": "mansion in Japan, luxury car"
+  },
+  {
+    "question_id": "locomo_9_qa11",
+    "question": "What mishaps has Calvin run into?",
+    "golden_answer": "flooding of his mansion, car accident",
+    "category": 1,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D6:1",
+      "D9:1"
+    ],
+    "correct_evidence": [
+      "D6:3",
+      "D9:1"
+    ],
+    "reasoning": "D6:1 (Calvin: 'Hey Dave! Long time no chat! Lots has gone down since we last caught up.') does not mention flooding at all. The flooding is mentioned in D6:3 (Calvin: 'I had an incident last week where my place got flooded, but thankfully, I managed to save my music gear and favorite microphone.'). The golden answer is factually correct - Calvin did experience flooding and a car accident - but the cited evidence D6:1 is wrong and should be D6:3.",
+    "correct_answer": "flooding of his mansion, car accident"
+  },
+  {
+    "question_id": "locomo_9_qa19",
+    "question": "Which places or events has Calvin visited in Tokyo?",
+    "golden_answer": "music festival, car museum, Shibuya crossing, Shinjuku",
+    "category": 1,
+    "error_type": "HALLUCINATION",
+    "cited_evidence": [
+      "D3:1",
+      "D12:7",
+      "D24:19"
+    ],
+    "correct_evidence": [
+      "D3:1",
+      "D12:7",
+      "D24:19"
+    ],
+    "reasoning": "The golden answer lists 'car museum' but D12:7 says Calvin visited a 'Ferrari dealership' not a 'car museum': 'That pic you shared takes me back to my trip to the Ferrari dealership.' The term 'car museum' only appears in the internal query metadata field of D12:7 ('car museum japan ferrari'), which is image search metadata and not part of the conversation. The correct answer should say 'Ferrari dealership' instead of 'car museum.'",
+    "correct_answer": "music festival, Ferrari dealership, Shibuya crossing, Shinjuku"
+  },
+  {
+    "question_id": "locomo_9_qa29",
+    "question": "What are Dave's hobbies other than fixing cars?",
+    "golden_answer": "take a walk, go hiking, listen to favorite albums, live concerts, photography",
+    "category": 1,
+    "error_type": "AMBIGUOUS",
+    "cited_evidence": [
+      "D5:9",
+      "D5:11",
+      "D8:8",
+      "D27:2"
+    ],
+    "correct_evidence": [
+      "D5:9",
+      "D5:11",
+      "D8:8",
+      "D8:10",
+      "D27:2"
+    ],
+    "reasoning": "D8:8: Dave says \"Nah, haven't gone hiking recently\" when asked about hikes, then speaks positively about hiking in general. The golden answer lists \"go hiking\" as a current hobby despite Dave explicitly stating he hasn't done it recently. While an LLM judge may accept hiking as a hobby since Dave expresses enthusiasm for it, the transcript's actual statement contradicts listing it as a current activity.",
+    "correct_answer": "take a walk, listen to favorite albums, live concerts, photography (hiking is aspirational, not confirmed as practiced hobby)"
+  },
+  {
+    "question_id": "locomo_9_qa50",
+    "question": "When did Calvin buy his second Ferrari?",
+    "golden_answer": "first week of October 2023",
+    "category": 2,
+    "error_type": "TEMPORAL_ERROR",
+    "cited_evidence": [
+      "D23:16"
+    ],
+    "correct_evidence": [
+      "D23:16"
+    ],
+    "reasoning": "D23:16 (session_23, October 15, 2023): Calvin says 'Last week, I got a new Ferrari!' October 15 is a Sunday. 'Last week' from October 15 means approximately October 8-14, which is the second week of October 2023, not the first week. The first week of October would be October 1-7.",
+    "correct_answer": "second week of October 2023 (approximately October 8-14)"
+  },
+  {
+    "question_id": "locomo_9_qa58",
+    "question": "Which events in Dave's life inspired him to take up auto engineering?",
+    "golden_answer": "attending a car show with Dad, working on an old car in a neighbor's garage when he was young, spent a summer restoring an old car with Dad",
+    "category": 1,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D26:6",
+      "D25:12",
+      "D12:2",
+      "D12:4"
+    ],
+    "correct_evidence": [
+      "D26:6",
+      "D25:15",
+      "D12:2",
+      "D12:4"
+    ],
+    "reasoning": "D25:12 is Calvin speaking ('Yeah, it's a way for me to express myself and work through my emotions. It's like my own form of therapy.') - this is irrelevant to Dave's inspiration for auto engineering. The correct citation should be D25:15 (Dave: 'Ever since I was ten, I've been fascinated with how machines work. I found an old car in a neighbor's garage and asked if I could fix it. That's when my love for car engineering began!') which actually supports the 'working on an old car in a neighbor's garage' part of the answer.",
+    "correct_answer": "attending a car show with Dad, working on an old car in a neighbor's garage when he was young, spent a summer restoring an old car with Dad"
+  },
+  {
+    "question_id": "locomo_9_qa60",
+    "question": "What gifts has Calvin received from his artist friends?",
+    "golden_answer": "gold chain, custom-made guitar with an octopus on it",
+    "category": 1,
+    "error_type": "HALLUCINATION",
+    "cited_evidence": [
+      "D4:24",
+      "D4:26",
+      "D16:14"
+    ],
+    "correct_evidence": [
+      "D4:24",
+      "D4:26",
+      "D16:14"
+    ],
+    "reasoning": "The answer says 'gold chain' but the transcript and BLIP caption consistently say 'necklace with a diamond pendant'. D4:24 (Calvin): 'Take a look at this beautiful necklace with a diamond pendant.' BLIP caption for D4:24: 'a photo of a gold necklace with a diamond pendant.' The term 'chain' does not appear anywhere in the transcript. A necklace is not the same as a chain.",
+    "correct_answer": "gold necklace with a diamond pendant, custom-made guitar with an octopus on it"
+  },
+  {
+    "question_id": "locomo_9_qa62",
+    "question": "How long was the car modification workshop in San Francisco?",
+    "golden_answer": "two weeks",
+    "category": 2,
+    "error_type": "TEMPORAL_ERROR",
+    "cited_evidence": [
+      "D14:1",
+      "D17:1"
+    ],
+    "correct_evidence": [
+      "D14:1",
+      "D17:1"
+    ],
+    "reasoning": "D14:1 (Aug 14, 2023): Dave says he went to a car workshop in San Francisco. D17:1 (Sep 2, 2023): Dave says \"yesterday I came back from San Francisco.\" The workshop spanned approximately Aug 14 to Sep 1, which is 18 days. The golden answer of \"two weeks\" (14 days) understates the duration by 4 days.",
+    "correct_answer": "Approximately 18 days"
+  },
+  {
+    "question_id": "locomo_9_qa63",
+    "question": "What style of guitars does Calvin own?",
+    "golden_answer": "custom-made yellow guitar with an octopus on it, shiny purple guitar",
+    "category": 1,
+    "error_type": "HALLUCINATION",
+    "cited_evidence": [
+      "D16:13",
+      "D16:4",
+      "D16:18",
+      "D16:19"
+    ],
+    "correct_evidence": [
+      "D16:13",
+      "D16:14",
+      "D16:18",
+      "D16:19",
+      "D16:20"
+    ],
+    "reasoning": "The answer says 'custom-made yellow guitar' but the word 'yellow' does not appear anywhere in the transcript text or BLIP captions. D16:13 BLIP says 'a photo of a guitar with a octopus on it' (no color mentioned). D16:14 (Calvin): 'I had this custom made by my Japanese artist friend. It's got an octopus on it.' No color is mentioned for this guitar. Additionally, D16:4 is cited as evidence but is completely irrelevant (Calvin talking about performing on a big stage). The color 'yellow' is a hallucination.",
+    "correct_answer": "custom-made guitar with an octopus on it, shiny purple guitar"
+  },
+  {
+    "question_id": "locomo_9_qa69",
+    "question": "When did Dave buy a vintage camera?",
+    "golden_answer": "November 2023",
+    "category": 2,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D30:05"
+    ],
+    "correct_evidence": [
+      "D30:5"
+    ],
+    "reasoning": "The cited evidence ID 'D30:05' is malformed and not found in the transcript (error: 'NOT FOUND IN TRANSCRIPT'). The correct evidence ID is 'D30:5' (Dave: 'Take a look at my new vintage camera that I bought this month, which takes awesome photos!' on November 17, 2023). The golden answer 'November 2023' is correct since 'this month' from November 17 = November 2023.",
+    "correct_answer": "November 2023"
+  },
+  {
+    "question_id": "locomo_9_qa72",
+    "question": "Which band was Dave's favorite at the music festival in April 2023?",
+    "golden_answer": "Aerosmith",
+    "category": 4,
+    "error_type": "AMBIGUOUS",
+    "cited_evidence": [
+      "D2:10"
+    ],
+    "correct_evidence": [
+      "D2:10"
+    ],
+    "reasoning": "The question refers to 'the music festival in April 2023' but the cited evidence D2:10 is from session 2 (March 26, 2023). Dave says in D2:8: 'Last weekend, I went to a music festival in Boston' on March 26, 2023, which is a Sunday. 'Last weekend' would place the festival around March 18-19 or March 25 - firmly in March 2023, not April. The answer 'Aerosmith' is correct for the March festival, but the question's premise of 'April 2023' is factually incorrect. Dave did not attend a music festival in April 2023.",
+    "correct_answer": "Aerosmith (but the festival was in March 2023, not April)"
+  },
+  {
+    "question_id": "locomo_9_qa88",
+    "question": "What did Calvin and his friends arrange for in the park?",
+    "golden_answer": "regular walks together",
+    "category": 4,
+    "error_type": "ATTRIBUTION_ERROR",
+    "cited_evidence": [
+      "D10:3"
+    ],
+    "correct_evidence": [
+      "D10:3"
+    ],
+    "reasoning": "D10:3 is Dave speaking, not Calvin: 'Glad to hear your car's fixed and going strong! I've been good too. Just been hanging out with friends at parks lately. I arranged with friends for regular walks together in the park.' It is Dave who arranged regular walks with his friends, not Calvin. The question incorrectly attributes this activity to Calvin.",
+    "correct_answer": "This was Dave and his friends, not Calvin. Dave arranged regular walks together in the park with his friends."
+  },
+  {
+    "question_id": "locomo_9_qa105",
+    "question": "What color glow did Calvin customize his guitar with?",
+    "golden_answer": "purple",
+    "category": 4,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D16:20"
+    ],
+    "correct_evidence": [
+      "D16:18",
+      "D16:19"
+    ],
+    "reasoning": "The cited evidence D16:20 (Calvin: 'I got it customized with a shiny finish because it gives it a unique look. Plus, it goes with my style.') does not mention the color purple. The color purple is established in D16:18 BLIP caption ('a photo of a guitar with a purple glow on it') and D16:19 (Dave: 'That guitar has a gorgeous purple hue. Why did you make it so shiny?'). The answer 'purple' is correct but the cited evidence does not support it.",
+    "correct_answer": "purple"
+  },
+  {
+    "question_id": "locomo_9_qa111",
+    "question": "Which Disney movie did Dave mention as one of his favorites?",
+    "golden_answer": "Ratatouille",
+    "category": 4,
+    "error_type": "WRONG_CITATION",
+    "cited_evidence": [
+      "D19:6"
+    ],
+    "correct_evidence": [
+      "D19:4",
+      "D19:5"
+    ],
+    "reasoning": "D19:6 is Calvin speaking ('Thanks! Ratatouille is one of my favorites!'), not Dave. Dave's mention is in D19:5 ('Wow, that's a gorgeous poster! It reminds me of one of my favorite Disney movies.'). The conversation flow: Calvin shows a Ratatouille poster (D19:4, BLIP: 'a photo of a poster for a disney movie with a chef'), Dave says it reminds him of one of his favorites (D19:5), then Calvin names Ratatouille as one of his favorites (D19:6). Dave never explicitly names Ratatouille, though it is implied from context. The answer is defensible but the citation should be D19:5 (and D19:4 for the poster context).",
+    "correct_answer": "Ratatouille"
+  },
+  {
+    "question_id": "locomo_9_qa137",
+    "question": "When did Calvin first get interested in cars?",
+    "golden_answer": "at an early age",
+    "category": 4,
+    "error_type": "ATTRIBUTION_ERROR",
+    "cited_evidence": [
+      "D26:6"
+    ],
+    "correct_evidence": [
+      "D26:6"
+    ],
+    "reasoning": "D26:6 is Dave speaking about his own experience: 'My dad took me to my first car show when I was 10, and I was wow-ed! I was hooked and wanted to learn more.' This is about Dave's early interest in cars, not Calvin's. The question asks about Calvin but the evidence describes Dave's childhood. There is no evidence in the transcript of when Calvin first became interested in cars. Calvin does mention being 'into cars' (D26:5: 'I'm totally into cars too and love making new and powerful models') but never states when this interest began.",
+    "correct_answer": "Cannot be determined from transcript; the 'early age' answer is about Dave, not Calvin"
+  },
+  {
+    "question_id": "locomo_9_qa147",
+    "question": "What tools does Calvin use to boost his motivation for music?",
+    "golden_answer": "Writing lyrics and notes",
+    "category": 4,
+    "error_type": "ATTRIBUTION_ERROR",
+    "cited_evidence": [
+      "D28:34"
+    ],
+    "correct_evidence": [
+      "D28:34"
+    ],
+    "reasoning": "D28:34 is Dave speaking, not Calvin: 'Yes, Calvin, writing lyrics and notes - that's awesome! It will boost my motivation! Writing lyrics boosts my motivation to grow!' It is Dave who says writing lyrics and notes boosts his motivation. The question asks about Calvin's tools. Looking at the context, D28:33 Calvin asks Dave 'Does this notebook help you stay connected to the creative process?' and Dave responds in D28:34 about his own motivation. The answer attributes Dave's statement to Calvin.",
+    "correct_answer": "Cannot be reliably determined; the 'writing lyrics and notes' answer is about Dave's motivation, not Calvin's"
+  },
+  {
+    "question_id": "locomo_9_qa151",
+    "question": "What hobby did Calvin take up recently?",
+    "golden_answer": "Photography",
+    "category": 4,
+    "error_type": "ATTRIBUTION_ERROR",
+    "cited_evidence": [
+      "D30:1"
+    ],
+    "correct_evidence": [
+      "D30:1"
+    ],
+    "reasoning": "D30:1 is Dave speaking about himself: 'Hey Calvin, long time no talk! A lot has happened. I've taken up photography and it's been great - been taking pics of the scenery around here which is really cool.' Photography is Dave's new hobby, not Calvin's. There is no evidence in the transcript that Calvin took up photography. The question incorrectly attributes Dave's hobby to Calvin.",
+    "correct_answer": "Photography is Dave's new hobby, not Calvin's. Calvin has not mentioned taking up a new hobby in the recent sessions."
+  }
+]
