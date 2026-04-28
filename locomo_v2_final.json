@@ -198,13 +198,14 @@
         "category": 3
       },
       {
-        "question": "What books has Melanie read?",
-        "answer": "Charlotte's Web, an unnamed book about pursuing dreams, and Becoming Nicole",
+        "question": "[V2_CORRECTION] What books has Melanie read?",
+        "answer": "Charlotte's Web and Nothing is Impossible",
         "evidence": [
           "D7:8",
           "D6:10"
         ],
-        "category": 1
+        "category": 1,
+        "v2_correction": true
       },
       {
         "question": "What does Melanie do to destress?",
@@ -271,8 +272,8 @@
         "category": 2
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What is the Guinea pig in the image doing as it peers out of the wooden tunnel?",
+        "answer": "It is standing on its hind legs with its front paws raised.",
         "evidence": [
           "D13:5"
         ],
@@ -372,8 +373,8 @@
         "category": 3
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] Which band's name is visible in the lower left corner of the concert photo?",
+        "answer": "AC/DC",
         "evidence": [
           "D2:12"
         ],
@@ -439,8 +440,8 @@
         "category": 3
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] According to the book cover in the image, who are the authors of \"The Kobold Guide to Board Game Design\"?",
+        "answer": "Mike Selinker and Bruno Faidutti",
         "evidence": [
           "D25:11"
         ],
@@ -533,8 +534,8 @@
         "category": 1
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] Based on Maria's message, when did she learn about the importance of self-care the \"hard way\"?",
+        "answer": "Last year",
         "evidence": [
           "D13:22"
         ],
@@ -1118,7 +1119,7 @@
         "category": 4
       },
       {
-        "question": "What precautionary sign did Melanie see at the café?",
+        "question": "What precautionary sign did Melanie see at the caf\u00e9?",
         "answer": "A sign stating that someone is not being able to leave",
         "evidence": [
           "D16:16"
@@ -1555,7 +1556,7 @@
         "adversarial_answer": "Ed Sheeran"
       },
       {
-        "question": "What precautionary sign did Caroline see at the café?",
+        "question": "What precautionary sign did Caroline see at the caf\u00e9?",
         "evidence": [
           "D16:16"
         ],
@@ -1763,7 +1764,7 @@
         {
           "speaker": "Melanie",
           "dia_id": "D2:1",
-          "text": "Hey Caroline, since we last chatted, I've had a lot of things happening to me. I ran a charity race for mental health last Saturday – it was really rewarding. Really made me think about taking care of our minds."
+          "text": "Hey Caroline, since we last chatted, I've had a lot of things happening to me. I ran a charity race for mental health last Saturday \u2013 it was really rewarding. Really made me think about taking care of our minds."
         },
         {
           "speaker": "Caroline",
@@ -1798,7 +1799,7 @@
         {
           "speaker": "Caroline",
           "dia_id": "D2:8",
-          "text": "Researching adoption agencies — it's been a dream to have a family and give a loving home to kids who need it."
+          "text": "Researching adoption agencies \u2014 it's been a dream to have a family and give a loving home to kids who need it."
         },
         {
           "speaker": "Melanie",
@@ -1912,7 +1913,7 @@
           "blip_caption": "a photo of a family posing for a picture in a yard",
           "query": "group of friends and family",
           "dia_id": "D3:11",
-          "text": "Thanks, Mel! My friends, family and mentors are my rocks – they motivate me and give me the strength to push on. Here's a pic from when we met up last week!"
+          "text": "Thanks, Mel! My friends, family and mentors are my rocks \u2013 they motivate me and give me the strength to push on. Here's a pic from when we met up last week!"
         },
         {
           "speaker": "Melanie",
@@ -2339,7 +2340,7 @@
           "query": "painted canvas follow your dreams",
           "dia_id": "D7:8",
           "re-download": true,
-          "text": "Caroline, so glad you got the support! Your experience really brought you to where you need to be. You're gonna make a huge difference! This book I read last year reminds me to always pursue my dreams, just like you are doing!🌟"
+          "text": "Caroline, so glad you got the support! Your experience really brought you to where you need to be. You're gonna make a huge difference! This book I read last year reminds me to always pursue my dreams, just like you are doing!\ud83c\udf1f"
         },
         {
           "speaker": "Caroline",
@@ -3244,7 +3245,7 @@
           "query": "oscar munching parsley playpen",
           "dia_id": "D13:5",
           "re-download": true,
-          "text": "He's so cute! What’s the funniest thing Oliver's done? And sure, check out this pic of him eating parsley! Veggies are his fave!"
+          "text": "He's so cute! What\u2019s the funniest thing Oliver's done? And sure, check out this pic of him eating parsley! Veggies are his fave!"
         },
         {
           "speaker": "Melanie",
@@ -3483,7 +3484,7 @@
         {
           "speaker": "Caroline",
           "dia_id": "D14:23",
-          "text": "I was out walking in my neighborhood when I came across this cool rainbow sidewalk for Pride Month. It was so vibrant and welcoming, I had to take a picture! It reminds us that love and acceptance are everywhere—even where we least expect it."
+          "text": "I was out walking in my neighborhood when I came across this cool rainbow sidewalk for Pride Month. It was so vibrant and welcoming, I had to take a picture! It reminds us that love and acceptance are everywhere\u2014even where we least expect it."
         },
         {
           "speaker": "Melanie",
@@ -3834,7 +3835,7 @@
           "blip_caption": "a photo of a sign posted on a door stating that someone is not being able to leave",
           "query": "me kids park joy love happiness",
           "dia_id": "D16:16",
-          "text": "Caroline, it's got to be tough dealing with those changes. Glad you've found people who uplift and accept you! Here's to a good time at the café last weekend - they even had thoughtful signs like this! It brings me so much happiness."
+          "text": "Caroline, it's got to be tough dealing with those changes. Glad you've found people who uplift and accept you! Here's to a good time at the caf\u00e9 last weekend - they even had thoughtful signs like this! It brings me so much happiness."
         },
         {
           "speaker": "Caroline",
@@ -3882,7 +3883,7 @@
         {
           "speaker": "Caroline",
           "dia_id": "D17:5",
-          "text": "That's great news about your friend! It can be tough, but so worth it. It's a great way to add to your family and show your love. If you ever do it, let me know — I'd love to help in any way I can."
+          "text": "That's great news about your friend! It can be tough, but so worth it. It's a great way to add to your family and show your love. If you ever do it, let me know \u2014 I'd love to help in any way I can."
         },
         {
           "speaker": "Melanie",
@@ -5270,7 +5271,7 @@
       "session_13_summary": "Caroline shared with Melanie that she applied to adoption agencies and received help from an adoption assistance group. Melanie congratulated Caroline and asked about her pets. Caroline mentioned her guinea pig named Oscar. Melanie shared that she had another cat named Bailey and showed Caroline a picture of her cat Oliver. Caroline shared a picture of Oscar eating parsley. Melanie mentioned that Oliver hid his bone in her slipper. Caroline reminisced about horseback riding with her dad and shared that she loves horses. Melanie showed Caroline a horse painting she did. Caroline shared a self-portrait she recently made, mentioning how painting helps her explore her identity. Melanie agreed and asked what else helps her. Caroline mentioned having supportive people and promoting LGBTQ rights. Melanie commended Caroline for her care and wished her the best on her adoption journey. They said goodbye and Melanie offered her support.",
       "session_14_summary": "Caroline tells Melanie that she went hiking last week and got into a bad situation with some people. She tried to apologize to them. Melanie is supportive and says that it takes a lot of courage and maturity to apologize. Melanie shows Caroline a pottery plate she made and Caroline compliments her on it. Melanie says that pottery is relaxing and creative. Caroline says that she has been busy painting and shows Melanie a painting of a sunset that she recently finished. Melanie compliments the painting and Caroline explains that she was inspired by a visit to the beach. Melanie says that she can feel the serenity of the beach in the painting. They discuss how art can connect people and Melanie mentions a volunteering experience at a homeless shelter. Caroline praises Melanie for her volunteering efforts. Melanie asks Caroline about her decision to transition and join the transgender community. Caroline explains that finding a supportive community has meant a lot to her and shows Melanie a mural that she created, explaining its symbolism. Melanie praises Caroline's courage as a trans person. Melanie asks Caroline if she has made any more art and Caroline shows her a stained glass window that she made for a local church. They discuss the inspiration behind the window and Melanie compliments Caroline on her artistry. Caroline shows Melanie a picture of a rainbow sidewalk that she found in her neighborhood",
       "session_15_summary": "Caroline and Melanie had a conversation at 3:19 pm on 28 August, 2023. Melanie had taken her kids to a park and enjoyed seeing them have fun outdoors. Caroline had been volunteering at an LGBTQ+ youth center and found it gratifying and fulfilling to support and guide the young people there. Melanie asked Caroline about her experience at the youth center and Caroline shared that connecting with the young folks and sharing her story had been meaningful and made her feel like she could make a difference. Caroline expressed her dedication to continuing volunteering at the youth center and mentioned that they were planning a talent show for the kids. Melanie expressed her excitement and support for Caroline's dedication to helping others. They also briefly discussed a band Melanie saw and Caroline spoke about her love for music and playing the guitar. They shared their favorite songs and agreed on the power of music to inspire and uplift.",
-      "session_16_summary": "Caroline and Melanie were chatting at 12:09 am on 13 September, 2023. Caroline told Melanie about her biking trip with friends and sent her a stunning picture. Melanie complimented the picture and shared her own experience of camping with her kids. They both agreed that being in nature was refreshing for the soul. Melanie asked Caroline about her upcoming plans. Caroline expressed how excited she was about her work volunteering for the LGBTQ+ community and how it inspired her to create art. Melanie admired Caroline's art and shared her own love for painting and pottery. They talked about the therapeutic aspect of art and how it helped them express their feelings. Caroline showed Melanie a painting she made about her journey as a trans woman. Melanie was impressed and proud of Caroline's progress. Caroline spoke about the changes in her relationships and how she was happier being around accepting and loving people. Melanie shared a picture from a café they visited and assured Caroline that everything was fine despite the serious sign. They ended their conversation by celebrating the joyful moments in life.",
+      "session_16_summary": "Caroline and Melanie were chatting at 12:09 am on 13 September, 2023. Caroline told Melanie about her biking trip with friends and sent her a stunning picture. Melanie complimented the picture and shared her own experience of camping with her kids. They both agreed that being in nature was refreshing for the soul. Melanie asked Caroline about her upcoming plans. Caroline expressed how excited she was about her work volunteering for the LGBTQ+ community and how it inspired her to create art. Melanie admired Caroline's art and shared her own love for painting and pottery. They talked about the therapeutic aspect of art and how it helped them express their feelings. Caroline showed Melanie a painting she made about her journey as a trans woman. Melanie was impressed and proud of Caroline's progress. Caroline spoke about the changes in her relationships and how she was happier being around accepting and loving people. Melanie shared a picture from a caf\u00e9 they visited and assured Caroline that everything was fine despite the serious sign. They ended their conversation by celebrating the joyful moments in life.",
       "session_17_summary": "Caroline reached out to her friend Melanie to share her excitement about her decision to adopt and become a mother. Melanie mentioned that she knew someone who had successfully adopted. Caroline gave Melanie some advice on how to get started with the adoption process, emphasizing the importance of research and emotional preparation. Melanie mentioned that she had recently experienced a setback due to an injury, but had found solace in reading and painting. Caroline showed interest in Melanie's paintings, and shared her own recent venture into abstract art. They discussed the emotions behind their artwork and the therapeutic nature of self-expression. Caroline also mentioned attending a poetry reading that celebrated transgender identities, which inspired her to create her own art. Melanie praised Caroline's artwork and they affirmed the importance of staying true to oneself and embracing personal growth and exploration.",
       "session_18_summary": "Melanie and Caroline are discussing a recent road trip on October 20, 2023. Melanie mentions that her son got into an accident, but fortunately, he is okay. She reflects on the importance of cherishing family and how they enjoyed their time at the Grand Canyon. Caroline acknowledges the resilience of children and the support that loved ones provide during tough times. Melanie expresses her gratitude for her family, who are her motivation and support. They also discuss the benefits of spending time in nature and how it helps them reset and recharge. Melanie shares that camping with her family brings peace and serenity and allows them to bond. Caroline compliments Melanie on the quality time she spends with her family and remarks on the priceless nature of these experiences.",
       "session_19_summary": "Caroline tells Melanie that she passed the adoption agency interviews last Friday and is excited about the progress she's making towards her goal of having a family. Melanie congratulates her and shows her some figurines that remind her of family love. Caroline explains that she wants to build her own family and provide a home for children in need, as a way of giving back and showing love and acceptance. Melanie agrees that everyone deserves love and acceptance and admires Caroline's passion for helping these kids. Caroline shares that finding self-acceptance was a long process for her, but now she's ready to offer love and support to those who need it. Melanie praises Caroline for her strength and inspiration. Caroline credits her friends, family, and role models for helping her find acceptance and wants to pass that same support to others. Melanie tells Caroline that she is happy for her and finds her journey inspiring. Caroline expresses gratitude for the support she's received and considers it a gift to be able to share her journey and help others. Melanie agrees that it's important to be there for each other. Caroline emphasizes the importance of being oneself and living honestly, as it brings freedom and contentment. Both friends express their agreement and appreciation for the support they've received in being true to themselves."
@@ -5512,8 +5513,8 @@
         "category": 2
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] To whom is the closed envelope on the table addressed according to the image?",
+        "answer": "Glenn",
         "evidence": [
           "D4:13"
         ],
@@ -6419,7 +6420,7 @@
           ],
           "re-download": true,
           "blip_caption": "a photography of a shopping mall with a glass entrance and a sign",
-          "text": "Hi Jon! So happy you're pushing forward with dancing! Inspiring 💪 I emailed some wholesalers and one replied and said yes today! I'm over the moon because now I can expand my clothing store and get closer to my customers. Check it out - here's a pic!"
+          "text": "Hi Jon! So happy you're pushing forward with dancing! Inspiring \ud83d\udcaa I emailed some wholesalers and one replied and said yes today! I'm over the moon because now I can expand my clothing store and get closer to my customers. Check it out - here's a pic!"
         },
         {
           "speaker": "Jon",
@@ -6860,7 +6861,7 @@
         {
           "speaker": "Jon",
           "dia_id": "D7:5",
-          "text": "Yeah, brand identity is key. Make sure yours stands out. Also be sure to build relationships with your customers – let them know you care. And don't forget to stay positive and motivate others. Your energy will be contagious!"
+          "text": "Yeah, brand identity is key. Make sure yours stands out. Also be sure to build relationships with your customers \u2013 let them know you care. And don't forget to stay positive and motivate others. Your energy will be contagious!"
         },
         {
           "speaker": "Gina",
@@ -7224,7 +7225,7 @@
         {
           "speaker": "Gina",
           "dia_id": "D10:8",
-          "text": "I get it, Jon. Confidence is important in business. I stay motivated by reminding myself of my successes and progress. It also helps to have a good support system. Just focus on why you started this – because you love it! Have faith in yourself, Jon. I do!"
+          "text": "I get it, Jon. Confidence is important in business. I stay motivated by reminding myself of my successes and progress. It also helps to have a good support system. Just focus on why you started this \u2013 because you love it! Have faith in yourself, Jon. I do!"
         },
         {
           "speaker": "Jon",
@@ -7381,7 +7382,7 @@
         {
           "speaker": "Jon",
           "dia_id": "D12:2",
-          "text": "Congrats, Gina! That's awesome news about the fashion internship. 🎉 So stoked for you. Where is the internship and how're you feelin' about it?"
+          "text": "Congrats, Gina! That's awesome news about the fashion internship. \ud83c\udf89 So stoked for you. Where is the internship and how're you feelin' about it?"
         },
         {
           "speaker": "Gina",
@@ -9461,8 +9462,8 @@
         "category": 1
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What detail in the background suggests the photo of the bookshelf was taken indoors?",
+        "answer": "The presence of window blinds",
         "evidence": [
           "D12:15"
         ],
@@ -9553,8 +9554,8 @@
         "category": 1
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] Mention one type of decorative item visible on the bottom shelf of the bookcase.",
+        "answer": "Figurines (or a teddy bear)",
         "evidence": [
           "D26:18"
         ],
@@ -9747,8 +9748,8 @@
         "category": 2
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What specific phrase is overlaid in white font on the image of the handshake?",
+        "answer": "THE END OF LIFE",
         "evidence": [
           "D4:22"
         ],
@@ -9810,8 +9811,8 @@
         "category": 4
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] Name two types of pastries clearly labeled on the cafe counter.",
+        "answer": "Croissant and Pain au Chocolat",
         "evidence": [
           "D3:15"
         ],
@@ -10348,8 +10349,8 @@
         "category": 4
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] Based on the background of the photo, what kind of event are the two individuals attending?",
+        "answer": "A festival, fair, or carnival",
         "evidence": [
           "D30:2"
         ],
@@ -10437,8 +10438,8 @@
         "category": 4
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What is the name of the dog mentioned in the text that is lying next to the laptop?",
+        "answer": "Daisy",
         "evidence": [
           "D8:17"
         ],
@@ -10446,8 +10447,8 @@
         "v2_replacement": true
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What are many of the audience members doing with their smartphones in the arena?",
+        "answer": "Capturing the moment or taking pictures",
         "evidence": [
           "D7:12"
         ],
@@ -10807,13 +10808,13 @@
         "adversarial_answer": "Coco"
       },
       {
-        "question": "mock_q",
+        "question": "[V2_REPLACEMENT] According to Audrey's text, when did the doggy playdate occur?",
         "evidence": [
           "D10:9"
         ],
         "category": 5,
         "adversarial_answer": "Peaceful and awesome",
-        "answer": "mock_a",
+        "answer": "Last Friday",
         "v2_replacement": true
       },
       {
@@ -11968,7 +11969,7 @@
         {
           "speaker": "Maria",
           "dia_id": "D10:8",
-          "text": "Awesome John! Glad it's chillin' and connecting you. Stretching and breathing are such powerful tools for wellbeing. So cool you found a beginner class to help you flex up. Keep it up! 🧘‍♀️"
+          "text": "Awesome John! Glad it's chillin' and connecting you. Stretching and breathing are such powerful tools for wellbeing. So cool you found a beginner class to help you flex up. Keep it up! \ud83e\uddd8\u200d\u2640\ufe0f"
         },
         {
           "speaker": "John",
@@ -14048,7 +14049,7 @@
         {
           "speaker": "John",
           "dia_id": "D27:5",
-          "text": "Wow, Maria! You really made an impact – it's awesome! I seriously admire what you do."
+          "text": "Wow, Maria! You really made an impact \u2013 it's awesome! I seriously admire what you do."
         },
         {
           "speaker": "Maria",
@@ -14282,7 +14283,7 @@
         {
           "speaker": "John",
           "dia_id": "D29:10",
-          "text": "Yep, we worked with a local organization that helps victims of domestic abuse. We raised awareness and funds at the event for the cause — it's unfortunate how many people suffer from it."
+          "text": "Yep, we worked with a local organization that helps victims of domestic abuse. We raised awareness and funds at the event for the cause \u2014 it's unfortunate how many people suffer from it."
         },
         {
           "speaker": "Maria",
@@ -14544,7 +14545,7 @@
         {
           "speaker": "John",
           "dia_id": "D31:13",
-          "text": "Animals are amazing— They can be incredible companions."
+          "text": "Animals are amazing\u2014 They can be incredible companions."
         },
         {
           "speaker": "Maria",
@@ -14638,7 +14639,7 @@
           "blip_caption": "a photo of a cardboard box with a sign on it",
           "query": "group of people lifting heavy object",
           "dia_id": "D32:5",
-          "text": "It definitely was! Everyone was so into it. It's amazing how a group can succeed at something so important. It only took us two hours. We worked hard but did something good – it was really satisfying."
+          "text": "It definitely was! Everyone was so into it. It's amazing how a group can succeed at something so important. It only took us two hours. We worked hard but did something good \u2013 it was really satisfying."
         },
         {
           "speaker": "Maria",
@@ -16561,8 +16562,8 @@
         "category": 3
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What fictional school's banners are used as a backdrop for the Christmas tree?",
+        "answer": "Hogwarts School of Witchcraft and Wizardry",
         "evidence": [
           "D8:30"
         ],
@@ -16827,8 +16828,8 @@
         "category": 2
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] According to the whiteboard, how many workouts were completed over a 9-week period?",
+        "answer": "34",
         "evidence": [
           "D24:10"
         ],
@@ -16930,8 +16931,8 @@
         "category": 2
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What is the color of the dress worn by the woman dancing in the center of the crowd?",
+        "answer": "Light blue",
         "evidence": [
           "D28:3"
         ],
@@ -16982,8 +16983,8 @@
         "category": 1
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] Describe the activity and setting shown in the image with the dog.",
+        "answer": "A dog resting on a rocky surface near a vast body of water and mountains.",
         "evidence": [
           "D26:23"
         ],
@@ -16991,8 +16992,8 @@
         "v2_replacement": true
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What are the two people on the beach watching as they hold hands?",
+        "answer": "The sunset (or sunrise)",
         "evidence": [
           "D16:11"
         ],
@@ -17010,8 +17011,8 @@
         "category": 1
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What are both individuals in the mountain photograph holding to their eyes?",
+        "answer": "Cameras or binoculars",
         "evidence": [
           "D26:8"
         ],
@@ -17040,8 +17041,8 @@
         "category": 1
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What specific programming language is mentioned in the chat screenshot?",
+        "answer": "Java",
         "evidence": [
           "D28:19"
         ],
@@ -17088,8 +17089,8 @@
         "category": 3
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] Based on Nate's text and the image, what kind of social game activity are they participating in?",
+        "answer": "A board game night",
         "evidence": [
           "D23:5"
         ],
@@ -17254,8 +17255,8 @@
         "category": 2
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What animal is being held by a hand over a plastic container in the image?",
+        "answer": "A snake",
         "evidence": [
           "D28:24"
         ],
@@ -17275,8 +17276,8 @@
         "category": 1
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What social message is written in the corner of the anime-style drawing?",
+        "answer": "TRANS RIGHTS",
         "evidence": [
           "D17:21"
         ],
@@ -17284,8 +17285,8 @@
         "v2_replacement": true
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] Name one of the prominent brand logos visible on the banners at the gaming convention.",
+        "answer": "PlayStation (or Red Bull)",
         "evidence": [
           "D3:9"
         ],
@@ -17503,8 +17504,8 @@
         "category": 4
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What specific strategy video game is being played on the computer screen?",
+        "answer": "Civilization VI",
         "evidence": [
           "D8:23"
         ],
@@ -17624,8 +17625,8 @@
         "category": 4
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] In what formation are the people on the beach standing in the silhouette photo?",
+        "answer": "A circular formation",
         "evidence": [
           "D10:22"
         ],
@@ -17745,8 +17746,8 @@
         "category": 4
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] Based on the armor and the \"WB GAMES\" logo, which video game does this character represent?",
+        "answer": "The Witcher 3",
         "evidence": [
           "D19:8"
         ],
@@ -17754,8 +17755,8 @@
         "v2_replacement": true
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What username is visible on the game interface in the screenshot?",
+        "answer": "Sludger29",
         "evidence": [
           "D22:3"
         ],
@@ -17923,8 +17924,8 @@
         "category": 4
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What is the full title of the video game shown on the \"Special Edition\" DVD cover?",
+        "answer": "Pathfinder Kingmaker",
         "evidence": [
           "D4:20"
         ],
@@ -18441,23 +18442,23 @@
         "adversarial_answer": "7"
       },
       {
-        "question": "mock_q",
+        "question": "[V2_REPLACEMENT] What kind of flooring is typically found in the dance studio shown in the image?",
         "evidence": [
           "D13:8"
         ],
         "category": 5,
         "adversarial_answer": "Woodhaven",
-        "answer": "mock_a",
+        "answer": "Polished wood",
         "v2_replacement": true
       },
       {
-        "question": "mock_q",
+        "question": "[V2_REPLACEMENT] Describe the unique accessory the corgi is wearing in the image.",
         "evidence": [
           "D26:32"
         ],
         "category": 5,
         "adversarial_answer": "cool old book collection",
-        "answer": "mock_a",
+        "answer": "A tie-dye bandana with a skull pattern",
         "v2_replacement": true
       },
       {
@@ -18541,13 +18542,13 @@
         "adversarial_answer": "chocolate raspberry tart"
       },
       {
-        "question": "mock_q",
+        "question": "[V2_REPLACEMENT] What warning is printed on the yellow tape seen in the photograph?",
         "evidence": [
           "D30:14"
         ],
         "category": 5,
         "adversarial_answer": "blueberries and coconut milk",
-        "answer": "mock_a",
+        "answer": "Do Not Enter",
         "v2_replacement": true
       },
       {
@@ -20057,7 +20058,7 @@
           "blip_caption": "a photo of a notepad with a dog on it and a pen",
           "query": "handwritten screenplay notebook.",
           "dia_id": "D12:12",
-          "text": "Yeah. It's so nice to have friends who understand and appreciate my work - it's priceless being able to talk about it together and receive feedback. Here's a look at what I've been working on – it's been quite a journey, but I made it!"
+          "text": "Yeah. It's so nice to have friends who understand and appreciate my work - it's priceless being able to talk about it together and receive feedback. Here's a look at what I've been working on \u2013 it's been quite a journey, but I made it!"
         },
         {
           "speaker": "Nate",
@@ -21231,7 +21232,7 @@
         {
           "speaker": "Nate",
           "dia_id": "D22:12",
-          "text": "I'm always here for you, Joanna! You've worked so hard and accomplished a lot – I'm proud. Keep on going!"
+          "text": "I'm always here for you, Joanna! You've worked so hard and accomplished a lot \u2013 I'm proud. Keep on going!"
         },
         {
           "speaker": "Joanna",
@@ -21774,7 +21775,7 @@
         {
           "speaker": "Joanna",
           "dia_id": "D26:1",
-          "text": "Wow, Nate, I'm on fire! I just set up meetings with movie producers — my dreams are comin' true!"
+          "text": "Wow, Nate, I'm on fire! I just set up meetings with movie producers \u2014 my dreams are comin' true!"
         },
         {
           "speaker": "Nate",
@@ -21911,7 +21912,7 @@
         {
           "speaker": "Nate",
           "dia_id": "D27:1",
-          "text": "Hey Joanna! Hope you’re doing alright. Crazy thing happened - I was in the final of a big Valorant tournament last Saturday, and I won! It was the best feeling to see my name as the champion. Tournaments really bring out strong emotions in me."
+          "text": "Hey Joanna! Hope you\u2019re doing alright. Crazy thing happened - I was in the final of a big Valorant tournament last Saturday, and I won! It was the best feeling to see my name as the champion. Tournaments really bring out strong emotions in me."
         },
         {
           "speaker": "Joanna",
@@ -24232,8 +24233,8 @@
         "category": 2
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What type of pattern is on the floor of the room where the two individuals are standing?",
+        "answer": "Checkered",
         "evidence": [
           "D28:5"
         ],
@@ -24488,8 +24489,8 @@
         "category": 3
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What is the dog doing in the photograph from the pet show?",
+        "answer": "Standing on an elevated platform",
         "evidence": [
           "D28:3"
         ],
@@ -24608,8 +24609,8 @@
         "category": 3
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] Based on the collage, what breed of dog is the large black and tan animal?",
+        "answer": "Saint Bernard",
         "evidence": [
           "D31:11"
         ],
@@ -24634,7 +24635,7 @@
       },
       {
         "question": "Which Star Wars-related locations would Tim enjoy during his visit to Ireland?",
-        "answer": "Skellig Michael, Malin Head, Loop Head, Ceann Sibéal, and Brow Head because they are Star Wars filming locations.",
+        "answer": "Skellig Michael, Malin Head, Loop Head, Ceann Sib\u00e9al, and Brow Head because they are Star Wars filming locations.",
         "evidence": [
           "D1:18",
           "D27:21",
@@ -24811,8 +24812,8 @@
         "category": 4
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What protective gear are the two people in the kitchen wearing?",
+        "answer": "Face masks",
         "evidence": [
           "D9:17"
         ],
@@ -25046,8 +25047,8 @@
         "category": 4
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What year is written in the corner of the mountain landscape photo?",
+        "answer": "1963",
         "evidence": [
           "D7:2"
         ],
@@ -25374,8 +25375,8 @@
         "category": 4
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What is the color and specific model of the Lamborghini at the car show?",
+        "answer": "Orange Lamborghini Aventador LP780-4",
         "evidence": [
           "D3:13"
         ],
@@ -25623,13 +25624,13 @@
         "adversarial_answer": "A local organization helping disadvantaged kids with sports and school"
       },
       {
-        "question": "mock_q",
+        "question": "[V2_REPLACEMENT] What number is visible on the jerseys of the basketball players?",
         "evidence": [
           "D22:6"
         ],
         "category": 5,
         "adversarial_answer": "a basketball with autographs on it",
-        "answer": "mock_a",
+        "answer": "16",
         "v2_replacement": true
       },
       {
@@ -25761,13 +25762,13 @@
         "adversarial_answer": "Smoky Mountains"
       },
       {
-        "question": "mock_q",
+        "question": "[V2_REPLACEMENT] Besides the turtles, what fruit is visible in the image shared by Nate?",
         "evidence": [
           "D8:13"
         ],
         "category": 5,
         "adversarial_answer": "Seeing their growth, improvement, and confidence",
-        "answer": "mock_a",
+        "answer": "Strawberries",
         "v2_replacement": true
       },
       {
@@ -25948,13 +25949,13 @@
         "adversarial_answer": "Sports and marketing seminars"
       },
       {
-        "question": "mock_q",
+        "question": "[V2_REPLACEMENT] Describe the physical feat being performed by the two individuals in the martial arts photo.",
         "evidence": [
           "D8:6"
         ],
         "category": 5,
         "adversarial_answer": "youth sports and fair chances in sports",
-        "answer": "mock_a",
+        "answer": "One person is balanced upside down on the shoulders of another.",
         "v2_replacement": true
       },
       {
@@ -26250,7 +26251,7 @@
         {
           "speaker": "Tim",
           "dia_id": "D2:17",
-          "text": "Wow! You look so into it in that pic – it must be so awesome playing at that level! Keep rockin' it!"
+          "text": "Wow! You look so into it in that pic \u2013 it must be so awesome playing at that level! Keep rockin' it!"
         },
         {
           "speaker": "John",
@@ -26780,7 +26781,7 @@
         {
           "speaker": "John",
           "dia_id": "D6:13",
-          "text": "Thanks! Basketball has been a part of my life ever since I was a kid. I'd watch NBA games with my dad and dream of playing on those big courts. When I turned ten, dad signed me up for a local league, and I've been playing ever since. I kept playing through middle and high school before earning a college scholarship. And after college, I was drafted by a team – my dream come true!"
+          "text": "Thanks! Basketball has been a part of my life ever since I was a kid. I'd watch NBA games with my dad and dream of playing on those big courts. When I turned ten, dad signed me up for a local league, and I've been playing ever since. I kept playing through middle and high school before earning a college scholarship. And after college, I was drafted by a team \u2013 my dream come true!"
         },
         {
           "speaker": "Tim",
@@ -28546,7 +28547,7 @@
         {
           "speaker": "John",
           "dia_id": "D19:8",
-          "text": "Thanks! That means a lot. Difficult times are part of life – what's important is how we handle them. When things get tough, I try to remember why I'm so passionate about basketball. That love and enthusiasm keeps me motivated, no matter what."
+          "text": "Thanks! That means a lot. Difficult times are part of life \u2013 what's important is how we handle them. When things get tough, I try to remember why I'm so passionate about basketball. That love and enthusiasm keeps me motivated, no matter what."
         },
         {
           "speaker": "Tim",
@@ -28639,7 +28640,7 @@
           "blip_caption": "a photo of a notepad with a note and pen on it",
           "query": "study materials",
           "dia_id": "D20:1",
-          "text": "Hey John! It's been ages since we last chatted. I had a tough exam last week that had me doubting myself. But instead of giving up, I turned it into a learning experience. I studied hard and it showed me how resilient and determined I can be. Here's a pic of my success 👍"
+          "text": "Hey John! It's been ages since we last chatted. I had a tough exam last week that had me doubting myself. But instead of giving up, I turned it into a learning experience. I studied hard and it showed me how resilient and determined I can be. Here's a pic of my success \ud83d\udc4d"
         },
         {
           "speaker": "John",
@@ -28940,7 +28941,7 @@
         {
           "speaker": "John",
           "dia_id": "D21:6",
-          "text": "Yeah, it's been great! Challenges, growth, all that jazz—it's been amazing."
+          "text": "Yeah, it's been great! Challenges, growth, all that jazz\u2014it's been amazing."
         },
         {
           "speaker": "Tim",
@@ -29007,7 +29008,7 @@
         {
           "speaker": "Tim",
           "dia_id": "D21:17",
-          "text": "Thanks for the helpful advice. Creating a constructive atmosphere and setting an example by working hard can really inspire people. It’s also inspiring to use our own stories to encourage others. Much appreciated!"
+          "text": "Thanks for the helpful advice. Creating a constructive atmosphere and setting an example by working hard can really inspire people. It\u2019s also inspiring to use our own stories to encourage others. Much appreciated!"
         },
         {
           "speaker": "John",
@@ -29076,7 +29077,7 @@
           "blip_caption": "a photo of a stack of books sitting on top of a table",
           "query": "fantasy novels stack bookmarks power friendship loyalty",
           "dia_id": "D22:7",
-          "text": "Wow, that's awesome! It's great to see how close you all have become. You must feel a great sense of unity. I'm reading this amazing series about the power of friendship and loyalty – really inspiring stuff. Anything special you do to keep that bond strong?"
+          "text": "Wow, that's awesome! It's great to see how close you all have become. You must feel a great sense of unity. I'm reading this amazing series about the power of friendship and loyalty \u2013 really inspiring stuff. Anything special you do to keep that bond strong?"
         },
         {
           "speaker": "John",
@@ -31814,8 +31815,8 @@
         "category": 2
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] According to Calvin's text, when is he planning to visit the location shown in the living room photo?",
+        "answer": "Next month",
         "evidence": [
           "D1:9"
         ],
@@ -31823,8 +31824,8 @@
         "v2_replacement": true
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What specific activity is offered at the table where the young girl is sitting?",
+        "answer": "Make Your Own Fake Tattoo",
         "evidence": [
           "D24:9"
         ],
@@ -31904,8 +31905,8 @@
         "category": 1
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What weapons are the performers holding in the traditional dance photo?",
+        "answer": "Swords and spears",
         "evidence": [
           "D8:17"
         ],
@@ -31913,8 +31914,8 @@
         "v2_replacement": true
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What distinctive clothing pattern are the three individuals wearing in the photo?",
+        "answer": "Camouflage",
         "evidence": [
           "D7:5"
         ],
@@ -31922,8 +31923,8 @@
         "v2_replacement": true
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] Describe the outfit worn by the central figure in the theatrical performance photo.",
+        "answer": "A black and white striped suit with a top hat and sunglasses",
         "evidence": [
           "D9:5"
         ],
@@ -32027,8 +32028,8 @@
         "category": 1
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] Which programming language is being used in the code editor shown on the screen?",
+        "answer": "Python",
         "evidence": [
           "D14:2"
         ],
@@ -32103,8 +32104,8 @@
         "category": 1
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] How many people are required to lift the heavy object according to the box's warning label?",
+        "answer": "Two people",
         "evidence": [
           "D32:5"
         ],
@@ -32240,8 +32241,8 @@
         "category": 1
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What color is the collar on the small dog lying on the chair?",
+        "answer": "Pink",
         "evidence": [
           "D2:17"
         ],
@@ -32587,8 +32588,8 @@
         "category": 4
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What famous guitar brand name is visible on the headstock in the photo?",
+        "answer": "Fender",
         "evidence": [
           "D16:8"
         ],
@@ -32980,13 +32981,13 @@
         "adversarial_answer": "Petted, hugged, spoke calmly and slowly walked the dog"
       },
       {
-        "question": "mock_q",
+        "question": "[V2_REPLACEMENT] Who is the handwritten note from, and to whom is it addressed?",
         "evidence": [
           "D3:9"
         ],
         "category": 5,
         "adversarial_answer": "Multiple times a day",
-        "answer": "mock_a",
+        "answer": "From Ava to Katie",
         "v2_replacement": true
       },
       {
@@ -33450,7 +33451,7 @@
         {
           "speaker": "Andrew",
           "dia_id": "D3:7",
-          "text": "I hear ya. Can’t do that here unfortunately, city living makes it hard. Really miss that connection and companionship."
+          "text": "I hear ya. Can\u2019t do that here unfortunately, city living makes it hard. Really miss that connection and companionship."
         },
         {
           "speaker": "Audrey",
@@ -33592,7 +33593,7 @@
         {
           "speaker": "Audrey",
           "dia_id": "D3:30",
-          "text": "I've always had a strong bond with them – they make me so happy, and I just want to see their happy faceseven when thry're not with me."
+          "text": "I've always had a strong bond with them \u2013 they make me so happy, and I just want to see their happy faceseven when thry're not with me."
         },
         {
           "speaker": "Andrew",
@@ -33939,7 +33940,7 @@
           "query": "hike nature open space",
           "dia_id": "D6:1",
           "re-download": true,
-          "text": "Hi Audrey! I had a great hike last weekend with some friends and my girlfriend at the spot we found recently. Nature was so peaceful – it was so nice to just relax and take it in. How's your week been? Anything exciting going on lately?"
+          "text": "Hi Audrey! I had a great hike last weekend with some friends and my girlfriend at the spot we found recently. Nature was so peaceful \u2013 it was so nice to just relax and take it in. How's your week been? Anything exciting going on lately?"
         },
         {
           "speaker": "Audrey",
@@ -33960,7 +33961,7 @@
         {
           "speaker": "Audrey",
           "dia_id": "D6:4",
-          "text": "I know right? I saw this workshop flyer at my local pet store. It was a positive reinforcement training class and I wanted to give it a shot. The volunteer in the store was nice enough to let me meet their dog – he was so friendly and playful!"
+          "text": "I know right? I saw this workshop flyer at my local pet store. It was a positive reinforcement training class and I wanted to give it a shot. The volunteer in the store was nice enough to let me meet their dog \u2013 he was so friendly and playful!"
         },
         {
           "speaker": "Andrew",
@@ -37530,7 +37531,7 @@
       },
       "events_session_18": {
         "Audrey": [
-          "Audrey sets up a doggy-playdate with her neighbors’ dogs.",
+          "Audrey sets up a doggy-playdate with her neighbors\u2019 dogs.",
           "Audrey goes shopping for dog beds for her four dogs."
         ],
         "Andrew": [
@@ -39411,8 +39412,8 @@
         "category": 1
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What color is the light used in the snake's enclosure?",
+        "answer": "Red",
         "evidence": [
           "D15:16"
         ],
@@ -40060,8 +40061,8 @@
         "category": 4
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] Name three colors of baubles visible on the Christmas tree shared by John.",
+        "answer": "Red, green, and gold (or silver)",
         "evidence": [
           "D8:29"
         ],
@@ -40077,8 +40078,8 @@
         "category": 4
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What website URL is watermarked on the cityscape photo?",
+        "answer": "WWW.SHOOT360.ORG",
         "evidence": [
           "D10:5"
         ],
@@ -40433,13 +40434,13 @@
         "adversarial_answer": "books, movies, dreams"
       },
       {
-        "question": "mock_q",
+        "question": "[V2_REPLACEMENT] Mention two types of vegetables being chopped in the kitchen scene.",
         "evidence": [
           "D15:24"
         ],
         "category": 5,
         "adversarial_answer": "drums",
-        "answer": "mock_a",
+        "answer": "Broccoli and carrots",
         "v2_replacement": true
       },
       {
@@ -40600,7 +40601,7 @@
         {
           "speaker": "James",
           "dia_id": "D1:10",
-          "text": "I haven’t worked with any other programming languages, but I hope to work in the future."
+          "text": "I haven\u2019t worked with any other programming languages, but I hope to work in the future."
         },
         {
           "speaker": "John",
@@ -40702,7 +40703,7 @@
         {
           "speaker": "John",
           "dia_id": "D1:27",
-          "text": "I'm sure you're very good at this. Unfortunately, I can’t share my love for him with you, my fingers are too big. Perhaps I should take up exercise, at least start going for a run in the morning. And I also don’t like bowling itself, to be honest."
+          "text": "I'm sure you're very good at this. Unfortunately, I can\u2019t share my love for him with you, my fingers are too big. Perhaps I should take up exercise, at least start going for a run in the morning. And I also don\u2019t like bowling itself, to be honest."
         },
         {
           "speaker": "James",
@@ -41060,7 +41061,7 @@
           "speaker": "James",
           "blip_caption": "a photo of a man sitting in a chair playing a video game",
           "dia_id": "D4:8",
-          "text": "I met the whole team! It’s a pity I didn’t get a chance to take a photo with them, but one of them even gave me a couple of gaming tips."
+          "text": "I met the whole team! It\u2019s a pity I didn\u2019t get a chance to take a photo with them, but one of them even gave me a couple of gaming tips."
         },
         {
           "speaker": "John",
@@ -41272,7 +41273,7 @@
         {
           "speaker": "James",
           "dia_id": "D6:2",
-          "text": "Hey John! Glad you had a great week meeting new people! Something awesome happened to me last Thursday – I got to work with one of my gaming pals on a programming project! We combined programming and gaming, and created this virtual world inspired by Witcher 3. It was awesome to see our ideas come to life!"
+          "text": "Hey John! Glad you had a great week meeting new people! Something awesome happened to me last Thursday \u2013 I got to work with one of my gaming pals on a programming project! We combined programming and gaming, and created this virtual world inspired by Witcher 3. It was awesome to see our ideas come to life!"
         },
         {
           "speaker": "John",
@@ -41298,7 +41299,7 @@
         {
           "speaker": "James",
           "dia_id": "D6:6",
-          "text": "Thanks, I'm glad you can feel the atmosphere. I got the idea from a walk with my dogs two weeks ago. We were walking around our neighborhood, and a stranger was walking towards us. I had never seen her nearby before. Her eyes and appearance amazed me so much, it seemed to me that I fell in love at first sight. It’s a pity that I didn’t approach her to get to know her, but at least I remembered her appearance and embodied it in the game."
+          "text": "Thanks, I'm glad you can feel the atmosphere. I got the idea from a walk with my dogs two weeks ago. We were walking around our neighborhood, and a stranger was walking towards us. I had never seen her nearby before. Her eyes and appearance amazed me so much, it seemed to me that I fell in love at first sight. It\u2019s a pity that I didn\u2019t approach her to get to know her, but at least I remembered her appearance and embodied it in the game."
         },
         {
           "speaker": "John",
@@ -42012,7 +42013,7 @@
         {
           "speaker": "John",
           "dia_id": "D11:13",
-          "text": "I haven’t found it yet, but to be honest I haven’t looked for it. I think it won’t be difficult for me to find the organization I need."
+          "text": "I haven\u2019t found it yet, but to be honest I haven\u2019t looked for it. I think it won\u2019t be difficult for me to find the organization I need."
         },
         {
           "speaker": "James",
@@ -42173,7 +42174,7 @@
         {
           "speaker": "James",
           "dia_id": "D13:10",
-          "text": "Not least because of this. I love football, but, of course, the most important reason is to improve yourself. But it’s nice if it’s also connected with something you like."
+          "text": "Not least because of this. I love football, but, of course, the most important reason is to improve yourself. But it\u2019s nice if it\u2019s also connected with something you like."
         },
         {
           "speaker": "John",
@@ -42321,7 +42322,7 @@
           "blip_caption": "a photo of a dog chewing on a shoe on a person's lap",
           "query": "dog max playing fetch",
           "dia_id": "D14:13",
-          "text": "This is Max – he's so lovable and playful. He brings me so much joy, especially in tough times."
+          "text": "This is Max \u2013 he's so lovable and playful. He brings me so much joy, especially in tough times."
         },
         {
           "speaker": "John",
@@ -42611,7 +42612,7 @@
         {
           "speaker": "James",
           "dia_id": "D16:9",
-          "text": "I also love to read, especially while snuggled under the covers on a cold winter day. But now it’s summer and I want something more exciting! By the way, I bought air tickets to Toronto, and I’m leaving the day after tomorrow evening."
+          "text": "I also love to read, especially while snuggled under the covers on a cold winter day. But now it\u2019s summer and I want something more exciting! By the way, I bought air tickets to Toronto, and I\u2019m leaving the day after tomorrow evening."
         },
         {
           "speaker": "John",
@@ -42631,7 +42632,7 @@
         {
           "speaker": "James",
           "dia_id": "D16:13",
-          "text": "I plan to return on July 20, I’ll definitely bring you some kind of souvenir!"
+          "text": "I plan to return on July 20, I\u2019ll definitely bring you some kind of souvenir!"
         },
         {
           "speaker": "John",
@@ -42729,7 +42730,7 @@
         {
           "speaker": "James",
           "dia_id": "D17:14",
-          "text": "That looks fun. But I don’t remember at all under what circumstances we took this picture. What's the story behind it?"
+          "text": "That looks fun. But I don\u2019t remember at all under what circumstances we took this picture. What's the story behind it?"
         },
         {
           "speaker": "John",
@@ -42770,7 +42771,7 @@
           "speaker": "John",
           "blip_caption": "a photo of a cat laying on a bed with a stuffed animal",
           "dia_id": "D17:21",
-          "text": "Yeah, the bond between us and our pets is amazing. They bring a lot of joy and love. It’s a pity that I don’t have pets, I’ll definitely get one someday. By the way, how was your trip?"
+          "text": "Yeah, the bond between us and our pets is amazing. They bring a lot of joy and love. It\u2019s a pity that I don\u2019t have pets, I\u2019ll definitely get one someday. By the way, how was your trip?"
         },
         {
           "speaker": "James",
@@ -42982,7 +42983,7 @@
         {
           "speaker": "John",
           "dia_id": "D19:3",
-          "text": "Lately, I've been playing some different genres like strategy and RPG games instead of my usual shooters. I’m already thinking about making competitions for them too."
+          "text": "Lately, I've been playing some different genres like strategy and RPG games instead of my usual shooters. I\u2019m already thinking about making competitions for them too."
         },
         {
           "speaker": "James",
@@ -43315,7 +43316,7 @@
           "query": "unity strategy game",
           "dia_id": "D22:1",
           "re-download": true,
-          "text": "Hey John! Been a while, but hope you're doing well. My Unity strategy game is finally finished—it took loads of time and effort, but I'm really proud. Your support and encouragement made a real difference. Thanks for believing in me!"
+          "text": "Hey John! Been a while, but hope you're doing well. My Unity strategy game is finally finished\u2014it took loads of time and effort, but I'm really proud. Your support and encouragement made a real difference. Thanks for believing in me!"
         },
         {
           "speaker": "John",
@@ -43490,7 +43491,7 @@
         {
           "speaker": "John",
           "dia_id": "D23:14",
-          "text": "Cool! I’ve never heard of your desire to cook, you surprise me! How much do these cooking courses cost and what else did you cook there?"
+          "text": "Cool! I\u2019ve never heard of your desire to cook, you surprise me! How much do these cooking courses cost and what else did you cook there?"
         },
         {
           "speaker": "James",
@@ -43681,7 +43682,7 @@
           "blip_caption": "a photo of a fire burning in a metal pot on a street",
           "query": "work project",
           "dia_id": "D25:3",
-          "text": "Yesterday I started a new startup - portable smokers. Now, I’ve already welded one from metal. Do you think it looks good? How about you, any cool stuff happening?"
+          "text": "Yesterday I started a new startup - portable smokers. Now, I\u2019ve already welded one from metal. Do you think it looks good? How about you, any cool stuff happening?"
         },
         {
           "speaker": "James",
@@ -43713,7 +43714,7 @@
         {
           "speaker": "James",
           "dia_id": "D25:8",
-          "text": "Way to go, John! Congrats on achieving that major career milestone. Could you tell me more about it? Why didn’t you say before that you were creating a mobile game?"
+          "text": "Way to go, John! Congrats on achieving that major career milestone. Could you tell me more about it? Why didn\u2019t you say before that you were creating a mobile game?"
         },
         {
           "speaker": "John",
@@ -44136,7 +44137,7 @@
         {
           "speaker": "John",
           "dia_id": "D28:28",
-          "text": "I'm really glad you're enjoying this game. There will be so many unexpected turns in it, you can’t even imagine!"
+          "text": "I'm really glad you're enjoying this game. There will be so many unexpected turns in it, you can\u2019t even imagine!"
         },
         {
           "speaker": "James",
@@ -44244,7 +44245,7 @@
         {
           "speaker": "James",
           "dia_id": "D29:12",
-          "text": "We just love it! I’ll be honest, one of the criteria for our choice of apartment was this particular bar nearby."
+          "text": "We just love it! I\u2019ll be honest, one of the criteria for our choice of apartment was this particular bar nearby."
         },
         {
           "speaker": "John",
@@ -44456,7 +44457,7 @@
         {
           "speaker": "John",
           "dia_id": "D31:14",
-          "text": "You are right! I still haven’t gotten a dog, but I still really want one. What is it like to have a dog?"
+          "text": "You are right! I still haven\u2019t gotten a dog, but I still really want one. What is it like to have a dog?"
         },
         {
           "speaker": "James",
@@ -46259,8 +46260,8 @@
         "category": 1
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What toy are the dogs and their owners playing with in the park?",
+        "answer": "A frisbee",
         "evidence": [
           "D3:24"
         ],
@@ -46349,8 +46350,8 @@
         "category": 3
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What color is the leash on the Labrador puppy sitting in the flowers?",
+        "answer": "Blue",
         "evidence": [
           "D17:5"
         ],
@@ -46447,8 +46448,8 @@
         "category": 2
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What brand name is printed on the side of the black and pink sneaker?",
+        "answer": "ASICS",
         "evidence": [
           "D13:15"
         ],
@@ -46464,8 +46465,8 @@
         "category": 2
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What is the name signed in the bottom right corner of the surfboard art?",
+        "answer": "Karl",
         "evidence": [
           "D29:28"
         ],
@@ -46624,8 +46625,8 @@
         "category": 2
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] According to Calvin's text, what is the intended final use for the room shown under construction?",
+        "answer": "A recording studio",
         "evidence": [
           "D11:4"
         ],
@@ -46719,8 +46720,8 @@
         "category": 2
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What color are the two pillows on the brown leather armchair?",
+        "answer": "Yellow and red-orange",
         "evidence": [
           "D16:11"
         ],
@@ -46861,8 +46862,8 @@
         "category": 1
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What is the shape of the blue toy that the dog Max is resting his head on?",
+        "answer": "A fish",
         "evidence": [
           "D14:13"
         ],
@@ -46988,8 +46989,8 @@
         "category": 4
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What color are the two pillows on the brown leather armchair?",
+        "answer": "Yellow and red-orange",
         "evidence": [
           "D3:32"
         ],
@@ -47081,8 +47082,8 @@
         "category": 4
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What is the central object in the water in Deborah's favorite pondering spot?",
+        "answer": "A small boat with a single oar",
         "evidence": [
           "D23:12"
         ],
@@ -47290,8 +47291,8 @@
         "category": 4
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What quote is written on the cover of the black spiral notebook?",
+        "answer": "\"Who you are tomorrow begins with what you do today.\"",
         "evidence": [
           "D23:23"
         ],
@@ -47315,8 +47316,8 @@
         "category": 4
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What specific promotional text is visible on the bouquet of roses?",
+        "answer": "20% off",
         "evidence": [
           "D20:6"
         ],
@@ -47711,8 +47712,8 @@
         "category": 4
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What two types of disposal labels are seen on the red mailbox unit?",
+        "answer": "TRASH and RECYCLING",
         "evidence": [
           "D20:31"
         ],
@@ -51064,7 +51065,7 @@
         {
           "speaker": "Jolene",
           "dia_id": "D22:26",
-          "text": "It’s wonderful that you have become their loving owner!"
+          "text": "It\u2019s wonderful that you have become their loving owner!"
         },
         {
           "speaker": "Deborah",
@@ -51591,7 +51592,7 @@
         {
           "speaker": "Jolene",
           "dia_id": "D26:14",
-          "text": "Tell me more about it when we meet, maybe next time we’ll be there."
+          "text": "Tell me more about it when we meet, maybe next time we\u2019ll be there."
         },
         {
           "speaker": "Deborah",
@@ -54096,8 +54097,8 @@
         "category": 1
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What object is resting next to the black dog's paw in the photo?",
+        "answer": "A yellow tennis ball",
         "evidence": [
           "D13:7"
         ],
@@ -54336,8 +54337,8 @@
         "category": 3
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What animal is pictured next to the word \"MILK\" on the clipboard?",
+        "answer": "A cow",
         "evidence": [
           "D13:9"
         ],
@@ -54345,8 +54346,8 @@
         "v2_replacement": true
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What are the men at the winter campsite holding while gathered around the fire?",
+        "answer": "Red cups",
         "evidence": [
           "D18:1"
         ],
@@ -54362,8 +54363,8 @@
         "category": 3
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What year is written next to the entry about starting a blog in the notebook?",
+        "answer": "2019",
         "evidence": [
           "D17:6"
         ],
@@ -55175,8 +55176,8 @@
         "category": 4
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What unique accessory is the dog in the foreground wearing around its neck?",
+        "answer": "A bright green light",
         "evidence": [
           "D23:8"
         ],
@@ -55858,7 +55859,7 @@
           "blip_caption": "a photo of a person holding a bottle of medicine in their hand",
           "query": "medication reminder health scare",
           "dia_id": "D3:1",
-          "text": "Hey Sam! Long time no talk! How're you doing? Life's been quite the rollercoaster lately. I had a health scare last week – a sudden heart palpitation incident that really shook me up. It's been a serious wake-up call about my lifestyle."
+          "text": "Hey Sam! Long time no talk! How're you doing? Life's been quite the rollercoaster lately. I had a health scare last week \u2013 a sudden heart palpitation incident that really shook me up. It's been a serious wake-up call about my lifestyle."
         },
         {
           "speaker": "Sam",
@@ -56922,7 +56923,7 @@
         {
           "speaker": "Sam",
           "dia_id": "D11:5",
-          "text": "Glad PT is helping, Evan! Taking care of yourself is key – have you explored any fun indoor activities or hobbies?"
+          "text": "Glad PT is helping, Evan! Taking care of yourself is key \u2013 have you explored any fun indoor activities or hobbies?"
         },
         {
           "speaker": "Evan",
@@ -57539,7 +57540,7 @@
         {
           "speaker": "Evan",
           "dia_id": "D17:4",
-          "text": "That sucks, Sam. It's tough when our health holds us back. I believe in you – just taking small steps can help. Have you tried any new hobbies recently to take your mind off it?"
+          "text": "That sucks, Sam. It's tough when our health holds us back. I believe in you \u2013 just taking small steps can help. Have you tried any new hobbies recently to take your mind off it?"
         },
         {
           "speaker": "Sam",
@@ -58025,7 +58026,7 @@
           "blip_caption": "a photo of a painting with a white background and a blue, orange, and black painting",
           "query": "canvas painting colorful abstract strokes",
           "dia_id": "D21:10",
-          "text": "Yeah, I get it. Life's all about finding what works for you. Like your morning runs, they're a step towards something good, right? Keep trying new things, Sam, and you might find your own version of love in the most unexpected places. Embrace the journey — it’s full of surprises!"
+          "text": "Yeah, I get it. Life's all about finding what works for you. Like your morning runs, they're a step towards something good, right? Keep trying new things, Sam, and you might find your own version of love in the most unexpected places. Embrace the journey \u2014 it\u2019s full of surprises!"
         },
         {
           "speaker": "Sam",
@@ -58109,7 +58110,7 @@
           "query": "hiking trip mountain top",
           "dia_id": "D22:1",
           "re-download": true,
-          "text": "Hey Evan! I’m really getting into this healthier lifestyle—just took my friends on an epic hiking trip last Friday!"
+          "text": "Hey Evan! I\u2019m really getting into this healthier lifestyle\u2014just took my friends on an epic hiking trip last Friday!"
         },
         {
           "speaker": "Evan",
@@ -58119,7 +58120,7 @@
           "blip_caption": "a photo of a small stream running through a lush green forest",
           "query": "scenic lookout drive peaceful relaxing",
           "dia_id": "D22:2",
-          "text": "Hey Sam! That’s fantastic—nothing like a good hike to feel alive. We took the Prius for a long drive to the mountains last weekend. It was perfect until we got into a little scrape on the way back."
+          "text": "Hey Sam! That\u2019s fantastic\u2014nothing like a good hike to feel alive. We took the Prius for a long drive to the mountains last weekend. It was perfect until we got into a little scrape on the way back."
         },
         {
           "speaker": "Sam",
@@ -58129,7 +58130,7 @@
         {
           "speaker": "Evan",
           "dia_id": "D22:4",
-          "text": "Yeah, we were fine, thanks. Just a minor accident, but it put a bit of a damper on telling my work friends about getting married. They’ve been a great support, though."
+          "text": "Yeah, we were fine, thanks. Just a minor accident, but it put a bit of a damper on telling my work friends about getting married. They\u2019ve been a great support, though."
         },
         {
           "speaker": "Sam",
@@ -58144,7 +58145,7 @@
         {
           "speaker": "Sam",
           "dia_id": "D22:7",
-          "text": "True, it’s important to stay safe. Glad you can still enjoy the peaceful moments after something like that."
+          "text": "True, it\u2019s important to stay safe. Glad you can still enjoy the peaceful moments after something like that."
         },
         {
           "speaker": "Evan",
@@ -58164,7 +58165,7 @@
           "blip_caption": "a photo of a woman sitting at a table with plates and glasses",
           "query": "ginger snaps tea cups table",
           "dia_id": "D22:10",
-          "text": "For sure, and nature has been a great healer. Speaking of which, I’ve got to share some of these new healthy snacks I’ve been trying."
+          "text": "For sure, and nature has been a great healer. Speaking of which, I\u2019ve got to share some of these new healthy snacks I\u2019ve been trying."
         },
         {
           "speaker": "Sam",
@@ -58179,12 +58180,12 @@
           "blip_caption": "a photo of a bunch of cookies on a cooling rack",
           "query": "ginger snaps plate",
           "dia_id": "D22:12",
-          "text": "Exactly! They’re packed with nutrients and really easy to make. You also need to try these cookies, they are awesome! I’ll send you the recipes."
+          "text": "Exactly! They\u2019re packed with nutrients and really easy to make. You also need to try these cookies, they are awesome! I\u2019ll send you the recipes."
         },
         {
           "speaker": "Sam",
           "dia_id": "D22:13",
-          "text": "Thanks, I’d appreciate that. It’s good to find new ways to stay healthy. Do you have any healthier snack ideas?"
+          "text": "Thanks, I\u2019d appreciate that. It\u2019s good to find new ways to stay healthy. Do you have any healthier snack ideas?"
         },
         {
           "speaker": "Evan",
@@ -58242,7 +58243,7 @@
           "blip_caption": "a photo of a man and a woman standing on a rocky beach",
           "query": "couple families announcement",
           "dia_id": "D23:1",
-          "text": "Hey Sam, guess what? My partner and I told our extended fam about our marriage yesterday – it was so special! We've been totally overwhelmed by all their love and support."
+          "text": "Hey Sam, guess what? My partner and I told our extended fam about our marriage yesterday \u2013 it was so special! We've been totally overwhelmed by all their love and support."
         },
         {
           "speaker": "Sam",
@@ -58317,7 +58318,7 @@
         {
           "speaker": "Evan",
           "dia_id": "D23:15",
-          "text": "Thanks, Sam! We're having a family get-together tonight and enjoying some homemade lasagna. Super excited! By the way, I've started a new diet—limiting myself to just two ginger snaps a day. What's on your menu tonight?\t"
+          "text": "Thanks, Sam! We're having a family get-together tonight and enjoying some homemade lasagna. Super excited! By the way, I've started a new diet\u2014limiting myself to just two ginger snaps a day. What's on your menu tonight?\t"
         },
         {
           "speaker": "Sam",
@@ -58547,7 +58548,7 @@
         {
           "speaker": "Sam",
           "dia_id": "D24:20",
-          "text": "Between a healthier diet and yoga, I’m hoping for some positive changes."
+          "text": "Between a healthier diet and yoga, I\u2019m hoping for some positive changes."
         },
         {
           "speaker": "Evan",
@@ -60114,8 +60115,8 @@
         "category": 1
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What is the subject of the painting Evan shared in the chat?",
+        "answer": "A seascape at sunset",
         "evidence": [
           "D10:1"
         ],
@@ -60133,8 +60134,8 @@
         "category": 1
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What feature is located in the center of the park in the aerial cityscape photo?",
+        "answer": "A circular fountain",
         "evidence": [
           "D27:38"
         ],
@@ -60280,8 +60281,8 @@
         "category": 1
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] Name the two characters whose portraits are visible on the game interface.",
+        "answer": "Olivia and Katarina",
         "evidence": [
           "D29:5"
         ],
@@ -60289,8 +60290,8 @@
         "v2_replacement": true
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] Describe the landscape shown in the panoramic photograph shared by John.",
+        "answer": "A snowy mountainous landscape with a frozen body of water",
         "evidence": [
           "D20:32"
         ],
@@ -60488,8 +60489,8 @@
         "category": 1
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] Which two famous football figures are featured in the background collage at the awards ceremony?",
+        "answer": "Arsene Wenger and Dennis Bergkamp",
         "evidence": [
           "D26:3"
         ],
@@ -60540,8 +60541,8 @@
         "category": 2
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What is the title of the gaming magazine shown on the cover?",
+        "answer": "The Masterpiece",
         "evidence": [
           "D25:14"
         ],
@@ -60613,8 +60614,8 @@
         "category": 1
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What activity are the group of people participating in outdoors in the photo?",
+        "answer": "Yoga",
         "evidence": [
           "D14:1"
         ],
@@ -60662,8 +60663,8 @@
         "category": 2
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What items are organized on the shelf in the photo shared by Joanna?",
+        "answer": "Various books and magazines",
         "evidence": [
           "D6:8"
         ],
@@ -60887,8 +60888,8 @@
         "category": 4
       },
       {
-        "question": "mock_q",
-        "answer": "mock_a",
+        "question": "[V2_REPLACEMENT] What weapons is the character carrying in James's hand-drawn sketch?",
+        "answer": "A sword and a shield",
         "evidence": [
           "D1:20"
         ],
@@ -61491,13 +61492,13 @@
         "adversarial_answer": "Ferrari"
       },
       {
-        "question": "mock_q",
+        "question": "[V2_REPLACEMENT] Name one specific book series title visible on the spines in the large bookcase.",
         "evidence": [
           "D19:13"
         ],
         "category": 5,
         "adversarial_answer": "Car mod workshop",
-        "answer": "mock_a",
+        "answer": "The Chronicles of Narnia (or Star Wars)",
         "v2_replacement": true
       },
       {
@@ -62174,7 +62175,7 @@
           "blip_caption": "a photo of a car engine with a small air filter",
           "query": "classic red mustang engine restoration",
           "dia_id": "D4:7",
-          "text": "I'm obsessed with classic cars. They have a unique charm. I was so thrilled to restore one last year—nothing like bringing it back to life! Take a look at the engine of the restored car."
+          "text": "I'm obsessed with classic cars. They have a unique charm. I was so thrilled to restore one last year\u2014nothing like bringing it back to life! Take a look at the engine of the restored car."
         },
         {
           "speaker": "Calvin",
@@ -62318,7 +62319,7 @@
           ],
           "re-download": true,
           "blip_caption": "a photography of a man working on a car engine in a garage",
-          "text": "Thanks, Calvin! I'm loving this job. I get to work with awesome mechanics and share my knowledge about cars. Here's what I'm currently working on! It's a cool project, even if it's a bit challenging. 🤩"
+          "text": "Thanks, Calvin! I'm loving this job. I get to work with awesome mechanics and share my knowledge about cars. Here's what I'm currently working on! It's a cool project, even if it's a bit challenging. \ud83e\udd29"
         },
         {
           "speaker": "Calvin",
@@ -62373,7 +62374,7 @@
         {
           "speaker": "Dave",
           "dia_id": "D5:13",
-          "text": "No worries, Calvin! Glad I could help. Keep pursuing your music and never give up. You're awesome! 🤘"
+          "text": "No worries, Calvin! Glad I could help. Keep pursuing your music and never give up. You're awesome! \ud83e\udd18"
         },
         {
           "speaker": "Calvin",
@@ -62529,7 +62530,7 @@
         {
           "speaker": "Calvin",
           "dia_id": "D7:7",
-          "text": "That's so inspiring, Dave. You find purpose in transforming things – like when you create something new or collaborate with others. We're both making something great out of nothing, it's amazing, right?"
+          "text": "That's so inspiring, Dave. You find purpose in transforming things \u2013 like when you create something new or collaborate with others. We're both making something great out of nothing, it's amazing, right?"
         },
         {
           "speaker": "Dave",
@@ -62549,7 +62550,7 @@
         {
           "speaker": "Calvin",
           "dia_id": "D7:11",
-          "text": "Performing live always fuels my soul! I love the rush and connection with the crowd, the feeling's indescribable—it's an absolute high!"
+          "text": "Performing live always fuels my soul! I love the rush and connection with the crowd, the feeling's indescribable\u2014it's an absolute high!"
         },
         {
           "speaker": "Dave",
@@ -62802,7 +62803,7 @@
           ],
           "re-download": true,
           "blip_caption": "a photography of a group of men playing instruments in a room",
-          "text": "Yes, Cal! I recently joined a rock band and have been practicing guitar. Look at this photo – it's us, the guys! "
+          "text": "Yes, Cal! I recently joined a rock band and have been practicing guitar. Look at this photo \u2013 it's us, the guys! "
         },
         {
           "speaker": "Calvin",
@@ -64012,7 +64013,7 @@
           "query": "car show vintage mustang open hood",
           "dia_id": "D22:1",
           "re-download": true,
-          "text": "Hey Calvin! What’s up? Last Friday I went to the car show. I saw some awesome cars and got to mess with car mods! There were so many cool machines around, it was so much fun! Take a look at this beautiful car!"
+          "text": "Hey Calvin! What\u2019s up? Last Friday I went to the car show. I saw some awesome cars and got to mess with car mods! There were so many cool machines around, it was so much fun! Take a look at this beautiful car!"
         },
         {
           "speaker": "Calvin",
@@ -64177,7 +64178,7 @@
         {
           "speaker": "Dave",
           "dia_id": "D23:17",
-          "text": "Wow! Thanks a ton for the kind words and encouragement! Your positivity is contagious. Congratulations on the new Ferrari – that's incredible! Must be one amazing ride. I'm all in for those thrilling journeys! Feel free to share a pic of your new beauty whenever you're ready. Let's keep the good vibes rolling! Take care and see you later!"
+          "text": "Wow! Thanks a ton for the kind words and encouragement! Your positivity is contagious. Congratulations on the new Ferrari \u2013 that's incredible! Must be one amazing ride. I'm all in for those thrilling journeys! Feel free to share a pic of your new beauty whenever you're ready. Let's keep the good vibes rolling! Take care and see you later!"
         },
         {
           "speaker": "Calvin",
@@ -64431,7 +64432,7 @@
           "speaker": "Dave",
           "blip_caption": "a photo of a man working on a car in a garage",
           "dia_id": "D25:15",
-          "text": "Ever since I was ten, I've been fascinated with how machines work. I found an old car in a neighbor's garage and asked if I could fix it. That's when my love for car engineering began! I enjoyed transforming it from broken-down to high-running, and that sense of accomplishment made me hooked—so I've been working on cars ever since."
+          "text": "Ever since I was ten, I've been fascinated with how machines work. I found an old car in a neighbor's garage and asked if I could fix it. That's when my love for car engineering began! I enjoyed transforming it from broken-down to high-running, and that sense of accomplishment made me hooked\u2014so I've been working on cars ever since."
         },
         {
           "speaker": "Calvin",
@@ -64817,7 +64818,7 @@
           "query": "car headlights shining brightly",
           "dia_id": "D28:16",
           "re-download": true,
-          "text": "Thanks, Calvin! I spent a lot of time cleaning, polishing, and protecting them - they look great! Just take a look at this photo – these headlights are enchanting!\n\n"
+          "text": "Thanks, Calvin! I spent a lot of time cleaning, polishing, and protecting them - they look great! Just take a look at this photo \u2013 these headlights are enchanting!\n\n"
         },
         {
           "speaker": "Calvin",
