@@ -225,12 +225,13 @@
         "category": 2
       },
       {
-        "question": "When did Melanie read the book \"nothing is impossible\"?",
-        "answer": "2022 (but the book title 'Nothing is Impossible' is fabricated; the transcript only says 'This book I read last year')",
+        "question": "[V2_CORRECTION] When did Melanie read the book \"nothing is impossible\"?",
+        "answer": "2022",
         "evidence": [
           "D7:8"
         ],
-        "category": 2
+        "category": 2,
+        "v2_correction": true
       },
       {
         "question": "Would Caroline pursue writing as a career option?",

@@ -3,7 +3,7 @@ import sys
 import os
 
 # Add aim_core to path for reasoning utils
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
+sys.path.insert(0, "/home/kingb/aim")
 try:
     from aim_core.reasoning_utils import generate_reasoning
 except ImportError:
@@ -85,7 +85,9 @@ def process_replacements(dataset, manifest, llava_cache, img_map, dry_run=False)
         if dry_run:
             new_q, new_a = "mock_q", "mock_a"
         else:
+            import time
             new_q, new_a = generate_new_qa(category, speaker, text, llava_desc)
+            time.sleep(5)  # Avoid rate limit (15 RPM)
             
         # Find the original question in the dataset and replace it
         for row in dataset:
@@ -96,7 +98,7 @@ def process_replacements(dataset, manifest, llava_cache, img_map, dry_run=False)
                         q_text = q_text.get("text", "")
                         
                     if q_text == orig_q:
-                        qa["question"] = new_q
+                        qa["question"] = f"[V2_REPLACEMENT] {new_q}"
                         qa["answer"] = new_a
                         qa["evidence"] = [new_dia_id] if new_dia_id else []
                         qa["v2_replacement"] = True
