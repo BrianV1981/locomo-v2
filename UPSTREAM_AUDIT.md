@@ -37,3 +37,13 @@ The original repository did not provide a standardized prompt for the LLM Judge.
 
 ---
 **Status:** These issues are logged and awaiting patching into the `locomo_v2_final.json` dataset and the corresponding runner scripts.
+## 5. Temporal Drift Evaluation Protocol (The "Live Agent" Problem)
+*Source: LoCoMo V2 Internal Architectural Review*
+
+The original dataset assumes a static evaluation timeline (late 2023 / early 2024). When evaluating live, sovereign agents running in real-time (e.g., 2026), the agents will correctly calculate relative time (e.g., "6 years ago" instead of "4 years ago") based on their system clock. Standard naive string-matching or weak LLM judges penalize this mathematically correct behavior.
+
+**Action Items for V2:**
+- [ ] **Do NOT Taint the Agent:** We will not use system prompt injections to force the agent to pretend it is 2024. The benchmark must remain zero-shot and pure.
+- [ ] **Implement Temporal-Aware Judging:** Upgrade the official V2 LLM-as-a-judge prompt to explicitly handle temporal drift. 
+    * *Draft Prompt Addition:* "CRITICAL TEMPORAL RULES: The Ground Truth dataset was created in early 2024. The AI Agent took this test in the current year. If the AI Agent answers using relative time (e.g., '6 years ago') that mathematically conflicts with the Ground Truth ('4 years ago'), you MUST calculate the delta between the dataset creation and the current year. If the Agent's relative math is correct for the current year, you MUST score it as CORRECT."
+- [ ] **Judge Model Requirements:** Specify that evaluating LoCoMo V2 requires a sufficiently advanced LLM Judge (e.g., Gemini Flash, GPT-4o) capable of performing this relative chronological algebra during the grading phase.
