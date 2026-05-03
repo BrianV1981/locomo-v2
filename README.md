@@ -27,7 +27,7 @@ Our massive triage script discovered that **exactly 10% (87 out of 862) of the u
 
 ### 3. The Illusion of 100% (The MemPalace Exploit)
 Due to the flaws listed above, it is physically impossible to score 100% on the V1 dataset using a legitimate retrieval engine. Recently, systems like **MemPalace** claimed a 100% reproducible score using a text-only, verbatim storage architecture. A deep forensic audit of their open-source codebase revealed two critical exploits they used to bypass the benchmark rather than solve it:
-* **The "Text Leak" Visual Bypass:** MemPalace's ingestion script explicitly drops all images. They "passed" visual questions only because the dataset authors inadvertently leaked the answers into the surrounding text dialogue (e.g., a user literally typing the name of the book in the chat). When MemPalace encountered a visual question without a text leak, they failed.
+* **The "Text Leak" Visual Bypass:** MemPalace's ingestion script explicitly drops all images. They "passed" visual questions only because the dataset authors inadvertently leaked the answers into the surrounding text dialogue (e.g., a user literally typing the name of the book in the chat).
 * **Top-K Dataset Stuffing:** MemPalace evaluated the 10-conversation dataset by setting their retrieval limit to `top-k=50`. Because the longest conversation only has 32 sessions, they completely bypassed the Information Retrieval challenge. The database simply returned the entire conversation, and they used an external API (Claude Sonnet) to perform brute-force reading comprehension over the whole transcript.
 
 LoCoMo V2 is designed to prevent these exploits, forcing systems to rely on true Multimodal RAG (like LLaVA Visual Flattening) and strict top-k retrieval limits.
