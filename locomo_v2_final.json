@@ -10,7 +10,7 @@
         "category": 2
       },
       {
-        "question": "When did Melanie paint a sunrise?",
+        "question": "[V2_CORRECTION] When did Melanie paint a sunrise?",
         "answer": "2022",
         "evidence": [
           "D1:14"
@@ -18,7 +18,7 @@
         "category": 2
       },
       {
-        "question": "What fields would Caroline be likely to pursue in her educaton?",
+        "question": "[V2_CORRECTION] What fields would Caroline be likely to pursue in her educaton?",
         "answer": "Counseling or mental health",
         "evidence": [
           "D1:9",
@@ -35,7 +35,7 @@
         "category": 1
       },
       {
-        "question": "What is Caroline's identity?",
+        "question": "[V2_CORRECTION] What is Caroline's identity?",
         "answer": "Transgender woman",
         "evidence": [
           "D3:1",
@@ -44,7 +44,7 @@
         "category": 1
       },
       {
-        "question": "When did Melanie run a charity race?",
+        "question": "[V2_CORRECTION] When did Melanie run a charity race?",
         "answer": "The Saturday before 25 May 2023 (approximately May 20, 2023)",
         "evidence": [
           "D2:1"
@@ -199,13 +199,12 @@
       },
       {
         "question": "[V2_CORRECTION] What books has Melanie read?",
-        "answer": "Charlotte's Web and Nothing is Impossible",
+        "answer": "Charlotte's Web, an unnamed book about pursuing dreams, and Becoming Nicole",
         "evidence": [
           "D7:8",
           "D6:10"
         ],
-        "category": 1,
-        "v2_correction": true
+        "category": 1
       },
       {
         "question": "What does Melanie do to destress?",
@@ -226,12 +225,11 @@
       },
       {
         "question": "[V2_CORRECTION] When did Melanie read the book \"nothing is impossible\"?",
-        "answer": "2022",
+        "answer": "2022 (but the book title 'Nothing is Impossible' is fabricated; the transcript only says 'This book I read last year')",
         "evidence": [
           "D7:8"
         ],
-        "category": 2,
-        "v2_correction": true
+        "category": 2
       },
       {
         "question": "Would Caroline pursue writing as a career option?",
@@ -273,13 +271,18 @@
         "category": 2
       },
       {
-        "question": "[V2_REPLACEMENT] What is the Guinea pig in the image doing as it peers out of the wooden tunnel?",
-        "answer": "It is standing on its hind legs with its front paws raised.",
+        "question": "[V2_CORRECTION] What LGBTQ+ events has Caroline participated in?",
+        "answer": "Pride parade, school speech, support group, LGBTQ conference, mentorship program, activist group",
         "evidence": [
-          "D13:5"
+          "D5:1",
+          "D8:17",
+          "D3:1",
+          "D1:3",
+          "D7:1",
+          "D9:2",
+          "D10:3"
         ],
-        "category": 1,
-        "v2_replacement": true
+        "category": 1
       },
       {
         "question": "When did Caroline go to a pride parade during the summer?",
@@ -315,7 +318,7 @@
         "category": 2
       },
       {
-        "question": "What did Melanie paint recently?",
+        "question": "[V2_CORRECTION] What did Melanie paint recently?",
         "answer": "sunset",
         "evidence": [
           "D8:6",
@@ -324,7 +327,7 @@
         "category": 1
       },
       {
-        "question": "What activities has Melanie done with her family?",
+        "question": "[V2_CORRECTION] What activities has Melanie done with her family?",
         "answer": "Pottery, painting, camping, museum, swimming, hiking",
         "evidence": [
           "D8:4",
@@ -374,13 +377,16 @@
         "category": 3
       },
       {
-        "question": "[V2_REPLACEMENT] Which band's name is visible in the lower left corner of the concert photo?",
-        "answer": "AC/DC",
+        "question": "[V2_CORRECTION] What kind of art does Caroline make?",
+        "answer": "Paintings including portraits, figurative works, nature scenes, and stained glass; she has recently experimented with abstract art",
         "evidence": [
-          "D2:12"
+          "D17:13",
+          "D11:12",
+          "D14:5",
+          "D13:11",
+          "D14:17"
         ],
-        "category": 1,
-        "v2_replacement": true
+        "category": 1
       },
       {
         "question": "When is Melanie's daughter's birthday?",
@@ -414,7 +420,7 @@
         "category": 1
       },
       {
-        "question": "What types of pottery have Melanie and her kids made?",
+        "question": "[V2_CORRECTION] What types of pottery have Melanie and her kids made?",
         "answer": "bowls, cup, pots",
         "evidence": [
           "D5:6",
@@ -441,13 +447,14 @@
         "category": 3
       },
       {
-        "question": "[V2_REPLACEMENT] According to the book cover in the image, who are the authors of \"The Kobold Guide to Board Game Design\"?",
-        "answer": "Mike Selinker and Bruno Faidutti",
+        "question": "What has Melanie painted?",
+        "answer": "Horse, sunset, sunrise",
         "evidence": [
-          "D25:11"
+          "D13:8",
+          "D8:6",
+          "D1:12"
         ],
-        "category": 1,
-        "v2_replacement": true
+        "category": 1
       },
       {
         "question": "What are Melanie's pets' names?",
@@ -484,7 +491,7 @@
         "category": 1
       },
       {
-        "question": "What symbols are important to Caroline?",
+        "question": "[V2_CORRECTION] What symbols are important to Caroline?",
         "answer": "Rainbow flag, eagle (symbolizing freedom and pride)",
         "evidence": [
           "D14:15"
@@ -535,13 +542,12 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] Based on Maria's message, when did she learn about the importance of self-care the \"hard way\"?",
-        "answer": "Last year",
+        "question": "When did Melanie go to the park?",
+        "answer": "27 August 2023",
         "evidence": [
-          "D13:22"
+          "D15:2"
         ],
-        "category": 2,
-        "v2_replacement": true
+        "category": 2
       },
       {
         "question": "When is Caroline's youth center putting on a talent show?",
@@ -569,7 +575,7 @@
         "category": 1
       },
       {
-        "question": "What does Melanie do with her family on hikes?",
+        "question": "[V2_CORRECTION] What does Melanie do with her family on hikes?",
         "answer": "On hikes, Melanie's family explores nature, enjoys mountain views, and explores forests (D4:8, D8:34). The marshmallow roasting and storytelling happen around the campfire during camping trips, not on hikes.",
         "evidence": [
           "D4:8",
@@ -607,7 +613,7 @@
         "category": 3
       },
       {
-        "question": "What transgender-specific events has Caroline attended?",
+        "question": "[V2_CORRECTION] What transgender-specific events has Caroline attended?",
         "answer": "Poetry reading, conference",
         "evidence": [
           "D17:19",
@@ -625,7 +631,7 @@
         "category": 1
       },
       {
-        "question": "When did Melanie's friend adopt a child?",
+        "question": "[V2_CORRECTION] When did Melanie's friend adopt a child?",
         "answer": "2022",
         "evidence": [
           "D17:4"
@@ -666,7 +672,7 @@
         "category": 1
       },
       {
-        "question": "Would Melanie go on another roadtrip soon?",
+        "question": "[V2_CORRECTION] Would Melanie go on another roadtrip soon?",
         "answer": "Uncertain; although the trip started badly with the accident, the family continued and enjoyed the Grand Canyon, suggesting Melanie values family trips",
         "evidence": [
           "D18:1",
@@ -807,7 +813,7 @@
         "category": 4
       },
       {
-        "question": "What is Melanie's hand-painted bowl a reminder of?",
+        "question": "[V2_CORRECTION] What is Melanie's hand-painted bowl a reminder of?",
         "answer": "art and self-expression (but this is Caroline's bowl, not Melanie's)",
         "evidence": [
           "D4:5"
@@ -903,7 +909,7 @@
         "category": 4
       },
       {
-        "question": "What are the new shoes that Melanie got used for?",
+        "question": "[V2_CORRECTION] What are the new shoes that Melanie got used for?",
         "answer": "Running",
         "evidence": [
           "D7:20"
@@ -911,7 +917,7 @@
         "category": 4
       },
       {
-        "question": "What is Melanie's reason for getting into running?",
+        "question": "[V2_CORRECTION] What is Melanie's reason for getting into running?",
         "answer": "To de-stress and clear her mind",
         "evidence": [
           "D7:20",
@@ -944,7 +950,7 @@
         "category": 4
       },
       {
-        "question": "What creative project do Mel and her kids do together besides pottery?",
+        "question": "[V2_CORRECTION] What creative project do Mel and her kids do together besides pottery?",
         "answer": "painting",
         "evidence": [
           "D8:6"
@@ -1112,7 +1118,7 @@
         "category": 4
       },
       {
-        "question": "How long has Melanie been creating art?",
+        "question": "[V2_CORRECTION] How long has Melanie been creating art?",
         "answer": "7 years",
         "evidence": [
           "D16:8"
@@ -1136,7 +1142,7 @@
         "category": 4
       },
       {
-        "question": "What setback did Melanie face in October 2023?",
+        "question": "[V2_CORRECTION] What setback did Melanie face in October 2023?",
         "answer": "The setback (getting hurt, taking a break from pottery) occurred in September 2023, not October. Melanie reported it on October 13, 2023.",
         "evidence": [
           "D17:8"
@@ -1152,7 +1158,7 @@
         "category": 4
       },
       {
-        "question": "What painting did Melanie show to Caroline on October 13, 2023?",
+        "question": "[V2_CORRECTION] What painting did Melanie show to Caroline on October 13, 2023?",
         "answer": "Two paintings: (1) a sunset-inspired painting with a pink sky (D17:12), and (2) an abstract painting with a blue background (D17:14).",
         "evidence": [
           "D17:12",
@@ -1161,7 +1167,7 @@
         "category": 4
       },
       {
-        "question": "What kind of painting did Caroline share with Melanie on October 13, 2023?",
+        "question": "[V2_CORRECTION] What kind of painting did Caroline share with Melanie on October 13, 2023?",
         "answer": "A drawing of a woman in a dress (D17:21), a poster (D17:17), and a 'Trans Lives Matter' sign (D17:19)",
         "evidence": [
           "D17:14",
@@ -1170,7 +1176,7 @@
         "category": 4
       },
       {
-        "question": "What was the poetry reading that Caroline attended about?",
+        "question": "[V2_CORRECTION] What was the poetry reading that Caroline attended about?",
         "answer": "It was a transgender poetry reading where transgender people shared their stories.",
         "evidence": [
           "D17:19"
@@ -1210,7 +1216,7 @@
         "category": 4
       },
       {
-        "question": "How did Melanie's son handle the accident?",
+        "question": "[V2_CORRECTION] How did Melanie's son handle the accident?",
         "answer": "The son was in the accident and is OK (D18:1, D18:3); the evidence does not describe the son's emotional reaction directly",
         "evidence": [
           "D18:1",
@@ -1251,7 +1257,7 @@
         "category": 4
       },
       {
-        "question": "What do Melanie's family give her?",
+        "question": "[V2_CORRECTION] What do Melanie's family give her?",
         "answer": "Strength (to keep going)",
         "evidence": [
           "D18:9"
@@ -5487,7 +5493,7 @@
         "category": 1
       },
       {
-        "question": "Which events has Jon participated in to promote his business venture?",
+        "question": "[V2_CORRECTION] Which events has Jon participated in to promote his business venture?",
         "answer": "fair, networking events, dance competition",
         "evidence": [
           "D10:1",
@@ -5514,13 +5520,16 @@
         "category": 2
       },
       {
-        "question": "[V2_REPLACEMENT] To whom is the closed envelope on the table addressed according to the image?",
-        "answer": "Glenn",
+        "question": "Did Jon and Gina both participate in dance competitions?",
+        "answer": "Yes",
         "evidence": [
-          "D4:13"
+          "D1:14",
+          "D14:14",
+          "D1:16",
+          "D1:17",
+          "D9:10"
         ],
-        "category": 1,
-        "v2_replacement": true
+        "category": 1
       },
       {
         "question": "When was Jon in Rome?",
@@ -5548,7 +5557,7 @@
         "category": 2
       },
       {
-        "question": "How long did it take for Jon to open his studio?",
+        "question": "[V2_CORRECTION] How long did it take for Jon to open his studio?",
         "answer": "five months",
         "evidence": [
           "D1:2",
@@ -5645,7 +5654,7 @@
         "category": 4
       },
       {
-        "question": "What do the dancers in the photo represent?",
+        "question": "[V2_CORRECTION] What do the dancers in the photo represent?",
         "answer": "They are performing at the festival",
         "evidence": [
           "D1:26"
@@ -5653,7 +5662,7 @@
         "category": 4
       },
       {
-        "question": "What does Gina say about the dancers in the photo?",
+        "question": "[V2_CORRECTION] What does Gina say about the dancers in the photo?",
         "answer": "They look graceful",
         "evidence": [
           "D1:25"
@@ -5677,7 +5686,7 @@
         "category": 4
       },
       {
-        "question": "What did Gina find for her clothing store on 1 February, 2023?",
+        "question": "[V2_CORRECTION] What did Gina find for her clothing store on 1 February, 2023?",
         "answer": "A wholesaler agreed to supply her store (per Gina's own words in D3:2), though Jon interpreted the news as finding 'the perfect spot' (D3:3)",
         "evidence": [
           "D3:2",
@@ -5760,7 +5769,7 @@
         "category": 4
       },
       {
-        "question": "What advice does Gina give to Jon about running a successful business?",
+        "question": "[V2_CORRECTION] What advice does Gina give to Jon about running a successful business?",
         "answer": "This advice ('build relationships with customers, create a strong brand image, stay positive') was given by JON to GINA in D7:5, not by Gina to Jon. The attribution is reversed.",
         "evidence": [
           "D7:5"
@@ -5808,7 +5817,7 @@
         "category": 4
       },
       {
-        "question": "What kind of professional experience did Gina get accepted for on May 23, 2023?",
+        "question": "[V2_CORRECTION] What kind of professional experience did Gina get accepted for on May 23, 2023?",
         "answer": "fashion internship (but the acceptance was announced on 27 May 2023, not May 23 as stated in the question)",
         "evidence": [
           "D12:1"
@@ -9269,7 +9278,7 @@
         "category": 2
       },
       {
-        "question": "When did Maria go to the beach?",
+        "question": "[V2_CORRECTION] When did Maria go to the beach?",
         "answer": "December 2022 (answer is correct, citation is wrong)",
         "evidence": [
           "D3:14"
@@ -9314,7 +9323,7 @@
         "category": 1
       },
       {
-        "question": "When did Maria meet Jean?",
+        "question": "[V2_CORRECTION] When did Maria meet Jean?",
         "answer": "February 24, 2023 (answer is correct, citation is wrong)",
         "evidence": [
           "D7:5"
@@ -9368,7 +9377,7 @@
         "category": 1
       },
       {
-        "question": "When did John get his degree?",
+        "question": "[V2_CORRECTION] When did John get his degree?",
         "answer": "The week before 2 April 2023 (answer is correct, citation is incomplete)",
         "evidence": [
           "D9:4"
@@ -9463,13 +9472,12 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] What detail in the background suggests the photo of the bookshelf was taken indoors?",
-        "answer": "The presence of window blinds",
+        "question": "When did John have a party with veterans?",
+        "answer": "The Friday before 20 May 2023",
         "evidence": [
-          "D12:15"
+          "D15:11"
         ],
-        "category": 2,
-        "v2_replacement": true
+        "category": 2
       },
       {
         "question": "What causes does John feel passionate about supporting?",
@@ -9510,7 +9518,7 @@
         "category": 2
       },
       {
-        "question": "What outdoor activities has John done with his colleagues?",
+        "question": "[V2_CORRECTION] What outdoor activities has John done with his colleagues?",
         "answer": "Hiking, mountaineering (answer is correct, citation D16:2 should be D16:1)",
         "evidence": [
           "D18:2",
@@ -9555,13 +9563,16 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] Mention one type of decorative item visible on the bottom shelf of the bookcase.",
-        "answer": "Figurines (or a teddy bear)",
+        "question": "What events for veterans has John participated in?",
+        "answer": "Petition, march, party, visiting veterans hospital, 5K charity run",
         "evidence": [
-          "D26:18"
+          "D15:1",
+          "D15:11",
+          "D21:22",
+          "D24:1",
+          "D29:4"
         ],
-        "category": 1,
-        "v2_replacement": true
+        "category": 1
       },
       {
         "question": "When did Maria get in a car accident?",
@@ -9614,7 +9625,7 @@
         "category": 2
       },
       {
-        "question": "What activities has Maria done with her church friends?",
+        "question": "[V2_CORRECTION] What activities has Maria done with her church friends?",
         "answer": "Hiking, picnic, volunteer work (answer is correct, D28:5 should be D28:8)",
         "evidence": [
           "D25:2",
@@ -9652,7 +9663,7 @@
         "category": 1
       },
       {
-        "question": "When did John have his first firefighter call-out?",
+        "question": "[V2_CORRECTION] When did John have his first firefighter call-out?",
         "answer": "The Sunday before 31 July 2023 (July 30, 2023)",
         "evidence": [
           "D26:4"
@@ -9660,7 +9671,7 @@
         "category": 2
       },
       {
-        "question": "What food item did Maria drop off at the homeless shelter?",
+        "question": "[V2_CORRECTION] What food item did Maria drop off at the homeless shelter?",
         "answer": "Cakes (answer is correct, D25:19 should be D25:20)",
         "evidence": [
           "D26:1",
@@ -9749,13 +9760,12 @@
         "category": 2
       },
       {
-        "question": "[V2_REPLACEMENT] What specific phrase is overlaid in white font on the image of the handshake?",
-        "answer": "THE END OF LIFE",
+        "question": "When did John go on a camping trip with Max?",
+        "answer": "The summer of 2022",
         "evidence": [
-          "D4:22"
+          "D30:6"
         ],
-        "category": 2,
-        "v2_replacement": true
+        "category": 2
       },
       {
         "question": "What are Maria's dogs' names?",
@@ -9784,7 +9794,7 @@
         "category": 1
       },
       {
-        "question": "How many weeks passed between Maria adopting Coco and Shadow?",
+        "question": "[V2_CORRECTION] How many weeks passed between Maria adopting Coco and Shadow?",
         "answer": "Approximately 1-2 weeks (7-15 days); one adoption date is hard (~July 28, 2023) but the other is a vague range (\"last week\" = ~Aug 4-12, 2023), so the exact gap is unresolvable",
         "evidence": [
           "D30:1",
@@ -9812,13 +9822,12 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] Name two types of pastries clearly labeled on the cafe counter.",
-        "answer": "Croissant and Pain au Chocolat",
+        "question": "What sparked John's interest in improving education and infrastructure in the community?",
+        "answer": "Seeing how lack of education and crumbling infrastructure affected his neighborhood while growing up.",
         "evidence": [
-          "D3:15"
+          "D1:10"
         ],
-        "category": 4,
-        "v2_replacement": true
+        "category": 4
       },
       {
         "question": "How did the extra funding help the school shown in the photo shared by John?",
@@ -9829,7 +9838,7 @@
         "category": 4
       },
       {
-        "question": "What type of workout class did Maria start doing in December 2023?",
+        "question": "[V2_CORRECTION] What type of workout class did Maria start doing in December 2023?",
         "answer": "aerial yoga (answer is correct, but question says 2023 when it should say 2022)",
         "evidence": [
           "D1:3"
@@ -9837,7 +9846,7 @@
         "category": 4
       },
       {
-        "question": "What did Maria donate to a homeless shelter in December 2023?",
+        "question": "[V2_CORRECTION] What did Maria donate to a homeless shelter in December 2023?",
         "answer": "old car (answer is correct, but question says 2023 when it should say 2022)",
         "evidence": [
           "D2:1"
@@ -10213,7 +10222,7 @@
         "category": 4
       },
       {
-        "question": "Why did Maria need to help her cousin find a new place to live?",
+        "question": "[V2_CORRECTION] Why did Maria need to help her cousin find a new place to live?",
         "answer": "Her cousin had to leave and find a new place in a hurry (answer is correct, citation should include D21:7)",
         "evidence": [
           "D21:5",
@@ -10318,7 +10327,7 @@
         "category": 4
       },
       {
-        "question": "What does John think about trying new classes at the yoga studio?",
+        "question": "[V2_CORRECTION] What does John think about trying new classes at the yoga studio?",
         "answer": "Trying new stuff is a great way to push yourself and mix things up (from D25:15, John's actual words)",
         "evidence": [
           "D25:15"
@@ -10350,13 +10359,12 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] Based on the background of the photo, what kind of event are the two individuals attending?",
-        "answer": "A festival, fair, or carnival",
+        "question": "What did John do the week before August 3, 2023 involving his kids?",
+        "answer": "Had a meaningful experience at a military memorial",
         "evidence": [
-          "D30:2"
+          "D27:9"
         ],
-        "category": 4,
-        "v2_replacement": true
+        "category": 4
       },
       {
         "question": "How did John describe his kids' reaction at the military memorial?",
@@ -10439,22 +10447,20 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] What is the name of the dog mentioned in the text that is lying next to the laptop?",
-        "answer": "Daisy",
+        "question": "What activity did John and Max enjoy together last summer?",
+        "answer": "Camping",
         "evidence": [
-          "D8:17"
+          "D30:6"
         ],
-        "category": 4,
-        "v2_replacement": true
+        "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] What are many of the audience members doing with their smartphones in the arena?",
-        "answer": "Capturing the moment or taking pictures",
+        "question": "How does John describe the camping trip with Max?",
+        "answer": "Peaceful and awesome",
         "evidence": [
-          "D7:12"
+          "D30:6"
         ],
-        "category": 4,
-        "v2_replacement": true
+        "category": 4
       },
       {
         "question": "Why does John say he feels stuck and questioning his decisions and goals?",
@@ -10809,14 +10815,12 @@
         "adversarial_answer": "Coco"
       },
       {
-        "question": "[V2_REPLACEMENT] According to Audrey's text, when did the doggy playdate occur?",
+        "question": "How does Maria describe the camping trip with Max?",
         "evidence": [
-          "D10:9"
+          "D30:6"
         ],
         "category": 5,
-        "adversarial_answer": "Peaceful and awesome",
-        "answer": "Last Friday",
-        "v2_replacement": true
+        "adversarial_answer": "Peaceful and awesome"
       },
       {
         "question": "What is the name of Maria's second kitten?",
@@ -16563,13 +16567,18 @@
         "category": 3
       },
       {
-        "question": "[V2_REPLACEMENT] What fictional school's banners are used as a backdrop for the Christmas tree?",
-        "answer": "Hogwarts School of Witchcraft and Wizardry",
+        "question": "What kind of interests do Joanna and Nate share?",
+        "answer": "Watching movies, making desserts",
         "evidence": [
-          "D8:30"
+          "D1:10",
+          "D1:11",
+          "D1:12",
+          "D3:4",
+          "D4:9",
+          "D10:9",
+          "D20:2"
         ],
-        "category": 1,
-        "v2_replacement": true
+        "category": 1
       },
       {
         "question": "When did Joanna first watch \"Eternal Sunshine of the Spotless Mind?",
@@ -16588,7 +16597,7 @@
         "category": 2
       },
       {
-        "question": "What pets wouldn't cause any discomfort to Joanna?",
+        "question": "[V2_CORRECTION] What pets wouldn't cause any discomfort to Joanna?",
         "answer": "The transcript does not suggest specific pets. Joanna is allergic to reptiles, animals with fur, and cockroaches (D2:23, D5:11). No specific safe pet types are proposed in the conversation.",
         "evidence": [
           "D2:23",
@@ -16597,7 +16606,7 @@
         "category": 3
       },
       {
-        "question": "What are Joanna's hobbies?",
+        "question": "[V2_CORRECTION] What are Joanna's hobbies?",
         "answer": "Writing, reading, watching movies, exploring nature, hiking, cooking and baking, hanging with friends, acting (past passion), DIY/crafts",
         "evidence": [
           "D1:10",
@@ -16761,7 +16770,7 @@
         "category": 1
       },
       {
-        "question": "When is Nate hosting a gaming party?",
+        "question": "[V2_CORRECTION] When is Nate hosting a gaming party?",
         "answer": "Two weekends after 3 June, 2022 (approximately June 17-18, 2022).",
         "evidence": [
           "D14:20"
@@ -16829,13 +16838,12 @@
         "category": 2
       },
       {
-        "question": "[V2_REPLACEMENT] According to the whiteboard, how many workouts were completed over a 9-week period?",
-        "answer": "34",
+        "question": "Where did Joanna travel to in July 2022?",
+        "answer": "Woodhaven",
         "evidence": [
-          "D24:10"
+          "D17:4"
         ],
-        "category": 2,
-        "v2_replacement": true
+        "category": 2
       },
       {
         "question": "When did someone write Joanna a touching letter?",
@@ -16846,7 +16854,7 @@
         "category": 2
       },
       {
-        "question": "What book recommendations has Joanna given to Nate?",
+        "question": "[V2_CORRECTION] What book recommendations has Joanna given to Nate?",
         "answer": "'Eternal Sunshine of the Spotless Mind' movie (D1:16), 'Little Women' movie (D3:17). Joanna also generically recommended finding a fantasy book series (D19:14), but never named a specific title.",
         "evidence": [
           "D1:16",
@@ -16923,7 +16931,7 @@
         "category": 1
       },
       {
-        "question": "How long did it take for Joanna to finish writing her book?",
+        "question": "[V2_CORRECTION] How long did it take for Joanna to finish writing her book?",
         "answer": "Approximately three months (mid-July to late September 2022).",
         "evidence": [
           "D17:14",
@@ -16932,13 +16940,12 @@
         "category": 2
       },
       {
-        "question": "[V2_REPLACEMENT] What is the color of the dress worn by the woman dancing in the center of the crowd?",
-        "answer": "Light blue",
+        "question": "When did Nate win a lot of money in a video game tournament?",
+        "answer": "September 2022",
         "evidence": [
-          "D28:3"
+          "D22:2"
         ],
-        "category": 2,
-        "v2_replacement": true
+        "category": 2
       },
       {
         "question": "When did Joanna finish up the writing for her book?",
@@ -16984,25 +16991,26 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] Describe the activity and setting shown in the image with the dog.",
-        "answer": "A dog resting on a rocky surface near a vast body of water and mountains.",
+        "question": "[V2_CORRECTION] What is something Nate gave to Joanna that brings her a lot of joy?",
+        "answer": "stuffed toy pup (Tilly)",
         "evidence": [
-          "D26:23"
+          "D13:9",
+          "D24:4",
+          "D24:8"
         ],
-        "category": 1,
-        "v2_replacement": true
+        "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] What are the two people on the beach watching as they hold hands?",
-        "answer": "The sunset (or sunrise)",
+        "question": "[V2_CORRECTION] When did Nate get Tilly for Joanna?",
+        "answer": "25 May, 2022",
         "evidence": [
-          "D16:11"
+          "D13:9",
+          "D24:4"
         ],
-        "category": 1,
-        "v2_replacement": true
+        "category": 1
       },
       {
-        "question": "How many of Joanna's writing have made it to the big screen?",
+        "question": "[V2_CORRECTION] How many of Joanna's writing have made it to the big screen?",
         "answer": "Three (as stated by Joanna in D25:4: 'I know this is the third time it's happened').",
         "evidence": [
           "D15:1",
@@ -17012,16 +17020,16 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] What are both individuals in the mountain photograph holding to their eyes?",
-        "answer": "Cameras or binoculars",
+        "question": "How many times has Nate taken his turtles on a walk?",
+        "answer": "Twice.",
         "evidence": [
-          "D26:8"
+          "D5:4",
+          "D25:15"
         ],
-        "category": 1,
-        "v2_replacement": true
+        "category": 1
       },
       {
-        "question": "When was Joanna's second movie script shown on the big screens?",
+        "question": "[V2_CORRECTION] When was Joanna's second movie script shown on the big screens?",
         "answer": "The Sunday before 25 October, 2022 (October 23, 2022).",
         "evidence": [
           "D25:2"
@@ -17029,7 +17037,7 @@
         "category": 2
       },
       {
-        "question": "What is Joanna inspired by?",
+        "question": "[V2_CORRECTION] What is Joanna inspired by?",
         "answer": "Personal experiences, her own journey of self-discovery, Nate, nature, validation, stories about finding courage and taking risks, people she knows, stuff she sees, imagination",
         "evidence": [
           "D4:16",
@@ -17042,13 +17050,13 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] What specific programming language is mentioned in the chat screenshot?",
-        "answer": "Java",
+        "question": "What animal do both Nate and Joanna like?",
+        "answer": "Turtles.",
         "evidence": [
-          "D28:19"
+          "D5:6",
+          "D26:9"
         ],
-        "category": 1,
-        "v2_replacement": true
+        "category": 1
       },
       {
         "question": "When did Joanna plan to go over to Nate's and share recipes?",
@@ -17059,7 +17067,7 @@
         "category": 2
       },
       {
-        "question": "What things has Nate reccomended to Joanna?",
+        "question": "[V2_CORRECTION] What things has Nate reccomended to Joanna?",
         "answer": "A pet (D2:14), 'The Lord of the Rings' movies (D9:12), a fantasy book series (D9:14), coconut flavoring (D10:11), a book series with battles and characters (D19:17), Xenoblade Chronicles (D27:23), dairy-free margarine or coconut oil (D20:15).",
         "evidence": [
           "D2:14",
@@ -17090,13 +17098,14 @@
         "category": 3
       },
       {
-        "question": "[V2_REPLACEMENT] Based on Nate's text and the image, what kind of social game activity are they participating in?",
-        "answer": "A board game night",
+        "question": "[V2_CORRECTION] What mediums does Nate use to play games?",
+        "answer": "PC (D27:15-17), Nintendo console (D27:23 - Xenoblade Chronicles). Other platforms cannot be determined from the transcript text alone.",
         "evidence": [
-          "D23:5"
+          "D27:15",
+          "D27:17",
+          "D27:23"
         ],
-        "category": 1,
-        "v2_replacement": true
+        "category": 1
       },
       {
         "question": "How many letters has Joanna recieved?",
@@ -17136,7 +17145,7 @@
         "category": 2
       },
       {
-        "question": "What alternative career might Nate consider after gaming?",
+        "question": "[V2_CORRECTION] What alternative career might Nate consider after gaming?",
         "answer": "Cannot be determined from transcript. Nate is passionate about turtles and knows how to care for them, but he never discusses leaving gaming or pursuing animal care professionally.",
         "evidence": [
           "D5:8",
@@ -17146,7 +17155,7 @@
         "category": 3
       },
       {
-        "question": "What pets does Nate have?",
+        "question": "[V2_CORRECTION] What pets does Nate have?",
         "answer": "A dog (Max) and three turtles.",
         "evidence": [
           "D2:10",
@@ -17157,7 +17166,7 @@
         "category": 1
       },
       {
-        "question": "How many hikes has Joanna been on?",
+        "question": "[V2_CORRECTION] How many hikes has Joanna been on?",
         "answer": "At least five (D7:6, D8:4, D11:3, D14:19, D28:22)",
         "evidence": [
           "D7:6",
@@ -17169,7 +17178,7 @@
         "category": 3
       },
       {
-        "question": "How many turtles does Nate have?",
+        "question": "[V2_CORRECTION] How many turtles does Nate have?",
         "answer": "Three",
         "evidence": [
           "D2:10",
@@ -17206,7 +17215,7 @@
         "category": 2
       },
       {
-        "question": "What state did Joanna visit in summer 2021?",
+        "question": "[V2_CORRECTION] What state did Joanna visit in summer 2021?",
         "answer": "Indiana (but the visit was in summer 2022, not summer 2021 as the question states).",
         "evidence": [
           "D28:22"
@@ -17256,13 +17265,20 @@
         "category": 2
       },
       {
-        "question": "[V2_REPLACEMENT] What animal is being held by a hand over a plastic container in the image?",
-        "answer": "A snake",
+        "question": "How many video game tournaments has Nate participated in?",
+        "answer": "nine",
         "evidence": [
-          "D28:24"
+          "D1:3",
+          "D6:7",
+          "D10:4",
+          "D14:8",
+          "D17:1",
+          "D19:1",
+          "D20:1",
+          "D22:2",
+          "D27:1"
         ],
-        "category": 1,
-        "v2_replacement": true
+        "category": 1
       },
       {
         "question": "How many screenplays has Joanna written?",
@@ -17277,22 +17293,33 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] What social message is written in the corner of the anime-style drawing?",
-        "answer": "TRANS RIGHTS",
+        "question": "How many tournaments has Nate won?",
+        "answer": "seven",
         "evidence": [
-          "D17:21"
+          "D1:3",
+          "D10:4",
+          "D14:8",
+          "D17:1",
+          "D19:1",
+          "D22:2",
+          "D27:1"
         ],
-        "category": 1,
-        "v2_replacement": true
+        "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] Name one of the prominent brand logos visible on the banners at the gaming convention.",
-        "answer": "PlayStation (or Red Bull)",
+        "question": "[V2_CORRECTION] What recipes has Joanna made?",
+        "answer": "Dairy-free vanilla cake with strawberry filling and coconut cream frosting (D10:11), a delicious treat (D19:8, unnamed), revised old recipe with strawberries and chocolate (D20:2), dairy-free chocolate coconut cupcakes with raspberry frosting (D20:10), chocolate raspberry tart (D21:11), chocolate cake with raspberries (D22:1/D21:13), blueberry coconut milk dessert with gluten-free crust (D21:17).",
         "evidence": [
-          "D3:9"
+          "D10:9",
+          "D10:11",
+          "D19:8",
+          "D20:2",
+          "D20:10",
+          "D21:11",
+          "D22:1",
+          "D21:17"
         ],
-        "category": 1,
-        "v2_replacement": true
+        "category": 1
       },
       {
         "question": "What recipes has Nate made?",
@@ -17347,7 +17374,7 @@
         "category": 3
       },
       {
-        "question": "What is one of Joanna's favorite movies?",
+        "question": "[V2_CORRECTION] What is one of Joanna's favorite movies?",
         "answer": "'Eternal Sunshine of the Spotless Mind'",
         "evidence": [
           "D1:16",
@@ -17374,7 +17401,7 @@
         "category": 4
       },
       {
-        "question": "What is Nate's favorite book series about?",
+        "question": "[V2_CORRECTION] What is Nate's favorite book series about?",
         "answer": "Adventures, magic, and great characters (the specific subject 'dragons' is not stated in the transcript text).",
         "evidence": [
           "D9:14"
@@ -17505,13 +17532,12 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] What specific strategy video game is being played on the computer screen?",
-        "answer": "Civilization VI",
+        "question": "Why does Nate like turtles as pets?",
+        "answer": "Their slow pace and calming nature",
         "evidence": [
-          "D8:23"
+          "D5:6"
         ],
-        "category": 4,
-        "v2_replacement": true
+        "category": 4
       },
       {
         "question": "How does Nate describe the process of taking care of turtles?",
@@ -17602,7 +17628,7 @@
         "category": 4
       },
       {
-        "question": "What does Nate feel he could do when out in cool places like Whispering Falls?",
+        "question": "[V2_CORRECTION] What does Nate feel he could do when out in cool places like Whispering Falls?",
         "answer": "This is Joanna's statement, not Nate's. Joanna feels she could write a whole movie when out in cool places like Whispering Falls.",
         "evidence": [
           "D11:13"
@@ -17626,13 +17652,12 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] In what formation are the people on the beach standing in the silhouette photo?",
-        "answer": "A circular formation",
+        "question": "What did Nate do for Joanna on 25 May, 2022?",
+        "answer": "get her a stuffed animal",
         "evidence": [
-          "D10:22"
+          "D13:9"
         ],
-        "category": 4,
-        "v2_replacement": true
+        "category": 4
       },
       {
         "question": "How does Nate describe the stuffed animal he got for Joanna?",
@@ -17747,22 +17772,20 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] Based on the armor and the \"WB GAMES\" logo, which video game does this character represent?",
-        "answer": "The Witcher 3",
+        "question": "Where did Joanna go for a road trip for research?",
+        "answer": "Woodhaven",
         "evidence": [
-          "D19:8"
+          "D17:4"
         ],
-        "category": 4,
-        "v2_replacement": true
+        "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] What username is visible on the game interface in the screenshot?",
-        "answer": "Sludger29",
+        "question": "What did Joanna discover at the library in Woodhaven?",
+        "answer": "cool old book collection",
         "evidence": [
-          "D22:3"
+          "D17:4"
         ],
-        "category": 4,
-        "v2_replacement": true
+        "category": 4
       },
       {
         "question": "What specific themes are explored in Joanna's new book?",
@@ -17925,13 +17948,12 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] What is the full title of the video game shown on the \"Special Edition\" DVD cover?",
-        "answer": "Pathfinder Kingmaker",
+        "question": "What two main ingredients are part of the dessert Joanna shared a photo of with blueberries, coconut milk, and a gluten-free crust?",
+        "answer": "blueberries and coconut milk",
         "evidence": [
-          "D4:20"
+          "D21:17"
         ],
-        "category": 4,
-        "v2_replacement": true
+        "category": 4
       },
       {
         "question": "What movie did Nate recently watch and enjoy on October 6, 2022?",
@@ -18126,7 +18148,7 @@
         "category": 4
       },
       {
-        "question": "What did Joanna receive from her brother that brought back childhood memories?",
+        "question": "[V2_CORRECTION] What did Joanna receive from her brother that brought back childhood memories?",
         "answer": "a handwritten letter (from her brother)",
         "evidence": [
           "D27:28",
@@ -18443,24 +18465,20 @@
         "adversarial_answer": "7"
       },
       {
-        "question": "[V2_REPLACEMENT] What kind of flooring is typically found in the dance studio shown in the image?",
+        "question": "Where did Nate go for a road trip for research?",
         "evidence": [
-          "D13:8"
+          "D17:4"
         ],
         "category": 5,
-        "adversarial_answer": "Woodhaven",
-        "answer": "Polished wood",
-        "v2_replacement": true
+        "adversarial_answer": "Woodhaven"
       },
       {
-        "question": "[V2_REPLACEMENT] Describe the unique accessory the corgi is wearing in the image.",
+        "question": "What did Joanna discover at the museum in Woodhaven?",
         "evidence": [
-          "D26:32"
+          "D17:4"
         ],
         "category": 5,
-        "adversarial_answer": "cool old book collection",
-        "answer": "A tie-dye bandana with a skull pattern",
-        "v2_replacement": true
+        "adversarial_answer": "cool old book collection"
       },
       {
         "question": "What specific themes are explored in Nate's new book?",
@@ -18543,14 +18561,12 @@
         "adversarial_answer": "chocolate raspberry tart"
       },
       {
-        "question": "[V2_REPLACEMENT] What warning is printed on the yellow tape seen in the photograph?",
+        "question": "What two main ingredients are part of the dessert Nate shared a photo of with blueberries, coconut milk, and a gluten-free crust?",
         "evidence": [
-          "D30:14"
+          "D21:17"
         ],
         "category": 5,
-        "adversarial_answer": "blueberries and coconut milk",
-        "answer": "Do Not Enter",
-        "v2_replacement": true
+        "adversarial_answer": "blueberries and coconut milk"
       },
       {
         "question": "What movie did Joanna recently watch and enjoy on October 6, 2022?",
@@ -24050,7 +24066,7 @@
         "category": 3
       },
       {
-        "question": "In which month's game did John achieve a career-high score in points?",
+        "question": "[V2_CORRECTION] In which month's game did John achieve a career-high score in points?",
         "answer": "July 2023",
         "evidence": [
           "D3:1"
@@ -24077,7 +24093,7 @@
         "category": 3
       },
       {
-        "question": "Which endorsement deals has John been offered?",
+        "question": "[V2_CORRECTION] Which endorsement deals has John been offered?",
         "answer": "basketball shoes and gear deal with Nike, potential sponsorship with Gatorade, a popular beverage company (unnamed), outdoor gear company",
         "evidence": [
           "D3:13",
@@ -24097,7 +24113,7 @@
         "category": 2
       },
       {
-        "question": "What sports does John like besides basketball?",
+        "question": "[V2_CORRECTION] What sports does John like besides basketball?",
         "answer": "surfing",
         "evidence": [
           "D3:25"
@@ -24141,7 +24157,7 @@
         "category": 3
       },
       {
-        "question": "After how many weeks did Tim reconnect with the fellow Harry Potter fan from California?",
+        "question": "[V2_CORRECTION] After how many weeks did Tim reconnect with the fellow Harry Potter fan from California?",
         "answer": "approximately four weeks",
         "evidence": [
           "D3:2",
@@ -24150,7 +24166,7 @@
         "category": 2
       },
       {
-        "question": "How many games has John mentioned winning?",
+        "question": "[V2_CORRECTION] How many games has John mentioned winning?",
         "answer": "6",
         "evidence": [
           "D3:3",
@@ -24234,16 +24250,18 @@
         "category": 2
       },
       {
-        "question": "[V2_REPLACEMENT] What type of pattern is on the floor of the room where the two individuals are standing?",
-        "answer": "Checkered",
+        "question": "What similar sports collectible do Tim and John own?",
+        "answer": "signed basketball",
         "evidence": [
-          "D28:5"
+          "D7:7",
+          "D7:9",
+          "D16:7",
+          "D16:9"
         ],
-        "category": 1,
-        "v2_replacement": true
+        "category": 1
       },
       {
-        "question": "Which TV series does Tim mention watching?",
+        "question": "[V2_CORRECTION] Which TV series does Tim mention watching?",
         "answer": "That, Wheel of Time",
         "evidence": [
           "D17:10",
@@ -24490,13 +24508,12 @@
         "category": 3
       },
       {
-        "question": "[V2_REPLACEMENT] What is the dog doing in the photograph from the pet show?",
-        "answer": "Standing on an elevated platform",
+        "question": "When did John take a trip to the Rocky Mountains?",
+        "answer": "2022",
         "evidence": [
-          "D28:3"
+          "D20:40"
         ],
-        "category": 2,
-        "v2_replacement": true
+        "category": 2
       },
       {
         "question": "When did John start playing professionally?",
@@ -24508,7 +24525,7 @@
         "category": 2
       },
       {
-        "question": "When did Tim start playing the violin?",
+        "question": "[V2_CORRECTION] When did Tim start playing the violin?",
         "answer": "approximately December 2023",
         "evidence": [
           "D21:11"
@@ -24534,7 +24551,7 @@
         "category": 2
       },
       {
-        "question": "Which career-high performances did John achieve in 2023?",
+        "question": "[V2_CORRECTION] Which career-high performances did John achieve in 2023?",
         "answer": "highest point score, highest assist",
         "evidence": [
           "D3:1",
@@ -24543,7 +24560,7 @@
         "category": 1
       },
       {
-        "question": "When did John achieve a career-high assist performance?",
+        "question": "[V2_CORRECTION] When did John achieve a career-high assist performance?",
         "answer": "December 8, 2023",
         "evidence": [
           "D23:3"
@@ -24610,13 +24627,15 @@
         "category": 3
       },
       {
-        "question": "[V2_REPLACEMENT] Based on the collage, what breed of dog is the large black and tan animal?",
-        "answer": "Saint Bernard",
+        "question": "What would be a good hobby related to his travel dreams for Tim to pick up?",
+        "answer": "Writing a travel blog.",
         "evidence": [
-          "D31:11"
+          "D4:1",
+          "D6:6",
+          "D15:3",
+          "D27:37"
         ],
-        "category": 3,
-        "v2_replacement": true
+        "category": 3
       },
       {
         "question": "What day did Tim get into his study abroad program?",
@@ -24669,7 +24688,7 @@
         "category": 4
       },
       {
-        "question": "What aspects of the Harry Potter universe will be discussed in John's fan project collaborations?",
+        "question": "[V2_CORRECTION] What aspects of the Harry Potter universe will be discussed in John's fan project collaborations?",
         "answer": "characters, spells, magical creatures (but this is Tim's fan project, not John's)",
         "evidence": [
           "D1:16"
@@ -24765,7 +24784,7 @@
         "category": 4
       },
       {
-        "question": "What did John share with the person he skyped about?",
+        "question": "[V2_CORRECTION] What did John share with the person he skyped about?",
         "answer": "Characters from Harry Potter (but it was Tim who skyped, not John)",
         "evidence": [
           "D5:1"
@@ -24813,13 +24832,12 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] What protective gear are the two people in the kitchen wearing?",
-        "answer": "Face masks",
+        "question": "What did John's teammates give him when they met on Aug 15th?",
+        "answer": "a basketball with autographs on it",
         "evidence": [
-          "D9:17"
+          "D7:7"
         ],
-        "category": 4,
-        "v2_replacement": true
+        "category": 4
       },
       {
         "question": "Why did John's teammates sign the basketball they gave him?",
@@ -25048,13 +25066,12 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] What year is written in the corner of the mountain landscape photo?",
-        "answer": "1963",
+        "question": "What does John find rewarding about mentoring the younger players?",
+        "answer": "Seeing their growth, improvement, and confidence",
         "evidence": [
-          "D7:2"
+          "D14:7"
         ],
-        "category": 4,
-        "v2_replacement": true
+        "category": 4
       },
       {
         "question": "What has John been able to help the younger players achieve?",
@@ -25105,7 +25122,7 @@
         "category": 4
       },
       {
-        "question": "What type of meal does John often cook using a slow cooker?",
+        "question": "[V2_CORRECTION] What type of meal does John often cook using a slow cooker?",
         "answer": "The slow cooker meal is unspecified; honey garlic chicken with roasted veg is a separate dish cooked in a pan",
         "evidence": [
           "D15:30",
@@ -25164,7 +25181,7 @@
         "category": 4
       },
       {
-        "question": "How does Tim stay motivated during difficult study sessions?",
+        "question": "[V2_CORRECTION] How does Tim stay motivated during difficult study sessions?",
         "answer": "Breaking study into smaller parts: 25 minutes on, then 5 minutes off (Pomodoro technique)",
         "evidence": [
           "D18:7"
@@ -25172,7 +25189,7 @@
         "category": 4
       },
       {
-        "question": "What did Tim say about his injury on 16 November, 2023?",
+        "question": "[V2_CORRECTION] What did Tim say about his injury on 16 November, 2023?",
         "answer": "Tim did not have an injury. It was John's injury. John (not Tim) said the doctor said it's not too serious.",
         "evidence": [
           "D18:2",
@@ -25376,13 +25393,12 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] What is the color and specific model of the Lamborghini at the car show?",
-        "answer": "Orange Lamborghini Aventador LP780-4",
+        "question": "What is one cause that John supports with his influence and resources?",
+        "answer": "youth sports and fair chances in sports",
         "evidence": [
-          "D3:13"
+          "D26:21"
         ],
-        "category": 4,
-        "v2_replacement": true
+        "category": 4
       },
       {
         "question": "What new fantasy TV series is Tim excited about?",
@@ -25401,7 +25417,7 @@
         "category": 4
       },
       {
-        "question": "What language does Tim know besides German?",
+        "question": "[V2_CORRECTION] What language does Tim know besides German?",
         "answer": "French (Tim took French in high school, per D27:7)",
         "evidence": [
           "D27:7"
@@ -25409,7 +25425,7 @@
         "category": 4
       },
       {
-        "question": "What book did Tim get in Italy that inspired him to cook?",
+        "question": "[V2_CORRECTION] What book did Tim get in Italy that inspired him to cook?",
         "answer": "John (not Tim) got a cooking book in Italy",
         "evidence": [
           "D27:4"
@@ -25417,7 +25433,7 @@
         "category": 4
       },
       {
-        "question": "What is John's favorite book series?",
+        "question": "[V2_CORRECTION] What is John's favorite book series?",
         "answer": "The evidence does not support Harry Potter as John's favorite. John explicitly calls The Hobbit 'one of my favorites' (D20:20).",
         "evidence": [
           "D27:19"
@@ -25625,14 +25641,12 @@
         "adversarial_answer": "A local organization helping disadvantaged kids with sports and school"
       },
       {
-        "question": "[V2_REPLACEMENT] What number is visible on the jerseys of the basketball players?",
+        "question": "What did Tim's teammates give him when they met on Aug 15th?",
         "evidence": [
-          "D22:6"
+          "D7:7"
         ],
         "category": 5,
-        "adversarial_answer": "a basketball with autographs on it",
-        "answer": "16",
-        "v2_replacement": true
+        "adversarial_answer": "a basketball with autographs on it"
       },
       {
         "question": "Why did John's teammates sign the football they gave him?",
@@ -25763,14 +25777,12 @@
         "adversarial_answer": "Smoky Mountains"
       },
       {
-        "question": "[V2_REPLACEMENT] Besides the turtles, what fruit is visible in the image shared by Nate?",
+        "question": "What does Tim find rewarding about mentoring the younger players?",
         "evidence": [
-          "D8:13"
+          "D14:7"
         ],
         "category": 5,
-        "adversarial_answer": "Seeing their growth, improvement, and confidence",
-        "answer": "Strawberries",
-        "v2_replacement": true
+        "adversarial_answer": "Seeing their growth, improvement, and confidence"
       },
       {
         "question": "What has Tim been able to help the younger players achieve?",
@@ -25950,14 +25962,12 @@
         "adversarial_answer": "Sports and marketing seminars"
       },
       {
-        "question": "[V2_REPLACEMENT] Describe the physical feat being performed by the two individuals in the martial arts photo.",
+        "question": "What is one cause that John opposes with his influence and resources?",
         "evidence": [
-          "D8:6"
+          "D26:21"
         ],
         "category": 5,
-        "adversarial_answer": "youth sports and fair chances in sports",
-        "answer": "One person is balanced upside down on the shoulders of another.",
-        "v2_replacement": true
+        "adversarial_answer": "youth sports and fair chances in sports"
       },
       {
         "question": "What new fantasy TV series is John excited about?",
@@ -31775,7 +31785,7 @@
         "category": 2
       },
       {
-        "question": "What kind of indoor activities has Andrew pursued with his girlfriend?",
+        "question": "[V2_CORRECTION] What kind of indoor activities has Andrew pursued with his girlfriend?",
         "answer": "boardgames, volunteering at pet shelter, wine tasting",
         "evidence": [
           "D13:1",
@@ -31800,7 +31810,7 @@
         "category": 1
       },
       {
-        "question": "When did Audrey make muffins for herself?",
+        "question": "[V2_CORRECTION] When did Audrey make muffins for herself?",
         "answer": "Either April 3-9 (Monday-start convention) or April 9-15 (Sunday-start convention), depending on calendar interpretation.",
         "evidence": [
           "D3:18"
@@ -31808,7 +31818,7 @@
         "category": 2
       },
       {
-        "question": "When did Audrey see a hummingbird?",
+        "question": "[V2_CORRECTION] When did Audrey see a hummingbird?",
         "answer": "last week of April 2023 (approximately April 24-30, 2023)",
         "evidence": [
           "D4:1"
@@ -31816,25 +31826,24 @@
         "category": 2
       },
       {
-        "question": "[V2_REPLACEMENT] According to Calvin's text, when is he planning to visit the location shown in the living room photo?",
-        "answer": "Next month",
+        "question": "When did Audrey adopt Pixie?",
+        "answer": "around April 2, 2023",
         "evidence": [
-          "D1:9"
+          "D2:1"
         ],
-        "category": 2,
-        "v2_replacement": true
+        "category": 2
       },
       {
-        "question": "[V2_REPLACEMENT] What specific activity is offered at the table where the young girl is sitting?",
-        "answer": "Make Your Own Fake Tattoo",
+        "question": "How many years passed between Audrey adopting Pixie and her other three dogs?",
+        "answer": "three years",
         "evidence": [
-          "D24:9"
+          "D2:1",
+          "D1:7"
         ],
-        "category": 2,
-        "v2_replacement": true
+        "category": 2
       },
       {
-        "question": "Did Andrew have a pet dog during March 2023?",
+        "question": "[V2_CORRECTION] Did Andrew have a pet dog during March 2023?",
         "answer": "No",
         "evidence": [
           "D1:12"
@@ -31906,31 +31915,31 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] What weapons are the performers holding in the traditional dance photo?",
-        "answer": "Swords and spears",
+        "question": "When is Andrew going to go hiking with Audrey?",
+        "answer": "August",
         "evidence": [
-          "D8:17"
+          "D11:7"
         ],
-        "category": 2,
-        "v2_replacement": true
+        "category": 2
       },
       {
-        "question": "[V2_REPLACEMENT] What distinctive clothing pattern are the three individuals wearing in the photo?",
-        "answer": "Camouflage",
+        "question": "How many times did Audrey and Andew plan to hike together?",
+        "answer": "three times",
         "evidence": [
-          "D7:5"
+          "D11:7",
+          "D24:13",
+          "D26:20"
         ],
-        "category": 1,
-        "v2_replacement": true
+        "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] Describe the outfit worn by the central figure in the theatrical performance photo.",
-        "answer": "A black and white striped suit with a top hat and sunglasses",
+        "question": "[V2_CORRECTION] Where did Audrey get Pixie from?",
+        "answer": "Unclear - D2:1 says 'adopted' while D11:4 says 'breeder'. The evidence is contradictory.",
         "evidence": [
-          "D9:5"
+          "D2:1",
+          "D11:4"
         ],
-        "category": 1,
-        "v2_replacement": true
+        "category": 1
       },
       {
         "question": "What is an indoor activity that Andrew would enjoy doing while make his dog happy?",
@@ -32029,13 +32038,14 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] Which programming language is being used in the code editor shown on the screen?",
-        "answer": "Python",
+        "question": "What are the names of Audrey's dogs?",
+        "answer": "Pepper, Precious, Panda, and Pixie",
         "evidence": [
-          "D14:2"
+          "D1:7",
+          "D2:1",
+          "D19:12"
         ],
-        "category": 1,
-        "v2_replacement": true
+        "category": 1
       },
       {
         "question": "When is Andrew planning to go to the beach with his girlfriend?",
@@ -32105,13 +32115,12 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] How many people are required to lift the heavy object according to the box's warning label?",
-        "answer": "Two people",
+        "question": "[V2_CORRECTION] When did Audrey get into an accident in the park?",
+        "answer": "approximately between October 16 and 22, 2023",
         "evidence": [
-          "D32:5"
+          "D25:2"
         ],
-        "category": 2,
-        "v2_replacement": true
+        "category": 2
       },
       {
         "question": "When did Andrew and his girlfriend go on a wine tasting trip?",
@@ -32141,7 +32150,7 @@
         "category": 1
       },
       {
-        "question": "What are the breeds of Audrey's dogs?",
+        "question": "[V2_CORRECTION] What are the breeds of Audrey's dogs?",
         "answer": "Contradictory evidence: D19:12 says Jack Russell mixes and Chihuahua mixes; D26:13 says Lab mixes (Pepper, Panda) and Chihuahua mixes (Precious, Pixie)",
         "evidence": [
           "D19:12",
@@ -32231,7 +32240,7 @@
         "category": 1
       },
       {
-        "question": "What items has Audrey bought or made for her dogs?",
+        "question": "[V2_CORRECTION] What items has Audrey bought or made for her dogs?",
         "answer": "dog tags, toys, dog beds, collars",
         "evidence": [
           "D1:3",
@@ -32242,13 +32251,15 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] What color is the collar on the small dog lying on the chair?",
-        "answer": "Pink",
+        "question": "What is something that Andrew could do to make birdwatching hobby to fit in his city schedule?",
+        "answer": "Install a bird feeder outside where he can see the birds without going outdoors.",
         "evidence": [
-          "D2:17"
+          "D20:5",
+          "D20:21",
+          "D23:1",
+          "D1:14"
         ],
-        "category": 3,
-        "v2_replacement": true
+        "category": 3
       },
       {
         "question": "What is a career that Andrew could potentially pursue with his love for animals and nature?",
@@ -32291,7 +32302,7 @@
         "category": 1
       },
       {
-        "question": "When did Andrew adopt Scout?",
+        "question": "[V2_CORRECTION] When did Andrew adopt Scout?",
         "answer": "a few days before November 22, 2023",
         "evidence": [
           "D28:6"
@@ -32589,13 +32600,12 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] What famous guitar brand name is visible on the headstock in the photo?",
-        "answer": "Fender",
+        "question": "How often does Audrey take her dogs for walks?",
+        "answer": "Multiple times a day",
         "evidence": [
-          "D16:8"
+          "D19:10"
         ],
-        "category": 4,
-        "v2_replacement": true
+        "category": 4
       },
       {
         "question": "What kind of flowers does Audrey take care of?",
@@ -32662,7 +32672,7 @@
         "category": 4
       },
       {
-        "question": "What organization does Audrey donate a portion of his profits to?",
+        "question": "[V2_CORRECTION] What organization does Audrey donate a portion of his profits to?",
         "answer": "Animal shelter",
         "evidence": [
           "D22:9"
@@ -32982,14 +32992,12 @@
         "adversarial_answer": "Petted, hugged, spoke calmly and slowly walked the dog"
       },
       {
-        "question": "[V2_REPLACEMENT] Who is the handwritten note from, and to whom is it addressed?",
+        "question": "How often does Andrew take his dogs for walks?",
         "evidence": [
-          "D3:9"
+          "D19:10"
         ],
         "category": 5,
-        "adversarial_answer": "Multiple times a day",
-        "answer": "From Ava to Katie",
-        "v2_replacement": true
+        "adversarial_answer": "Multiple times a day"
       },
       {
         "question": "What kind of vegetables does Audrey take care of?",
@@ -38974,7 +38982,7 @@
         "category": 2
       },
       {
-        "question": "Which places or events have John and James planned to meet at?",
+        "question": "[V2_CORRECTION] Which places or events have John and James planned to meet at?",
         "answer": "VR gaming, McGee's, baseball game",
         "evidence": [
           "D1:33",
@@ -39055,7 +39063,7 @@
         "category": 2
       },
       {
-        "question": "How was John feeling on April 10, 2022?",
+        "question": "[V2_CORRECTION] How was John feeling on April 10, 2022?",
         "answer": "The 'seeking solitude' event occurred on April 18, 2022, not April 10. There is no data about John's feelings on April 10.",
         "evidence": [],
         "category": 2
@@ -39101,7 +39109,7 @@
         "category": 3
       },
       {
-        "question": "What is the board game where you have to find the imposter that John mentions to James?",
+        "question": "[V2_CORRECTION] What is the board game where you have to find the imposter that John mentions to James?",
         "answer": "Unknown - the game is described but never named. 'Mafia' is one possibility among several social deduction games.",
         "evidence": [
           "D8:36"
@@ -39118,7 +39126,7 @@
         "category": 1
       },
       {
-        "question": "Was James feeling lonely before meeting Samantha?",
+        "question": "[V2_CORRECTION] Was James feeling lonely before meeting Samantha?",
         "answer": "Most likely yes (defensible inference); the cited evidence supports loneliness but not for the reasons stated in the golden answer",
         "evidence": [
           "D9:16",
@@ -39162,7 +39170,7 @@
         "category": 2
       },
       {
-        "question": "What kind of games has James tried to develop?",
+        "question": "[V2_CORRECTION] What kind of games has James tried to develop?",
         "answer": "football simulator (D13:8), virtual world inspired by Witcher 3 (D6:2, D27:2, D27:6), strategy game like Civilization (D22:5)",
         "evidence": [
           "D13:8",
@@ -39228,7 +39236,7 @@
         "category": 3
       },
       {
-        "question": "How many days did James plan to spend on his trip in Canada?",
+        "question": "[V2_CORRECTION] How many days did James plan to spend on his trip in Canada?",
         "answer": "9 days (July 11 to July 20)",
         "evidence": [
           "D16:9",
@@ -39278,7 +39286,7 @@
         "category": 3
       },
       {
-        "question": "When did John spend time with his sister and dogs?",
+        "question": "[V2_CORRECTION] When did John spend time with his sister and dogs?",
         "answer": "The question should ask about JAMES, not John. James spent time with his sister and dogs on July 21, 2022.",
         "evidence": [
           "D17:28"
@@ -39286,7 +39294,7 @@
         "category": 2
       },
       {
-        "question": "What happened to John's job situation in 2022?",
+        "question": "[V2_CORRECTION] What happened to John's job situation in 2022?",
         "answer": "The golden answer is factually correct; only the citation D4:36 is invalid.",
         "evidence": [
           "D18:1",
@@ -39413,16 +39421,15 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] What color is the light used in the snake's enclosure?",
-        "answer": "Red",
+        "question": "When did John start working on his 2D Adventure mobile game?",
+        "answer": "approximately summer of 2022",
         "evidence": [
-          "D15:16"
+          "D25:9"
         ],
-        "category": 2,
-        "v2_replacement": true
+        "category": 2
       },
       {
-        "question": "How long did it take for James to complete his Witcher-inspired game?",
+        "question": "[V2_CORRECTION] How long did it take for James to complete his Witcher-inspired game?",
         "answer": "six months (correct answer, wrong citation - should cite D6:2 not D6:1)",
         "evidence": [
           "D6:2",
@@ -39491,7 +39498,7 @@
         "category": 1
       },
       {
-        "question": "What was James' big moment with Samantha in October 2023?",
+        "question": "[V2_CORRECTION] What was James' big moment with Samantha in October 2023?",
         "answer": "The golden answer about the event is correct, but it happened in October 2022, not October 2023 as stated in the question.",
         "evidence": [
           "D29:8",
@@ -39528,7 +39535,7 @@
         "category": 2
       },
       {
-        "question": "When did James and his family visit Mark and Josh?",
+        "question": "[V2_CORRECTION] When did James and his family visit Mark and Josh?",
         "answer": "Between November 4-7, 2022 (exact date indeterminable from transcript)",
         "evidence": [
           "D31:1",
@@ -39714,7 +39721,7 @@
         "category": 4
       },
       {
-        "question": "What did John organize with his friends on May 8, 2022?",
+        "question": "[V2_CORRECTION] What did John organize with his friends on May 8, 2022?",
         "answer": "The CS:GO tournament was organized on May 7, 2022 (not May 8 as stated in the question)",
         "evidence": [
           "D10:2",
@@ -39755,7 +39762,7 @@
         "category": 4
       },
       {
-        "question": "What did John receive for achieving second place in the tournament?",
+        "question": "[V2_CORRECTION] What did John receive for achieving second place in the tournament?",
         "answer": "money and a trophy (correct answer, but evidence should include D12:8 for the trophy)",
         "evidence": [
           "D12:6",
@@ -39916,7 +39923,7 @@
         "category": 4
       },
       {
-        "question": "Whose phone number did James receive during the beach outing?",
+        "question": "[V2_CORRECTION] Whose phone number did James receive during the beach outing?",
         "answer": "Samantha (correct answer, but evidence must include D19:16 where the name is stated)",
         "evidence": [
           "D19:14",
@@ -39933,7 +39940,7 @@
         "category": 4
       },
       {
-        "question": "What is John organizing with his siblings?",
+        "question": "[V2_CORRECTION] What is John organizing with his siblings?",
         "answer": "a gaming night (correct answer, but evidence must include D20:15 where 'gaming night' is stated)",
         "evidence": [
           "D20:15",
@@ -40062,13 +40069,12 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] Name three colors of baubles visible on the Christmas tree shared by John.",
-        "answer": "Red, green, and gold (or silver)",
+        "question": "What did John use to play when he was younger to let off steam?",
+        "answer": "drums",
         "evidence": [
-          "D8:29"
+          "D24:15"
         ],
-        "category": 4,
-        "v2_replacement": true
+        "category": 4
       },
       {
         "question": "What career milestone did John achieve recently in September 2022?",
@@ -40079,13 +40085,12 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] What website URL is watermarked on the cityscape photo?",
-        "answer": "WWW.SHOOT360.ORG",
+        "question": "What type of game is John's upcoming mobile game?",
+        "answer": "2D adventure",
         "evidence": [
-          "D10:5"
+          "D25:9"
         ],
-        "category": 4,
-        "v2_replacement": true
+        "category": 4
       },
       {
         "question": "What does John do to stay informed and constantly learn about game design?",
@@ -40435,14 +40440,12 @@
         "adversarial_answer": "books, movies, dreams"
       },
       {
-        "question": "[V2_REPLACEMENT] Mention two types of vegetables being chopped in the kitchen scene.",
+        "question": "What did James use to play when he was younger to let off steam?",
         "evidence": [
-          "D15:24"
+          "D24:15"
         ],
         "category": 5,
-        "adversarial_answer": "drums",
-        "answer": "Broccoli and carrots",
-        "v2_replacement": true
+        "adversarial_answer": "drums"
       },
       {
         "question": "What does James do to stay informed and constantly learn about game design?",
@@ -46137,7 +46140,7 @@
   {
     "qa": [
       {
-        "question": "What kind of project was Jolene working on in the beginning of January 2023?",
+        "question": "[V2_CORRECTION] What kind of project was Jolene working on in the beginning of January 2023?",
         "answer": "electrical engineering project",
         "evidence": [
           "D1:2"
@@ -46261,13 +46264,15 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] What toy are the dogs and their owners playing with in the park?",
-        "answer": "A frisbee",
+        "question": "What were Deborah's mother's hobbies?",
+        "answer": "reading, traveling, art, cooking",
         "evidence": [
-          "D3:24"
+          "D2:17",
+          "D2:19",
+          "D12:3",
+          "D29:7"
         ],
-        "category": 1,
-        "v2_replacement": true
+        "category": 1
       },
       {
         "question": "What pets does Jolene have?",
@@ -46351,13 +46356,14 @@
         "category": 3
       },
       {
-        "question": "[V2_REPLACEMENT] What color is the leash on the Labrador puppy sitting in the flowers?",
-        "answer": "Blue",
+        "question": "What new yoga poses did Deborah try?",
+        "answer": "Warrior II, Dancer Pose (Natarajasana), Tree pose",
         "evidence": [
-          "D17:5"
+          "D4:14",
+          "D14:3",
+          "D14:15"
         ],
-        "category": 1,
-        "v2_replacement": true
+        "category": 1
       },
       {
         "question": "What are Jolene's favorite books?",
@@ -46449,13 +46455,21 @@
         "category": 2
       },
       {
-        "question": "[V2_REPLACEMENT] What brand name is printed on the side of the black and pink sneaker?",
-        "answer": "ASICS",
+        "question": "How old is Jolene?",
+        "answer": "likely no more than 30; since she's in school",
         "evidence": [
-          "D13:15"
+          "D8:2",
+          "D13:5",
+          "D21:6",
+          "D21:8",
+          "D22:6",
+          "D22:14",
+          "D24:2",
+          "D24:14",
+          "D25:5",
+          "D26:6"
         ],
-        "category": 3,
-        "v2_replacement": true
+        "category": 3
       },
       {
         "question": "When did Jolene take Seraphim to the park?",
@@ -46466,13 +46480,12 @@
         "category": 2
       },
       {
-        "question": "[V2_REPLACEMENT] What is the name signed in the bottom right corner of the surfboard art?",
-        "answer": "Karl",
+        "question": "When did Deborah start the yoga class in the neighborhood?",
+        "answer": "Friday before 13 March, 2023",
         "evidence": [
-          "D29:28"
+          "D9:5"
         ],
-        "category": 2,
-        "v2_replacement": true
+        "category": 2
       },
       {
         "question": "What time management techniques do Deborah and Jolene use?",
@@ -46626,13 +46639,12 @@
         "category": 2
       },
       {
-        "question": "[V2_REPLACEMENT] According to Calvin's text, what is the intended final use for the room shown under construction?",
-        "answer": "A recording studio",
+        "question": "When did Deborah lead a meditation session during the sunset?",
+        "answer": "week before 16 August, 2023",
         "evidence": [
-          "D11:4"
+          "D18:8"
         ],
-        "category": 2,
-        "v2_replacement": true
+        "category": 2
       },
       {
         "question": "When did Jolene gift her partner a new console?",
@@ -46721,13 +46733,15 @@
         "category": 2
       },
       {
-        "question": "[V2_REPLACEMENT] What color are the two pillows on the brown leather armchair?",
-        "answer": "Yellow and red-orange",
+        "question": "What was Jolene doing with her partner in Rio de Janeiro?",
+        "answer": "they went on excursions, checked out some cool yoga classes, visited a lot of delicious cafes, visited an old temple",
         "evidence": [
-          "D16:11"
+          "D23:15",
+          "D23:1",
+          "D23:3",
+          "D23:17"
         ],
-        "category": 4,
-        "v2_replacement": true
+        "category": 4
       },
       {
         "question": "When did Deborah visit Brazil?",
@@ -46790,7 +46804,7 @@
         "category": 4
       },
       {
-        "question": "What card game is Deborah talking about?",
+        "question": "[V2_CORRECTION] What card game is Deborah talking about?",
         "answer": "an unnamed card game about cats where you draw cards and can attack opponents (Deborah says she does not remember the name)",
         "evidence": [
           "D27:12"
@@ -46815,7 +46829,7 @@
         "category": 1
       },
       {
-        "question": "Where did Jolene and her partner spend most of September 2023?",
+        "question": "[V2_CORRECTION] Where did Jolene and her partner spend most of September 2023?",
         "answer": "Phuket",
         "evidence": [
           "D27:1",
@@ -46863,13 +46877,13 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] What is the shape of the blue toy that the dog Max is resting his head on?",
-        "answer": "A fish",
+        "question": "What kind of professional activities does Jolene participate in to gain more experience in her field?",
+        "answer": "present work at virtual conference, attend workshops  and intern at firms",
         "evidence": [
-          "D14:13"
+          "D21:6",
+          "D13:5"
         ],
-        "category": 1,
-        "v2_replacement": true
+        "category": 1
       },
       {
         "question": "What kind of engineering projects has Jolene worked on?",
@@ -46906,7 +46920,7 @@
         "category": 1
       },
       {
-        "question": "Which countries has Deborah traveled to?",
+        "question": "[V2_CORRECTION] Which countries has Deborah traveled to?",
         "answer": "Indonesia (Bali), Brazil (Rio de Janeiro)",
         "evidence": [
           "D6:10",
@@ -46990,13 +47004,15 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] What color are the two pillows on the brown leather armchair?",
-        "answer": "Yellow and red-orange",
+        "question": "What was Jolene doing with her partner in Rio de Janeiro?",
+        "answer": "they went on excursions, checked out some cool yoga classes, visited a lot of delicious cafes, visited an old temple",
         "evidence": [
-          "D3:32"
+          "D23:15",
+          "D23:1",
+          "D23:3",
+          "D23:17"
         ],
-        "category": 4,
-        "v2_replacement": true
+        "category": 4
       },
       {
         "question": "Have Deborah and Jolene been to Rio de Janeiro?",
@@ -47066,7 +47082,7 @@
         "category": 4
       },
       {
-        "question": "What milestone did Jolene achieve recently on 4 February, 2023?",
+        "question": "[V2_CORRECTION] What milestone did Jolene achieve recently on 4 February, 2023?",
         "answer": "Design and build a sustainable water purifier for a rural community",
         "evidence": [
           "D4:3",
@@ -47083,13 +47099,12 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] What is the central object in the water in Deborah's favorite pondering spot?",
-        "answer": "A small boat with a single oar",
+        "question": "What does Deborah bring with her whenever she comes to reflect on her mom?",
+        "answer": "amulet",
         "evidence": [
-          "D23:12"
+          "D4:36"
         ],
-        "category": 4,
-        "v2_replacement": true
+        "category": 4
       },
       {
         "question": "What new outlook did Jolene gain after her mini retreat on 9 February, 2023?",
@@ -47156,7 +47171,7 @@
         "category": 4
       },
       {
-        "question": "According to Jolene, what does exercise help her to feel?",
+        "question": "[V2_CORRECTION] According to Jolene, what does exercise help her to feel?",
         "answer": "This is Deborah's statement, not Jolene's. Deborah said exercise makes her feel connected to her body.",
         "evidence": [
           "D7:20"
@@ -47164,7 +47179,7 @@
         "category": 4
       },
       {
-        "question": "What did Deb share a photo of, which brought a smile to Jolene's face?",
+        "question": "[V2_CORRECTION] What did Deb share a photo of, which brought a smile to Jolene's face?",
         "answer": "a yellow coffee cup with a handwritten message",
         "evidence": [
           "D8:21"
@@ -47212,7 +47227,7 @@
         "category": 4
       },
       {
-        "question": "What did Jolene and Anna discuss while watching the sunset by the sea?",
+        "question": "[V2_CORRECTION] What did Jolene and Anna discuss while watching the sunset by the sea?",
         "answer": "Deborah and Anna (not Jolene) realized they inspire each other while watching the sunset by the sea.",
         "evidence": [
           "D10:17"
@@ -47292,13 +47307,12 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] What quote is written on the cover of the black spiral notebook?",
-        "answer": "\"Who you are tomorrow begins with what you do today.\"",
+        "question": "What is Jolene currently doing in June 2023?",
+        "answer": "interning at a well-known engineering firm",
         "evidence": [
-          "D23:23"
+          "D13:5"
         ],
-        "category": 4,
-        "v2_replacement": true
+        "category": 4
       },
       {
         "question": "For how long has Jolene had Seraphim as a pet?",
@@ -47317,13 +47331,12 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] What specific promotional text is visible on the bouquet of roses?",
-        "answer": "20% off",
+        "question": "Which new yoga pose did Deborah share a photo of?",
+        "answer": "tree pose",
         "evidence": [
-          "D20:6"
+          "D14:15"
         ],
-        "category": 4,
-        "v2_replacement": true
+        "category": 4
       },
       {
         "question": "What group activity did Deborah start with Anna?",
@@ -47446,7 +47459,7 @@
         "category": 4
       },
       {
-        "question": "What is special about the bench at the park near Deborah's house?",
+        "question": "[V2_CORRECTION] What is special about the bench at the park near Deborah's house?",
         "answer": "It holds special memories of conversations with her mom",
         "evidence": [
           "D19:19"
@@ -47470,7 +47483,7 @@
         "category": 4
       },
       {
-        "question": "What habits does Jolene practice to feel balanced?",
+        "question": "[V2_CORRECTION] What habits does Jolene practice to feel balanced?",
         "answer": "yoga, meditation, walks, and mindfulness",
         "evidence": [
           "D20:11",
@@ -47624,7 +47637,7 @@
         "category": 4
       },
       {
-        "question": "Why did Jolene have to reschedule their meeting with Deborah on September 8, 2023?",
+        "question": "[V2_CORRECTION] Why did Jolene have to reschedule their meeting with Deborah on September 8, 2023?",
         "answer": "Deborah (not Jolene) already had plans for that day, causing the reschedule.",
         "evidence": [
           "D26:15",
@@ -47665,7 +47678,7 @@
         "category": 4
       },
       {
-        "question": "What did Jolene recently play that she described to Deb?",
+        "question": "[V2_CORRECTION] What did Jolene recently play that she described to Deb?",
         "answer": "Deborah (not Jolene) recently played a card game about cats.",
         "evidence": [
           "D27:12"
@@ -47713,13 +47726,12 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] What two types of disposal labels are seen on the red mailbox unit?",
-        "answer": "TRASH and RECYCLING",
+        "question": "What was Deborah's mom passionate about?",
+        "answer": "Cooking",
         "evidence": [
-          "D20:31"
+          "D29:7"
         ],
-        "category": 4,
-        "v2_replacement": true
+        "category": 4
       },
       {
         "question": "What food did Deborah's mom make for her on birthdays?",
@@ -47738,7 +47750,7 @@
         "category": 4
       },
       {
-        "question": "What outdoor activity did Jolene suggest doing together with Deborah?",
+        "question": "[V2_CORRECTION] What outdoor activity did Jolene suggest doing together with Deborah?",
         "answer": "Surfing",
         "evidence": [
           "D29:30"
@@ -53936,7 +53948,7 @@
         "category": 1
       },
       {
-        "question": "Which hobby did Sam take up in May 2023?",
+        "question": "[V2_CORRECTION] Which hobby did Sam take up in May 2023?",
         "answer": "Sam did not take up any hobby in May 2023. He was considering painting but explicitly said 'Not yet'.",
         "evidence": [
           "D1:11",
@@ -53962,7 +53974,7 @@
         "category": 1
       },
       {
-        "question": "What new hobbies did Sam consider trying?",
+        "question": "[V2_CORRECTION] What new hobbies did Sam consider trying?",
         "answer": "Painting, kayaking, hiking, cooking, running",
         "evidence": [
           "D1:11",
@@ -54087,7 +54099,7 @@
         "category": 2
       },
       {
-        "question": "What kind of healthy food suggestions has Evan given to Sam?",
+        "question": "[V2_CORRECTION] What kind of healthy food suggestions has Evan given to Sam?",
         "answer": "flavored seltzer water, dark chocolate with high cocoa content, air-popped popcorn and fruit, energy balls",
         "evidence": [
           "D3:5",
@@ -54098,13 +54110,22 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] What object is resting next to the black dog's paw in the photo?",
-        "answer": "A yellow tennis ball",
+        "question": "Considering their conversations and personal growth, what advice might Evan and Sam give to someone facing a major life transition or challenge?",
+        "answer": "Evan and Sam would likely advise embracing small, consistent changes\u200b\u200b, finding stress-relieving activities like hiking\u200b\u200b, painting, and road trips\u200b\u200b, and the importance of friendship and support in navigating challenges\u200b\u200b.",
         "evidence": [
-          "D13:7"
+          "D3:10",
+          "D3:15",
+          "D22:1",
+          "D8:17",
+          "D8:22",
+          "D9:8",
+          "D9:11",
+          "D14:7",
+          "D14:12",
+          "D12:7",
+          "D12:11"
         ],
-        "category": 3,
-        "v2_replacement": true
+        "category": 3
       },
       {
         "question": "In light of the health and dietary changes discussed, what would be an appropriate gift for both Evan and Sam to encourage their healthy lifestyles?",
@@ -54157,7 +54178,7 @@
         "category": 2
       },
       {
-        "question": "What significant event happened in Sam's life towards the end of summer 2023?",
+        "question": "[V2_CORRECTION] What significant event happened in Sam's life towards the end of summer 2023?",
         "answer": "This event happened to Evan, not Sam. No comparable significant event for Sam is documented at end of summer 2023 beyond his ongoing health journey.",
         "evidence": [
           "D5:1"
@@ -54192,7 +54213,7 @@
         "category": 3
       },
       {
-        "question": "What kind of writing does Sam do to relax and cope with his health issues?",
+        "question": "[V2_CORRECTION] What kind of writing does Sam do to relax and cope with his health issues?",
         "answer": "journalling, creative writing",
         "evidence": [
           "D11:17",
@@ -54235,7 +54256,7 @@
         "category": 1
       },
       {
-        "question": "What is the recurring dream that Sam keeps having?",
+        "question": "[V2_CORRECTION] What is the recurring dream that Sam keeps having?",
         "answer": "he's flying/soaring over skyscrapers",
         "evidence": [
           "D6:14",
@@ -54261,7 +54282,7 @@
         "category": 2
       },
       {
-        "question": "What kind of foods or recipes has Sam recommended to Evan?",
+        "question": "[V2_CORRECTION] What kind of foods or recipes has Sam recommended to Evan?",
         "answer": "roasted vegetables, grilled chicken and veggie stir-fry",
         "evidence": [
           "D7:8",
@@ -54270,7 +54291,7 @@
         "category": 1
       },
       {
-        "question": "What kind of healthy meals did Sam start eating after getting a health scare?",
+        "question": "[V2_CORRECTION] What kind of healthy meals did Sam start eating after getting a health scare?",
         "answer": "salad, grilled salmon and vegetables, grilled chicken and veggie stir-fry, fruit bowl",
         "evidence": [
           "D3:2",
@@ -54327,7 +54348,7 @@
         "category": 1
       },
       {
-        "question": "How often does Sam get health checkups?",
+        "question": "[V2_CORRECTION] How often does Sam get health checkups?",
         "answer": "Irregularly, at varying intervals (approximately every 2-3 months in mid-2023, then a longer gap)",
         "evidence": [
           "D2:6",
@@ -54338,22 +54359,26 @@
         "category": 3
       },
       {
-        "question": "[V2_REPLACEMENT] What animal is pictured next to the word \"MILK\" on the clipboard?",
-        "answer": "A cow",
+        "question": "What kind of subjects does Evan enjoy painting?",
+        "answer": "nature landscapes, portraits, abstract minimalism",
         "evidence": [
-          "D13:9"
+          "D8:20",
+          "D20:13",
+          "D20:15",
+          "D21:10",
+          "D21:14"
         ],
-        "category": 1,
-        "v2_replacement": true
+        "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] What are the men at the winter campsite holding while gathered around the fire?",
-        "answer": "Red cups",
+        "question": "Which places in Canada was Evan visiting in July 2023?",
+        "answer": "Banff, Rocky Mountains",
         "evidence": [
-          "D18:1"
+          "D8:27",
+          "D9:8",
+          "D9:10"
         ],
-        "category": 2,
-        "v2_replacement": true
+        "category": 2
       },
       {
         "question": "How do Evan and Sam use creative outlets to cope with life's challenges?",
@@ -54364,13 +54389,14 @@
         "category": 3
       },
       {
-        "question": "[V2_REPLACEMENT] What year is written next to the entry about starting a blog in the notebook?",
-        "answer": "2019",
+        "question": "When did Evan go skiing in Banff?",
+        "answer": "July 2023",
         "evidence": [
-          "D17:6"
+          "D8:26",
+          "D8:27",
+          "D8:28"
         ],
-        "category": 2,
-        "v2_replacement": true
+        "category": 2
       },
       {
         "question": "What new diet and lifestyle change did Sam adopt over time?",
@@ -54443,7 +54469,7 @@
         "category": 2
       },
       {
-        "question": "What personal health incidents does Evan face in 2023?",
+        "question": "[V2_CORRECTION] What personal health incidents does Evan face in 2023?",
         "answer": "heart palpitations, twisted knee, knee injury (from basketball)",
         "evidence": [
           "D3:1",
@@ -54618,7 +54644,7 @@
         "category": 2
       },
       {
-        "question": "When did Evan's son fall off his bike?",
+        "question": "[V2_CORRECTION] When did Evan's son fall off his bike?",
         "answer": "Tuesday before December 17, 2023 (approximately December 12, 2023)",
         "evidence": [
           "D20:3"
@@ -54674,7 +54700,7 @@
         "category": 2
       },
       {
-        "question": "When did Evan have a drunken night with his friends?",
+        "question": "[V2_CORRECTION] When did Evan have a drunken night with his friends?",
         "answer": "January 9, 2024",
         "evidence": [
           "D24:3"
@@ -54865,7 +54891,7 @@
         "category": 4
       },
       {
-        "question": "What dish did Sam make on 18 August, 2023 that turned out flavorful?",
+        "question": "[V2_CORRECTION] What dish did Sam make on 18 August, 2023 that turned out flavorful?",
         "answer": "grilled dish with salmon and vegetables (but made on August 14, 2023, not August 18)",
         "evidence": [
           "D7:4"
@@ -54873,7 +54899,7 @@
         "category": 4
       },
       {
-        "question": "What kind of recipe did Evan request from Sam on 19 August, 2023?",
+        "question": "[V2_CORRECTION] What kind of recipe did Evan request from Sam on 19 August, 2023?",
         "answer": "recipes with more vegetables (but requested on August 15, 2023, not August 19)",
         "evidence": [
           "D7:7"
@@ -54897,7 +54923,7 @@
         "category": 4
       },
       {
-        "question": "What did Evan start painting years ago due to being inspired by a friend's gift?",
+        "question": "[V2_CORRECTION] What did Evan start painting years ago due to being inspired by a friend's gift?",
         "answer": "The friend's gift was a forest scene painting, but Evan started painting in general (landscapes, nature scenes), not specifically forest scenes.",
         "evidence": [
           "D8:14"
@@ -55177,13 +55203,12 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] What unique accessory is the dog in the foreground wearing around its neck?",
-        "answer": "A bright green light",
+        "question": "What did Evan suggest Sam should keep doing to find his own version of love?",
+        "answer": "Keep trying new things",
         "evidence": [
-          "D23:8"
+          "D21:10"
         ],
-        "category": 4,
-        "v2_replacement": true
+        "category": 4
       },
       {
         "question": "How did Evan describe the process of creating the painting with the bird flying over it?",
@@ -55202,7 +55227,7 @@
         "category": 4
       },
       {
-        "question": "What did Evan share with Sam after their hiking trip?",
+        "question": "[V2_CORRECTION] What did Evan share with Sam after their hiking trip?",
         "answer": "Sam (not Evan) shared the photo after Sam's own hiking trip.",
         "evidence": [
           "D22:1"
@@ -60089,7 +60114,7 @@
         "category": 2
       },
       {
-        "question": "What items did Calvin buy in March 2023?",
+        "question": "[V2_CORRECTION] What items did Calvin buy in March 2023?",
         "answer": "mansion in Japan, luxury car",
         "evidence": [
           "D1:3",
@@ -60116,13 +60141,13 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] What is the subject of the painting Evan shared in the chat?",
-        "answer": "A seascape at sunset",
+        "question": "Which country do Calvin and Dave want to meet in?",
+        "answer": "United States",
         "evidence": [
-          "D10:1"
+          "D3:9",
+          "D3:10"
         ],
-        "category": 3,
-        "v2_replacement": true
+        "category": 3
       },
       {
         "question": "What are Dave's dreams?",
@@ -60135,13 +60160,15 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] What feature is located in the center of the park in the aerial cityscape photo?",
-        "answer": "A circular fountain",
+        "question": "Which types of cars does Dave like the most?",
+        "answer": "classic vintage cars",
         "evidence": [
-          "D27:38"
+          "D4:5",
+          "D1:2",
+          "D3:12",
+          "D4:7"
         ],
-        "category": 1,
-        "v2_replacement": true
+        "category": 1
       },
       {
         "question": "Does Dave's shop employ a lot of people?",
@@ -60176,7 +60203,7 @@
         "category": 2
       },
       {
-        "question": "What mishaps has Calvin run into?",
+        "question": "[V2_CORRECTION] What mishaps has Calvin run into?",
         "answer": "flooding of his mansion, car accident",
         "evidence": [
           "D6:3",
@@ -60244,7 +60271,7 @@
         "category": 1
       },
       {
-        "question": "Which places or events has Calvin visited in Tokyo?",
+        "question": "[V2_CORRECTION] Which places or events has Calvin visited in Tokyo?",
         "answer": "music festival, Ferrari dealership, Shibuya crossing, Shinjuku",
         "evidence": [
           "D3:1",
@@ -60282,22 +60309,25 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] Name the two characters whose portraits are visible on the game interface.",
-        "answer": "Olivia and Katarina",
+        "question": "What is Dave's main passion?",
+        "answer": "auto engineering",
         "evidence": [
-          "D29:5"
+          "D13:3",
+          "D5:5",
+          "D4:5",
+          "D3:12"
         ],
-        "category": 1,
-        "v2_replacement": true
+        "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] Describe the landscape shown in the panoramic photograph shared by John.",
-        "answer": "A snowy mountainous landscape with a frozen body of water",
+        "question": "Can Dave work with engines?",
+        "answer": "yes",
         "evidence": [
-          "D20:32"
+          "D13:7",
+          "D22:5",
+          "D20:1"
         ],
-        "category": 1,
-        "v2_replacement": true
+        "category": 1
       },
       {
         "question": "When did Dave host a card-playing night with his friends?",
@@ -60334,7 +60364,7 @@
         "category": 1
       },
       {
-        "question": "What are Dave's hobbies other than fixing cars?",
+        "question": "[V2_CORRECTION] What are Dave's hobbies other than fixing cars?",
         "answer": "take a walk, listen to favorite albums, live concerts, photography (hiking is aspirational, not confirmed as practiced hobby)",
         "evidence": [
           "D5:9",
@@ -60490,13 +60520,13 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] Which two famous football figures are featured in the background collage at the awards ceremony?",
-        "answer": "Arsene Wenger and Dennis Bergkamp",
+        "question": "How many car shows has Dave attended?",
+        "answer": "two",
         "evidence": [
-          "D26:3"
+          "D3:12",
+          "D22:1"
         ],
-        "category": 1,
-        "v2_replacement": true
+        "category": 1
       },
       {
         "question": "What was Dave doing in the first weekend of October 2023?",
@@ -60517,7 +60547,7 @@
         "category": 1
       },
       {
-        "question": "When did Calvin buy his second Ferrari?",
+        "question": "[V2_CORRECTION] When did Calvin buy his second Ferrari?",
         "answer": "second week of October 2023 (approximately October 8-14)",
         "evidence": [
           "D23:16"
@@ -60542,13 +60572,13 @@
         "category": 2
       },
       {
-        "question": "[V2_REPLACEMENT] What is the title of the gaming magazine shown on the cover?",
-        "answer": "The Masterpiece",
+        "question": "Who supports Calvin in tough times?",
+        "answer": "friends and team",
         "evidence": [
-          "D25:14"
+          "D25:6",
+          "D29:7"
         ],
-        "category": 1,
-        "v2_replacement": true
+        "category": 1
       },
       {
         "question": "What does help Calvin stay connected to the creative process?",
@@ -60585,7 +60615,7 @@
         "category": 2
       },
       {
-        "question": "Which events in Dave's life inspired him to take up auto engineering?",
+        "question": "[V2_CORRECTION] Which events in Dave's life inspired him to take up auto engineering?",
         "answer": "attending a car show with Dad, working on an old car in a neighbor's garage when he was young, spent a summer restoring an old car with Dad",
         "evidence": [
           "D26:6",
@@ -60605,7 +60635,7 @@
         "category": 1
       },
       {
-        "question": "What gifts has Calvin received from his artist friends?",
+        "question": "[V2_CORRECTION] What gifts has Calvin received from his artist friends?",
         "answer": "gold necklace with a diamond pendant, custom-made guitar with an octopus on it",
         "evidence": [
           "D4:24",
@@ -60615,16 +60645,17 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] What activity are the group of people participating in outdoors in the photo?",
-        "answer": "Yoga",
+        "question": "How long did Dave's work on the Ford Mustang take?",
+        "answer": "nearly two months",
         "evidence": [
-          "D14:1"
+          "D14:11",
+          "D20:1",
+          "D21:4"
         ],
-        "category": 2,
-        "v2_replacement": true
+        "category": 2
       },
       {
-        "question": "How long was the car modification workshop in San Francisco?",
+        "question": "[V2_CORRECTION] How long was the car modification workshop in San Francisco?",
         "answer": "Approximately 18 days",
         "evidence": [
           "D14:1",
@@ -60633,7 +60664,7 @@
         "category": 2
       },
       {
-        "question": "What style of guitars does Calvin own?",
+        "question": "[V2_CORRECTION] What style of guitars does Calvin own?",
         "answer": "custom-made guitar with an octopus on it, shiny purple guitar",
         "evidence": [
           "D16:13",
@@ -60664,13 +60695,15 @@
         "category": 2
       },
       {
-        "question": "[V2_REPLACEMENT] What items are organized on the shelf in the photo shared by Joanna?",
-        "answer": "Various books and magazines",
+        "question": "Do all of Dave's car restoration projects go smoothly?",
+        "answer": "No",
         "evidence": [
-          "D6:8"
+          "D27:10",
+          "D13:7",
+          "D25:17",
+          "D20:1"
         ],
-        "category": 1,
-        "v2_replacement": true
+        "category": 1
       },
       {
         "question": "Where was Calvin located in the last week of October 2023?",
@@ -60689,7 +60722,7 @@
         "category": 2
       },
       {
-        "question": "When did Dave buy a vintage camera?",
+        "question": "[V2_CORRECTION] When did Dave buy a vintage camera?",
         "answer": "November 2023",
         "evidence": [
           "D30:5"
@@ -60713,7 +60746,7 @@
         "category": 4
       },
       {
-        "question": "Which band was Dave's favorite at the music festival in April 2023?",
+        "question": "[V2_CORRECTION] Which band was Dave's favorite at the music festival in April 2023?",
         "answer": "Aerosmith (but the festival was in March 2023, not April)",
         "evidence": [
           "D2:10"
@@ -60841,7 +60874,7 @@
         "category": 4
       },
       {
-        "question": "What did Calvin and his friends arrange for in the park?",
+        "question": "[V2_CORRECTION] What did Calvin and his friends arrange for in the park?",
         "answer": "This was Dave and his friends, not Calvin. Dave arranged regular walks together in the park with his friends.",
         "evidence": [
           "D10:3"
@@ -60889,13 +60922,12 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] What weapons is the character carrying in James's hand-drawn sketch?",
-        "answer": "A sword and a shield",
+        "question": "What workshop did Dave get picked for on 11 August, 2023?",
+        "answer": "Car mod workshop",
         "evidence": [
-          "D1:20"
+          "D13:1"
         ],
-        "category": 4,
-        "v2_replacement": true
+        "category": 4
       },
       {
         "question": "What kind of modifications has Dave been working on in the car mod workshop?",
@@ -60978,7 +61010,7 @@
         "category": 4
       },
       {
-        "question": "What color glow did Calvin customize his guitar with?",
+        "question": "[V2_CORRECTION] What color glow did Calvin customize his guitar with?",
         "answer": "purple",
         "evidence": [
           "D16:18",
@@ -61027,7 +61059,7 @@
         "category": 4
       },
       {
-        "question": "Which Disney movie did Dave mention as one of his favorites?",
+        "question": "[V2_CORRECTION] Which Disney movie did Dave mention as one of his favorites?",
         "answer": "Ratatouille",
         "evidence": [
           "D19:4",
@@ -61237,7 +61269,7 @@
         "category": 4
       },
       {
-        "question": "When did Calvin first get interested in cars?",
+        "question": "[V2_CORRECTION] When did Calvin first get interested in cars?",
         "answer": "Cannot be determined from transcript; the 'early age' answer is about Dave, not Calvin",
         "evidence": [
           "D26:6"
@@ -61317,7 +61349,7 @@
         "category": 4
       },
       {
-        "question": "What tools does Calvin use to boost his motivation for music?",
+        "question": "[V2_CORRECTION] What tools does Calvin use to boost his motivation for music?",
         "answer": "Cannot be reliably determined; the 'writing lyrics and notes' answer is about Dave's motivation, not Calvin's",
         "evidence": [
           "D28:34"
@@ -61349,7 +61381,7 @@
         "category": 4
       },
       {
-        "question": "What hobby did Calvin take up recently?",
+        "question": "[V2_CORRECTION] What hobby did Calvin take up recently?",
         "answer": "Photography is Dave's new hobby, not Calvin's. Calvin has not mentioned taking up a new hobby in the recent sessions.",
         "evidence": [
           "D30:1"
@@ -61493,14 +61525,12 @@
         "adversarial_answer": "Ferrari"
       },
       {
-        "question": "[V2_REPLACEMENT] Name one specific book series title visible on the spines in the large bookcase.",
+        "question": "What workshop did Calvin get picked for on 11 August, 2023?",
         "evidence": [
-          "D19:13"
+          "D13:1"
         ],
         "category": 5,
-        "adversarial_answer": "Car mod workshop",
-        "answer": "The Chronicles of Narnia (or Star Wars)",
-        "v2_replacement": true
+        "adversarial_answer": "Car mod workshop"
       },
       {
         "question": "What kind of modifications has Calvin been working on in the car mod workshop?",

@@ -44,6 +44,16 @@ def apply_corrections(dataset, errors):
         # Apply corrections
         qa_list[qa_idx]["answer"] = error.get("correct_answer")
         qa_list[qa_idx]["evidence"] = error.get("correct_evidence")
+        
+        # Add V2_CORRECTION tag
+        q_text = qa_list[qa_idx].get("question", "")
+        if isinstance(q_text, dict):
+            if "[V2_CORRECTION]" not in q_text.get("text", ""):
+                qa_list[qa_idx]["question"]["text"] = "[V2_CORRECTION] " + q_text.get("text", "")
+        else:
+            if "[V2_CORRECTION]" not in q_text:
+                qa_list[qa_idx]["question"] = "[V2_CORRECTION] " + q_text
+                
         count += 1
         
     return count
