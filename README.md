@@ -76,3 +76,14 @@ To evaluate your memory agent against the cleaned text baseline (ignoring dead i
 ## Acknowledgments
 * The original [LoCoMo researchers](https://github.com/snap-research/locomo) (Maharana et al.) for designing an incredibly ambitious and difficult benchmark.
 * The [dial481/locomo-audit](https://github.com/dial481/locomo-audit) team for their tireless manual verification of the 1,540 text questions.
+
+
+## 🛡️ The Blind Evaluation Protocol
+The `locomo_v2_final.json` dataset prefixes questions with taxonomy tags (e.g., `[LOCOMO-AUDIT]`, `[V2_CORRECTION]`) for transparent record-keeping. 
+
+**WARNING:** Do not pass these raw strings to your AI agent during testing. Seeing a "Correction" tag can bias the LLM's base weights into acting overly skeptical. You must strip these tags in your runner script *before* prompting the agent:
+
+```python
+clean_q = q.replace("[V2_CORRECTION]", "").replace("[LOCOMO-AUDIT]", "").replace("[LOCOMO-ISSUES]", "").replace("[V2_REPLACEMENT]", "").strip()
+# Send clean_q to agent...
+```
