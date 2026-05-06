@@ -13,7 +13,10 @@ from aim_core.reasoning_utils import generate_reasoning
 HUB_ROOT = "/home/kingb/benchmark_results"
 
 # Auto-find latest opencode predictions
-PREDS_FILE = os.path.join(HUB_ROOT, "reports/locomo_v2/track_b/trackB_predictions_conv1_FINAL.json")
+if len(sys.argv) > 1:
+    PREDS_FILE = sys.argv[1]
+else:
+    PREDS_FILE = os.path.join(HUB_ROOT, "reports/locomo_v2/track_b/trackB_predictions_conv1_FINAL.json")
 print(f"Predictions: {os.path.basename(PREDS_FILE)}")
 
 timestamp = time.strftime('%Y%m%d_%H%M%S')
@@ -94,7 +97,7 @@ for i, qa in enumerate(data):
     if (i + 1) % 20 == 0:
         print(f"  [{i+1}] Running accuracy: {correct}/{i+1} = {correct/(i+1)*100:.1f}%")
 
-    time.sleep(0.3)  # API pacing
+    time.sleep(4)  # Generous API pacing to prevent CAPACITY_LOCKOUT
 
 accuracy = (correct / len(data)) * 100
 print("\n" + "=" * 60)

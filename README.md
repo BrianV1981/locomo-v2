@@ -61,9 +61,9 @@ Developers can now plug this cache directly into their pipelines, completely byp
 ## 📂 Repository Structure
 
 - **`/data/`**: The core datasets. Includes the `errors.json` audit file, the intermediary `locomo_v2_base.json`, and the three final variants:
-  - `locomo_v2_final.json`: The standard version containing live internet URLs.
-  - `locomo_v2_web.json`: The immutable version mapping URLs to raw images hosted on the `locomo-visual-ground-truth` GitHub repo.
+    - `locomo_v2_web.json`: The immutable version mapping URLs to raw images hosted on the `locomo-visual-ground-truth` GitHub repo.
   - `locomo_v2_local.json`: The air-gapped enterprise version mapping URLs to local relative paths.
+  - `locomo_v2_llava.json`: The text-only variant. It pre-bakes the rich LLaVA OCR descriptions directly into the dialogue turns (`llava_caption`), allowing pure-text LLMs to evaluate the multimodal benchmark without a vision encoder.
 - **`/judge/`**: The standardized A.I.M. LLM-as-a-Judge protocol, containing the strict `AGENTS.md` evaluation persona and the `ghost_judge.py` reference implementation.
 - **`/scripts/`**: The Python utilities used to programmatically map replacements, apply upstream fixes, and generate the V2 dataset.
 - **`/tests/`**: Unit tests to ensure the dataset patching logic behaves deterministically.
@@ -76,7 +76,7 @@ Developers can now plug this cache directly into their pipelines, completely byp
 
 To evaluate your memory agent against the cleaned text baseline (ignoring dead image links for now), simply point your ingestion pipeline to `locomo_v2_base.json`.
 
-*(Once Phase 3 is complete, `locomo_v2_final.json` will be published as the ultimate 1,986-question multimodal gold standard).*
+*(The `locomo_v2_web.json` dataset is the ultimate 1,986-question multimodal gold standard).*
 
 ## Acknowledgments
 * The original [LoCoMo researchers](https://github.com/snap-research/locomo) (Maharana et al.) for designing an incredibly ambitious and difficult benchmark.
@@ -84,7 +84,7 @@ To evaluate your memory agent against the cleaned text baseline (ignoring dead i
 
 
 ## 🛡️ The Blind Evaluation Protocol
-The `locomo_v2_final.json` dataset prefixes questions with taxonomy tags (e.g., `[LOCOMO-AUDIT]`, `[V2_CORRECTION]`) for transparent record-keeping. 
+The `locomo_v2_web.json` (and `_local`) dataset prefixes questions with taxonomy tags (e.g., `[LOCOMO-AUDIT]`, `[V2_CORRECTION]`) for transparent record-keeping. 
 
 **WARNING:** Do not pass these raw strings to your AI agent during testing. Seeing a "Correction" tag can bias the LLM's base weights into acting overly skeptical. You must strip these tags in your runner script *before* prompting the agent:
 
@@ -104,3 +104,20 @@ To standardize the evaluation of LoCoMo V2, we have introduced a dedicated `judg
 2. **Reference Implementation (`judge/ghost_judge.py`):** A reference Python execution loop that dynamically loads the `AGENTS.md` file and evaluates a predictions JSON file.
 
 When submitting scores to the leaderboard, researchers are strongly encouraged to use the `judge/AGENTS.md` prompt to ensure their models are graded fairly on actual reasoning and retrieval.
+
+## ⚖️ Forensic Evaluation Protocol (Implementation Guide)
+To ensure the integrity of the benchmark, all evaluations must use the **Forensic Judge Persona** defined in `/judge/AGENTS.md`.
+
+### Mandatory Implementation Rules:
+1. **Persona Inheritance:** Any script spawning a judge agent MUST set the working directory (`cwd`) to `/judge/`. This ensures the agent loads the correct forensic persona.
+2. **Standardized Execution:** Use `ghost_judge.py` for all evaluations. Do not create custom wrappers without opening a repository issue.
+3. **Paper Trail:** All modifications to the evaluation suite (model versioning, prompt refinements, persona tweaks) MUST be documented in `BENCHMARK_DEVELOPMENT_LOG.md` and preceded by an issue ticket.
+
+## 🚀 Running the Benchmark (Standardized Policy)
+To run this benchmark with our verified forensic protocol, use the policy template located at `benchmarks/policy/BENCHMARK_TEMPLATE_AGENTS.md`. 
+
+### Setup:
+1. Ensure your benchmark environment is configured for forensic evaluation.
+2. When launching the agent, use the policy flag:
+   `gemini --policy benchmarks/policy/BENCHMARK_TEMPLATE_AGENTS.md`
+3. Always check the `BENCHMARK_DEVELOPMENT_LOG.md` before submitting results to ensure your evaluation protocol is current.
