@@ -87,3 +87,15 @@ The `locomo_v2_final.json` dataset prefixes questions with taxonomy tags (e.g., 
 clean_q = q.replace("[V2_CORRECTION]", "").replace("[LOCOMO-AUDIT]", "").replace("[LOCOMO-ISSUES]", "").replace("[V2_REPLACEMENT]", "").strip()
 # Send clean_q to agent...
 ```
+
+
+## ⚖️ Standardizing the Agentic Judge
+Traditional RAG benchmarks often rely on static Python string-matching or rigid "YES/NO" LLM wrappers to grade answers. During our live-agent benchmarking, we discovered this leads to the **Binary Judge Fallacy**. 
+
+Agents that provide highly detailed, context-rich answers, or agents that exhibit "epistemic honesty" (saying "I don't know" to unanswerable trick questions rather than hallucinating) are actively punished by naive evaluators. Furthermore, naive judges fail to process temporal math (e.g., matching an agent's output of "last month" with the ground truth's absolute calendar date).
+
+To standardize the evaluation of LoCoMo V2, we have introduced a dedicated `judge/` directory to this repository:
+1. **Decoupled Prompting (`judge/AGENTS.md`):** This markdown file acts as the official persona for any evaluating LLM. It forces the grading model to respect epistemic honesty, ignore non-contradictory over-details, and grade based on true semantic accuracy rather than rigid string matching. 
+2. **Reference Implementation (`judge/ghost_judge.py`):** A reference Python execution loop that dynamically loads the `AGENTS.md` file and evaluates a predictions JSON file.
+
+When submitting scores to the leaderboard, researchers are strongly encouraged to use the `judge/AGENTS.md` prompt to ensure their models are graded fairly on actual reasoning and retrieval.
