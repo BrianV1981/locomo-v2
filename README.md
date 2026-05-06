@@ -60,10 +60,15 @@ Developers can now plug this cache directly into their pipelines, completely byp
 
 ## 📂 Repository Structure
 
-- `locomo_v2_base.json`: The foundation. Contains the original 10 conversations with all 156 text/logic hallucinations fixed. (Currently awaiting the final Phase 3 visual replacement questions).
-- `apply_corrections.py`: The forensic Python script used to inject the `locomo-audit` fixes into the JSON.
-- `errors.json`: The raw audit corrections mapped from `dial481/locomo-audit`.
-- `locomo10.json`: The original, flawed V1 dataset (kept for diff comparison and reproducibility).
+- **`/data/`**: The core datasets. Includes the `errors.json` audit file, the intermediary `locomo_v2_base.json`, and the three final variants:
+  - `locomo_v2_final.json`: The standard version containing live internet URLs.
+  - `locomo_v2_web.json`: The immutable version mapping URLs to raw images hosted on the `locomo-visual-ground-truth` GitHub repo.
+  - `locomo_v2_local.json`: The air-gapped enterprise version mapping URLs to local relative paths.
+- **`/judge/`**: The standardized A.I.M. LLM-as-a-Judge protocol, containing the strict `AGENTS.md` evaluation persona and the `ghost_judge.py` reference implementation.
+- **`/scripts/`**: The Python utilities used to programmatically map replacements, apply upstream fixes, and generate the V2 dataset.
+- **`/tests/`**: Unit tests to ensure the dataset patching logic behaves deterministically.
+- **`/artifacts/`**: Temporary logs, batch generation files, and legacy prediction recoveries from the build phase.
+- `LOCOMO_V2_FULL_CHANGELOG.md`: The master paper trail documenting every specific question altered for V2.
 
 ---
 
