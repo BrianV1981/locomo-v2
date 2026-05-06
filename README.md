@@ -60,15 +60,16 @@ Developers can now plug this cache directly into their pipelines, completely byp
 
 ## 📂 Repository Structure
 
-- **`/data/`**: The core datasets. Includes the `errors.json` audit file, the intermediary `locomo_v2_base.json`, and the three final variants:
-    - `locomo_v2_web.json`: The immutable version mapping URLs to raw images hosted on the `locomo-visual-ground-truth` GitHub repo.
+- **`/data/`**: The core datasets. Includes the `errors.json` audit file, the intermediary `locomo_v2_base.json`, and the three production-ready V2 variants:
+  - `locomo_v2_web.json`: The immutable version mapping URLs to raw images hosted on the `locomo-visual-ground-truth` GitHub repo.
   - `locomo_v2_local.json`: The air-gapped enterprise version mapping URLs to local relative paths.
   - `locomo_v2_llava.json`: The text-only variant. It pre-bakes the rich LLaVA OCR descriptions directly into the dialogue turns (`llava_caption`), allowing pure-text LLMs to evaluate the multimodal benchmark without a vision encoder.
-- **`/judge/`**: The standardized A.I.M. LLM-as-a-Judge protocol, containing the strict `AGENTS.md` evaluation persona and the `ghost_judge.py` reference implementation.
-- **`/scripts/`**: The Python utilities used to programmatically map replacements, apply upstream fixes, and generate the V2 dataset.
+- **`/benchmarks/`**: Contains `policy/BENCHMARK_TEMPLATE_AGENTS.md`, the standardized persona prompt required for all LLM-as-a-Judge evaluations.
+- **`/judge/`**: The reference implementation for the A.I.M. Ghost Judge (`ghost_judge.py`) and its specific forensic policy.
+- **`/scripts/`**: The Python utilities used to programmatically map replacements, apply upstream fixes, and build the V2 dataset.
 - **`/tests/`**: Unit tests to ensure the dataset patching logic behaves deterministically.
-- **`/artifacts/`**: Temporary logs, batch generation files, and legacy prediction recoveries from the build phase.
-- `LOCOMO_V2_FULL_CHANGELOG.md`: The master paper trail documenting every specific question altered for V2.
+- `BENCHMARK_DEVELOPMENT_LOG.md`: The immutable paper trail tracking all architectural and prompt-engineering changes to the Forensic Evaluation Suite.
+- `LOCOMO_V2_FULL_CHANGELOG.md`: The master log documenting every specific question altered or replaced for V2.
 
 ---
 
