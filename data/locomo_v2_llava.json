@@ -1283,7 +1283,8 @@
           "D2:3"
         ],
         "category": 5,
-        "adversarial_answer": "self-care is important"
+        "adversarial_answer": "self-care is important",
+        "answer": "self-care is important"
       },
       {
         "question": "What are Melanie's plans for the summer with respect to adoption?",
@@ -1291,7 +1292,8 @@
           "D2:8"
         ],
         "category": 5,
-        "adversarial_answer": "researching adoption agencies"
+        "adversarial_answer": "researching adoption agencies",
+        "answer": "researching adoption agencies"
       },
       {
         "question": "What type of individuals does the adoption agency Melanie is considering support?",
@@ -1299,7 +1301,8 @@
           "D2:12"
         ],
         "category": 5,
-        "adversarial_answer": "LGBTQ+ individuals"
+        "adversarial_answer": "LGBTQ+ individuals",
+        "answer": "LGBTQ+ individuals"
       },
       {
         "question": "Why did Melanie choose the adoption agency?",
@@ -1307,7 +1310,8 @@
           "D2:12"
         ],
         "category": 5,
-        "adversarial_answer": "because of their inclusivity and support for LGBTQ+ individuals"
+        "adversarial_answer": "because of their inclusivity and support for LGBTQ+ individuals",
+        "answer": "because of their inclusivity and support for LGBTQ+ individuals"
       },
       {
         "question": "What is Melanie excited about in her adoption process?",
@@ -1315,7 +1319,8 @@
           "D2:14"
         ],
         "category": 5,
-        "adversarial_answer": "creating a family for kids who need one"
+        "adversarial_answer": "creating a family for kids who need one",
+        "answer": "creating a family for kids who need one"
       },
       {
         "question": "What does Melanie's necklace symbolize?",
@@ -1323,7 +1328,8 @@
           "D4:3"
         ],
         "category": 5,
-        "adversarial_answer": "love, faith, and strength"
+        "adversarial_answer": "love, faith, and strength",
+        "answer": "love, faith, and strength"
       },
       {
         "question": "What country is Melanie's grandma from?",
@@ -1331,7 +1337,8 @@
           "D4:3"
         ],
         "category": 5,
-        "adversarial_answer": "Sweden"
+        "adversarial_answer": "Sweden",
+        "answer": "Sweden"
       },
       {
         "question": "What was grandma's gift to Melanie?",
@@ -1339,7 +1346,8 @@
           "D4:3"
         ],
         "category": 5,
-        "adversarial_answer": "necklace"
+        "adversarial_answer": "necklace",
+        "answer": "necklace"
       },
       {
         "question": "What was grandpa's gift to Caroline?",
@@ -1347,7 +1355,8 @@
           "D4:3"
         ],
         "category": 5,
-        "adversarial_answer": "necklace"
+        "adversarial_answer": "necklace",
+        "answer": "necklace"
       },
       {
         "question": "What is Caroline's hand-painted bowl a reminder of?",
@@ -1355,7 +1364,8 @@
           "D4:5"
         ],
         "category": 5,
-        "adversarial_answer": "art and self-expression"
+        "adversarial_answer": "art and self-expression",
+        "answer": "art and self-expression"
       },
       {
         "question": "What did Caroline and her family do while camping?",
@@ -1363,7 +1373,8 @@
           "D4:8"
         ],
         "category": 5,
-        "adversarial_answer": "explored nature, roasted marshmallows, and went on a hike"
+        "adversarial_answer": "explored nature, roasted marshmallows, and went on a hike",
+        "answer": "explored nature, roasted marshmallows, and went on a hike"
       },
       {
         "question": "What kind of counseling and mental health services is Melanie interested in pursuing?",
@@ -1371,7 +1382,8 @@
           "D4:13"
         ],
         "category": 5,
-        "adversarial_answer": "working with trans people, helping them accept themselves and supporting their mental health"
+        "adversarial_answer": "working with trans people, helping them accept themselves and supporting their mental health",
+        "answer": "working with trans people, helping them accept themselves and supporting their mental health"
       },
       {
         "question": "What kind of counseling workshop did Melanie attend recently?",
@@ -1379,7 +1391,8 @@
           "D4:13"
         ],
         "category": 5,
-        "adversarial_answer": "LGBTQ+ counseling workshop"
+        "adversarial_answer": "LGBTQ+ counseling workshop",
+        "answer": "LGBTQ+ counseling workshop"
       },
       {
         "question": "What motivated Melanie to pursue counseling?",
@@ -1387,7 +1400,8 @@
           "D4:15"
         ],
         "category": 5,
-        "adversarial_answer": "her own journey and the support she received, and how counseling improved her life"
+        "adversarial_answer": "her own journey and the support she received, and how counseling improved her life",
+        "answer": "her own journey and the support she received, and how counseling improved her life"
       },
       {
         "question": "What kind of place does Melanie want to create for people?",
@@ -1395,7 +1409,8 @@
           "D4:15"
         ],
         "category": 5,
-        "adversarial_answer": "a safe and inviting place for people to grow"
+        "adversarial_answer": "a safe and inviting place for people to grow",
+        "answer": "a safe and inviting place for people to grow"
       },
       {
         "question": "Did Caroline make the black and white bowl in the photo?",
@@ -1412,7 +1427,8 @@
           "D7:19"
         ],
         "category": 5,
-        "adversarial_answer": "Running"
+        "adversarial_answer": "Running",
+        "answer": "Running"
       },
       {
         "question": "What is Caroline's reason for getting into running?",
@@ -1420,7 +1436,8 @@
           "D7:21"
         ],
         "category": 5,
-        "adversarial_answer": "To de-stress and clear her mind"
+        "adversarial_answer": "To de-stress and clear her mind",
+        "answer": "To de-stress and clear her mind"
       },
       {
         "question": "What does Caroline say running has been great for?",
@@ -1428,7 +1445,8 @@
           "D7:24"
         ],
         "category": 5,
-        "adversarial_answer": "Her mental health"
+        "adversarial_answer": "Her mental health",
+        "answer": "Her mental health"
       },
       {
         "question": "What did Melanie see at the council meeting for adoption?",
@@ -1436,7 +1454,8 @@
           "D8:9"
         ],
         "category": 5,
-        "adversarial_answer": "many people wanting to create loving homes for children in need"
+        "adversarial_answer": "many people wanting to create loving homes for children in need",
+        "answer": "many people wanting to create loving homes for children in need"
       },
       {
         "question": "What inspired Melanie's painting for the art show?",
@@ -1444,7 +1463,8 @@
           "D9:16"
         ],
         "category": 5,
-        "adversarial_answer": "visiting an LGBTQ center and wanting to capture unity and strength"
+        "adversarial_answer": "visiting an LGBTQ center and wanting to capture unity and strength",
+        "answer": "visiting an LGBTQ center and wanting to capture unity and strength"
       },
       {
         "question": "What inspired Caroline's sculpture for the art show?",
@@ -1452,7 +1472,8 @@
           "D9:16"
         ],
         "category": 5,
-        "adversarial_answer": "visiting an LGBTQ center and wanting to capture unity and strength"
+        "adversarial_answer": "visiting an LGBTQ center and wanting to capture unity and strength",
+        "answer": "visiting an LGBTQ center and wanting to capture unity and strength"
       },
       {
         "question": "How often does Caroline go to the beach with her kids?",
@@ -1460,7 +1481,8 @@
           "D10:10"
         ],
         "category": 5,
-        "adversarial_answer": "once or twice a year"
+        "adversarial_answer": "once or twice a year",
+        "answer": "once or twice a year"
       },
       {
         "question": "What did Caroline and her family see during their camping trip last year?",
@@ -1468,7 +1490,8 @@
           "D10:14"
         ],
         "category": 5,
-        "adversarial_answer": "Perseid meteor shower"
+        "adversarial_answer": "Perseid meteor shower",
+        "answer": "Perseid meteor shower"
       },
       {
         "question": "How did Caroline feel while watching the meteor shower?",
@@ -1476,7 +1499,8 @@
           "D10:18"
         ],
         "category": 5,
-        "adversarial_answer": "in awe of the universe"
+        "adversarial_answer": "in awe of the universe",
+        "answer": "in awe of the universe"
       },
       {
         "question": "Why did Caroline choose to use colors and patterns in her pottery project?",
@@ -1484,7 +1508,8 @@
           "D12:6"
         ],
         "category": 5,
-        "adversarial_answer": "She wanted to catch the eye and make people smile."
+        "adversarial_answer": "She wanted to catch the eye and make people smile.",
+        "answer": "She wanted to catch the eye and make people smile."
       },
       {
         "question": "Is Oscar Melanie's pet?",
@@ -1501,7 +1526,8 @@
           "D13:6"
         ],
         "category": 5,
-        "adversarial_answer": "In Melanie's slipper"
+        "adversarial_answer": "In Melanie's slipper",
+        "answer": "In Melanie's slipper"
       },
       {
         "question": "What activity did Melanie used to do with her dad?",
@@ -1509,7 +1535,8 @@
           "D13:7"
         ],
         "category": 5,
-        "adversarial_answer": "Horseback riding"
+        "adversarial_answer": "Horseback riding",
+        "answer": "Horseback riding"
       },
       {
         "question": "What did Melanie make for a local church?",
@@ -1517,7 +1544,8 @@
           "D14:17"
         ],
         "category": 5,
-        "adversarial_answer": "a stained glass window"
+        "adversarial_answer": "a stained glass window",
+        "answer": "a stained glass window"
       },
       {
         "question": "What did Melanie find in her neighborhood during her walk?",
@@ -1525,7 +1553,8 @@
           "D14:23"
         ],
         "category": 5,
-        "adversarial_answer": "a rainbow sidewalk"
+        "adversarial_answer": "a rainbow sidewalk",
+        "answer": "a rainbow sidewalk"
       },
       {
         "question": "Which song motivates Melanie to be courageous?",
@@ -1533,7 +1562,8 @@
           "D15:23"
         ],
         "category": 5,
-        "adversarial_answer": "Brave by Sara Bareilles"
+        "adversarial_answer": "Brave by Sara Bareilles",
+        "answer": "Brave by Sara Bareilles"
       },
       {
         "question": "What type of instrument does Caroline play?",
@@ -1541,7 +1571,8 @@
           "D15:26"
         ],
         "category": 5,
-        "adversarial_answer": "clarinet and violin"
+        "adversarial_answer": "clarinet and violin",
+        "answer": "clarinet and violin"
       },
       {
         "question": "Which classical musicians does Caroline enjoy listening to?",
@@ -1549,7 +1580,8 @@
           "D15:28"
         ],
         "category": 5,
-        "adversarial_answer": "Bach and Mozart"
+        "adversarial_answer": "Bach and Mozart",
+        "answer": "Bach and Mozart"
       },
       {
         "question": "Who is Caroline a fan of in terms of modern music?",
@@ -1557,7 +1589,8 @@
           "D15:28"
         ],
         "category": 5,
-        "adversarial_answer": "Ed Sheeran"
+        "adversarial_answer": "Ed Sheeran",
+        "answer": "Ed Sheeran"
       },
       {
         "question": "What precautionary sign did Caroline see at the caf\u00e9?",
@@ -1565,7 +1598,8 @@
           "D16:16"
         ],
         "category": 5,
-        "adversarial_answer": "A sign stating that someone is not being able to leave"
+        "adversarial_answer": "A sign stating that someone is not being able to leave",
+        "answer": "A sign stating that someone is not being able to leave"
       },
       {
         "question": "What setback did Caroline face recently?",
@@ -1573,7 +1607,8 @@
           "D17:8"
         ],
         "category": 5,
-        "adversarial_answer": "She got hurt and had to take a break from pottery."
+        "adversarial_answer": "She got hurt and had to take a break from pottery.",
+        "answer": "She got hurt and had to take a break from pottery."
       },
       {
         "question": "What does Caroline do to keep herself busy during her pottery break?",
@@ -1581,7 +1616,8 @@
           "D17:10"
         ],
         "category": 5,
-        "adversarial_answer": "Read a book and paint."
+        "adversarial_answer": "Read a book and paint.",
+        "answer": "Read a book and paint."
       },
       {
         "question": "What was the poetry reading that Melanie attended about?",
@@ -1589,7 +1625,8 @@
           "D17:18"
         ],
         "category": 5,
-        "adversarial_answer": "It was a transgender poetry reading where transgender people shared their stories."
+        "adversarial_answer": "It was a transgender poetry reading where transgender people shared their stories.",
+        "answer": "It was a transgender poetry reading where transgender people shared their stories."
       },
       {
         "question": "What happened to Caroline's son on their road trip?",
@@ -1597,7 +1634,8 @@
           "D18:1"
         ],
         "category": 5,
-        "adversarial_answer": "He got into an accident"
+        "adversarial_answer": "He got into an accident",
+        "answer": "He got into an accident"
       },
       {
         "question": "How did Caroline's son handle the accident?",
@@ -1606,7 +1644,8 @@
           "D18:7"
         ],
         "category": 5,
-        "adversarial_answer": "He was scared but reassured by his family"
+        "adversarial_answer": "He was scared but reassured by his family",
+        "answer": "He was scared but reassured by his family"
       },
       {
         "question": "How did Caroline feel about her family after the accident?",
@@ -1614,7 +1653,8 @@
           "D18:5"
         ],
         "category": 5,
-        "adversarial_answer": "They are important and mean the world to her"
+        "adversarial_answer": "They are important and mean the world to her",
+        "answer": "They are important and mean the world to her"
       },
       {
         "question": "How did Caroline's children handle the accident?",
@@ -1622,7 +1662,8 @@
           "D18:7"
         ],
         "category": 5,
-        "adversarial_answer": "They were scared but resilient"
+        "adversarial_answer": "They were scared but resilient",
+        "answer": "They were scared but resilient"
       },
       {
         "question": "How did Caroline feel after the accident?",
@@ -1630,7 +1671,8 @@
           "D18:5"
         ],
         "category": 5,
-        "adversarial_answer": "Grateful and thankful for her family"
+        "adversarial_answer": "Grateful and thankful for her family",
+        "answer": "Grateful and thankful for her family"
       },
       {
         "question": "What was Caroline's reaction to her children enjoying the Grand Canyon?",
@@ -1638,7 +1680,8 @@
           "D18:5"
         ],
         "category": 5,
-        "adversarial_answer": "She was happy and thankful"
+        "adversarial_answer": "She was happy and thankful",
+        "answer": "She was happy and thankful"
       },
       {
         "question": "What did Caroline do after the road trip to relax?",
@@ -1646,7 +1689,8 @@
           "D18:17"
         ],
         "category": 5,
-        "adversarial_answer": "Went on a nature walk or hike"
+        "adversarial_answer": "Went on a nature walk or hike",
+        "answer": "Went on a nature walk or hike"
       },
       {
         "question": "What does Caroline love most about camping with her family?",
@@ -1654,7 +1698,8 @@
           "D18:21"
         ],
         "category": 5,
-        "adversarial_answer": "Being present and bonding with her family"
+        "adversarial_answer": "Being present and bonding with her family",
+        "answer": "Being present and bonding with her family"
       }
     ],
     "conversation": {
@@ -6022,7 +6067,8 @@
           "D18:2"
         ],
         "category": 5,
-        "adversarial_answer": "Not mentioned"
+        "adversarial_answer": "Not mentioned",
+        "answer": "Not mentioned"
       },
       {
         "question": "What plans does Jon have after receiving advice at the networking event?",
@@ -6046,7 +6092,8 @@
           "D1:8"
         ],
         "category": 5,
-        "adversarial_answer": "Contemporary"
+        "adversarial_answer": "Contemporary",
+        "answer": "Contemporary"
       },
       {
         "question": "What was Jon's favorite dancing memory?",
@@ -6054,7 +6101,8 @@
           "D1:17"
         ],
         "category": 5,
-        "adversarial_answer": "Winning first place at a regionals dance competition"
+        "adversarial_answer": "Winning first place at a regionals dance competition",
+        "answer": "Winning first place at a regionals dance competition"
       },
       {
         "question": "What kind of dance piece did Jon's team perform to win first place?",
@@ -6062,7 +6110,8 @@
           "D1:19"
         ],
         "category": 5,
-        "adversarial_answer": "\"Finding Freedom\""
+        "adversarial_answer": "\"Finding Freedom\"",
+        "answer": "\"Finding Freedom\""
       },
       {
         "question": "What is Gina's attitude towards participating in the dance festival?",
@@ -6070,7 +6119,8 @@
           "D1:28"
         ],
         "category": 5,
-        "adversarial_answer": "Glad"
+        "adversarial_answer": "Glad",
+        "answer": "Glad"
       },
       {
         "question": "What kind of flooring is Gina looking for in her dance studio?",
@@ -6078,7 +6128,8 @@
           "D2:8"
         ],
         "category": 5,
-        "adversarial_answer": "Marley flooring"
+        "adversarial_answer": "Marley flooring",
+        "answer": "Marley flooring"
       },
       {
         "question": "What did Jon find for his clothing store on 1 February, 2023?",
@@ -6086,7 +6137,8 @@
           "D3:2"
         ],
         "category": 5,
-        "adversarial_answer": "The perfect spot for her store"
+        "adversarial_answer": "The perfect spot for her store",
+        "answer": "The perfect spot for her store"
       },
       {
         "question": "What did Jon design for his store?",
@@ -6094,7 +6146,8 @@
           "D3:4"
         ],
         "category": 5,
-        "adversarial_answer": "the space, furniture, and decor"
+        "adversarial_answer": "the space, furniture, and decor",
+        "answer": "the space, furniture, and decor"
       },
       {
         "question": "What did Jon want his customers to feel in her store?",
@@ -6103,7 +6156,8 @@
           "D3:8"
         ],
         "category": 5,
-        "adversarial_answer": "cozy and comfortable"
+        "adversarial_answer": "cozy and comfortable",
+        "answer": "cozy and comfortable"
       },
       {
         "question": "What made Jon choose the furniture and decor for his store?",
@@ -6111,7 +6165,8 @@
           "D3:6"
         ],
         "category": 5,
-        "adversarial_answer": "personal style and customer comfort"
+        "adversarial_answer": "personal style and customer comfort",
+        "answer": "personal style and customer comfort"
       },
       {
         "question": "How is Jon's store doing?",
@@ -6119,7 +6174,8 @@
           "D4:2"
         ],
         "category": 5,
-        "adversarial_answer": "The store is doing great."
+        "adversarial_answer": "The store is doing great.",
+        "answer": "The store is doing great."
       },
       {
         "question": "What does Jon's tattoo symbolize?",
@@ -6127,7 +6183,8 @@
           "D5:15"
         ],
         "category": 5,
-        "adversarial_answer": "Freedom and expressing himself through dance"
+        "adversarial_answer": "Freedom and expressing himself through dance",
+        "answer": "Freedom and expressing himself through dance"
       },
       {
         "question": "Why did Gina shut down her bank account?",
@@ -6135,7 +6192,8 @@
           "D8:1"
         ],
         "category": 5,
-        "adversarial_answer": "for her business"
+        "adversarial_answer": "for her business",
+        "answer": "for her business"
       },
       {
         "question": "Why did Jon combine his clothing business with dance?",
@@ -6143,7 +6201,8 @@
           "D8:8"
         ],
         "category": 5,
-        "adversarial_answer": "he is passionate about dance and fashion"
+        "adversarial_answer": "he is passionate about dance and fashion",
+        "answer": "he is passionate about dance and fashion"
       },
       {
         "question": "What did Gina receive from a dance contest?",
@@ -6151,7 +6210,8 @@
           "D9:10"
         ],
         "category": 5,
-        "adversarial_answer": "a trophy"
+        "adversarial_answer": "a trophy",
+        "answer": "a trophy"
       },
       {
         "question": "What kind of professional experience did Jon get accepted for on May 23, 2023?",
@@ -6159,7 +6219,8 @@
           "D12:1"
         ],
         "category": 5,
-        "adversarial_answer": "fashion internship"
+        "adversarial_answer": "fashion internship",
+        "answer": "fashion internship"
       },
       {
         "question": "Where is Gina's HR internship?",
@@ -6167,7 +6228,8 @@
           "D12:3"
         ],
         "category": 5,
-        "adversarial_answer": "fashion department of an international company"
+        "adversarial_answer": "fashion department of an international company",
+        "answer": "fashion department of an international company"
       },
       {
         "question": "Where is Jon's fashion internship?",
@@ -6175,7 +6237,8 @@
           "D12:3"
         ],
         "category": 5,
-        "adversarial_answer": "fashion department of an international company"
+        "adversarial_answer": "fashion department of an international company",
+        "answer": "fashion department of an international company"
       },
       {
         "question": "What book is Gina currently reading?",
@@ -6183,7 +6246,8 @@
           "D12:6"
         ],
         "category": 5,
-        "adversarial_answer": "The Lean Startup"
+        "adversarial_answer": "The Lean Startup",
+        "answer": "The Lean Startup"
       },
       {
         "question": "How does Gina use the clipboard with a notepad attached to it?",
@@ -6191,7 +6255,8 @@
           "D13:11"
         ],
         "category": 5,
-        "adversarial_answer": "To set goals, track achievements, and find areas for improvement"
+        "adversarial_answer": "To set goals, track achievements, and find areas for improvement",
+        "answer": "To set goals, track achievements, and find areas for improvement"
       },
       {
         "question": "What did Jon take a trip to Barcelona for?",
@@ -6199,7 +6264,8 @@
           "D15:1"
         ],
         "category": 5,
-        "adversarial_answer": "To clear his mind"
+        "adversarial_answer": "To clear his mind",
+        "answer": "To clear his mind"
       },
       {
         "question": "What did Jon make a limited edition line of?",
@@ -6207,7 +6273,8 @@
           "D16:3"
         ],
         "category": 5,
-        "adversarial_answer": "Hoodies"
+        "adversarial_answer": "Hoodies",
+        "answer": "Hoodies"
       },
       {
         "question": "What temporary job did Gina take to cover expenses?",
@@ -6215,7 +6282,8 @@
           "D18:2"
         ],
         "category": 5,
-        "adversarial_answer": "Not mentioned"
+        "adversarial_answer": "Not mentioned",
+        "answer": "Not mentioned"
       },
       {
         "question": "What plans does Gina have after receiving advice at the networking event?",
@@ -6223,7 +6291,8 @@
           "D18:10"
         ],
         "category": 5,
-        "adversarial_answer": "Sprucing up her business plan, tweaking her pitch to investors, and working on an online platform."
+        "adversarial_answer": "Sprucing up her business plan, tweaking her pitch to investors, and working on an online platform.",
+        "answer": "Sprucing up her business plan, tweaking her pitch to investors, and working on an online platform."
       }
     ],
     "conversation": {
@@ -10620,7 +10689,8 @@
           "D1:8"
         ],
         "category": 5,
-        "adversarial_answer": "Improving education and infrastructure"
+        "adversarial_answer": "Improving education and infrastructure",
+        "answer": "Improving education and infrastructure"
       },
       {
         "question": "What did Maria donate to a luxury store in December 2023?",
@@ -10628,7 +10698,8 @@
           "D2:1"
         ],
         "category": 5,
-        "adversarial_answer": "old car"
+        "adversarial_answer": "old car",
+        "answer": "old car"
       },
       {
         "question": "Who inspired John to start volunteering?",
@@ -10636,7 +10707,8 @@
           "D5:8"
         ],
         "category": 5,
-        "adversarial_answer": "His aunt"
+        "adversarial_answer": "His aunt",
+        "answer": "His aunt"
       },
       {
         "question": "Why did Maria decide to run for office again?",
@@ -10644,7 +10716,8 @@
           "D7:4"
         ],
         "category": 5,
-        "adversarial_answer": "saw the impact she could make in the community through politics"
+        "adversarial_answer": "saw the impact she could make in the community through politics",
+        "answer": "saw the impact she could make in the community through politics"
       },
       {
         "question": "What activity did Maria's colleague, Rob, invite her to?",
@@ -10652,7 +10725,8 @@
           "D7:16"
         ],
         "category": 5,
-        "adversarial_answer": "beginner's yoga class"
+        "adversarial_answer": "beginner's yoga class",
+        "answer": "beginner's yoga class"
       },
       {
         "question": "What is the name of Maria's one-year-old child?",
@@ -10660,7 +10734,8 @@
           "D8:4"
         ],
         "category": 5,
-        "adversarial_answer": "Kyle"
+        "adversarial_answer": "Kyle",
+        "answer": "Kyle"
       },
       {
         "question": "How often does John take his kids to the library?",
@@ -10668,7 +10743,8 @@
           "D8:8"
         ],
         "category": 5,
-        "adversarial_answer": "A few times a week"
+        "adversarial_answer": "A few times a week",
+        "answer": "A few times a week"
       },
       {
         "question": "What did Maria make for her home to remind her of a trip to France?",
@@ -10676,7 +10752,8 @@
           "D8:15"
         ],
         "category": 5,
-        "adversarial_answer": "painting of a castle on a hill"
+        "adversarial_answer": "painting of a castle on a hill",
+        "answer": "painting of a castle on a hill"
       },
       {
         "question": "Where did John get the idea for the castle shadow box in his home?",
@@ -10684,7 +10761,8 @@
           "D8:15"
         ],
         "category": 5,
-        "adversarial_answer": "England"
+        "adversarial_answer": "England",
+        "answer": "England"
       },
       {
         "question": "What did Maria receive a certificate for?",
@@ -10692,7 +10770,8 @@
           "D9:2"
         ],
         "category": 5,
-        "adversarial_answer": "completion of a university degree"
+        "adversarial_answer": "completion of a university degree",
+        "answer": "completion of a university degree"
       },
       {
         "question": "What areas is John particularly interested in for art appreciation?",
@@ -10700,7 +10779,8 @@
           "D9:8"
         ],
         "category": 5,
-        "adversarial_answer": "education and infrastructure"
+        "adversarial_answer": "education and infrastructure",
+        "answer": "education and infrastructure"
       },
       {
         "question": "Why did Maria start blogging about politics and policies?",
@@ -10708,7 +10788,8 @@
           "D12:3"
         ],
         "category": 5,
-        "adversarial_answer": "raise awareness and start conversations to create positive change"
+        "adversarial_answer": "raise awareness and start conversations to create positive change",
+        "answer": "raise awareness and start conversations to create positive change"
       },
       {
         "question": "What was the focus of John's recent travel and photography blog?",
@@ -10716,7 +10797,8 @@
           "D12:5"
         ],
         "category": 5,
-        "adversarial_answer": "education reform and infrastructure development"
+        "adversarial_answer": "education reform and infrastructure development",
+        "answer": "education reform and infrastructure development"
       },
       {
         "question": "How often does Maria work out with her family?",
@@ -10724,7 +10806,8 @@
           "D13:7"
         ],
         "category": 5,
-        "adversarial_answer": "Three times a week"
+        "adversarial_answer": "Three times a week",
+        "answer": "Three times a week"
       },
       {
         "question": "How has John's artistic skills improved since starting boot camps with his family?",
@@ -10732,7 +10815,8 @@
           "D13:5"
         ],
         "category": 5,
-        "adversarial_answer": "More energy, gains in strength and endurance"
+        "adversarial_answer": "More energy, gains in strength and endurance",
+        "answer": "More energy, gains in strength and endurance"
       },
       {
         "question": "What kind of food did Maria have on her dinner spread with her father?",
@@ -10740,7 +10824,8 @@
           "D13:18"
         ],
         "category": 5,
-        "adversarial_answer": "Salads, sandwiches, homemade desserts"
+        "adversarial_answer": "Salads, sandwiches, homemade desserts",
+        "answer": "Salads, sandwiches, homemade desserts"
       },
       {
         "question": "What did John do to feel closer to a community and his faith?",
@@ -10748,7 +10833,8 @@
           "D14:10"
         ],
         "category": 5,
-        "adversarial_answer": "joined a nearby church"
+        "adversarial_answer": "joined a nearby church",
+        "answer": "joined a nearby church"
       },
       {
         "question": "Why did John join a nearby church recently?",
@@ -10756,7 +10842,8 @@
           "D14:10"
         ],
         "category": 5,
-        "adversarial_answer": "to feel closer to a community and her faith"
+        "adversarial_answer": "to feel closer to a community and her faith",
+        "answer": "to feel closer to a community and her faith"
       },
       {
         "question": "How long was Max a part of Maria's family?",
@@ -10764,7 +10851,8 @@
           "D17:1"
         ],
         "category": 5,
-        "adversarial_answer": "10 years"
+        "adversarial_answer": "10 years",
+        "answer": "10 years"
       },
       {
         "question": "How does Maria plan to honor the memories of her beloved pet?",
@@ -10772,7 +10860,8 @@
           "D17:11"
         ],
         "category": 5,
-        "adversarial_answer": "By considering adopting a rescue dog"
+        "adversarial_answer": "By considering adopting a rescue dog",
+        "answer": "By considering adopting a rescue dog"
       },
       {
         "question": "What important values does Maria want to teach her kids through adopting a rescue dog?",
@@ -10780,7 +10869,8 @@
           "D17:11"
         ],
         "category": 5,
-        "adversarial_answer": "Responsibility and compassion"
+        "adversarial_answer": "Responsibility and compassion",
+        "answer": "Responsibility and compassion"
       },
       {
         "question": "What did Maria say it was like being at the desert in Oregon?",
@@ -10788,7 +10878,8 @@
           "D18:7"
         ],
         "category": 5,
-        "adversarial_answer": "Like being in a fairy tale"
+        "adversarial_answer": "Like being in a fairy tale",
+        "answer": "Like being in a fairy tale"
       },
       {
         "question": "What does John say she feels when doing upside-down yoga poses?",
@@ -10796,7 +10887,8 @@
           "D18:17"
         ],
         "category": 5,
-        "adversarial_answer": "Free and light"
+        "adversarial_answer": "Free and light",
+        "answer": "Free and light"
       },
       {
         "question": "What did Maria recently get promoted to?",
@@ -10804,7 +10896,8 @@
           "D19:8"
         ],
         "category": 5,
-        "adversarial_answer": "assistant manager"
+        "adversarial_answer": "assistant manager",
+        "answer": "assistant manager"
       },
       {
         "question": "What was one of the biggest challenges Maria faced in her journey to becoming assistant manager?",
@@ -10812,7 +10905,8 @@
           "D19:12"
         ],
         "category": 5,
-        "adversarial_answer": "self-doubt"
+        "adversarial_answer": "self-doubt",
+        "answer": "self-doubt"
       },
       {
         "question": "Why did John need to help his cousin find a new place to live?",
@@ -10820,7 +10914,8 @@
           "D21:5"
         ],
         "category": 5,
-        "adversarial_answer": "His cousin had to leave and find a new place in a hurry."
+        "adversarial_answer": "His cousin had to leave and find a new place in a hurry.",
+        "answer": "His cousin had to leave and find a new place in a hurry."
       },
       {
         "question": "What event did Maria participate in to show support for veterans' rights?",
@@ -10828,7 +10923,8 @@
           "D21:22"
         ],
         "category": 5,
-        "adversarial_answer": "marching event"
+        "adversarial_answer": "marching event",
+        "answer": "marching event"
       },
       {
         "question": "How did the drought impact the homes in John's old area?",
@@ -10836,7 +10932,8 @@
           "D23:1"
         ],
         "category": 5,
-        "adversarial_answer": "Lots of homes were ruined."
+        "adversarial_answer": "Lots of homes were ruined.",
+        "answer": "Lots of homes were ruined."
       },
       {
         "question": "What does John criticize about the veteran's hospital visit?",
@@ -10844,7 +10941,8 @@
           "D24:3"
         ],
         "category": 5,
-        "adversarial_answer": "the resilience of the veterans and their inspiring stories"
+        "adversarial_answer": "the resilience of the veterans and their inspiring stories",
+        "answer": "the resilience of the veterans and their inspiring stories"
       },
       {
         "question": "What did John take away from visiting the orphanage?",
@@ -10852,7 +10950,8 @@
           "D24:1"
         ],
         "category": 5,
-        "adversarial_answer": "appreciation for giving back"
+        "adversarial_answer": "appreciation for giving back",
+        "answer": "appreciation for giving back"
       },
       {
         "question": "Why did Maria feel inspired to join the military after the visit to the hospital?",
@@ -10860,7 +10959,8 @@
           "D24:3"
         ],
         "category": 5,
-        "adversarial_answer": "seeing the resilience of the veterans"
+        "adversarial_answer": "seeing the resilience of the veterans",
+        "answer": "seeing the resilience of the veterans"
       },
       {
         "question": "How did Maria describe her kids' reaction at the military memorial?",
@@ -10868,7 +10968,8 @@
           "D27:11"
         ],
         "category": 5,
-        "adversarial_answer": "awestruck and humbled"
+        "adversarial_answer": "awestruck and humbled",
+        "answer": "awestruck and humbled"
       },
       {
         "question": "Why does Maria think it's important for younger generations to visit art galleries?",
@@ -10876,7 +10977,8 @@
           "D27:12"
         ],
         "category": 5,
-        "adversarial_answer": "To remember and appreciate those who served"
+        "adversarial_answer": "To remember and appreciate those who served",
+        "answer": "To remember and appreciate those who served"
       },
       {
         "question": "What happened to Maria's job in August 2023?",
@@ -10884,7 +10986,8 @@
           "D28:1"
         ],
         "category": 5,
-        "adversarial_answer": "John lost his job at the mechanical engineering company."
+        "adversarial_answer": "John lost his job at the mechanical engineering company.",
+        "answer": "John lost his job at the mechanical engineering company."
       },
       {
         "question": "What cause did the 5K charity run organized by Maria support?",
@@ -10892,7 +10995,8 @@
           "D29:4"
         ],
         "category": 5,
-        "adversarial_answer": "veterans and their families"
+        "adversarial_answer": "veterans and their families",
+        "answer": "veterans and their families"
       },
       {
         "question": "Who did John work with to raise awareness and funds for animal welfare?",
@@ -10900,7 +11004,8 @@
           "D29:10"
         ],
         "category": 5,
-        "adversarial_answer": "a local organization"
+        "adversarial_answer": "a local organization",
+        "answer": "a local organization"
       },
       {
         "question": "What recognition did John receive at the homeless shelter in August 2023?",
@@ -10908,7 +11013,8 @@
           "D29:1"
         ],
         "category": 5,
-        "adversarial_answer": "a medal for volunteering"
+        "adversarial_answer": "a medal for volunteering",
+        "answer": "a medal for volunteering"
       },
       {
         "question": "What is the name of John's puppy he got two weeks before August 11, 2023?",
@@ -10916,7 +11022,8 @@
           "D30:1"
         ],
         "category": 5,
-        "adversarial_answer": "Coco"
+        "adversarial_answer": "Coco",
+        "answer": "Coco"
       },
       {
         "question": "[V2_REPLACEMENT] According to Audrey's text, when did the doggy playdate occur?",
@@ -10934,7 +11041,8 @@
           "D31:4"
         ],
         "category": 5,
-        "adversarial_answer": "Shadow"
+        "adversarial_answer": "Shadow",
+        "answer": "Shadow"
       },
       {
         "question": "How is John's new puppy adjusting to its new home?",
@@ -10942,7 +11050,8 @@
           "D31:10"
         ],
         "category": 5,
-        "adversarial_answer": "doing great - learning commands and house training"
+        "adversarial_answer": "doing great - learning commands and house training",
+        "answer": "doing great - learning commands and house training"
       }
     ],
     "conversation": {
@@ -18448,7 +18557,8 @@
           "D7:3"
         ],
         "category": 5,
-        "adversarial_answer": "purple"
+        "adversarial_answer": "purple",
+        "answer": "purple"
       },
       {
         "question": "What is Joanna's favorite movie trilogy?",
@@ -18456,7 +18566,8 @@
           "D9:12"
         ],
         "category": 5,
-        "adversarial_answer": "Lord of the Rings"
+        "adversarial_answer": "Lord of the Rings",
+        "answer": "Lord of the Rings"
       },
       {
         "question": "What is Joanna's favorite book series about?",
@@ -18464,7 +18575,8 @@
           "D9:14"
         ],
         "category": 5,
-        "adversarial_answer": "dragons"
+        "adversarial_answer": "dragons",
+        "answer": "dragons"
       },
       {
         "question": "What kind of lighting does Joanna's gaming room have?",
@@ -18472,7 +18584,8 @@
           "D10:2"
         ],
         "category": 5,
-        "adversarial_answer": "red and purple lighting"
+        "adversarial_answer": "red and purple lighting",
+        "answer": "red and purple lighting"
       },
       {
         "question": "What game was the second tournament that Joanna won based on?",
@@ -18481,7 +18594,8 @@
           "D10:6"
         ],
         "category": 5,
-        "adversarial_answer": "Street Fighter"
+        "adversarial_answer": "Street Fighter",
+        "answer": "Street Fighter"
       },
       {
         "question": "What is Nate's third screenplay about?",
@@ -18490,7 +18604,8 @@
           "D12:14"
         ],
         "category": 5,
-        "adversarial_answer": "loss, identity, and connection"
+        "adversarial_answer": "loss, identity, and connection",
+        "answer": "loss, identity, and connection"
       },
       {
         "question": "What type of movies does Nate hate watching the most?",
@@ -18498,7 +18613,8 @@
           "D1:13"
         ],
         "category": 5,
-        "adversarial_answer": "action and sci-fi"
+        "adversarial_answer": "action and sci-fi",
+        "answer": "action and sci-fi"
       },
       {
         "question": "What genre is Joanna's first novella?",
@@ -18506,7 +18622,8 @@
           "D2:5"
         ],
         "category": 5,
-        "adversarial_answer": "drama and romance"
+        "adversarial_answer": "drama and romance",
+        "answer": "drama and romance"
       },
       {
         "question": "What are Nate's plans for his finished screenplay in January 2022?",
@@ -18514,7 +18631,8 @@
           "D2:7"
         ],
         "category": 5,
-        "adversarial_answer": "submit it to film festivals and get producers and directors to check it out"
+        "adversarial_answer": "submit it to film festivals and get producers and directors to check it out",
+        "answer": "submit it to film festivals and get producers and directors to check it out"
       },
       {
         "question": "For how long has Nate had his snakes?",
@@ -18522,7 +18640,8 @@
           "D2:12"
         ],
         "category": 5,
-        "adversarial_answer": "3 years"
+        "adversarial_answer": "3 years",
+        "answer": "3 years"
       },
       {
         "question": "What did Nate think of the caramel ice cream he made?",
@@ -18530,7 +18649,8 @@
           "D3:6"
         ],
         "category": 5,
-        "adversarial_answer": "Super good, rich and creamy"
+        "adversarial_answer": "Super good, rich and creamy",
+        "answer": "Super good, rich and creamy"
       },
       {
         "question": "What flavor of cake did Nate make for his friend on 25 February, 2022?",
@@ -18538,7 +18658,8 @@
           "D4:3"
         ],
         "category": 5,
-        "adversarial_answer": "chocolate and vanilla swirl"
+        "adversarial_answer": "chocolate and vanilla swirl",
+        "answer": "chocolate and vanilla swirl"
       },
       {
         "question": "What was Nate's audition for?",
@@ -18546,7 +18667,8 @@
           "D6:2"
         ],
         "category": 5,
-        "adversarial_answer": "writing gig"
+        "adversarial_answer": "writing gig",
+        "answer": "writing gig"
       },
       {
         "question": "Why did Joanna choose the hair color she did?",
@@ -18554,7 +18676,8 @@
           "D7:5"
         ],
         "category": 5,
-        "adversarial_answer": "Bright and bold - like her"
+        "adversarial_answer": "Bright and bold - like her",
+        "answer": "Bright and bold - like her"
       },
       {
         "question": "What are the main ingredients of the ice cream recipe shared by Joanna?",
@@ -18562,7 +18685,8 @@
           "D8:19"
         ],
         "category": 5,
-        "adversarial_answer": "Coconut milk, vanilla extract, sugar, salt"
+        "adversarial_answer": "Coconut milk, vanilla extract, sugar, salt",
+        "answer": "Coconut milk, vanilla extract, sugar, salt"
       },
       {
         "question": "What is Nate's project called in the writers group?",
@@ -18570,7 +18694,8 @@
           "D9:3"
         ],
         "category": 5,
-        "adversarial_answer": "\"Finding Home\""
+        "adversarial_answer": "\"Finding Home\"",
+        "answer": "\"Finding Home\""
       },
       {
         "question": "Which activity helps Nate escape and numbs his mind?",
@@ -18578,7 +18703,8 @@
           "D9:10"
         ],
         "category": 5,
-        "adversarial_answer": "watching fantasy and sci-fi movies"
+        "adversarial_answer": "watching fantasy and sci-fi movies",
+        "answer": "watching fantasy and sci-fi movies"
       },
       {
         "question": "What filling did Nate use in the cake he made recently in May 2022?",
@@ -18586,7 +18712,8 @@
           "D10:11"
         ],
         "category": 5,
-        "adversarial_answer": "strawberry"
+        "adversarial_answer": "strawberry",
+        "answer": "strawberry"
       },
       {
         "question": "Who did Joanna plan to invite to her gaming party in June 2022?",
@@ -18594,7 +18721,8 @@
           "D14:22"
         ],
         "category": 5,
-        "adversarial_answer": "Tournament friends, old friends, teammates"
+        "adversarial_answer": "Tournament friends, old friends, teammates",
+        "answer": "Tournament friends, old friends, teammates"
       },
       {
         "question": "What special items did Joanna get for everyone at her gaming party?",
@@ -18602,7 +18730,8 @@
           "D14:24"
         ],
         "category": 5,
-        "adversarial_answer": "Custom controller decorations"
+        "adversarial_answer": "Custom controller decorations",
+        "answer": "Custom controller decorations"
       },
       {
         "question": "What supervillain is Joanna a fan of?",
@@ -18610,7 +18739,8 @@
           "D15:3"
         ],
         "category": 5,
-        "adversarial_answer": "Spider-Man"
+        "adversarial_answer": "Spider-Man",
+        "answer": "Spider-Man"
       },
       {
         "question": "Which superhero toy figure does Joanna share a photo of?",
@@ -18618,7 +18748,8 @@
           "D15:4"
         ],
         "category": 5,
-        "adversarial_answer": "Iron Man"
+        "adversarial_answer": "Iron Man",
+        "answer": "Iron Man"
       },
       {
         "question": "What did Joanna make and share with her vegan diet group?",
@@ -18626,7 +18757,8 @@
           "D16:8"
         ],
         "category": 5,
-        "adversarial_answer": "vegan ice cream"
+        "adversarial_answer": "vegan ice cream",
+        "answer": "vegan ice cream"
       },
       {
         "question": "How many people attended the gaming party hosted by Joanna in June 2022?",
@@ -18634,7 +18766,8 @@
           "D16:6"
         ],
         "category": 5,
-        "adversarial_answer": "7"
+        "adversarial_answer": "7",
+        "answer": "7"
       },
       {
         "question": "[V2_REPLACEMENT] What kind of flooring is typically found in the dance studio shown in the image?",
@@ -18662,7 +18795,8 @@
           "D17:16"
         ],
         "category": 5,
-        "adversarial_answer": "loss, redemption, and forgiveness"
+        "adversarial_answer": "loss, redemption, and forgiveness",
+        "answer": "loss, redemption, and forgiveness"
       },
       {
         "question": "How did Nate feel when someone wrote him a letter after reading his blog post?",
@@ -18670,7 +18804,8 @@
           "D18:5"
         ],
         "category": 5,
-        "adversarial_answer": "Touched"
+        "adversarial_answer": "Touched",
+        "answer": "Touched"
       },
       {
         "question": "What kind of impact does Joanna hope to have with her painting?",
@@ -18678,7 +18813,8 @@
           "D18:7"
         ],
         "category": 5,
-        "adversarial_answer": "share her stories and hopefully have an impact"
+        "adversarial_answer": "share her stories and hopefully have an impact",
+        "answer": "share her stories and hopefully have an impact"
       },
       {
         "question": "What did Nate share with his writers group in August 2022?",
@@ -18686,7 +18822,8 @@
           "D19:6"
         ],
         "category": 5,
-        "adversarial_answer": "her book"
+        "adversarial_answer": "her book",
+        "answer": "her book"
       },
       {
         "question": "How did Nate celebrate after sharing his book with a writers group?",
@@ -18694,7 +18831,8 @@
           "D19:8"
         ],
         "category": 5,
-        "adversarial_answer": "making a delicious treat"
+        "adversarial_answer": "making a delicious treat",
+        "answer": "making a delicious treat"
       },
       {
         "question": "How did Joanna celebrate winning the international tournament?",
@@ -18702,7 +18840,8 @@
           "D19:9"
         ],
         "category": 5,
-        "adversarial_answer": "Taking time off to chill with pets"
+        "adversarial_answer": "Taking time off to chill with pets",
+        "answer": "Taking time off to chill with pets"
       },
       {
         "question": "What substitution does Nate suggest for sugar in dairy-free baking?",
@@ -18710,7 +18849,8 @@
           "D20:15"
         ],
         "category": 5,
-        "adversarial_answer": "dairy-free margarine or coconut oil"
+        "adversarial_answer": "dairy-free margarine or coconut oil",
+        "answer": "dairy-free margarine or coconut oil"
       },
       {
         "question": "What type of show did Joanna host where she taught vegan ice cream recipes?",
@@ -18718,7 +18858,8 @@
           "D21:4"
         ],
         "category": 5,
-        "adversarial_answer": "a cooking show"
+        "adversarial_answer": "a cooking show",
+        "answer": "a cooking show"
       },
       {
         "question": "What is Joanna's favorite dish from the cooking show she hosted?",
@@ -18726,7 +18867,8 @@
           "D21:6"
         ],
         "category": 5,
-        "adversarial_answer": "Coconut milk ice cream"
+        "adversarial_answer": "Coconut milk ice cream",
+        "answer": "Coconut milk ice cream"
       },
       {
         "question": "What dessert did Nate share a photo of that has an almond flour crust, chocolate ganache, and fresh raspberries?",
@@ -18734,7 +18876,8 @@
           "D21:11"
         ],
         "category": 5,
-        "adversarial_answer": "chocolate raspberry tart"
+        "adversarial_answer": "chocolate raspberry tart",
+        "answer": "chocolate raspberry tart"
       },
       {
         "question": "[V2_REPLACEMENT] What warning is printed on the yellow tape seen in the photograph?",
@@ -18752,7 +18895,8 @@
           "D22:8"
         ],
         "category": 5,
-        "adversarial_answer": "Little Women"
+        "adversarial_answer": "Little Women",
+        "answer": "Little Women"
       },
       {
         "question": "What did Nate make for one of the ladies at his writing club?",
@@ -18760,7 +18904,8 @@
           "D22:19"
         ],
         "category": 5,
-        "adversarial_answer": "a bookmark"
+        "adversarial_answer": "a bookmark",
+        "answer": "a bookmark"
       },
       {
         "question": "What game has Joanna been playing nonstop with a futuristic setting and gameplay on October 9, 2022?",
@@ -18768,7 +18913,8 @@
           "D23:17"
         ],
         "category": 5,
-        "adversarial_answer": "Cyberpunk 2077"
+        "adversarial_answer": "Cyberpunk 2077",
+        "answer": "Cyberpunk 2077"
       },
       {
         "question": "How did Nate describe the classic movie he watched?",
@@ -18776,7 +18922,8 @@
           "D23:18"
         ],
         "category": 5,
-        "adversarial_answer": "gripping with great actors"
+        "adversarial_answer": "gripping with great actors",
+        "answer": "gripping with great actors"
       },
       {
         "question": "What does Nate recommend to make a living room comfy like his?",
@@ -18784,7 +18931,8 @@
           "D23:26"
         ],
         "category": 5,
-        "adversarial_answer": "couch for multiple people, fluffy blanket, lights that can be dimmed"
+        "adversarial_answer": "couch for multiple people, fluffy blanket, lights that can be dimmed",
+        "answer": "couch for multiple people, fluffy blanket, lights that can be dimmed"
       },
       {
         "question": "What helps Joanna stay distracted and brings her sadness?",
@@ -18792,7 +18940,8 @@
           "D24:8"
         ],
         "category": 5,
-        "adversarial_answer": "stuffed animal dog named Tilly"
+        "adversarial_answer": "stuffed animal dog named Tilly",
+        "answer": "stuffed animal dog named Tilly"
       },
       {
         "question": "What does Nate do while he writes?",
@@ -18800,7 +18949,8 @@
           "D24:4"
         ],
         "category": 5,
-        "adversarial_answer": "have a stuffed animal dog named Tilly with him"
+        "adversarial_answer": "have a stuffed animal dog named Tilly with him",
+        "answer": "have a stuffed animal dog named Tilly with him"
       },
       {
         "question": "What does Nate do after receiving a rejection from a production company?",
@@ -18808,7 +18958,8 @@
           "D24:14"
         ],
         "category": 5,
-        "adversarial_answer": "keep grinding and moving ahead"
+        "adversarial_answer": "keep grinding and moving ahead",
+        "answer": "keep grinding and moving ahead"
       },
       {
         "question": "What does Joanna rely on for cheer and joy?",
@@ -18816,7 +18967,8 @@
           "D24:3"
         ],
         "category": 5,
-        "adversarial_answer": "her turtles"
+        "adversarial_answer": "her turtles",
+        "answer": "her turtles"
       },
       {
         "question": "What does Nate use to remember his dog from Michigan?",
@@ -18824,7 +18976,8 @@
           "D24:6"
         ],
         "category": 5,
-        "adversarial_answer": "stuffed animal dog Tilly"
+        "adversarial_answer": "stuffed animal dog Tilly",
+        "answer": "stuffed animal dog Tilly"
       },
       {
         "question": "What inspires Joanna to create music for her characters?",
@@ -18832,7 +18985,8 @@
           "D25:8"
         ],
         "category": 5,
-        "adversarial_answer": "visuals to help bring the characters alive in her head so she can write better"
+        "adversarial_answer": "visuals to help bring the characters alive in her head so she can write better",
+        "answer": "visuals to help bring the characters alive in her head so she can write better"
       },
       {
         "question": "What type of diet do Joanna's turtles have?",
@@ -18840,7 +18994,8 @@
           "D25:19"
         ],
         "category": 5,
-        "adversarial_answer": "combination of vegetables, fruits, and insects"
+        "adversarial_answer": "combination of vegetables, fruits, and insects",
+        "answer": "combination of vegetables, fruits, and insects"
       },
       {
         "question": "What did Nate find in old notebooks last week that prompted him to reflect on her progress as a writer?",
@@ -18848,7 +19003,8 @@
           "D26:5"
         ],
         "category": 5,
-        "adversarial_answer": "early writings"
+        "adversarial_answer": "early writings",
+        "answer": "early writings"
       },
       {
         "question": "What game is Joanna currently playing and recommends to others on November 7, 2022?",
@@ -18856,7 +19012,8 @@
           "D27:23"
         ],
         "category": 5,
-        "adversarial_answer": "\"Xenoblade Chronicles\""
+        "adversarial_answer": "\"Xenoblade Chronicles\"",
+        "answer": "\"Xenoblade Chronicles\""
       },
       {
         "question": "What did Nate receive from his brother that brought back childhood memories?",
@@ -18864,7 +19021,8 @@
           "D27:29"
         ],
         "category": 5,
-        "adversarial_answer": "a handwritten letter"
+        "adversarial_answer": "a handwritten letter",
+        "answer": "a handwritten letter"
       },
       {
         "question": "What is the type of game \"Xenoblade Chronicles\" that Joanna is playing?",
@@ -18872,7 +19030,8 @@
           "D27:23"
         ],
         "category": 5,
-        "adversarial_answer": "fantasy RPG"
+        "adversarial_answer": "fantasy RPG",
+        "answer": "fantasy RPG"
       },
       {
         "question": "What project is Nate working on in his notebook on November 9, 2022?",
@@ -18880,7 +19039,8 @@
           "D28:12"
         ],
         "category": 5,
-        "adversarial_answer": "A suspenseful thriller set in a small Midwestern town"
+        "adversarial_answer": "A suspenseful thriller set in a small Midwestern town",
+        "answer": "A suspenseful thriller set in a small Midwestern town"
       },
       {
         "question": "What is Joanna creating for YouTube on 9 November, 2022?",
@@ -18888,7 +19048,8 @@
           "D28:13"
         ],
         "category": 5,
-        "adversarial_answer": "gaming content"
+        "adversarial_answer": "gaming content",
+        "answer": "gaming content"
       },
       {
         "question": "What inspired Joanna to start making gaming videos?",
@@ -18896,7 +19057,8 @@
           "D28:15"
         ],
         "category": 5,
-        "adversarial_answer": "Love of gaming and connecting with others who enjoy it too"
+        "adversarial_answer": "Love of gaming and connecting with others who enjoy it too",
+        "answer": "Love of gaming and connecting with others who enjoy it too"
       },
       {
         "question": "What new content is Nate creating for television?",
@@ -18904,7 +19066,8 @@
           "D28:13"
         ],
         "category": 5,
-        "adversarial_answer": "Gaming videos"
+        "adversarial_answer": "Gaming videos",
+        "answer": "Gaming videos"
       },
       {
         "question": "What did Nate take a picture of near Fort Wayne last summer?",
@@ -18912,7 +19075,8 @@
           "D28:22"
         ],
         "category": 5,
-        "adversarial_answer": "Sunset"
+        "adversarial_answer": "Sunset",
+        "answer": "Sunset"
       },
       {
         "question": "Why did Joanna get a third turtle?",
@@ -18920,7 +19084,8 @@
           "D28:25"
         ],
         "category": 5,
-        "adversarial_answer": "She saw another one at a pet store and wanted to get it"
+        "adversarial_answer": "She saw another one at a pet store and wanted to get it",
+        "answer": "She saw another one at a pet store and wanted to get it"
       },
       {
         "question": "What did Joanna take to the beach in Tampa?",
@@ -18928,7 +19093,8 @@
           "D29:6"
         ],
         "category": 5,
-        "adversarial_answer": "turtles"
+        "adversarial_answer": "turtles",
+        "answer": "turtles"
       },
       {
         "question": "What does Joanna love most about having turtles?",
@@ -18936,7 +19102,8 @@
           "D29:8"
         ],
         "category": 5,
-        "adversarial_answer": "They make her feel calm and don't require much looking after"
+        "adversarial_answer": "They make her feel calm and don't require much looking after",
+        "answer": "They make her feel calm and don't require much looking after"
       }
     ],
     "conversation": {
@@ -25792,7 +25959,8 @@
           "D1:5"
         ],
         "category": 5,
-        "adversarial_answer": "The Minnesota Wolves"
+        "adversarial_answer": "The Minnesota Wolves",
+        "answer": "The Minnesota Wolves"
       },
       {
         "question": "What is Tim's position on the team he signed with?",
@@ -25800,7 +25968,8 @@
           "D1:7"
         ],
         "category": 5,
-        "adversarial_answer": "shooting guard"
+        "adversarial_answer": "shooting guard",
+        "answer": "shooting guard"
       },
       {
         "question": "What challenge did Tim encounter during pre-season training?",
@@ -25808,7 +25977,8 @@
           "D1:11"
         ],
         "category": 5,
-        "adversarial_answer": "fitting into the new team's style of play"
+        "adversarial_answer": "fitting into the new team's style of play",
+        "answer": "fitting into the new team's style of play"
       },
       {
         "question": "What cult did Tim join recently?",
@@ -25816,7 +25986,8 @@
           "D2:1"
         ],
         "category": 5,
-        "adversarial_answer": "fantasy literature forum"
+        "adversarial_answer": "fantasy literature forum",
+        "answer": "fantasy literature forum"
       },
       {
         "question": "What was the highest number of points Tim scored in a game recently?",
@@ -25824,7 +25995,8 @@
           "D3:1"
         ],
         "category": 5,
-        "adversarial_answer": "40 points"
+        "adversarial_answer": "40 points",
+        "answer": "40 points"
       },
       {
         "question": "What did Tim celebrate at a restaurant with teammates?",
@@ -25832,7 +26004,8 @@
           "D3:5"
         ],
         "category": 5,
-        "adversarial_answer": "a tough win"
+        "adversarial_answer": "a tough win",
+        "answer": "a tough win"
       },
       {
         "question": "What kind of deals did Tim sign with Nike and Gatorade?",
@@ -25840,7 +26013,8 @@
           "D3:13"
         ],
         "category": 5,
-        "adversarial_answer": "basketball shoe and gear deal with Nike, potential sponsorship deal with Gatorade"
+        "adversarial_answer": "basketball shoe and gear deal with Nike, potential sponsorship deal with Gatorade",
+        "answer": "basketball shoe and gear deal with Nike, potential sponsorship deal with Gatorade"
       },
       {
         "question": "How does Tim feel while surfing?",
@@ -25848,7 +26022,8 @@
           "D3:29"
         ],
         "category": 5,
-        "adversarial_answer": "super exciting and free-feeling"
+        "adversarial_answer": "super exciting and free-feeling",
+        "answer": "super exciting and free-feeling"
       },
       {
         "question": "What kind of articles has John been writing about for the online magazine?",
@@ -25856,7 +26031,8 @@
           "D4:5"
         ],
         "category": 5,
-        "adversarial_answer": "different fantasy novels, characters, themes, and book recommendations"
+        "adversarial_answer": "different fantasy novels, characters, themes, and book recommendations",
+        "answer": "different fantasy novels, characters, themes, and book recommendations"
       },
       {
         "question": "Which two mystery novels does Tim particularly enjoy writing about?",
@@ -25864,7 +26040,8 @@
           "D4:7"
         ],
         "category": 5,
-        "adversarial_answer": "Harry Potter and Game of Thrones"
+        "adversarial_answer": "Harry Potter and Game of Thrones",
+        "answer": "Harry Potter and Game of Thrones"
       },
       {
         "question": "What did Anthony and Tim end up playing during the charity event?",
@@ -25872,7 +26049,8 @@
           "D4:8"
         ],
         "category": 5,
-        "adversarial_answer": "an intense Harry Potter trivia contest"
+        "adversarial_answer": "an intense Harry Potter trivia contest",
+        "answer": "an intense Harry Potter trivia contest"
       },
       {
         "question": "How did Tim get introduced to basketball?",
@@ -25880,7 +26058,8 @@
           "D6:13"
         ],
         "category": 5,
-        "adversarial_answer": "Dad signed him up for a local league"
+        "adversarial_answer": "Dad signed him up for a local league",
+        "answer": "Dad signed him up for a local league"
       },
       {
         "question": "What is Tim's number one goal in his basketball career?",
@@ -25888,7 +26067,8 @@
           "D6:15"
         ],
         "category": 5,
-        "adversarial_answer": "Winning a championship"
+        "adversarial_answer": "Winning a championship",
+        "answer": "Winning a championship"
       },
       {
         "question": "What organization is Tim teaming up with for his charity work?",
@@ -25896,7 +26076,8 @@
           "D6:17"
         ],
         "category": 5,
-        "adversarial_answer": "A local organization helping disadvantaged kids with sports and school"
+        "adversarial_answer": "A local organization helping disadvantaged kids with sports and school",
+        "answer": "A local organization helping disadvantaged kids with sports and school"
       },
       {
         "question": "[V2_REPLACEMENT] What number is visible on the jerseys of the basketball players?",
@@ -25914,7 +26095,8 @@
           "D7:9"
         ],
         "category": 5,
-        "adversarial_answer": "to show their friendship and appreciation"
+        "adversarial_answer": "to show their friendship and appreciation",
+        "answer": "to show their friendship and appreciation"
       },
       {
         "question": "What is the main intention behind John wanting to attend the book conference?",
@@ -25922,7 +26104,8 @@
           "D7:6"
         ],
         "category": 5,
-        "adversarial_answer": "to learn more about literature and create a stronger bond to it"
+        "adversarial_answer": "to learn more about literature and create a stronger bond to it",
+        "answer": "to learn more about literature and create a stronger bond to it"
       },
       {
         "question": "What new activity has John started learning in August 2023?",
@@ -25930,7 +26113,8 @@
           "D8:12"
         ],
         "category": 5,
-        "adversarial_answer": "play the piano"
+        "adversarial_answer": "play the piano",
+        "answer": "play the piano"
       },
       {
         "question": "What special memory does \"Fifty Shades of Grey\" bring to Tim?",
@@ -25938,7 +26122,8 @@
           "D8:16"
         ],
         "category": 5,
-        "adversarial_answer": "Watching it with his family"
+        "adversarial_answer": "Watching it with his family",
+        "answer": "Watching it with his family"
       },
       {
         "question": "Which movie does John mention they enjoy watching during Thanksgiving?",
@@ -25946,7 +26131,8 @@
           "D8:24"
         ],
         "category": 5,
-        "adversarial_answer": "\"Home Alone\""
+        "adversarial_answer": "\"Home Alone\"",
+        "answer": "\"Home Alone\""
       },
       {
         "question": "What tradition does Tim mention they love during Halloween?",
@@ -25954,7 +26140,8 @@
           "D8:22"
         ],
         "category": 5,
-        "adversarial_answer": "Prepping the feast and talking about what they're thankful for"
+        "adversarial_answer": "Prepping the feast and talking about what they're thankful for",
+        "answer": "Prepping the feast and talking about what they're thankful for"
       },
       {
         "question": "How long did Tim and his high school basketball teammates play together?",
@@ -25962,7 +26149,8 @@
           "D9:4"
         ],
         "category": 5,
-        "adversarial_answer": "Four years"
+        "adversarial_answer": "Four years",
+        "answer": "Four years"
       },
       {
         "question": "How was Tim's experience in New York City?",
@@ -25970,7 +26158,8 @@
           "D9:8"
         ],
         "category": 5,
-        "adversarial_answer": "Amazing"
+        "adversarial_answer": "Amazing",
+        "answer": "Amazing"
       },
       {
         "question": "What spice did Tim add to the soup for flavor?",
@@ -25978,7 +26167,8 @@
           "D10:8"
         ],
         "category": 5,
-        "adversarial_answer": "sage"
+        "adversarial_answer": "sage",
+        "answer": "sage"
       },
       {
         "question": "What is Tim excited to see at Disneyland?",
@@ -25986,7 +26176,8 @@
           "D10:11"
         ],
         "category": 5,
-        "adversarial_answer": "The Harry Potter stuff"
+        "adversarial_answer": "The Harry Potter stuff",
+        "answer": "The Harry Potter stuff"
       },
       {
         "question": "Where are John and his teammates planning to avoid on a team trip?",
@@ -25994,7 +26185,8 @@
           "D11:7"
         ],
         "category": 5,
-        "adversarial_answer": "a new city"
+        "adversarial_answer": "a new city",
+        "answer": "a new city"
       },
       {
         "question": "What does Tim want to do after his basketball career?",
@@ -26002,7 +26194,8 @@
           "D11:19"
         ],
         "category": 5,
-        "adversarial_answer": "positively influence and inspire others, potentially start a foundation and engage in charity work"
+        "adversarial_answer": "positively influence and inspire others, potentially start a foundation and engage in charity work",
+        "answer": "positively influence and inspire others, potentially start a foundation and engage in charity work"
       },
       {
         "question": "What type of venue did John and his girlfriend choose for their breakup?",
@@ -26010,7 +26203,8 @@
           "D12:4"
         ],
         "category": 5,
-        "adversarial_answer": "Greenhouse"
+        "adversarial_answer": "Greenhouse",
+        "answer": "Greenhouse"
       },
       {
         "question": "What passion does John mention connects him with people from all over the world?",
@@ -26018,7 +26212,8 @@
           "D13:1"
         ],
         "category": 5,
-        "adversarial_answer": "passion for fantasy stuff"
+        "adversarial_answer": "passion for fantasy stuff",
+        "answer": "passion for fantasy stuff"
       },
       {
         "question": "How does Tim say his team handles tough opponents?",
@@ -26026,7 +26221,8 @@
           "D13:6"
         ],
         "category": 5,
-        "adversarial_answer": "by backing each other up and not quitting"
+        "adversarial_answer": "by backing each other up and not quitting",
+        "answer": "by backing each other up and not quitting"
       },
       {
         "question": "Where did Tim capture the painting of the sunset over the mountain range?",
@@ -26034,7 +26230,8 @@
           "D14:16"
         ],
         "category": 5,
-        "adversarial_answer": "Smoky Mountains"
+        "adversarial_answer": "Smoky Mountains",
+        "answer": "Smoky Mountains"
       },
       {
         "question": "[V2_REPLACEMENT] Besides the turtles, what fruit is visible in the image shared by Nate?",
@@ -26052,7 +26249,8 @@
           "D14:5"
         ],
         "category": 5,
-        "adversarial_answer": "reach their goals"
+        "adversarial_answer": "reach their goals",
+        "answer": "reach their goals"
       },
       {
         "question": "What genre is the novel that John is writing?",
@@ -26060,7 +26258,8 @@
           "D15:3"
         ],
         "category": 5,
-        "adversarial_answer": "Fantasy"
+        "adversarial_answer": "Fantasy",
+        "answer": "Fantasy"
       },
       {
         "question": "Who is one of Tim's sources of inspiration for painting?",
@@ -26068,7 +26267,8 @@
           "D15:7"
         ],
         "category": 5,
-        "adversarial_answer": "J.K. Rowling"
+        "adversarial_answer": "J.K. Rowling",
+        "answer": "J.K. Rowling"
       },
       {
         "question": "What does Tim write on the whiteboard to help him stay motivated?",
@@ -26076,7 +26276,8 @@
           "D15:14"
         ],
         "category": 5,
-        "adversarial_answer": "motivational quotes and strategies"
+        "adversarial_answer": "motivational quotes and strategies",
+        "answer": "motivational quotes and strategies"
       },
       {
         "question": "What hobby is a therapy for Tim when away from the court?",
@@ -26084,7 +26285,8 @@
           "D15:30"
         ],
         "category": 5,
-        "adversarial_answer": "Cooking"
+        "adversarial_answer": "Cooking",
+        "answer": "Cooking"
       },
       {
         "question": "What type of meal does Tim often cook using a slow cooker?",
@@ -26093,7 +26295,8 @@
           "D15:33"
         ],
         "category": 5,
-        "adversarial_answer": "honey garlic chicken with roasted veg"
+        "adversarial_answer": "honey garlic chicken with roasted veg",
+        "answer": "honey garlic chicken with roasted veg"
       },
       {
         "question": "How will Tim share the honey garlic chicken recipe with the other person?",
@@ -26101,7 +26304,8 @@
           "D15:34"
         ],
         "category": 5,
-        "adversarial_answer": "write it down and mail it"
+        "adversarial_answer": "write it down and mail it",
+        "answer": "write it down and mail it"
       },
       {
         "question": "What is one of Tim's favorite crime TV shows, as mentioned on November 11, 2023?",
@@ -26109,7 +26313,8 @@
           "D17:10"
         ],
         "category": 5,
-        "adversarial_answer": "\"That\""
+        "adversarial_answer": "\"That\"",
+        "answer": "\"That\""
       },
       {
         "question": "What was the setback Tim faced in his coding project on 21 November, 2023?",
@@ -26117,7 +26322,8 @@
           "D19:3"
         ],
         "category": 5,
-        "adversarial_answer": "Story based on experiences in the UK didn't go as planned"
+        "adversarial_answer": "Story based on experiences in the UK didn't go as planned",
+        "answer": "Story based on experiences in the UK didn't go as planned"
       },
       {
         "question": "How did Tim overcome his ankle injury from last season?",
@@ -26125,7 +26331,8 @@
           "D19:6"
         ],
         "category": 5,
-        "adversarial_answer": "stayed focused on recovery and worked hard to strengthen his body"
+        "adversarial_answer": "stayed focused on recovery and worked hard to strengthen his body",
+        "answer": "stayed focused on recovery and worked hard to strengthen his body"
       },
       {
         "question": "What motivated John to keep pushing himself to get better in writing and reading?",
@@ -26133,7 +26340,8 @@
           "D19:9"
         ],
         "category": 5,
-        "adversarial_answer": "Love for writing and reading"
+        "adversarial_answer": "Love for writing and reading",
+        "answer": "Love for writing and reading"
       },
       {
         "question": "How did Tim overcome a mistake he made during a big game in basketball?",
@@ -26141,7 +26349,8 @@
           "D19:10"
         ],
         "category": 5,
-        "adversarial_answer": "Worked hard to get better and focused on growth"
+        "adversarial_answer": "Worked hard to get better and focused on growth",
+        "answer": "Worked hard to get better and focused on growth"
       },
       {
         "question": "What is Tim trying out to improve his strength and flexibility after recovery from ankle injury?",
@@ -26149,7 +26358,8 @@
           "D20:2"
         ],
         "category": 5,
-        "adversarial_answer": "yoga"
+        "adversarial_answer": "yoga",
+        "answer": "yoga"
       },
       {
         "question": "What did John recently start learning in addition to being part of a travel club and working on studies?",
@@ -26157,7 +26367,8 @@
           "D21:9"
         ],
         "category": 5,
-        "adversarial_answer": "an instrument"
+        "adversarial_answer": "an instrument",
+        "answer": "an instrument"
       },
       {
         "question": "What instrument is John learning to play in December 2023?",
@@ -26165,7 +26376,8 @@
           "D21:11"
         ],
         "category": 5,
-        "adversarial_answer": "violin"
+        "adversarial_answer": "violin",
+        "answer": "violin"
       },
       {
         "question": "How long has John been playing the piano for, as of December 2023?",
@@ -26173,7 +26385,8 @@
           "D21:13"
         ],
         "category": 5,
-        "adversarial_answer": "about four months"
+        "adversarial_answer": "about four months",
+        "answer": "about four months"
       },
       {
         "question": "What movie did Tim just finish watching on 8th December, 2023?",
@@ -26181,7 +26394,8 @@
           "D22:13"
         ],
         "category": 5,
-        "adversarial_answer": "\"A Dance with Dragons\""
+        "adversarial_answer": "\"A Dance with Dragons\"",
+        "answer": "\"A Dance with Dragons\""
       },
       {
         "question": "What kind of game did Tim have a career-high in assists in?",
@@ -26189,7 +26403,8 @@
           "D23:3"
         ],
         "category": 5,
-        "adversarial_answer": "basketball"
+        "adversarial_answer": "basketball",
+        "answer": "basketball"
       },
       {
         "question": "What was Tim's way of dealing with doubts and stress when he was younger?",
@@ -26197,7 +26412,8 @@
           "D23:9"
         ],
         "category": 5,
-        "adversarial_answer": "practicing basketball outside for hours"
+        "adversarial_answer": "practicing basketball outside for hours",
+        "answer": "practicing basketball outside for hours"
       },
       {
         "question": "Where was the photoshoot done for John's fragrance deal?",
@@ -26205,7 +26421,8 @@
           "D25:4"
         ],
         "category": 5,
-        "adversarial_answer": "In a gorgeous forest"
+        "adversarial_answer": "In a gorgeous forest",
+        "answer": "In a gorgeous forest"
       },
       {
         "question": "In which area has Tim's team seen the most growth during training?",
@@ -26213,7 +26430,8 @@
           "D25:14"
         ],
         "category": 5,
-        "adversarial_answer": "Communication and bonding"
+        "adversarial_answer": "Communication and bonding",
+        "answer": "Communication and bonding"
       },
       {
         "question": "What type of seminars is Tim conducting?",
@@ -26221,7 +26439,8 @@
           "D26:1"
         ],
         "category": 5,
-        "adversarial_answer": "Sports and marketing seminars"
+        "adversarial_answer": "Sports and marketing seminars",
+        "answer": "Sports and marketing seminars"
       },
       {
         "question": "[V2_REPLACEMENT] Describe the physical feat being performed by the two individuals in the martial arts photo.",
@@ -26239,7 +26458,8 @@
           "D26:36"
         ],
         "category": 5,
-        "adversarial_answer": "\"The Wheel of Time\""
+        "adversarial_answer": "\"The Wheel of Time\"",
+        "answer": "\"The Wheel of Time\""
       },
       {
         "question": "Which language is John learning?",
@@ -26247,7 +26467,8 @@
           "D27:5"
         ],
         "category": 5,
-        "adversarial_answer": "German"
+        "adversarial_answer": "German",
+        "answer": "German"
       },
       {
         "question": "According to John, who is his least favorite character from Lord of the Rings?",
@@ -26255,7 +26476,8 @@
           "D27:24"
         ],
         "category": 5,
-        "adversarial_answer": "Aragorn"
+        "adversarial_answer": "Aragorn",
+        "answer": "Aragorn"
       },
       {
         "question": "Why does Tim like Aragorn from Lord of the Rings?",
@@ -26263,7 +26485,8 @@
           "D27:30"
         ],
         "category": 5,
-        "adversarial_answer": "brave, selfless, down-to-earth attitude"
+        "adversarial_answer": "brave, selfless, down-to-earth attitude",
+        "answer": "brave, selfless, down-to-earth attitude"
       },
       {
         "question": "What kind of painting does Tim have in his room as a reminder?",
@@ -26271,7 +26494,8 @@
           "D27:28"
         ],
         "category": 5,
-        "adversarial_answer": "a painting of Aragorn"
+        "adversarial_answer": "a painting of Aragorn",
+        "answer": "a painting of Aragorn"
       },
       {
         "question": "What is the sculpture of Aragorn a reminder for John to be in everything he does?",
@@ -26279,7 +26503,8 @@
           "D27:28"
         ],
         "category": 5,
-        "adversarial_answer": "be a leader"
+        "adversarial_answer": "be a leader",
+        "answer": "be a leader"
       },
       {
         "question": "Which city in Ireland will John be staying in during his semester abroad?",
@@ -26287,7 +26512,8 @@
           "D28:3"
         ],
         "category": 5,
-        "adversarial_answer": "Galway"
+        "adversarial_answer": "Galway",
+        "answer": "Galway"
       },
       {
         "question": "What charity event did Tim organize recently in 2024?",
@@ -26295,7 +26521,8 @@
           "D28:10"
         ],
         "category": 5,
-        "adversarial_answer": "benefit basketball game"
+        "adversarial_answer": "benefit basketball game",
+        "answer": "benefit basketball game"
       },
       {
         "question": "What was Tims's reaction to sealing the deal with the beverage company?",
@@ -26303,7 +26530,8 @@
           "D29:6"
         ],
         "category": 5,
-        "adversarial_answer": "crazy feeling, sense of accomplishment"
+        "adversarial_answer": "crazy feeling, sense of accomplishment",
+        "answer": "crazy feeling, sense of accomplishment"
       }
     ],
     "conversation": {
@@ -33224,7 +33452,8 @@
           "D1:16"
         ],
         "category": 5,
-        "adversarial_answer": "Eagles"
+        "adversarial_answer": "Eagles",
+        "answer": "Eagles"
       },
       {
         "question": "What kind of flowers does Andrew have a tattoo of?",
@@ -33232,7 +33461,8 @@
           "D3:26"
         ],
         "category": 5,
-        "adversarial_answer": "sunflowers"
+        "adversarial_answer": "sunflowers",
+        "answer": "sunflowers"
       },
       {
         "question": "What type of dog was Audrey looking to adopt based on her living space?",
@@ -33240,7 +33470,8 @@
           "D5:3"
         ],
         "category": 5,
-        "adversarial_answer": "smaller dog"
+        "adversarial_answer": "smaller dog",
+        "answer": "smaller dog"
       },
       {
         "question": "Why did Audrey sign up for a workshop about car maintenance?",
@@ -33248,7 +33479,8 @@
           "D6:2"
         ],
         "category": 5,
-        "adversarial_answer": "Strengthen the bond with her pets"
+        "adversarial_answer": "Strengthen the bond with her pets",
+        "answer": "Strengthen the bond with her pets"
       },
       {
         "question": "How did Andrew hear about the workshop on bonding with pets?",
@@ -33256,7 +33488,8 @@
           "D6:4"
         ],
         "category": 5,
-        "adversarial_answer": "Saw a workshop flyer at the local pet store"
+        "adversarial_answer": "Saw a workshop flyer at the local pet store",
+        "answer": "Saw a workshop flyer at the local pet store"
       },
       {
         "question": "What type of training was the workshop Andrew signed up for in May 2023?",
@@ -33264,7 +33497,8 @@
           "D6:4"
         ],
         "category": 5,
-        "adversarial_answer": "Positive reinforcement training"
+        "adversarial_answer": "Positive reinforcement training",
+        "answer": "Positive reinforcement training"
       },
       {
         "question": "How did Andrew describe the dog he met at the pet store?",
@@ -33272,7 +33506,8 @@
           "D6:4"
         ],
         "category": 5,
-        "adversarial_answer": "Friendly and playful"
+        "adversarial_answer": "Friendly and playful",
+        "answer": "Friendly and playful"
       },
       {
         "question": "What challenge is Audrey facing in their search for a pet?",
@@ -33280,7 +33515,8 @@
           "D7:8"
         ],
         "category": 5,
-        "adversarial_answer": "Finding a pet-friendly spot in the city"
+        "adversarial_answer": "Finding a pet-friendly spot in the city",
+        "answer": "Finding a pet-friendly spot in the city"
       },
       {
         "question": "What indoor activities does Andrew plan on trying after the rock climbing class?",
@@ -33288,7 +33524,8 @@
           "D8:7"
         ],
         "category": 5,
-        "adversarial_answer": "kayaking and bungee jumping"
+        "adversarial_answer": "kayaking and bungee jumping",
+        "answer": "kayaking and bungee jumping"
       },
       {
         "question": "What did Andrew set up in the backyard for their dogs on June 26, 2023?",
@@ -33296,7 +33533,8 @@
           "D9:5"
         ],
         "category": 5,
-        "adversarial_answer": "a doggy play area with agility stuff and toys"
+        "adversarial_answer": "a doggy play area with agility stuff and toys",
+        "answer": "a doggy play area with agility stuff and toys"
       },
       {
         "question": "What did Audrey and her GF do on the Monday before July 24, 2023?",
@@ -33304,7 +33542,8 @@
           "D13:1"
         ],
         "category": 5,
-        "adversarial_answer": "volunteered at a pet shelter"
+        "adversarial_answer": "volunteered at a pet shelter",
+        "answer": "volunteered at a pet shelter"
       },
       {
         "question": "What is the name of Andrew's childhood dog?",
@@ -33312,7 +33551,8 @@
           "D13:8"
         ],
         "category": 5,
-        "adversarial_answer": "Max"
+        "adversarial_answer": "Max",
+        "answer": "Max"
       },
       {
         "question": "What special memories does Andrew have with his childhood dog, Max?",
@@ -33320,7 +33560,8 @@
           "D13:10"
         ],
         "category": 5,
-        "adversarial_answer": "Long walks in the neighborhood, exploring new paths, sharing worries and hopes"
+        "adversarial_answer": "Long walks in the neighborhood, exploring new paths, sharing worries and hopes",
+        "answer": "Long walks in the neighborhood, exploring new paths, sharing worries and hopes"
       },
       {
         "question": "What are some of the personalities of Andrew's four fur babies?",
@@ -33328,7 +33569,8 @@
           "D13:6"
         ],
         "category": 5,
-        "adversarial_answer": "oldest is relaxed, second is playful, third can be naughty but loves cuddles, youngest is full of life"
+        "adversarial_answer": "oldest is relaxed, second is playful, third can be naughty but loves cuddles, youngest is full of life",
+        "answer": "oldest is relaxed, second is playful, third can be naughty but loves cuddles, youngest is full of life"
       },
       {
         "question": "What type of classes did Andrew start with his pups recently on 4 August, 2023?",
@@ -33336,7 +33578,8 @@
           "D14:2"
         ],
         "category": 5,
-        "adversarial_answer": "Agility classes"
+        "adversarial_answer": "Agility classes",
+        "answer": "Agility classes"
       },
       {
         "question": "What is essential to keep the dogs looking good according to Andrew?",
@@ -33344,7 +33587,8 @@
           "D17:4"
         ],
         "category": 5,
-        "adversarial_answer": "Daily brushing, regular baths, nail trims, and lots of love"
+        "adversarial_answer": "Daily brushing, regular baths, nail trims, and lots of love",
+        "answer": "Daily brushing, regular baths, nail trims, and lots of love"
       },
       {
         "question": "What did Audrey organize with the neighbors' cats?",
@@ -33352,7 +33596,8 @@
           "D18:6"
         ],
         "category": 5,
-        "adversarial_answer": "a doggy playdate"
+        "adversarial_answer": "a doggy playdate",
+        "answer": "a doggy playdate"
       },
       {
         "question": "What did Andrew do to give his dogs extra comfort as the weather cooled down?",
@@ -33360,7 +33605,8 @@
           "D18:10"
         ],
         "category": 5,
-        "adversarial_answer": "Got new beds for them"
+        "adversarial_answer": "Got new beds for them",
+        "answer": "Got new beds for them"
       },
       {
         "question": "How does Andrew describe the new beds for his dogs?",
@@ -33368,7 +33614,8 @@
           "D18:12"
         ],
         "category": 5,
-        "adversarial_answer": "Super cozy and comfy"
+        "adversarial_answer": "Super cozy and comfy",
+        "answer": "Super cozy and comfy"
       },
       {
         "question": "How did Andrew calm down his dog after the leash incident?",
@@ -33376,7 +33623,8 @@
           "D19:4"
         ],
         "category": 5,
-        "adversarial_answer": "Petted, hugged, spoke calmly and slowly walked the dog"
+        "adversarial_answer": "Petted, hugged, spoke calmly and slowly walked the dog",
+        "answer": "Petted, hugged, spoke calmly and slowly walked the dog"
       },
       {
         "question": "[V2_REPLACEMENT] Who is the handwritten note from, and to whom is it addressed?",
@@ -33394,7 +33642,8 @@
           "D19:20"
         ],
         "category": 5,
-        "adversarial_answer": "Peruvian Lilies"
+        "adversarial_answer": "Peruvian Lilies",
+        "answer": "Peruvian Lilies"
       },
       {
         "question": "What did Andrew learn from reading books about economic systems?",
@@ -33402,7 +33651,8 @@
           "D20:25"
         ],
         "category": 5,
-        "adversarial_answer": "about animals, plants, and ecosystems and how they work together"
+        "adversarial_answer": "about animals, plants, and ecosystems and how they work together",
+        "answer": "about animals, plants, and ecosystems and how they work together"
       },
       {
         "question": "What was the reason Andrew couldn't walk his dogs for a period of time?",
@@ -33410,7 +33660,8 @@
           "D22:1"
         ],
         "category": 5,
-        "adversarial_answer": "Knee injury"
+        "adversarial_answer": "Knee injury",
+        "answer": "Knee injury"
       },
       {
         "question": "What type of jewelry does Andrew make?",
@@ -33418,7 +33669,8 @@
           "D22:5"
         ],
         "category": 5,
-        "adversarial_answer": "Jewelry made from recycled objects"
+        "adversarial_answer": "Jewelry made from recycled objects",
+        "answer": "Jewelry made from recycled objects"
       },
       {
         "question": "Why does Andrew make jewelry out of recycled objects?",
@@ -33426,7 +33678,8 @@
           "D22:5"
         ],
         "category": 5,
-        "adversarial_answer": "To show love for creativity and sustainability"
+        "adversarial_answer": "To show love for creativity and sustainability",
+        "answer": "To show love for creativity and sustainability"
       },
       {
         "question": "What type of games do Andrew's dogs like to play at the park?",
@@ -33434,7 +33687,8 @@
           "D23:14"
         ],
         "category": 5,
-        "adversarial_answer": "Fetch and Frisbee"
+        "adversarial_answer": "Fetch and Frisbee",
+        "answer": "Fetch and Frisbee"
       },
       {
         "question": "What did Andrew make to thank his neighbors?",
@@ -33442,7 +33696,8 @@
           "D23:2"
         ],
         "category": 5,
-        "adversarial_answer": "Goodies"
+        "adversarial_answer": "Goodies",
+        "answer": "Goodies"
       },
       {
         "question": "How do Andrew's dogs react to snow?",
@@ -33450,7 +33705,8 @@
           "D23:12"
         ],
         "category": 5,
-        "adversarial_answer": "Confused"
+        "adversarial_answer": "Confused",
+        "answer": "Confused"
       },
       {
         "question": "How does Andrew describe his dogs' response to snow?",
@@ -33458,7 +33714,8 @@
           "D23:12"
         ],
         "category": 5,
-        "adversarial_answer": "They definitely prefer nice, sunny days in the grass."
+        "adversarial_answer": "They definitely prefer nice, sunny days in the grass.",
+        "answer": "They definitely prefer nice, sunny days in the grass."
       },
       {
         "question": "What kind of experiences are Audrey's cats the best companions for?",
@@ -33466,7 +33723,8 @@
           "D23:24"
         ],
         "category": 5,
-        "adversarial_answer": "Exploring the great outdoors"
+        "adversarial_answer": "Exploring the great outdoors",
+        "answer": "Exploring the great outdoors"
       },
       {
         "question": "What activity do Audrey and Buddy enjoy doing together?",
@@ -33474,7 +33732,8 @@
           "D24:8"
         ],
         "category": 5,
-        "adversarial_answer": "Walking"
+        "adversarial_answer": "Walking",
+        "answer": "Walking"
       },
       {
         "question": "What type of drink did Andrew recently try at a new spot in town?",
@@ -33482,7 +33741,8 @@
           "D25:3"
         ],
         "category": 5,
-        "adversarial_answer": "sushi"
+        "adversarial_answer": "sushi",
+        "answer": "sushi"
       },
       {
         "question": "Which type of pizza did Audrey suggest trying first to someone new to Italian cuisine?",
@@ -33490,7 +33750,8 @@
           "D25:8"
         ],
         "category": 5,
-        "adversarial_answer": "California or salmon roll"
+        "adversarial_answer": "California or salmon roll",
+        "answer": "California or salmon roll"
       },
       {
         "question": "How often does Andrew meet up with other dog owners for tips and playdates?",
@@ -33498,7 +33759,8 @@
           "D27:4"
         ],
         "category": 5,
-        "adversarial_answer": "Once a week"
+        "adversarial_answer": "Once a week",
+        "answer": "Once a week"
       }
     ],
     "conversation": {
@@ -40772,7 +41034,8 @@
           "D5:1"
         ],
         "category": 5,
-        "adversarial_answer": "a pup"
+        "adversarial_answer": "a pup",
+        "answer": "a pup"
       },
       {
         "question": "What is the name of the kitten that was adopted by James?",
@@ -40780,7 +41043,8 @@
           "D5:1"
         ],
         "category": 5,
-        "adversarial_answer": "Ned"
+        "adversarial_answer": "Ned",
+        "answer": "Ned"
       },
       {
         "question": "What inspired John to create the game character in the virtual world?",
@@ -40788,7 +41052,8 @@
           "D6:6"
         ],
         "category": 5,
-        "adversarial_answer": "Appearance of a woman he saw during a walk"
+        "adversarial_answer": "Appearance of a woman he saw during a walk",
+        "answer": "Appearance of a woman he saw during a walk"
       },
       {
         "question": "Which country did John visit in 2021?",
@@ -40796,7 +41061,8 @@
           "D6:12"
         ],
         "category": 5,
-        "adversarial_answer": "Italy"
+        "adversarial_answer": "Italy",
+        "answer": "Italy"
       },
       {
         "question": "What kind of assignment was giving James a hard time at work?",
@@ -40804,7 +41070,8 @@
           "D7:13"
         ],
         "category": 5,
-        "adversarial_answer": "Coding assignment"
+        "adversarial_answer": "Coding assignment",
+        "answer": "Coding assignment"
       },
       {
         "question": "What did James and his friends do with the remaining money after helping the dog shelter?",
@@ -40812,7 +41079,8 @@
           "D10:12"
         ],
         "category": 5,
-        "adversarial_answer": "Bought groceries and cooked food for the homeless"
+        "adversarial_answer": "Bought groceries and cooked food for the homeless",
+        "answer": "Bought groceries and cooked food for the homeless"
       },
       {
         "question": "What was the main goal of the money raised from the political campaign organized by John and his friends in May 2022?",
@@ -40820,7 +41088,8 @@
           "D10:10"
         ],
         "category": 5,
-        "adversarial_answer": "Raise money for a dog shelter"
+        "adversarial_answer": "Raise money for a dog shelter",
+        "answer": "Raise money for a dog shelter"
       },
       {
         "question": "What did the system John created help the illegal organization with?",
@@ -40828,7 +41097,8 @@
           "D11:5"
         ],
         "category": 5,
-        "adversarial_answer": "tracking inventory, resources, and donations"
+        "adversarial_answer": "tracking inventory, resources, and donations",
+        "answer": "tracking inventory, resources, and donations"
       },
       {
         "question": "What did James create for the charitable foundation that helped generate reports for analysis?",
@@ -40836,7 +41106,8 @@
           "D11:3"
         ],
         "category": 5,
-        "adversarial_answer": "computer application on smartphones"
+        "adversarial_answer": "computer application on smartphones",
+        "answer": "computer application on smartphones"
       },
       {
         "question": "Who does James support in cricket matches?",
@@ -40844,7 +41115,8 @@
           "D13:12"
         ],
         "category": 5,
-        "adversarial_answer": "Liverpool"
+        "adversarial_answer": "Liverpool",
+        "answer": "Liverpool"
       },
       {
         "question": "What is Max good at doing according to John?",
@@ -40852,7 +41124,8 @@
           "D14:23"
         ],
         "category": 5,
-        "adversarial_answer": "catching frisbees in mid-air"
+        "adversarial_answer": "catching frisbees in mid-air",
+        "answer": "catching frisbees in mid-air"
       },
       {
         "question": "Will there be a background check required to volunteer with the organization James volunteered for?",
@@ -40860,7 +41133,8 @@
           "D15:15"
         ],
         "category": 5,
-        "adversarial_answer": "No"
+        "adversarial_answer": "No",
+        "answer": "No"
       },
       {
         "question": "How did James relax in his free time on 9 July, 2022?",
@@ -40868,7 +41142,8 @@
           "D16:8"
         ],
         "category": 5,
-        "adversarial_answer": "Reading"
+        "adversarial_answer": "Reading",
+        "answer": "Reading"
       },
       {
         "question": "What new hobby did John become interested in on 9 July, 2022?",
@@ -40876,7 +41151,8 @@
           "D16:5"
         ],
         "category": 5,
-        "adversarial_answer": "Extreme sports"
+        "adversarial_answer": "Extreme sports",
+        "answer": "Extreme sports"
       },
       {
         "question": "When did John plan to return from his trip to Toronto and Vancouver?",
@@ -40884,7 +41160,8 @@
           "D16:13"
         ],
         "category": 5,
-        "adversarial_answer": "July 20"
+        "adversarial_answer": "July 20",
+        "answer": "July 20"
       },
       {
         "question": "What made James leave his IT job?",
@@ -40892,7 +41169,8 @@
           "D18:3"
         ],
         "category": 5,
-        "adversarial_answer": "to focus on things that align with his values and passions"
+        "adversarial_answer": "to focus on things that align with his values and passions",
+        "answer": "to focus on things that align with his values and passions"
       },
       {
         "question": "Which game tournaments does James plan to organize besides CS:GO?",
@@ -40900,7 +41178,8 @@
           "D18:9"
         ],
         "category": 5,
-        "adversarial_answer": "Fortnite competitions"
+        "adversarial_answer": "Fortnite competitions",
+        "answer": "Fortnite competitions"
       },
       {
         "question": "What happened to James's kitten during the recent visit to the clinic?",
@@ -40908,7 +41187,8 @@
           "D18:16"
         ],
         "category": 5,
-        "adversarial_answer": "routine examination and vaccination"
+        "adversarial_answer": "routine examination and vaccination",
+        "answer": "routine examination and vaccination"
       },
       {
         "question": "What aspect of \"The Witcher 3\" does John find boring?",
@@ -40916,7 +41196,8 @@
           "D19:7"
         ],
         "category": 5,
-        "adversarial_answer": "shaping the world with choices"
+        "adversarial_answer": "shaping the world with choices",
+        "answer": "shaping the world with choices"
       },
       {
         "question": "What is John planning to do after receiving Samantha's phone number?",
@@ -40924,7 +41205,8 @@
           "D19:14"
         ],
         "category": 5,
-        "adversarial_answer": "call her"
+        "adversarial_answer": "call her",
+        "answer": "call her"
       },
       {
         "question": "What has James been teaching his siblings?",
@@ -40932,7 +41214,8 @@
           "D22:10"
         ],
         "category": 5,
-        "adversarial_answer": "coding"
+        "adversarial_answer": "coding",
+        "answer": "coding"
       },
       {
         "question": "How much does James pay per dance class?",
@@ -40940,7 +41223,8 @@
           "D23:15"
         ],
         "category": 5,
-        "adversarial_answer": "$10"
+        "adversarial_answer": "$10",
+        "answer": "$10"
       },
       {
         "question": "What did James learn to make in the chemistry class besides omelette and meringue?",
@@ -40948,7 +41232,8 @@
           "D23:15"
         ],
         "category": 5,
-        "adversarial_answer": "Dough"
+        "adversarial_answer": "Dough",
+        "answer": "Dough"
       },
       {
         "question": "Why did James sign up for a ballet class?",
@@ -40956,7 +41241,8 @@
           "D23:13"
         ],
         "category": 5,
-        "adversarial_answer": "He wanted to learn something new"
+        "adversarial_answer": "He wanted to learn something new",
+        "answer": "He wanted to learn something new"
       },
       {
         "question": "What did John prepare for the first time in the cooking class?",
@@ -40964,7 +41250,8 @@
           "D23:13"
         ],
         "category": 5,
-        "adversarial_answer": "Omelette"
+        "adversarial_answer": "Omelette",
+        "answer": "Omelette"
       },
       {
         "question": "What is the name of the board game James tried in September 2022?",
@@ -40972,7 +41259,8 @@
           "D24:3"
         ],
         "category": 5,
-        "adversarial_answer": "Dungeons of the Dragon"
+        "adversarial_answer": "Dungeons of the Dragon",
+        "answer": "Dungeons of the Dragon"
       },
       {
         "question": "Where does John get his ideas from?",
@@ -40980,7 +41268,8 @@
           "D24:4"
         ],
         "category": 5,
-        "adversarial_answer": "books, movies, dreams"
+        "adversarial_answer": "books, movies, dreams",
+        "answer": "books, movies, dreams"
       },
       {
         "question": "[V2_REPLACEMENT] Mention two types of vegetables being chopped in the kitchen scene.",
@@ -40998,7 +41287,8 @@
           "D25:13"
         ],
         "category": 5,
-        "adversarial_answer": "watch tutorials and keep up with developer forums"
+        "adversarial_answer": "watch tutorials and keep up with developer forums",
+        "answer": "watch tutorials and keep up with developer forums"
       },
       {
         "question": "What kind of gig was James offered at the game dev non-profit organization?",
@@ -41006,7 +41296,8 @@
           "D26:3"
         ],
         "category": 5,
-        "adversarial_answer": "programming mentor for game developers"
+        "adversarial_answer": "programming mentor for game developers",
+        "answer": "programming mentor for game developers"
       },
       {
         "question": "What does James feel about starting the journey as a programming mentor for game developers?",
@@ -41014,7 +41305,8 @@
           "D26:5"
         ],
         "category": 5,
-        "adversarial_answer": "excited and inspired"
+        "adversarial_answer": "excited and inspired",
+        "answer": "excited and inspired"
       },
       {
         "question": "What inspired James to create his painting?",
@@ -41022,7 +41314,8 @@
           "D27:6"
         ],
         "category": 5,
-        "adversarial_answer": "Witcher 3"
+        "adversarial_answer": "Witcher 3",
+        "answer": "Witcher 3"
       },
       {
         "question": "What games were played at the gaming tournament organized by James on 31 October, 2022?",
@@ -41031,7 +41324,8 @@
           "D29:3"
         ],
         "category": 5,
-        "adversarial_answer": "Fortnite, Overwatch, Apex Legends"
+        "adversarial_answer": "Fortnite, Overwatch, Apex Legends",
+        "answer": "Fortnite, Overwatch, Apex Legends"
       },
       {
         "question": "What was the purpose of the gaming tournament organized by James on 31 October, 2022?",
@@ -41040,7 +41334,8 @@
           "D29:3"
         ],
         "category": 5,
-        "adversarial_answer": "To raise money for a children's hospital"
+        "adversarial_answer": "To raise money for a children's hospital",
+        "answer": "To raise money for a children's hospital"
       },
       {
         "question": "What decision did John and Samantha make on 31 October, 2022?",
@@ -41049,7 +41344,8 @@
           "D29:10"
         ],
         "category": 5,
-        "adversarial_answer": "To move in together"
+        "adversarial_answer": "To move in together",
+        "answer": "To move in together"
       },
       {
         "question": "Where did John and Samantha decide to live together on 31 October, 2022?",
@@ -41057,7 +41353,8 @@
           "D29:10"
         ],
         "category": 5,
-        "adversarial_answer": "In an apartment not far from McGee's bar"
+        "adversarial_answer": "In an apartment not far from McGee's bar",
+        "answer": "In an apartment not far from McGee's bar"
       },
       {
         "question": "Why did John and Samantha choose an apartment near McGee's bar?",
@@ -41065,7 +41362,8 @@
           "D29:12"
         ],
         "category": 5,
-        "adversarial_answer": "They love spending time together at the bar"
+        "adversarial_answer": "They love spending time together at the bar",
+        "answer": "They love spending time together at the bar"
       },
       {
         "question": "What game is James hooked on playing on 5 November, 2022?",
@@ -41073,7 +41371,8 @@
           "D30:14"
         ],
         "category": 5,
-        "adversarial_answer": "FIFA 23"
+        "adversarial_answer": "FIFA 23",
+        "answer": "FIFA 23"
       },
       {
         "question": "What project did James work on with a game developer by 7 November, 2022?",
@@ -41081,7 +41380,8 @@
           "D31:4"
         ],
         "category": 5,
-        "adversarial_answer": "An online board game"
+        "adversarial_answer": "An online board game",
+        "answer": "An online board game"
       },
       {
         "question": "What is the name of James's cousin's dog?",
@@ -41089,7 +41389,8 @@
           "D31:22"
         ],
         "category": 5,
-        "adversarial_answer": "Luna"
+        "adversarial_answer": "Luna",
+        "answer": "Luna"
       }
     ],
     "conversation": {
@@ -48397,7 +48698,8 @@
           "D2:22"
         ],
         "category": 5,
-        "adversarial_answer": "Susie, Seraphim"
+        "adversarial_answer": "Susie, Seraphim",
+        "answer": "Susie, Seraphim"
       },
       {
         "question": "What are Deborah's favorite books?",
@@ -48406,7 +48708,8 @@
           "D4:23"
         ],
         "category": 5,
-        "adversarial_answer": "Sapiens, Avalanche by Neal Stephenson"
+        "adversarial_answer": "Sapiens, Avalanche by Neal Stephenson",
+        "answer": "Sapiens, Avalanche by Neal Stephenson"
       },
       {
         "question": "Where did Deborah get her dogs?",
@@ -48415,7 +48718,8 @@
           "D22:25"
         ],
         "category": 5,
-        "adversarial_answer": "Luna is from the shelter and Max is her mother's cat"
+        "adversarial_answer": "Luna is from the shelter and Max is her mother's cat",
+        "answer": "Luna is from the shelter and Max is her mother's cat"
       },
       {
         "question": "How old are Jolene's cats?",
@@ -48424,7 +48728,8 @@
           "D22:29"
         ],
         "category": 5,
-        "adversarial_answer": "Max is 8 years old and Luna is 5 years old"
+        "adversarial_answer": "Max is 8 years old and Luna is 5 years old",
+        "answer": "Max is 8 years old and Luna is 5 years old"
       },
       {
         "question": "When did Deborah's parents give her first console?",
@@ -48432,7 +48737,8 @@
           "D24:6"
         ],
         "category": 5,
-        "adversarial_answer": "when she was 10"
+        "adversarial_answer": "when she was 10",
+        "answer": "when she was 10"
       },
       {
         "question": "When did Jolene release her pet snake?",
@@ -48440,7 +48746,8 @@
           "D2:24"
         ],
         "category": 5,
-        "adversarial_answer": "A year ago"
+        "adversarial_answer": "A year ago",
+        "answer": "A year ago"
       },
       {
         "question": "Where did Jolene meet her new friend Anna?",
@@ -48448,7 +48755,8 @@
           "D3:6"
         ],
         "category": 5,
-        "adversarial_answer": "yoga in the park"
+        "adversarial_answer": "yoga in the park",
+        "answer": "yoga in the park"
       },
       {
         "question": "What is Deborah's favorite book which she mentioned on 4 February, 2023?",
@@ -48456,7 +48764,8 @@
           "D4:21"
         ],
         "category": 5,
-        "adversarial_answer": "\"Sapiens\""
+        "adversarial_answer": "\"Sapiens\"",
+        "answer": "\"Sapiens\""
       },
       {
         "question": "What cool stuff did Deborah accomplish at the retreat on 9 February, 2023?",
@@ -48464,7 +48773,8 @@
           "D5:5"
         ],
         "category": 5,
-        "adversarial_answer": "Came up with neat solutions for her engineering project"
+        "adversarial_answer": "Came up with neat solutions for her engineering project",
+        "answer": "Came up with neat solutions for her engineering project"
       },
       {
         "question": "How does Deborah plan to involve local engineers in her idea of teaching STEM to underprivileged kids?",
@@ -48472,7 +48782,8 @@
           "D5:9"
         ],
         "category": 5,
-        "adversarial_answer": "As guest speakers for workshops"
+        "adversarial_answer": "As guest speakers for workshops",
+        "answer": "As guest speakers for workshops"
       },
       {
         "question": "What gave Deborah anxiety in the garden she visited?",
@@ -48480,7 +48791,8 @@
           "D6:4"
         ],
         "category": 5,
-        "adversarial_answer": "Roses and dahlias"
+        "adversarial_answer": "Roses and dahlias",
+        "answer": "Roses and dahlias"
       },
       {
         "question": "Why did Jolene spend time in the garden?",
@@ -48488,7 +48800,8 @@
           "D6:4"
         ],
         "category": 5,
-        "adversarial_answer": "to find comfort after losing a friend"
+        "adversarial_answer": "to find comfort after losing a friend",
+        "answer": "to find comfort after losing a friend"
       },
       {
         "question": "How did Jolene and her rival initially meet?",
@@ -48496,7 +48809,8 @@
           "D7:9"
         ],
         "category": 5,
-        "adversarial_answer": "In an engineering class in college"
+        "adversarial_answer": "In an engineering class in college",
+        "answer": "In an engineering class in college"
       },
       {
         "question": "What activity does Jolene incorporate into her daily routine after going for a morning jog in the park?",
@@ -48504,7 +48818,8 @@
           "D7:18"
         ],
         "category": 5,
-        "adversarial_answer": "spending time with loved ones"
+        "adversarial_answer": "spending time with loved ones",
+        "answer": "spending time with loved ones"
       },
       {
         "question": "What method does Jolene suggest Deborah to try for organizing tasks based on importance and urgency?",
@@ -48512,7 +48827,8 @@
           "D10:13"
         ],
         "category": 5,
-        "adversarial_answer": "The Eisenhower Matrix"
+        "adversarial_answer": "The Eisenhower Matrix",
+        "answer": "The Eisenhower Matrix"
       },
       {
         "question": "How does Jolene plan to pursue her dream of climbing mountains?",
@@ -48520,7 +48836,8 @@
           "D10:20"
         ],
         "category": 5,
-        "adversarial_answer": "gathering information, watching videos, getting a beginners' guide"
+        "adversarial_answer": "gathering information, watching videos, getting a beginners' guide",
+        "answer": "gathering information, watching videos, getting a beginners' guide"
       },
       {
         "question": "Who are the authors mentioned by Jolene that she enjoys reading during her yoga practice?",
@@ -48528,7 +48845,8 @@
           "D11:9"
         ],
         "category": 5,
-        "adversarial_answer": "Nils Frahm and Olafur Arnalds"
+        "adversarial_answer": "Nils Frahm and Olafur Arnalds",
+        "answer": "Nils Frahm and Olafur Arnalds"
       },
       {
         "question": "Which show did Jolene go to with a friend on 9 April, 2023?",
@@ -48536,7 +48854,8 @@
           "D12:1"
         ],
         "category": 5,
-        "adversarial_answer": "an art show"
+        "adversarial_answer": "an art show",
+        "answer": "an art show"
       },
       {
         "question": "What does Deborah find comforting about going to horror movie screenings?",
@@ -48544,7 +48863,8 @@
           "D12:3"
         ],
         "category": 5,
-        "adversarial_answer": "It makes her feel like she's still experiencing it with her mom"
+        "adversarial_answer": "It makes her feel like she's still experiencing it with her mom",
+        "answer": "It makes her feel like she's still experiencing it with her mom"
       },
       {
         "question": "How does Deborah describe the time spent with her snakes and partner?",
@@ -48552,7 +48872,8 @@
           "D12:6"
         ],
         "category": 5,
-        "adversarial_answer": "Valuable and relaxing"
+        "adversarial_answer": "Valuable and relaxing",
+        "answer": "Valuable and relaxing"
       },
       {
         "question": "For how long has Jolene had Lucifer as a pet?",
@@ -48560,7 +48881,8 @@
           "D14:6"
         ],
         "category": 5,
-        "adversarial_answer": "one year"
+        "adversarial_answer": "one year",
+        "answer": "one year"
       },
       {
         "question": "How does Deborah feel when spending time with Seraphim?",
@@ -48568,7 +48890,8 @@
           "D14:6"
         ],
         "category": 5,
-        "adversarial_answer": "comforted"
+        "adversarial_answer": "comforted",
+        "answer": "comforted"
       },
       {
         "question": "What made being part of the running group easy for Jolene to stay motivated?",
@@ -48576,7 +48899,8 @@
           "D15:3"
         ],
         "category": 5,
-        "adversarial_answer": "helping and pushing each other during runs"
+        "adversarial_answer": "helping and pushing each other during runs",
+        "answer": "helping and pushing each other during runs"
       },
       {
         "question": "Why did Jolene decide to get a tarantula as a pet?",
@@ -48584,7 +48908,8 @@
           "D15:18"
         ],
         "category": 5,
-        "adversarial_answer": "fascinated by reptiles and it felt like the perfect pet"
+        "adversarial_answer": "fascinated by reptiles and it felt like the perfect pet",
+        "answer": "fascinated by reptiles and it felt like the perfect pet"
       },
       {
         "question": "How did Deborah come to have her pet, Susie?",
@@ -48592,7 +48917,8 @@
           "D16:6"
         ],
         "category": 5,
-        "adversarial_answer": "She adopted her two years ago when feeling lonely."
+        "adversarial_answer": "She adopted her two years ago when feeling lonely.",
+        "answer": "She adopted her two years ago when feeling lonely."
       },
       {
         "question": "What did Deborah design inspired by their love for space and engines?",
@@ -48600,7 +48926,8 @@
           "D17:6"
         ],
         "category": 5,
-        "adversarial_answer": "Notebooks"
+        "adversarial_answer": "Notebooks",
+        "answer": "Notebooks"
       },
       {
         "question": "What journal has Deborah been using to help track tasks and stay organized?",
@@ -48608,7 +48935,8 @@
           "D18:3"
         ],
         "category": 5,
-        "adversarial_answer": "bullet journal"
+        "adversarial_answer": "bullet journal",
+        "answer": "bullet journal"
       },
       {
         "question": "What game did Jolene recommend to Deborah for being thrilling and intense?",
@@ -48616,7 +48944,8 @@
           "D19:8"
         ],
         "category": 5,
-        "adversarial_answer": "Animal Crossing: New Horizons"
+        "adversarial_answer": "Animal Crossing: New Horizons",
+        "answer": "Animal Crossing: New Horizons"
       },
       {
         "question": "What game did Deborah suggest as an awesome open-world game for the Nintendo Switch?",
@@ -48624,7 +48953,8 @@
           "D19:8"
         ],
         "category": 5,
-        "adversarial_answer": "Zelda BOTW"
+        "adversarial_answer": "Zelda BOTW",
+        "answer": "Zelda BOTW"
       },
       {
         "question": "What is special about the bench at the park near Jolene's house?",
@@ -48632,7 +48962,8 @@
           "D19:18"
         ],
         "category": 5,
-        "adversarial_answer": "It holds special memories of conversations with her mom"
+        "adversarial_answer": "It holds special memories of conversations with her mom",
+        "answer": "It holds special memories of conversations with her mom"
       },
       {
         "question": "What did Jolene and her mom chat about at their special bench in the park?",
@@ -48640,7 +48971,8 @@
           "D19:19"
         ],
         "category": 5,
-        "adversarial_answer": "dreams and life"
+        "adversarial_answer": "dreams and life",
+        "answer": "dreams and life"
       },
       {
         "question": "How did Deborah feel after receiving positive feedback at the virtual conference?",
@@ -48648,7 +48980,8 @@
           "D21:8"
         ],
         "category": 5,
-        "adversarial_answer": "thrilled and rewarded"
+        "adversarial_answer": "thrilled and rewarded",
+        "answer": "thrilled and rewarded"
       },
       {
         "question": "What kind of event did Deborah present at recently?",
@@ -48656,7 +48989,8 @@
           "D21:6"
         ],
         "category": 5,
-        "adversarial_answer": "virtual conference"
+        "adversarial_answer": "virtual conference",
+        "answer": "virtual conference"
       },
       {
         "question": "What did Deborah's mom stress the value of, which she wants to keep in mind for her engineering projects?",
@@ -48664,7 +48998,8 @@
           "D22:6"
         ],
         "category": 5,
-        "adversarial_answer": "Helping others"
+        "adversarial_answer": "Helping others",
+        "answer": "Helping others"
       },
       {
         "question": "What type of projects is Deborah interested in getting involved in the future?",
@@ -48672,7 +49007,8 @@
           "D22:8"
         ],
         "category": 5,
-        "adversarial_answer": "Sustainable initiatives and developing innovative solutions for environmental issues"
+        "adversarial_answer": "Sustainable initiatives and developing innovative solutions for environmental issues",
+        "answer": "Sustainable initiatives and developing innovative solutions for environmental issues"
       },
       {
         "question": "How did Jolene get Luna, one of her cats?",
@@ -48680,7 +49016,8 @@
           "D22:25"
         ],
         "category": 5,
-        "adversarial_answer": "From the shelter"
+        "adversarial_answer": "From the shelter",
+        "answer": "From the shelter"
       },
       {
         "question": "What type of classes did Deborah and her partner check out during their trip to Rio de Janeiro on 30 August, 2023?",
@@ -48688,7 +49025,8 @@
           "D23:1"
         ],
         "category": 5,
-        "adversarial_answer": "Yoga classes"
+        "adversarial_answer": "Yoga classes",
+        "answer": "Yoga classes"
       },
       {
         "question": "Why did Deborah get the new plant on 30 August, 2023?",
@@ -48696,7 +49034,8 @@
           "D23:29"
         ],
         "category": 5,
-        "adversarial_answer": "As a reminder to nurture herself and embrace fresh starts"
+        "adversarial_answer": "As a reminder to nurture herself and embrace fresh starts",
+        "answer": "As a reminder to nurture herself and embrace fresh starts"
       },
       {
         "question": "How did Jolene's mom support her yoga practice when she first started?",
@@ -48704,7 +49043,8 @@
           "D24:5"
         ],
         "category": 5,
-        "adversarial_answer": "attended classes with her"
+        "adversarial_answer": "attended classes with her",
+        "answer": "attended classes with her"
       },
       {
         "question": "What was the video game console that Deborah's parents got her at age 10?",
@@ -48712,7 +49052,8 @@
           "D24:6"
         ],
         "category": 5,
-        "adversarial_answer": "nintendo game console"
+        "adversarial_answer": "nintendo game console",
+        "answer": "nintendo game console"
       },
       {
         "question": "What was one of Deborah's favorite games to play with her mom on the PlayStation game system?",
@@ -48720,7 +49061,8 @@
           "D24:10"
         ],
         "category": 5,
-        "adversarial_answer": "Monster Hunter: World"
+        "adversarial_answer": "Monster Hunter: World",
+        "answer": "Monster Hunter: World"
       },
       {
         "question": "Where did Deborah and her partner travel for a few weeks in September 2023?",
@@ -48728,7 +49070,8 @@
           "D27:1"
         ],
         "category": 5,
-        "adversarial_answer": "Phuket"
+        "adversarial_answer": "Phuket",
+        "answer": "Phuket"
       },
       {
         "question": "What did Jolene do with their mom's old friends?",
@@ -48736,7 +49079,8 @@
           "D28:7"
         ],
         "category": 5,
-        "adversarial_answer": "reminisced and looked through photos"
+        "adversarial_answer": "reminisced and looked through photos",
+        "answer": "reminisced and looked through photos"
       },
       {
         "question": "Where did Jolene get married?",
@@ -48744,7 +49088,8 @@
           "D28:11"
         ],
         "category": 5,
-        "adversarial_answer": "on the beach"
+        "adversarial_answer": "on the beach",
+        "answer": "on the beach"
       },
       {
         "question": "What new activity did Jolene and her neighbor organize for the community on 16 September, 2023?",
@@ -48752,7 +49097,8 @@
           "D29:1"
         ],
         "category": 5,
-        "adversarial_answer": "Free gardening class"
+        "adversarial_answer": "Free gardening class",
+        "answer": "Free gardening class"
       },
       {
         "question": "What food did Jolene's mom make for her on holidays?",
@@ -48760,7 +49106,8 @@
           "D29:9"
         ],
         "category": 5,
-        "adversarial_answer": "Pineapple cakes"
+        "adversarial_answer": "Pineapple cakes",
+        "answer": "Pineapple cakes"
       },
       {
         "question": "What kind of cookies did Deborah used to bake with someone close to her?",
@@ -48768,7 +49115,8 @@
           "D29:12"
         ],
         "category": 5,
-        "adversarial_answer": "Chocolate chip cookies"
+        "adversarial_answer": "Chocolate chip cookies",
+        "answer": "Chocolate chip cookies"
       },
       {
         "question": "What activity did Jolene enjoy at the music festival with their pals on September 20, 2023?",
@@ -48776,7 +49124,8 @@
           "D30:1"
         ],
         "category": 5,
-        "adversarial_answer": "Dancing and bopping around"
+        "adversarial_answer": "Dancing and bopping around",
+        "answer": "Dancing and bopping around"
       }
     ],
     "conversation": {
@@ -56041,7 +56390,8 @@
           "D1:2"
         ],
         "category": 5,
-        "adversarial_answer": "new Prius"
+        "adversarial_answer": "new Prius",
+        "answer": "new Prius"
       },
       {
         "question": "How did Sam get into watercolor painting?",
@@ -56049,7 +56399,8 @@
           "D1:16"
         ],
         "category": 5,
-        "adversarial_answer": "friend's advice"
+        "adversarial_answer": "friend's advice",
+        "answer": "friend's advice"
       },
       {
         "question": "What did Sam start doing a few years back as a stress-buster?",
@@ -56057,7 +56408,8 @@
           "D1:14"
         ],
         "category": 5,
-        "adversarial_answer": "watercolor painting"
+        "adversarial_answer": "watercolor painting",
+        "answer": "watercolor painting"
       },
       {
         "question": "Where did Sam take his family for a road trip on 24 May, 2023?",
@@ -56065,7 +56417,8 @@
           "D2:1"
         ],
         "category": 5,
-        "adversarial_answer": "Jasper"
+        "adversarial_answer": "Jasper",
+        "answer": "Jasper"
       },
       {
         "question": "What did Sam find relaxing about his road trip to Jasper?",
@@ -56073,7 +56426,8 @@
           "D2:3"
         ],
         "category": 5,
-        "adversarial_answer": "fresh air, peacefulness, cozy cabin surrounded by mountains and forests"
+        "adversarial_answer": "fresh air, peacefulness, cozy cabin surrounded by mountains and forests",
+        "answer": "fresh air, peacefulness, cozy cabin surrounded by mountains and forests"
       },
       {
         "question": "What habit is Evan trying to change in terms of diet?",
@@ -56081,7 +56435,8 @@
           "D3:4"
         ],
         "category": 5,
-        "adversarial_answer": "consuming soda and candy"
+        "adversarial_answer": "consuming soda and candy",
+        "answer": "consuming soda and candy"
       },
       {
         "question": "What frustrating issue did Evan face at the supermarket?",
@@ -56089,7 +56444,8 @@
           "D3:16"
         ],
         "category": 5,
-        "adversarial_answer": "broken self-checkout machines"
+        "adversarial_answer": "broken self-checkout machines",
+        "answer": "broken self-checkout machines"
       },
       {
         "question": "What novel is Sam reading that he finds gripping?",
@@ -56097,7 +56453,8 @@
           "D4:10"
         ],
         "category": 5,
-        "adversarial_answer": "The Great Gatsby"
+        "adversarial_answer": "The Great Gatsby",
+        "answer": "The Great Gatsby"
       },
       {
         "question": "What does the smartwatch help Sam with?",
@@ -56105,7 +56462,8 @@
           "D5:9"
         ],
         "category": 5,
-        "adversarial_answer": "tracks progress and serves as a constant reminder to keep going"
+        "adversarial_answer": "tracks progress and serves as a constant reminder to keep going",
+        "answer": "tracks progress and serves as a constant reminder to keep going"
       },
       {
         "question": "Why did Sam decide to get the bonsai tree?",
@@ -56113,7 +56471,8 @@
           "D5:17"
         ],
         "category": 5,
-        "adversarial_answer": "motivates him to keep going through tough times"
+        "adversarial_answer": "motivates him to keep going through tough times",
+        "answer": "motivates him to keep going through tough times"
       },
       {
         "question": "What did Sam mention he had been searching for fruitlessly for half an hour?",
@@ -56121,7 +56480,8 @@
           "D6:13"
         ],
         "category": 5,
-        "adversarial_answer": "his keys"
+        "adversarial_answer": "his keys",
+        "answer": "his keys"
       },
       {
         "question": "What class is Evan taking to learn how to make healthier meals?",
@@ -56129,7 +56489,8 @@
           "D7:2"
         ],
         "category": 5,
-        "adversarial_answer": "cooking class"
+        "adversarial_answer": "cooking class",
+        "answer": "cooking class"
       },
       {
         "question": "What dish did Sam make on 18 August, 2023 that turned out bland?",
@@ -56137,7 +56498,8 @@
           "D7:4"
         ],
         "category": 5,
-        "adversarial_answer": "grilled dish with salmon and vegetables"
+        "adversarial_answer": "grilled dish with salmon and vegetables",
+        "answer": "grilled dish with salmon and vegetables"
       },
       {
         "question": "What food did Evan share a photo of on 19 August, 2023?",
@@ -56145,7 +56507,8 @@
           "D8:1"
         ],
         "category": 5,
-        "adversarial_answer": "bowl of spinach, avocado, and strawberries"
+        "adversarial_answer": "bowl of spinach, avocado, and strawberries",
+        "answer": "bowl of spinach, avocado, and strawberries"
       },
       {
         "question": "What did Evan start sculpting years ago due to being inspired by a friend's gift?",
@@ -56153,7 +56516,8 @@
           "D8:14"
         ],
         "category": 5,
-        "adversarial_answer": "forest scene"
+        "adversarial_answer": "forest scene",
+        "answer": "forest scene"
       },
       {
         "question": "What nature concept do watercolor painting classes emphasize according to Sam?",
@@ -56161,7 +56525,8 @@
           "D8:18"
         ],
         "category": 5,
-        "adversarial_answer": "observing nature and painting what is seen"
+        "adversarial_answer": "observing nature and painting what is seen",
+        "answer": "observing nature and painting what is seen"
       },
       {
         "question": "What type of landscapes does Sam love painting the most?",
@@ -56169,7 +56534,8 @@
           "D8:20"
         ],
         "category": 5,
-        "adversarial_answer": "sunsets over the ocean"
+        "adversarial_answer": "sunsets over the ocean",
+        "answer": "sunsets over the ocean"
       },
       {
         "question": "What sports activity has Sam been doing to stay active while dealing with the knee injury?",
@@ -56177,7 +56543,8 @@
           "D9:6"
         ],
         "category": 5,
-        "adversarial_answer": "Swimming"
+        "adversarial_answer": "Swimming",
+        "answer": "Swimming"
       },
       {
         "question": "What activity does Sam do to keep himself busy while healing his knee?",
@@ -56185,7 +56552,8 @@
           "D11:6"
         ],
         "category": 5,
-        "adversarial_answer": "Watercolor painting"
+        "adversarial_answer": "Watercolor painting",
+        "answer": "Watercolor painting"
       },
       {
         "question": "What kind of writing does Evan enjoy as a form of expression?",
@@ -56193,7 +56561,8 @@
           "D11:17"
         ],
         "category": 5,
-        "adversarial_answer": "creative writing"
+        "adversarial_answer": "creative writing",
+        "answer": "creative writing"
       },
       {
         "question": "What electronics issue has been frustrating Evan lately?",
@@ -56201,7 +56570,8 @@
           "D11:15"
         ],
         "category": 5,
-        "adversarial_answer": "malfunctioning navigation app on the new phone"
+        "adversarial_answer": "malfunctioning navigation app on the new phone",
+        "answer": "malfunctioning navigation app on the new phone"
       },
       {
         "question": "What activity did Evan quit one year ago?",
@@ -56209,7 +56579,8 @@
           "D12:2"
         ],
         "category": 5,
-        "adversarial_answer": "lifting weights"
+        "adversarial_answer": "lifting weights",
+        "answer": "lifting weights"
       },
       {
         "question": "Where did Sam and his mate plan to try skydiving?",
@@ -56217,7 +56588,8 @@
           "D13:14"
         ],
         "category": 5,
-        "adversarial_answer": "Lake Tahoe"
+        "adversarial_answer": "Lake Tahoe",
+        "answer": "Lake Tahoe"
       },
       {
         "question": "What digestive issue did Evan experience lately?",
@@ -56225,7 +56597,8 @@
           "D14:1"
         ],
         "category": 5,
-        "adversarial_answer": "Gastritis"
+        "adversarial_answer": "Gastritis",
+        "answer": "Gastritis"
       },
       {
         "question": "How did Sam start his transformation journey two years ago?",
@@ -56233,7 +56606,8 @@
           "D15:8"
         ],
         "category": 5,
-        "adversarial_answer": "Changed his diet and started walking regularly"
+        "adversarial_answer": "Changed his diet and started walking regularly",
+        "answer": "Changed his diet and started walking regularly"
       },
       {
         "question": "What gift did Sam receive from a close friend?",
@@ -56241,7 +56615,8 @@
           "D16:10"
         ],
         "category": 5,
-        "adversarial_answer": "1968 Kustom K-200A vintage guitar"
+        "adversarial_answer": "1968 Kustom K-200A vintage guitar",
+        "answer": "1968 Kustom K-200A vintage guitar"
       },
       {
         "question": "How does Sam describe the island he grew up on?",
@@ -56249,7 +56624,8 @@
           "D17:18"
         ],
         "category": 5,
-        "adversarial_answer": "A happy place"
+        "adversarial_answer": "A happy place",
+        "answer": "A happy place"
       },
       {
         "question": "What was the main reason for Evan's frustration with his new Prius getting stolen?",
@@ -56257,7 +56633,8 @@
           "D18:1"
         ],
         "category": 5,
-        "adversarial_answer": "He relied on it for his active lifestyle and road trips"
+        "adversarial_answer": "He relied on it for his active lifestyle and road trips",
+        "answer": "He relied on it for his active lifestyle and road trips"
       },
       {
         "question": "What family event is Sam planning for next summer?",
@@ -56265,7 +56642,8 @@
           "D19:11"
         ],
         "category": 5,
-        "adversarial_answer": "big family reunion"
+        "adversarial_answer": "big family reunion",
+        "answer": "big family reunion"
       },
       {
         "question": "What is the motto of Sam's family?",
@@ -56273,7 +56651,8 @@
           "D19:7"
         ],
         "category": 5,
-        "adversarial_answer": "'Bring it on Home'"
+        "adversarial_answer": "'Bring it on Home'",
+        "answer": "'Bring it on Home'"
       },
       {
         "question": "Who helped Sam get the painting published in the exhibition?",
@@ -56281,7 +56660,8 @@
           "D20:17"
         ],
         "category": 5,
-        "adversarial_answer": "a close friend"
+        "adversarial_answer": "a close friend",
+        "answer": "a close friend"
       },
       {
         "question": "How did Sam feel when he painted the piece with the bird flying over it?",
@@ -56289,7 +56669,8 @@
           "D21:16"
         ],
         "category": 5,
-        "adversarial_answer": "a sense of joy and freedom"
+        "adversarial_answer": "a sense of joy and freedom",
+        "answer": "a sense of joy and freedom"
       },
       {
         "question": "How did Sam describe the process of creating the painting with the bird flying over it?",
@@ -56297,7 +56678,8 @@
           "D21:16"
         ],
         "category": 5,
-        "adversarial_answer": "embracing the creative process without restraint"
+        "adversarial_answer": "embracing the creative process without restraint",
+        "answer": "embracing the creative process without restraint"
       },
       {
         "question": "What did Evan and his partner keep from their extended family on January 5, 2024?",
@@ -56305,7 +56687,8 @@
           "D23:1"
         ],
         "category": 5,
-        "adversarial_answer": "their marriage"
+        "adversarial_answer": "their marriage",
+        "answer": "their marriage"
       },
       {
         "question": "What was Sam limiting himself to on his new diet?",
@@ -56313,7 +56696,8 @@
           "D23:15"
         ],
         "category": 5,
-        "adversarial_answer": "just two ginger snaps a day"
+        "adversarial_answer": "just two ginger snaps a day",
+        "answer": "just two ginger snaps a day"
       },
       {
         "question": "What dance activity did Evan and his partner try in a recent weekend?",
@@ -56321,7 +56705,8 @@
           "D24:9"
         ],
         "category": 5,
-        "adversarial_answer": "Snowshoeing"
+        "adversarial_answer": "Snowshoeing",
+        "answer": "Snowshoeing"
       },
       {
         "question": "What suggestions did Evan give for high-impact exercises?",
@@ -56329,7 +56714,8 @@
           "D24:17"
         ],
         "category": 5,
-        "adversarial_answer": "swimming, yoga, walking"
+        "adversarial_answer": "swimming, yoga, walking",
+        "answer": "swimming, yoga, walking"
       },
       {
         "question": "What movie did Evan watch that motivated him to keep up with his routine?",
@@ -56337,7 +56723,8 @@
           "D24:18"
         ],
         "category": 5,
-        "adversarial_answer": "The Godfather"
+        "adversarial_answer": "The Godfather",
+        "answer": "The Godfather"
       },
       {
         "question": "What activity hindered Evan's stress and flexibility?",
@@ -56345,7 +56732,8 @@
           "D24:19"
         ],
         "category": 5,
-        "adversarial_answer": "Yoga"
+        "adversarial_answer": "Yoga",
+        "answer": "Yoga"
       },
       {
         "question": "What did Sam share a photo of that was taken on a camping trip?",
@@ -56353,7 +56741,8 @@
           "D25:8"
         ],
         "category": 5,
-        "adversarial_answer": "a kayak"
+        "adversarial_answer": "a kayak",
+        "answer": "a kayak"
       }
     ],
     "conversation": {
@@ -62233,7 +62622,8 @@
           "D2:10"
         ],
         "category": 5,
-        "adversarial_answer": "Aerosmith"
+        "adversarial_answer": "Aerosmith",
+        "answer": "Aerosmith"
       },
       {
         "question": "What advice did Calvin receive from the chef at the music festival?",
@@ -62241,7 +62631,8 @@
           "D3:7"
         ],
         "category": 5,
-        "adversarial_answer": "to stay true to himself and sound unique"
+        "adversarial_answer": "to stay true to himself and sound unique",
+        "answer": "to stay true to himself and sound unique"
       },
       {
         "question": "What is Calvin's new business venture as of 1 May, 2023?",
@@ -62249,7 +62640,8 @@
           "D4:1"
         ],
         "category": 5,
-        "adversarial_answer": "Car maintenance shop"
+        "adversarial_answer": "Car maintenance shop",
+        "answer": "Car maintenance shop"
       },
       {
         "question": "What type of cars does Calvin work on at his shop?",
@@ -62257,7 +62649,8 @@
           "D4:19"
         ],
         "category": 5,
-        "adversarial_answer": "all kinds of cars, from regular maintenance to full restorations of classic cars"
+        "adversarial_answer": "all kinds of cars, from regular maintenance to full restorations of classic cars",
+        "answer": "all kinds of cars, from regular maintenance to full restorations of classic cars"
       },
       {
         "question": "What did Dave receive as a gift from another artist?",
@@ -62265,7 +62658,8 @@
           "D4:26"
         ],
         "category": 5,
-        "adversarial_answer": "a gold necklace with a diamond pendant"
+        "adversarial_answer": "a gold necklace with a diamond pendant",
+        "answer": "a gold necklace with a diamond pendant"
       },
       {
         "question": "What was the necklace Dave received meant to remind him of?",
@@ -62273,7 +62667,8 @@
           "D4:26"
         ],
         "category": 5,
-        "adversarial_answer": "why he keeps hustling as a musician"
+        "adversarial_answer": "why he keeps hustling as a musician",
+        "answer": "why he keeps hustling as a musician"
       },
       {
         "question": "What did Calvin open in May 2023?",
@@ -62281,7 +62676,8 @@
           "D6:8"
         ],
         "category": 5,
-        "adversarial_answer": "a car shop"
+        "adversarial_answer": "a car shop",
+        "answer": "a car shop"
       },
       {
         "question": "What gives Calvin a sense of achievement and purpose?",
@@ -62289,7 +62685,8 @@
           "D7:6"
         ],
         "category": 5,
-        "adversarial_answer": "Fixing up things"
+        "adversarial_answer": "Fixing up things",
+        "answer": "Fixing up things"
       },
       {
         "question": "What sports activity is Dave planning to try after the tour with Frank Ocean?",
@@ -62297,7 +62694,8 @@
           "D9:15"
         ],
         "category": 5,
-        "adversarial_answer": "Skiing"
+        "adversarial_answer": "Skiing",
+        "answer": "Skiing"
       },
       {
         "question": "How does Calvin describe his process of adding acoustic elements to his songs?",
@@ -62305,7 +62703,8 @@
           "D11:6"
         ],
         "category": 5,
-        "adversarial_answer": "gives them a fresh vibe"
+        "adversarial_answer": "gives them a fresh vibe",
+        "answer": "gives them a fresh vibe"
       },
       {
         "question": "What clothing brand does Calvin own that he is proud of?",
@@ -62313,7 +62712,8 @@
           "D12:7"
         ],
         "category": 5,
-        "adversarial_answer": "Ferrari"
+        "adversarial_answer": "Ferrari",
+        "answer": "Ferrari"
       },
       {
         "question": "[V2_REPLACEMENT] Name one specific book series title visible on the spines in the large bookcase.",
@@ -62331,7 +62731,8 @@
           "D13:7"
         ],
         "category": 5,
-        "adversarial_answer": "engine swaps, suspension modifications, and body modifications"
+        "adversarial_answer": "engine swaps, suspension modifications, and body modifications",
+        "answer": "engine swaps, suspension modifications, and body modifications"
       },
       {
         "question": "What type of car did Calvin work on during the workshop?",
@@ -62339,7 +62740,8 @@
           "D13:7"
         ],
         "category": 5,
-        "adversarial_answer": "classic muscle car"
+        "adversarial_answer": "classic muscle car",
+        "answer": "classic muscle car"
       },
       {
         "question": "What did Dave and his friends record in August 2023?",
@@ -62347,7 +62749,8 @@
           "D15:12"
         ],
         "category": 5,
-        "adversarial_answer": "a podcast discussing the rap industry"
+        "adversarial_answer": "a podcast discussing the rap industry",
+        "answer": "a podcast discussing the rap industry"
       },
       {
         "question": "Where did Dave start shooting a video for his new album?",
@@ -62355,7 +62758,8 @@
           "D16:8"
         ],
         "category": 5,
-        "adversarial_answer": "Miami"
+        "adversarial_answer": "Miami",
+        "answer": "Miami"
       },
       {
         "question": "What design is featured on Dave's guitar?",
@@ -62363,7 +62767,8 @@
           "D16:14"
         ],
         "category": 5,
-        "adversarial_answer": "octopus"
+        "adversarial_answer": "octopus",
+        "answer": "octopus"
       },
       {
         "question": "Why did Dave get his guitar customized with a shiny finish?",
@@ -62371,7 +62776,8 @@
           "D16:20"
         ],
         "category": 5,
-        "adversarial_answer": "unique look"
+        "adversarial_answer": "unique look",
+        "answer": "unique look"
       },
       {
         "question": "What color glow did Dave customize his guitar with?",
@@ -62379,7 +62785,8 @@
           "D16:20"
         ],
         "category": 5,
-        "adversarial_answer": "purple"
+        "adversarial_answer": "purple",
+        "answer": "purple"
       },
       {
         "question": "Where did Calvin come back from with insights on car modification on 1st September 2023?",
@@ -62387,7 +62794,8 @@
           "D17:1"
         ],
         "category": 5,
-        "adversarial_answer": "San Francisco"
+        "adversarial_answer": "San Francisco",
+        "answer": "San Francisco"
       },
       {
         "question": "What emotion does Calvin mention feeling when he sees the relief of someone whose car he fixed?",
@@ -62395,7 +62803,8 @@
           "D17:5"
         ],
         "category": 5,
-        "adversarial_answer": "Proud"
+        "adversarial_answer": "Proud",
+        "answer": "Proud"
       },
       {
         "question": "What did Dave book a flight ticket for on 1st September 2023?",
@@ -62403,7 +62812,8 @@
           "D17:6"
         ],
         "category": 5,
-        "adversarial_answer": "Boston"
+        "adversarial_answer": "Boston",
+        "answer": "Boston"
       },
       {
         "question": "Which horror movie did Dave mention as one of his favorites?",
@@ -62411,7 +62821,8 @@
           "D19:6"
         ],
         "category": 5,
-        "adversarial_answer": "Ratatouille"
+        "adversarial_answer": "Ratatouille",
+        "answer": "Ratatouille"
       },
       {
         "question": "Which song from the childhood of Dave brings back memories of a road trip with his dad?",
@@ -62420,7 +62831,8 @@
           "D20:8"
         ],
         "category": 5,
-        "adversarial_answer": "\"California Love\""
+        "adversarial_answer": "\"California Love\"",
+        "answer": "\"California Love\""
       },
       {
         "question": "What car did Calvin work on in the junkyard?",
@@ -62428,7 +62840,8 @@
           "D21:4"
         ],
         "category": 5,
-        "adversarial_answer": "Ford Mustang"
+        "adversarial_answer": "Ford Mustang",
+        "answer": "Ford Mustang"
       },
       {
         "question": "What does Dave find satisfying about destroying old cars?",
@@ -62436,7 +62849,8 @@
           "D21:10"
         ],
         "category": 5,
-        "adversarial_answer": "Transforming something old and beat-up into something beautiful"
+        "adversarial_answer": "Transforming something old and beat-up into something beautiful",
+        "answer": "Transforming something old and beat-up into something beautiful"
       },
       {
         "question": "What does working on boats represent for Dave?",
@@ -62444,7 +62858,8 @@
           "D22:5"
         ],
         "category": 5,
-        "adversarial_answer": "Therapy and a way to get away from everyday stress"
+        "adversarial_answer": "Therapy and a way to get away from everyday stress",
+        "answer": "Therapy and a way to get away from everyday stress"
       },
       {
         "question": "What does Dave aim to do with his passion for cooking?",
@@ -62452,7 +62867,8 @@
           "D22:5"
         ],
         "category": 5,
-        "adversarial_answer": "Take something broken and make it into something awesome"
+        "adversarial_answer": "Take something broken and make it into something awesome",
+        "answer": "Take something broken and make it into something awesome"
       },
       {
         "question": "What did Calvin recently get that is a \"masterpiece on canvas\"?",
@@ -62460,7 +62876,8 @@
           "D23:16"
         ],
         "category": 5,
-        "adversarial_answer": "Ferrari"
+        "adversarial_answer": "Ferrari",
+        "answer": "Ferrari"
       },
       {
         "question": "Who headlined the music festival that Calvin attended in October?",
@@ -62468,7 +62885,8 @@
           "D23:9"
         ],
         "category": 5,
-        "adversarial_answer": "The Fireworks"
+        "adversarial_answer": "The Fireworks",
+        "answer": "The Fireworks"
       },
       {
         "question": "Which part of Tokyo is described as Tokyo's Times Square by Dave?",
@@ -62476,7 +62894,8 @@
           "D24:19"
         ],
         "category": 5,
-        "adversarial_answer": "Shibuya Crossing"
+        "adversarial_answer": "Shibuya Crossing",
+        "answer": "Shibuya Crossing"
       },
       {
         "question": "What specific location in Tokyo does Calvin mention being excited to avoid?",
@@ -62484,7 +62903,8 @@
           "D24:19"
         ],
         "category": 5,
-        "adversarial_answer": "Shinjuku"
+        "adversarial_answer": "Shinjuku",
+        "answer": "Shinjuku"
       },
       {
         "question": "When did Calvin sell the car he restored last year?",
@@ -62492,7 +62912,8 @@
           "D25:17"
         ],
         "category": 5,
-        "adversarial_answer": "Last year"
+        "adversarial_answer": "Last year",
+        "answer": "Last year"
       },
       {
         "question": "When did Calvin first get interested in motorcycles?",
@@ -62500,7 +62921,8 @@
           "D26:6"
         ],
         "category": 5,
-        "adversarial_answer": "at an early age"
+        "adversarial_answer": "at an early age",
+        "answer": "at an early age"
       },
       {
         "question": "What realization did the nightclub experience bring to Dave?",
@@ -62508,7 +62930,8 @@
           "D26:9"
         ],
         "category": 5,
-        "adversarial_answer": "how much music means to him, it's like his passion and purpose"
+        "adversarial_answer": "how much music means to him, it's like his passion and purpose",
+        "answer": "how much music means to him, it's like his passion and purpose"
       },
       {
         "question": "What did Dave do recently at his Japanese house?",
@@ -62516,7 +62939,8 @@
           "D28:1"
         ],
         "category": 5,
-        "adversarial_answer": "Threw a small party for his new album"
+        "adversarial_answer": "Threw a small party for his new album",
+        "answer": "Threw a small party for his new album"
       },
       {
         "question": "What did Calvin recently start a blog about?",
@@ -62524,7 +62948,8 @@
           "D28:8"
         ],
         "category": 5,
-        "adversarial_answer": "Car mods"
+        "adversarial_answer": "Car mods",
+        "answer": "Car mods"
       },
       {
         "question": "What type of videos does Dave usually watch on his television?",
@@ -62532,7 +62957,8 @@
           "D28:31"
         ],
         "category": 5,
-        "adversarial_answer": "Music videos, concerts, documentaries about artists and their creative process"
+        "adversarial_answer": "Music videos, concerts, documentaries about artists and their creative process",
+        "answer": "Music videos, concerts, documentaries about artists and their creative process"
       },
       {
         "question": "What type of art has Dave been getting into lately?",
@@ -62540,7 +62966,8 @@
           "D28:40"
         ],
         "category": 5,
-        "adversarial_answer": "Classic rock"
+        "adversarial_answer": "Classic rock",
+        "answer": "Classic rock"
       },
       {
         "question": "What type of content does Dave post on his blog that inspired others to start their own cooking projects?",
@@ -62548,7 +62975,8 @@
           "D28:10"
         ],
         "category": 5,
-        "adversarial_answer": "How he made his car look like a beast"
+        "adversarial_answer": "How he made his car look like a beast",
+        "answer": "How he made his car look like a beast"
       },
       {
         "question": "What kind of impact does Dave's blog on vegan recipes have on people?",
@@ -62556,7 +62984,8 @@
           "D28:10"
         ],
         "category": 5,
-        "adversarial_answer": "It inspires others to start their DIY projects"
+        "adversarial_answer": "It inspires others to start their DIY projects",
+        "answer": "It inspires others to start their DIY projects"
       },
       {
         "question": "Who did Dave invite to see him perform in Boston on 13 November, 2023?",
@@ -62564,7 +62993,8 @@
           "D29:1"
         ],
         "category": 5,
-        "adversarial_answer": "his old high school buddy"
+        "adversarial_answer": "his old high school buddy",
+        "answer": "his old high school buddy"
       },
       {
         "question": "What new item did Calvin buy recently?",
@@ -62572,7 +63002,8 @@
           "D30:5"
         ],
         "category": 5,
-        "adversarial_answer": "A vintage camera"
+        "adversarial_answer": "A vintage camera",
+        "answer": "A vintage camera"
       },
       {
         "question": "What type of photos does Calvin like to capture with his new camera?",
@@ -62580,7 +63011,8 @@
           "D30:9"
         ],
         "category": 5,
-        "adversarial_answer": "Nature - sunsets, beaches, waves"
+        "adversarial_answer": "Nature - sunsets, beaches, waves",
+        "answer": "Nature - sunsets, beaches, waves"
       },
       {
         "question": "What did Dave discuss with the cool artist he met at the gala?",
@@ -62588,7 +63020,8 @@
           "D30:4"
         ],
         "category": 5,
-        "adversarial_answer": "Music and art"
+        "adversarial_answer": "Music and art",
+        "answer": "Music and art"
       },
       {
         "question": "Where did Calvin take a stunning photo of a waterfall?",
@@ -62596,7 +63029,8 @@
           "D30:15"
         ],
         "category": 5,
-        "adversarial_answer": "Nearby park"
+        "adversarial_answer": "Nearby park",
+        "answer": "Nearby park"
       }
     ],
     "conversation": {
