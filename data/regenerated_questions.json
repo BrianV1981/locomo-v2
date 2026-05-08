@@ -1,0 +1,576 @@
+[
+  {
+    "dialogue_id": "conv-26",
+    "slot": 0,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Caroline?",
+    "answer": "This image depicts a detailed close-up of an ornate porcelain plate featuring intricate floral designs",
+    "image_url": "https://i0.wp.com/bardith.com/wp-content/uploads/2022/05/IMG_4371-1.jpg"
+  },
+  {
+    "dialogue_id": "conv-26",
+    "slot": 1,
+    "question": "[V2_REPLACEMENT] What text is visible on the sign in the image shared by Caroline?",
+    "answer": "\"A NEW ARRIVAL\"",
+    "image_url": "https://live.staticflickr.com/3437/3935231341_b2955b00dd_b.jpg"
+  },
+  {
+    "dialogue_id": "conv-26",
+    "slot": 2,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Melanie?",
+    "answer": "The image shows two young girls sitting on a bench with their legs crossed, smiling at the camera",
+    "image_url": "https://st3.depositphotos.com/12674628/16006/i/1600/depositphotos_160060676-stock-photo-multiethnic-girls-with-puppy.jpg"
+  },
+  {
+    "dialogue_id": "conv-26",
+    "slot": 3,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Melanie?",
+    "answer": "This image captures a vibrant scene from what appears to be a pride parade or LGBTQ+ celebration event",
+    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/opb/35SV3NIC4ZBRTLDGHUJ5QWU5WY.jpg"
+  },
+  {
+    "dialogue_id": "conv-30",
+    "slot": 0,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Jon?",
+    "answer": "The image shows a person wearing a black hoodie with the logo \"Rebel Apparel\" on it",
+    "image_url": "https://www.staycoldapparel.com/cdn/shop/files/Foto28.09.23_122631.jpg"
+  },
+  {
+    "dialogue_id": "conv-41",
+    "slot": 0,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by John?",
+    "answer": "This image captures a delightful dessert scene at what appears to be an ice cream parlor or diner",
+    "image_url": "https://i.redd.it/tc1f75pa9df21.jpg"
+  },
+  {
+    "dialogue_id": "conv-41",
+    "slot": 1,
+    "question": "[V2_REPLACEMENT] What text is visible on the sign in the image shared by John?",
+    "answer": "\"Joke of the day: How do you get a squirrel to like you? Act like a nut.\"",
+    "image_url": "https://i.redd.it/5xasiy4gnohb1.jpg"
+  },
+  {
+    "dialogue_id": "conv-41",
+    "slot": 2,
+    "question": "[V2_REPLACEMENT] What text is visible on the sign in the image shared by John?",
+    "answer": "\"Myself.\"",
+    "image_url": "https://i.redd.it/cvtpmcj98ii31.jpg"
+  },
+  {
+    "dialogue_id": "conv-41",
+    "slot": 3,
+    "question": "[V2_REPLACEMENT] What text is visible on the sign in the image shared by John?",
+    "answer": "\"What is a Scientist?\"",
+    "image_url": "https://createyourbalancewithliteracy.com/wp-content/uploads/2023/06/Science-Interactive-Notebook-6.jpg"
+  },
+  {
+    "dialogue_id": "conv-41",
+    "slot": 4,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by John?",
+    "answer": "(NO DESCRIPTION)",
+    "image_url": "https://pdx350.salsalabs.org/juneteamcampaignupdate/ca4594c6-1102-4939-b090-61f878580f48.jpg"
+  },
+  {
+    "dialogue_id": "conv-41",
+    "slot": 5,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by John?",
+    "answer": "The image depicts a scene inside what appears to be a community kitchen or food distribution center during the COVID-19 pandemic",
+    "image_url": "https://bloximages.newyork1.vip.townnews.com/yakimaherald.com/content/tncms/assets/v3/editorial/4/2d/42d9b634-18c9-11ed-8a1b-039214ad9eb3/62f3dc54b5a61.image.jpg"
+  },
+  {
+    "dialogue_id": "conv-41",
+    "slot": 6,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by John?",
+    "answer": "The image depicts a handshake between two individuals",
+    "image_url": "https://live.staticflickr.com/7351/14090438714_33bec862fe_b.jpg"
+  },
+  {
+    "dialogue_id": "conv-41",
+    "slot": 7,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by John?",
+    "answer": "The image shows two individuals standing on a floor covered with black gymnastics mats arranged in rows",
+    "image_url": "https://images.squarespace-cdn.com/content/v1/637bc5e7223fbf2204465446/9afdd8b3-6eae-4655-b4b8-5844b1ec1163/20190304-tpi-severe-weather-shelter-volunteers-mn-12_40329508153_o_0.jpg"
+  },
+  {
+    "dialogue_id": "conv-42",
+    "slot": 0,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Joanna?",
+    "answer": "\u8fd9\u662f\u4e00\u5f20\u591a\u4eba\u56f4\u5750\u5728\u4e00\u5f20\u684c\u5b50\u65c1\u73a9\u684c\u6e38\u7684\u7167\u7247\u3002\u684c\u5b50\u4e0a\u6446\u653e\u7740\u5404\u79cd\u6e38\u620f\u7ec4\u4ef6\uff0c\u5305\u62ec\u5361\u7247\u3001\u68cb\u5b50\u548c\u4e00\u4e2a\u5706\u5f62\u7684\u7ea2\u8272\u7897\u3002\n\n1",
+    "image_url": "https://i.redd.it/n5hled3cve841.jpg"
+  },
+  {
+    "dialogue_id": "conv-42",
+    "slot": 1,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Joanna?",
+    "answer": "\u8fd9\u662f\u4e00\u5f20\u663e\u793a\u8ba1\u7b97\u673a\u5c4f\u5e55\u7684\u7167\u7247\uff0c\u5c4f\u5e55\u4e0a\u5c55\u793a\u4e86\u4e00\u4e2a\u804a\u5929\u754c\u9762\u3002\u754c\u9762\u4e0a\u6709\u4e24\u4e2a\u5bf9\u8bdd\u6846\uff1a\n\n1",
+    "image_url": "https://i.redd.it/i2l2lpmkj2mb1.jpg"
+  },
+  {
+    "dialogue_id": "conv-42",
+    "slot": 2,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Nate?",
+    "answer": "This image features two individuals posing for a photo against a vibrant backdrop that appears to be inspired by video game or comic book themes",
+    "image_url": "https://i.redd.it/omjzdx4vo4h41.jpg"
+  },
+  {
+    "dialogue_id": "conv-42",
+    "slot": 3,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Nate?",
+    "answer": "The image shows two small turtles on a white surface with some water around them",
+    "image_url": "https://i.redd.it/3yrgb86abnl81.jpg"
+  },
+  {
+    "dialogue_id": "conv-42",
+    "slot": 4,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Nate?",
+    "answer": "This image shows a well-organized bookshelf filled with an extensive collection of books and board games",
+    "image_url": "https://i.redd.it/k78gqk5c5kx71.jpg"
+  },
+  {
+    "dialogue_id": "conv-42",
+    "slot": 5,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Nate?",
+    "answer": "This black-and-white photograph captures a lively scene on stage during what appears to be a performance or event",
+    "image_url": "https://get.pxhere.com/photo/black-and-white-old-audience-fashion-performance-art-theatre-children-stage-performance-entertainment-scenario-performing-arts-monochrome-photography-musical-theatre-541499.jpg"
+  },
+  {
+    "dialogue_id": "conv-42",
+    "slot": 6,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Nate?",
+    "answer": "The image depicts two turtles resting on a rocky surface within an aquarium environment",
+    "image_url": "https://live.staticflickr.com/5126/5279947833_4ae1f16e96_b.jpg"
+  },
+  {
+    "dialogue_id": "conv-42",
+    "slot": 7,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Nate?",
+    "answer": "This cozy living room features a large Walt Disney Pictures logo on the television screen above a white cabinet with textured panels",
+    "image_url": "https://i.pinimg.com/originals/1a/02/2c/1a022c736bdfb7c47f33272c27eac0e7.jpg"
+  },
+  {
+    "dialogue_id": "conv-42",
+    "slot": 8,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Nate?",
+    "answer": "\"I wish I could read and journal at the exact same time! So much to write, so many things that happened today",
+    "image_url": "https://i.redd.it/0hvywunpjfs91.jpg"
+  },
+  {
+    "dialogue_id": "conv-42",
+    "slot": 9,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Nate?",
+    "answer": "This image shows a well-organized bookshelf filled with various books of different sizes and colors",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjW88nSAhvDHq-ZyBSZlQ__czsDBW4hEFEvzdgkz06j4ByTnkAamu38jTEXQmzjkEgmS2VYyUYt4e0kz5cfhH7pChnTfAR2OKl9HZj7T91RxPZTV5qxTpi3jjpbFY1wD9Myi7633MAHlwiCL1LtCXt8iiQLed4Kzu2FY7thoxVxVBW8faEpQ-qyEFLwBTA/s4032/Photo%2023.07.23,%2014%2034%2052.jpg"
+  },
+  {
+    "dialogue_id": "conv-42",
+    "slot": 10,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Joanna?",
+    "answer": "The image shows a handwritten journal entry dated July 18, 2020",
+    "image_url": "https://threeteacherstalk.files.wordpress.com/2021/06/fnqw-6.18.jpg"
+  },
+  {
+    "dialogue_id": "conv-42",
+    "slot": 11,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Nate?",
+    "answer": "The handwritten note on the page discusses various topics related to bees, personal experiences, school life, family dynamics, and social interactions",
+    "image_url": "https://i.redd.it/5hklfo3gjhx71.jpg"
+  },
+  {
+    "dialogue_id": "conv-42",
+    "slot": 12,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Nate?",
+    "answer": "This image features a delightful dessert setup on a table with a light blue patterned surface",
+    "image_url": "https://beadyarnspatula.files.wordpress.com/2023/05/img_6671.jpg"
+  },
+  {
+    "dialogue_id": "conv-42",
+    "slot": 13,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Joanna?",
+    "answer": "The image shows an open notebook on a wooden surface with various items around it",
+    "image_url": "https://i.redd.it/sqyihv2m1j871.jpg"
+  },
+  {
+    "dialogue_id": "conv-42",
+    "slot": 14,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Joanna?",
+    "answer": "The image depicts a Montblanc notebook placed on an outdoor glass table with a metal frame",
+    "image_url": "https://www.penboutique.com/cdn/shop/products/image_d3480c08-098f-481b-a456-de0607a4fe91.jpg"
+  },
+  {
+    "dialogue_id": "conv-42",
+    "slot": 15,
+    "question": "[V2_REPLACEMENT] What text is visible on the sign in the image shared by Joanna?",
+    "answer": "\"real literature.\"",
+    "image_url": "https://i.redd.it/om8u4dx20ir71.jpg"
+  },
+  {
+    "dialogue_id": "conv-42",
+    "slot": 16,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Joanna?",
+    "answer": "This image captures a beautiful scene of sunflowers at sunset",
+    "image_url": "https://i.redd.it/ap48tronzy411.jpg"
+  },
+  {
+    "dialogue_id": "conv-42",
+    "slot": 17,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Joanna?",
+    "answer": "The image shows a close-up of a dessert being served from a pan lined with parchment paper",
+    "image_url": "https://beadyarnspatula.files.wordpress.com/2022/07/img_2596.jpg"
+  },
+  {
+    "dialogue_id": "conv-42",
+    "slot": 18,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Joanna?",
+    "answer": "This image features a stack of three books placed on a wooden slice with decorative greenery around it",
+    "image_url": "https://thelitbitch.files.wordpress.com/2023/04/img_2043_jpg.jpg"
+  },
+  {
+    "dialogue_id": "conv-43",
+    "slot": 0,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by John?",
+    "answer": "This image shows a well-organized bookshelf filled with various fantasy novels by Brandon Sanderson and other authors",
+    "image_url": "https://i.redd.it/9nvpaptnspc81.jpg"
+  },
+  {
+    "dialogue_id": "conv-43",
+    "slot": 1,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by John?",
+    "answer": "This image captures a serene forest scene during what appears to be early morning or late afternoon",
+    "image_url": "https://i.redd.it/huz7cq7rtix31.jpg"
+  },
+  {
+    "dialogue_id": "conv-43",
+    "slot": 2,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Tim?",
+    "answer": "The image depicts two individuals on a stage with a digital backdrop displaying abstract graphics and lines of light",
+    "image_url": "https://talkstar-photos.s3.amazonaws.com/uploads/9dd73626-fe0d-4a3b-b913-c39d65250da8/ApolloRobbins_2013G-embed.jpg"
+  },
+  {
+    "dialogue_id": "conv-43",
+    "slot": 3,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by John?",
+    "answer": "This aerial photograph captures a stunning view of Paris, France, showcasing the iconic Champs-\u00c9lys\u00e9es avenue leading towards the Arc de Triomphe at its western end",
+    "image_url": "https://i.redd.it/b9cuf3yfd3s91.jpg"
+  },
+  {
+    "dialogue_id": "conv-43",
+    "slot": 4,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by John?",
+    "answer": "The image shows a handwritten page of writing on what appears to be lined paper",
+    "image_url": "https://i.imgur.com/uvVOoeM.jpg"
+  },
+  {
+    "dialogue_id": "conv-43",
+    "slot": 5,
+    "question": "[V2_REPLACEMENT] What text is visible on the sign in the image shared by John?",
+    "answer": "\"Feb 24, 2020\"",
+    "image_url": "https://i.pinimg.com/originals/5e/f4/f9/5ef4f9bd2f094b2d0a4ddd4861b928a0.jpg"
+  },
+  {
+    "dialogue_id": "conv-43",
+    "slot": 6,
+    "question": "[V2_REPLACEMENT] What text is visible on the sign in the image shared by John?",
+    "answer": "\"Wheel of Time\"",
+    "image_url": "https://i.redd.it/optq3zb96w771.jpg"
+  },
+  {
+    "dialogue_id": "conv-43",
+    "slot": 7,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by John?",
+    "answer": "This image depicts a cozy living room corner featuring a dark brown leather armchair with several books stacked on it",
+    "image_url": "https://cdn.apartmenttherapy.info/image/upload/v1617734023/at/news-culture/2021-04/katharine-scrivener-nook.jpg"
+  },
+  {
+    "dialogue_id": "conv-43",
+    "slot": 8,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by John?",
+    "answer": "The image shows a book titled \"THE LUCKIEST DAY OF YOUR LIFE\" from the \"Choose Your Own Adventure\u00ae\" series by Edward Packard",
+    "image_url": "https://i.redd.it/53yi43izjpb81.jpg"
+  },
+  {
+    "dialogue_id": "conv-44",
+    "slot": 0,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Audrey?",
+    "answer": "This image captures a breathtaking sunset over a mountainous landscape",
+    "image_url": "https://i.redd.it/nzwhfzovo8q61.jpg"
+  },
+  {
+    "dialogue_id": "conv-44",
+    "slot": 1,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Audrey?",
+    "answer": "Foreground**: Four dogs are prominently featured:",
+    "image_url": "http://tahoemountainsports.com/cdn/shop/articles/IMG_8472.jpg"
+  },
+  {
+    "dialogue_id": "conv-44",
+    "slot": 2,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Andrew?",
+    "answer": "This image depicts a cozy indoor scene featuring three dogs resting together on a couch",
+    "image_url": "https://i.redd.it/yroilm3jgct71.jpg"
+  },
+  {
+    "dialogue_id": "conv-44",
+    "slot": 3,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Andrew?",
+    "answer": "This image captures a dynamic moment of an Australian Shepherd dog mid-jump through a colorful hoop obstacle during what appears to be an agility competition or training session",
+    "image_url": "https://live.staticflickr.com/2109/2471534899_2764ab02bf_b.jpg"
+  },
+  {
+    "dialogue_id": "conv-44",
+    "slot": 4,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Audrey?",
+    "answer": "This image depicts an outdoor rooftop lounge area with a cityscape backdrop",
+    "image_url": "https://be-lavie.com/wp-content/uploads/2019/06/IMG_9281-e1560067147565.jpg"
+  },
+  {
+    "dialogue_id": "conv-44",
+    "slot": 5,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Audrey?",
+    "answer": "This image showcases a beautifully plated dish on an elegantly designed plate with a gradient of colors ranging from white to blue and brown tones at the edges",
+    "image_url": "https://i.redd.it/hs8imjohtw631.jpg"
+  },
+  {
+    "dialogue_id": "conv-44",
+    "slot": 6,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Audrey?",
+    "answer": "1",
+    "image_url": "https://fundiegofamily.com/wp-content/uploads/2018/05/blueskycover.jpg"
+  },
+  {
+    "dialogue_id": "conv-44",
+    "slot": 7,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Andrew?",
+    "answer": "The image depicts two dogs standing on a grassy lawn with a wooden fence in the background",
+    "image_url": "https://i2.pickpik.com/photos/398/166/341/dogs-garden-enjoy-weather-animals-preview.jpg"
+  },
+  {
+    "dialogue_id": "conv-44",
+    "slot": 8,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Audrey?",
+    "answer": "This image depicts a delightful outdoor picnic setup on a grassy field with vibrant green hues",
+    "image_url": "https://cdn.shopify.com/s/files/1/1512/5894/articles/IMG_5426.jpg"
+  },
+  {
+    "dialogue_id": "conv-44",
+    "slot": 9,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Audrey?",
+    "answer": "The image depicts a playful scene featuring three dogs on a grassy lawn",
+    "image_url": "https://images.rawpixel.com/image_800/cHJpdmF0ZS9zdGF0aWMvaW1hZ2Uvd2Vic2l0ZS8yMDIyLTA0L2xyL3B4NzIxNzk3LWltYWdlLWt3dnYzenBkLmpwZw.jpg"
+  },
+  {
+    "dialogue_id": "conv-47",
+    "slot": 0,
+    "question": "[V2_REPLACEMENT] What text is visible on the sign in the image shared by John?",
+    "answer": "\"MOHENJO-DARO\"",
+    "image_url": "https://i.redd.it/c15urew02q041.jpg"
+  },
+  {
+    "dialogue_id": "conv-47",
+    "slot": 1,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by John?",
+    "answer": "This image features a young golden retriever puppy sitting on a patterned rug next to a gray couch",
+    "image_url": "https://i.redd.it/iwwwkzul10b71.jpg"
+  },
+  {
+    "dialogue_id": "conv-47",
+    "slot": 2,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by John?",
+    "answer": "The image shows a computer screen displaying an error message from the video game \"The Elder Scrolls Online",
+    "image_url": "https://i.redd.it/xu1i4gjzg6jb1.jpg"
+  },
+  {
+    "dialogue_id": "conv-47",
+    "slot": 3,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by John?",
+    "answer": "This image appears to be a screenshot from the video game \"Sid Meier's Civilization VI",
+    "image_url": "https://i.redd.it/nbyl9ym1dpj41.jpg"
+  },
+  {
+    "dialogue_id": "conv-48",
+    "slot": 0,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Deborah?",
+    "answer": "1",
+    "image_url": "https://cdn.apartmenttherapy.info/image/upload/v1617640374/at/house%20tours/2021-04/Amara/21.jpg"
+  },
+  {
+    "dialogue_id": "conv-48",
+    "slot": 1,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Deborah?",
+    "answer": "This image features a notebook with an inspirational quote written on its page",
+    "image_url": "https://i.pinimg.com/originals/a8/a1/ab/a8a1ab638060af2f6cb53ab7a5bb2b8c.jpg"
+  },
+  {
+    "dialogue_id": "conv-48",
+    "slot": 2,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Jolene?",
+    "answer": "The image features a vibrant yellow mug with the motivational phrase \"Believe In Yourself\" written on it in blue cursive lettering",
+    "image_url": "https://themugshotlk.com/cdn/shop/products/IMG_9782.jpg"
+  },
+  {
+    "dialogue_id": "conv-48",
+    "slot": 3,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Deborah?",
+    "answer": "1",
+    "image_url": "https://cdn.apartmenttherapy.info/image/upload/v1658863926/at/house%20tours/2022-07/India/StairwayBench.jpg"
+  },
+  {
+    "dialogue_id": "conv-48",
+    "slot": 4,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Deborah?",
+    "answer": "This image captures a serene sunset over a body of water, likely a lake or river",
+    "image_url": "https://i0.wp.com/thirdeyemom.com/wp-content/uploads/2017/08/img_2197.jpg"
+  },
+  {
+    "dialogue_id": "conv-48",
+    "slot": 5,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Jolene?",
+    "answer": "This image shows two individuals standing side by side in a room with patterned flooring",
+    "image_url": "https://ashleenichols.com/wp-content/uploads/2018/01/IMG_1546-e1515707058552.jpg"
+  },
+  {
+    "dialogue_id": "conv-48",
+    "slot": 6,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Jolene?",
+    "answer": "This image features a motivational notebook with the phrase \"Never forget how wildly capable you are\" written on its cover",
+    "image_url": "http://swaygirls.com/cdn/shop/products/IMG_1932_jpg.jpg"
+  },
+  {
+    "dialogue_id": "conv-48",
+    "slot": 7,
+    "question": "[V2_REPLACEMENT] What text is visible on the sign in the image shared by Jolene?",
+    "answer": "\"CARA MIA MAY\"",
+    "image_url": "https://caramiamay.com/cdn/shop/products/image_1e09790f-e4ab-4589-ac14-a6dbdf6f3b83.jpg"
+  },
+  {
+    "dialogue_id": "conv-48",
+    "slot": 8,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Deborah?",
+    "answer": "1",
+    "image_url": "https://cdn.apartmenttherapy.info/image/upload/v1617734021/at/news-culture/2021-04/lupita-aquino-nook-2.jpg"
+  },
+  {
+    "dialogue_id": "conv-48",
+    "slot": 9,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Jolene?",
+    "answer": "Cherry Blossoms**: Pink petals with yellow stamens, indicating they might be of the 'Kanzan' or similar variety.",
+    "image_url": "https://www.lsuagcenter.com/~/media/system/8/a/0/b/8a0beeb70c88046e95c4cc398cb5242b/cherry%20flowers%20and%20beepng.png"
+  },
+  {
+    "dialogue_id": "conv-48",
+    "slot": 10,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Deborah?",
+    "answer": "This image depicts a yoga class session taking place in a studio with artistic wall murals featuring floral designs",
+    "image_url": "https://lotuslandyogasf.com/wp-content/uploads/Jasmine-Class-cobra-e1674461734640.png"
+  },
+  {
+    "dialogue_id": "conv-48",
+    "slot": 11,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Deborah?",
+    "answer": "This image features a vibrant flower arrangement placed on the ground of what appears to be an outdoor residential area or garden path",
+    "image_url": "https://www.inbloomhomestead.com/wp-content/uploads/2023/07/stunning.jpg"
+  },
+  {
+    "dialogue_id": "conv-49",
+    "slot": 0,
+    "question": "[V2_REPLACEMENT] What text is visible on the sign in the image shared by Sam?",
+    "answer": "\"BRING IT ON HOME\"",
+    "image_url": "https://clickinmyheels.files.wordpress.com/2019/09/fpthpk1wrjgpigitpdlw3w.jpg"
+  },
+  {
+    "dialogue_id": "conv-49",
+    "slot": 1,
+    "question": "[V2_REPLACEMENT] What text is visible on the sign in the image shared by Evan?",
+    "answer": "\"HARD CORE\"",
+    "image_url": "https://c0.wallpaperflare.com/preview/870/384/969/adult-bodybuilding-brawny-dumbbell.jpg"
+  },
+  {
+    "dialogue_id": "conv-49",
+    "slot": 2,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Sam?",
+    "answer": "This vibrant artwork features a person with their hands raised to the face, partially obscuring it",
+    "image_url": "https://judgeme.imgix.net/nashid-chroma-art-and-apparel/1640132184__inbound5216268343587060307__original.jpg"
+  },
+  {
+    "dialogue_id": "conv-49",
+    "slot": 3,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Evan?",
+    "answer": "The image depicts a serene riverside scene with multiple kayaks lined up on the rocky shore",
+    "image_url": "https://www.higherpursuits.com/wp-content/uploads/2019/01/2019-Rental-Boats-1.jpg"
+  },
+  {
+    "dialogue_id": "conv-49",
+    "slot": 4,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Evan?",
+    "answer": "This image depicts a serene natural landscape featuring a calm body of water reflecting the surrounding scenery",
+    "image_url": "https://www.koin.com/wp-content/uploads/sites/10/2022/04/Tom-Dick-and-Harry-Mountain-view-of-Mirror-Creek-Courtesy-US-Forest-Service.jpg"
+  },
+  {
+    "dialogue_id": "conv-50",
+    "slot": 0,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Calvin?",
+    "answer": "This image captures a vibrant street scene at night in an urban area, likely in Japan given the presence of Japanese characters on various signs",
+    "image_url": "https://betweenstationsblog.files.wordpress.com/2017/09/bd698257-6a1e-45f9-916b-780aef4d9445.jpg"
+  },
+  {
+    "dialogue_id": "conv-50",
+    "slot": 1,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Dave?",
+    "answer": "This image depicts a cozy living room with large windows that offer a beautiful view of cherry blossoms outside",
+    "image_url": "https://i.redd.it/6p8nisgp4dq41.jpg"
+  },
+  {
+    "dialogue_id": "conv-50",
+    "slot": 2,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Dave?",
+    "answer": "This image depicts a professional recording studio setup",
+    "image_url": "https://d2wvwvig0d1mx7.cloudfront.net/data/org/18741/media/img/cache/2969x0/1905172_2969x0.jpg"
+  },
+  {
+    "dialogue_id": "conv-50",
+    "slot": 3,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Dave?",
+    "answer": "This image captures a serene scene of a canal during sunset",
+    "image_url": "https://toyamahotnews.files.wordpress.com/2020/09/img-0880.jpg"
+  },
+  {
+    "dialogue_id": "conv-50",
+    "slot": 4,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Dave?",
+    "answer": "This black-and-white photograph captures a lively scene at what appears to be a nightclub or concert venue",
+    "image_url": "https://images.pexels.com/photos/15995095/pexels-photo-15995095.jpeg?cs\\u003dsrgb\\u0026dl\\u003dpexels-tony-entz-15995095.jpg"
+  },
+  {
+    "dialogue_id": "conv-50",
+    "slot": 5,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Calvin?",
+    "answer": "This image captures a picturesque cityscape during sunset or sunrise with vibrant hues of pink and blue in the sky",
+    "image_url": "https://healthywaysfordays.files.wordpress.com/2020/11/61c247f0-cd80-4c81-916c-b905b92a93a3-ecdafc1d-2d3c-4cbb-b64a-258e84518cb3.jpg"
+  },
+  {
+    "dialogue_id": "conv-50",
+    "slot": 6,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Dave?",
+    "answer": "Audience**: Numerous individuals visible, all seemingly focused and enthusiastic.",
+    "image_url": "https://images.pexels.com/photos/18482984/pexels-photo-18482984.jpeg?cs\\u003dsrgb\\u0026dl\\u003dpexels-luis-quintero-18482984.jpg"
+  },
+  {
+    "dialogue_id": "conv-50",
+    "slot": 7,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Dave?",
+    "answer": "The image depicts a scene at an auto repair shop",
+    "image_url": "https://c0.wallpaperflare.com/preview/534/637/290/finland-hyvinkaa-aq-autohuolto-car-mechanic.jpg"
+  },
+  {
+    "dialogue_id": "conv-50",
+    "slot": 8,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Dave?",
+    "answer": "This image features a bright red Ferrari parked on the side of an urban street",
+    "image_url": "https://i.redd.it/v7n19f5lcqn91.jpg"
+  },
+  {
+    "dialogue_id": "conv-50",
+    "slot": 9,
+    "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Dave?",
+    "answer": "This image captures a dynamic moment on stage featuring two musicians performing energetically",
+    "image_url": "https://www.etonline.com/sites/default/files/images/2019-10/gettyimages-1093168760.jpg"
+  }
+]

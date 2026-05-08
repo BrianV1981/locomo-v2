@@ -272,8 +272,8 @@
         "category": 2
       },
       {
-        "question": "[V2_REPLACEMENT] What is the Guinea pig in the image doing as it peers out of the wooden tunnel?",
-        "answer": "It is standing on its hind legs with its front paws raised.",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Caroline?",
+        "answer": "This image depicts a detailed close-up of an ornate porcelain plate featuring intricate floral designs",
         "evidence": [
           "D1:3",
           "D3:1",
@@ -377,8 +377,8 @@
         "category": 3
       },
       {
-        "question": "[V2_REPLACEMENT] Which band's name is visible in the lower left corner of the concert photo?",
-        "answer": "AC/DC",
+        "question": "[V2_REPLACEMENT] What text is visible on the sign in the image shared by Caroline?",
+        "answer": "\"A NEW ARRIVAL\"",
         "evidence": [
           "D17:13",
           "D11:12",
@@ -447,8 +447,8 @@
         "category": 3
       },
       {
-        "question": "[V2_REPLACEMENT] According to the book cover in the image, who are the authors of \"The Kobold Guide to Board Game Design\"?",
-        "answer": "Mike Selinker and Bruno Faidutti",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Melanie?",
+        "answer": "The image shows two young girls sitting on a bench with their legs crossed, smiling at the camera",
         "evidence": [
           "D25:11"
         ],
@@ -541,8 +541,8 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] Based on Maria's message, when did she learn about the importance of self-care the \"hard way\"?",
-        "answer": "Last year",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Melanie?",
+        "answer": "This image captures a vibrant scene from what appears to be a pride parade or LGBTQ+ celebration event",
         "evidence": [
           "D13:22"
         ],
@@ -2634,9 +2634,7 @@
         },
         {
           "speaker": "Caroline",
-          "img_url": [
-            "https://dynaimage.cdn.cnn.com/cnn/digital-images/org/dfc95f14-b325-431c-b977-5b6dc2d35f9c.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a parade with people walking down the street",
           "query": "rainbow flag pride march",
           "dia_id": "D8:17",
@@ -3073,9 +3071,7 @@
         },
         {
           "speaker": "Caroline",
-          "img_url": [
-            "https://www.dawnsilerart.com/wp-content/uploads/sites/3130/2020/11/YCNHTMC-CU9.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a painting with a painting brush and paint on it",
           "query": "painting vibrant colors diverse representation",
           "dia_id": "D11:8",
@@ -3313,9 +3309,7 @@
         },
         {
           "speaker": "Melanie",
-          "img_url": [
-            "https://warpedtable.com/cdn/shop/products/F331B563-AB73-430A-A6DF-3C5E0F91A4D8.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a horse painted on a wooden wall",
           "query": "horse painting",
           "dia_id": "D13:8",
@@ -3623,9 +3617,7 @@
         },
         {
           "speaker": "Melanie",
-          "img_url": [
-            "https://img-aws.ehowcdn.com/1280x/www.onlyinyourstate.com/wp-content/uploads/2022/12/gym8.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a playground with a climbing net and a slide",
           "query": "kids climbing jungle gym park",
           "dia_id": "D15:2",
@@ -3788,9 +3780,7 @@
         },
         {
           "speaker": "Melanie",
-          "img_url": [
-            "https://exploringtheprime.com/wp-content/uploads/2019/10/IMG_6705-2.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a dirt road surrounded by trees with yellow leaves",
           "query": "family hiking trail vibrant autumn colors",
           "dia_id": "D16:2",
@@ -5562,8 +5552,8 @@
         "category": 2
       },
       {
-        "question": "[V2_REPLACEMENT] To whom is the closed envelope on the table addressed according to the image?",
-        "answer": "Glenn",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Jon?",
+        "answer": "The image shows a person wearing a black hoodie with the logo \"Rebel Apparel\" on it",
         "evidence": [
           "D4:13"
         ],
@@ -6290,9 +6280,7 @@
         },
         {
           "speaker": "Jon",
-          "img_url": [
-            "https://upload.wikimedia.org/wikipedia/commons/a/a9/Dekkadancers_Mu%C5%BE_z_Malty.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photography of a man in a suit is performing a dance",
           "query": "dancing on stage performance dance competition last year",
           "dia_id": "D1:14",
@@ -6900,9 +6888,7 @@
         },
         {
           "speaker": "Jon",
-          "img_url": [
-            "https://www.news-press.com/gcdn/presto/2018/12/21/PFTM/e043df2d-48d9-4591-a714-f27ecbd42007-GD1.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of two glasses of champagne with a bottle of wine in the background",
           "query": "champagne celebration",
           "dia_id": "D6:19",
@@ -7081,9 +7067,7 @@
         },
         {
           "speaker": "Jon",
-          "img_url": [
-            "https://universe.byu.edu/wp-content/uploads/2018/02/IMG_8914.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a group of people on a stage with a projector screen",
           "query": "group of talented dancers performing on stage event next month",
           "dia_id": "D8:15",
@@ -8156,9 +8140,7 @@
         {
           "speaker": "Jon",
           "dia_id": "D18:6",
-          "img_url": [
-            "https://live.staticflickr.com/7284/16241297914_14ea605e4b_b.jpg"
-          ],
+          "img_url": [],
           "re-download": true,
           "blip_caption": "a photography of a group of people standing in a room",
           "text": "Awesome advice! Lately I've been networking and it's gotten me some good stuff. Really can't beat what connections can do. Check this pic I got from the last networking event!"
@@ -9535,8 +9517,8 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] What detail in the background suggests the photo of the bookshelf was taken indoors?",
-        "answer": "The presence of window blinds",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by John?",
+        "answer": "This image captures a delightful dessert scene at what appears to be an ice cream parlor or diner",
         "evidence": [
           "D12:15"
         ],
@@ -9627,8 +9609,8 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] Mention one type of decorative item visible on the bottom shelf of the bookcase.",
-        "answer": "Figurines (or a teddy bear)",
+        "question": "[V2_REPLACEMENT] What text is visible on the sign in the image shared by John?",
+        "answer": "\"Joke of the day: How do you get a squirrel to like you? Act like a nut.\"",
         "evidence": [
           "D26:18"
         ],
@@ -9821,8 +9803,8 @@
         "category": 2
       },
       {
-        "question": "[V2_REPLACEMENT] What specific phrase is overlaid in white font on the image of the handshake?",
-        "answer": "THE END OF LIFE",
+        "question": "[V2_REPLACEMENT] What text is visible on the sign in the image shared by John?",
+        "answer": "\"Myself.\"",
         "evidence": [
           "D4:22"
         ],
@@ -9884,8 +9866,8 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] Name two types of pastries clearly labeled on the cafe counter.",
-        "answer": "Croissant and Pain au Chocolat",
+        "question": "[V2_REPLACEMENT] What text is visible on the sign in the image shared by John?",
+        "answer": "\"What is a Scientist?\"",
         "evidence": [
           "D3:15"
         ],
@@ -10422,8 +10404,8 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] Based on the background of the photo, what kind of event are the two individuals attending?",
-        "answer": "A festival, fair, or carnival",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by John?",
+        "answer": "(NO DESCRIPTION)",
         "evidence": [
           "D30:2"
         ],
@@ -10511,8 +10493,8 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] What is the name of the dog mentioned in the text that is lying next to the laptop?",
-        "answer": "Daisy",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by John?",
+        "answer": "The image depicts a scene inside what appears to be a community kitchen or food distribution center during the COVID-19 pandemic",
         "evidence": [
           "D8:17"
         ],
@@ -10520,8 +10502,8 @@
         "v2_replacement": true
       },
       {
-        "question": "[V2_REPLACEMENT] What are many of the audience members doing with their smartphones in the arena?",
-        "answer": "Capturing the moment or taking pictures",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by John?",
+        "answer": "The image depicts a handshake between two individuals",
         "evidence": [
           "D7:12"
         ],
@@ -10919,13 +10901,13 @@
         "answer": "Coco"
       },
       {
-        "question": "[V2_REPLACEMENT] According to Audrey's text, when did the doggy playdate occur?",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by John?",
         "evidence": [
           "D10:9"
         ],
         "category": 5,
         "adversarial_answer": "Peaceful and awesome",
-        "answer": "Last Friday",
+        "answer": "The image shows two individuals standing on a floor covered with black gymnastics mats arranged in rows",
         "v2_replacement": true
       },
       {
@@ -10999,9 +10981,7 @@
         },
         {
           "speaker": "John",
-          "img_url": [
-            "https://www.greenbaypressgazette.com/gcdn/presto/2019/07/16/PGRB/fa8d60a1-0a21-421c-b36d-31f4bc2d2b6d-KEW_0720_LC_referendum_Peters_Concrete_pour.png"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a group of men working on a building",
           "query": "school building renovation",
           "dia_id": "D1:10",
@@ -11633,9 +11613,7 @@
         },
         {
           "speaker": "John",
-          "img_url": [
-            "https://www.lifturbanportland.org/uploads/8/3/6/3/83630366/published/warehouse-volunteers.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a woman in a face mask holding a bag of food",
           "query": "group of volunteers food drive event",
           "dia_id": "D6:16",
@@ -11776,9 +11754,7 @@
         },
         {
           "speaker": "John",
-          "img_url": [
-            "https://content1.getnarrativeapp.com/static/1396e135-13d4-4c37-8183-5d1eaf957c41/Surprise-proposal-picnic-at-cathedral-park-in-Portland-or-.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a family sitting on the grass with a baby",
           "query": "family picnic",
           "dia_id": "D8:2",
@@ -12101,9 +12077,7 @@
         },
         {
           "speaker": "Maria",
-          "img_url": [
-            "https://blog.myfitnesspal.com/wp-content/uploads/2019/06/8-Charity-Walking-Events-That-Give-Your-Steps-Extra-Meaning-1200x900.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a large group of people walking down a street",
           "query": "charity event running group of people",
           "dia_id": "D10:12",
@@ -12221,9 +12195,7 @@
         },
         {
           "speaker": "Maria",
-          "img_url": [
-            "https://portlandrescuemission.org/wp-content/uploads/2017/11/20160809_gc_0797-copy.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a group of people standing around a table filled with food",
           "query": "homeless shelter volunteers",
           "dia_id": "D11:14",
@@ -12794,9 +12766,7 @@
         },
         {
           "speaker": "John",
-          "img_url": [
-            "https://cdn2.picryl.com/photo/2020/01/13/combat-veterans-associated-with-troops-first-foundation-06145f-1024.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photography of a man shaking hands with a soldier in uniform",
           "query": "group of veterans smiling and shaking hands",
           "dia_id": "D15:11",
@@ -12848,9 +12818,7 @@
       "session_16": [
         {
           "speaker": "John",
-          "img_url": [
-            "https://pdx350.salsalabs.org/juneteamcampaignupdate/ca4594c6-1102-4939-b090-61f878580f48.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a group of people and a dog standing in front of a waterfall",
           "query": "petition support education and infrastructure volunteers team",
           "dia_id": "D16:1",
@@ -13275,9 +13243,7 @@
         },
         {
           "speaker": "John",
-          "img_url": [
-            "https://riverstudiodesign.ca/wp-content/uploads/2019/09/overall-office-jpg-1.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a desk with a chair and a lamp",
           "query": "wife kids office desk",
           "dia_id": "D19:16",
@@ -14101,9 +14067,7 @@
         },
         {
           "speaker": "Maria",
-          "img_url": [
-            "https://sophieelliottfoundation.co.nz/wp-content/uploads/sites/30/2020/08/SLRA-summer-party-james-hopkirk-low-res-026.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photography of a group of people standing around a table with food",
           "query": "homeless shelter sign kindness compassion",
           "dia_id": "D26:13",
@@ -14186,9 +14150,7 @@
         },
         {
           "speaker": "John",
-          "img_url": [
-            "https://i2.wp.com/lifecomingalive.com/wp-content/uploads/2018/05/IMG_0960-e1527675276357.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a young boy holding a flag in a cemetery",
           "query": "kids flag military memorial",
           "dia_id": "D27:9",
@@ -14479,9 +14441,7 @@
         },
         {
           "speaker": "John",
-          "img_url": [
-            "https://i.redd.it/g92z4kf3aph91.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a dog and a person sitting by a campfire",
           "query": "camping trip max campfire hiking swimming",
           "dia_id": "D30:6",
@@ -16675,8 +16635,8 @@
         "category": 3
       },
       {
-        "question": "[V2_REPLACEMENT] What fictional school's banners are used as a backdrop for the Christmas tree?",
-        "answer": "Hogwarts School of Witchcraft and Wizardry",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Joanna?",
+        "answer": "\u8fd9\u662f\u4e00\u5f20\u591a\u4eba\u56f4\u5750\u5728\u4e00\u5f20\u684c\u5b50\u65c1\u73a9\u684c\u6e38\u7684\u7167\u7247\u3002\u684c\u5b50\u4e0a\u6446\u653e\u7740\u5404\u79cd\u6e38\u620f\u7ec4\u4ef6\uff0c\u5305\u62ec\u5361\u7247\u3001\u68cb\u5b50\u548c\u4e00\u4e2a\u5706\u5f62\u7684\u7ea2\u8272\u7897\u3002\n\n1",
         "evidence": [
           "D8:30"
         ],
@@ -16941,8 +16901,8 @@
         "category": 2
       },
       {
-        "question": "[V2_REPLACEMENT] According to the whiteboard, how many workouts were completed over a 9-week period?",
-        "answer": "34",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Joanna?",
+        "answer": "\u8fd9\u662f\u4e00\u5f20\u663e\u793a\u8ba1\u7b97\u673a\u5c4f\u5e55\u7684\u7167\u7247\uff0c\u5c4f\u5e55\u4e0a\u5c55\u793a\u4e86\u4e00\u4e2a\u804a\u5929\u754c\u9762\u3002\u754c\u9762\u4e0a\u6709\u4e24\u4e2a\u5bf9\u8bdd\u6846\uff1a\n\n1",
         "evidence": [
           "D24:10"
         ],
@@ -17044,8 +17004,8 @@
         "category": 2
       },
       {
-        "question": "[V2_REPLACEMENT] What is the color of the dress worn by the woman dancing in the center of the crowd?",
-        "answer": "Light blue",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Nate?",
+        "answer": "This image features two individuals posing for a photo against a vibrant backdrop that appears to be inspired by video game or comic book themes",
         "evidence": [
           "D28:3"
         ],
@@ -17096,8 +17056,8 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] Describe the activity and setting shown in the image with the dog.",
-        "answer": "A dog resting on a rocky surface near a vast body of water and mountains.",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Nate?",
+        "answer": "The image shows two small turtles on a white surface with some water around them",
         "evidence": [
           "D26:23"
         ],
@@ -17105,8 +17065,8 @@
         "v2_replacement": true
       },
       {
-        "question": "[V2_REPLACEMENT] What are the two people on the beach watching as they hold hands?",
-        "answer": "The sunset (or sunrise)",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Nate?",
+        "answer": "This image shows a well-organized bookshelf filled with an extensive collection of books and board games",
         "evidence": [
           "D16:11"
         ],
@@ -17124,8 +17084,8 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] What are both individuals in the mountain photograph holding to their eyes?",
-        "answer": "Cameras or binoculars",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Nate?",
+        "answer": "This black-and-white photograph captures a lively scene on stage during what appears to be a performance or event",
         "evidence": [
           "D26:8"
         ],
@@ -17154,8 +17114,8 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] What specific programming language is mentioned in the chat screenshot?",
-        "answer": "Java",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Nate?",
+        "answer": "The image depicts two turtles resting on a rocky surface within an aquarium environment",
         "evidence": [
           "D28:19"
         ],
@@ -17202,8 +17162,8 @@
         "category": 3
       },
       {
-        "question": "[V2_REPLACEMENT] Based on Nate's text and the image, what kind of social game activity are they participating in?",
-        "answer": "A board game night",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Nate?",
+        "answer": "This cozy living room features a large Walt Disney Pictures logo on the television screen above a white cabinet with textured panels",
         "evidence": [
           "D23:5"
         ],
@@ -17368,8 +17328,8 @@
         "category": 2
       },
       {
-        "question": "[V2_REPLACEMENT] What animal is being held by a hand over a plastic container in the image?",
-        "answer": "A snake",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Nate?",
+        "answer": "\"I wish I could read and journal at the exact same time! So much to write, so many things that happened today",
         "evidence": [
           "D28:24"
         ],
@@ -17389,8 +17349,8 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] What social message is written in the corner of the anime-style drawing?",
-        "answer": "TRANS RIGHTS",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Nate?",
+        "answer": "This image shows a well-organized bookshelf filled with various books of different sizes and colors",
         "evidence": [
           "D17:21"
         ],
@@ -17398,8 +17358,8 @@
         "v2_replacement": true
       },
       {
-        "question": "[V2_REPLACEMENT] Name one of the prominent brand logos visible on the banners at the gaming convention.",
-        "answer": "PlayStation (or Red Bull)",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Joanna?",
+        "answer": "The image shows a handwritten journal entry dated July 18, 2020",
         "evidence": [
           "D10:11",
           "D19:8",
@@ -17624,8 +17584,8 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] What specific strategy video game is being played on the computer screen?",
-        "answer": "Civilization VI",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Nate?",
+        "answer": "The handwritten note on the page discusses various topics related to bees, personal experiences, school life, family dynamics, and social interactions",
         "evidence": [
           "D8:23"
         ],
@@ -17745,8 +17705,8 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] In what formation are the people on the beach standing in the silhouette photo?",
-        "answer": "A circular formation",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Nate?",
+        "answer": "This image features a delightful dessert setup on a table with a light blue patterned surface",
         "evidence": [
           "D10:22"
         ],
@@ -17866,8 +17826,8 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] Based on the armor and the \"WB GAMES\" logo, which video game does this character represent?",
-        "answer": "The Witcher 3",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Joanna?",
+        "answer": "The image shows an open notebook on a wooden surface with various items around it",
         "evidence": [
           "D19:8"
         ],
@@ -17875,8 +17835,8 @@
         "v2_replacement": true
       },
       {
-        "question": "[V2_REPLACEMENT] What username is visible on the game interface in the screenshot?",
-        "answer": "Sludger29",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Joanna?",
+        "answer": "The image depicts a Montblanc notebook placed on an outdoor glass table with a metal frame",
         "evidence": [
           "D22:3"
         ],
@@ -18044,8 +18004,8 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] What is the full title of the video game shown on the \"Special Edition\" DVD cover?",
-        "answer": "Pathfinder Kingmaker",
+        "question": "[V2_REPLACEMENT] What text is visible on the sign in the image shared by Joanna?",
+        "answer": "\"real literature.\"",
         "evidence": [
           "D4:20"
         ],
@@ -18586,23 +18546,23 @@
         "answer": "7"
       },
       {
-        "question": "[V2_REPLACEMENT] What kind of flooring is typically found in the dance studio shown in the image?",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Joanna?",
         "evidence": [
           "D13:8"
         ],
         "category": 5,
         "adversarial_answer": "Woodhaven",
-        "answer": "Polished wood",
+        "answer": "This image captures a beautiful scene of sunflowers at sunset",
         "v2_replacement": true
       },
       {
-        "question": "[V2_REPLACEMENT] Describe the unique accessory the corgi is wearing in the image.",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Joanna?",
         "evidence": [
           "D26:32"
         ],
         "category": 5,
         "adversarial_answer": "cool old book collection",
-        "answer": "A tie-dye bandana with a skull pattern",
+        "answer": "The image shows a close-up of a dessert being served from a pan lined with parchment paper",
         "v2_replacement": true
       },
       {
@@ -18696,13 +18656,13 @@
         "answer": "chocolate raspberry tart"
       },
       {
-        "question": "[V2_REPLACEMENT] What warning is printed on the yellow tape seen in the photograph?",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Joanna?",
         "evidence": [
           "D30:14"
         ],
         "category": 5,
         "adversarial_answer": "blueberries and coconut milk",
-        "answer": "Do Not Enter",
+        "answer": "This image features a stack of three books placed on a wooden slice with decorative greenery around it",
         "v2_replacement": true
       },
       {
@@ -19464,9 +19424,7 @@
         },
         {
           "speaker": "Nate",
-          "img_url": [
-            "https://cdn12.picryl.com/photo/2016/12/31/turtle-nature-slow-nature-landscapes-9a70ba-1024.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photography of two tortoises laying on the ground in a jungle",
           "query": "adorable photo turtles walk grassy area",
           "dia_id": "D5:4",
@@ -19480,9 +19438,7 @@
         },
         {
           "speaker": "Nate",
-          "img_url": [
-            "data:image/jpeg;base64,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"
-          ],
+          "img_url": [],
           "blip_caption": "a photography of three turtles sitting on rocks in a pond",
           "query": "turtles basking sun",
           "dia_id": "D5:6",
@@ -20318,9 +20274,7 @@
         },
         {
           "speaker": "Nate",
-          "img_url": [
-            "https://i.redd.it/usll6z99c2tb1.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a stuffed animal laying on a bed",
           "query": "dog cozy blanket toy",
           "dia_id": "D13:9",
@@ -20749,9 +20703,7 @@
         },
         {
           "speaker": "Joanna",
-          "img_url": [
-            "https://upload.wikimedia.org/wikipedia/commons/9/91/Old_Geodesy_library_books.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photography of a book shelf filled with lots of books",
           "query": "vintage library woodhaven midwest",
           "dia_id": "D17:4",
@@ -21114,9 +21066,7 @@
         },
         {
           "speaker": "Joanna",
-          "img_url": [
-            "https://chensplate.com/wp-content/uploads/2021/02/IMG_8512.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a piece of cake with strawberries and chocolate",
           "query": "dairy-free chocolate cake pink frosting",
           "dia_id": "D20:2",
@@ -21316,9 +21266,7 @@
         },
         {
           "speaker": "Joanna",
-          "img_url": [
-            "https://tamboracai.com/assets/Megan-Marlow-Acai-Vegan-Cheesecake-Bars_02.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a piece of cake with walnuts on top",
           "query": "dairy-free blueberry cheesecake bars recipe",
           "dia_id": "D21:17",
@@ -21354,9 +21302,7 @@
         },
         {
           "speaker": "Nate",
-          "img_url": [
-            "https://i.redd.it/0z7nrwjeqc431.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a trophy and a game controller on a table",
           "query": "video game tournament trophy cash prize",
           "dia_id": "D22:2",
@@ -21848,9 +21794,7 @@
         },
         {
           "speaker": "Nate",
-          "img_url": [
-            "https://cdn12.picryl.com/photo/2016/12/31/water-turtle-on-the-water-animal-animals-a79381-1024.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photography of two turtles sitting on a log in a pond",
           "query": "pet turtles",
           "dia_id": "D25:15",
@@ -21864,9 +21808,7 @@
         },
         {
           "speaker": "Nate",
-          "img_url": [
-            "https://upload.wikimedia.org/wikipedia/commons/d/dd/Tortoises_in_the_Cotswold_Wildlife_Park_restaurant_-_geograph.org.uk_-_1468751.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photography of a dog laying on a rock in a zoo",
           "query": "turtles basking heat lamp",
           "dia_id": "D25:17",
@@ -24411,8 +24353,8 @@
         "category": 2
       },
       {
-        "question": "[V2_REPLACEMENT] What type of pattern is on the floor of the room where the two individuals are standing?",
-        "answer": "Checkered",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by John?",
+        "answer": "This image shows a well-organized bookshelf filled with various fantasy novels by Brandon Sanderson and other authors",
         "evidence": [
           "D28:5"
         ],
@@ -24667,8 +24609,8 @@
         "category": 3
       },
       {
-        "question": "[V2_REPLACEMENT] What is the dog doing in the photograph from the pet show?",
-        "answer": "Standing on an elevated platform",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by John?",
+        "answer": "This image captures a serene forest scene during what appears to be early morning or late afternoon",
         "evidence": [
           "D28:3"
         ],
@@ -24787,8 +24729,8 @@
         "category": 3
       },
       {
-        "question": "[V2_REPLACEMENT] Based on the collage, what breed of dog is the large black and tan animal?",
-        "answer": "Saint Bernard",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Tim?",
+        "answer": "The image depicts two individuals on a stage with a digital backdrop displaying abstract graphics and lines of light",
         "evidence": [
           "D31:11"
         ],
@@ -24990,8 +24932,8 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] What protective gear are the two people in the kitchen wearing?",
-        "answer": "Face masks",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by John?",
+        "answer": "This aerial photograph captures a stunning view of Paris, France, showcasing the iconic Champs-\u00c9lys\u00e9es avenue leading towards the Arc de Triomphe at its western end",
         "evidence": [
           "D9:17"
         ],
@@ -25225,8 +25167,8 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] What year is written in the corner of the mountain landscape photo?",
-        "answer": "1963",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by John?",
+        "answer": "The image shows a handwritten page of writing on what appears to be lined paper",
         "evidence": [
           "D7:2"
         ],
@@ -25553,8 +25495,8 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] What is the color and specific model of the Lamborghini at the car show?",
-        "answer": "Orange Lamborghini Aventador LP780-4",
+        "question": "[V2_REPLACEMENT] What text is visible on the sign in the image shared by John?",
+        "answer": "\"Feb 24, 2020\"",
         "evidence": [
           "D3:13"
         ],
@@ -25816,13 +25758,13 @@
         "answer": "A local organization helping disadvantaged kids with sports and school"
       },
       {
-        "question": "[V2_REPLACEMENT] What number is visible on the jerseys of the basketball players?",
+        "question": "[V2_REPLACEMENT] What text is visible on the sign in the image shared by John?",
         "evidence": [
           "D22:6"
         ],
         "category": 5,
         "adversarial_answer": "a basketball with autographs on it",
-        "answer": "16",
+        "answer": "\"Wheel of Time\"",
         "v2_replacement": true
       },
       {
@@ -25970,13 +25912,13 @@
         "answer": "Smoky Mountains"
       },
       {
-        "question": "[V2_REPLACEMENT] Besides the turtles, what fruit is visible in the image shared by Nate?",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by John?",
         "evidence": [
           "D8:13"
         ],
         "category": 5,
         "adversarial_answer": "Seeing their growth, improvement, and confidence",
-        "answer": "Strawberries",
+        "answer": "This image depicts a cozy living room corner featuring a dark brown leather armchair with several books stacked on it",
         "v2_replacement": true
       },
       {
@@ -26179,13 +26121,13 @@
         "answer": "Sports and marketing seminars"
       },
       {
-        "question": "[V2_REPLACEMENT] Describe the physical feat being performed by the two individuals in the martial arts photo.",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by John?",
         "evidence": [
           "D8:6"
         ],
         "category": 5,
         "adversarial_answer": "youth sports and fair chances in sports",
-        "answer": "One person is balanced upside down on the shoulders of another.",
+        "answer": "The image shows a book titled \"THE LUCKIEST DAY OF YOUR LIFE\" from the \"Choose Your Own Adventure\u00ae\" series by Edward Packard",
         "v2_replacement": true
       },
       {
@@ -26968,9 +26910,7 @@
         },
         {
           "speaker": "Tim",
-          "img_url": [
-            "https://cdn27.picryl.com/photo/1934/01/01/herbert-brutus-ehrmann-papers-1906-1970-sacco-vanzetti-book-review-by-edmund-216c54-1024.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photography of a book opened to a page with a picture of a man",
           "query": "fantasy novel article screenshot",
           "dia_id": "D6:6",
@@ -27107,9 +27047,7 @@
         },
         {
           "speaker": "John",
-          "img_url": [
-            "https://upload.wikimedia.org/wikipedia/commons/6/61/2018_DII_Elite_Eight_Northern_State_Signed_Basketball.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photography of a basketball with autographs on it sitting on a table",
           "query": "basketball signed teammates",
           "dia_id": "D7:7",
@@ -27256,9 +27194,7 @@
         },
         {
           "speaker": "John",
-          "img_url": [
-            "https://www.goodwillfinds.com/on/demandware.static/-/Sites-goodwill-master/default/dw41d27013/images/large/lhyOBm1CPSKy54szJay7vQj/2023/November/14/image_(140).jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a dvd cover with a castle in the background",
           "query": "harry potter dvd collection",
           "dia_id": "D8:17",
@@ -27946,9 +27882,7 @@
         },
         {
           "speaker": "John",
-          "img_url": [
-            "https://upload.wikimedia.org/wikipedia/commons/4/4c/USA_men%27s_national_basketball_team_%2851910110377%29.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photography of a basketball team posing for a team photo",
           "query": "group photo basketball",
           "dia_id": "D13:2",
@@ -28106,9 +28040,7 @@
         },
         {
           "speaker": "John",
-          "img_url": [
-            "https://cdn2.picryl.com/photo/2020/01/16/members-of-the-local-and-us-communities-attend-the-edfa79-1024.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photography of a basketball player standing in a gym with his hands on his hips",
           "query": "mentoring young players practice smiles",
           "dia_id": "D14:7",
@@ -28373,9 +28305,7 @@
         },
         {
           "speaker": "John",
-          "img_url": [
-            "https://s3-us-west-2.amazonaws.com/sportshub2-uploads-prod/files/sites/1567/2018/02/09230004/IMG_8348-e1518217261806.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a group of people standing on a basketball court",
           "query": "group of basketball players cheering on sidelines",
           "dia_id": "D15:26",
@@ -28914,9 +28844,7 @@
         },
         {
           "speaker": "John",
-          "img_url": [
-            "https://pixahive.com/wp-content/uploads/2021/02/Virabhadrasana-Warrior-Pose-357219-pixahive.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photography of a man doing a yoga pose on a blue mat",
           "query": "warrior II pose",
           "dia_id": "D20:8",
@@ -29111,9 +29039,7 @@
         },
         {
           "speaker": "John",
-          "img_url": [
-            "https://i.redd.it/q46xsv4ciu641.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a mountain with a snow covered peak in the distance",
           "query": "plane mountain range snow rocky mountains breathtaking experience majestic peaks fresh air",
           "dia_id": "D20:40",
@@ -29560,9 +29486,7 @@
         },
         {
           "speaker": "John",
-          "img_url": [
-            "https://mainephysicaltherapy.com/wp-content/uploads/2017/12/Incline-one-arm-cable-pull-down-1.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a man sitting on a chair with a blue ball",
           "query": "physical therapy exercises",
           "dia_id": "D24:12",
@@ -29847,9 +29771,7 @@
         },
         {
           "speaker": "John",
-          "img_url": [
-            "https://necommunitycenter.org/portland/wp-content/uploads/2023/01/Game-in-Progress-with-Ref2-1024x684.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a group of kids playing basketball in a gym",
           "query": "youth sports programs basketball court kids playing",
           "dia_id": "D26:21",
@@ -32054,8 +31976,8 @@
         "category": 2
       },
       {
-        "question": "[V2_REPLACEMENT] According to Calvin's text, when is he planning to visit the location shown in the living room photo?",
-        "answer": "Next month",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Audrey?",
+        "answer": "This image captures a breathtaking sunset over a mountainous landscape",
         "evidence": [
           "D1:9"
         ],
@@ -32063,8 +31985,8 @@
         "v2_replacement": true
       },
       {
-        "question": "[V2_REPLACEMENT] What specific activity is offered at the table where the young girl is sitting?",
-        "answer": "Make Your Own Fake Tattoo",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Audrey?",
+        "answer": "Foreground**: Four dogs are prominently featured:",
         "evidence": [
           "D24:9"
         ],
@@ -32144,8 +32066,8 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] What weapons are the performers holding in the traditional dance photo?",
-        "answer": "Swords and spears",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Andrew?",
+        "answer": "This image depicts a cozy indoor scene featuring three dogs resting together on a couch",
         "evidence": [
           "D8:17"
         ],
@@ -32153,8 +32075,8 @@
         "v2_replacement": true
       },
       {
-        "question": "[V2_REPLACEMENT] What distinctive clothing pattern are the three individuals wearing in the photo?",
-        "answer": "Camouflage",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Andrew?",
+        "answer": "This image captures a dynamic moment of an Australian Shepherd dog mid-jump through a colorful hoop obstacle during what appears to be an agility competition or training session",
         "evidence": [
           "D7:5"
         ],
@@ -32162,8 +32084,8 @@
         "v2_replacement": true
       },
       {
-        "question": "[V2_REPLACEMENT] Describe the outfit worn by the central figure in the theatrical performance photo.",
-        "answer": "A black and white striped suit with a top hat and sunglasses",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Audrey?",
+        "answer": "This image depicts an outdoor rooftop lounge area with a cityscape backdrop",
         "evidence": [
           "D9:5"
         ],
@@ -32267,8 +32189,8 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] Which programming language is being used in the code editor shown on the screen?",
-        "answer": "Python",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Audrey?",
+        "answer": "This image showcases a beautifully plated dish on an elegantly designed plate with a gradient of colors ranging from white to blue and brown tones at the edges",
         "evidence": [
           "D14:2"
         ],
@@ -32343,8 +32265,8 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] How many people are required to lift the heavy object according to the box's warning label?",
-        "answer": "Two people",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Audrey?",
+        "answer": "1",
         "evidence": [
           "D32:5"
         ],
@@ -32480,8 +32402,8 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] What color is the collar on the small dog lying on the chair?",
-        "answer": "Pink",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Andrew?",
+        "answer": "The image depicts two dogs standing on a grassy lawn with a wooden fence in the background",
         "evidence": [
           "D2:17"
         ],
@@ -32827,8 +32749,8 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] What famous guitar brand name is visible on the headstock in the photo?",
-        "answer": "Fender",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Audrey?",
+        "answer": "This image depicts a delightful outdoor picnic setup on a grassy field with vibrant green hues",
         "evidence": [
           "D16:8"
         ],
@@ -33240,13 +33162,13 @@
         "answer": "Petted, hugged, spoke calmly and slowly walked the dog"
       },
       {
-        "question": "[V2_REPLACEMENT] Who is the handwritten note from, and to whom is it addressed?",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Audrey?",
         "evidence": [
           "D3:9"
         ],
         "category": 5,
         "adversarial_answer": "Multiple times a day",
-        "answer": "From Ava to Katie",
+        "answer": "The image depicts a playful scene featuring three dogs on a grassy lawn",
         "v2_replacement": true
       },
       {
@@ -33516,9 +33438,7 @@
       "session_2": [
         {
           "speaker": "Audrey",
-          "img_url": [
-            "https://moderndogmagazine.com/sites/default/files/images/photoentries/photos/pixie%20smiling.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a small white dog sitting on a carpet",
           "query": "new puppy Pixie",
           "dia_id": "D2:1",
@@ -33849,9 +33769,7 @@
         },
         {
           "speaker": "Audrey",
-          "img_url": [
-            "https://images.pixexid.com/a-woman-is-joyfully-running-in-a-sunlit-forest-with-four-dogs-of-various-breeds-kn6f7vry.jpeg"
-          ],
+          "img_url": [],
           "blip_caption": "a photography of a woman walking with her dogs in the woods",
           "query": "dogs field nature",
           "dia_id": "D3:28",
@@ -34569,9 +34487,7 @@
         },
         {
           "speaker": "Andrew",
-          "img_url": [
-            "https://www.goinbark.com/wp-content/uploads/2016/08/20160820_150554.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a group of dogs playing with a ball in a large indoor area",
           "query": "dog playground",
           "dia_id": "D9:6",
@@ -34624,9 +34540,7 @@
         },
         {
           "speaker": "Andrew",
-          "img_url": [
-            "https://cdn2.picryl.com/photo/2015/06/09/flowers-bloom-in-a-garden-near-the-memorial-amphitheater-1acba1-1024.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photography of a flower bed with many different colored flowers",
           "query": "neighborhood park flowers blooming spring",
           "dia_id": "D9:16",
@@ -34929,9 +34843,7 @@
         },
         {
           "speaker": "Andrew",
-          "img_url": [
-            "https://community.us.craghoppers.com/wp-content/uploads/2018/05/j3bmicznnmrnfe1uchho.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a woman walking up a steep hill with a view of the ocean",
           "query": "hiking trail beautiful view",
           "dia_id": "D11:7",
@@ -35158,9 +35070,7 @@
         },
         {
           "speaker": "Audrey",
-          "img_url": [
-            "https://thebaskshop.com/cdn/shop/files/image_8117b42d-0057-492c-9b06-88fc439af683.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a group of wooden keychains with engraved names",
           "query": "personalized dog tags engraved names dogs",
           "dia_id": "D12:6",
@@ -35474,9 +35384,7 @@
         },
         {
           "speaker": "Audrey",
-          "img_url": [
-            "https://i.redd.it/s6gfs24m2hpb1.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a dog sitting on a trail with a view of a city",
           "query": "german shepherd hiking mountains",
           "dia_id": "D14:22",
@@ -36014,9 +35922,7 @@
         },
         {
           "speaker": "Audrey",
-          "img_url": [
-            "https://upload.wikimedia.org/wikipedia/en/2/24/Dog_leash.JPG"
-          ],
+          "img_url": [],
           "blip_caption": "a photography of a red retractable leash with a black handle",
           "query": "torn dog leash park scare",
           "dia_id": "D19:2",
@@ -36040,9 +35946,7 @@
         },
         {
           "speaker": "Andrew",
-          "img_url": [
-            "https://upload.wikimedia.org/wikipedia/commons/5/50/A_Chihuahua_fetching_a_ball.JPG"
-          ],
+          "img_url": [],
           "blip_caption": "a photography of a dog running in a field with a frisbee",
           "query": "dog playing fetch park",
           "dia_id": "D19:5",
@@ -36083,9 +35987,7 @@
         },
         {
           "speaker": "Audrey",
-          "img_url": [
-            "https://pinnaclepooch.com/cdn/shop/products/image_33290672-49cc-42a7-9f1b-fa7bbe93e529.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of two dogs sitting next to each other on a beach",
           "query": "dogs matching collars leashes",
           "dia_id": "D19:10",
@@ -36170,9 +36072,7 @@
         },
         {
           "speaker": "Audrey",
-          "img_url": [
-            "https://cdn12.picryl.com/photo/2016/12/31/malinois-water-garden-dog-basks-0d19ee-1024.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photography of a dog laying on a wooden dock in a pond",
           "query": "dog garden",
           "dia_id": "D19:22",
@@ -36218,9 +36118,7 @@
         },
         {
           "speaker": "Audrey",
-          "img_url": [
-            "data:image/jpeg;base64,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"
-          ],
+          "img_url": [],
           "blip_caption": "a photography of three dogs sitting on a couch with a laptop in the background",
           "query": "cute dogs cuddling on the couch",
           "dia_id": "D19:28",
@@ -36262,9 +36160,7 @@
         },
         {
           "speaker": "Audrey",
-          "img_url": [
-            "https://cdn12.picryl.com/photo/2016/12/31/dogs-reward-expect-856f58-1024.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photography of a group of dogs sitting on top of a lush green field",
           "query": "dogs sitting park",
           "dia_id": "D20:4",
@@ -36365,9 +36261,7 @@
         },
         {
           "speaker": "Andrew",
-          "img_url": [
-            "https://upload.wikimedia.org/wikipedia/commons/4/48/Birdwatching_India_01.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photography of a pen and a notebook with a pen and a camera",
           "query": "binoculars notebook",
           "dia_id": "D20:21",
@@ -36830,9 +36724,7 @@
         },
         {
           "speaker": "Andrew",
-          "img_url": [
-            "https://community.us.craghoppers.com/wp-content/uploads/2018/05/j3bmicznnmrnfe1uchho.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a woman walking up a steep hill with a view of the ocean",
           "query": "hiking trail beautiful view",
           "dia_id": "D23:23",
@@ -37012,9 +36904,7 @@
         },
         {
           "speaker": "Audrey",
-          "img_url": [
-            "https://i.redd.it/1jjc5bw9tmgb1.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a person with a cast on their arm and arm in a cast",
           "query": "broken arm cast",
           "dia_id": "D25:2",
@@ -37327,9 +37217,7 @@
         },
         {
           "speaker": "Andrew",
-          "img_url": [
-            "https://exploringtheprime.com/wp-content/uploads/2019/10/IMG_6849.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a forest with yellow trees and a blue sky",
           "query": "hiking trail colorful autumn trees",
           "dia_id": "D26:34",
@@ -39687,8 +39575,8 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] What color is the light used in the snake's enclosure?",
-        "answer": "Red",
+        "question": "[V2_REPLACEMENT] What text is visible on the sign in the image shared by John?",
+        "answer": "\"MOHENJO-DARO\"",
         "evidence": [
           "D15:16"
         ],
@@ -40336,8 +40224,8 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] Name three colors of baubles visible on the Christmas tree shared by John.",
-        "answer": "Red, green, and gold (or silver)",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by John?",
+        "answer": "This image features a young golden retriever puppy sitting on a patterned rug next to a gray couch",
         "evidence": [
           "D8:29"
         ],
@@ -40353,8 +40241,8 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] What website URL is watermarked on the cityscape photo?",
-        "answer": "WWW.SHOOT360.ORG",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by John?",
+        "answer": "The image shows a computer screen displaying an error message from the video game \"The Elder Scrolls Online",
         "evidence": [
           "D10:5"
         ],
@@ -40736,13 +40624,13 @@
         "answer": "books, movies, dreams"
       },
       {
-        "question": "[V2_REPLACEMENT] Mention two types of vegetables being chopped in the kitchen scene.",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by John?",
         "evidence": [
           "D15:24"
         ],
         "category": 5,
         "adversarial_answer": "drums",
-        "answer": "Broccoli and carrots",
+        "answer": "This image appears to be a screenshot from the video game \"Sid Meier's Civilization VI",
         "v2_replacement": true
       },
       {
@@ -41597,9 +41485,7 @@
         },
         {
           "speaker": "James",
-          "img_url": [
-            "https://i.redd.it/w5v13bfv8r861.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a woman dressed in armor kneeling on a rock",
           "query": "witcher inspired virtual world screenshot",
           "dia_id": "D6:4",
@@ -42645,9 +42531,7 @@
         },
         {
           "speaker": "James",
-          "img_url": [
-            "https://i.redd.it/a6vjqnq17kcb1.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a dog standing in front of a pool",
           "query": "Max playing ball backyard",
           "dia_id": "D14:15",
@@ -43937,9 +43821,7 @@
         },
         {
           "speaker": "John",
-          "img_url": [
-            "https://cdn11.bigcommerce.com/s-qy9kl0lfci/images/stencil/original/products/62751/75290/Tama_Star_Classic_Tiger_Stripe__70181.1699123066.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a drum set up in a recording studio",
           "query": "drum set",
           "dia_id": "D24:15",
@@ -44032,9 +43914,7 @@
         },
         {
           "speaker": "John",
-          "img_url": [
-            "https://upload.wikimedia.org/wikipedia/commons/d/d1/Awesomenauts_-_Screenshot_01.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photography of a video game with a bunch of different screens",
           "query": "2D adventure game puzzles exploration colorful virtual world",
           "dia_id": "D25:9",
@@ -44642,9 +44522,7 @@
         },
         {
           "speaker": "John",
-          "img_url": [
-            "https://i.redd.it/jqeodrms8xnb1.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a book with a list of the different games",
           "query": "chess strategy book screenshot",
           "dia_id": "D30:12",
@@ -46574,8 +46452,8 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] What toy are the dogs and their owners playing with in the park?",
-        "answer": "A frisbee",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Deborah?",
+        "answer": "1",
         "evidence": [
           "D3:24"
         ],
@@ -46664,8 +46542,8 @@
         "category": 3
       },
       {
-        "question": "[V2_REPLACEMENT] What color is the leash on the Labrador puppy sitting in the flowers?",
-        "answer": "Blue",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Deborah?",
+        "answer": "This image features a notebook with an inspirational quote written on its page",
         "evidence": [
           "D17:5"
         ],
@@ -46762,8 +46640,8 @@
         "category": 2
       },
       {
-        "question": "[V2_REPLACEMENT] What brand name is printed on the side of the black and pink sneaker?",
-        "answer": "ASICS",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Jolene?",
+        "answer": "The image features a vibrant yellow mug with the motivational phrase \"Believe In Yourself\" written on it in blue cursive lettering",
         "evidence": [
           "D13:15"
         ],
@@ -46779,8 +46657,8 @@
         "category": 2
       },
       {
-        "question": "[V2_REPLACEMENT] What is the name signed in the bottom right corner of the surfboard art?",
-        "answer": "Karl",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Deborah?",
+        "answer": "1",
         "evidence": [
           "D29:28"
         ],
@@ -46939,8 +46817,8 @@
         "category": 2
       },
       {
-        "question": "[V2_REPLACEMENT] According to Calvin's text, what is the intended final use for the room shown under construction?",
-        "answer": "A recording studio",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Deborah?",
+        "answer": "This image captures a serene sunset over a body of water, likely a lake or river",
         "evidence": [
           "D11:4"
         ],
@@ -47034,8 +46912,8 @@
         "category": 2
       },
       {
-        "question": "[V2_REPLACEMENT] What color are the two pillows on the brown leather armchair?",
-        "answer": "Yellow and red-orange",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Jolene?",
+        "answer": "This image shows two individuals standing side by side in a room with patterned flooring",
         "evidence": [
           "D3:32"
         ],
@@ -47176,8 +47054,8 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] What is the shape of the blue toy that the dog Max is resting his head on?",
-        "answer": "A fish",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Jolene?",
+        "answer": "This image features a motivational notebook with the phrase \"Never forget how wildly capable you are\" written on its cover",
         "evidence": [
           "D14:13"
         ],
@@ -47303,8 +47181,8 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] What color are the two pillows on the brown leather armchair?",
-        "answer": "Yellow and red-orange",
+        "question": "[V2_REPLACEMENT] What text is visible on the sign in the image shared by Jolene?",
+        "answer": "\"CARA MIA MAY\"",
         "evidence": [
           "D3:32"
         ],
@@ -47396,8 +47274,8 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] What is the central object in the water in Deborah's favorite pondering spot?",
-        "answer": "A small boat with a single oar",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Deborah?",
+        "answer": "1",
         "evidence": [
           "D23:12"
         ],
@@ -47605,8 +47483,8 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] What quote is written on the cover of the black spiral notebook?",
-        "answer": "\"Who you are tomorrow begins with what you do today.\"",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Jolene?",
+        "answer": "Cherry Blossoms**: Pink petals with yellow stamens, indicating they might be of the 'Kanzan' or similar variety.",
         "evidence": [
           "D23:23"
         ],
@@ -47630,8 +47508,8 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] What specific promotional text is visible on the bouquet of roses?",
-        "answer": "20% off",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Deborah?",
+        "answer": "This image depicts a yoga class session taking place in a studio with artistic wall murals featuring floral designs",
         "evidence": [
           "D20:6"
         ],
@@ -48026,8 +47904,8 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] What two types of disposal labels are seen on the red mailbox unit?",
-        "answer": "TRASH and RECYCLING",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Deborah?",
+        "answer": "This image features a vibrant flower arrangement placed on the ground of what appears to be an outdoor residential area or garden path",
         "evidence": [
           "D20:31"
         ],
@@ -49112,9 +48990,7 @@
         },
         {
           "speaker": "Deborah",
-          "img_url": [
-            "https://alvjewels.com/cdn/shop/products/image_2b791370-8eae-4e4d-8c8f-4fe581f9240a.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a woman wearing a white shirt and a gold chain necklace",
           "query": "heart-shaped necklace",
           "dia_id": "D4:36",
@@ -49651,9 +49527,7 @@
         },
         {
           "speaker": "Deborah",
-          "img_url": [
-            "https://bunundone.com/wp-content/uploads/2019/08/IMG_5619.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a group of women posing for a picture",
           "query": "neighborhood yoga class smiling faces",
           "dia_id": "D9:5",
@@ -50081,9 +49955,7 @@
         },
         {
           "speaker": "Jolene",
-          "img_url": [
-            "https://www.arup.com/-/media/arup/images/careers-new/early-careers/interns/americas-interns-banner-image.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a group of construction workers posing for a picture",
           "query": "engineering firm internship",
           "dia_id": "D13:5",
@@ -50305,9 +50177,7 @@
         },
         {
           "speaker": "Deborah",
-          "img_url": [
-            "https://thehammockllc.com/wp-content/uploads/2019/07/Yoga-all-ages.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of three people standing in front of a large statue",
           "query": "group people yoga mountain top",
           "dia_id": "D14:15",
@@ -50739,9 +50609,7 @@
         },
         {
           "speaker": "Jolene",
-          "img_url": [
-            "http://thegroundedpractice.com/cdn/shop/products/306F9F91-FDB8-4052-B87B-4692205658E12.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of two notebooks with a blue cover and a white strip",
           "query": "meditation quote journal",
           "dia_id": "D17:4",
@@ -50849,9 +50717,7 @@
         },
         {
           "speaker": "Deborah",
-          "img_url": [
-            "https://www.naplesnews.com/gcdn/-mm-/06756bca6c979c173ae23c1ba44f60a8fd2bcbee/c\\u003d0-0-3024-4032/local/-/media/2017/04/25/Naples/Naples/636287249454494595-Yoga-4.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a group of people doing yoga on a beach",
           "query": "sunset beach meditation",
           "dia_id": "D18:8",
@@ -51364,9 +51230,7 @@
         },
         {
           "speaker": "Jolene",
-          "img_url": [
-            "https://www.thriveyogaandwellness.com/wp-content/uploads/2019/06/IMG_6315-e1561295654472.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a woman in a pink shirt doing a yoga pose",
           "query": "yoga pose snake",
           "dia_id": "D22:16",
@@ -51544,9 +51408,7 @@
         },
         {
           "speaker": "Jolene",
-          "img_url": [
-            "https://anomadontheloose.com/wp-content/uploads/2018/01/tam-wua-forest-monastery-cave-walking-meditation-1728368610..jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a group of people walking up a set of stairs",
           "query": "meditation nature",
           "dia_id": "D23:15",
@@ -52286,9 +52148,7 @@
         },
         {
           "speaker": "Deborah",
-          "img_url": [
-            "https://notjustsundaydinner.com/wp-content/uploads/2022/09/peach-cobbler-2.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a bowl of food with a spoon in it",
           "query": "peach cobbler delicious warm recipe",
           "dia_id": "D29:7",
@@ -54459,8 +54319,8 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] What object is resting next to the black dog's paw in the photo?",
-        "answer": "A yellow tennis ball",
+        "question": "[V2_REPLACEMENT] What text is visible on the sign in the image shared by Sam?",
+        "answer": "\"BRING IT ON HOME\"",
         "evidence": [
           "D13:7"
         ],
@@ -54699,8 +54559,8 @@
         "category": 3
       },
       {
-        "question": "[V2_REPLACEMENT] What animal is pictured next to the word \"MILK\" on the clipboard?",
-        "answer": "A cow",
+        "question": "[V2_REPLACEMENT] What text is visible on the sign in the image shared by Evan?",
+        "answer": "\"HARD CORE\"",
         "evidence": [
           "D13:9"
         ],
@@ -54708,8 +54568,8 @@
         "v2_replacement": true
       },
       {
-        "question": "[V2_REPLACEMENT] What are the men at the winter campsite holding while gathered around the fire?",
-        "answer": "Red cups",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Sam?",
+        "answer": "This vibrant artwork features a person with their hands raised to the face, partially obscuring it",
         "evidence": [
           "D18:1"
         ],
@@ -54725,8 +54585,8 @@
         "category": 3
       },
       {
-        "question": "[V2_REPLACEMENT] What year is written next to the entry about starting a blog in the notebook?",
-        "answer": "2019",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Evan?",
+        "answer": "The image depicts a serene riverside scene with multiple kayaks lined up on the rocky shore",
         "evidence": [
           "D17:6"
         ],
@@ -55538,8 +55398,8 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] What unique accessory is the dog in the foreground wearing around its neck?",
-        "answer": "A bright green light",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Evan?",
+        "answer": "This image depicts a serene natural landscape featuring a calm body of water reflecting the surrounding scenery",
         "evidence": [
           "D23:8"
         ],
@@ -57052,9 +56912,7 @@
         },
         {
           "speaker": "Evan",
-          "img_url": [
-            "https://curated-uploads.imgix.net/AgAAAB0AKRRYoR0ZPH-IdLq3DQTvog.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a group of people skiing down a snow covered slope",
           "query": "banff skiing snowy landscape slopes winter",
           "dia_id": "D8:28",
@@ -57125,9 +56983,7 @@
         },
         {
           "speaker": "Evan",
-          "img_url": [
-            "https://upload.wikimedia.org/wikipedia/commons/a/a3/In_a_car_over_a_lake_%28Unsplash%29.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photography of a car is parked near a lake with mountains in the background",
           "query": "prius parked lake view nature",
           "dia_id": "D9:8",
@@ -57244,9 +57100,7 @@
         },
         {
           "speaker": "Evan",
-          "img_url": [
-            "https://trendgallery.art/cdn/shop/files/IMG_9358_6dd0efff-bb0c-4923-804f-9edc8600fee8.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a painting of a mountain range with a horse",
           "query": "painting colorful landscape",
           "dia_id": "D10:7",
@@ -57510,9 +57364,7 @@
       "session_13": [
         {
           "speaker": "Evan",
-          "img_url": [
-            "https://upload.wikimedia.org/wikipedia/commons/8/85/Cliffs_and_mountains_and_sky_at_sunset_--_2_of_33.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photography of a painting of a person on a cliff",
           "query": "painting peaceful sunset",
           "dia_id": "D13:1",
@@ -57946,9 +57798,7 @@
         },
         {
           "speaker": "Sam",
-          "img_url": [
-            "https://www.goodwillfinds.com/on/demandware.static/-/Sites-goodwill-master/default/dwa2341b30/images/large/lhyOBm1CPSKy54szJay7vQj/2023/November/07/image_(170).jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a book with a picture of a man on it",
           "query": "the godfather dvd box set",
           "dia_id": "D17:5",
@@ -58422,9 +58272,7 @@
         },
         {
           "speaker": "Evan",
-          "img_url": [
-            "https://trendgallery.art/cdn/shop/files/IMG_9647_fa0b4eba-d7f5-48ae-81c9-b471605dd4a9.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a painting with a white background and a blue, orange, and black painting",
           "query": "canvas painting colorful abstract strokes",
           "dia_id": "D21:10",
@@ -58759,9 +58607,7 @@
         },
         {
           "speaker": "Evan",
-          "img_url": [
-            "https://serafrescaic.com/wp-content/uploads/2018/10/wedding-cake.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a wedding cake with candles and flowers on a table",
           "query": "wedding cake",
           "dia_id": "D23:21",
@@ -60517,8 +60363,8 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] What is the subject of the painting Evan shared in the chat?",
-        "answer": "A seascape at sunset",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Calvin?",
+        "answer": "This image captures a vibrant street scene at night in an urban area, likely in Japan given the presence of Japanese characters on various signs",
         "evidence": [
           "D10:1"
         ],
@@ -60536,8 +60382,8 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] What feature is located in the center of the park in the aerial cityscape photo?",
-        "answer": "A circular fountain",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Dave?",
+        "answer": "This image depicts a cozy living room with large windows that offer a beautiful view of cherry blossoms outside",
         "evidence": [
           "D27:38"
         ],
@@ -60683,8 +60529,8 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] Name the two characters whose portraits are visible on the game interface.",
-        "answer": "Olivia and Katarina",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Dave?",
+        "answer": "This image depicts a professional recording studio setup",
         "evidence": [
           "D29:5"
         ],
@@ -60692,8 +60538,8 @@
         "v2_replacement": true
       },
       {
-        "question": "[V2_REPLACEMENT] Describe the landscape shown in the panoramic photograph shared by John.",
-        "answer": "A snowy mountainous landscape with a frozen body of water",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Dave?",
+        "answer": "This image captures a serene scene of a canal during sunset",
         "evidence": [
           "D20:32"
         ],
@@ -60891,8 +60737,8 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] Which two famous football figures are featured in the background collage at the awards ceremony?",
-        "answer": "Arsene Wenger and Dennis Bergkamp",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Dave?",
+        "answer": "This black-and-white photograph captures a lively scene at what appears to be a nightclub or concert venue",
         "evidence": [
           "D26:3"
         ],
@@ -60943,8 +60789,8 @@
         "category": 2
       },
       {
-        "question": "[V2_REPLACEMENT] What is the title of the gaming magazine shown on the cover?",
-        "answer": "The Masterpiece",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Calvin?",
+        "answer": "This image captures a picturesque cityscape during sunset or sunrise with vibrant hues of pink and blue in the sky",
         "evidence": [
           "D25:14"
         ],
@@ -61016,8 +60862,8 @@
         "category": 1
       },
       {
-        "question": "[V2_REPLACEMENT] What activity are the group of people participating in outdoors in the photo?",
-        "answer": "Yoga",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Dave?",
+        "answer": "Audience**: Numerous individuals visible, all seemingly focused and enthusiastic.",
         "evidence": [
           "D14:1"
         ],
@@ -61065,8 +60911,8 @@
         "category": 2
       },
       {
-        "question": "[V2_REPLACEMENT] What items are organized on the shelf in the photo shared by Joanna?",
-        "answer": "Various books and magazines",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Dave?",
+        "answer": "The image depicts a scene at an auto repair shop",
         "evidence": [
           "D6:8"
         ],
@@ -61290,8 +61136,8 @@
         "category": 4
       },
       {
-        "question": "[V2_REPLACEMENT] What weapons is the character carrying in James's hand-drawn sketch?",
-        "answer": "A sword and a shield",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Dave?",
+        "answer": "This image features a bright red Ferrari parked on the side of an urban street",
         "evidence": [
           "D1:20"
         ],
@@ -61905,13 +61751,13 @@
         "answer": "Ferrari"
       },
       {
-        "question": "[V2_REPLACEMENT] Name one specific book series title visible on the spines in the large bookcase.",
+        "question": "[V2_REPLACEMENT] What is the main subject depicted in the image shared by Dave?",
         "evidence": [
           "D19:13"
         ],
         "category": 5,
         "adversarial_answer": "Car mod workshop",
-        "answer": "The Chronicles of Narnia (or Star Wars)",
+        "answer": "This image captures a dynamic moment on stage featuring two musicians performing energetically",
         "v2_replacement": true
       },
       {
@@ -62382,9 +62228,7 @@
         },
         {
           "speaker": "Dave",
-          "img_url": [
-            "https://express-images.franklymedia.com/6616/sites/11/2019/05/28094328/IMG_3656.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a large crowd of people at a concert",
           "query": "music festival boston stage crowd",
           "dia_id": "D2:8",
@@ -62516,9 +62360,7 @@
         {
           "speaker": "Dave",
           "dia_id": "D3:10",
-          "img_url": [
-            "https://upload.wikimedia.org/wikipedia/commons/6/67/Boston_Skyline_%28193150499%29.jpeg"
-          ],
+          "img_url": [],
           "re-download": true,
           "blip_caption": "a photography of a city skyline with a boat in the water",
           "text": "Sounds like an amazing plan, Cal! I can't wait for your trip to Boston. I'll show you around town and all the cool spots. The music scene there is awesome, with places like Paradise Rock, House of Blues, and Fenway Park. You'll definitely have some great performances there. Count me in for the front row when you're up onstage! Oh, and by the way, check out this pic."
@@ -62531,9 +62373,7 @@
         {
           "speaker": "Dave",
           "dia_id": "D3:12",
-          "img_url": [
-            "https://upload.wikimedia.org/wikipedia/commons/d/de/Ford_Mustang_-_Shuttleworth_Classic_Car_Show_2017_%2833661471822%29.jpg"
-          ],
+          "img_url": [],
           "re-download": true,
           "blip_caption": "a photography of a green mustang parked in a field of grass",
           "text": "Last weekend I went to a car show. Classic cars are so charming and the dedication people put into restoring them is amazing. That's why I'm so into auto engineering. Can't wait to show you some when you come to Boston! Oh, almost forgot to send a photo, look at this beautiful car!"
@@ -63066,9 +62906,7 @@
         },
         {
           "speaker": "Calvin",
-          "img_url": [
-            "https://musicconservatory.org/wp-content/uploads/2022/12/IMG-2298.png"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a recording studio with a large window and a desk",
           "query": "studio control room making magic studio",
           "dia_id": "D8:3",
@@ -63163,9 +63001,7 @@
         },
         {
           "speaker": "Calvin",
-          "img_url": [
-            "https://cdn2.picryl.com/photo/2014/08/13/alejandro-soto-100th-force-support-squadron-auto-hobby-8fa715-1024.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photography of a man working on a car in a garage",
           "query": "car repair shop mechanic working red car",
           "dia_id": "D9:5",
@@ -63323,9 +63159,7 @@
         },
         {
           "speaker": "Calvin",
-          "img_url": [
-            "https://i.redd.it/al2nryjbov481.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a large house with a lot of windows and lights",
           "query": "city lights view mansion",
           "dia_id": "D10:8",
@@ -63392,9 +63226,7 @@
         {
           "speaker": "Dave",
           "dia_id": "D11:3",
-          "img_url": [
-            "https://cdn2.picryl.com/photo/2014/07/04/my-public-lands-roadtrip-dalton-highway-in-alaska-19315093341-ddcc96-1024.jpg"
-          ],
+          "img_url": [],
           "re-download": true,
           "blip_caption": "a photography of a person riding a motorcycle down a dirt road",
           "text": "It was great to get away and reconnect with my passion. Reminded me why I'm passionate about what I do. Makes the long hours worth it. Here's a pic what a wonderful place we found. Have you had any recent moments that made you remember what you love?"
@@ -63569,9 +63401,7 @@
       "session_13": [
         {
           "speaker": "Dave",
-          "img_url": [
-            "https://upload.wikimedia.org/wikipedia/commons/0/0f/Two_on_ramps_%2841411586832%29.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photography of a man standing in front of a car on a lift",
           "query": "professional car modification workshop sleek sports car",
           "dia_id": "D13:1",
@@ -63812,9 +63642,7 @@
         },
         {
           "speaker": "Calvin",
-          "img_url": [
-            "https://i.redd.it/clg582472ta91.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photo of a crowd of people sitting on the grass at night",
           "query": "city festival crowd energy vibe",
           "dia_id": "D15:6",
@@ -64246,9 +64074,7 @@
         {
           "speaker": "Dave",
           "dia_id": "D20:1",
-          "img_url": [
-            "https://cdn12.picryl.com/photo/2016/12/31/ford-xl-1967-restored-motor-v8-345-hp-transportation-traffic-2d0301-1024.jpg"
-          ],
+          "img_url": [],
           "re-download": true,
           "blip_caption": "a photography of a car engine with a small engine",
           "text": "Hey Calvin, good to catch up again! Had a tough time with my car project. Worked on the engine of the vintage Mustang, thought I'd fixed it, but when I started it up, heard a weird noise. So disappointing after putting so much work in. Take a look at the engine!"
@@ -64861,9 +64687,7 @@
         },
         {
           "speaker": "Dave",
-          "img_url": [
-            "https://upload.wikimedia.org/wikipedia/commons/3/34/Car_workshop_tools.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photography of a garage with a bunch of tools hanging on the wall",
           "query": "garage car parts and tools",
           "dia_id": "D25:13",
@@ -65473,9 +65297,7 @@
         },
         {
           "speaker": "Calvin",
-          "img_url": [
-            "https://live.staticflickr.com/7269/6934706388_7ea340725b_b.jpg"
-          ],
+          "img_url": [],
           "blip_caption": "a photography of a group of people sitting around a desk",
           "query": "group of friends studio session",
           "dia_id": "D29:7",
