@@ -46,24 +46,27 @@ We programmatically merged the 156 corrections (99 score-corrupting errors + 57 
 ### Phase 2: Multimodal Ground Truth & Triage
 We forensically partitioned the 1,986 questions into three mathematically strict sets based on their evidence chains:
 1. **Pure Text Set (1,251 questions):** Guaranteed to have no images in their evidence chain.
-2. **Verifiable Image Set (653 questions):** Evidence relies *only* on the 775 surviving, live image URLs.
+2. **Verifiable Image Set (653 questions):** Evidence relies *only* on the 774 surviving, live image URLs.
 3. **Dead Image Set (82 questions):** Evidence relies on permanently dead links (unanswerable).
 
 *(Note: We also discovered **377 unused ambient images** in the chat histories, which are being used to generate 82 brand-new replacement questions to restore the benchmark to a flawless 1,986 questions).*
 
 ### Phase 3: The Visual Translation Cache (Sister Repository)
 To prevent future link rot from destroying the benchmark again, we built a sister repository: [locomo-visual-ground-truth](https://github.com/BrianV1981/locomo-visual-ground-truth).
-This repository permanently hosts locally preserved, downscaled (Fair Use) versions of all 775 alive images, alongside a massive JSON cache of deep **LLaVA OCR transcriptions**. 
+This repository permanently hosts locally preserved, downscaled (Fair Use) versions of all 774 alive images, alongside a multi-model JSON cache of deep OCR transcriptions from **LLaVA-7B, Moondream 2, MiniCPM-V, and Qwen2.5VL**.
 Developers can now plug this cache directly into their pipelines, completely bypassing broken internet links and blind BLIP captions to achieve true multimodal evaluation for pennies on the dollar.
 
 ---
 
 ## 📂 Repository Structure
 
-- **`/data/`**: The core datasets. Includes the `errors.json` audit file, the intermediary `locomo_v2_base.json`, and the three production-ready V2 variants:
-  - `locomo_v2_web.json`: The immutable version mapping URLs to raw images hosted on the `locomo-visual-ground-truth` GitHub repo.
-  - `locomo_v2_local.json`: The air-gapped enterprise version mapping URLs to local relative paths.
-  - `locomo_v2_llava.json`: The text-only variant. It pre-bakes the rich LLaVA OCR descriptions directly into the dialogue turns (`llava_caption`), allowing pure-text LLMs to evaluate the multimodal benchmark without a vision encoder.
+- **`/data/`**: The core datasets. Includes the `errors.json` audit file, the V1 original `locomo10.json`, and all five production-ready V2 variants:
+  - `locomo_v2_base.json`: Text-only variant with blip_captions. All img_urls point to the preserved GitHub repo images.
+  - `locomo_v2_web.json`: The multimodal gold standard. All img_urls point to the preserved GitHub repo images. No model captions.
+  - `locomo_v2_llava.json`: Text-only variant with LLaVA-7B OCR descriptions baked in as `llava_caption`.
+  - `locomo_v2_minicpm.json`: Text-only variant with MiniCPM-V OCR descriptions baked in as `minicpm_caption`.
+  - `locomo_v2_local.json`: Air-gapped variant. All img_urls use local relative paths (`../images/`).
+  - All five variants have identical QA sets: 1,986 questions (148 corrections + 82 replacements).
 - **`/benchmarks/`**: Contains `policy/BENCHMARK_TEMPLATE_AGENTS.md`, the standardized persona prompt required for all LLM-as-a-Judge evaluations.
 - **`/judge/`**: The reference implementation for the A.I.M. Ghost Judge (`ghost_judge.py`) and its specific forensic policy.
 - **`/scripts/`**: The Python utilities used to programmatically map replacements, apply upstream fixes, and build the V2 dataset.
@@ -90,7 +93,7 @@ The `locomo_v2_web.json` (and `_local`) dataset prefixes questions with taxonomy
 **WARNING:** Do not pass these raw strings to your AI agent during testing. Seeing a "Correction" tag can bias the LLM's base weights into acting overly skeptical. You must strip these tags in your runner script *before* prompting the agent:
 
 ```python
-clean_q = q.replace("[V2_CORRECTION]", "").replace("[LOCOMO-AUDIT]", "").replace("[LOCOMO-ISSUES]", "").replace("[V2_REPLACEMENT]", "").strip()
+clean_q = q.replace("[V2_CORRECTION]", "").replace("[V2_REPLACEMENT]", "").strip()
 # Send clean_q to agent...
 ```
 
@@ -119,6 +122,5 @@ To run this benchmark with our verified forensic protocol, use the policy templa
 
 ### Setup:
 1. Ensure your benchmark environment is configured for forensic evaluation.
-2. When launching the agent, use the policy flag:
-   `gemini --policy benchmarks/policy/BENCHMARK_TEMPLATE_AGENTS.md`
+2. When launching the agent, use the policy flag pointing to `benchmarks/policy/BENCHMARK_TEMPLATE_AGENTS.md`.
 3. Always check the `BENCHMARK_DEVELOPMENT_LOG.md` before submitting results to ensure your evaluation protocol is current.
