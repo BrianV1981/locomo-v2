@@ -39,7 +39,11 @@ def generate_new_qa(category, session_transcript, llava_desc):
     Create a new evaluation question based on an image shared during a conversation.
     
     CRITICAL REQUIREMENT: The question MUST NOT just be an odd, specific question about the image itself (e.g. "What breed is the dog?"). 
-    It MUST be highly relevant to the BROADER CONVERSATION. It must require an AI agent to read the conversation text AND look at the image to synthesize the correct answer. The image provides the visual proof of something discussed in the text.
+    It MUST be highly relevant to the BROADER CONVERSATION. It must require an AI agent to read the conversation text AND look at the image to synthesize the correct answer. 
+    
+    *** NEW REQUIREMENT ***
+    The question MUST contain strong temporal or conversational anchors (e.g. "In the photo Caroline shared of the basketball game...", "Regarding the image Melanie sent on October 13...", or "When Melanie shared a picture of her ceramic plate, what color was it?"). 
+    A search engine MUST be able to uniquely identify WHICH image is being asked about based on the text of the question alone. NEVER ask "What is depicted in the image shared by Melanie?" without specifying WHICH image you mean.
     
     Category requested: {category} (1=Factual, 2=Temporal, 3=Reasoning, 4=Multi-hop/Reference)
     
@@ -85,7 +89,7 @@ def process_replacements(dataset, manifest, llava_cache, img_map, dry_run=False)
         else:
             import time
             new_q, new_a = generate_new_qa(category, session_transcript, llava_desc)
-            time.sleep(5)  # Pace to avoid rate limits
+            time.sleep(1)  # Pace to avoid rate limits
             
         for row in dataset:
             if row.get("sample_id") == dialogue_id:
