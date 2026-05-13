@@ -83,6 +83,8 @@ def patch_replacement_questions(dataset, regen_lookup):
                     new_qa = regen_lookup[key]
                     qa["question"] = new_qa["question"]
                     qa["answer"] = new_qa["answer"]
+                    if "evidence" in new_qa:
+                        qa["evidence"] = new_qa["evidence"]
                 slot_idx += 1
 
 
