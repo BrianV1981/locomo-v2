@@ -10,7 +10,7 @@ By archiving these specific scripts and the database here, researchers can perfe
 benchmark_toolkit/
 ├── README.md                              <- This file
 ├── database/
-│   └── memory_lance/                      <- The pre-embedded LanceDB Vector Database
+│   └── locomo_v2_minicpm_lancedb_RAM/                      <- The pre-embedded LanceDB Vector Database
 └── scripts/
     ├── build_locomo_lance.py              <- Database Ingestion / Embedding Script
     ├── ghost_runner_V6.py                 <- V6 Marathon Runner (Session 0)
@@ -21,7 +21,7 @@ benchmark_toolkit/
 
 ---
 
-## 1. The Database (`database/memory_lance/`)
+## 1. The Database (`database/locomo_v2_minicpm_lancedb_RAM/`)
 
 This directory contains the fully embedded, zero-copy LanceDB database for the LoCoMo V2 MiniCPM dataset.
 
@@ -40,7 +40,7 @@ This directory contains the fully embedded, zero-copy LanceDB database for the L
 These Python scripts orchestrate the end-to-end benchmark execution, interacting with the Gemini CLI agent via detached `tmux` sessions.
 
 ### `build_locomo_lance.py` (The Builder)
-The ingestion script responsible for creating the `memory_lance` database. It reads the raw JSON flight recorder transcripts, applies the speaker-boundary chunking logic, dynamically appends image descriptions, and fires the data to Ollama for embedding. It writes the resulting vectors and FTS indices directly to disk.
+The ingestion script responsible for creating the `locomo_v2_minicpm_lancedb_RAM` database. It reads the raw JSON flight recorder transcripts, applies the speaker-boundary chunking logic, dynamically appends image descriptions, and fires the data to Ollama for embedding. It writes the resulting vectors and FTS indices directly to disk.
 
 ### `ghost_runner_V6.py` (The Marathon Runner)
 The primary execution script for running large-scale evaluations (e.g., Session 0 with 199 questions).
