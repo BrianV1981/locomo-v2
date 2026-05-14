@@ -78,7 +78,7 @@ def main():
     parser.add_argument("--base", default="data/locomo_v2_base.json", help="Path to base dataset to map urls to conversations")
     parser.add_argument("--dead", default="../locomo-visual-ground-truth/data/locomo_dead_image.json", help="Path to dead dataset")
     parser.add_argument("--unused", default="../locomo-visual-ground-truth/maps/unused_alive_urls.json", help="Path to unused URLs")
-    parser.add_argument("--output", default="data/replacement_manifest.json", help="Output path")
+    parser.add_argument("--output", default="data/source/replacement_manifest.json", help="Output path")
     args = parser.parse_args()
     
     with open(args.base, "r", encoding="utf-8") as f:

@@ -112,7 +112,7 @@ def main():
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument("--dataset", default="data/locomo_v2_base.json")
-    parser.add_argument("--manifest", default="data/replacement_manifest.json")
+    parser.add_argument("--manifest", default="data/source/replacement_manifest.json")
     parser.add_argument("--cache", default="../locomo-visual-ground-truth/llava_7b_cache.json")
     parser.add_argument("--output", default="data/locomo_v2_final.json")
     parser.add_argument("--dry-run", action="store_true")

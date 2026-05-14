@@ -49,7 +49,7 @@ def main():
     data_dir = os.path.join(base_dir, "data")
     
     web_file = os.path.join(data_dir, 'locomo_v2_web.json')
-    regen_file = os.path.join(data_dir, 'regenerated_questions.json')
+    regen_file = os.path.join(data_dir, 'source', 'regenerated_questions.json')
     
     print("Processing locomo_v2_web.json...")
     if os.path.exists(web_file):

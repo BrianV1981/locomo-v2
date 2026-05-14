@@ -20,7 +20,7 @@ DATA = os.path.join(BASE, "data")
 CACHE_DIR = os.path.join(BASE, "..", "locomo-visual-ground-truth", "caches")
 
 WEB_PATH = os.path.join(DATA, "locomo_v2_web.json")
-REGEN_PATH = os.path.join(DATA, "regenerated_questions.json")
+REGEN_PATH = os.path.join(DATA, "source", "regenerated_questions.json")
 
 OUTPUTS = {
     "locomo_v2_base.json": os.path.join(DATA, "locomo_v2_base.json"),

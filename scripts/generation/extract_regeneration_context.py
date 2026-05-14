@@ -17,7 +17,7 @@ import os
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WEB_PATH = os.path.join(BASE, "data", "locomo_v2_web.json")
-MANIFEST_PATH = os.path.join(BASE, "data", "replacement_manifest.json")
+MANIFEST_PATH = os.path.join(BASE, "data", "source", "replacement_manifest.json")
 CACHE_DIR = os.path.join(BASE, "..", "locomo-visual-ground-truth", "caches")
 OUT_PATH = os.path.join(BASE, "data", "regeneration_context.json")
 
