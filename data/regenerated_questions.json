@@ -233,7 +233,7 @@
         "dialogue_id": "conv-42",
         "slot": 10,
         "question": "[V2_REPLACEMENT] When Julia shared a picture of a dairy-free dessert cake she recently made in her conversation with Noah, what was actually depicted in the image she sent instead?",
-        "answer": "The image Julia shared was not a picture of a cake, but rather a photo of a handwritten journal entry dated July 18, 2022, featuring a poem by Athey Thompson, personal reflections on her parents' divorce, and a story about meeting someone named Derek.",
+        "answer": "The image Julia shared was not a picture of a cake, but rather a photo of a handwritten journal entry dated July 18, 2020, featuring a poem by Athey Thompson, personal reflections on her parents' divorce, and a story about meeting someone named Derek.",
         "image_url": "https://threeteacherstalk.files.wordpress.com/2021/06/fnqw-6.18.jpg",
         "evidence": [
             "D10:9"
@@ -373,7 +373,7 @@
         "dialogue_id": "conv-43",
         "slot": 5,
         "question": "[V2_REPLACEMENT] In the photo Jack shared while discussing his charity work for youth sports, what specific date and inspirational message were written on the whiteboard shown in the image?",
-        "answer": "The whiteboard shows the date 'Feb 24, 2022' and the message 'MAKE-IT-A-GREAT-DAY!!! OR NOT... THE CHOICE IS YOURS'.",
+        "answer": "The whiteboard shows the date 'Feb 24, 2020' and the message 'MAKE-IT-A-GREAT-DAY!!! OR NOT... THE CHOICE IS YOURS'.",
         "image_url": "https://i.pinimg.com/originals/5e/f4/f9/5ef4f9bd2f094b2d0a4ddd4861b928a0.jpg",
         "evidence": [
             "D26:21"
