@@ -12,6 +12,8 @@ These scripts have now been organized into logical subdirectories based on their
 ## 📂 `pipeline/` (The Core Orchestrator)
 These are the primary execution scripts used to assemble the final datasets.
 
+*   **`apply_decontamination.py`**: A global transformer script that reads `decontamination_mapping.json` to systematically replace character names, non-visual entities, and shift dates across the entire dataset to prevent LLM pre-training memorization.
+*   **`decontamination_mapping.json`**: The dictionary mapping used by the decontamination script (e.g., Melanie -> Jessica).
 *   **`rebuild_all_datasets.py`**: The master orchestration script. It loads the golden source (`locomo_v2_web.json`), applies all the patches, injects the multimodal captions (LLaVA/MiniCPM), converts URLs where necessary, and outputs all 5 final variants (`base`, `llava`, `local`, `minicpm`, `web`).
 
 ## 📂 `generation/` (LLM & Context Tools)
