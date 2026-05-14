@@ -24,25 +24,25 @@ We are instituting strict Semantic Versioning for the `locomo-v2` repository to 
 - [x] **1.5 Define Temporal Shift:** Decide on the exact time delta (e.g., shift all dates exactly 2 years and 15 days forward to break date-based memorization).
 
 ### Phase 2: The Synchronous Replacement Engine
-- [ ] **2.1 Write the Global Transformer Script:** Build a Python script that loads `locomo_v2_web.json` (the golden source).
-- [ ] **2.2 Apply Entity Swaps (Regex):** Use strict word-boundary regex (`\bMelanie\b`) to replace names across:
+- [x] **2.1 Write the Global Transformer Script:** Build a Python script that loads `locomo_v2_web.json` (the golden source).
+- [x] **2.2 Apply Entity Swaps (Regex):** Use strict word-boundary regex (`\bMelanie\b`) to replace names across:
     - [ ] `turn["text"]`
     - [ ] `qa["question"]`
     - [ ] `qa["answer"]`
     - [ ] `session_X_summary` and `event_summary`
-- [ ] **2.3 Apply Temporal Shifting:** Parse every `date_time` string (e.g., "1:56 pm on 8 May, 2023"), calculate the delta, and format it back to the identical string layout.
-- [ ] **2.4 Apply Possessive/Grammar Fixes:** Ensure `Melanie's` correctly maps to the new name's possessive.
+- [x] **2.3 Apply Temporal Shifting:** Parse every `date_time` string (e.g., "1:56 pm on 8 May, 2023"), calculate the delta, and format it back to the identical string layout.
+- [x] **2.4 Apply Possessive/Grammar Fixes:** Ensure `Melanie's` correctly maps to the new name's possessive.
 
 ### Phase 3: Auditing & Dry-Runs
-- [ ] **3.1 Execute Dry-Run:** Run the transformer script and output to a temporary staging JSON.
-- [ ] **3.2 Diff Analysis:** Compare the old JSON and new JSON to verify that exactly 0 URLs and 0 `minicpm_caption` visual texts were accidentally altered.
-- [ ] **3.3 Manual Spot Check:** Have the user/agent manually read 5 random Q&A pairs to ensure narrative cohesion still makes perfect sense.
+- [x] **3.1 Execute Dry-Run:** Run the transformer script and output to a temporary staging JSON.
+- [x] **3.2 Diff Analysis:** Compare the old JSON and new JSON to verify that exactly 0 URLs and 0 `minicpm_caption` visual texts were accidentally altered.
+- [x] **3.3 Manual Spot Check:** Have the user/agent manually read 5 random Q&A pairs to ensure narrative cohesion still makes perfect sense.
 
 ### Phase 4: Rebuild & Finalize
-- [ ] **4.1 Overwrite Golden Source:** Save the decontaminated data over `data/locomo_v2_web.json`.
-- [ ] **4.2 Rebuild All Datasets:** Execute `rebuild_all_datasets.py` to propagate the decontaminated data into the `minicpm`, `llava`, `base`, and `local` variants.
-- [ ] **4.3 Update Documentation:** Run a script to update all Markdown Cheatsheets (`LOCOMO_V2_SESSION_0_CHEATSHEET.md`, etc.) so the documentation matches the new names and dates.
-- [ ] **4.4 Version Bump:** Update the `VERSION` file to `v2.1.0`.
+- [x] **4.1 Overwrite Golden Source:** Save the decontaminated data over `data/locomo_v2_web.json`.
+- [x] **4.2 Rebuild All Datasets:** Execute `rebuild_all_datasets.py` to propagate the decontaminated data into the `minicpm`, `llava`, `base`, and `local` variants.
+- [x] **4.3 Update Documentation:** Run a script to update all Markdown Cheatsheets (`LOCOMO_V2_SESSION_0_CHEATSHEET.md`, etc.) so the documentation matches the new names and dates.
+- [x] **4.4 Version Bump:** Update the `VERSION` file to `v2.1.0`.
 
 ---
 *Created during Ticket #6: Decontamination Roadmap*
