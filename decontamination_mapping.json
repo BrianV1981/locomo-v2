@@ -1,0 +1,39 @@
+{
+    "names": {
+        "Melanie": "Jessica",
+        "Mel": "Jess",
+        "Mell": "Jess",
+        "Caroline": "Sarah",
+        "Caro": "Sar",
+        "Jon": "Joel",
+        "Gina": "Grace",
+        "John": "Jack",
+        "Maria": "Mia",
+        "Nate": "Noah",
+        "Joanna": "Julia",
+        "Tim": "Tom",
+        "Audrey": "Alice",
+        "Andrew": "Arthur",
+        "James": "Jacob",
+        "Deborah": "Diana",
+        "Deb": "Di",
+        "Jolene": "Jasmine",
+        "Evan": "Ethan",
+        "Sam": "Seth",
+        "Calvin": "Connor",
+        "Dave": "Derek"
+    },
+    "entities": {
+        "Sweden": "Norway",
+        "Door Dash": "Uber Eats",
+        "Valorant": "Overwatch",
+        "Connected LGBTQ Activists": "The Pride Alliance",
+        "The Lean Startup": "Zero to One",
+        "Charlotte's Web": "Matilda",
+        "Becoming Nicole": "Tomorrow Will Be Different"
+    },
+    "temporal_shift": {
+        "years": 2,
+        "days": 15
+    }
+}

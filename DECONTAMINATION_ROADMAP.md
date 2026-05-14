@@ -18,10 +18,10 @@ We are instituting strict Semantic Versioning for the `locomo-v2` repository to 
 
 ### Phase 1: Preparation & Mapping
 - [ ] **1.1 Establish Versioning:** Initialize `VERSION` file and update root `README.md` to explain the decontamination initiative.
-- [ ] **1.2 Build the Character Roster:** Extract all unique `speaker_a` and `speaker_b` names from the 10 conversations.
-- [ ] **1.3 Create Entity Dictionary:** Map old character names and nicknames to new ones (e.g., `Melanie -> Jessica`, `Mel -> Jess`).
-- [ ] **1.4 Map Non-Visual Proper Nouns:** Identify safe, non-visual locations/companies to swap (e.g., `Sweden -> Norway`, `Door Dash -> Uber Eats`).
-- [ ] **1.5 Define Temporal Shift:** Decide on the exact time delta (e.g., shift all dates exactly 2 years and 15 days forward to break date-based memorization).
+- [x] **1.2 Build the Character Roster:** Extract all unique `speaker_a` and `speaker_b` names from the 10 conversations.
+- [x] **1.3 Create Entity Dictionary:** Map old character names and nicknames to new ones (e.g., `Melanie -> Jessica`, `Mel -> Jess`).
+- [x] **1.4 Map Non-Visual Proper Nouns:** Identify safe, non-visual locations/companies to swap (e.g., `Sweden -> Norway`, `Door Dash -> Uber Eats`).
+- [x] **1.5 Define Temporal Shift:** Decide on the exact time delta (e.g., shift all dates exactly 2 years and 15 days forward to break date-based memorization).
 
 ### Phase 2: The Synchronous Replacement Engine
 - [ ] **2.1 Write the Global Transformer Script:** Build a Python script that loads `locomo_v2_web.json` (the golden source).
