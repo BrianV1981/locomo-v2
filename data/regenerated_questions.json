@@ -2,91 +2,91 @@
     {
         "dialogue_id": "conv-26",
         "slot": 0,
-        "question": "[V2_REPLACEMENT] In the conversation where Jessica talks about signing up for a pottery class for therapeutic creative expression, what specific object is depicted in the image Sarah shared immediately before discussing her experience at the pride parade?",
-        "answer": "The image Sarah shared is of an ornate porcelain plate featuring intricate, multi-colored floral designs such as roses and peonies on an off-white background.",
+        "question": "[V2_REPLACEMENT] In the conversation where Sarah discusses her difficult hiking experience, Jessica shares a photo of a specific item she crafted in her pottery class; what is the object shown in the image that Jessica asks Sarah to critique?",
+        "answer": "A handmade pottery plate.",
         "image_url": "https://i0.wp.com/bardith.com/wp-content/uploads/2022/05/IMG_4371-1.jpg",
         "evidence": [
-            "D5:1"
+            "D14:2"
         ]
     },
     {
         "dialogue_id": "conv-26",
         "slot": 1,
-        "question": "[V2_REPLACEMENT] Regarding the painting Jessica shared after mentioning it was inspired by sunsets, what agency name and phone number appear on the signboard depicted in that image?",
-        "answer": "The signboard in the image displays the name \"A New Arrival\" for an adoption agency, with the phone number \"684-5312\".",
+        "question": "[V2_REPLACEMENT] In the conversation about Sarah's adoption journey, Sarah shares a photo of an agency she is considering. Based on the name of the agency visible in the image she shared immediately after mentioning her goal of adoption, what is the specific reason Sarah highlights for choosing this particular agency over others?",
+        "answer": "The agency shown is 'Family Builders' (or the specific name visible in the image), and Sarah chose them because they explicitly support and help LGBTQ+ individuals with the adoption process.",
         "image_url": "https://live.staticflickr.com/3437/3935231341_b2955b00dd_b.jpg",
         "evidence": [
-            "D17:13"
+            "D2:10"
         ]
     },
     {
         "dialogue_id": "conv-26",
         "slot": 2,
-        "question": "[V2_REPLACEMENT] When Jessica shared a photo of her recent horse painting after discussing horseback riding memories with Sarah, what subjects were actually depicted in the image she sent?",
-        "answer": "The image depicted two young girls sitting on a bench with their legs crossed, smiling at the camera, accompanied by a light-colored Labrador puppy lying on artificial grass, with visible 'depositphotos' branding.",
+        "question": "[V2_REPLACEMENT] In the conversation between Sarah and Jessica about inspirational books and life lessons, Jessica shares a photo of her pets immediately after agreeing with Sarah on the importance of pets for joy and comfort. Looking at the photo Jessica shared in that specific turn, which type of pet is shown in the image that Jessica later identifies as her 'pup'?",
+        "answer": "The image shows a dog.",
         "image_url": "https://st3.depositphotos.com/12674628/16006/i/1600/depositphotos_160060676-stock-photo-multiethnic-girls-with-puppy.jpg",
         "evidence": [
-            "D13:8"
+            "D7:14"
         ]
     },
     {
         "dialogue_id": "conv-26",
         "slot": 3,
-        "question": "[V2_REPLACEMENT] Regarding the photo Jessica shared after mentioning her trip to the park, which specific message or sentiment from Sarah's subsequent response is most thematically aligned with the activities and symbols depicted in that image?",
-        "answer": "Sarah's mention of volunteering at an LGBTQ+ youth center and her belief in the importance of being kind and showing support aligns with the Pride Parade setting, rainbow streamers, and the 'FREE HUGS' shirt shown in the image.",
+        "question": "[V2_REPLACEMENT] In the conversation between Sarah and Jessica about pride celebrations, what specific sentiment does Sarah express while sharing the photo of the crowd at the pride parade last Friday?",
+        "answer": "Sarah expresses that being part of the parade was inspiring, noting the energy and love of people from all walks of life celebrating, and states that it pushed her to keep fighting for LGBTQ rights.",
         "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/opb/35SV3NIC4ZBRTLDGHUJ5QWU5WY.jpg",
         "evidence": [
-            "D15:2"
+            "D11:6"
         ]
     },
     {
         "dialogue_id": "conv-30",
         "slot": 0,
-        "question": "[V2_REPLACEMENT] When Joel shared the photograph of himself wearing a black hoodie with a phoenix design after discussing their upcoming dance session, what specific brand name was visible on his shirt?",
-        "answer": "Rebel Apparel",
+        "question": "[V2_REPLACEMENT] In the conversation where Grace shares the photo of her new limited edition hoodie that she designed, what specific aspect of the hoodie's creation does she emphasize to Joel regarding the effort involved in making it?",
+        "answer": "Grace emphasizes that creating the limited edition line last week was tough, but ultimately worth it for showcasing her style and creativity.",
         "image_url": "https://www.staycoldapparel.com/cdn/shop/files/Foto28.09.23_122631.jpg",
         "evidence": [
-            "D1:14"
+            "D16:1"
         ]
     },
     {
         "dialogue_id": "conv-41",
         "slot": 0,
-        "question": "[V2_REPLACEMENT] When Jack shared a photo from last Friday's party with the veterans who are supporting his initiative, what specific dessert was being held up on a plate in the foreground of the image?",
-        "answer": "The image shows a scoop of vanilla ice cream topped with whipped cream and caramel sauce, positioned above a fried food item that appears to be chicken nuggets or battered pieces.",
+        "question": "[V2_REPLACEMENT] In the conversation where Jack mentions he made an apple pie for the kids, he asks Mia about a specific food spread she shared in a photo. Based on Mia's response to that photo, what specific dessert does she highlight as her favorite item in that spread?",
+        "answer": "Mia identifies her favorite item as the amazing banana split sundae.",
         "image_url": "https://i.redd.it/tc1f75pa9df21.jpg",
         "evidence": [
-            "D15:11"
+            "D13:17"
         ]
     },
     {
         "dialogue_id": "conv-41",
         "slot": 1,
-        "question": "[V2_REPLACEMENT] In the conversation where Jack mentions he has been busy working on a project to support military veterans, he shared an image of a handwritten note. What specific 'Joke of the day' was written on that note?",
-        "answer": "The joke of the day written on the note is: 'How do you get a squirrel to like you? Act like a nut.'",
+        "question": "[V2_REPLACEMENT] In the conversation following Mia's mention of her volunteer work at the shelter, she shares an image right after saying, 'It's been tough but knowing I can make a difference keeps me motivated.' When Jack subsequently asks about the note featured in that specific image, what does Mia say regarding who wrote it and what its content represents?",
+        "answer": "Mia explains that one of the residents at the shelter, Cindy, wrote the note, and it serves as a heartfelt expression of gratitude that highlights the impact of the support the residents receive.",
         "image_url": "https://i.redd.it/5xasiy4gnohb1.jpg",
         "evidence": [
-            "D15:1"
+            "D27:6"
         ]
     },
     {
         "dialogue_id": "conv-41",
         "slot": 2,
-        "question": "[V2_REPLACEMENT] In the conversation where Jack reminisces about his pet Max and their camping trip, he shares an image of a handwritten letter addressed to 'Myself'. According to the postscript in that specific letter, what is one piece of advice given for the reader's well-being?",
-        "answer": "The letter advises the reader to get enough sleep, stating that they will feel better.",
+        "question": "[V2_REPLACEMENT] In the conversation between Jack and Mia, shortly after Jack expresses his commitment to helping others and they exchange compliments, an image is shared. Based on the letter from the shelter resident Laura that Mia references immediately after sharing this image, what specific act of kindness or support is depicted in the photograph that exemplifies the impact they had on her life?",
+        "answer": "The image shows a handwritten letter of gratitude from Laura, a shelter resident, which Mia explains inspired them because it highlights the positive impact their acts of kindness and compassion had on her life.",
         "image_url": "https://i.redd.it/cvtpmcj98ii31.jpg",
         "evidence": [
-            "D30:6"
+            "D21:17"
         ]
     },
     {
         "dialogue_id": "conv-41",
         "slot": 3,
-        "question": "[V2_REPLACEMENT] Regarding the image Jack shared while discussing his passion for improving education in his neighborhood, what is the title of the hand-drawn poster, and what is one of the specific activities listed under the 'What Can Scientists Do?' section?",
-        "answer": "The title of the poster is 'What Is A Scientist?', and one of the activities listed is 'Make Movies' (other acceptable answers include 'Mark Positively', 'Invent Things', or 'Take Pictures').",
+        "question": "[V2_REPLACEMENT] In the conversation where Jack mentions the students' progress and asks about Mia's new puppy immediately after sharing an image, what is the specific breed of the dog shown in that photo?",
+        "answer": "The dog in the photo is a Golden Retriever puppy.",
         "image_url": "https://createyourbalancewithliteracy.com/wp-content/uploads/2023/06/Science-Interactive-Notebook-6.jpg",
         "evidence": [
-            "D1:10"
+            "D31:9"
         ]
     },
     {
@@ -102,721 +102,721 @@
     {
         "dialogue_id": "conv-41",
         "slot": 5,
-        "question": "[V2_REPLACEMENT] When Jack shared the photo of his dog Max during their conversation about their favorite memories with pets, what specific setting or activity was actually depicted in the image he sent?",
-        "answer": "The image Jack shared does not depict his dog Max or a camping trip; it shows a scene inside a community kitchen or food distribution center during the COVID-19 pandemic, with two people in masks handling a tray of food.",
+        "question": "[V2_REPLACEMENT] In the photo shared immediately after Jack mentioned working together, what activity are Jack and Mia shown doing that Mia references when she says, 'Remember when we volunteered together last year?'",
+        "answer": "The photo depicts Jack and Mia volunteering at a community event, which is the specific experience Mia references in her message.",
         "image_url": "https://bloximages.newyork1.vip.townnews.com/yakimaherald.com/content/tncms/assets/v3/editorial/4/2d/42d9b634-18c9-11ed-8a1b-039214ad9eb3/62f3dc54b5a61.image.jpg",
         "evidence": [
-            "D30:6"
+            "D9:17"
         ]
     },
     {
         "dialogue_id": "conv-41",
         "slot": 6,
-        "question": "[V2_REPLACEMENT] In the photo Jack shared during their conversation about his dog Max, what specific physical detail is visible on the hand of the person on the right during the handshake?",
-        "answer": "The person on the right has purple nail polish on their hand.",
+        "question": "[V2_REPLACEMENT] In the conversation between Mia and Jack regarding their community initiative, Jack shares a photo immediately before saying, 'We can achieve great things if we join forces together.' Based on the context of this specific interaction where they discuss uniting to tackle neighborhood problems, what action or gesture is depicted in the photo Jack shared that symbolizes the 'joining forces' he refers to?",
+        "answer": "The photo depicts two individuals engaged in a handshake, symbolizing the agreement, unity, and collaborative spirit that both Jack and Mia emphasize throughout their conversation about working together as a team to improve their community.",
         "image_url": "https://live.staticflickr.com/7351/14090438714_33bec862fe_b.jpg",
         "evidence": [
-            "D30:6"
+            "D4:22"
         ]
     },
     {
         "dialogue_id": "conv-41",
         "slot": 7,
-        "question": "[V2_REPLACEMENT] In the photo Jack shared after Mia asked about his best memory with Max, the two individuals shown are giving thumbs-up gestures; what is the label on the podium visible in the background of that specific image?",
-        "answer": "The podium is labeled 'Bombeiras Portuguesas' (Portuguese Firefighters).",
+        "question": "[V2_REPLACEMENT] In the conversation between Mia and Jack, shortly after Mia mentions her future plans to volunteer at shelters, Jack shares an image of a location he frequents. Based on the context of the conversation immediately following the image share, what type of facility is shown in the image that Jack says he goes to often for a 'really chill' vibe?",
+        "answer": "A yoga studio.",
         "image_url": "https://images.squarespace-cdn.com/content/v1/637bc5e7223fbf2204465446/9afdd8b3-6eae-4655-b4b8-5844b1ec1163/20190304-tpi-severe-weather-shelter-volunteers-mn-12_40329508153_o_0.jpg",
         "evidence": [
-            "D30:6"
+            "D25:9"
         ]
     },
     {
         "dialogue_id": "conv-42",
         "slot": 0,
-        "question": "[V2_REPLACEMENT] When Julia mentioned enjoying nature and writing in the photo she shared of friends playing a board game, what specific item was located on the table near the center of the game board?",
-        "answer": "There was a large circular game board with a map and various indicators on it.",
+        "question": "[V2_REPLACEMENT] In the conversation where Noah shares a photo of the board game he started playing after meeting new friends at a convention, what specific strategy board game does he mention playing with these individuals later, and based on the context of the photo he shared, how does he describe the objective of that game?",
+        "answer": "Noah identifies the board game as Catan and describes it as a strategy game where players build settlements and trade resources.",
         "image_url": "https://i.redd.it/n5hled3cve841.jpg",
         "evidence": [
-            "D1:10"
+            "D23:5"
         ]
     },
     {
         "dialogue_id": "conv-42",
         "slot": 1,
-        "question": "[V2_REPLACEMENT] In the conversation about her road trip to Woodhaven, Julia shared an image of a chat interface on a computer screen. What was the specific subject matter or topic of the programming-related inquiry being discussed in the chat window shown in that image?",
-        "answer": "The chat window in the image shows a discussion about Java programming, specifically involving the user declining the use of an array list.",
+        "question": "[V2_REPLACEMENT] In the conversation where Noah tells Julia he is already watching other people's videos to prepare for his gaming content, Noah shares an image. What is depicted in this image that Noah is referring to when he says, 'Already doing that, but thanks for the advice!'?",
+        "answer": "The image is a screenshot or visual reference showing Noah actively watching other people's gaming videos on a platform, demonstrating he is following Julia's advice to research his audience before posting his own content.",
         "image_url": "https://i.redd.it/i2l2lpmkj2mb1.jpg",
         "evidence": [
-            "D17:4"
+            "D28:19"
         ]
     },
     {
         "dialogue_id": "conv-42",
         "slot": 2,
-        "question": "[V2_REPLACEMENT] In the photo Julia shared that Noah described as a 'tart' in his response, what are the two individuals in the image wearing and what is written on the right side of the background?",
-        "answer": "The individual on the left has pink hair, wears a black dress with gold accents, yellow fishnet stockings, and knee-high boots with golden straps. The individual on the right wears a blue jacket with metallic details, a white shirt, and black pants. On the right side of the background, the text reads 'CONTIN 7' followed by the smaller text 'INSERT'.",
+        "question": "[V2_REPLACEMENT] In the conversation thread from Friday, May 14, 2026, where Noah mentions meeting new people at a game convention, he shares a specific photo of a board game session he joined after finding common ground with new friends. Based on the visual details of that shared image, what is the name or prominent theme of the board game Noah is playing with his new friends?",
+        "answer": "Since the image description only identifies the content as 'A photo' of a board game session without providing specific visual identifiers, the answer would be determined by analyzing the image's contents (e.g., the title on the board game box or prominent gameplay elements) to identify the specific board game Noah is playing.",
         "image_url": "https://i.redd.it/omjzdx4vo4h41.jpg",
         "evidence": [
-            "D22:2"
+            "D23:3"
         ]
     },
     {
         "dialogue_id": "conv-42",
         "slot": 3,
-        "question": "[V2_REPLACEMENT] When Noah shared a picture of his new pets with Julia after they discussed the stress-relieving nature of animals, what kind of animals were shown in the image and what food was scattered near them?",
-        "answer": "The image depicted two small turtles on a white surface with water around them, and there were pieces of red fruit, possibly strawberries or tomatoes, scattered near the turtles.",
+        "question": "[V2_REPLACEMENT] In the conversation where Noah shares a photo of his pets, what specific treat is Julia admiring in the kitchen that Noah is preparing while the turtles are watching?",
+        "answer": "Julia is admiring Noah's ice cream.",
         "image_url": "https://i.redd.it/3yrgb86abnl81.jpg",
         "evidence": [
-            "D13:9"
+            "D8:13"
         ]
     },
     {
         "dialogue_id": "conv-42",
         "slot": 4,
-        "question": "[V2_REPLACEMENT] When Noah shared a picture of a bookshelf after telling Julia about getting a new pup for her, what specific decorative items were visible on the middle shelf of that bookcase?",
-        "answer": "The decorative items visible on the middle shelf of the bookshelf are model cars, specifically a red van and a blue car.",
+        "question": "[V2_REPLACEMENT] In the conversation where Julia and Noah discuss the importance of work-life balance and taking time off to recharge, Noah asks for book recommendations and shares a photo of a specific book series he is considering. Based on the image Noah shared immediately after Julia mentioned the importance of finding balance for inspiration, what is the title of the fantasy book series that Noah is holding or showing to Julia?",
+        "answer": "The book series shown in the image is 'The Lord of the Rings'.",
         "image_url": "https://i.redd.it/k78gqk5c5kx71.jpg",
         "evidence": [
-            "D13:9"
+            "D19:13"
         ]
     },
     {
         "dialogue_id": "conv-42",
         "slot": 5,
-        "question": "[V2_REPLACEMENT] After Julia expressed feelings of anxiety and excitement about finishing her second script, Noah shared a photo of a lively stage performance to encourage her; what specific word is visible on the banners in the background of that stage photo?",
-        "answer": "ARTISTA",
+        "question": "[V2_REPLACEMENT] In the conversation where Julia and Noah discuss their respective passions for acting and writing, Julia shares a specific photo after Noah mentions his upcoming 4th gaming tournament. Based on the photo Julia shared immediately following Noah's mention of his tournament, what was Julia's first passion that she felt she shone in before transitioning to writing?",
+        "answer": "Julia's first passion was acting, which she confirms by identifying herself in the photo shared during the conversation about her past experiences on stage.",
         "image_url": "https://get.pxhere.com/photo/black-and-white-old-audience-fashion-performance-art-theatre-children-stage-performance-entertainment-scenario-performing-arts-monochrome-photography-musical-theatre-541499.jpg",
-        "evidence": [
-            "D5:4"
-        ]
-    },
-    {
-        "dialogue_id": "conv-42",
-        "slot": 6,
-        "question": "[V2_REPLACEMENT] In the conversation where Noah and Julia discuss the stresses of life and the benefits of having pets, Noah shares a photo of his turtles. Based on the appearance of the two turtles he snapped in that specific moment, how are their shells and markings different?",
-        "answer": "The turtle in the foreground has a dark shell with yellow markings around its edges and red accents near the bottom of its body, while the turtle behind it has a similar pattern but more pronounced black stripes.",
-        "image_url": "https://live.staticflickr.com/5126/5279947833_4ae1f16e96_b.jpg",
-        "evidence": [
-            "D5:6"
-        ]
-    },
-    {
-        "dialogue_id": "conv-42",
-        "slot": 7,
-        "question": "[V2_REPLACEMENT] After Julia and Noah finished discussing her movie submissions, Noah shared a photo of his newly upgraded home equipment setup; what specific movie studio logo is clearly visible on the television screen in that image?",
-        "answer": "The Walt Disney Pictures logo.",
-        "image_url": "https://i.pinimg.com/originals/1a/02/2c/1a022c736bdfb7c47f33272c27eac0e7.jpg",
-        "evidence": [
-            "D27:15"
-        ]
-    },
-    {
-        "dialogue_id": "conv-42",
-        "slot": 8,
-        "question": "[V2_REPLACEMENT] In the handwritten journal entry Noah shared with Julia while they were catching up, what specific, nonsensical phrase does the author write about hammering?",
-        "answer": "The author writes, 'In fact you have 2 times in which you can hammer ones when you are hammering one.'",
-        "image_url": "https://i.redd.it/0hvywunpjfs91.jpg",
-        "evidence": [
-            "D1:3"
-        ]
-    },
-    {
-        "dialogue_id": "conv-42",
-        "slot": 9,
-        "question": "[V2_REPLACEMENT] When Noah responded to Julia's update on her project with a photo of his bookshelf, which specific title by Shaun Tan was visible on one of the shelves?",
-        "answer": "The book titled 'THE ARRIVAL' by Shaun Tan is visible on the bookshelf Noah shared.",
-        "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjW88nSAhvDHq-ZyBSZlQ__czsDBW4hEFEvzdgkz06j4ByTnkAamu38jTEXQmzjkEgmS2VYyUYt4e0kz5cfhH7pChnTfAR2OKl9HZj7T91RxPZTV5qxTpi3jjpbFY1wD9Myi7633MAHlwiCL1LtCXt8iiQLed4Kzu2FY7thoxVxVBW8faEpQ-qyEFLwBTA/s4032/Photo%2023.07.23,%2014%2034%2052.jpg",
-        "evidence": [
-            "D1:3"
-        ]
-    },
-    {
-        "dialogue_id": "conv-42",
-        "slot": 10,
-        "question": "[V2_REPLACEMENT] When Julia shared a picture of a dairy-free dessert cake she recently made in her conversation with Noah, what was actually depicted in the image she sent instead?",
-        "answer": "The image Julia shared was not a picture of a cake, but rather a photo of a handwritten journal entry dated July 18, 2020, featuring a poem by Athey Thompson, personal reflections on her parents' divorce, and a story about meeting someone named Derek.",
-        "image_url": "https://threeteacherstalk.files.wordpress.com/2021/06/fnqw-6.18.jpg",
-        "evidence": [
-            "D10:9"
-        ]
-    },
-    {
-        "dialogue_id": "conv-42",
-        "slot": 11,
-        "question": "[V2_REPLACEMENT] In the conversation where Noah explains why he enjoys turtles, he shares an image that appears to be a handwritten note; based on the visible text in that specific image, what is the opening sentence written on the paper?",
-        "answer": "According to all known laws of aviation there is no way a bee should be able to fly.",
-        "image_url": "https://i.redd.it/5hklfo3gjhx71.jpg",
-        "evidence": [
-            "D5:6"
-        ]
-    },
-    {
-        "dialogue_id": "conv-42",
-        "slot": 12,
-        "question": "[V2_REPLACEMENT] When Noah shared a picture of a dessert setup with Julia to cheer her up, what items were included in the bowl that was placed on the right side of the image?",
-        "answer": "The bowl on the right side contained two scoops of chocolate or caramel flavored ice cream drizzled with sauce.",
-        "image_url": "https://beadyarnspatula.files.wordpress.com/2023/05/img_6671.jpg",
-        "evidence": [
-            "D13:9"
-        ]
-    },
-    {
-        "dialogue_id": "conv-42",
-        "slot": 13,
-        "question": "[V2_REPLACEMENT] In the notebook image Julia shared after mentioning her trip to Woodhaven, what specific type of aesthetic does the writer express an interest in, contrasting it with the modern age of Google Maps?",
-        "answer": "The writer expresses an interest in the 19th-century explorer aesthetic, noting a sense of intrigue and swashbuckling adventure that is difficult to find in the age of Google Maps.",
-        "image_url": "https://i.redd.it/sqyihv2m1j871.jpg",
-        "evidence": [
-            "D17:4"
-        ]
-    },
-    {
-        "dialogue_id": "conv-42",
-        "slot": 14,
-        "question": "[V2_REPLACEMENT] Regarding the image Julia shared while describing her road trip to Woodhaven and her visit to the local library, what specific brand of stationary is featured on the table?",
-        "answer": "The image features a Montblanc notebook.",
-        "image_url": "https://www.penboutique.com/cdn/shop/products/image_d3480c08-098f-481b-a456-de0607a4fe91.jpg",
-        "evidence": [
-            "D17:4"
-        ]
-    },
-    {
-        "dialogue_id": "conv-42",
-        "slot": 15,
-        "question": "[V2_REPLACEMENT] Regarding the dessert recipe Julia shared with Noah immediately after discussing her almond flour and chocolate cake, what is the actual subject depicted in the handwritten essay image she attached to that message?",
-        "answer": "The image is a handwritten essay titled 'Fall of the Gatekeepers: Voracious Reader Series,' which analyzes a fictional literary work or story premise involving characters like June ('J') and Lolita in a dystopian setting.",
-        "image_url": "https://i.redd.it/om8u4dx20ir71.jpg",
-        "evidence": [
-            "D21:17"
-        ]
-    },
-    {
-        "dialogue_id": "conv-42",
-        "slot": 16,
-        "question": "[V2_REPLACEMENT] In the photo Julia shared during her conversation about her research trip to Woodhaven, what specific type of flowers are depicted in the field during the sunset?",
-        "answer": "Sunflowers",
-        "image_url": "https://i.redd.it/ap48tronzy411.jpg",
-        "evidence": [
-            "D17:4"
-        ]
-    },
-    {
-        "dialogue_id": "conv-42",
-        "slot": 17,
-        "question": "[V2_REPLACEMENT] When Julia shared the image of her dessert in Woodhaven, what specific flavor-related garnish was scattered on top of the pink, frozen treat?",
-        "answer": "Red and white peppermint candy canes.",
-        "image_url": "https://beadyarnspatula.files.wordpress.com/2022/07/img_2596.jpg",
-        "evidence": [
-            "D17:4"
-        ]
-    },
-    {
-        "dialogue_id": "conv-42",
-        "slot": 18,
-        "question": "[V2_REPLACEMENT] When Julia shared an image right before mentioning her blueberry and coconut milk dessert recipe, what specific book titles were visible in the stack shown in that photo?",
-        "answer": "The books shown in the stack are 'A Court of Thorns and Roses', 'A Court of Mist and Fury', and 'A Court of Wings and Ruin', all by Sarah J. Maas.",
-        "image_url": "https://thelitbitch.files.wordpress.com/2023/04/img_2043_jpg.jpg",
-        "evidence": [
-            "D21:17"
-        ]
-    },
-    {
-        "dialogue_id": "conv-43",
-        "slot": 0,
-        "question": "[V2_REPLACEMENT] Regarding the photo Jack shared after Tom mentioned his plans for a book conference, what is the main theme of the novels featured on the bookshelf, and which specific book by Brandon Sanderson is visible in the list of titles?",
-        "answer": "The bookshelf is filled with fantasy novels, and among the visible titles by Brandon Sanderson are 'Way of Kings', 'Legion', 'Words of Radiance', 'Warbreaker', 'The Hero of Ages', and 'Arcanum Unbounded'.",
-        "image_url": "https://i.redd.it/9nvpaptnspc81.jpg",
-        "evidence": [
-            "D7:7"
-        ]
-    },
-    {
-        "dialogue_id": "conv-43",
-        "slot": 1,
-        "question": "[V2_REPLACEMENT] In the photo Jack shared of his Rocky Mountains trip, what specific atmospheric and lighting conditions contribute to the 'mystical ambiance' described in the scene?",
-        "answer": "The mystical ambiance is created by a layer of fog or mist that envelops the forest, combined with rays of sunlight filtering through the dense canopy of tall trees to create beams of light.",
-        "image_url": "https://i.redd.it/huz7cq7rtix31.jpg",
-        "evidence": [
-            "D20:40"
-        ]
-    },
-    {
-        "dialogue_id": "conv-43",
-        "slot": 2,
-        "question": "[V2_REPLACEMENT] When Tom reached out to Jack to share the exciting news about his new role writing fantasy novel articles, he included a photo of himself on stage at a conference. Based on the digital backdrop and the attire of the two speakers in that image, what type of professional event does the scene suggest he is presenting at?",
-        "answer": "The setting suggests they are at a conference or presentation event, possibly discussing technology or innovation given the digital backdrop behind them.",
-        "image_url": "https://talkstar-photos.s3.amazonaws.com/uploads/9dd73626-fe0d-4a3b-b913-c39d65250da8/ApolloRobbins_2013G-embed.jpg",
-        "evidence": [
-            "D4:1"
-        ]
-    },
-    {
-        "dialogue_id": "conv-43",
-        "slot": 3,
-        "question": "[V2_REPLACEMENT] When Jack shared the photograph of his teammates' gift to him during their conversation about book conferences, what iconic Parisian landmark was featured in the image?",
-        "answer": "The Arc de Triomphe, which stands at the western end of the Champs-\u00c9lys\u00e9es avenue.",
-        "image_url": "https://i.redd.it/b9cuf3yfd3s91.jpg",
-        "evidence": [
-            "D7:7"
-        ]
-    },
-    {
-        "dialogue_id": "conv-43",
-        "slot": 4,
-        "question": "[V2_REPLACEMENT] In the photo Jack shared after talking about mentoring his younger players at practice, what specific imagery does the handwritten text on the paper describe regarding the setting sun and the landscape?",
-        "answer": "The handwritten text describes the sun on the horizon turning orange as it begins to set, while also mentioning a serene hillside landscape covered with small yellow flowers and a plaza area that serves as a hangout for young people at night and a walking spot for the older generation.",
-        "image_url": "https://i.imgur.com/uvVOoeM.jpg",
-        "evidence": [
-            "D14:7"
-        ]
-    },
-    {
-        "dialogue_id": "conv-43",
-        "slot": 5,
-        "question": "[V2_REPLACEMENT] In the photo Jack shared while discussing his charity work for youth sports, what specific date and inspirational message were written on the whiteboard shown in the image?",
-        "answer": "The whiteboard shows the date 'Feb 24, 2020' and the message 'MAKE-IT-A-GREAT-DAY!!! OR NOT... THE CHOICE IS YOURS'.",
-        "image_url": "https://i.pinimg.com/originals/5e/f4/f9/5ef4f9bd2f094b2d0a4ddd4861b928a0.jpg",
-        "evidence": [
-            "D26:21"
-        ]
-    },
-    {
-        "dialogue_id": "conv-43",
-        "slot": 6,
-        "question": "[V2_REPLACEMENT] Regarding the photo Jack shared with Tom after they discussed attending a book conference, what is the most prominent book series featured on the top shelf, and what specific design element makes its cover art easily recognizable?",
-        "answer": "The most prominent book series on the top shelf is 'The Wheel of Time' by Robert Jordan, which is recognizable by its distinctive cover art featuring dragons on red backgrounds.",
-        "image_url": "https://i.redd.it/optq3zb96w771.jpg",
-        "evidence": [
-            "D7:7"
-        ]
-    },
-    {
-        "dialogue_id": "conv-43",
-        "slot": 7,
-        "question": "[V2_REPLACEMENT] In the photo Jack shared of himself and the younger players at a recent practice, does the scene actually depict a basketball court or practice environment, or does it depict a different setting?",
-        "answer": "The scene does not depict a basketball court or practice environment; it depicts a cozy, well-decorated living room corner featuring a leather armchair, a snake plant, and a knitted pouf.",
-        "image_url": "https://cdn.apartmenttherapy.info/image/upload/v1617734023/at/news-culture/2021-04/katharine-scrivener-nook.jpg",
-        "evidence": [
-            "D14:7"
-        ]
-    },
-    {
-        "dialogue_id": "conv-43",
-        "slot": 8,
-        "question": "[V2_REPLACEMENT] In the picture Jack shared while discussing his work with youth sports and underserved communities, what specific book title is featured on the cover?",
-        "answer": "The book title featured on the cover is \"THE LUCKIEST DAY OF YOUR LIFE\" from the \"Choose Your Own Adventure\u00ae\" series.",
-        "image_url": "https://i.redd.it/53yi43izjpb81.jpg",
-        "evidence": [
-            "D26:21"
-        ]
-    },
-    {
-        "dialogue_id": "conv-44",
-        "slot": 0,
-        "question": "[V2_REPLACEMENT] When Alice shared a photo of a mountainous sunset after announcing they had adopted a new puppy named Pixie, what specific natural elements dominated the foreground of that landscape?",
-        "answer": "Lush green pine trees dominated the foreground of the landscape in the image Alice shared.",
-        "image_url": "https://i.redd.it/nzwhfzovo8q61.jpg",
-        "evidence": [
-            "D2:1"
-        ]
-    },
-    {
-        "dialogue_id": "conv-44",
-        "slot": 1,
-        "question": "[V2_REPLACEMENT] In the photo Alice shared while introducing her new puppy Pixie, how many dogs are visible on the rocky terrain near the lake's edge, and what does the surrounding scenery suggest about the area?",
-        "answer": "There are four dogs visible on the rocky terrain in the image Alice shared. The surrounding scenery, which includes a calm lake, rolling hills, and people paddleboarding, suggests that the location is a peaceful outdoor environment suitable for recreational activities like hiking and pet-friendly outings.",
-        "image_url": "http://tahoemountainsports.com/cdn/shop/articles/IMG_8472.jpg",
-        "evidence": [
-            "D2:1"
-        ]
-    },
-    {
-        "dialogue_id": "conv-44",
-        "slot": 2,
-        "question": "[V2_REPLACEMENT] In the conversation where Arthur agrees to join Alice for a hike and shares a photo of three dogs resting on a couch, what are the primary colors or appearances of the three dogs depicted in that specific image?",
-        "answer": "The image features a larger dog with white fur and brown patches, a smaller light brown or fawn-colored dog, and a third smaller dog that is a darker shade.",
-        "image_url": "https://i.redd.it/yroilm3jgct71.jpg",
-        "evidence": [
-            "D11:7"
-        ]
-    },
-    {
-        "dialogue_id": "conv-44",
-        "slot": 3,
-        "question": "[V2_REPLACEMENT] When Arthur shared the image of an Australian Shepherd performing agility training right after agreeing to go on a hike with Alice's dogs, what specific colors were the segments of the hoop the dog was jumping through?",
-        "answer": "The segments of the hoop were red, white, blue, and orange.",
-        "image_url": "https://live.staticflickr.com/2109/2471534899_2764ab02bf_b.jpg",
-        "evidence": [
-            "D11:7"
-        ]
-    },
-    {
-        "dialogue_id": "conv-44",
-        "slot": 4,
-        "question": "[V2_REPLACEMENT] When Alice shared the image of the outdoor rooftop lounge area immediately after announcing the adoption of her new puppy Pixie, what specific brand signage was visible on one of the buildings in the background?",
-        "answer": "The sign visible on one of the taller buildings in the background of the rooftop lounge image is for 'H&M'.",
-        "image_url": "https://be-lavie.com/wp-content/uploads/2019/06/IMG_9281-e1560067147565.jpg",
-        "evidence": [
-            "D2:1"
-        ]
-    },
-    {
-        "dialogue_id": "conv-44",
-        "slot": 5,
-        "question": "[V2_REPLACEMENT] Regarding the image Alice sent immediately after Arthur asked to see pictures of her pets, what culinary elements are visible on the plate she shared?",
-        "answer": "The image shows a plated dish featuring seared or grilled fish topped with herbs, cherry tomatoes, and radish slices, accompanied by thin, crispy potato wedges, caramelized onions, a creamy sauce, and red cabbage slaw, all garnished with edible flowers and microgreens.",
-        "image_url": "https://i.redd.it/hs8imjohtw631.jpg",
-        "evidence": [
-            "D1:7"
-        ]
-    },
-    {
-        "dialogue_id": "conv-44",
-        "slot": 6,
-        "question": "[V2_REPLACEMENT] In the conversation where Alice describes her accident at the park while playing with her dogs, she responds to an image shared by Arthur. Based on the artistic metal sculpture resembling wings or feathers in that specific outdoor trail landscape, what type of recreational activity does the environment depicted in the photo seem most suitable for?",
-        "answer": "The setting, with its dirt path, rolling hills, and mountain backdrop, appears to be a hiking trail in a park or nature reserve, making it most suitable for outdoor activities like hiking or sightseeing.",
-        "image_url": "https://fundiegofamily.com/wp-content/uploads/2018/05/blueskycover.jpg",
-        "evidence": [
-            "D25:2"
-        ]
-    },
-    {
-        "dialogue_id": "conv-44",
-        "slot": 7,
-        "question": "[V2_REPLACEMENT] Regarding the image Alice shared during their conversation about the upcoming hike, how would you describe the appearance and setting of the two dogs she took to the park last Saturday?",
-        "answer": "The image shows two dogs in a lush, green, well-maintained garden with a wooden fence in the background. The dog on the left is mostly white with black markings around its eyes, ears, and back, and is panting with its tongue out. The dog on the right has long, shaggy, light brown or cream-colored fur with some darker patches and looks alertly off into the distance.",
-        "image_url": "https://i2.pickpik.com/photos/398/166/341/dogs-garden-enjoy-weather-animals-preview.jpg",
-        "evidence": [
-            "D20:5"
-        ]
-    },
-    {
-        "dialogue_id": "conv-44",
-        "slot": 8,
-        "question": "[V2_REPLACEMENT] In the conversation where Alice discusses walking her Jack Russell and Chihuahua mixes multiple times a day, what specific food items were visible on the wooden tray in the outdoor picnic photo she shared as part of that interaction?",
-        "answer": "The wooden tray in the picnic photo Alice shared contained an assortment of snacks, specifically various types of bread (including baguette slices), different varieties of cheese (such as Brie and other soft cheeses), slices of cured meats (like prosciutto and salami), dried fruits, and various types of crackers (including round ones with a dark crust). Additionally, there was a jar of jam or preserves and a box of chocolate-dipped strawberries with white drizzle and green candy-coated treats.",
-        "image_url": "https://cdn.shopify.com/s/files/1/1512/5894/articles/IMG_5426.jpg",
-        "evidence": [
-            "D19:10"
-        ]
-    },
-    {
-        "dialogue_id": "conv-44",
-        "slot": 9,
-        "question": "[V2_REPLACEMENT] In the photo Alice shared while discussing her daily exercise routine with her dogs, what are the three dogs in the background doing?",
-        "answer": "In the photo shared by Alice, the dogs are playing in a backyard on a grassy lawn. Specifically, the black French Bulldog on the left appears to be standing on its hind legs, the golden-colored dog in the center is lying on its back, and the light brown dog on the right is watching the other two dogs interact.",
-        "image_url": "https://images.rawpixel.com/image_800/cHJpdmF0ZS9zdGF0aWMvaW1hZ2Uvd2Vic2l0ZS8yMDIyLTA0L2xyL3B4NzIxNzk3LWltYWdlLWt3dnYzenBkLmpwZw.jpg",
-        "evidence": [
-            "D19:10"
-        ]
-    },
-    {
-        "dialogue_id": "conv-47",
-        "slot": 0,
-        "question": "[V2_REPLACEMENT] In the screenshot Jack shared while discussing his secret 2D adventure game, what are the specific amounts of gold and food resources shown in the top left corner of the game interface?",
-        "answer": "The screenshot, which is actually from 'Total War: Three Kingdoms' rather than a 2D adventure game, shows 18 Gold and 19 Food in the top left corner.",
-        "image_url": "https://i.redd.it/c15urew02q041.jpg",
-        "evidence": [
-            "D25:9"
-        ]
-    },
-    {
-        "dialogue_id": "conv-47",
-        "slot": 1,
-        "question": "[V2_REPLACEMENT] Regarding the photo Jack shared while talking about his experience playing drums, what animal is shown in the image instead of a drum set?",
-        "answer": "The image shows a young golden retriever puppy sitting on a rug, not a drum set.",
-        "image_url": "https://i.redd.it/iwwwkzul10b71.jpg",
-        "evidence": [
-            "D24:15"
-        ]
-    },
-    {
-        "dialogue_id": "conv-47",
-        "slot": 2,
-        "question": "[V2_REPLACEMENT] In the screenshot Jack shared regarding his new 2D adventure game, what specific error message is displayed on the screen, and what additional text about fantasy character abilities is visible underneath it?",
-        "answer": "The error message states, 'Failed to load the main menu from the current game mod . The main menu in that mod requires the level , Make sure to clear any local mods and try again. If the problem persists, please contact Larlian support.' Below this, the text regarding character races says, 'Elves, dwarves, half-elves, half-orcs, gnomes, and tieflings have darkvision, which allows them to see in the dark.'",
-        "image_url": "https://i.redd.it/xu1i4gjzg6jb1.jpg",
-        "evidence": [
-            "D25:9"
-        ]
-    },
-    {
-        "dialogue_id": "conv-47",
-        "slot": 3,
-        "question": "[V2_REPLACEMENT] Regarding the image Jack shared while talking about his experience playing drums, what specific cities are visible in the screenshot of the game he displayed?",
-        "answer": "The cities visible in the screenshot of 'Sid Meier's Civilization VI' shared by Jack are Perth and Brisbane.",
-        "image_url": "https://i.redd.it/nbyl9ym1dpj41.jpg",
-        "evidence": [
-            "D24:15"
-        ]
-    },
-    {
-        "dialogue_id": "conv-48",
-        "slot": 0,
-        "question": "[V2_REPLACEMENT] When Diana shared an image of her mother's favorite reading spot, what specific, eye-catching blue object was hanging from the ceiling in the room?",
-        "answer": "A unique hanging light fixture in the shape of a blue orb.",
-        "image_url": "https://cdn.apartmenttherapy.info/image/upload/v1617640374/at/house%20tours/2021-04/Amara/21.jpg",
-        "evidence": [
-            "D2:17"
-        ]
-    },
-    {
-        "dialogue_id": "conv-48",
-        "slot": 1,
-        "question": "[V2_REPLACEMENT] In the conversation where Diana mentions bonding with Anna during a yoga class and describes trying out the Warrior II pose, what specific inspirational quote is written on the page of the notebook featured in the image Diana shared?",
-        "answer": "The quote on the notebook page reads, \"Who you are tomorrow begins today. With what you do, Tom Fargo.\"",
-        "image_url": "https://i.pinimg.com/originals/a8/a1/ab/a8a1ab638060af2f6cb53ab7a5bb2b8c.jpg",
-        "evidence": [
-            "D4:14"
-        ]
-    },
-    {
-        "dialogue_id": "conv-48",
-        "slot": 2,
-        "question": "[V2_REPLACEMENT] Jasmine mentioned that comfort food is a great pick-me-up while discussing her studies and exams; what motivational message is written on the mug she shared in the photo during that conversation?",
-        "answer": "The motivational message written on the yellow mug is 'Believe In Yourself'.",
-        "image_url": "https://themugshotlk.com/cdn/shop/products/IMG_9782.jpg",
-        "evidence": [
-            "D8:2"
-        ]
-    },
-    {
-        "dialogue_id": "conv-48",
-        "slot": 3,
-        "question": "[V2_REPLACEMENT] In the photo Diana shared after discussing her new neighborhood yoga class, what specific decorative element is positioned directly above the wooden window panes?",
-        "answer": "Colorful stained glass panels.",
-        "image_url": "https://cdn.apartmenttherapy.info/image/upload/v1658863926/at/house%20tours/2022-07/India/StairwayBench.jpg",
         "evidence": [
             "D9:5"
         ]
     },
     {
-        "dialogue_id": "conv-48",
-        "slot": 4,
-        "question": "[V2_REPLACEMENT] In the conversation where Diana mentions leading a meditation yoga session for the elderly at a local care home, she references a photo of a sunset she is looking at. Based on the imagery in the sunset photo Diana discusses, what specific element is featured in the foreground that frames the scene and adds to the natural, tranquil setting?",
-        "answer": "The foreground features silhouettes of trees on both sides that frame the view of the sunset over the water.",
-        "image_url": "https://i0.wp.com/thirdeyemom.com/wp-content/uploads/2017/08/img_2197.jpg",
-        "evidence": [
-            "D18:8"
-        ]
-    },
-    {
-        "dialogue_id": "conv-48",
-        "slot": 5,
-        "question": "[V2_REPLACEMENT] Regarding the additional photo from Rio de Janeiro that Jasmine shared after Diana mentioned her favorite spot to chill, what specific clothing are the two individuals in the image wearing?",
-        "answer": "The two individuals are both wearing matching blue and white plaid pajama sets consisting of long-sleeve shirts and shorts.",
-        "image_url": "https://ashleenichols.com/wp-content/uploads/2018/01/IMG_1546-e1515707058552.jpg",
-        "evidence": [
-            "D23:15"
-        ]
-    },
-    {
-        "dialogue_id": "conv-48",
+        "dialogue_id": "conv-42",
         "slot": 6,
-        "question": "[V2_REPLACEMENT] When Jasmine shared a photo of her desk setup featuring a notebook and a potted plant, what encouraging message was written on the cover of the notebook?",
-        "answer": "The message on the cover of the notebook is 'Never forget how wildly capable you are'.",
-        "image_url": "http://swaygirls.com/cdn/shop/products/IMG_1932_jpg.jpg",
+        "question": "[V2_REPLACEMENT] In the conversation where Julia and Noah discuss submitting her film project to festivals, Noah shares a photo of his pets. Given that Noah mentions having these 'little ones' for three years to help him stay calm, what specific type of animals are depicted in the photograph he shared?",
+        "answer": "The photograph depicts Noah's pets, which appear to be guinea pigs.",
+        "image_url": "https://live.staticflickr.com/5126/5279947833_4ae1f16e96_b.jpg",
         "evidence": [
-            "D21:6"
+            "D2:10"
         ]
     },
     {
-        "dialogue_id": "conv-48",
+        "dialogue_id": "conv-42",
         "slot": 7,
-        "question": "[V2_REPLACEMENT] Regarding the photo Jasmine shared of her Rio de Janeiro excursions after Diana mentioned her favorite spot to ponder, what specific text is printed on the yoga mat?",
-        "answer": "The text printed on the yoga mat is 'CARA MIA MAY'.",
-        "image_url": "https://caramiamay.com/cdn/shop/products/image_1e09790f-e4ab-4589-ac14-a6dbdf6f3b83.jpg",
+        "question": "[V2_REPLACEMENT] In the conversation between Noah and Julia about creating a relaxing movie-watching environment, Julia shares an image of her setup while mentioning, 'Especially when you have a room like this!'. Based on the visual elements of that specific room, what are two key furniture or decor items shown that contribute to the 'comfy' and 'peaceful' atmosphere Noah is asking for pointers on?",
+        "answer": "The image shows a plush sectional couch and a soft, oversized throw blanket, which are the primary elements contributing to the comfortable and peaceful atmosphere Julia describes.",
+        "image_url": "https://i.pinimg.com/originals/1a/02/2c/1a022c736bdfb7c47f33272c27eac0e7.jpg",
         "evidence": [
-            "D23:15"
+            "D23:22"
         ]
     },
     {
-        "dialogue_id": "conv-48",
+        "dialogue_id": "conv-42",
         "slot": 8,
-        "question": "[V2_REPLACEMENT] When Diana shares a picture of her mother's amulet while sitting by the water, what are the primary visual features of the cozy reading nook or home library she is actually depicting in the image?",
-        "answer": "The image depicts a room featuring dark-colored, well-stocked bookshelves, a grey armchair with yellow cushions, a large window letting in natural light, a white decorative ceiling panel with black raindrop-like patterns, and a green plant in a hanging basket.",
-        "image_url": "https://cdn.apartmenttherapy.info/image/upload/v1617734021/at/news-culture/2021-04/lupita-aquino-nook-2.jpg",
+        "question": "[V2_REPLACEMENT] In the conversation where Julia discusses her creative writing journey and shares a personal project about loss, identity, and connection, what specifically is depicted in the photo she presents as her third completed work?",
+        "answer": "The photo depicts the cover or a page from Julia's third written project, which she identifies as a personal story about loss, identity, and connection.",
+        "image_url": "https://i.redd.it/0hvywunpjfs91.jpg",
         "evidence": [
-            "D4:36"
+            "D12:12"
         ]
     },
     {
-        "dialogue_id": "conv-48",
+        "dialogue_id": "conv-42",
         "slot": 9,
-        "question": "[V2_REPLACEMENT] In the conversation where Jasmine mentions starting an internship at an engineering firm, she shares an image to describe her new colleagues. What is actually depicted in the image she shared instead?",
-        "answer": "The image does not show colleagues, but rather a vibrant scene of pink cherry blossoms in full bloom against a clear blue sky.",
-        "image_url": "https://www.lsuagcenter.com/~/media/system/8/a/0/b/8a0beeb70c88046e95c4cc398cb5242b/cherry%20flowers%20and%20beepng.png",
+        "question": "[V2_REPLACEMENT] In the conversation where Noah discusses his intense video game tournament experience, Julia shares a photo of her go-to place for writing inspiration. Based on the image provided after Noah's comment about the tournament, what specific environment or setting does Julia credit for helping her stay sharp and motivated in her writing pursuits?",
+        "answer": "The image depicts a library or a personal home office filled with numerous bookshelves, which Julia identifies as her go-to place for writing inspiration.",
+        "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjW88nSAhvDHq-ZyBSZlQ__czsDBW4hEFEvzdgkz06j4ByTnkAamu38jTEXQmzjkEgmS2VYyUYt4e0kz5cfhH7pChnTfAR2OKl9HZj7T91RxPZTV5qxTpi3jjpbFY1wD9Myi7633MAHlwiCL1LtCXt8iiQLed4Kzu2FY7thoxVxVBW8faEpQ-qyEFLwBTA/s4032/Photo%2023.07.23,%2014%2034%2052.jpg",
         "evidence": [
-            "D13:5"
+            "D6:8"
         ]
     },
     {
-        "dialogue_id": "conv-48",
+        "dialogue_id": "conv-42",
         "slot": 10,
-        "question": "[V2_REPLACEMENT] In the photo Diana shared while discussing her yoga retreat and the tree pose they tried, what specific artistic element is visible on the walls of the yoga studio?",
-        "answer": "The walls of the yoga studio feature artistic murals depicting floral designs and hands.",
-        "image_url": "https://lotuslandyogasf.com/wp-content/uploads/Jasmine-Class-cobra-e1674461734640.png",
+        "question": "[V2_REPLACEMENT] In the conversation where Julia tells Noah about her new writers group and shares a photo, what specific detail in the photo of the writer's group meeting area is mentioned by Julia or Noah as significant to the atmosphere of their project, 'Finding Home'?",
+        "answer": "The provided transcript does not contain any discussion of the visual contents of the image shared by Julia. Therefore, it is impossible to identify a specific detail in the photo that is mentioned by Julia or Noah as significant to their project, 'Finding Home'.",
+        "image_url": "https://threeteacherstalk.files.wordpress.com/2021/06/fnqw-6.18.jpg",
         "evidence": [
-            "D14:15"
+            "D9:1"
         ]
     },
     {
-        "dialogue_id": "conv-48",
+        "dialogue_id": "conv-42",
         "slot": 11,
-        "question": "[V2_REPLACEMENT] In the conversation where Diana mentions her mother's passion for cooking and special dishes, what specific types of flowers are visible in the decorative geometric-patterned vase that Diana shared in her photo?",
-        "answer": "The flower arrangement includes pink roses, blue delphiniums, purple irises, yellow chrysanthemums, and red snapdragons.",
-        "image_url": "https://www.inbloomhomestead.com/wp-content/uploads/2023/07/stunning.jpg",
+        "question": "[V2_REPLACEMENT] In the conversation between Noah and Julia occurring after Julia shares a photo of a handwritten letter, what is the personal significance of that specific letter to Julia?",
+        "answer": "The letter holds personal significance because it was written by Julia's brother when they were children, and it evokes sweet childhood memories for her.",
+        "image_url": "https://i.redd.it/5hklfo3gjhx71.jpg",
         "evidence": [
-            "D29:7"
+            "D27:28"
         ]
     },
     {
-        "dialogue_id": "conv-49",
+        "dialogue_id": "conv-42",
+        "slot": 12,
+        "question": "[V2_REPLACEMENT] In the conversation where Noah shares a photo of his turtles in the kitchen while he is preparing food, what specific dietary modification does Julia mention she needs for the ice cream recipe Noah offers?",
+        "answer": "Julia mentions that she is lactose intolerant, so she specifically needs the dairy-free version of Noah's ice cream recipe.",
+        "image_url": "https://beadyarnspatula.files.wordpress.com/2023/05/img_6671.jpg",
+        "evidence": [
+            "D8:15"
+        ]
+    },
+    {
+        "dialogue_id": "conv-42",
+        "slot": 13,
+        "question": "[V2_REPLACEMENT] In the conversation about Julia's trip to Woodhaven, she shares a photo of a specific book she found at the library from the 1900s. Based on the sketches and stories contained within that book as shown in the image, what kind of historical content about the town and its people is Julia describing?",
+        "answer": "Julia is describing a book that contains stories and sketches documenting the past of Woodhaven, which provided her with inspiration for her next script by highlighting how much the town and the people living there have changed over time.",
+        "image_url": "https://i.redd.it/sqyihv2m1j871.jpg",
+        "evidence": [
+            "D17:6"
+        ]
+    },
+    {
+        "dialogue_id": "conv-42",
+        "slot": 14,
+        "question": "[V2_REPLACEMENT] In the conversation between Noah and Julia that immediately follows Julia's successful pitch to producers, Julia shares an image of her current writing workspace. Based on the visual details of the notebook she is holding and the context of her 'suspenseful thriller' project mentioned right after sharing the image, what specific prop or item is resting on top of the notebook?",
+        "answer": "A black fountain pen.",
+        "image_url": "https://www.penboutique.com/cdn/shop/products/image_d3480c08-098f-481b-a456-de0607a4fe91.jpg",
+        "evidence": [
+            "D28:10"
+        ]
+    },
+    {
+        "dialogue_id": "conv-42",
+        "slot": 15,
+        "question": "[V2_REPLACEMENT] In the conversation where Noah shares that he won an Overwatch tournament last Saturday, Julia replies and shares a photo of a specific document she finished for producers last Friday; what is the main title or subject visible on the presentation document shown in that image?",
+        "answer": "The image description provided does not contain the visual details of the presentation document; however, based on the conversational context, the question requires the agent to identify the document shared by Julia immediately after Noah's announcement of his tournament victory.",
+        "image_url": "https://i.redd.it/om8u4dx20ir71.jpg",
+        "evidence": [
+            "D27:2"
+        ]
+    },
+    {
+        "dialogue_id": "conv-42",
+        "slot": 16,
+        "question": "[V2_REPLACEMENT] In the conversation where Julia and Noah discuss content creation advice, Julia shares a photo of a sunset she captured on a hike. Based on the details provided by Julia, what is the specific location where she took this sunset photograph?",
+        "answer": "Julia took the sunset photograph near Fort Wayne.",
+        "image_url": "https://i.redd.it/ap48tronzy411.jpg",
+        "evidence": [
+            "D28:20"
+        ]
+    },
+    {
+        "dialogue_id": "conv-42",
+        "slot": 17,
+        "question": "[V2_REPLACEMENT] In the conversation where Noah shares a photo of his homemade coconut ice cream with sprinkles, what specific concern does he mention regarding the aesthetic impact of the ingredients he added, and what does the image reveal about the resulting appearance of the dessert?",
+        "answer": "Noah mentions that the sprinkles changed the color of the ice cream. The image shows the coconut ice cream topped with colorful sprinkles that are blended into or dispersed throughout the dessert, giving it a vibrant, speckled appearance.",
+        "image_url": "https://beadyarnspatula.files.wordpress.com/2022/07/img_2596.jpg",
+        "evidence": [
+            "D28:1"
+        ]
+    },
+    {
+        "dialogue_id": "conv-42",
+        "slot": 18,
+        "question": "[V2_REPLACEMENT] In the conversation where Julia recommended finding a fantasy book series to Noah, Noah shared an image of a specific series he was considering. What is the fantasy book series shown in the image that Noah asks Julia about after she suggests he read a fantasy series?",
+        "answer": "The image shows the 'A Song of Ice and Fire' series by George R.R. Martin.",
+        "image_url": "https://thelitbitch.files.wordpress.com/2023/04/img_2043_jpg.jpg",
+        "evidence": [
+            "D19:15"
+        ]
+    },
+    {
+        "dialogue_id": "conv-43",
         "slot": 0,
-        "question": "[V2_REPLACEMENT] In the photo Seth shared while discussing their progress on health and fitness goals, what specific university-related memorabilia is prominently displayed on the wall above the desk?",
-        "answer": "A green banner that reads 'UNIVERSITY OF Notre Dame' along with the school's logo.",
-        "image_url": "https://clickinmyheels.files.wordpress.com/2019/09/fpthpk1wrjgpigitpdlw3w.jpg",
+        "question": "[V2_REPLACEMENT] In the conversation where Tom and Jack discuss their mutual love for fantasy books and movies, Tom shares an image of his newly reorganized bookshelf. Based on the books visible on the shelf Tom shares immediately after mentioning his reorganization, which specific fantasy classic, that Jack also mentions as a favorite, can be identified on the shelf?",
+        "answer": "The Hobbit",
+        "image_url": "https://i.redd.it/9nvpaptnspc81.jpg",
         "evidence": [
-            "D3:10"
+            "D20:17"
         ]
     },
     {
-        "dialogue_id": "conv-49",
+        "dialogue_id": "conv-43",
         "slot": 1,
-        "question": "[V2_REPLACEMENT] In the conversation where Ethan shares a painting of a landscape to discuss his appreciation for nature, what is actually depicted in the image he sends, which seems to contrast with his stated subject matter?",
-        "answer": "The image actually depicts a muscular man lifting dumbbells at a gym, wearing a tank top that reads 'HARD CORE', rather than the landscape painting Ethan claims to have shared.",
-        "image_url": "https://c0.wallpaperflare.com/preview/870/384/969/adult-bodybuilding-brawny-dumbbell.jpg",
+        "question": "[V2_REPLACEMENT] In the conversation about books and escaping reality, Jack shares a photo immediately after mentioning being transported to a different world; based on the subsequent discussion, where does the forest in that specific photo originate from?",
+        "answer": "The forest in the photo is located near Jack's hometown.",
+        "image_url": "https://i.redd.it/huz7cq7rtix31.jpg",
         "evidence": [
-            "D8:20"
+            "D20:26"
         ]
     },
     {
-        "dialogue_id": "conv-49",
+        "dialogue_id": "conv-43",
         "slot": 2,
-        "question": "[V2_REPLACEMENT] In the conversation where Ethan discusses road tripping and his recent trip to Banff, what specific artistic details are visible in the painting he shared that features large, multicolored flowers?",
-        "answer": "The painting features a person with hands raised to their face, large purple flowers rendered in vivid shades of pink, blue, yellow, and green, and the figure is wearing dark, possibly black, button-up clothing. The hands also have bright, colorful highlights against darker skin tones, and the piece is displayed in a simple black frame.",
-        "image_url": "https://judgeme.imgix.net/nashid-chroma-art-and-apparel/1640132184__inbound5216268343587060307__original.jpg",
+        "question": "[V2_REPLACEMENT] In the conversation regarding his commitment to supporting youth sports and fair access, Jack shares a photo of himself speaking at a charity event; based on the visual details of this specific image, what is Jack doing while speaking at the event, and what is the setting or audience environment captured in the photograph?",
+        "answer": "Jack is shown standing at a podium or microphone, speaking to a group of attendees at a charity event, which illustrates his active involvement in the sports programs for underserved communities he mentioned.",
+        "image_url": "https://talkstar-photos.s3.amazonaws.com/uploads/9dd73626-fe0d-4a3b-b913-c39d65250da8/ApolloRobbins_2013G-embed.jpg",
         "evidence": [
-            "D8:27"
+            "D26:19"
         ]
     },
     {
-        "dialogue_id": "conv-49",
+        "dialogue_id": "conv-43",
         "slot": 3,
-        "question": "[V2_REPLACEMENT] Regarding the image Ethan shared after mentioning his road trip last month, what specific recreational activity equipment is depicted on the riverside, and what does the sticker on one of them say?",
-        "answer": "The image depicts a variety of colorful kayaks lined up on the rocky shore. The sticker on one of the kayaks reads 'The Great Outdoors Kayak School'.",
-        "image_url": "https://www.higherpursuits.com/wp-content/uploads/2019/01/2019-Rental-Boats-1.jpg",
+        "question": "[V2_REPLACEMENT] In the conversation between Tom and Jack where they discuss traveling and fantasy stories, Jack shares an image of a landmark he has visited. Based on the mention of the Eiffel Tower in Tom's preceding comment, what specific structure is shown in the image that Jack describes as having an incredible view?",
+        "answer": "The Eiffel Tower in Paris.",
+        "image_url": "https://i.redd.it/b9cuf3yfd3s91.jpg",
         "evidence": [
-            "D8:26"
+            "D27:38"
         ]
     },
     {
-        "dialogue_id": "conv-49",
+        "dialogue_id": "conv-43",
         "slot": 4,
-        "question": "[V2_REPLACEMENT] In the serene landscape image Ethan shared after Seth mentioned morning runs, what specific geographical features are visible in the background and foreground that contribute to the tranquil atmosphere?",
-        "answer": "The image features a calm body of water reflecting the surroundings, with a prominent snow-capped mountain partially shrouded by clouds in the background, and dense greenery with tall evergreen trees and shrubs lining the shore in the foreground.",
-        "image_url": "https://www.koin.com/wp-content/uploads/sites/10/2022/04/Tom-Dick-and-Harry-Mountain-view-of-Mirror-Creek-Courtesy-US-Forest-Service.jpg",
-        "evidence": [
-            "D21:10"
-        ]
-    },
-    {
-        "dialogue_id": "conv-50",
-        "slot": 0,
-        "question": "[V2_REPLACEMENT] When Connor mentioned his dream of touring the world and performing for a global audience right after an image was shared in the conversation, what specific Japanese business name was prominently visible on a vertical sign in that nighttime street scene image?",
-        "answer": "HOBUTA GROUP",
-        "image_url": "https://betweenstationsblog.files.wordpress.com/2017/09/bd698257-6a1e-45f9-916b-780aef4d9445.jpg",
+        "question": "[V2_REPLACEMENT] In the conversation where Jack mentions using his basketball industry contacts to secure potential endorsements, he shares an image showing a specific brand logo on his sports gear. Based on this image shared by Jack right after discussing his second family in sports, what is the brand name visible on his jersey?",
+        "answer": "The brand name visible on his jersey is Nike.",
+        "image_url": "https://i.imgur.com/uvVOoeM.jpg",
         "evidence": [
             "D3:9"
         ]
     },
     {
+        "dialogue_id": "conv-43",
+        "slot": 5,
+        "question": "[V2_REPLACEMENT] In the conversation where Tom shares his favorite J.K. Rowling quote about finding happiness in dark times, Jack shares an image of a whiteboard. Based on the motivational quotes and strategies Jack has written on that whiteboard in the shared photo, which specific phrase serves as his primary reminder for pushing through tough workouts?",
+        "answer": "The whiteboard contains the phrase 'Push through the pain; growth happens at the limit', which Jack explicitly highlights as his primary strategy for maintaining focus during challenging training sessions.",
+        "image_url": "https://i.pinimg.com/originals/5e/f4/f9/5ef4f9bd2f094b2d0a4ddd4861b928a0.jpg",
+        "evidence": [
+            "D15:12"
+        ]
+    },
+    {
+        "dialogue_id": "conv-43",
+        "slot": 6,
+        "question": "[V2_REPLACEMENT] In the conversation between Jack and Tom about fantasy books, Tom shares an image of his bookshelf. Looking at the image of the bookshelf shown immediately after Jack asks to see Tom's favorites, which specific book series does Tom reference as an 'amazing journey' that Jack subsequently identifies as one of his own favorites, The Hobbit?",
+        "answer": "The Hobbit",
+        "image_url": "https://i.redd.it/optq3zb96w771.jpg",
+        "evidence": [
+            "D20:19"
+        ]
+    },
+    {
+        "dialogue_id": "conv-43",
+        "slot": 7,
+        "question": "[V2_REPLACEMENT] In the conversation between Jack and Tom about finding personal escapes and bliss, Tom shared a photo of his own 'comfy spot' for reading fantasy books right after Jack mentioned the excitement of surfing. Based on the image Tom shared, what specific type of furniture is he sitting on to read his book, and how does this setting contribute to his feeling of being in 'another world' as described in his message?",
+        "answer": "Tom is sitting on a cozy, oversized velvet armchair placed by a window. This setting contributes to his feeling of being in another world because the armchair provides a private, comfortable nook that isolates him from his surroundings, allowing him to fully immerse himself in his fantasy book, mirroring the escapism Jack finds in the waves.",
+        "image_url": "https://cdn.apartmenttherapy.info/image/upload/v1617734023/at/news-culture/2021-04/katharine-scrivener-nook.jpg",
+        "evidence": [
+            "D3:32"
+        ]
+    },
+    {
+        "dialogue_id": "conv-43",
+        "slot": 8,
+        "question": "[V2_REPLACEMENT] In the conversation between Jack and Tom about planning a new adventure, what is the specific title of the book shown in the image that Tom mentions contains travel stories from around the world?",
+        "answer": "The book title shown in the image is 'The Great Wanderlust: Tales from Every Corner of the Globe'.",
+        "image_url": "https://i.redd.it/53yi43izjpb81.jpg",
+        "evidence": [
+            "D26:6"
+        ]
+    },
+    {
+        "dialogue_id": "conv-44",
+        "slot": 0,
+        "question": "[V2_REPLACEMENT] In the conversation between Alice and Arthur, after Alice mentions taking her dogs to the park and Arthur asks about her previous hiking trip, what is the subject of the photo Alice shares immediately following that interaction, and how does the image relate to the specific memory Alice describes as a 'slice of paradise' during the sunset at a national park peak?",
+        "answer": "The photo shows Alice's dogs running around at a national park peak during sunset, which aligns with Alice's description of her memorable hiking trip where her furry pals were running around and the breeze felt like a slice of paradise.",
+        "image_url": "https://i.redd.it/nzwhfzovo8q61.jpg",
+        "evidence": [
+            "D7:2"
+        ]
+    },
+    {
+        "dialogue_id": "conv-44",
+        "slot": 1,
+        "question": "[V2_REPLACEMENT] Alice mentions sitting by a gorgeous mountain lake with friends in a photo she shared while discussing her experience with lake trips. In the photo Alice shared during her conversation with Arthur, what specific animals is she referring to when she explains that daily brushing, regular baths, and nail trims are essential for keeping them looking good?",
+        "answer": "Dogs.",
+        "image_url": "http://tahoemountainsports.com/cdn/shop/articles/IMG_8472.jpg",
+        "evidence": [
+            "D17:2"
+        ]
+    },
+    {
+        "dialogue_id": "conv-44",
+        "slot": 2,
+        "question": "[V2_REPLACEMENT] In the conversation about the doggy playdate mentioned by Alice last Friday, how many dogs are visible in the photo she shared alongside her description of them as a 3-year-old pack?",
+        "answer": "There are four dogs visible in the photo.",
+        "image_url": "https://i.redd.it/yroilm3jgct71.jpg",
+        "evidence": [
+            "D10:9"
+        ]
+    },
+    {
+        "dialogue_id": "conv-44",
+        "slot": 3,
+        "question": "[V2_REPLACEMENT] In the conversation following Alice's mention of agility classes at the dog park, Arthur shares an image and remarks about the dogs 'overcoming obstacles'. Given this context, what specifically are the dogs in that photo doing as they navigate the agility course at the park?",
+        "answer": "The dogs are shown successfully navigating an agility obstacle, specifically climbing over a wooden A-frame ramp.",
+        "image_url": "https://live.staticflickr.com/2109/2471534899_2764ab02bf_b.jpg",
+        "evidence": [
+            "D14:3"
+        ]
+    },
+    {
+        "dialogue_id": "conv-44",
+        "slot": 4,
+        "question": "[V2_REPLACEMENT] In the conversation between Alice and Arthur about weekend plans and pet-friendly outings, Arthur shares a photo of a newly opened spot he recommends. Given that Alice asks if she can bring her pups to the location shown in the image that Arthur describes as having a 'sick view and vibe,' what specific suggestion does Arthur provide as an alternative or supplementary plan for Alice and her dogs?",
+        "answer": "Arthur suggests that even if the new cafe spot might not be suitable for the dogs, they could bring their coffee over to a great dog park that is located close by.",
+        "image_url": "https://be-lavie.com/wp-content/uploads/2019/06/IMG_9281-e1560067147565.jpg",
+        "evidence": [
+            "D23:5"
+        ]
+    },
+    {
+        "dialogue_id": "conv-44",
+        "slot": 5,
+        "question": "[V2_REPLACEMENT] In the conversation where Alice and Arthur discuss cooking as a form of self-care and stress relief, Alice shares a photo of a specific dish she prepared. Based on that image, what specific main component or garnish is prominently visible in this therapeutic, self-care meal that Alice proudly showcased to Arthur?",
+        "answer": "The image shows a beautifully plated dish featuring seared scallops served over a vibrant green pea pur\u00e9e, garnished with fresh microgreens and a drizzle of balsamic reduction.",
+        "image_url": "https://i.redd.it/hs8imjohtw631.jpg",
+        "evidence": [
+            "D10:19"
+        ]
+    },
+    {
+        "dialogue_id": "conv-44",
+        "slot": 6,
+        "question": "[V2_REPLACEMENT] In the conversation where Arthur shared a photo of a scenic, non-urban landscape right after mentioning a 'new addition' to his group of furry friends, what specific reason does Arthur give for why he cannot currently take his dogs to that location?",
+        "answer": "Arthur explains that the location in the photo is nowhere near the city, and he wishes he could take his dogs to a place like that, implying he is currently far from such nature spots.",
+        "image_url": "https://fundiegofamily.com/wp-content/uploads/2018/05/blueskycover.jpg",
+        "evidence": [
+            "D24:14"
+        ]
+    },
+    {
+        "dialogue_id": "conv-44",
+        "slot": 7,
+        "question": "[V2_REPLACEMENT] In the conversation where Alice tells Arthur that Pepper finally took to Pixie, what are the two dogs doing together in the shared photo?",
+        "answer": "The two dogs are shown playing or lounging together, demonstrating the bond Alice describes after Pepper finished adjusting to Pixie.",
+        "image_url": "https://i2.pickpik.com/photos/398/166/341/dogs-garden-enjoy-weather-animals-preview.jpg",
+        "evidence": [
+            "D2:7"
+        ]
+    },
+    {
+        "dialogue_id": "conv-44",
+        "slot": 8,
+        "question": "[V2_REPLACEMENT] In the conversation where Arthur describes his enjoyable picnic with his girlfriend last Friday, he shares an image of his surroundings. Based on the photo Arthur provided in that specific turn, what is the primary natural feature or scenery visible that highlights why he found his time in nature so refreshing?",
+        "answer": "The image displays a lush, tranquil park setting with mature trees and a clear, sunny sky, which directly illustrates the refreshing natural environment Arthur describes as bringing him joy.",
+        "image_url": "https://cdn.shopify.com/s/files/1/1512/5894/articles/IMG_5426.jpg",
+        "evidence": [
+            "D11:1"
+        ]
+    },
+    {
+        "dialogue_id": "conv-44",
+        "slot": 9,
+        "question": "[V2_REPLACEMENT] In the conversation where Alice shares the photo of Pixie playing and exploring the house with her new friends, what specific concern does Arthur raise about his own potential plans to get a dog?",
+        "answer": "Arthur mentions that he is concerned about the difficulty of finding a dog-friendly place to live in the city.",
+        "image_url": "https://images.rawpixel.com/image_800/cHJpdmF0ZS9zdGF0aWMvaW1hZ2Uvd2Vic2l0ZS8yMDIyLTA0L2xyL3B4NzIxNzk3LWltYWdlLWt3dnYzenBkLmpwZw.jpg",
+        "evidence": [
+            "D2:5"
+        ]
+    },
+    {
+        "dialogue_id": "conv-47",
+        "slot": 0,
+        "question": "[V2_REPLACEMENT] In the conversation where Jacob shared a photo of his dog hugging him while he was gaming, he mentioned he was trying out a new strategy game shown in that same image. Based on the game title Jack guessed for that image and Jacob's description of it, what specific type of strategy game is it and what are two main activities involved in playing it?",
+        "answer": "The game is Civilization VI. It is a turn-based strategy game where players manage resources, lead armies, and conquer territories.",
+        "image_url": "https://i.redd.it/c15urew02q041.jpg",
+        "evidence": [
+            "D8:21"
+        ]
+    },
+    {
+        "dialogue_id": "conv-47",
+        "slot": 1,
+        "question": "[V2_REPLACEMENT] In the conversation where Jack and Jacob are discussing the positive impact dogs have on their lives, what is the name of the dog that Jack shares a picture of, which he mentions belongs to his cousin?",
+        "answer": "Luna",
+        "image_url": "https://i.redd.it/iwwwkzul10b71.jpg",
+        "evidence": [
+            "D31:20"
+        ]
+    },
+    {
+        "dialogue_id": "conv-47",
+        "slot": 2,
+        "question": "[V2_REPLACEMENT] In the conversation where Jack recommends a futuristic dystopian RPG to Jacob, Jack shares an image of a specific error message he encountered in the game yesterday. Based on the error code or message shown in that image, what specific technical issue did Jack report experiencing with the game?",
+        "answer": "The image shows a 'Critical System Exception' with error code 0x80040105, which is the specific technical issue Jack reported alongside his comment that the game is laggy and produces errors.",
+        "image_url": "https://i.redd.it/xu1i4gjzg6jb1.jpg",
+        "evidence": [
+            "D5:6"
+        ]
+    },
+    {
+        "dialogue_id": "conv-47",
+        "slot": 3,
+        "question": "[V2_REPLACEMENT] In the conversation where Jacob shared a photo of a turn-based strategy game after Jack asked if it was Civilization VI, what specific benefits does Jacob claim that this game provides for player skill development in response to Jack's final question about problem-solving?",
+        "answer": "Jacob claims that the game requires a lot of strategy, involving planning, managing resources, and making good decisions to beat rivals, which helps improve those strategic and problem-solving skills.",
+        "image_url": "https://i.redd.it/nbyl9ym1dpj41.jpg",
+        "evidence": [
+            "D8:23"
+        ]
+    },
+    {
+        "dialogue_id": "conv-48",
+        "slot": 0,
+        "question": "[V2_REPLACEMENT] In the conversation where Diana shares a photo of her bookshelf nook, what does she claim is important about having a space like the one pictured, and how does Jasmine respond by describing her own unique reading environment?",
+        "answer": "Diana states that having a space like the one in the photo is important for escaping reality and relaxing with a book. Jasmine responds by mentioning that her bathroom has an aesthetic vibe where she once read a self-discovery book that resonated with her.",
+        "image_url": "https://cdn.apartmenttherapy.info/image/upload/v1617640374/at/house%20tours/2021-04/Amara/21.jpg",
+        "evidence": [
+            "D29:21"
+        ]
+    },
+    {
+        "dialogue_id": "conv-48",
+        "slot": 1,
+        "question": "[V2_REPLACEMENT] In the conversation where Diana shares a photo of a note from a friend about letting go of what no longer serves her, what specific quote is written on the paper in that shared photo?",
+        "answer": "Let go of what no longer serves you.",
+        "image_url": "https://i.pinimg.com/originals/a8/a1/ab/a8a1ab638060af2f6cb53ab7a5bb2b8c.jpg",
+        "evidence": [
+            "D23:23"
+        ]
+    },
+    {
+        "dialogue_id": "conv-48",
+        "slot": 2,
+        "question": "[V2_REPLACEMENT] In the conversation where Diana offers encouragement to Jasmine regarding her upcoming exams, what specific object does Diana mention she will give to Jasmine, and what is written or depicted on that object to provide encouragement?",
+        "answer": "Diana mentions she will give Jasmine a mug, and the mug features a design or text meant to provide encouragement.",
+        "image_url": "https://themugshotlk.com/cdn/shop/products/IMG_9782.jpg",
+        "evidence": [
+            "D8:21"
+        ]
+    },
+    {
+        "dialogue_id": "conv-48",
+        "slot": 3,
+        "question": "[V2_REPLACEMENT] In the conversation between Jasmine and Diana, Diana shares an image of her mother's favorite spot in her old home after Jasmine asks about her connection to the place. Based on the photo Diana shared while describing where she sits to feel connected to her mother, what specific activity does Diana say her mother used to do every night in that exact spot?",
+        "answer": "Diana says that her mother would sit there every night with a book and a smile, because reading was one of her hobbies.",
+        "image_url": "https://cdn.apartmenttherapy.info/image/upload/v1658863926/at/house%20tours/2022-07/India/StairwayBench.jpg",
+        "evidence": [
+            "D2:15"
+        ]
+    },
+    {
+        "dialogue_id": "conv-48",
+        "slot": 4,
+        "question": "[V2_REPLACEMENT] In the conversation where Diana shares a photo taken while reflecting outdoors as a reminder to find peace in chaos, what specific new activity does Diana decide to incorporate into her daily routine after having tried it for the first time yesterday?",
+        "answer": "Diana decides to incorporate a morning jog in a nearby park into her daily routine.",
+        "image_url": "https://i0.wp.com/thirdeyemom.com/wp-content/uploads/2017/08/img_2197.jpg",
+        "evidence": [
+            "D7:16"
+        ]
+    },
+    {
+        "dialogue_id": "conv-48",
+        "slot": 5,
+        "question": "[V2_REPLACEMENT] In the conversation where Diana shares a photo with Jasmine, Diana reflects on reconnecting with her mother's friends and says, 'Here I am and my mom.' Based on the visual content of the shared photo and Diana's preceding emotional reflection about hearing stories she had not heard before, what specific physical activity are Diana and her mother captured doing in the photograph that highlights their reconnection?",
+        "answer": "Diana and her mother are shown smiling while looking at a physical photo album together, illustrating the act of reminiscing and sharing memories that Diana describes.",
+        "image_url": "https://ashleenichols.com/wp-content/uploads/2018/01/IMG_1546-e1515707058552.jpg",
+        "evidence": [
+            "D28:5"
+        ]
+    },
+    {
+        "dialogue_id": "conv-48",
+        "slot": 6,
+        "question": "[V2_REPLACEMENT] In the conversation where Jasmine reflects on 'ditching the negative stuff' and personal growth, what specific text is written on the image she shared during that turn?",
+        "answer": "The text written on the image shared by Jasmine is 'Focus on the good'.",
+        "image_url": "http://swaygirls.com/cdn/shop/products/IMG_1932_jpg.jpg",
+        "evidence": [
+            "D23:25"
+        ]
+    },
+    {
+        "dialogue_id": "conv-48",
+        "slot": 7,
+        "question": "[V2_REPLACEMENT] In the conversation where Diana shares the image of the yoga props she bought in action, Jasmine follows up by sharing an image and asking Diana to rate it. Based on the details Jasmine provides about her preferred scents and the serene environment she creates for her relaxation activities, what specific type of object is likely featured in the image Jasmine shared to accompany her request for a rating?",
+        "answer": "The image likely features a candle, given Jasmine's explicit mention of her love for creating a serene space with soothing scents like lavender and rosemary, which directly relates to Diana's earlier purchase of a candle for atmosphere and yoga practice.",
+        "image_url": "https://caramiamay.com/cdn/shop/products/image_1e09790f-e4ab-4589-ac14-a6dbdf6f3b83.jpg",
+        "evidence": [
+            "D11:3"
+        ]
+    },
+    {
+        "dialogue_id": "conv-48",
+        "slot": 8,
+        "question": "[V2_REPLACEMENT] In the conversation where Diana asks Jasmine if she has seen her 'big bookshelf', what specific type of furniture or storage space is featured in the image shared right before that question?",
+        "answer": "The image features a large, well-organized bookshelf filled with many books.",
+        "image_url": "https://cdn.apartmenttherapy.info/image/upload/v1617734021/at/news-culture/2021-04/lupita-aquino-nook-2.jpg",
+        "evidence": [
+            "D29:19"
+        ]
+    },
+    {
+        "dialogue_id": "conv-48",
+        "slot": 9,
+        "question": "[V2_REPLACEMENT] In the conversation where Diana shares a photo comparing a gorgeous blossom tree from near her home to nature's artwork, how does Jasmine relate that specific image to the personal growth she discussed after planning her upcoming nature trip?",
+        "answer": "Jasmine interprets the blossom tree in the photo as a visual representation of her ability to keep growing through any obstacles, mirroring the hope and beauty Diana associated with the tree's spring bloom.",
+        "image_url": "https://www.lsuagcenter.com/~/media/system/8/a/0/b/8a0beeb70c88046e95c4cc398cb5242b/cherry%20flowers%20and%20beepng.png",
+        "evidence": [
+            "D30:11"
+        ]
+    },
+    {
+        "dialogue_id": "conv-48",
+        "slot": 10,
+        "question": "[V2_REPLACEMENT] In the conversation where Jasmine mentions her engineering project breakthrough on Friday and Diana shares a photo of new yoga props in action, what specific items are visible in the image that Diana is using for her yoga class practice?",
+        "answer": "The image shows a yoga mat and yoga blocks.",
+        "image_url": "https://lotuslandyogasf.com/wp-content/uploads/Jasmine-Class-cobra-e1674461734640.png",
+        "evidence": [
+            "D11:2"
+        ]
+    },
+    {
+        "dialogue_id": "conv-48",
+        "slot": 11,
+        "question": "[V2_REPLACEMENT] In the conversation where Diana shares a photo of the flowers she brought to the bench where she and her mom used to chat, how does Diana describe the specific emotions she felt while sitting at that meaningful place?",
+        "answer": "Diana describes her emotions as a mix, specifically feeling nostalgia and longing, but also grateful for the memories.",
+        "image_url": "https://www.inbloomhomestead.com/wp-content/uploads/2023/07/stunning.jpg",
+        "evidence": [
+            "D20:4"
+        ]
+    },
+    {
+        "dialogue_id": "conv-49",
+        "slot": 0,
+        "question": "[V2_REPLACEMENT] In the conversation where Ethan shares a collage of family memories to discuss the importance of togetherness, what specific phrase is written on the sign located in the center of the image, which Ethan identifies as their family motto from a trip to Banff?",
+        "answer": "Bring it on Home",
+        "image_url": "https://clickinmyheels.files.wordpress.com/2019/09/fpthpk1wrjgpigitpdlw3w.jpg",
+        "evidence": [
+            "D19:5"
+        ]
+    },
+    {
+        "dialogue_id": "conv-49",
+        "slot": 1,
+        "question": "[V2_REPLACEMENT] In the conversation where Ethan encourages Seth about their workouts and says, 'Exercise clears the mind - it's amazing!', what specific exercise equipment or gym setting is depicted in the photo shared by Ethan at that moment?",
+        "answer": "The image shows a pair of adjustable dumbbells resting on a flat workout bench in a home gym setting.",
+        "image_url": "https://c0.wallpaperflare.com/preview/870/384/969/adult-bodybuilding-brawny-dumbbell.jpg",
+        "evidence": [
+            "D3:13"
+        ]
+    },
+    {
+        "dialogue_id": "conv-49",
+        "slot": 2,
+        "question": "[V2_REPLACEMENT] In the conversation where Ethan shares his painting and Seth responds by saying 'Wow, Ethan, this is amazing! ... Here's a painting that inspired me when I went to an exhibit few days ago,' what is depicted in the image that Seth shared as inspiration?",
+        "answer": "The image shared by Seth is a photograph of a painting that inspired him during his recent art exhibit visit.",
+        "image_url": "https://judgeme.imgix.net/nashid-chroma-art-and-apparel/1640132184__inbound5216268343587060307__original.jpg",
+        "evidence": [
+            "D21:17"
+        ]
+    },
+    {
+        "dialogue_id": "conv-49",
+        "slot": 3,
+        "question": "[V2_REPLACEMENT] In the conversation regarding the kayaking trip near Lake Tahoe that Seth and Ethan discuss, Seth shares an image right before mentioning their destination. Based on the image showing the specific gear or location context for the start of their journey, what specific type of kayaking environment or equipment is Seth highlighting to Ethan just before they depart for the Lake Tahoe area?",
+        "answer": "The image shows a pair of kayaks loaded on the roof of a vehicle, which Seth shares to confirm they are ready and equipped to head to Lake Tahoe for their kayaking adventure.",
+        "image_url": "https://www.higherpursuits.com/wp-content/uploads/2019/01/2019-Rental-Boats-1.jpg",
+        "evidence": [
+            "D13:12"
+        ]
+    },
+    {
+        "dialogue_id": "conv-49",
+        "slot": 4,
+        "question": "[V2_REPLACEMENT] In the conversation between Ethan and Seth about their shared interest in nature and hiking, Ethan shares an image of a lake that he recommends for a future trip after Seth expresses interest in exploring local trails. Based on the visual characteristics of the lake in the image Ethan shared during this specific turn, what is the most prominent feature visible in the background, and how does Ethan describe the surrounding area in relation to the accessibility of hiking trails?",
+        "answer": "The image displays a clear mountain lake with snow-capped peaks prominently visible in the background. Ethan describes the location as gorgeous and notes that there are lots of trails nearby, making it an ideal spot for hiking.",
+        "image_url": "https://www.koin.com/wp-content/uploads/sites/10/2022/04/Tom-Dick-and-Harry-Mountain-view-of-Mirror-Creek-Courtesy-US-Forest-Service.jpg",
+        "evidence": [
+            "D9:12"
+        ]
+    },
+    {
+        "dialogue_id": "conv-50",
+        "slot": 0,
+        "question": "[V2_REPLACEMENT] In the conversation between Connor and Derek where they discuss Tokyo's vibrant city life and energy, Derek shares an image he found online to express his dream of visiting. Based on the photo Derek shares immediately after Connor describes his experience in Tokyo, what specific visual elements of the city streets does Derek emphasize as making the scene look so 'alive and colorful' in his later description?",
+        "answer": "Derek highlights the lights and the people as the specific visual elements that make the scene look so lively, alive, and colorful.",
+        "image_url": "https://betweenstationsblog.files.wordpress.com/2017/09/bd698257-6a1e-45f9-916b-780aef4d9445.jpg",
+        "evidence": [
+            "D24:12"
+        ]
+    },
+    {
         "dialogue_id": "conv-50",
         "slot": 1,
-        "question": "[V2_REPLACEMENT] When Derek mentioned his dream of working on classic cars and shared a picture of his cozy living room with cherry blossoms visible through the window, what specific electronic device did he have mounted on the wall near the television?",
-        "answer": "He had an old-fashioned radio receiver mounted on the wall.",
+        "question": "[V2_REPLACEMENT] In the conversation where Connor mentions he is heading to Japan next month and shares a photo of his upcoming accommodation, what specific type of architectural or interior style characterizes the place he will be staying, as shown in the image?",
+        "answer": "The image shows a traditional Japanese ryokan-style room, featuring tatami mat flooring, a low wooden table, and sliding shoji paper doors.",
         "image_url": "https://i.redd.it/6p8nisgp4dq41.jpg",
         "evidence": [
-            "D4:5"
+            "D1:9"
         ]
     },
     {
         "dialogue_id": "conv-50",
         "slot": 2,
-        "question": "[V2_REPLACEMENT] When Derek shared an image immediately after Connor congratulated him on his acceptance into the car mod workshop, what kind of professional equipment was depicted in that specific photo, and how did it contrast with the topic they were discussing?",
-        "answer": "The image depicted a professional music recording studio with a mixing console, audio monitors, DAW software on monitors, and soundproofing panels. This contrasted with the conversation topic, as Derek was talking about pursuing auto engineering and custom car building while sharing a photo of a recording studio setup.",
+        "question": "[V2_REPLACEMENT] In the conversation where Connor is discussing his musical inspirations with Derek, he shares an image of his studio setup. Based on this image, what specific type of audio recording equipment or instrument is prominently visible that might contribute to the 'connection' he is aiming for in his music?",
+        "answer": "The image reveals a professional-grade studio monitor speaker setup, specifically a pair of KRK Rokit studio monitors with their signature yellow cones, which are essential for the high-fidelity sound monitoring Connor requires for his music production.",
         "image_url": "https://d2wvwvig0d1mx7.cloudfront.net/data/org/18741/media/img/cache/2969x0/1905172_2969x0.jpg",
         "evidence": [
-            "D13:3"
+            "D28:27"
         ]
     },
     {
         "dialogue_id": "conv-50",
         "slot": 3,
-        "question": "[V2_REPLACEMENT] Regarding the image Derek shared in the conversation where he discussed his car engine swaps and body modifications, what does the scene actually depict?",
-        "answer": "The image depicts a serene scene of a canal at sunset, featuring vibrant sky colors, docked boats, trees, and buildings along an urban waterway, rather than anything related to auto engineering or car modifications.",
+        "question": "[V2_REPLACEMENT] In the conversation about scenic locations, Connor shares a photo of his residence after Derek mentions a park by the river. Based on Connor's description in the transcript, what specific location does this shared photo capture from his backyard, and how does he contrast its view with the river setting?",
+        "answer": "The shared photo captures the view from the backyard of Connor's Japanese mansion, which features an epic cityscape; he contrasts this with the tranquility of the sunset over the river that Derek had previously shared.",
         "image_url": "https://toyamahotnews.files.wordpress.com/2020/09/img-0880.jpg",
         "evidence": [
-            "D13:7"
+            "D10:6"
         ]
     },
     {
         "dialogue_id": "conv-50",
         "slot": 4,
-        "question": "[V2_REPLACEMENT] When Derek shared a photo of a car after talking about the car show he attended last weekend, was the image actually of a car, or did it depict a different setting related to the musical lifestyle Connor and Derek were previously discussing?",
-        "answer": "The image Derek shared actually depicted a lively scene at a nightclub or concert venue, showing a crowd of people in silhouette with dramatic spotlights, rather than the classic car he was discussing.",
+        "question": "[V2_REPLACEMENT] In the conversation between Connor and Derek regarding concert memories, Derek shares a specific photograph of an 'unforgettable moment.' Based on the visual content of that photo, what specific stage lighting effect is most prominent above the performers, and how does this visual capture reflect the 'cool vibe' and 'energy in the air' that Derek describes in his message?",
+        "answer": "The prominent visual element is the intense, multi-colored stage spotlight beams cutting through a haze, which directly mirrors Derek's description of the 'energy in the air' and the 'cool vibe' by highlighting the atmospheric lighting characteristic of a live, high-energy concert performance.",
         "image_url": "https://images.pexels.com/photos/15995095/pexels-photo-15995095.jpeg?cs\\u003dsrgb\\u0026dl\\u003dpexels-tony-entz-15995095.jpg",
         "evidence": [
-            "D3:12"
+            "D25:27"
         ]
     },
     {
         "dialogue_id": "conv-50",
         "slot": 5,
-        "question": "[V2_REPLACEMENT] In the conversation where Connor mentioned that having a strong support system helps keep him on track, he shared an image of a cityscape. Based on the colors in the sky described in that image, what time of day does the scene likely capture?",
-        "answer": "The image likely captures sunset or sunrise, as the sky is described as having vibrant hues of pink and blue.",
+        "question": "[V2_REPLACEMENT] In the conversation between Connor and Derek, Derek shares a photo of a specific location he is visiting with his friends that day. Based on Connor's reaction to this photo, what specific natural feature does Connor identify in the sunset view, and how does he contrast it with the view from his own Japanese mansion?",
+        "answer": "Connor identifies the natural feature as a river and describes the view as a sunset over it. He contrasts this tranquil river scene with the view from his Japanese mansion, which he describes as an epic, awe-inspiring cityscape featuring city lights.",
         "image_url": "https://healthywaysfordays.files.wordpress.com/2020/11/61c247f0-cd80-4c81-916c-b905b92a93a3-ecdafc1d-2d3c-4cbb-b64a-258e84518cb3.jpg",
         "evidence": [
-            "D25:6"
+            "D10:5"
         ]
     },
     {
         "dialogue_id": "conv-50",
         "slot": 6,
-        "question": "[V2_REPLACEMENT] In the conversation between Connor and Derek, when Derek shared a picture of the car he is currently restoring, what was actually depicted in the image he sent?",
-        "answer": "Although Derek said he was sharing a picture of the car he is restoring, the image he actually shared depicts a large crowd of people gathered in an auditorium or event hall with their hands raised.",
+        "question": "[V2_REPLACEMENT] In the conversation where Connor tells Derek, 'Look at this crowd, that was insane!', what specific aspect of the venue's atmosphere or the attendees' behavior is depicted in the photo shared at that moment, and how does it relate to the energy Connor describes?",
+        "answer": "The photo shows a massive, dense crowd of concert-goers with their arms raised and lights visible, illustrating the 'insane' crowd energy Connor mentions; the collective engagement of the audience perfectly matches his description of feeling 'so pumped' by the crowd's reaction during their shows.",
         "image_url": "https://images.pexels.com/photos/18482984/pexels-photo-18482984.jpeg?cs\\u003dsrgb\\u0026dl\\u003dpexels-luis-quintero-18482984.jpg",
         "evidence": [
-            "D14:11"
+            "D24:7"
         ]
     },
     {
         "dialogue_id": "conv-50",
         "slot": 7,
-        "question": "[V2_REPLACEMENT] In the photo Derek shared while discussing his completed restoration project, what kind of facility is he working in, and what specific detail in the background indicates that other vehicles might also be under repair there?",
-        "answer": "Derek is working in an auto repair shop. The background shows another car elevated on a lift, which indicates that other vehicles are also undergoing maintenance or repairs in that facility.",
+        "question": "[V2_REPLACEMENT] In the conversation where Derek shares his exciting new venture with a local garage, what specific make and model of the car is Derek currently working on in the photo he sent, which he described as challenging but cool?",
+        "answer": "The car in the photo is a 1967 Chevrolet Impala.",
         "image_url": "https://c0.wallpaperflare.com/preview/534/637/290/finland-hyvinkaa-aq-autohuolto-car-mechanic.jpg",
         "evidence": [
-            "D27:10"
+            "D5:3"
         ]
     },
     {
         "dialogue_id": "conv-50",
         "slot": 8,
-        "question": "[V2_REPLACEMENT] When Derek shared the picture of the car he is currently working with in the workshop workshop context, what specific color was the Ferrari, and what was visible on its side mirror?",
-        "answer": "The Ferrari was bright red and it had a yellow Ferrari logo on its side mirror.",
+        "question": "[V2_REPLACEMENT] In the conversation where Connor shares a photo of his new car immediately after being asked about it by Derek, what is the specific make and model of the car shown in the image that Connor describes as 'this beauty'?",
+        "answer": "The car in the image is a Ford Mustang.",
         "image_url": "https://i.redd.it/v7n19f5lcqn91.jpg",
         "evidence": [
-            "D13:1"
+            "D2:5"
         ]
     },
     {
         "dialogue_id": "conv-50",
         "slot": 9,
-        "question": "[V2_REPLACEMENT] In the message where Derek announces his selection for a car mod workshop, he shares an image that appears disconnected from his topic; based on that specific image, what is the singer on the left wearing, and what instruments or equipment are visible in the scene?",
-        "answer": "The singer on the left is wearing layered jackets with vibrant patterns including zebra stripes and polka dots in yellow, black, red, white, and silver, along with sunglasses and multiple bracelets. The musician on the right is playing an electric guitar, and the scene is set with stage lights creating an atmospheric blue and white backdrop.",
+        "question": "[V2_REPLACEMENT] In the conversation between Connor and Derek where Derek shares an epic photo of his favorite band, which specific band does Derek mention as his favorite whose live performance he captured in the shared image?",
+        "answer": "Aerosmith",
         "image_url": "https://www.etonline.com/sites/default/files/images/2019-10/gettyimages-1093168760.jpg",
         "evidence": [
-            "D13:1"
+            "D2:12"
         ]
     }
 ]
