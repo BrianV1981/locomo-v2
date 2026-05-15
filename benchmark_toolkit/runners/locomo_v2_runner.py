@@ -6,7 +6,7 @@ import glob
 from datetime import datetime
 
 PROJECT_ROOT = "/home/kingb/aim-locomo"
-DATA_FILE = "/home/kingb/gemini-benchmarks/data/locomo_v2/locomo_v2_final.json"
+DATA_FILE = "/home/kingb/locomo-v2/data/locomo_v2_web.json"
 if not os.path.exists(DATA_FILE):
     DATA_FILE = "/home/kingb/gemini-benchmarks/data/locomo_v2/locomo_track1_qwen_q1_to_50.json"
 

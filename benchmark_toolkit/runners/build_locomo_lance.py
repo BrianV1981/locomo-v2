@@ -9,7 +9,7 @@ sys.path.insert(0, "/home/kingb/aim-locomo/aim_core")
 from aim_core.lance_backend import VectorBackend
 from aim_core.plugins.datajack.forensic_utils import get_embedding
 
-ORACLE_FILE = "/home/kingb/locomo-v2/data/locomo_v2_minicpm.json"
+ORACLE_FILE = "/home/kingb/locomo-v2/data/locomo_v2_web.json"
 TARGET_LANCE = "/home/kingb/aim-locomo/memory_lance"
 CAPTION_KEY = "minicpm_caption"  # Change to "llava_caption" or "blip_caption" as needed
 
@@ -85,12 +85,12 @@ for ci, conv in enumerate(conversations):
     current_len = 0
 
     for speaker, text, ts in lines:
-        turn_text = f"[{ts}] **{speaker}**: {text}" if ts else f"**{speaker}**: {text}"
+        turn_text = f"({ts}) <{speaker}>: {text}" if ts else f"<{speaker}>: {text}"
         turn_len = len(turn_text)
 
         # If adding this turn exceeds max, flush current chunk
         if current_len + turn_len > CHUNK_MAX and current_len >= CHUNK_MIN:
-            chunk_content = "\n".join(current_chunk)
+            chunk_content = "\n\n".join(current_chunk)
             try:
                 vec = get_embedding(chunk_content[:8000], task_type='RETRIEVAL_DOCUMENT')
                 if vec:
@@ -112,7 +112,7 @@ for ci, conv in enumerate(conversations):
 
     # Flush remaining
     if current_chunk:
-        chunk_content = "\n".join(current_chunk)
+        chunk_content = "\n\n".join(current_chunk)
         try:
             vec = get_embedding(chunk_content[:8000], task_type='RETRIEVAL_DOCUMENT')
             if vec:

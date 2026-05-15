@@ -5,9 +5,16 @@ import subprocess
 import glob
 from datetime import datetime
 
+# ==========================================
+# CONFIGURATION
+# ==========================================
 PROJECT_ROOT = "/home/kingb/aim-locomo"
 TMUX_SESSION = "17"
-DATA_FILE = os.path.join(PROJECT_ROOT, "data/locomo_v2_minicpm.json")
+
+# Change this to locomo_v2_minicpm.json or locomo_v2_llava.json when testing flattened datasets
+DATA_FILE = "/home/kingb/locomo-v2/data/locomo_v2_web.json"
+PREDICTIONS_DIR = "/home/kingb/gemini-benchmarks/reports/locomo_v2/track_b/"
+# ==========================================
 
 def send_via_buffer(session, text):
     subprocess.run(["tmux", "set-buffer", text], check=True)
@@ -24,18 +31,32 @@ def wait_for_response(session, transcript_path, timeout=600):
                 content = f.read()
                 if "[ANSWER]" in content:
                     return content
-        time.sleep(1)
+            last_size = os.path.getsize(transcript_path)
+        time.sleep(2)
     return None
 
 def main():
     # 1. Load questions
     with open(DATA_FILE, 'r') as f:
-        questions = json.load(f)
+        data = json.load(f)
+        
+    questions = []
+    for sample in data:
+        if "qa" in sample:
+            for qa in sample["qa"]:
+                questions.append(qa)
+        elif "question" in sample:
+            questions.append(sample)
+            
+    # The benchmark uses Track B Conv 1
+    questions = questions[199:304]
     
     # 2. Find latest prediction file
-    predictions_dir = "/home/kingb/gemini-benchmarks/reports/locomo_v2/track_b/"
-    list_of_files = glob.glob(os.path.join(predictions_dir, 'trackB_predictions_*.json'))
-    latest_file = max(list_of_files, key=os.path.getctime)
+    prediction_files = glob.glob(os.path.join(PREDICTIONS_DIR, "trackB_predictions_*.json"))
+    if not prediction_files:
+        print("No prediction files found to resume.")
+        return
+    latest_file = max(prediction_files, key=os.path.getctime)
     
     with open(latest_file, 'r') as f:
         predictions = json.load(f)
@@ -45,19 +66,26 @@ def main():
     
     # 3. Find latest transcript
     transcript_files = glob.glob(os.path.expanduser("~/.gemini/tmp/aim-locomo/chats/*.jsonl"))
+    if not transcript_files:
+        print("No agent transcript found.")
+        return
     latest_transcript = max(transcript_files, key=os.path.getctime)
     
     # 4. Resume loop
     for i in range(progress, len(questions)):
         q = questions[i]
-        print(f"Sending Question {i+1}: {q['question']}")
-        send_via_buffer(TMUX_SESSION, q['question'])
+        clean_q = q['question'].replace("[V2_CORRECTION]", "").replace("[LOCOMO-AUDIT]", "").replace("[LOCOMO-ISSUES]", "").replace("[V2_REPLACEMENT]", "").replace("?", ".").replace("$", "").replace("!", "").strip()
+        print(f"Sending Question {i+1}: {clean_q}")
+        send_via_buffer(TMUX_SESSION, clean_q)
         
         response = wait_for_response(TMUX_SESSION, latest_transcript)
         
         if response:
             answer = response.split("[ANSWER]")[-1].strip()
-            predictions.append({"id": q['id'], "question": q['question'], "answer": answer})
+            # Preserve original question structure in predictions
+            pred = q.copy()
+            pred["prediction"] = answer
+            predictions.append(pred)
             with open(latest_file, 'w') as f:
                 json.dump(predictions, f, indent=4)
         else:

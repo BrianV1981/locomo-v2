@@ -1,0 +1,474 @@
+--- LoCoMo Audit Dry Run Report ---
+
+Total Fixes Matched & Ready to Apply: 94 (Out of 99 logic errors)
+
+Q: What fields would Sarah be likely to pursue in her educaton?
+Type: HALLUCINATION
+Old Ground Truth: Psychology, counseling certification
+New Ground Truth: Counseling or mental health [LOCOMO-AUDIT]
+----------------------------------------
+Q: When did Jessica run a charity race?
+Type: TEMPORAL_ERROR
+Old Ground Truth: The sunday before 25 May 2023
+New Ground Truth: The Saturday before 25 May 2023 (approximately May 20, 2023) [LOCOMO-AUDIT]
+----------------------------------------
+Q: What books has Jessica read?
+Type: HALLUCINATION
+Old Ground Truth: "Nothing is Impossible", "Matilda"
+New Ground Truth: Matilda, an unnamed book about pursuing dreams, and Tomorrow Will Be Different [LOCOMO-AUDIT]
+----------------------------------------
+Q: When did Jessica read the book "nothing is impossible"?
+Type: HALLUCINATION
+Old Ground Truth: 2022
+New Ground Truth: 2022 (but the book title 'Nothing is Impossible' is fabricated; the transcript only says 'This book I read last year') [LOCOMO-AUDIT]
+----------------------------------------
+Q: What symbols are important to Sarah?
+Type: HALLUCINATION
+Old Ground Truth: Rainbow flag, transgender symbol
+New Ground Truth: Rainbow flag, eagle (symbolizing freedom and pride) [LOCOMO-AUDIT]
+----------------------------------------
+Q: What does Jessica do with her family on hikes?
+Type: AMBIGUOUS
+Old Ground Truth: Roast marshmallows, tell stories
+New Ground Truth: On hikes, Jessica's family explores nature, enjoys mountain views, and explores forests (D4:8, D8:34). The marshmallow roasting and storytelling happen around the campfire during camping trips, not on hikes. [LOCOMO-AUDIT]
+----------------------------------------
+Q: Would Jessica go on another roadtrip soon?
+Type: AMBIGUOUS
+Old Ground Truth: Likely no; since this one went badly
+New Ground Truth: Uncertain; although the trip started badly with the accident, the family continued and enjoyed the Grand Canyon, suggesting Jessica values family trips [LOCOMO-AUDIT]
+----------------------------------------
+Q: What is Jessica's hand-painted bowl a reminder of?
+Type: ATTRIBUTION_ERROR
+Old Ground Truth: art and self-expression
+New Ground Truth: art and self-expression (but this is Sarah's bowl, not Jessica's) [LOCOMO-AUDIT]
+----------------------------------------
+Q: What setback did Jessica face in October 2023?
+Type: TEMPORAL_ERROR
+Old Ground Truth: She got hurt and had to take a break from pottery.
+New Ground Truth: The setback (getting hurt, taking a break from pottery) occurred in September 2023, not October. Jessica reported it on October 13, 2023. [LOCOMO-AUDIT]
+----------------------------------------
+Q: What painting did Jessica show to Sarah on October 13, 2023?
+Type: INCOMPLETE
+Old Ground Truth: A painting inspired by sunsets with a pink sky.
+New Ground Truth: Two paintings: (1) a sunset-inspired painting with a pink sky (D17:12), and (2) an abstract painting with a blue background (D17:14). [LOCOMO-AUDIT]
+----------------------------------------
+Q: What kind of painting did Sarah share with Jessica on October 13, 2023?
+Type: ATTRIBUTION_ERROR
+Old Ground Truth: An abstract painting with blue streaks on a wall.
+New Ground Truth: A drawing of a woman in a dress (D17:21), a poster (D17:17), and a 'Trans Lives Matter' sign (D17:19) [LOCOMO-AUDIT]
+----------------------------------------
+Q: How did Jessica's son handle the accident?
+Type: ATTRIBUTION_ERROR
+Old Ground Truth: He was scared but reassured by his family
+New Ground Truth: The son was in the accident and is OK (D18:1, D18:3); the evidence does not describe the son's emotional reaction directly [LOCOMO-AUDIT]
+----------------------------------------
+Q: What do Jessica's family give her?
+Type: HALLUCINATION
+Old Ground Truth: Strength and motivation
+New Ground Truth: Strength (to keep going) [LOCOMO-AUDIT]
+----------------------------------------
+Q: How long did it take for Joel to open his studio?
+Type: TEMPORAL_ERROR
+Old Ground Truth: six months
+New Ground Truth: five months [LOCOMO-AUDIT]
+----------------------------------------
+Q: What did Grace find for her clothing store on 1 February, 2023?
+Type: AMBIGUOUS
+Old Ground Truth: The perfect spot for her store
+New Ground Truth: A wholesaler agreed to supply her store (per Grace's own words in D3:2), though Joel interpreted the news as finding 'the perfect spot' (D3:3) [LOCOMO-AUDIT]
+----------------------------------------
+Q: What advice does Grace give to Joel about running a successful business?
+Type: ATTRIBUTION_ERROR
+Old Ground Truth: build relationships with customers, create a strong brand image, stay positive
+New Ground Truth: This advice ('build relationships with customers, create a strong brand image, stay positive') was given by JON to GINA in D7:5, not by Grace to Joel. The attribution is reversed. [LOCOMO-AUDIT]
+----------------------------------------
+Q: What kind of professional experience did Grace get accepted for on May 23, 2023?
+Type: AMBIGUOUS
+Old Ground Truth: fashion internship
+New Ground Truth: fashion internship (but the acceptance was announced on 27 May 2023, not May 23 as stated in the question) [LOCOMO-AUDIT]
+----------------------------------------
+Q: When did Jack have his first firefighter call-out?
+Type: TEMPORAL_ERROR
+Old Ground Truth: The sunday before 3` July 2023
+New Ground Truth: The Sunday before 31 July 2023 (July 30, 2023) [LOCOMO-AUDIT]
+----------------------------------------
+Q: How many weeks passed between Mia adopting Coco and Shadow?
+Type: AMBIGUOUS
+Old Ground Truth: two weeks
+New Ground Truth: Approximately 1-2 weeks (7-15 days); one adoption date is hard (~July 28, 2023) but the other is a vague range ("last week" = ~Aug 4-12, 2023), so the exact gap is unresolvable [LOCOMO-AUDIT]
+----------------------------------------
+Q: What type of workout class did Mia start doing in December 2023?
+Type: TEMPORAL_ERROR
+Old Ground Truth: aerial yoga
+New Ground Truth: aerial yoga (answer is correct, but question says 2023 when it should say 2022) [LOCOMO-AUDIT]
+----------------------------------------
+Q: What did Mia donate to a homeless shelter in December 2023?
+Type: TEMPORAL_ERROR
+Old Ground Truth: old car
+New Ground Truth: old car (answer is correct, but question says 2023 when it should say 2022) [LOCOMO-AUDIT]
+----------------------------------------
+Q: What does Jack think about trying new classes at the yoga studio?
+Type: ATTRIBUTION_ERROR
+Old Ground Truth: Trying new classes is a fun way to switch up the exercise routine.
+New Ground Truth: Trying new stuff is a great way to push yourself and mix things up (from D25:15, Jack's actual words) [LOCOMO-AUDIT]
+----------------------------------------
+Q: What pets wouldn't cause any discomfort to Julia?
+Type: HALLUCINATION
+Old Ground Truth: Hairless cats or pigs,since they don't have fur, which is one of the main causes of Julia's allergy.
+New Ground Truth: The transcript does not suggest specific pets. Julia is allergic to reptiles, animals with fur, and cockroaches (D2:23, D5:11). No specific safe pet types are proposed in the conversation. [LOCOMO-AUDIT]
+----------------------------------------
+Q: What are Julia's hobbies?
+Type: INCOMPLETE
+Old Ground Truth: Writing, watchingmovies, exploringnature, hanging withfriends.
+New Ground Truth: Writing, reading, watching movies, exploring nature, hiking, cooking and baking, hanging with friends, acting (past passion), DIY/crafts [LOCOMO-AUDIT]
+----------------------------------------
+Q: When is Noah hosting a gaming party?
+Type: TEMPORAL_ERROR
+Old Ground Truth: The weekend after 3June, 2022.
+New Ground Truth: Two weekends after 3 June, 2022 (approximately June 17-18, 2022). [LOCOMO-AUDIT]
+----------------------------------------
+Q: What book recommendations has Julia given to Noah?
+Type: HALLUCINATION
+Old Ground Truth: "Little Women",'A Court of Thorns andRoses'.
+New Ground Truth: 'Eternal Sunshine of the Spotless Mind' movie (D1:16), 'Little Women' movie (D3:17). Julia also generically recommended finding a fantasy book series (D19:14), but never named a specific title. [LOCOMO-AUDIT]
+----------------------------------------
+Q: How long did it take for Julia to finish writing her book?
+Type: TEMPORAL_ERROR
+Old Ground Truth: four months
+New Ground Truth: Approximately three months (mid-July to late September 2022). [LOCOMO-AUDIT]
+----------------------------------------
+Q: How many of Julia's writing have made it to the big screen?
+Type: HALLUCINATION
+Old Ground Truth: two
+New Ground Truth: Three (as stated by Julia in D25:4: 'I know this is the third time it's happened'). [LOCOMO-AUDIT]
+----------------------------------------
+Q: What things has Noah reccomended to Julia?
+Type: HALLUCINATION
+Old Ground Truth: A pet,"The Lord of the Rings" movies,a dragon book series,coconut flavoring,"Project Hail Mary" book,Xenoblade Chronicles, dairy-free margarine, coconut oil
+New Ground Truth: A pet (D2:14), 'The Lord of the Rings' movies (D9:12), a fantasy book series (D9:14), coconut flavoring (D10:11), a book series with battles and characters (D19:17), Xenoblade Chronicles (D27:23), dairy-free margarine or coconut oil (D20:15). [LOCOMO-AUDIT]
+----------------------------------------
+Q: What alternative career might Noah consider after gaming?
+Type: HALLUCINATION
+Old Ground Truth: an animalkeeper at a localzoo and workingwith turtles; as heknows a great dealabout turtles andhow to care for them,and he enjoys it.
+New Ground Truth: Cannot be determined from transcript. Noah is passionate about turtles and knows how to care for them, but he never discusses leaving gaming or pursuing animal care professionally. [LOCOMO-AUDIT]
+----------------------------------------
+Q: How many hikes has Julia been on?
+Type: AMBIGUOUS
+Old Ground Truth: Four
+New Ground Truth: At least five (D7:6, D8:4, D11:3, D14:19, D28:22) [LOCOMO-AUDIT]
+----------------------------------------
+Q: What state did Julia visit in summer 2021?
+Type: TEMPORAL_ERROR
+Old Ground Truth: Indiana
+New Ground Truth: Indiana (but the visit was in summer 2022, not summer 2021 as the question states). [LOCOMO-AUDIT]
+----------------------------------------
+Q: What is Noah's favorite book series about?
+Type: HALLUCINATION
+Old Ground Truth: dragons
+New Ground Truth: Adventures, magic, and great characters (the specific subject 'dragons' is not stated in the transcript text). [LOCOMO-AUDIT]
+----------------------------------------
+Q: What does Noah feel he could do when out in cool places like Whispering Falls?
+Type: ATTRIBUTION_ERROR
+Old Ground Truth: write a whole movie
+New Ground Truth: This is Julia's statement, not Noah's. Julia feels she could write a whole movie when out in cool places like Whispering Falls. [LOCOMO-AUDIT]
+----------------------------------------
+Q: In which month's game did Jack achieve a career-high score in points?
+Type: TEMPORAL_ERROR
+Old Ground Truth: June 2023
+New Ground Truth: July 2023 [LOCOMO-AUDIT]
+----------------------------------------
+Q: Which endorsement deals has Jack been offered?
+Type: HALLUCINATION
+Old Ground Truth: basketball shoes and gear deal with Nike, potential sponsorship with Gatorade, Moxie a popular beverage company, outdoor gear company
+New Ground Truth: basketball shoes and gear deal with Nike, potential sponsorship with Gatorade, a popular beverage company (unnamed), outdoor gear company [LOCOMO-AUDIT]
+----------------------------------------
+Q: After how many weeks did Tom reconnect with the fellow Harry Potter fan from California?
+Type: TEMPORAL_ERROR
+Old Ground Truth: three weeks
+New Ground Truth: approximately four weeks [LOCOMO-AUDIT]
+----------------------------------------
+Q: When did Tom start playing the violin?
+Type: TEMPORAL_ERROR
+Old Ground Truth: August 2023
+New Ground Truth: approximately December 2023 [LOCOMO-AUDIT]
+----------------------------------------
+Q: When did Jack achieve a career-high assist performance?
+Type: TEMPORAL_ERROR
+Old Ground Truth: December 11, 2023
+New Ground Truth: December 8, 2023 [LOCOMO-AUDIT]
+----------------------------------------
+Q: What aspects of the Harry Potter universe will be discussed in Jack's fan project collaborations?
+Type: ATTRIBUTION_ERROR
+Old Ground Truth: characters, spells, magical creatures
+New Ground Truth: characters, spells, magical creatures (but this is Tom's fan project, not Jack's) [LOCOMO-AUDIT]
+----------------------------------------
+Q: What did Jack share with the person he skyped about?
+Type: ATTRIBUTION_ERROR
+Old Ground Truth: Characters from Harry Potter
+New Ground Truth: Characters from Harry Potter (but it was Tom who skyped, not Jack) [LOCOMO-AUDIT]
+----------------------------------------
+Q: What type of meal does Jack often cook using a slow cooker?
+Type: HALLUCINATION
+Old Ground Truth: honey garlic chicken with roasted veg
+New Ground Truth: The slow cooker meal is unspecified; honey garlic chicken with roasted veg is a separate dish cooked in a pan [LOCOMO-AUDIT]
+----------------------------------------
+Q: How does Tom stay motivated during difficult study sessions?
+Type: ATTRIBUTION_ERROR
+Old Ground Truth: Visualizing goals and success
+New Ground Truth: Breaking study into smaller parts: 25 minutes on, then 5 minutes off (Pomodoro technique) [LOCOMO-AUDIT]
+----------------------------------------
+Q: What did Tom say about his injury on 16 November, 2023?
+Type: ATTRIBUTION_ERROR
+Old Ground Truth: The doctor said it's not too serious
+New Ground Truth: Tom did not have an injury. It was Jack's injury. Jack (not Tom) said the doctor said it's not too serious. [LOCOMO-AUDIT]
+----------------------------------------
+Q: What language does Tom know besides German?
+Type: ATTRIBUTION_ERROR
+Old Ground Truth: Spanish
+New Ground Truth: French (Tom took French in high school, per D27:7) [LOCOMO-AUDIT]
+----------------------------------------
+Q: What book did Tom get in Italy that inspired him to cook?
+Type: ATTRIBUTION_ERROR
+Old Ground Truth: a cooking book
+New Ground Truth: Jack (not Tom) got a cooking book in Italy [LOCOMO-AUDIT]
+----------------------------------------
+Q: What is Jack's favorite book series?
+Type: ATTRIBUTION_ERROR
+Old Ground Truth: Harry Potter
+New Ground Truth: The evidence does not support Harry Potter as Jack's favorite. Jack explicitly calls The Hobbit 'one of my favorites' (D20:20). [LOCOMO-AUDIT]
+----------------------------------------
+Q: What kind of indoor activities has Arthur pursued with his girlfriend?
+Type: HALLUCINATION
+Old Ground Truth: boardgames, volunteering at pet shelter, wine tasting, growing flowers
+New Ground Truth: boardgames, volunteering at pet shelter, wine tasting [LOCOMO-AUDIT]
+----------------------------------------
+Q: When did Alice make muffins for herself?
+Type: AMBIGUOUS
+Old Ground Truth: The week of April 3rd to 9th
+New Ground Truth: Either April 3-9 (Monday-start convention) or April 9-15 (Sunday-start convention), depending on calendar interpretation. [LOCOMO-AUDIT]
+----------------------------------------
+Q: When did Alice see a hummingbird?
+Type: TEMPORAL_ERROR
+Old Ground Truth: first week of May 2023
+New Ground Truth: last week of April 2023 (approximately April 24-30, 2023) [LOCOMO-AUDIT]
+----------------------------------------
+Q: Where did Alice get Pixie from?
+Type: AMBIGUOUS
+Old Ground Truth: breeder
+New Ground Truth: Unclear - D2:1 says 'adopted' while D11:4 says 'breeder'. The evidence is contradictory. [LOCOMO-AUDIT]
+----------------------------------------
+Q: What are the breeds of Alice's dogs?
+Type: AMBIGUOUS
+Old Ground Truth: Mongrel mixed with Lab for Pepper and Panda. Mongrel mixed with Chihuahua for Precious and Pixie.
+New Ground Truth: Contradictory evidence: D19:12 says Jack Russell mixes and Chihuahua mixes; D26:13 says Lab mixes (Pepper, Panda) and Chihuahua mixes (Precious, Pixie) [LOCOMO-AUDIT]
+----------------------------------------
+Q: When did Arthur adopt Scout?
+Type: TEMPORAL_ERROR
+Old Ground Truth: few days before November 2023
+New Ground Truth: a few days before November 22, 2023 [LOCOMO-AUDIT]
+----------------------------------------
+Q: Which places or events have Jack and Jacob planned to meet at?
+Type: HALLUCINATION
+Old Ground Truth: VR Club, McGee's, baseball game
+New Ground Truth: VR gaming, McGee's, baseball game [LOCOMO-AUDIT]
+----------------------------------------
+Q: How was Jack feeling on April 10, 2022?
+Type: TEMPORAL_ERROR
+Old Ground Truth: seeking solitude
+New Ground Truth: The 'seeking solitude' event occurred on April 18, 2022, not April 10. There is no data about Jack's feelings on April 10. [LOCOMO-AUDIT]
+----------------------------------------
+Q: What is the board game where you have to find the imposter that Jack mentions to Jacob?
+Type: HALLUCINATION
+Old Ground Truth: Mafia
+New Ground Truth: Unknown - the game is described but never named. 'Mafia' is one possibility among several social deduction games. [LOCOMO-AUDIT]
+----------------------------------------
+Q: How many days did Jacob plan to spend on his trip in Canada?
+Type: TEMPORAL_ERROR
+Old Ground Truth: 19 days
+New Ground Truth: 9 days (July 11 to July 20) [LOCOMO-AUDIT]
+----------------------------------------
+Q: When did Jack spend time with his sister and dogs?
+Type: ATTRIBUTION_ERROR
+Old Ground Truth: July 21, 2022
+New Ground Truth: The question should ask about JAMES, not Jack. Jacob spent time with his sister and dogs on July 21, 2022. [LOCOMO-AUDIT]
+----------------------------------------
+Q: What was Jacob' big moment with Samantha in October 2023?
+Type: TEMPORAL_ERROR
+Old Ground Truth: They decided to live together and rented an apartment not far from McGee's bar.
+New Ground Truth: The golden answer about the event is correct, but it happened in October 2022, not October 2023 as stated in the question. [LOCOMO-AUDIT]
+----------------------------------------
+Q: When did Jacob and his family visit Mark and Josh?
+Type: AMBIGUOUS
+Old Ground Truth: November 7, 2022
+New Ground Truth: Between November 4-7, 2022 (exact date indeterminable from transcript) [LOCOMO-AUDIT]
+----------------------------------------
+Q: What did Jack organize with his friends on May 8, 2022?
+Type: TEMPORAL_ERROR
+Old Ground Truth: A tournament for CS:GO
+New Ground Truth: The CS:GO tournament was organized on May 7, 2022 (not May 8 as stated in the question) [LOCOMO-AUDIT]
+----------------------------------------
+Q: What kind of project was Jasmine working on in the beginning of January 2023?
+Type: HALLUCINATION
+Old Ground Truth: electricity engineering project
+New Ground Truth: electrical engineering project [LOCOMO-AUDIT]
+----------------------------------------
+Q: What card game is Diana talking about?
+Type: HALLUCINATION
+Old Ground Truth: Exploding Kittens
+New Ground Truth: an unnamed card game about cats where you draw cards and can attack opponents (Diana says she does not remember the name) [LOCOMO-AUDIT]
+----------------------------------------
+Q: Which countries has Diana traveled to?
+Type: HALLUCINATION
+Old Ground Truth: Thailand, Brazil
+New Ground Truth: Indonesia (Bali), Brazil (Rio de Janeiro) [LOCOMO-AUDIT]
+----------------------------------------
+Q: According to Jasmine, what does exercise help her to feel?
+Type: ATTRIBUTION_ERROR
+Old Ground Truth: connected to her body
+New Ground Truth: This is Diana's statement, not Jasmine's. Diana said exercise makes her feel connected to her body. [LOCOMO-AUDIT]
+----------------------------------------
+Q: What did Jasmine and Anna discuss while watching the sunset by the sea?
+Type: ATTRIBUTION_ERROR
+Old Ground Truth: They realized they inspire each other
+New Ground Truth: Diana and Anna (not Jasmine) realized they inspire each other while watching the sunset by the sea. [LOCOMO-AUDIT]
+----------------------------------------
+Q: Why did Jasmine have to reschedule their meeting with Diana on September 8, 2023?
+Type: ATTRIBUTION_ERROR
+Old Ground Truth: Jasmine already had plans
+New Ground Truth: Diana (not Jasmine) already had plans for that day, causing the reschedule. [LOCOMO-AUDIT]
+----------------------------------------
+Q: What did Jasmine recently play that she described to Di?
+Type: ATTRIBUTION_ERROR
+Old Ground Truth: a card game about cats
+New Ground Truth: Diana (not Jasmine) recently played a card game about cats. [LOCOMO-AUDIT]
+----------------------------------------
+Q: Which hobby did Seth take up in May 2023?
+Type: HALLUCINATION
+Old Ground Truth: painting
+New Ground Truth: Seth did not take up any hobby in May 2023. He was considering painting but explicitly said 'Not yet'. [LOCOMO-AUDIT]
+----------------------------------------
+Q: What kind of healthy food suggestions has Ethan given to Seth?
+Type: HALLUCINATION
+Old Ground Truth: flavored seltzer water, dark chocolate with high cocoa content, air-popped popcorn and fruit, veggies, healthy sandwich snacks, energy balls, grilled chicken salad with avocado
+New Ground Truth: flavored seltzer water, dark chocolate with high cocoa content, air-popped popcorn and fruit, energy balls [LOCOMO-AUDIT]
+----------------------------------------
+Q: What significant event happened in Seth's life towards the end of summer 2023?
+Type: ATTRIBUTION_ERROR
+Old Ground Truth: He fell in love with a Canadian woman
+New Ground Truth: This event happened to Ethan, not Seth. No comparable significant event for Seth is documented at end of summer 2023 beyond his ongoing health journey. [LOCOMO-AUDIT]
+----------------------------------------
+Q: What is the recurring dream that Seth keeps having?
+Type: HALLUCINATION
+Old Ground Truth: he's flying over a cityscape.
+New Ground Truth: he's flying/soaring over skyscrapers [LOCOMO-AUDIT]
+----------------------------------------
+Q: What kind of foods or recipes has Seth recommended to Ethan?
+Type: HALLUCINATION
+Old Ground Truth: grilled vegetables, grilled chicken and veggie stir-fry, poutine
+New Ground Truth: roasted vegetables, grilled chicken and veggie stir-fry [LOCOMO-AUDIT]
+----------------------------------------
+Q: What kind of healthy meals did Seth start eating after getting a health scare?
+Type: HALLUCINATION
+Old Ground Truth: salad, grilled salmon and vegetables, grilled chicken and veggie stir-fry, Beef Merlot, fruit bowl, smoothie bowl
+New Ground Truth: salad, grilled salmon and vegetables, grilled chicken and veggie stir-fry, fruit bowl [LOCOMO-AUDIT]
+----------------------------------------
+Q: How often does Seth get health checkups?
+Type: HALLUCINATION
+Old Ground Truth: every three months
+New Ground Truth: Irregularly, at varying intervals (approximately every 2-3 months in mid-2023, then a longer gap) [LOCOMO-AUDIT]
+----------------------------------------
+Q: What personal health incidents does Ethan face in 2023?
+Type: HALLUCINATION
+Old Ground Truth: heart palpitations, twisted ankle, twisted ankle
+New Ground Truth: heart palpitations, twisted knee, knee injury (from basketball) [LOCOMO-AUDIT]
+----------------------------------------
+Q: When did Ethan's son fall off his bike?
+Type: TEMPORAL_ERROR
+Old Ground Truth: Thursday before December 17, 2023.
+New Ground Truth: Tuesday before December 17, 2023 (approximately December 12, 2023) [LOCOMO-AUDIT]
+----------------------------------------
+Q: When did Ethan have a drunken night with his friends?
+Type: TEMPORAL_ERROR
+Old Ground Truth: January 9, 2023
+New Ground Truth: January 9, 2024 [LOCOMO-AUDIT]
+----------------------------------------
+Q: What dish did Seth make on 18 August, 2023 that turned out flavorful?
+Type: TEMPORAL_ERROR
+Old Ground Truth: grilled dish with salmon and vegetables
+New Ground Truth: grilled dish with salmon and vegetables (but made on August 14, 2023, not August 18) [LOCOMO-AUDIT]
+----------------------------------------
+Q: What kind of recipe did Ethan request from Seth on 19 August, 2023?
+Type: TEMPORAL_ERROR
+Old Ground Truth: recipes with more vegetables
+New Ground Truth: recipes with more vegetables (but requested on August 15, 2023, not August 19) [LOCOMO-AUDIT]
+----------------------------------------
+Q: What did Ethan start painting years ago due to being inspired by a friend's gift?
+Type: HALLUCINATION
+Old Ground Truth: forest scene
+New Ground Truth: The friend's gift was a forest scene painting, but Ethan started painting in general (landscapes, nature scenes), not specifically forest scenes. [LOCOMO-AUDIT]
+----------------------------------------
+Q: What did Ethan share with Seth after their hiking trip?
+Type: ATTRIBUTION_ERROR
+Old Ground Truth: a photo of a man standing on a rock looking out over a valley
+New Ground Truth: Seth (not Ethan) shared the photo after Seth's own hiking trip. [LOCOMO-AUDIT]
+----------------------------------------
+Q: What items did Connor buy in March 2023?
+Type: HALLUCINATION
+Old Ground Truth: mansion in Japan, luxury car Ferrari 488 GTB
+New Ground Truth: mansion in Japan, luxury car [LOCOMO-AUDIT]
+----------------------------------------
+Q: Which places or events has Connor visited in Tokyo?
+Type: HALLUCINATION
+Old Ground Truth: music festival, car museum, Shibuya crossing, Shinjuku
+New Ground Truth: music festival, Ferrari dealership, Shibuya crossing, Shinjuku [LOCOMO-AUDIT]
+----------------------------------------
+Q: What are Derek's hobbies other than fixing cars?
+Type: AMBIGUOUS
+Old Ground Truth: take a walk, go hiking, listen to favorite albums, live concerts, photography
+New Ground Truth: take a walk, listen to favorite albums, live concerts, photography (hiking is aspirational, not confirmed as practiced hobby) [LOCOMO-AUDIT]
+----------------------------------------
+Q: When did Connor buy his second Ferrari?
+Type: TEMPORAL_ERROR
+Old Ground Truth: first week of October 2023
+New Ground Truth: second week of October 2023 (approximately October 8-14) [LOCOMO-AUDIT]
+----------------------------------------
+Q: What gifts has Connor received from his artist friends?
+Type: HALLUCINATION
+Old Ground Truth: gold chain, custom-made guitar with an octopus on it
+New Ground Truth: gold necklace with a diamond pendant, custom-made guitar with an octopus on it [LOCOMO-AUDIT]
+----------------------------------------
+Q: How long was the car modification workshop in San Francisco?
+Type: TEMPORAL_ERROR
+Old Ground Truth: two weeks
+New Ground Truth: Approximately 18 days [LOCOMO-AUDIT]
+----------------------------------------
+Q: What style of guitars does Connor own?
+Type: HALLUCINATION
+Old Ground Truth: custom-made yellow guitar with an octopus on it, shiny purple guitar
+New Ground Truth: custom-made guitar with an octopus on it, shiny purple guitar [LOCOMO-AUDIT]
+----------------------------------------
+Q: Which band was Derek's favorite at the music festival in April 2023?
+Type: AMBIGUOUS
+Old Ground Truth: Aerosmith
+New Ground Truth: Aerosmith (but the festival was in March 2023, not April) [LOCOMO-AUDIT]
+----------------------------------------
+Q: What did Connor and his friends arrange for in the park?
+Type: ATTRIBUTION_ERROR
+Old Ground Truth: regular walks together
+New Ground Truth: This was Derek and his friends, not Connor. Derek arranged regular walks together in the park with his friends. [LOCOMO-AUDIT]
+----------------------------------------
+Q: When did Connor first get interested in cars?
+Type: ATTRIBUTION_ERROR
+Old Ground Truth: at an early age
+New Ground Truth: Cannot be determined from transcript; the 'early age' answer is about Derek, not Connor [LOCOMO-AUDIT]
+----------------------------------------
+Q: What tools does Connor use to boost his motivation for music?
+Type: ATTRIBUTION_ERROR
+Old Ground Truth: Writing lyrics and notes
+New Ground Truth: Cannot be reliably determined; the 'writing lyrics and notes' answer is about Derek's motivation, not Connor's [LOCOMO-AUDIT]
+----------------------------------------
+Q: What hobby did Connor take up recently?
+Type: ATTRIBUTION_ERROR
+Old Ground Truth: Photography
+New Ground Truth: Photography is Derek's new hobby, not Connor's. Connor has not mentioned taking up a new hobby in the recent sessions. [LOCOMO-AUDIT]
+----------------------------------------

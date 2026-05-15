@@ -1,0 +1,18 @@
+
+--- Processing llava:latest on LINUX Port 11435 ---
+  [llava:latest] Generating caption for cba2f95c02c0c2173022e2be04db8943.jpg... Done. (36.7s)
+  [llava:latest] Generating caption for 6a9513cdfe811493fbf47ae2ce5b6656.jpg... Done. (22.2s)
+  [llava:latest] Generating caption for 81161072bbeae7d14a6385e05379608c.jpg... Done. (30.2s)
+  [llava:latest] Generating caption for 8594d96f6611aaa3232e644d88f33211.jpg... Done. (29.8s)
+  [llava:latest] Generating caption for a79f238f2e5501696bfdde7eb184db31.jpg... Done. (24.7s)
+  [llava:latest] Generating caption for 6c941112577276486298cfb11fdb6619.jpg... Done. (29.3s)
+  [llava:latest] Generating caption for 039467eab2dc66cd7d9478ba935ccc30.jpg... Done. (23.3s)
+  [llava:latest] Generating caption for bb04a694f9a931d8a953209a3f7e2d3f.jpg... Done. (25.7s)
+  [llava:latest] Generating caption for 1e36636ad43fab0ceb85cdfe90e5a358.jpg... Done. (32.1s)
+  [llava:latest] Generating caption for 1b1a973b6890a93c4d49777c771ecb42.jpg... Done. (32.6s)
+  [llava:latest] Generating caption for 1a7143e459786b219d84268d4c65ed7b.jpg... Done. (19.3s)
+  [llava:latest] Generating caption for base64_1.jpg... Done. (30.9s)
+  [llava:latest] Generating caption for base64_2.jpg... Done. (26.3s)
+Saved 13 new captions to llava_7b_cache.json.
+
+Linux LLaVA processing complete.

@@ -1,0 +1,655 @@
+{
+    "total_impacted": 81,
+    "impacted_questions": [
+        {
+            "sample_id": "conv-26",
+            "question_index": 32,
+            "question": "What LGBTQ+ events has Caroline participated in?",
+            "impacted_evidence": [
+                "D8:17"
+            ]
+        },
+        {
+            "sample_id": "conv-26",
+            "question_index": 43,
+            "question": "What kind of art does Caroline make?",
+            "impacted_evidence": [
+                "D11:8"
+            ]
+        },
+        {
+            "sample_id": "conv-26",
+            "question_index": 51,
+            "question": "What has Melanie painted?",
+            "impacted_evidence": [
+                "D13:8"
+            ]
+        },
+        {
+            "sample_id": "conv-26",
+            "question_index": 62,
+            "question": "When did Melanie go to the park?",
+            "impacted_evidence": [
+                "D15:2"
+            ]
+        },
+        {
+            "sample_id": "conv-30",
+            "question_index": 27,
+            "question": "Did Jon and Gina both participate in dance competitions?",
+            "impacted_evidence": [
+                "D1:14"
+            ]
+        },
+        {
+            "sample_id": "conv-41",
+            "question_index": 27,
+            "question": "When did John have a party with veterans?",
+            "impacted_evidence": [
+                "D15:11"
+            ]
+        },
+        {
+            "sample_id": "conv-41",
+            "question_index": 37,
+            "question": "What events for veterans has John participated in?",
+            "impacted_evidence": [
+                "D15:11"
+            ]
+        },
+        {
+            "sample_id": "conv-41",
+            "question_index": 59,
+            "question": "When did John go on a camping trip with Max?",
+            "impacted_evidence": [
+                "D30:6"
+            ]
+        },
+        {
+            "sample_id": "conv-41",
+            "question_index": 66,
+            "question": "What sparked John's interest in improving education and infrastructure in the community?",
+            "impacted_evidence": [
+                "D1:10"
+            ]
+        },
+        {
+            "sample_id": "conv-41",
+            "question_index": 133,
+            "question": "What did John do the week before August 3, 2023 involving his kids?",
+            "impacted_evidence": [
+                "D27:9"
+            ]
+        },
+        {
+            "sample_id": "conv-41",
+            "question_index": 144,
+            "question": "What activity did John and Max enjoy together last summer?",
+            "impacted_evidence": [
+                "D30:6"
+            ]
+        },
+        {
+            "sample_id": "conv-41",
+            "question_index": 145,
+            "question": "How does John describe the camping trip with Max?",
+            "impacted_evidence": [
+                "D30:6"
+            ]
+        },
+        {
+            "sample_id": "conv-41",
+            "question_index": 190,
+            "question": "How does Maria describe the camping trip with Max?",
+            "impacted_evidence": [
+                "D30:6"
+            ]
+        },
+        {
+            "sample_id": "conv-42",
+            "question_index": 1,
+            "question": "What kind of interests do Joanna and Nate share?",
+            "impacted_evidence": [
+                "D20:2"
+            ]
+        },
+        {
+            "sample_id": "conv-42",
+            "question_index": 32,
+            "question": "Where did Joanna travel to in July 2022?",
+            "impacted_evidence": [
+                "D17:4"
+            ]
+        },
+        {
+            "sample_id": "conv-42",
+            "question_index": 44,
+            "question": "When did Nate win a lot of money in a video game tournament?",
+            "impacted_evidence": [
+                "D22:2"
+            ]
+        },
+        {
+            "sample_id": "conv-42",
+            "question_index": 50,
+            "question": "What is something Nate gave to Joanna that brings her a lot of joy?",
+            "impacted_evidence": [
+                "D13:9"
+            ]
+        },
+        {
+            "sample_id": "conv-42",
+            "question_index": 51,
+            "question": "When did Nate get Tilly for Joanna?",
+            "impacted_evidence": [
+                "D13:9"
+            ]
+        },
+        {
+            "sample_id": "conv-42",
+            "question_index": 53,
+            "question": "How many times has Nate taken his turtles on a walk?",
+            "impacted_evidence": [
+                "D25:15",
+                "D5:4"
+            ]
+        },
+        {
+            "sample_id": "conv-42",
+            "question_index": 56,
+            "question": "What animal do both Nate and Joanna like?",
+            "impacted_evidence": [
+                "D5:6"
+            ]
+        },
+        {
+            "sample_id": "conv-42",
+            "question_index": 61,
+            "question": "What mediums does Nate use to play games?",
+            "impacted_evidence": [
+                "D22:2"
+            ]
+        },
+        {
+            "sample_id": "conv-42",
+            "question_index": 78,
+            "question": "How many video game tournaments has Nate participated in?",
+            "impacted_evidence": [
+                "D22:2"
+            ]
+        },
+        {
+            "sample_id": "conv-42",
+            "question_index": 80,
+            "question": "How many tournaments has Nate won?",
+            "impacted_evidence": [
+                "D22:2"
+            ]
+        },
+        {
+            "sample_id": "conv-42",
+            "question_index": 81,
+            "question": "What recipes has Joanna made?",
+            "impacted_evidence": [
+                "D20:2",
+                "D21:17"
+            ]
+        },
+        {
+            "sample_id": "conv-42",
+            "question_index": 107,
+            "question": "Why does Nate like turtles as pets?",
+            "impacted_evidence": [
+                "D5:6"
+            ]
+        },
+        {
+            "sample_id": "conv-42",
+            "question_index": 122,
+            "question": "What did Nate do for Joanna on 25 May, 2022?",
+            "impacted_evidence": [
+                "D13:9"
+            ]
+        },
+        {
+            "sample_id": "conv-42",
+            "question_index": 137,
+            "question": "Where did Joanna go for a road trip for research?",
+            "impacted_evidence": [
+                "D17:4"
+            ]
+        },
+        {
+            "sample_id": "conv-42",
+            "question_index": 138,
+            "question": "What did Joanna discover at the library in Woodhaven?",
+            "impacted_evidence": [
+                "D17:4"
+            ]
+        },
+        {
+            "sample_id": "conv-42",
+            "question_index": 159,
+            "question": "What two main ingredients are part of the dessert Joanna shared a photo of with blueberries, coconut milk, and a gluten-free crust?",
+            "impacted_evidence": [
+                "D21:17"
+            ]
+        },
+        {
+            "sample_id": "conv-42",
+            "question_index": 223,
+            "question": "Where did Nate go for a road trip for research?",
+            "impacted_evidence": [
+                "D17:4"
+            ]
+        },
+        {
+            "sample_id": "conv-42",
+            "question_index": 224,
+            "question": "What did Joanna discover at the museum in Woodhaven?",
+            "impacted_evidence": [
+                "D17:4"
+            ]
+        },
+        {
+            "sample_id": "conv-42",
+            "question_index": 235,
+            "question": "What two main ingredients are part of the dessert Nate shared a photo of with blueberries, coconut milk, and a gluten-free crust?",
+            "impacted_evidence": [
+                "D21:17"
+            ]
+        },
+        {
+            "sample_id": "conv-43",
+            "question_index": 25,
+            "question": "What similar sports collectible do Tim and John own?",
+            "impacted_evidence": [
+                "D7:7"
+            ]
+        },
+        {
+            "sample_id": "conv-43",
+            "question_index": 54,
+            "question": "When did John take a trip to the Rocky Mountains?",
+            "impacted_evidence": [
+                "D20:40"
+            ]
+        },
+        {
+            "sample_id": "conv-43",
+            "question_index": 67,
+            "question": "What would be a good hobby related to his travel dreams for Tim to pick up?",
+            "impacted_evidence": [
+                "D6:6"
+            ]
+        },
+        {
+            "sample_id": "conv-43",
+            "question_index": 92,
+            "question": "What did John's teammates give him when they met on Aug 15th?",
+            "impacted_evidence": [
+                "D7:7"
+            ]
+        },
+        {
+            "sample_id": "conv-43",
+            "question_index": 121,
+            "question": "What does John find rewarding about mentoring the younger players?",
+            "impacted_evidence": [
+                "D14:7"
+            ]
+        },
+        {
+            "sample_id": "conv-43",
+            "question_index": 161,
+            "question": "What is one cause that John supports with his influence and resources?",
+            "impacted_evidence": [
+                "D26:21"
+            ]
+        },
+        {
+            "sample_id": "conv-43",
+            "question_index": 192,
+            "question": "What did Tim's teammates give him when they met on Aug 15th?",
+            "impacted_evidence": [
+                "D7:7"
+            ]
+        },
+        {
+            "sample_id": "conv-43",
+            "question_index": 209,
+            "question": "What does Tim find rewarding about mentoring the younger players?",
+            "impacted_evidence": [
+                "D14:7"
+            ]
+        },
+        {
+            "sample_id": "conv-43",
+            "question_index": 232,
+            "question": "What is one cause that John opposes with his influence and resources?",
+            "impacted_evidence": [
+                "D26:21"
+            ]
+        },
+        {
+            "sample_id": "conv-44",
+            "question_index": 6,
+            "question": "When did Audrey adopt Pixie?",
+            "impacted_evidence": [
+                "D2:1"
+            ]
+        },
+        {
+            "sample_id": "conv-44",
+            "question_index": 7,
+            "question": "How many years passed between Audrey adopting Pixie and her other three dogs?",
+            "impacted_evidence": [
+                "D2:1"
+            ]
+        },
+        {
+            "sample_id": "conv-44",
+            "question_index": 16,
+            "question": "When is Andrew going to go hiking with Audrey?",
+            "impacted_evidence": [
+                "D11:7"
+            ]
+        },
+        {
+            "sample_id": "conv-44",
+            "question_index": 17,
+            "question": "How many times did Audrey and Andew plan to hike together?",
+            "impacted_evidence": [
+                "D11:7"
+            ]
+        },
+        {
+            "sample_id": "conv-44",
+            "question_index": 18,
+            "question": "Where did Audrey get Pixie from?",
+            "impacted_evidence": [
+                "D2:1"
+            ]
+        },
+        {
+            "sample_id": "conv-44",
+            "question_index": 29,
+            "question": "What are the names of Audrey's dogs?",
+            "impacted_evidence": [
+                "D2:1"
+            ]
+        },
+        {
+            "sample_id": "conv-44",
+            "question_index": 37,
+            "question": "When did Audrey get into an accident in the park?",
+            "impacted_evidence": [
+                "D25:2"
+            ]
+        },
+        {
+            "sample_id": "conv-44",
+            "question_index": 52,
+            "question": "What is something that Andrew could do to make birdwatching hobby to fit in his city schedule?",
+            "impacted_evidence": [
+                "D20:21"
+            ]
+        },
+        {
+            "sample_id": "conv-44",
+            "question_index": 94,
+            "question": "How often does Audrey take her dogs for walks?",
+            "impacted_evidence": [
+                "D19:10"
+            ]
+        },
+        {
+            "sample_id": "conv-44",
+            "question_index": 143,
+            "question": "How often does Andrew take his dogs for walks?",
+            "impacted_evidence": [
+                "D19:10"
+            ]
+        },
+        {
+            "sample_id": "conv-47",
+            "question_index": 52,
+            "question": "When did John start working on his 2D Adventure mobile game?",
+            "impacted_evidence": [
+                "D25:9"
+            ]
+        },
+        {
+            "sample_id": "conv-47",
+            "question_index": 131,
+            "question": "What did John use to play when he was younger to let off steam?",
+            "impacted_evidence": [
+                "D24:15"
+            ]
+        },
+        {
+            "sample_id": "conv-47",
+            "question_index": 133,
+            "question": "What type of game is John's upcoming mobile game?",
+            "impacted_evidence": [
+                "D25:9"
+            ]
+        },
+        {
+            "sample_id": "conv-47",
+            "question_index": 177,
+            "question": "What did James use to play when he was younger to let off steam?",
+            "impacted_evidence": [
+                "D24:15"
+            ]
+        },
+        {
+            "sample_id": "conv-48",
+            "question_index": 14,
+            "question": "What were Deborah's mother's hobbies?",
+            "impacted_evidence": [
+                "D29:7"
+            ]
+        },
+        {
+            "sample_id": "conv-48",
+            "question_index": 24,
+            "question": "What new yoga poses did Deborah try?",
+            "impacted_evidence": [
+                "D14:15"
+            ]
+        },
+        {
+            "sample_id": "conv-48",
+            "question_index": 36,
+            "question": "How old is Jolene?",
+            "impacted_evidence": [
+                "D13:5"
+            ]
+        },
+        {
+            "sample_id": "conv-48",
+            "question_index": 38,
+            "question": "When did Deborah start the yoga class in the neighborhood?",
+            "impacted_evidence": [
+                "D9:5"
+            ]
+        },
+        {
+            "sample_id": "conv-48",
+            "question_index": 67,
+            "question": "What was Jolene doing with her partner in Rio de Janeiro?",
+            "impacted_evidence": [
+                "D23:15"
+            ]
+        },
+        {
+            "sample_id": "conv-48",
+            "question_index": 83,
+            "question": "What kind of professional activities does Jolene participate in to gain more experience in her field?",
+            "impacted_evidence": [
+                "D13:5"
+            ]
+        },
+        {
+            "sample_id": "conv-48",
+            "question_index": 96,
+            "question": "What was Jolene doing with her partner in Rio de Janeiro?",
+            "impacted_evidence": [
+                "D23:15"
+            ]
+        },
+        {
+            "sample_id": "conv-48",
+            "question_index": 107,
+            "question": "What does Deborah bring with her whenever she comes to reflect on her mom?",
+            "impacted_evidence": [
+                "D4:36"
+            ]
+        },
+        {
+            "sample_id": "conv-48",
+            "question_index": 133,
+            "question": "What is Jolene currently doing in June 2023?",
+            "impacted_evidence": [
+                "D13:5"
+            ]
+        },
+        {
+            "sample_id": "conv-48",
+            "question_index": 136,
+            "question": "Which new yoga pose did Deborah share a photo of?",
+            "impacted_evidence": [
+                "D14:15"
+            ]
+        },
+        {
+            "sample_id": "conv-48",
+            "question_index": 185,
+            "question": "What was Deborah's mom passionate about?",
+            "impacted_evidence": [
+                "D29:7"
+            ]
+        },
+        {
+            "sample_id": "conv-49",
+            "question_index": 19,
+            "question": "Considering their conversations and personal growth, what advice might Evan and Sam give to someone facing a major life transition or challenge?",
+            "impacted_evidence": [
+                "D9:8"
+            ]
+        },
+        {
+            "sample_id": "conv-49",
+            "question_index": 44,
+            "question": "What kind of subjects does Evan enjoy painting?",
+            "impacted_evidence": [
+                "D21:10"
+            ]
+        },
+        {
+            "sample_id": "conv-49",
+            "question_index": 45,
+            "question": "Which places in Canada was Evan visiting in July 2023?",
+            "impacted_evidence": [
+                "D9:8"
+            ]
+        },
+        {
+            "sample_id": "conv-49",
+            "question_index": 47,
+            "question": "When did Evan go skiing in Banff?",
+            "impacted_evidence": [
+                "D8:28"
+            ]
+        },
+        {
+            "sample_id": "conv-49",
+            "question_index": 141,
+            "question": "What did Evan suggest Sam should keep doing to find his own version of love?",
+            "impacted_evidence": [
+                "D21:10"
+            ]
+        },
+        {
+            "sample_id": "conv-50",
+            "question_index": 4,
+            "question": "Which country do Calvin and Dave want to meet in?",
+            "impacted_evidence": [
+                "D3:10"
+            ]
+        },
+        {
+            "sample_id": "conv-50",
+            "question_index": 6,
+            "question": "Which types of cars does Dave like the most?",
+            "impacted_evidence": [
+                "D3:12"
+            ]
+        },
+        {
+            "sample_id": "conv-50",
+            "question_index": 23,
+            "question": "What is Dave's main passion?",
+            "impacted_evidence": [
+                "D3:12"
+            ]
+        },
+        {
+            "sample_id": "conv-50",
+            "question_index": 24,
+            "question": "Can Dave work with engines?",
+            "impacted_evidence": [
+                "D20:1"
+            ]
+        },
+        {
+            "sample_id": "conv-50",
+            "question_index": 47,
+            "question": "How many car shows has Dave attended?",
+            "impacted_evidence": [
+                "D3:12"
+            ]
+        },
+        {
+            "sample_id": "conv-50",
+            "question_index": 53,
+            "question": "Who supports Calvin in tough times?",
+            "impacted_evidence": [
+                "D29:7"
+            ]
+        },
+        {
+            "sample_id": "conv-50",
+            "question_index": 61,
+            "question": "How long did Dave's work on the Ford Mustang take?",
+            "impacted_evidence": [
+                "D20:1"
+            ]
+        },
+        {
+            "sample_id": "conv-50",
+            "question_index": 66,
+            "question": "Do all of Dave's car restoration projects go smoothly?",
+            "impacted_evidence": [
+                "D20:1"
+            ]
+        },
+        {
+            "sample_id": "conv-50",
+            "question_index": 94,
+            "question": "What workshop did Dave get picked for on 11 August, 2023?",
+            "impacted_evidence": [
+                "D13:1"
+            ]
+        },
+        {
+            "sample_id": "conv-50",
+            "question_index": 169,
+            "question": "What workshop did Calvin get picked for on 11 August, 2023?",
+            "impacted_evidence": [
+                "D13:1"
+            ]
+        }
+    ]
+}

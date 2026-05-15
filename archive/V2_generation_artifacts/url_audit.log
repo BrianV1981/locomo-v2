@@ -1,0 +1,87 @@
+Starting URL audit for 87 links...
+[1/87] ALIVE (200): https://i.redd.it/jqeodrms8xnb1.jpg
+[2/87] DEAD (403): https://universe.byu.edu/wp-content/uploads/2018/02/IMG_8914.jpg
+[3/87] ALIVE (200): https://i.redd.it/1jjc5bw9tmgb1.jpg
+[5/87] ERROR: https://pinnaclepooch.com/cdn/shop/products/image_33290672-49cc-42a7-9f1b-fa7bbe93e529.jpg - ConnectionError
+[6/87] DEAD (403): https://blog.myfitnesspal.com/wp-content/uploads/2019/06/8-Charity-Walking-Events-That-Give-Your-Steps-Extra-Meaning-1200x900.jpg
+[7/87] ALIVE (200): https://i.redd.it/s6gfs24m2hpb1.jpg
+[8/87] DEAD (403): https://express-images.franklymedia.com/6616/sites/11/2019/05/28094328/IMG_3656.jpg
+[9/87] DEAD (502): https://dynaimage.cdn.cnn.com/cnn/digital-images/org/dfc95f14-b325-431c-b977-5b6dc2d35f9c.jpg
+[10/87] ALIVE (200): https://i.redd.it/a6vjqnq17kcb1.jpg
+[11/87] ALIVE (200): https://upload.wikimedia.org/wikipedia/commons/d/de/Ford_Mustang_-_Shuttleworth_Classic_Car_Show_2017_%2833661471822%29.jpg
+[12/87] DEAD (403): https://portlandrescuemission.org/wp-content/uploads/2017/11/20160809_gc_0797-copy.jpg
+[13/87] ALIVE (200): https://i.redd.it/usll6z99c2tb1.jpg
+[14/87] DEAD (404): https://live.staticflickr.com/7284/16241297914_14ea605e4b_b.jpg
+[15/87] DEAD (404): https://images.pixexid.com/a-woman-is-joyfully-running-in-a-sunlit-forest-with-four-dogs-of-various-breeds-kn6f7vry.jpeg
+[16/87] ERROR: https://chensplate.com/wp-content/uploads/2021/02/IMG_8512.jpg - SSLError
+[17/87] ALIVE (200): https://upload.wikimedia.org/wikipedia/commons/a/a9/Dekkadancers_Mu%C5%BE_z_Malty.jpg
+[18/87] DEAD (530): https://img-aws.ehowcdn.com/1280x/www.onlyinyourstate.com/wp-content/uploads/2022/12/gym8.jpg
+[19/87] DEAD (404): https://tamboracai.com/assets/Megan-Marlow-Acai-Vegan-Cheesecake-Bars_02.jpg
+[20/87] DEAD (403): https://s3-us-west-2.amazonaws.com/sportshub2-uploads-prod/files/sites/1567/2018/02/09230004/IMG_8348-e1518217261806.jpg
+[21/87] DEAD (404): https://bunundone.com/wp-content/uploads/2019/08/IMG_5619.jpg
+[22/87] ALIVE (200): https://upload.wikimedia.org/wikipedia/commons/d/dd/Tortoises_in_the_Cotswold_Wildlife_Park_restaurant_-_geograph.org.uk_-_1468751.jpg
+[23/87] DEAD (403): https://cdn2.picryl.com/photo/2020/01/16/members-of-the-local-and-us-communities-attend-the-edfa79-1024.jpg
+[24/87] DEAD (404): https://mainephysicaltherapy.com/wp-content/uploads/2017/12/Incline-one-arm-cable-pull-down-1.jpg
+[25/87] DEAD (403): https://cdn12.picryl.com/photo/2016/12/31/dogs-reward-expect-856f58-1024.jpg
+[26/87] DEAD (404): https://alvjewels.com/cdn/shop/products/image_2b791370-8eae-4e4d-8c8f-4fe581f9240a.jpg
+[27/87] ALIVE (200): https://i.redd.it/0z7nrwjeqc431.jpg
+[28/87] ALIVE (200): https://i.redd.it/al2nryjbov481.jpg
+[29/87] DEAD (404): https://pixahive.com/wp-content/uploads/2021/02/Virabhadrasana-Warrior-Pose-357219-pixahive.jpg
+[30/87] ALIVE (200): https://upload.wikimedia.org/wikipedia/commons/0/0f/Two_on_ramps_%2841411586832%29.jpg
+[31/87] DEAD (403): https://cdn2.picryl.com/photo/2014/07/04/my-public-lands-roadtrip-dalton-highway-in-alaska-19315093341-ddcc96-1024.jpg
+[32/87] DEAD (403): https://cdn2.picryl.com/photo/2020/01/13/combat-veterans-associated-with-troops-first-foundation-06145f-1024.jpg
+[33/87] DEAD (404): https://necommunitycenter.org/portland/wp-content/uploads/2023/01/Game-in-Progress-with-Ref2-1024x684.jpg
+[34/87] DEAD (404): https://musicconservatory.org/wp-content/uploads/2022/12/IMG-2298.png
+[35/87] ALIVE (200): https://upload.wikimedia.org/wikipedia/commons/8/85/Cliffs_and_mountains_and_sky_at_sunset_--_2_of_33.jpg
+[36/87] ALIVE (200): https://upload.wikimedia.org/wikipedia/commons/6/61/2018_DII_Elite_Eight_Northern_State_Signed_Basketball.jpg
+[37/87] DEAD (406): https://www.news-press.com/gcdn/presto/2018/12/21/PFTM/e043df2d-48d9-4591-a714-f27ecbd42007-GD1.jpg
+[38/87] DEAD (403): https://cdn12.picryl.com/photo/2016/12/31/turtle-nature-slow-nature-landscapes-9a70ba-1024.jpg
+[39/87] DEAD (403): https://cdn27.picryl.com/photo/1934/01/01/herbert-brutus-ehrmann-papers-1906-1970-sacco-vanzetti-book-review-by-edmund-216c54-1024.jpg
+[40/87] DEAD (404): https://live.staticflickr.com/7269/6934706388_7ea340725b_b.jpg
+[41/87] ALIVE (200): https://i.redd.it/q46xsv4ciu641.jpg
+[42/87] DEAD (404): https://sophieelliottfoundation.co.nz/wp-content/uploads/sites/30/2020/08/SLRA-summer-party-james-hopkirk-low-res-026.jpg
+[43/87] DEAD (404): https://serafrescaic.com/wp-content/uploads/2018/10/wedding-cake.jpg
+[44/87] DEAD (404): https://anomadontheloose.com/wp-content/uploads/2018/01/tam-wua-forest-monastery-cave-walking-meditation-1728368610..jpg
+[45/87] ALIVE (200): https://upload.wikimedia.org/wikipedia/commons/a/a3/In_a_car_over_a_lake_%28Unsplash%29.jpg
+[46/87] ALIVE (200): https://upload.wikimedia.org/wikipedia/commons/4/48/Birdwatching_India_01.jpg
+[47/87] ALIVE (200): https://i.redd.it/g92z4kf3aph91.jpg
+[48/87] DEAD (429): https://upload.wikimedia.org/wikipedia/commons/4/4c/USA_men%27s_national_basketball_team_%2851910110377%29.jpg
+[49/87] DEAD (429): https://upload.wikimedia.org/wikipedia/commons/d/d1/Awesomenauts_-_Screenshot_01.jpg
+[50/87] ALIVE (200): https://i.redd.it/w5v13bfv8r861.jpg
+[51/87] DEAD (403): https://content1.getnarrativeapp.com/static/1396e135-13d4-4c37-8183-5d1eaf957c41/Surprise-proposal-picnic-at-cathedral-park-in-Portland-or-.jpg
+[52/87] ALIVE (200): https://upload.wikimedia.org/wikipedia/en/2/24/Dog_leash.JPG
+[53/87] DEAD (403): https://cdn12.picryl.com/photo/2016/12/31/malinois-water-garden-dog-basks-0d19ee-1024.jpg
+[54/87] DEAD (429): https://upload.wikimedia.org/wikipedia/commons/3/34/Car_workshop_tools.jpg
+[55/87] DEAD (429): https://upload.wikimedia.org/wikipedia/commons/5/50/A_Chihuahua_fetching_a_ball.JPG
+[56/87] ALIVE (200): https://notjustsundaydinner.com/wp-content/uploads/2022/09/peach-cobbler-2.jpg
+[57/87] DEAD (403): https://cdn2.picryl.com/photo/2015/06/09/flowers-bloom-in-a-garden-near-the-memorial-amphitheater-1acba1-1024.jpg
+[59/87] DEAD (403): https://cdn12.picryl.com/photo/2016/12/31/water-turtle-on-the-water-animal-animals-a79381-1024.jpg
+[60/87] DEAD (406): https://www.naplesnews.com/gcdn/-mm-/06756bca6c979c173ae23c1ba44f60a8fd2bcbee/c\u003d0-0-3024-4032/local/-/media/2017/04/25/Naples/Naples/636287249454494595-Yoga-4.jpg
+[61/87] DEAD (406): https://www.greenbaypressgazette.com/gcdn/presto/2019/07/16/PGRB/fa8d60a1-0a21-421c-b36d-31f4bc2d2b6d-KEW_0720_LC_referendum_Peters_Concrete_pour.png
+[62/87] DEAD (403): https://cdn12.picryl.com/photo/2016/12/31/ford-xl-1967-restored-motor-v8-345-hp-transportation-traffic-2d0301-1024.jpg
+[63/87] DEAD (404): https://thebaskshop.com/cdn/shop/files/image_8117b42d-0057-492c-9b06-88fc439af683.jpg
+[64/87] DEAD (404): https://trendgallery.art/cdn/shop/files/IMG_9647_fa0b4eba-d7f5-48ae-81c9-b471605dd4a9.jpg
+[65/87] DEAD (429): https://upload.wikimedia.org/wikipedia/commons/9/91/Old_Geodesy_library_books.jpg
+[66/87] ERROR: https://www.thriveyogaandwellness.com/wp-content/uploads/2019/06/IMG_6315-e1561295654472.jpg - ConnectionError
+[67/87] DEAD (404): https://www.lifturbanportland.org/uploads/8/3/6/3/83630366/published/warehouse-volunteers.jpg
+[68/87] DEAD (404): https://trendgallery.art/cdn/shop/files/IMG_9358_6dd0efff-bb0c-4923-804f-9edc8600fee8.jpg
+[69/87] DEAD (402): https://curated-uploads.imgix.net/AgAAAB0AKRRYoR0ZPH-IdLq3DQTvog.jpg
+[70/87] DEAD (404): https://cdn11.bigcommerce.com/s-qy9kl0lfci/images/stencil/original/products/62751/75290/Tama_Star_Classic_Tiger_Stripe__70181.1699123066.jpg
+[71/87] ERROR: https://www.dawnsilerart.com/wp-content/uploads/sites/3130/2020/11/YCNHTMC-CU9.jpg - ConnectTimeout
+[72/87] ALIVE (200): https://moderndogmagazine.com/sites/default/files/images/photoentries/photos/pixie%20smiling.jpg
+[73/87] ERROR: https://thehammockllc.com/wp-content/uploads/2019/07/Yoga-all-ages.jpg - ConnectionError
+[74/87] ALIVE (200): https://upload.wikimedia.org/wikipedia/commons/6/67/Boston_Skyline_%28193150499%29.jpeg
+[75/87] DEAD (403): https://cdn2.picryl.com/photo/2014/08/13/alejandro-soto-100th-force-support-squadron-auto-hobby-8fa715-1024.jpg
+[76/87] DEAD (404): http://thegroundedpractice.com/cdn/shop/products/306F9F91-FDB8-4052-B87B-4692205658E12.jpg
+[77/87] ALIVE (200): https://warpedtable.com/cdn/shop/products/F331B563-AB73-430A-A6DF-3C5E0F91A4D8.jpg
+[78/87] ERROR: https://www.goinbark.com/wp-content/uploads/2016/08/20160820_150554.jpg - ConnectTimeout
+[79/87] ALIVE (200): https://i.redd.it/clg582472ta91.jpg
+[80/87] DEAD (404): https://www.arup.com/-/media/arup/images/careers-new/early-careers/interns/americas-interns-banner-image.jpg
+[81/87] DEAD (404): https://riverstudiodesign.ca/wp-content/uploads/2019/09/overall-office-jpg-1.jpg
+[82/87] ERROR: https://community.us.craghoppers.com/wp-content/uploads/2018/05/j3bmicznnmrnfe1uchho.jpg - ConnectTimeout
+[83/87] ERROR: https://exploringtheprime.com/wp-content/uploads/2019/10/IMG_6705-2.jpg - ConnectTimeout
+[84/87] DEAD (400): https://i2.wp.com/lifecomingalive.com/wp-content/uploads/2018/05/IMG_0960-e1527675276357.jpg
+[85/87] ERROR: https://exploringtheprime.com/wp-content/uploads/2019/10/IMG_6849.jpg - ConnectTimeout
+[86/87] ERROR: https://www.goodwillfinds.com/on/demandware.static/-/Sites-goodwill-master/default/dw41d27013/images/large/lhyOBm1CPSKy54szJay7vQj/2023/November/14/image_(140).jpg - ConnectionError
+[87/87] ERROR: https://www.goodwillfinds.com/on/demandware.static/-/Sites-goodwill-master/default/dwa2341b30/images/large/lhyOBm1CPSKy54szJay7vQj/2023/November/07/image_(170).jpg - ConnectionError
+Audit complete.
