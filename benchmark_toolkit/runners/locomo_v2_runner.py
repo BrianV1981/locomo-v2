@@ -12,8 +12,21 @@ DATA_FILE = "/home/kingb/locomo-v2/data/locomo_v2_minicpm.json"
 # The array slice of questions to run. 0 to 50 = Questions 1 through 50.
 START_QUESTION_INDEX = 0
 END_QUESTION_INDEX = 50
-COOLDOWN_DELAY_SECONDS = 180
+
+# --- DELAY & TIMEOUT LOGIC ---
+# Pacing: Seconds to wait AFTER a successful answer before sending the next question.
 PACING_DELAY_SECONDS = 60
+
+# Cooldown: Seconds to wait AFTER hitting a timeout/429 error before retrying.
+COOLDOWN_DELAY_SECONDS = 180
+
+# Timeout: Maximum seconds to wait for the agent to finish "Thinking" before assuming a freeze.
+THINKING_TIMEOUT_SECONDS = 300
+
+# Boot Delay: Seconds to wait after spawning tmux to allow the Gemini CLI to authenticate.
+BOOT_DELAY_SECONDS = 15
+
+
 if not os.path.exists(DATA_FILE):
     DATA_FILE = "/home/kingb/gemini-benchmarks/data/locomo_v2/locomo_track1_qwen_q1_to_50.json"
 
@@ -29,7 +42,7 @@ def wait_for_response(transcript_path, question_text):
     start_time = time.time()
     q_target = question_text.strip()
     
-    while time.time() - start_time < 300:
+    while time.time() - start_time < THINKING_TIMEOUT_SECONDS:
         if os.path.exists(transcript_path):
             with open(transcript_path, "r") as f:
                 lines = f.readlines()
