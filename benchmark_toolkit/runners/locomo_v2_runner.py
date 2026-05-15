@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import os
 import json
 import time
@@ -5,24 +6,48 @@ import subprocess
 import glob
 from datetime import datetime
 
-PROJECT_ROOT = "/home/kingb/aim-locomo"
-DATA_FILE = "/home/kingb/locomo-v2/data/locomo_v2_web.json"
-if not os.path.exists(DATA_FILE):
-    DATA_FILE = "/home/kingb/gemini-benchmarks/data/locomo_v2/locomo_track1_qwen_q1_to_50.json"
+# ==========================================
+# V6 MARATHON BENCHMARK CONFIGURATION
+# ==========================================
 
-def get_latest_transcript():
-    # Gemini CLI saves transcripts for aim-locomo here
+# The exact name of the tmux session the script will target and inject prompts into.
+TARGET_TMUX_SESSION = "V2_MARATHON"
+
+# The path to the dataset you want to run.
+DATASET_FILE = "/home/kingb/locomo-v2/data/locomo_v2_minicpm.json"
+
+# The path where predictions will be saved. The script will automatically resume if this file exists.
+OUT_FILE = "/home/kingb/gemini-benchmarks/reports/locomo_v2/track_a/trackA_predictions_V6.json"
+
+# Pacing: How many seconds to wait AFTER a successful answer before sending the next question.
+PACING_DELAY_SECONDS = 60
+
+# Cooldown: How many seconds to wait AFTER hitting a timeout/429 error before retrying.
+COOLDOWN_DELAY_SECONDS = 180
+
+# Maximum amount of time (in seconds) to wait for the agent to finish "Thinking" before assuming a timeout.
+THINKING_TIMEOUT_SECONDS = 300
+
+# ==========================================
+
+PROJECT_ROOT = "/home/kingb/aim-locomo"
+
+def get_latest_transcript(session_name):
     search_dir = os.path.expanduser("~/.gemini/tmp/aim-locomo/chats/*.jsonl")
     files = glob.glob(search_dir)
     if not files: return None
-    return max(files, key=os.path.getmtime)
+    return sorted(files, key=os.path.getmtime)[-1]
 
 def wait_for_response(transcript_path, question_text):
     print("Waiting for Gemini to finish generating answer...")
     start_time = time.time()
-    q_target = question_text.strip()
+    q_target = question_text[-50:].strip()
     
-    while time.time() - start_time < 300:
+    last_gemini_content = ""
+    last_update_time = time.time()
+    raw_context = []
+    
+    while time.time() - start_time < THINKING_TIMEOUT_SECONDS:
         if os.path.exists(transcript_path):
             with open(transcript_path, "r") as f:
                 lines = f.readlines()
@@ -40,11 +65,7 @@ def wait_for_response(transcript_path, question_text):
             for idx, msg in enumerate(messages):
                 if msg.get("type") == "user":
                     content = msg.get("content", [])
-                    if isinstance(content, list):
-                        text = "".join([c.get("text", "") for c in content])
-                    else:
-                        text = str(content)
-                    
+                    text = "".join([c.get("text", "") for c in content]) if isinstance(content, list) else str(content)
                     if q_target in text:
                         user_msg_idx = idx
                         
@@ -53,153 +74,142 @@ def wait_for_response(transcript_path, question_text):
                 continue
                 
             raw_context = []
+            current_content = ""
             for msg in messages[user_msg_idx+1:]:
-                if msg.get("type") == "gemini":
-                    if not msg.get("toolCalls"):
-                        content = msg.get("content", "").strip()
-                        if "[ANSWER]" in content.upper():
-                            idx = content.upper().find("[ANSWER]")
-                            ans = content[idx + len("[ANSWER]"):].strip()
-                            if not ans:
-                                ans = content
-                            return f"[ANSWER] {ans}", raw_context
-                        else:
-                            # If it forgot the tag, just return the raw text it provided
-                            return f"[ANSWER] {content}", raw_context
-                        
-                elif msg.get("type") not in ("user", "system"):
+                if msg.get("type") != "system":
                     raw_context.append(msg)
                     
+                if msg.get("type") == "gemini":
+                    c = msg.get("content", "").strip()
+                    if c:
+                        current_content = c
+                    
+            if current_content and current_content != last_gemini_content:
+                last_gemini_content = current_content
+                last_update_time = time.time()
+                
+        if last_gemini_content and (time.time() - last_update_time > 10):
+            ans = last_gemini_content
+            if "[ANSWER]" in ans.upper():
+                idx = ans.upper().find("[ANSWER]")
+                extracted = ans[idx + len("[ANSWER]"):].strip()
+                if extracted:
+                    ans = extracted
+            return f"[ANSWER] {ans}", raw_context
+            
         time.sleep(2)
         
-    return "TIMEOUT_ERROR", []
+    return "TIMEOUT_ERROR", raw_context
 
 def send_via_buffer(session_name, text):
-    # Avoid escaping issues by using a temp file and load-buffer instead of set-buffer
     tmp_file = "/tmp/locomo_benchmark_prompt.txt"
     with open(tmp_file, "w") as f:
         f.write(text)
-    
     subprocess.run(["tmux", "load-buffer", tmp_file])
     subprocess.run(["tmux", "paste-buffer", "-t", session_name])
     time.sleep(0.5)
     subprocess.run(["tmux", "send-keys", "-t", session_name, "Enter"])
 
 def run_ghost_operator():
-    print(f"Loading data from {DATA_FILE}")
-    with open(DATA_FILE, "r") as f:
+    # 1. Verify tmux session exists
+    try:
+        output = subprocess.check_output(['tmux', 'ls']).decode()
+        if TARGET_TMUX_SESSION not in output:
+            print(f"CRITICAL ERROR: Tmux session '{TARGET_TMUX_SESSION}' not found!")
+            print("Please manually start the agent first using:")
+            print(f"  tmux new-session -s {TARGET_TMUX_SESSION} -c {PROJECT_ROOT} 'aim gemini --yolo -m gemini-3-flash-preview'")
+            return
+    except subprocess.CalledProcessError:
+         print("CRITICAL ERROR: No tmux server running.")
+         return
+
+    # 2. Load dataset
+    with open(DATASET_FILE, "r") as f:
         data = json.load(f)
         
-    questions = []
+    all_questions = []
     for sample in data:
-        if "qa" in sample:
-            for qa in sample["qa"]:
-                questions.append(qa)
-        elif "question" in sample:
-            questions.append(sample)
-                
-    if not questions:
-        print("No questions found.")
+        all_questions.extend(sample.get("qa", []))
+    
+    # Sliced to 199 for Track A Conv 26 benchmark
+    all_questions = all_questions[0:199]
+        
+    # 3. Resume Logic
+    predictions = []
+    start_idx = 0
+    if os.path.exists(OUT_FILE):
+        try:
+            with open(OUT_FILE, "r") as f:
+                predictions = json.load(f)
+            start_idx = len(predictions)
+            print(f"CRASH RECOVERY: Found existing predictions file.")
+            print(f"Resuming at Question {start_idx + 1}")
+        except:
+            print("Failed to load previous predictions. Starting fresh.")
+    else:
+        print("Starting fresh benchmark run.")
+        
+    if start_idx >= len(all_questions):
+        print("All questions already completed.")
+        return
+
+    # Give the user a moment to cancel if they want
+    print("Waiting 15 seconds for Gemini CLI to fully boot before sending the first prompt...")
+    time.sleep(15)
+
+    # We need to find the transcript file associated with this tmux session.
+    # We assume the most recently modified transcript is the correct one.
+    transcript_path = get_latest_transcript(TARGET_TMUX_SESSION)
+    if not transcript_path:
+        print("ERROR: Could not find a transcript file. Did you send a message in the agent yet?")
         return
         
-    # The benchmark uses the first 199 questions for Track B
-    questions = questions[199:304]
-    print(f"Loaded {len(questions)} questions. Sliced to 105 for Track B Conv 1 benchmark.")
-    
-    # Save to the benchmark_results folder with a timestamp to avoid overwriting RAG 5 / RAG 10 data
-    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-    out_dir = "/home/kingb/gemini-benchmarks/reports/locomo_v2/track_b"
-    os.makedirs(out_dir, exist_ok=True)
-    out_file = os.path.join(out_dir, f"trackB_predictions_{timestamp}.json")
-    
-    predictions = []
-    chunks = [200]
-    idx = 0
-    tmux_session = f"ghost_aim_{int(time.time())}"
-    
-    print(f"Starting new tmux session '{tmux_session}'...")
-    subprocess.run(["tmux", "kill-session", "-t", tmux_session], stderr=subprocess.DEVNULL)
-    # Spin up a new detached tmux session, cd to aim-locomo, launch gemini --yolo
-    subprocess.run(["tmux", "new-session", "-d", "-s", tmux_session, "-c", PROJECT_ROOT, "gemini", "--yolo", "-m", "gemini-3-flash-preview"])
-    time.sleep(5)
+    print(f"Using transcript: {transcript_path}")
 
-    # --- PRIMER LOGIC ---
-    old_transcript = get_latest_transcript()
-    primer_msg = "MANDATE: You are about to be given a series of 105 questions. This is a strict benchmark testing your RAG v5.2 memory system. Before we begin, you MUST use your tools to read the AGENTS.md file in your root directory. Follow your AGENTS.md instructions precisely. Do not guess. Answer directly and concisely. Once you have read AGENTS.md and are ready, reply with '[ANSWER] YES'."
-    print("Sending benchmark primer to agent...")
-    send_via_buffer(tmux_session, primer_msg)
-
-    print("Waiting for new Gemini transcript to be created by primer...")
-    transcript_path = old_transcript
-    for _ in range(20):
-        time.sleep(2)
-        current = get_latest_transcript()
-        if current and current != old_transcript:
-            transcript_path = current
+    for i in range(start_idx, len(all_questions)):
+        qa = all_questions[i]
+        q = qa["question"]
+        print(f"\n--- QUESTION {i+1} ---")
+        
+        clean_q = q.replace("[V2_CORRECTION]", "").replace("[LOCOMO-AUDIT]", "").replace("[LOCOMO-ISSUES]", "").replace("[V2_REPLACEMENT]", "").replace("?", ".").replace("$", "").replace("!", "").strip()
+        
+        prompt = f"MANDATE: You MUST use the run_shell_command tool to execute python3 aim_core/aim_cli.py search before answering. Question: {clean_q}"
+        
+        max_retries = 3
+        for attempt in range(max_retries):
+            print(f"Sending: {prompt}")
+            send_via_buffer(TARGET_TMUX_SESSION, prompt)
+            
+            ans, raw_context = wait_for_response(transcript_path, prompt)
+            print(f"Answer received: {ans[:50].replace(chr(10), ' ')}...")
+            
+            if "TIMEOUT_ERROR" in ans:
+                print(f"⚠️ Timeout/429 detected. Sending Escape to stop thinking loop.")
+                subprocess.run(["tmux", "send-keys", "-t", TARGET_TMUX_SESSION, "Escape"])
+                print(f"Cooling down for {COOLDOWN_DELAY_SECONDS} seconds before retry ({attempt+1}/{max_retries})...")
+                time.sleep(COOLDOWN_DELAY_SECONDS)
+                continue
+                
+            ans_lower = ans.lower()
+            if "startcall:" in ans_lower or "native cli exception" in ans_lower or "ollama error" in ans_lower:
+                print(f"⚠️ Tool error detected. Sending Escape to stop loop.")
+                subprocess.run(["tmux", "send-keys", "-t", TARGET_TMUX_SESSION, "Escape"])
+                print(f"Cooling down for {COOLDOWN_DELAY_SECONDS} seconds before retry ({attempt+1}/{max_retries})...")
+                time.sleep(COOLDOWN_DELAY_SECONDS)
+                continue
+                
             break
-    if not transcript_path or transcript_path == old_transcript:
-        print("Could not find new Gemini transcript for primer. Proceeding with the latest found.")
-
-    # Wait for the primer response so it doesn't pollute the first question
-    ans, _ = wait_for_response(transcript_path, "MANDATE:")
-    print(f"Primer acknowledged: {ans[:50]}")
-    # ---------------------
-
-    for chunk_size in chunks:
-        chunk_questions = questions[idx:idx+chunk_size]
-        if not chunk_questions: break
-
-        print(f"\\n--- STARTING BATCH OF {len(chunk_questions)} ---")
-
-        for i, qa in enumerate(chunk_questions):
-            q = qa["question"]
-            print(f"Sending: {q}")
-
-            old_transcript = transcript_path
             
-            max_retries = 3
-            ans = ""
-            raw_context = []
+        pred = qa.copy()
+        pred["prediction"] = ans
+        pred["raw_rag_context"] = raw_context
+        predictions.append(pred)
+        
+        with open(OUT_FILE, "w") as f:
+            json.dump(predictions, f, indent=4)
             
-            for attempt in range(max_retries):
-                # Simulate human typing via tmux buffer
-                # Hide taxonomy tags from the agent to prevent prompting bias, keeping it a blind test
-                clean_q = q.replace("[V2_CORRECTION]", "").replace("[LOCOMO-AUDIT]", "").replace("[LOCOMO-ISSUES]", "").replace("[V2_REPLACEMENT]", "").replace("?", ".").replace("$", "").replace("!", "").strip()
-                send_via_buffer(tmux_session, clean_q)
-                
-                ans, raw_context = wait_for_response(transcript_path, clean_q)
-                print(f"Answer received: {ans[:50].replace(chr(10), ' ')}...")
-                
-                if "TIMEOUT_ERROR" in ans:
-                    print(f"⚠️ Timeout detected. Sending Escape to stop thinking loop. Retrying ({attempt+1}/{max_retries})...")
-                    subprocess.run(["tmux", "send-keys", "-t", tmux_session, "Escape"])
-                    time.sleep(2)
-                    continue
-                    
-                ans_lower = ans.lower()
-                if "startcall:" in ans_lower or "native cli exception" in ans_lower or "ollama error" in ans_lower:
-                    print(f"⚠️ Detected tool leak or error. Retrying ({attempt+1}/{max_retries})...")
-                    time.sleep(5) # Pacing before retry
-                    q = "You experienced a tool error or leaked raw JSON. Please use the aim-locomo search tool correctly and answer the question: " + qa["question"]
-                    continue
-                else:
-                    break # Valid answer received
-            
-            pred = qa.copy()
-            pred["prediction"] = ans
-            pred["raw_rag_context"] = raw_context # Inject the raw tool calls and context into the output!
-            predictions.append(pred)
-            
-            with open(out_file, "w") as f:
-                json.dump(predictions, f, indent=4)
-                
-            print("Pacing: Sleeping for 15 seconds before next question...")
-            time.sleep(15)
-            
-        idx += chunk_size
-        print(f"Batch complete. Handled {chunk_size} questions.")
-                
-    print(f"All chunks completed. Results saved to {out_file}. Leaving tmux session open for manual review.")
+        print(f"Sleeping {PACING_DELAY_SECONDS}s...")
+        time.sleep(PACING_DELAY_SECONDS)
 
 if __name__ == "__main__":
     run_ghost_operator()
