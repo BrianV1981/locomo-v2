@@ -6,12 +6,12 @@ import glob
 from datetime import datetime
 
 PROJECT_ROOT = "/home/kingb/aim-locomo"
-DATA_FILE = "/home/kingb/locomo-v2/data/locomo_v2_minicpm.json"
+DATA_FILE = "/home/kingb/locomo-v2/data/locomo_v2_qwen.json"
 
 # --- QUESTION BATCHING ---
 # The array slice of questions to run. 0 to 50 = Questions 1 through 50.
 START_QUESTION_INDEX = 0
-END_QUESTION_INDEX = 50
+END_QUESTION_INDEX = 199
 
 # --- DELAY & TIMEOUT LOGIC ---
 # Pacing: Seconds to wait AFTER a successful answer before sending the next question.
@@ -130,7 +130,7 @@ def run_ghost_operator():
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
     out_dir = "/home/kingb/gemini-benchmarks/reports/locomo_v2/track_a"
     os.makedirs(out_dir, exist_ok=True)
-    out_file = os.path.join(out_dir, f"trackB_predictions_{timestamp}.json")
+    out_file = os.path.join(out_dir, f"trackA_predictions_{timestamp}.json")
     
     predictions = []
     chunks = [200]
@@ -185,6 +185,7 @@ def run_ghost_operator():
                 # Simulate human typing via tmux buffer
                 # Hide taxonomy tags from the agent to prevent prompting bias, keeping it a blind test
                 clean_q = q.replace("[V2_CORRECTION]", "").replace("[LOCOMO-AUDIT]", "").replace("[LOCOMO-ISSUES]", "").replace("[V2_REPLACEMENT]", "").replace("?", ".").replace("$", "").replace("!", "").strip()
+                clean_q = f"MANDATE: You MUST use the run_shell_command tool to execute python3 aim_core/aim_cli.py search before answering. Question: {clean_q}"
                 send_via_buffer(tmux_session, clean_q)
                 
                 ans, raw_context = wait_for_response(transcript_path, clean_q)
