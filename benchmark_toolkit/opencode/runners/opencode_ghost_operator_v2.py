@@ -20,7 +20,7 @@ PROJECT_ROOT = "/home/kingb/opencode-locomo"
 OPECODE_BIN = "/home/kingb/.opencode/bin/opencode"
 MODEL = "deepseek/deepseek-v4-flash"
 OPECODE_DB = os.path.expanduser("~/.local/share/opencode/opencode.db")
-DATA_FILE = "/home/kingb/locomo-v2/data/locomo_v2_qwen.json"
+DATA_FILE = "/home/kingb/locomo-v2/data/locomo_v2_minicpm.json"
 
 # --- QUESTION BATCHING ---
 START_QUESTION_INDEX = 0
@@ -333,10 +333,15 @@ def run_ghost_operator():
             # Embed search mandate into every question
             clean_q = f"MANDATE: You MUST use the run_shell_command tool to execute python3 aim_core/aim_cli.py search before answering. Question: {clean_q}"
             send_via_buffer(tmux_session, clean_q)
-            # Drain the user message part(s) just written by the paste so they
-            # don't get picked up as false answers by find_answer_in_parts
-            time.sleep(0.5)
-            _, last_part_count = poll_new_parts(session_id, last_part_count)
+            # Skip past the user message part(s) just written by the paste.
+            # Only advance past mandate lines, NOT past agent response parts.
+            time.sleep(0.2)
+            new_parts, new_count = poll_new_parts(session_id, last_part_count)
+            user_msg_parts = 0
+            for (part_data,) in new_parts:
+                if 'mandate: you must use' in str(part_data).lower():
+                    user_msg_parts += 1
+            last_part_count += user_msg_parts
             ans, raw_context, last_part_count = wait_for_response(
                 session_id, last_part_count
             )
@@ -374,14 +379,15 @@ def run_ghost_operator():
         with open(out_file, "w") as f:
             json.dump(predictions, f, indent=2)
 
-        # Drain SQLite pipe: advance past all pending parts so stale
-        # retry answers don't bleed into the next question's polling window
-        new_parts, last_part_count = poll_new_parts(session_id, last_part_count)
-        if new_parts:
-            print(f"  Drained {len(new_parts)} stale parts before next question.")
-
         print(f"  Pacing: Sleeping for {PACING_DELAY_SECONDS} seconds before next question...")
         time.sleep(PACING_DELAY_SECONDS)
+
+        # Drain SQLite pipe AFTER pacing sleep: consume any late-arriving
+        # answers from the previous question so they don't bleed into the
+        # next question's polling window as a false answer.
+        new_parts, last_part_count = poll_new_parts(session_id, last_part_count)
+        if new_parts:
+            print(f"  Drained {len(new_parts)} stale parts after pacing.")
 
     print(f"\nAll {len(predictions)} predictions saved to {out_file}")
 
