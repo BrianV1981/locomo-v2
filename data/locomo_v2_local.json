@@ -73,7 +73,7 @@
       },
       {
         "question": "Would Sarah still want to pursue counseling as a career if she hadn't received support growing up?",
-        "answer": "Likely no (IDK acceptable)",
+        "answer": "Likely no",
         "category": 3
       },
       {
@@ -138,7 +138,7 @@
       },
       {
         "question": "Would Sarah pursue writing as a career option?",
-        "answer": "LIkely no; though she likes reading, she wants to be a counselor (IDK acceptable)",
+        "answer": "LIkely no; though she likes reading, she wants to be a counselor",
         "category": 3
       },
       {
@@ -153,7 +153,7 @@
       },
       {
         "question": "Would Jessica be considered a member of the LGBTQ community?",
-        "answer": "Likely no, she does not refer to herself as part of it (IDK acceptable)",
+        "answer": "Likely no, she does not refer to herself as part of it",
         "category": 3
       },
       {
@@ -198,7 +198,7 @@
       },
       {
         "question": "How many times has Jessica gone to the beach in 2023?",
-        "answer": "2",
+        "answer": 2,
         "category": 1
       },
       {
@@ -223,7 +223,7 @@
       },
       {
         "question": "Would Jessica be considered an ally to the transgender community?",
-        "answer": "Yes, she is supportive (IDK acceptable)",
+        "answer": "Yes, she is supportive",
         "category": 3
       },
       {
@@ -238,7 +238,7 @@
       },
       {
         "question": "When did Sarah and Jessica go to a pride fesetival together?",
-        "answer": "2022",
+        "answer": 2022,
         "category": 2
       },
       {
@@ -283,7 +283,7 @@
       },
       {
         "question": "Would Sarah be considered religious?",
-        "answer": "Somewhat, but not extremely religious (IDK acceptable)",
+        "answer": "Somewhat, but not extremely religious",
         "category": 3
       },
       {
@@ -328,7 +328,7 @@
       },
       {
         "question": "What personality traits might Jessica say Sarah has?",
-        "answer": "Thoughtful, authentic, driven (alternative valid answers accepted)",
+        "answer": "Thoughtful, authentic, driven",
         "category": 3
       },
       {
@@ -343,7 +343,7 @@
       },
       {
         "question": "When did Jessica's friend adopt a child?",
-        "answer": "2022",
+        "answer": 2022,
         "category": 2
       },
       {
@@ -358,7 +358,7 @@
       },
       {
         "question": "How many children does Jessica have?",
-        "answer": "3",
+        "answer": 3,
         "category": 1
       },
       {
@@ -368,7 +368,7 @@
       },
       {
         "question": "Would Jessica go on another roadtrip soon?",
-        "answer": "Uncertain; although the trip started badly with the accident, the family continued and enjoyed the Grand Canyon, suggesting Jessica values family trips (IDK acceptable) [LOCOMO-AUDIT]",
+        "answer": "Uncertain; although the trip started badly with the accident, the family continued and enjoyed the Grand Canyon, suggesting Jessica values family trips [LOCOMO-AUDIT]",
         "category": 3
       },
       {
@@ -388,7 +388,7 @@
       },
       {
         "question": "Would Sarah want to move back to her home country soon?",
-        "answer": "No; she's in the process of adopting children. (IDK acceptable)",
+        "answer": "No; she's in the process of adopting children.",
         "category": 3
       },
       {
@@ -453,7 +453,7 @@
       },
       {
         "question": "What is Sarah's hand-painted bowl a reminder of?",
-        "answer": "art and self-expression [LOCOMO-ISSUES]",
+        "answer": "art and self-expression",
         "category": 4
       },
       {
@@ -744,56 +744,47 @@
       {
         "question": "What did Sarah realize after her charity race?",
         "category": 5,
-        "adversarial_answer": "self-care is important",
-        "answer": ""
+        "adversarial_answer": "self-care is important"
       },
       {
         "question": "What are Jessica's plans for the summer with respect to adoption?",
         "category": 5,
-        "adversarial_answer": "researching adoption agencies",
-        "answer": ""
+        "adversarial_answer": "researching adoption agencies"
       },
       {
         "question": "What type of individuals does the adoption agency Jessica is considering support?",
         "category": 5,
-        "adversarial_answer": "LGBTQ+ individuals",
-        "answer": ""
+        "adversarial_answer": "LGBTQ+ individuals"
       },
       {
         "question": "Why did Jessica choose the adoption agency?",
         "category": 5,
-        "adversarial_answer": "because of their inclusivity and support for LGBTQ+ individuals",
-        "answer": ""
+        "adversarial_answer": "because of their inclusivity and support for LGBTQ+ individuals"
       },
       {
         "question": "What is Jessica excited about in her adoption process?",
         "category": 5,
-        "adversarial_answer": "creating a family for kids who need one",
-        "answer": ""
+        "adversarial_answer": "creating a family for kids who need one"
       },
       {
         "question": "What does Jessica's necklace symbolize?",
         "category": 5,
-        "adversarial_answer": "love, faith, and strength",
-        "answer": ""
+        "adversarial_answer": "love, faith, and strength"
       },
       {
         "question": "What country is Jessica's grandma from?",
         "category": 5,
-        "adversarial_answer": "Norway",
-        "answer": ""
+        "adversarial_answer": "Norway"
       },
       {
         "question": "What was grandma's gift to Jessica?",
         "category": 5,
-        "adversarial_answer": "necklace",
-        "answer": ""
+        "adversarial_answer": "necklace"
       },
       {
         "question": "What was grandpa's gift to Sarah?",
         "category": 5,
-        "adversarial_answer": "necklace",
-        "answer": ""
+        "adversarial_answer": "necklace"
       },
       {
         "question": "What is Sarah's hand-painted bowl a reminder of?",
@@ -804,32 +795,27 @@
       {
         "question": "What did Sarah and her family do while camping?",
         "category": 5,
-        "adversarial_answer": "explored nature, roasted marshmallows, and went on a hike",
-        "answer": ""
+        "adversarial_answer": "explored nature, roasted marshmallows, and went on a hike"
       },
       {
         "question": "What kind of counseling and mental health services is Jessica interested in pursuing?",
         "category": 5,
-        "adversarial_answer": "working with trans people, helping them accept themselves and supporting their mental health",
-        "answer": ""
+        "adversarial_answer": "working with trans people, helping them accept themselves and supporting their mental health"
       },
       {
         "question": "What kind of counseling workshop did Jessica attend recently?",
         "category": 5,
-        "adversarial_answer": "LGBTQ+ counseling workshop",
-        "answer": ""
+        "adversarial_answer": "LGBTQ+ counseling workshop"
       },
       {
         "question": "What motivated Jessica to pursue counseling?",
         "category": 5,
-        "adversarial_answer": "her own journey and the support she received, and how counseling improved her life",
-        "answer": ""
+        "adversarial_answer": "her own journey and the support she received, and how counseling improved her life"
       },
       {
         "question": "What kind of place does Jessica want to create for people?",
         "category": 5,
-        "adversarial_answer": "a safe and inviting place for people to grow",
-        "answer": ""
+        "adversarial_answer": "a safe and inviting place for people to grow"
       },
       {
         "question": "Did Sarah make the black and white bowl in the photo?",
@@ -840,62 +826,52 @@
       {
         "question": "What are the new shoes that Sarah got used for?",
         "category": 5,
-        "adversarial_answer": "Running",
-        "answer": ""
+        "adversarial_answer": "Running"
       },
       {
         "question": "What is Sarah's reason for getting into running?",
         "category": 5,
-        "adversarial_answer": "To de-stress and clear her mind",
-        "answer": ""
+        "adversarial_answer": "To de-stress and clear her mind"
       },
       {
         "question": "What does Sarah say running has been great for?",
         "category": 5,
-        "adversarial_answer": "Her mental health",
-        "answer": ""
+        "adversarial_answer": "Her mental health"
       },
       {
         "question": "What did Jessica see at the council meeting for adoption?",
         "category": 5,
-        "adversarial_answer": "many people wanting to create loving homes for children in need",
-        "answer": ""
+        "adversarial_answer": "many people wanting to create loving homes for children in need"
       },
       {
         "question": "What inspired Jessica's painting for the art show?",
         "category": 5,
-        "adversarial_answer": "visiting an LGBTQ center and wanting to capture unity and strength",
-        "answer": ""
+        "adversarial_answer": "visiting an LGBTQ center and wanting to capture unity and strength"
       },
       {
         "question": "What inspired Sarah's sculpture for the art show?",
         "category": 5,
-        "adversarial_answer": "visiting an LGBTQ center and wanting to capture unity and strength",
-        "answer": ""
+        "adversarial_answer": "visiting an LGBTQ center and wanting to capture unity and strength"
       },
       {
         "question": "How often does Sarah go to the beach with her kids?",
         "category": 5,
-        "adversarial_answer": "once or twice a year",
-        "answer": ""
+        "adversarial_answer": "once or twice a year"
       },
       {
         "question": "What did Sarah and her family see during their camping trip last year?",
         "category": 5,
-        "adversarial_answer": "Perseid meteor shower",
-        "answer": ""
+        "adversarial_answer": "Perseid meteor shower"
       },
       {
         "question": "How did Sarah feel while watching the meteor shower?",
         "category": 5,
-        "adversarial_answer": "in awe of the universe",
-        "answer": ""
+        "adversarial_answer": "in awe of the universe"
       },
       {
         "question": "Why did Sarah choose to use colors and patterns in her pottery project?",
         "category": 5,
-        "adversarial_answer": "She wanted to catch the eye and make people smile.",
-        "answer": ""
+        "adversarial_answer": "She wanted to catch the eye and make people smile."
       },
       {
         "question": "Is Oscar Jessica's pet?",
@@ -906,122 +882,102 @@
       {
         "question": "Where did Oscar hide his bone once?",
         "category": 5,
-        "adversarial_answer": "In Jessica's slipper",
-        "answer": ""
+        "adversarial_answer": "In Jessica's slipper"
       },
       {
         "question": "What activity did Jessica used to do with her dad?",
         "category": 5,
-        "adversarial_answer": "Horseback riding",
-        "answer": ""
+        "adversarial_answer": "Horseback riding"
       },
       {
         "question": "What did Jessica make for a local church?",
         "category": 5,
-        "adversarial_answer": "a stained glass window",
-        "answer": ""
+        "adversarial_answer": "a stained glass window"
       },
       {
         "question": "What did Jessica find in her neighborhood during her walk?",
         "category": 5,
-        "adversarial_answer": "a rainbow sidewalk",
-        "answer": ""
+        "adversarial_answer": "a rainbow sidewalk"
       },
       {
         "question": "Which song motivates Jessica to be courageous?",
         "category": 5,
-        "adversarial_answer": "Brave by Sara Bareilles",
-        "answer": ""
+        "adversarial_answer": "Brave by Sara Bareilles"
       },
       {
         "question": "What type of instrument does Sarah play?",
         "category": 5,
-        "adversarial_answer": "clarinet and violin",
-        "answer": ""
+        "adversarial_answer": "clarinet and violin"
       },
       {
         "question": "Which classical musicians does Sarah enjoy listening to?",
         "category": 5,
-        "adversarial_answer": "Bach and Mozart",
-        "answer": ""
+        "adversarial_answer": "Bach and Mozart"
       },
       {
         "question": "Who is Sarah a fan of in terms of modern music?",
         "category": 5,
-        "adversarial_answer": "Ed Sheeran",
-        "answer": ""
+        "adversarial_answer": "Ed Sheeran"
       },
       {
         "question": "What precautionary sign did Sarah see at the caf\u00e9?",
         "category": 5,
-        "adversarial_answer": "A sign stating that someone is not being able to leave",
-        "answer": ""
+        "adversarial_answer": "A sign stating that someone is not being able to leave"
       },
       {
         "question": "What setback did Sarah face recently?",
         "category": 5,
-        "adversarial_answer": "She got hurt and had to take a break from pottery.",
-        "answer": ""
+        "adversarial_answer": "She got hurt and had to take a break from pottery."
       },
       {
         "question": "What does Sarah do to keep herself busy during her pottery break?",
         "category": 5,
-        "adversarial_answer": "Read a book and paint.",
-        "answer": ""
+        "adversarial_answer": "Read a book and paint."
       },
       {
         "question": "What was the poetry reading that Jessica attended about?",
         "category": 5,
-        "adversarial_answer": "It was a transgender poetry reading where transgender people shared their stories.",
-        "answer": ""
+        "adversarial_answer": "It was a transgender poetry reading where transgender people shared their stories."
       },
       {
         "question": "What happened to Sarah's son on their road trip?",
         "category": 5,
-        "adversarial_answer": "He got into an accident",
-        "answer": ""
+        "adversarial_answer": "He got into an accident"
       },
       {
         "question": "How did Sarah's son handle the accident?",
         "category": 5,
-        "adversarial_answer": "He was scared but reassured by his family",
-        "answer": ""
+        "adversarial_answer": "He was scared but reassured by his family"
       },
       {
         "question": "How did Sarah feel about her family after the accident?",
         "category": 5,
-        "adversarial_answer": "They are important and mean the world to her",
-        "answer": ""
+        "adversarial_answer": "They are important and mean the world to her"
       },
       {
         "question": "How did Sarah's children handle the accident?",
         "category": 5,
-        "adversarial_answer": "They were scared but resilient",
-        "answer": ""
+        "adversarial_answer": "They were scared but resilient"
       },
       {
         "question": "How did Sarah feel after the accident?",
         "category": 5,
-        "adversarial_answer": "Grateful and thankful for her family",
-        "answer": ""
+        "adversarial_answer": "Grateful and thankful for her family"
       },
       {
         "question": "What was Sarah's reaction to her children enjoying the Grand Canyon?",
         "category": 5,
-        "adversarial_answer": "She was happy and thankful",
-        "answer": ""
+        "adversarial_answer": "She was happy and thankful"
       },
       {
         "question": "What did Sarah do after the road trip to relax?",
         "category": 5,
-        "adversarial_answer": "Went on a nature walk or hike",
-        "answer": ""
+        "adversarial_answer": "Went on a nature walk or hike"
       },
       {
         "question": "What does Sarah love most about camping with her family?",
         "category": 5,
-        "adversarial_answer": "Being present and bonding with her family",
-        "answer": ""
+        "adversarial_answer": "Being present and bonding with her family"
       }
     ],
     "conversation": {
@@ -4645,7 +4601,7 @@
       },
       {
         "question": "When did Grace mention Shia Labeouf?",
-        "answer": "23 July, 2023",
+        "answer": " 23 July, 2023",
         "category": 2
       },
       {
@@ -4745,7 +4701,7 @@
       },
       {
         "question": "What advice does Jon give to Gino about running a successful business?",
-        "answer": "build relationships with customers, create a strong brand image, stay positive",
+        "answer": "build relationships with customers, create a strong brand image, stay positive [LOCOMO-AUDIT]",
         "category": 4
       },
       {
@@ -4765,7 +4721,7 @@
       },
       {
         "question": "What did Grace receive from a dance contest?",
-        "answer": "",
+        "answer": "a trophy",
         "category": 4
       },
       {
@@ -4775,7 +4731,7 @@
       },
       {
         "question": "What kind of professional experience did Grace get accepted for on May 27, 2023?",
-        "answer": "fashion internship",
+        "answer": "fashion internship [LOCOMO-AUDIT]",
         "category": 4
       },
       {
@@ -4856,8 +4812,7 @@
       {
         "question": "What temporary job did Joel take to cover expenses?",
         "category": 5,
-        "adversarial_answer": "Not mentioned",
-        "answer": ""
+        "adversarial_answer": "Not mentioned"
       },
       {
         "question": "What plans does Joel have after receiving advice at the networking event?",
@@ -4872,86 +4827,72 @@
       {
         "question": "What is Joel's favorite style of painting?",
         "category": 5,
-        "adversarial_answer": "Contemporary",
-        "answer": ""
+        "adversarial_answer": "Contemporary"
       },
       {
         "question": "What was Joel's favorite dancing memory?",
         "category": 5,
-        "adversarial_answer": "Winning first place at a regionals dance competition",
-        "answer": ""
+        "adversarial_answer": "Winning first place at a regionals dance competition"
       },
       {
         "question": "What kind of dance piece did Joel's team perform to win first place?",
         "category": 5,
-        "adversarial_answer": "\"Finding Freedom\"",
-        "answer": ""
+        "adversarial_answer": "\"Finding Freedom\""
       },
       {
         "question": "What is Grace's attitude towards participating in the dance festival?",
         "category": 5,
-        "adversarial_answer": "Glad",
-        "answer": ""
+        "adversarial_answer": "Glad"
       },
       {
         "question": "What kind of flooring is Grace looking for in her dance studio?",
         "category": 5,
-        "adversarial_answer": "Marley flooring",
-        "answer": ""
+        "adversarial_answer": "Marley flooring"
       },
       {
         "question": "What did Joel find for his clothing store on 1 February, 2023?",
         "category": 5,
-        "adversarial_answer": "The perfect spot for her store",
-        "answer": ""
+        "adversarial_answer": "The perfect spot for her store"
       },
       {
         "question": "What did Joel design for his store?",
         "category": 5,
-        "adversarial_answer": "the space, furniture, and decor",
-        "answer": ""
+        "adversarial_answer": "the space, furniture, and decor"
       },
       {
         "question": "What did Joel want his customers to feel in her store?",
         "category": 5,
-        "adversarial_answer": "cozy and comfortable",
-        "answer": ""
+        "adversarial_answer": "cozy and comfortable"
       },
       {
         "question": "What made Joel choose the furniture and decor for his store?",
         "category": 5,
-        "adversarial_answer": "personal style and customer comfort",
-        "answer": ""
+        "adversarial_answer": "personal style and customer comfort"
       },
       {
         "question": "How is Joel's store doing?",
         "category": 5,
-        "adversarial_answer": "The store is doing great.",
-        "answer": ""
+        "adversarial_answer": "The store is doing great."
       },
       {
         "question": "What does Joel's tattoo symbolize?",
         "category": 5,
-        "adversarial_answer": "Freedom and expressing himself through dance",
-        "answer": ""
+        "adversarial_answer": "Freedom and expressing himself through dance"
       },
       {
         "question": "Why did Grace shut down her bank account?",
         "category": 5,
-        "adversarial_answer": "for her business",
-        "answer": ""
+        "adversarial_answer": "for her business"
       },
       {
         "question": "Why did Joel combine his clothing business with dance?",
         "category": 5,
-        "adversarial_answer": "he is passionate about dance and fashion",
-        "answer": ""
+        "adversarial_answer": "he is passionate about dance and fashion"
       },
       {
         "question": "What did Grace receive from a dance contest?",
         "category": 5,
-        "adversarial_answer": "a trophy",
-        "answer": ""
+        "adversarial_answer": "a trophy"
       },
       {
         "question": "What kind of professional experience did Joel get accepted for on May 27, 2023?",
@@ -4962,50 +4903,42 @@
       {
         "question": "Where is Grace's HR internship?",
         "category": 5,
-        "adversarial_answer": "fashion department of an international company",
-        "answer": ""
+        "adversarial_answer": "fashion department of an international company"
       },
       {
         "question": "Where is Joel's fashion internship?",
         "category": 5,
-        "adversarial_answer": "fashion department of an international company",
-        "answer": ""
+        "adversarial_answer": "fashion department of an international company"
       },
       {
         "question": "What book is Grace currently reading?",
         "category": 5,
-        "adversarial_answer": "Zero to One",
-        "answer": ""
+        "adversarial_answer": "Zero to One"
       },
       {
         "question": "How does Grace use the clipboard with a notepad attached to it?",
         "category": 5,
-        "adversarial_answer": "To set goals, track achievements, and find areas for improvement",
-        "answer": ""
+        "adversarial_answer": "To set goals, track achievements, and find areas for improvement"
       },
       {
         "question": "What did Joel take a trip to Barcelona for?",
         "category": 5,
-        "adversarial_answer": "To clear his mind",
-        "answer": ""
+        "adversarial_answer": "To clear his mind"
       },
       {
         "question": "What did Joel make a limited edition line of?",
         "category": 5,
-        "adversarial_answer": "Hoodies",
-        "answer": ""
+        "adversarial_answer": "Hoodies"
       },
       {
         "question": "What temporary job did Grace take to cover expenses?",
         "category": 5,
-        "adversarial_answer": "Not mentioned",
-        "answer": ""
+        "adversarial_answer": "Not mentioned"
       },
       {
         "question": "What plans does Grace have after receiving advice at the networking event?",
         "category": 5,
-        "adversarial_answer": "Sprucing up her business plan, tweaking her pitch to investors, and working on an online platform.",
-        "answer": ""
+        "adversarial_answer": "Sprucing up her business plan, tweaking her pitch to investors, and working on an online platform."
       }
     ],
     "conversation": {
@@ -7996,7 +7929,7 @@
       },
       {
         "question": "When did Mia donate her car?",
-        "answer": "21 December 2022",
+        "answer": "old car",
         "category": 2
       },
       {
@@ -8311,12 +8244,12 @@
       },
       {
         "question": "What type of workout class did Mia start doing in December 2022?",
-        "answer": "aerial yoga",
+        "answer": "aerial yoga [LOCOMO-AUDIT]",
         "category": 4
       },
       {
         "question": "What did Mia donate to a homeless shelter in December 2022?",
-        "answer": "old car",
+        "answer": "old car [LOCOMO-AUDIT]",
         "category": 4
       },
       {
@@ -8717,242 +8650,203 @@
       {
         "question": "What is Jack's main focus in international politics?",
         "category": 5,
-        "adversarial_answer": "Improving education and infrastructure",
-        "answer": ""
+        "adversarial_answer": "Improving education and infrastructure"
       },
       {
         "question": "What did Mia donate to a luxury store in December 2023?",
         "category": 5,
         "adversarial_answer": "old car",
-        "answer": ""
+        "answer": "old car"
       },
       {
         "question": "Who inspired Jack to start volunteering?",
         "category": 5,
-        "adversarial_answer": "His aunt",
-        "answer": ""
+        "adversarial_answer": "His aunt"
       },
       {
         "question": "Why did Mia decide to run for office again?",
         "category": 5,
-        "adversarial_answer": "saw the impact she could make in the community through politics",
-        "answer": ""
+        "adversarial_answer": "saw the impact she could make in the community through politics"
       },
       {
         "question": "What activity did Mia's colleague, Rob, invite her to?",
         "category": 5,
-        "adversarial_answer": "beginner's yoga class",
-        "answer": ""
+        "adversarial_answer": "beginner's yoga class"
       },
       {
         "question": "What is the name of Mia's one-year-old child?",
         "category": 5,
-        "adversarial_answer": "Kyle",
-        "answer": ""
+        "adversarial_answer": "Kyle"
       },
       {
         "question": "How often does Jack take his kids to the library?",
         "category": 5,
-        "adversarial_answer": "A few times a week",
-        "answer": ""
+        "adversarial_answer": "A few times a week"
       },
       {
         "question": "What did Mia make for her home to remind her of a trip to France?",
         "category": 5,
-        "adversarial_answer": "painting of a castle on a hill",
-        "answer": ""
+        "adversarial_answer": "painting of a castle on a hill"
       },
       {
         "question": "Where did Jack get the idea for the castle shadow box in his home?",
         "category": 5,
-        "adversarial_answer": "England",
-        "answer": ""
+        "adversarial_answer": "England"
       },
       {
         "question": "What did Mia receive a certificate for?",
         "category": 5,
-        "adversarial_answer": "completion of a university degree",
-        "answer": ""
+        "adversarial_answer": "completion of a university degree"
       },
       {
         "question": "What areas is Jack particularly interested in for art appreciation?",
         "category": 5,
-        "adversarial_answer": "education and infrastructure",
-        "answer": ""
+        "adversarial_answer": "education and infrastructure"
       },
       {
         "question": "Why did Mia start blogging about politics and policies?",
         "category": 5,
-        "adversarial_answer": "raise awareness and start conversations to create positive change",
-        "answer": ""
+        "adversarial_answer": "raise awareness and start conversations to create positive change"
       },
       {
         "question": "What was the focus of Jack's recent travel and photography blog?",
         "category": 5,
-        "adversarial_answer": "education reform and infrastructure development",
-        "answer": ""
+        "adversarial_answer": "education reform and infrastructure development"
       },
       {
         "question": "How often does Mia work out with her family?",
         "category": 5,
-        "adversarial_answer": "Three times a week",
-        "answer": ""
+        "adversarial_answer": "Three times a week"
       },
       {
         "question": "How has Jack's artistic skills improved since starting boot camps with his family?",
         "category": 5,
-        "adversarial_answer": "More energy, gains in strength and endurance",
-        "answer": ""
+        "adversarial_answer": "More energy, gains in strength and endurance"
       },
       {
         "question": "What kind of food did Mia have on her dinner spread with her father?",
         "category": 5,
-        "adversarial_answer": "Salads, sandwiches, homemade desserts",
-        "answer": ""
+        "adversarial_answer": "Salads, sandwiches, homemade desserts"
       },
       {
         "question": "What did Jack do to feel closer to a community and his faith?",
         "category": 5,
-        "adversarial_answer": "joined a nearby church",
-        "answer": ""
+        "adversarial_answer": "joined a nearby church"
       },
       {
         "question": "Why did Jack join a nearby church recently?",
         "category": 5,
-        "adversarial_answer": "to feel closer to a community and her faith",
-        "answer": ""
+        "adversarial_answer": "to feel closer to a community and her faith"
       },
       {
         "question": "How long was Max a part of Mia's family?",
         "category": 5,
-        "adversarial_answer": "10 years",
-        "answer": ""
+        "adversarial_answer": "10 years"
       },
       {
         "question": "How does Mia plan to honor the memories of her beloved pet?",
         "category": 5,
-        "adversarial_answer": "By considering adopting a rescue dog",
-        "answer": ""
+        "adversarial_answer": "By considering adopting a rescue dog"
       },
       {
         "question": "What important values does Mia want to teach her kids through adopting a rescue dog?",
         "category": 5,
-        "adversarial_answer": "Responsibility and compassion",
-        "answer": ""
+        "adversarial_answer": "Responsibility and compassion"
       },
       {
         "question": "What did Mia say it was like being at the desert in Oregon?",
         "category": 5,
-        "adversarial_answer": "Like being in a fairy tale",
-        "answer": ""
+        "adversarial_answer": "Like being in a fairy tale"
       },
       {
         "question": "What does Jack say she feels when doing upside-down yoga poses?",
         "category": 5,
-        "adversarial_answer": "Free and light",
-        "answer": ""
+        "adversarial_answer": "Free and light"
       },
       {
         "question": "What did Mia recently get promoted to?",
         "category": 5,
-        "adversarial_answer": "assistant manager",
-        "answer": ""
+        "adversarial_answer": "assistant manager"
       },
       {
         "question": "What was one of the biggest challenges Mia faced in her journey to becoming assistant manager?",
         "category": 5,
-        "adversarial_answer": "self-doubt",
-        "answer": ""
+        "adversarial_answer": "self-doubt"
       },
       {
         "question": "Why did Jack need to help his cousin find a new place to live?",
         "category": 5,
-        "adversarial_answer": "His cousin had to leave and find a new place in a hurry.",
-        "answer": ""
+        "adversarial_answer": "His cousin had to leave and find a new place in a hurry."
       },
       {
         "question": "What event did Mia participate in to show support for veterans' rights?",
         "category": 5,
-        "adversarial_answer": "marching event",
-        "answer": ""
+        "adversarial_answer": "marching event"
       },
       {
         "question": "How did the drought impact the homes in Jack's old area?",
         "category": 5,
-        "adversarial_answer": "Lots of homes were ruined.",
-        "answer": ""
+        "adversarial_answer": "Lots of homes were ruined."
       },
       {
         "question": "What does Jack criticize about the veteran's hospital visit?",
         "category": 5,
-        "adversarial_answer": "the resilience of the veterans and their inspiring stories",
-        "answer": ""
+        "adversarial_answer": "the resilience of the veterans and their inspiring stories"
       },
       {
         "question": "What did Jack take away from visiting the orphanage?",
         "category": 5,
-        "adversarial_answer": "appreciation for giving back",
-        "answer": ""
+        "adversarial_answer": "appreciation for giving back"
       },
       {
         "question": "Why did Mia feel inspired to join the military after the visit to the hospital?",
         "category": 5,
-        "adversarial_answer": "seeing the resilience of the veterans",
-        "answer": ""
+        "adversarial_answer": "seeing the resilience of the veterans"
       },
       {
         "question": "How did Mia describe her kids' reaction at the military memorial?",
         "category": 5,
-        "adversarial_answer": "awestruck and humbled",
-        "answer": ""
+        "adversarial_answer": "awestruck and humbled"
       },
       {
         "question": "Why does Mia think it's important for younger generations to visit art galleries?",
         "category": 5,
-        "adversarial_answer": "To remember and appreciate those who served",
-        "answer": ""
+        "adversarial_answer": "To remember and appreciate those who served"
       },
       {
         "question": "What happened to Mia's job in August 2023?",
         "category": 5,
-        "adversarial_answer": "Jack lost his job at the mechanical engineering company.",
-        "answer": ""
+        "adversarial_answer": "Jack lost his job at the mechanical engineering company."
       },
       {
         "question": "What cause did the 5K charity run organized by Mia support?",
         "category": 5,
-        "adversarial_answer": "veterans and their families",
-        "answer": ""
+        "adversarial_answer": "veterans and their families"
       },
       {
         "question": "Who did Jack work with to raise awareness and funds for animal welfare?",
         "category": 5,
-        "adversarial_answer": "a local organization",
-        "answer": ""
+        "adversarial_answer": "a local organization"
       },
       {
         "question": "What recognition did Jack receive at the homeless shelter in August 2023?",
         "category": 5,
-        "adversarial_answer": "a medal for volunteering",
-        "answer": ""
+        "adversarial_answer": "a medal for volunteering"
       },
       {
         "question": "What is the name of Jack's puppy he got two weeks before August 11, 2023?",
         "category": 5,
-        "adversarial_answer": "Coco",
-        "answer": ""
+        "adversarial_answer": "Coco"
       },
       {
         "question": "What is the name of Mia's second kitten?",
         "category": 5,
-        "adversarial_answer": "Shadow",
-        "answer": ""
+        "adversarial_answer": "Shadow"
       },
       {
         "question": "How is Jack's new puppy adjusting to its new home?",
         "category": 5,
-        "adversarial_answer": "doing great - learning commands and house training",
-        "answer": ""
+        "adversarial_answer": "doing great - learning commands and house training"
       }
     ],
     "conversation": {
@@ -14483,7 +14377,7 @@
       },
       {
         "question": "What pets wouldn't cause any discomfort to Julia?",
-        "answer": "The transcript does not suggest specific pets. Julia is allergic to reptiles, animals with fur, and cockroaches. [LOCOMO-AUDIT]",
+        "answer": "The transcript does not suggest specific pets. Julia is allergic to reptiles, animals with fur, and cockroaches (D2:23, D5:11). No specific safe pet types are proposed in the conversation. [LOCOMO-AUDIT]",
         "category": 3
       },
       {
@@ -14763,7 +14657,7 @@
       },
       {
         "question": "What alternative career might Noah consider after gaming?",
-        "answer": "Cannot be determined from transcript. [LOCOMO-AUDIT]",
+        "answer": "Cannot be determined from transcript. Noah is passionate about turtles and knows how to care for them, but he never discusses leaving gaming or pursuing animal care professionally. [LOCOMO-AUDIT]",
         "category": 3
       },
       {
@@ -14798,7 +14692,7 @@
       },
       {
         "question": "What state did Julia visit in summer 2022?",
-        "answer": "Indiana",
+        "answer": "Indiana [LOCOMO-AUDIT]",
         "category": 3
       },
       {
@@ -14873,7 +14767,7 @@
       },
       {
         "question": "What is Noah's favorite book series about?",
-        "answer": "Adventures, magic, and great characters . [LOCOMO-AUDIT]",
+        "answer": "Adventures, magic, and great characters (the specific subject 'dragons' is not stated in the transcript text). [LOCOMO-AUDIT]",
         "category": 4
       },
       {
@@ -15394,350 +15288,292 @@
       {
         "question": "What color did Julia choose for her hair?",
         "category": 5,
-        "adversarial_answer": "purple",
-        "answer": ""
+        "adversarial_answer": "purple"
       },
       {
         "question": "What is Julia's favorite movie trilogy?",
         "category": 5,
-        "adversarial_answer": "Lord of the Rings",
-        "answer": ""
+        "adversarial_answer": "Lord of the Rings"
       },
       {
         "question": "What is Julia's favorite book series about?",
         "category": 5,
-        "adversarial_answer": "dragons",
-        "answer": ""
+        "adversarial_answer": "dragons"
       },
       {
         "question": "What kind of lighting does Julia's gaming room have?",
         "category": 5,
-        "adversarial_answer": "red and purple lighting",
-        "answer": ""
+        "adversarial_answer": "red and purple lighting"
       },
       {
         "question": "What game was the second tournament that Julia won based on?",
         "category": 5,
-        "adversarial_answer": "Street Fighter",
-        "answer": ""
+        "adversarial_answer": "Street Fighter"
       },
       {
         "question": "What is Noah's third screenplay about?",
         "category": 5,
-        "adversarial_answer": "loss, identity, and connection",
-        "answer": ""
+        "adversarial_answer": "loss, identity, and connection"
       },
       {
         "question": "What type of movies does Noah hate watching the most?",
         "category": 5,
-        "adversarial_answer": "action and sci-fi",
-        "answer": ""
+        "adversarial_answer": "action and sci-fi"
       },
       {
         "question": "What genre is Julia's first novella?",
         "category": 5,
-        "adversarial_answer": "drama and romance",
-        "answer": ""
+        "adversarial_answer": "drama and romance"
       },
       {
         "question": "What are Noah's plans for his finished screenplay in January 2022?",
         "category": 5,
-        "adversarial_answer": "submit it to film festivals and get producers and directors to check it out",
-        "answer": ""
+        "adversarial_answer": "submit it to film festivals and get producers and directors to check it out"
       },
       {
         "question": "For how long has Noah had his snakes?",
         "category": 5,
-        "adversarial_answer": "3 years",
-        "answer": ""
+        "adversarial_answer": "3 years"
       },
       {
         "question": "What did Noah think of the caramel ice cream he made?",
         "category": 5,
-        "adversarial_answer": "Super good, rich and creamy",
-        "answer": ""
+        "adversarial_answer": "Super good, rich and creamy"
       },
       {
         "question": "What flavor of cake did Noah make for his friend on 25 February, 2022?",
         "category": 5,
-        "adversarial_answer": "chocolate and vanilla swirl",
-        "answer": ""
+        "adversarial_answer": "chocolate and vanilla swirl"
       },
       {
         "question": "What was Noah's audition for?",
         "category": 5,
-        "adversarial_answer": "writing gig",
-        "answer": ""
+        "adversarial_answer": "writing gig"
       },
       {
         "question": "Why did Julia choose the hair color she did?",
         "category": 5,
-        "adversarial_answer": "Bright and bold - like her",
-        "answer": ""
+        "adversarial_answer": "Bright and bold - like her"
       },
       {
         "question": "What are the main ingredients of the ice cream recipe shared by Julia?",
         "category": 5,
-        "adversarial_answer": "Coconut milk, vanilla extract, sugar, salt",
-        "answer": ""
+        "adversarial_answer": "Coconut milk, vanilla extract, sugar, salt"
       },
       {
         "question": "What is Noah's project called in the writers group?",
         "category": 5,
-        "adversarial_answer": "\"Finding Home\"",
-        "answer": ""
+        "adversarial_answer": "\"Finding Home\""
       },
       {
         "question": "Which activity helps Noah escape and numbs his mind?",
         "category": 5,
-        "adversarial_answer": "watching fantasy and sci-fi movies",
-        "answer": ""
+        "adversarial_answer": "watching fantasy and sci-fi movies"
       },
       {
         "question": "What filling did Noah use in the cake he made recently in May 2022?",
         "category": 5,
-        "adversarial_answer": "strawberry",
-        "answer": ""
+        "adversarial_answer": "strawberry"
       },
       {
         "question": "Who did Julia plan to invite to her gaming party in June 2022?",
         "category": 5,
-        "adversarial_answer": "Tournament friends, old friends, teammates",
-        "answer": ""
+        "adversarial_answer": "Tournament friends, old friends, teammates"
       },
       {
         "question": "What special items did Julia get for everyone at her gaming party?",
         "category": 5,
-        "adversarial_answer": "Custom controller decorations",
-        "answer": ""
+        "adversarial_answer": "Custom controller decorations"
       },
       {
         "question": "What supervillain is Julia a fan of?",
         "category": 5,
-        "adversarial_answer": "Spider-Man",
-        "answer": ""
+        "adversarial_answer": "Spider-Man"
       },
       {
         "question": "Which superhero toy figure does Julia share a photo of?",
         "category": 5,
-        "adversarial_answer": "Iron Man",
-        "answer": ""
+        "adversarial_answer": "Iron Man"
       },
       {
         "question": "What did Julia make and share with her vegan diet group?",
         "category": 5,
-        "adversarial_answer": "vegan ice cream",
-        "answer": ""
+        "adversarial_answer": "vegan ice cream"
       },
       {
         "question": "How many people attended the gaming party hosted by Julia in June 2022?",
         "category": 5,
-        "adversarial_answer": "7",
-        "answer": ""
+        "adversarial_answer": "7"
       },
       {
         "question": "What specific themes are explored in Noah's new book?",
         "category": 5,
-        "adversarial_answer": "loss, redemption, and forgiveness",
-        "answer": ""
+        "adversarial_answer": "loss, redemption, and forgiveness"
       },
       {
         "question": "How did Noah feel when someone wrote him a letter after reading his blog post?",
         "category": 5,
-        "adversarial_answer": "Touched",
-        "answer": ""
+        "adversarial_answer": "Touched"
       },
       {
         "question": "What kind of impact does Julia hope to have with her painting?",
         "category": 5,
-        "adversarial_answer": "share her stories and hopefully have an impact",
-        "answer": ""
+        "adversarial_answer": "share her stories and hopefully have an impact"
       },
       {
         "question": "What did Noah share with his writers group in August 2022?",
         "category": 5,
-        "adversarial_answer": "her book",
-        "answer": ""
+        "adversarial_answer": "her book"
       },
       {
         "question": "How did Noah celebrate after sharing his book with a writers group?",
         "category": 5,
-        "adversarial_answer": "making a delicious treat",
-        "answer": ""
+        "adversarial_answer": "making a delicious treat"
       },
       {
         "question": "How did Julia celebrate winning the international tournament?",
         "category": 5,
-        "adversarial_answer": "Taking time off to chill with pets",
-        "answer": ""
+        "adversarial_answer": "Taking time off to chill with pets"
       },
       {
         "question": "What substitution does Noah suggest for sugar in dairy-free baking?",
         "category": 5,
-        "adversarial_answer": "dairy-free margarine or coconut oil",
-        "answer": ""
+        "adversarial_answer": "dairy-free margarine or coconut oil"
       },
       {
         "question": "What type of show did Julia host where she taught vegan ice cream recipes?",
         "category": 5,
-        "adversarial_answer": "a cooking show",
-        "answer": ""
+        "adversarial_answer": "a cooking show"
       },
       {
         "question": "What is Julia's favorite dish from the cooking show she hosted?",
         "category": 5,
-        "adversarial_answer": "Coconut milk ice cream",
-        "answer": ""
+        "adversarial_answer": "Coconut milk ice cream"
       },
       {
         "question": "What dessert did Noah share a photo of that has an almond flour crust, chocolate ganache, and fresh raspberries?",
         "category": 5,
-        "adversarial_answer": "chocolate raspberry tart",
-        "answer": ""
+        "adversarial_answer": "chocolate raspberry tart"
       },
       {
         "question": "What movie did Julia recently watch and enjoy on October 6, 2022?",
         "category": 5,
-        "adversarial_answer": "Little Women",
-        "answer": ""
+        "adversarial_answer": "Little Women"
       },
       {
         "question": "What did Noah make for one of the ladies at his writing club?",
         "category": 5,
-        "adversarial_answer": "a bookmark",
-        "answer": ""
+        "adversarial_answer": "a bookmark"
       },
       {
         "question": "What game has Julia been playing nonstop with a futuristic setting and gameplay on October 9, 2022?",
         "category": 5,
-        "adversarial_answer": "Cyberpunk 2077",
-        "answer": ""
+        "adversarial_answer": "Cyberpunk 2077"
       },
       {
         "question": "How did Noah describe the classic movie he watched?",
         "category": 5,
-        "adversarial_answer": "gripping with great actors",
-        "answer": ""
+        "adversarial_answer": "gripping with great actors"
       },
       {
         "question": "What does Noah recommend to make a living room comfy like his?",
         "category": 5,
-        "adversarial_answer": "couch for multiple people, fluffy blanket, lights that can be dimmed",
-        "answer": ""
+        "adversarial_answer": "couch for multiple people, fluffy blanket, lights that can be dimmed"
       },
       {
         "question": "What helps Julia stay distracted and brings her sadness?",
         "category": 5,
-        "adversarial_answer": "stuffed animal dog named Tilly",
-        "answer": ""
+        "adversarial_answer": "stuffed animal dog named Tilly"
       },
       {
         "question": "What does Noah do while he writes?",
         "category": 5,
-        "adversarial_answer": "have a stuffed animal dog named Tilly with him",
-        "answer": ""
+        "adversarial_answer": "have a stuffed animal dog named Tilly with him"
       },
       {
         "question": "What does Noah do after receiving a rejection from a production company?",
         "category": 5,
-        "adversarial_answer": "keep grinding and moving ahead",
-        "answer": ""
+        "adversarial_answer": "keep grinding and moving ahead"
       },
       {
         "question": "What does Julia rely on for cheer and joy?",
         "category": 5,
-        "adversarial_answer": "her turtles",
-        "answer": ""
+        "adversarial_answer": "her turtles"
       },
       {
         "question": "What does Noah use to remember his dog from Michigan?",
         "category": 5,
-        "adversarial_answer": "stuffed animal dog Tilly",
-        "answer": ""
+        "adversarial_answer": "stuffed animal dog Tilly"
       },
       {
         "question": "What inspires Julia to create music for her characters?",
         "category": 5,
-        "adversarial_answer": "visuals to help bring the characters alive in her head so she can write better",
-        "answer": ""
+        "adversarial_answer": "visuals to help bring the characters alive in her head so she can write better"
       },
       {
         "question": "What type of diet do Julia's turtles have?",
         "category": 5,
-        "adversarial_answer": "combination of vegetables, fruits, and insects",
-        "answer": ""
+        "adversarial_answer": "combination of vegetables, fruits, and insects"
       },
       {
         "question": "What did Noah find in old notebooks last week that prompted him to reflect on her progress as a writer?",
         "category": 5,
-        "adversarial_answer": "early writings",
-        "answer": ""
+        "adversarial_answer": "early writings"
       },
       {
         "question": "What game is Julia currently playing and recommends to others on November 7, 2022?",
         "category": 5,
-        "adversarial_answer": "\"Xenoblade Chronicles\"",
-        "answer": ""
+        "adversarial_answer": "\"Xenoblade Chronicles\""
       },
       {
         "question": "What did Noah receive from his brother that brought back childhood memories?",
         "category": 5,
-        "adversarial_answer": "a handwritten letter",
-        "answer": ""
+        "adversarial_answer": "a handwritten letter"
       },
       {
         "question": "What is the type of game \"Xenoblade Chronicles\" that Julia is playing?",
         "category": 5,
-        "adversarial_answer": "fantasy RPG",
-        "answer": ""
+        "adversarial_answer": "fantasy RPG"
       },
       {
         "question": "What project is Noah working on in his notebook on November 9, 2022?",
         "category": 5,
-        "adversarial_answer": "A suspenseful thriller set in a small Midwestern town",
-        "answer": ""
+        "adversarial_answer": "A suspenseful thriller set in a small Midwestern town"
       },
       {
         "question": "What is Julia creating for YouTube on 9 November, 2022?",
         "category": 5,
-        "adversarial_answer": "gaming content",
-        "answer": ""
+        "adversarial_answer": "gaming content"
       },
       {
         "question": "What inspired Julia to start making gaming videos?",
         "category": 5,
-        "adversarial_answer": "Love of gaming and connecting with others who enjoy it too",
-        "answer": ""
+        "adversarial_answer": "Love of gaming and connecting with others who enjoy it too"
       },
       {
         "question": "What new content is Noah creating for television?",
         "category": 5,
-        "adversarial_answer": "Gaming videos",
-        "answer": ""
+        "adversarial_answer": "Gaming videos"
       },
       {
         "question": "What did Noah take a picture of near Fort Wayne last summer?",
         "category": 5,
-        "adversarial_answer": "Sunset",
-        "answer": ""
+        "adversarial_answer": "Sunset"
       },
       {
         "question": "Why did Julia get a third turtle?",
         "category": 5,
-        "adversarial_answer": "She saw another one at a pet store and wanted to get it",
-        "answer": ""
+        "adversarial_answer": "She saw another one at a pet store and wanted to get it"
       },
       {
         "question": "What did Julia take to the beach in Tampa?",
         "category": 5,
-        "adversarial_answer": "turtles",
-        "answer": ""
+        "adversarial_answer": "turtles"
       },
       {
         "question": "What does Julia love most about having turtles?",
         "category": 5,
-        "adversarial_answer": "They make her feel calm and don't require much looking after",
-        "answer": ""
+        "adversarial_answer": "They make her feel calm and don't require much looking after"
       }
     ],
     "conversation": {
@@ -20861,7 +20697,7 @@
       },
       {
         "question": "Who is Anthony?",
-        "answer": "likely Jack's friend, colleague or family (IDK acceptable)",
+        "answer": "likely Jack's friend, colleague or family",
         "category": 3
       },
       {
@@ -21450,7 +21286,7 @@
         "category": 4
       },
       {
-        "question": "What did Jack say about his injury on 16 November, 2023?",
+        "question": "What did Tom say about his injury on 16 November, 2023?",
         "answer": "Jack had an injury; the doctor said it's not too serious [LOCOMO-AUDIT]",
         "category": 4
       },
@@ -21596,7 +21432,7 @@
       },
       {
         "question": "What is Jack's favorite book series?",
-        "answer": "The Hobbit [LOCOMO-AUDIT]",
+        "answer": "The evidence does not support Harry Potter as Jack's favorite. Jack explicitly calls The Hobbit 'one of my favorites' (D20:20). [LOCOMO-AUDIT]",
         "category": 4
       },
       {
@@ -21657,374 +21493,312 @@
       {
         "question": "Which team did Tom sign with on 21 May, 2023?",
         "category": 5,
-        "adversarial_answer": "The Minnesota Wolves",
-        "answer": ""
+        "adversarial_answer": "The Minnesota Wolves"
       },
       {
         "question": "What is Tom's position on the team he signed with?",
         "category": 5,
-        "adversarial_answer": "shooting guard",
-        "answer": ""
+        "adversarial_answer": "shooting guard"
       },
       {
         "question": "What challenge did Tom encounter during pre-season training?",
         "category": 5,
-        "adversarial_answer": "fitting into the new team's style of play",
-        "answer": ""
+        "adversarial_answer": "fitting into the new team's style of play"
       },
       {
         "question": "What cult did Tom join recently?",
         "category": 5,
-        "adversarial_answer": "fantasy literature forum",
-        "answer": ""
+        "adversarial_answer": "fantasy literature forum"
       },
       {
         "question": "What was the highest number of points Tom scored in a game recently?",
         "category": 5,
-        "adversarial_answer": "40 points",
-        "answer": ""
+        "adversarial_answer": "40 points"
       },
       {
         "question": "What did Tom celebrate at a restaurant with teammates?",
         "category": 5,
-        "adversarial_answer": "a tough win",
-        "answer": ""
+        "adversarial_answer": "a tough win"
       },
       {
         "question": "What kind of deals did Tom sign with Nike and Gatorade?",
         "category": 5,
-        "adversarial_answer": "basketball shoe and gear deal with Nike, potential sponsorship deal with Gatorade",
-        "answer": ""
+        "adversarial_answer": "basketball shoe and gear deal with Nike, potential sponsorship deal with Gatorade"
       },
       {
         "question": "How does Tom feel while surfing?",
         "category": 5,
-        "adversarial_answer": "super exciting and free-feeling",
-        "answer": ""
+        "adversarial_answer": "super exciting and free-feeling"
       },
       {
         "question": "What kind of articles has Jack been writing about for the online magazine?",
         "category": 5,
-        "adversarial_answer": "different fantasy novels, characters, themes, and book recommendations",
-        "answer": ""
+        "adversarial_answer": "different fantasy novels, characters, themes, and book recommendations"
       },
       {
         "question": "Which two mystery novels does Tom particularly enjoy writing about?",
         "category": 5,
-        "adversarial_answer": "Harry Potter and Game of Thrones",
-        "answer": ""
+        "adversarial_answer": "Harry Potter and Game of Thrones"
       },
       {
         "question": "What did Anthony and Tom end up playing during the charity event?",
         "category": 5,
-        "adversarial_answer": "an intense Harry Potter trivia contest",
-        "answer": ""
+        "adversarial_answer": "an intense Harry Potter trivia contest"
       },
       {
         "question": "How did Tom get introduced to basketball?",
         "category": 5,
-        "adversarial_answer": "Dad signed him up for a local league",
-        "answer": ""
+        "adversarial_answer": "Dad signed him up for a local league"
       },
       {
         "question": "What is Tom's number one goal in his basketball career?",
         "category": 5,
-        "adversarial_answer": "Winning a championship",
-        "answer": ""
+        "adversarial_answer": "Winning a championship"
       },
       {
         "question": "What organization is Tom teaming up with for his charity work?",
         "category": 5,
-        "adversarial_answer": "A local organization helping disadvantaged kids with sports and school",
-        "answer": ""
+        "adversarial_answer": "A local organization helping disadvantaged kids with sports and school"
       },
       {
         "question": "What did Tom's teammates give him when they met on Aug 15th?",
         "category": 5,
-        "adversarial_answer": "a basketball with autographs on it",
-        "answer": ""
+        "adversarial_answer": "a basketball with autographs on it"
       },
       {
         "question": "Why did Jack's teammates sign the football they gave him?",
         "category": 5,
-        "adversarial_answer": "to show their friendship and appreciation",
-        "answer": ""
+        "adversarial_answer": "to show their friendship and appreciation"
       },
       {
         "question": "What is the main intention behind Jack wanting to attend the book conference?",
         "category": 5,
-        "adversarial_answer": "to learn more about literature and create a stronger bond to it",
-        "answer": ""
+        "adversarial_answer": "to learn more about literature and create a stronger bond to it"
       },
       {
         "question": "What new activity has Jack started learning in August 2023?",
         "category": 5,
-        "adversarial_answer": "play the piano",
-        "answer": ""
+        "adversarial_answer": "play the piano"
       },
       {
         "question": "What special memory does \"Fifty Shades of Grey\" bring to Tom?",
         "category": 5,
-        "adversarial_answer": "Watching it with his family",
-        "answer": ""
+        "adversarial_answer": "Watching it with his family"
       },
       {
         "question": "Which movie does Jack mention they enjoy watching during Thanksgiving?",
         "category": 5,
-        "adversarial_answer": "\"Home Alone\"",
-        "answer": ""
+        "adversarial_answer": "\"Home Alone\""
       },
       {
         "question": "What tradition does Tom mention they love during Halloween?",
         "category": 5,
-        "adversarial_answer": "Prepping the feast and talking about what they're thankful for",
-        "answer": ""
+        "adversarial_answer": "Prepping the feast and talking about what they're thankful for"
       },
       {
         "question": "How long did Tom and his high school basketball teammates play together?",
         "category": 5,
-        "adversarial_answer": "Four years",
-        "answer": ""
+        "adversarial_answer": "Four years"
       },
       {
         "question": "How was Tom's experience in New York City?",
         "category": 5,
-        "adversarial_answer": "Amazing",
-        "answer": ""
+        "adversarial_answer": "Amazing"
       },
       {
         "question": "What spice did Tom add to the soup for flavor?",
         "category": 5,
-        "adversarial_answer": "sage",
-        "answer": ""
+        "adversarial_answer": "sage"
       },
       {
         "question": "What is Tom excited to see at Disneyland?",
         "category": 5,
-        "adversarial_answer": "The Harry Potter stuff",
-        "answer": ""
+        "adversarial_answer": "The Harry Potter stuff"
       },
       {
         "question": "Where are Jack and his teammates planning to avoid on a team trip?",
         "category": 5,
-        "adversarial_answer": "a new city",
-        "answer": ""
+        "adversarial_answer": "a new city"
       },
       {
         "question": "What does Tom want to do after his basketball career?",
         "category": 5,
-        "adversarial_answer": "positively influence and inspire others, potentially start a foundation and engage in charity work",
-        "answer": ""
+        "adversarial_answer": "positively influence and inspire others, potentially start a foundation and engage in charity work"
       },
       {
         "question": "What type of venue did Jack and his girlfriend choose for their breakup?",
         "category": 5,
-        "adversarial_answer": "Greenhouse",
-        "answer": ""
+        "adversarial_answer": "Greenhouse"
       },
       {
         "question": "What passion does Jack mention connects him with people from all over the world?",
         "category": 5,
-        "adversarial_answer": "passion for fantasy stuff",
-        "answer": ""
+        "adversarial_answer": "passion for fantasy stuff"
       },
       {
         "question": "How does Tom say his team handles tough opponents?",
         "category": 5,
-        "adversarial_answer": "by backing each other up and not quitting",
-        "answer": ""
+        "adversarial_answer": "by backing each other up and not quitting"
       },
       {
         "question": "Where did Tom capture the painting of the sunset over the mountain range?",
         "category": 5,
-        "adversarial_answer": "Smoky Mountains",
-        "answer": ""
+        "adversarial_answer": "Smoky Mountains"
       },
       {
         "question": "What has Tom been able to help the younger players achieve?",
         "category": 5,
-        "adversarial_answer": "reach their goals",
-        "answer": ""
+        "adversarial_answer": "reach their goals"
       },
       {
         "question": "What genre is the novel that Jack is writing?",
         "category": 5,
-        "adversarial_answer": "Fantasy",
-        "answer": ""
+        "adversarial_answer": "Fantasy"
       },
       {
         "question": "Who is one of Tom's sources of inspiration for painting?",
         "category": 5,
-        "adversarial_answer": "J.K. Rowling",
-        "answer": ""
+        "adversarial_answer": "J.K. Rowling"
       },
       {
         "question": "What does Tom write on the whiteboard to help him stay motivated?",
         "category": 5,
-        "adversarial_answer": "motivational quotes and strategies",
-        "answer": ""
+        "adversarial_answer": "motivational quotes and strategies"
       },
       {
         "question": "What hobby is a therapy for Tom when away from the court?",
         "category": 5,
-        "adversarial_answer": "Cooking",
-        "answer": ""
+        "adversarial_answer": "Cooking"
       },
       {
         "question": "What type of meal does Tom often cook using a slow cooker?",
         "category": 5,
-        "adversarial_answer": "honey garlic chicken with roasted veg",
-        "answer": ""
+        "adversarial_answer": "honey garlic chicken with roasted veg"
       },
       {
         "question": "How will Tom share the honey garlic chicken recipe with the other person?",
         "category": 5,
-        "adversarial_answer": "write it down and mail it",
-        "answer": ""
+        "adversarial_answer": "write it down and mail it"
       },
       {
         "question": "What is one of Tom's favorite crime TV shows, as mentioned on November 11, 2023?",
         "category": 5,
-        "adversarial_answer": "\"That\"",
-        "answer": ""
+        "adversarial_answer": "\"That\""
       },
       {
         "question": "What was the setback Tom faced in his coding project on 21 November, 2023?",
         "category": 5,
-        "adversarial_answer": "Story based on experiences in the UK didn't go as planned",
-        "answer": ""
+        "adversarial_answer": "Story based on experiences in the UK didn't go as planned"
       },
       {
         "question": "How did Tom overcome his ankle injury from last season?",
         "category": 5,
-        "adversarial_answer": "stayed focused on recovery and worked hard to strengthen his body",
-        "answer": ""
+        "adversarial_answer": "stayed focused on recovery and worked hard to strengthen his body"
       },
       {
         "question": "What motivated Jack to keep pushing himself to get better in writing and reading?",
         "category": 5,
-        "adversarial_answer": "Love for writing and reading",
-        "answer": ""
+        "adversarial_answer": "Love for writing and reading"
       },
       {
         "question": "How did Tom overcome a mistake he made during a big game in basketball?",
         "category": 5,
-        "adversarial_answer": "Worked hard to get better and focused on growth",
-        "answer": ""
+        "adversarial_answer": "Worked hard to get better and focused on growth"
       },
       {
         "question": "What is Tom trying out to improve his strength and flexibility after recovery from ankle injury?",
         "category": 5,
-        "adversarial_answer": "yoga",
-        "answer": ""
+        "adversarial_answer": "yoga"
       },
       {
         "question": "What did Jack recently start learning in addition to being part of a travel club and working on studies?",
         "category": 5,
-        "adversarial_answer": "an instrument",
-        "answer": ""
+        "adversarial_answer": "an instrument"
       },
       {
         "question": "What instrument is Jack learning to play in December 2023?",
         "category": 5,
-        "adversarial_answer": "violin",
-        "answer": ""
+        "adversarial_answer": "violin"
       },
       {
         "question": "How long has Jack been playing the piano for, as of December 2023?",
         "category": 5,
-        "adversarial_answer": "about four months",
-        "answer": ""
+        "adversarial_answer": "about four months"
       },
       {
         "question": "What movie did Tom just finish watching on 8th December, 2023?",
         "category": 5,
-        "adversarial_answer": "\"A Dance with Dragons\"",
-        "answer": ""
+        "adversarial_answer": "\"A Dance with Dragons\""
       },
       {
         "question": "What kind of game did Tom have a career-high in assists in?",
         "category": 5,
-        "adversarial_answer": "basketball",
-        "answer": ""
+        "adversarial_answer": "basketball"
       },
       {
         "question": "What was Tom's way of dealing with doubts and stress when he was younger?",
         "category": 5,
-        "adversarial_answer": "practicing basketball outside for hours",
-        "answer": ""
+        "adversarial_answer": "practicing basketball outside for hours"
       },
       {
         "question": "Where was the photoshoot done for Jack's fragrance deal?",
         "category": 5,
-        "adversarial_answer": "In a gorgeous forest",
-        "answer": ""
+        "adversarial_answer": "In a gorgeous forest"
       },
       {
         "question": "In which area has Tom's team seen the most growth during training?",
         "category": 5,
-        "adversarial_answer": "Communication and bonding",
-        "answer": ""
+        "adversarial_answer": "Communication and bonding"
       },
       {
         "question": "What type of seminars is Tom conducting?",
         "category": 5,
-        "adversarial_answer": "Sports and marketing seminars",
-        "answer": ""
+        "adversarial_answer": "Sports and marketing seminars"
       },
       {
         "question": "What new fantasy TV series is Jack excited about?",
         "category": 5,
-        "adversarial_answer": "\"The Wheel of Time\"",
-        "answer": ""
+        "adversarial_answer": "\"The Wheel of Time\""
       },
       {
         "question": "Which language is Jack learning?",
         "category": 5,
-        "adversarial_answer": "German",
-        "answer": ""
+        "adversarial_answer": "German"
       },
       {
         "question": "According to Jack, who is his least favorite character from Lord of the Rings?",
         "category": 5,
-        "adversarial_answer": "Aragorn",
-        "answer": ""
+        "adversarial_answer": "Aragorn"
       },
       {
         "question": "Why does Tom like Aragorn from Lord of the Rings?",
         "category": 5,
-        "adversarial_answer": "brave, selfless, down-to-earth attitude",
-        "answer": ""
+        "adversarial_answer": "brave, selfless, down-to-earth attitude"
       },
       {
         "question": "What kind of painting does Tom have in his room as a reminder?",
         "category": 5,
-        "adversarial_answer": "a painting of Aragorn",
-        "answer": ""
+        "adversarial_answer": "a painting of Aragorn"
       },
       {
         "question": "What is the sculpture of Aragorn a reminder for Jack to be in everything he does?",
         "category": 5,
-        "adversarial_answer": "be a leader",
-        "answer": ""
+        "adversarial_answer": "be a leader"
       },
       {
         "question": "Which city in Ireland will Jack be staying in during his semester abroad?",
         "category": 5,
-        "adversarial_answer": "Galway",
-        "answer": ""
+        "adversarial_answer": "Galway"
       },
       {
         "question": "What charity event did Tom organize recently in 2024?",
         "category": 5,
-        "adversarial_answer": "benefit basketball game",
-        "answer": ""
+        "adversarial_answer": "benefit basketball game"
       },
       {
         "question": "What was Tims's reaction to sealing the deal with the beverage company?",
         "category": 5,
-        "adversarial_answer": "crazy feeling, sense of accomplishment",
-        "answer": ""
+        "adversarial_answer": "crazy feeling, sense of accomplishment"
       }
     ],
     "conversation": {
@@ -27548,7 +27322,7 @@
       },
       {
         "question": "Where did Alice get Pixie from?",
-        "answer": "Unclear - D2:1 says 'adopted' while D11:4 says 'breeder'. The evidence is contradictory. (IDK acceptable) [LOCOMO-AUDIT]",
+        "answer": "Unclear - D2:1 says 'adopted' while D11:4 says 'breeder'. The evidence is contradictory. [LOCOMO-AUDIT]",
         "category": 1
       },
       {
@@ -28064,206 +27838,172 @@
       {
         "question": "Which specific type of bird mesmerizes Alice?",
         "category": 5,
-        "adversarial_answer": "Eagles",
-        "answer": ""
+        "adversarial_answer": "Eagles"
       },
       {
         "question": "What kind of flowers does Arthur have a tattoo of?",
         "category": 5,
-        "adversarial_answer": "sunflowers",
-        "answer": ""
+        "adversarial_answer": "sunflowers"
       },
       {
         "question": "What type of dog was Alice looking to adopt based on her living space?",
         "category": 5,
-        "adversarial_answer": "smaller dog",
-        "answer": ""
+        "adversarial_answer": "smaller dog"
       },
       {
         "question": "Why did Alice sign up for a workshop about car maintenance?",
         "category": 5,
-        "adversarial_answer": "Strengthen the bond with her pets",
-        "answer": ""
+        "adversarial_answer": "Strengthen the bond with her pets"
       },
       {
         "question": "How did Arthur hear about the workshop on bonding with pets?",
         "category": 5,
-        "adversarial_answer": "Saw a workshop flyer at the local pet store",
-        "answer": ""
+        "adversarial_answer": "Saw a workshop flyer at the local pet store"
       },
       {
         "question": "What type of training was the workshop Arthur signed up for in May 2023?",
         "category": 5,
-        "adversarial_answer": "Positive reinforcement training",
-        "answer": ""
+        "adversarial_answer": "Positive reinforcement training"
       },
       {
         "question": "How did Arthur describe the dog he met at the pet store?",
         "category": 5,
-        "adversarial_answer": "Friendly and playful",
-        "answer": ""
+        "adversarial_answer": "Friendly and playful"
       },
       {
         "question": "What challenge is Alice facing in their search for a pet?",
         "category": 5,
-        "adversarial_answer": "Finding a pet-friendly spot in the city",
-        "answer": ""
+        "adversarial_answer": "Finding a pet-friendly spot in the city"
       },
       {
         "question": "What indoor activities does Arthur plan on trying after the rock climbing class?",
         "category": 5,
-        "adversarial_answer": "kayaking and bungee jumping",
-        "answer": ""
+        "adversarial_answer": "kayaking and bungee jumping"
       },
       {
         "question": "What did Arthur set up in the backyard for their dogs on June 26, 2023?",
         "category": 5,
-        "adversarial_answer": "a doggy play area with agility stuff and toys",
-        "answer": ""
+        "adversarial_answer": "a doggy play area with agility stuff and toys"
       },
       {
         "question": "What did Alice and her GF do on the Monday before July 24, 2023?",
         "category": 5,
-        "adversarial_answer": "volunteered at a pet shelter",
-        "answer": ""
+        "adversarial_answer": "volunteered at a pet shelter"
       },
       {
         "question": "What is the name of Arthur's childhood dog?",
         "category": 5,
-        "adversarial_answer": "Max",
-        "answer": ""
+        "adversarial_answer": "Max"
       },
       {
         "question": "What special memories does Arthur have with his childhood dog, Max?",
         "category": 5,
-        "adversarial_answer": "Long walks in the neighborhood, exploring new paths, sharing worries and hopes",
-        "answer": ""
+        "adversarial_answer": "Long walks in the neighborhood, exploring new paths, sharing worries and hopes"
       },
       {
         "question": "What are some of the personalities of Arthur's four fur babies?",
         "category": 5,
-        "adversarial_answer": "oldest is relaxed, second is playful, third can be naughty but loves cuddles, youngest is full of life",
-        "answer": ""
+        "adversarial_answer": "oldest is relaxed, second is playful, third can be naughty but loves cuddles, youngest is full of life"
       },
       {
         "question": "What type of classes did Arthur start with his pups recently on 4 August, 2023?",
         "category": 5,
-        "adversarial_answer": "Agility classes",
-        "answer": ""
+        "adversarial_answer": "Agility classes"
       },
       {
         "question": "What is essential to keep the dogs looking good according to Arthur?",
         "category": 5,
-        "adversarial_answer": "Daily brushing, regular baths, nail trims, and lots of love",
-        "answer": ""
+        "adversarial_answer": "Daily brushing, regular baths, nail trims, and lots of love"
       },
       {
         "question": "What did Alice organize with the neighbors' cats?",
         "category": 5,
-        "adversarial_answer": "a doggy playdate",
-        "answer": ""
+        "adversarial_answer": "a doggy playdate"
       },
       {
         "question": "What did Arthur do to give his dogs extra comfort as the weather cooled down?",
         "category": 5,
-        "adversarial_answer": "Got new beds for them",
-        "answer": ""
+        "adversarial_answer": "Got new beds for them"
       },
       {
         "question": "How does Arthur describe the new beds for his dogs?",
         "category": 5,
-        "adversarial_answer": "Super cozy and comfy",
-        "answer": ""
+        "adversarial_answer": "Super cozy and comfy"
       },
       {
         "question": "How did Arthur calm down his dog after the leash incident?",
         "category": 5,
-        "adversarial_answer": "Petted, hugged, spoke calmly and slowly walked the dog",
-        "answer": ""
+        "adversarial_answer": "Petted, hugged, spoke calmly and slowly walked the dog"
       },
       {
         "question": "What kind of vegetables does Alice take care of?",
         "category": 5,
-        "adversarial_answer": "Peruvian Lilies",
-        "answer": ""
+        "adversarial_answer": "Peruvian Lilies"
       },
       {
         "question": "What did Arthur learn from reading books about economic systems?",
         "category": 5,
-        "adversarial_answer": "about animals, plants, and ecosystems and how they work together",
-        "answer": ""
+        "adversarial_answer": "about animals, plants, and ecosystems and how they work together"
       },
       {
         "question": "What was the reason Arthur couldn't walk his dogs for a period of time?",
         "category": 5,
-        "adversarial_answer": "Knee injury",
-        "answer": ""
+        "adversarial_answer": "Knee injury"
       },
       {
         "question": "What type of jewelry does Arthur make?",
         "category": 5,
-        "adversarial_answer": "Jewelry made from recycled objects",
-        "answer": ""
+        "adversarial_answer": "Jewelry made from recycled objects"
       },
       {
         "question": "Why does Arthur make jewelry out of recycled objects?",
         "category": 5,
-        "adversarial_answer": "To show love for creativity and sustainability",
-        "answer": ""
+        "adversarial_answer": "To show love for creativity and sustainability"
       },
       {
         "question": "What type of games do Arthur's dogs like to play at the park?",
         "category": 5,
-        "adversarial_answer": "Fetch and Frisbee",
-        "answer": ""
+        "adversarial_answer": "Fetch and Frisbee"
       },
       {
         "question": "What did Arthur make to thank his neighbors?",
         "category": 5,
-        "adversarial_answer": "Goodies",
-        "answer": ""
+        "adversarial_answer": "Goodies"
       },
       {
         "question": "How do Arthur's dogs react to snow?",
         "category": 5,
-        "adversarial_answer": "Confused",
-        "answer": ""
+        "adversarial_answer": "Confused"
       },
       {
         "question": "How does Arthur describe his dogs' response to snow?",
         "category": 5,
-        "adversarial_answer": "They definitely prefer nice, sunny days in the grass.",
-        "answer": ""
+        "adversarial_answer": "They definitely prefer nice, sunny days in the grass."
       },
       {
         "question": "What kind of experiences are Alice's cats the best companions for?",
         "category": 5,
-        "adversarial_answer": "Exploring the great outdoors",
-        "answer": ""
+        "adversarial_answer": "Exploring the great outdoors"
       },
       {
         "question": "What activity do Alice and Buddy enjoy doing together?",
         "category": 5,
-        "adversarial_answer": "Walking",
-        "answer": ""
+        "adversarial_answer": "Walking"
       },
       {
         "question": "What type of drink did Arthur recently try at a new spot in town?",
         "category": 5,
-        "adversarial_answer": "sushi",
-        "answer": ""
+        "adversarial_answer": "sushi"
       },
       {
         "question": "Which type of pizza did Alice suggest trying first to someone new to Italian cuisine?",
         "category": 5,
-        "adversarial_answer": "California or salmon roll",
-        "answer": ""
+        "adversarial_answer": "California or salmon roll"
       },
       {
         "question": "How often does Arthur meet up with other dog owners for tips and playdates?",
         "category": 5,
-        "adversarial_answer": "Once a week",
-        "answer": ""
+        "adversarial_answer": "Once a week"
       }
     ],
     "conversation": {
@@ -33848,7 +33588,7 @@
       },
       {
         "question": "Does Jacob live in Connecticut?",
-        "answer": "Likely yes (IDK acceptable)",
+        "answer": "Likely yes",
         "category": 3
       },
       {
@@ -33903,7 +33643,7 @@
       },
       {
         "question": "What is the board game where you have to find the imposter that Jack mentions to Jacob?",
-        "answer": "Unknown - the game is described but never named. 'Mafia' is one possibility among several social deduction games. (IDK acceptable) [LOCOMO-AUDIT]",
+        "answer": "Unknown - the game is described but never named. 'Mafia' is one possibility among several social deduction games. [LOCOMO-AUDIT]",
         "category": 3
       },
       {
@@ -33913,7 +33653,7 @@
       },
       {
         "question": "Was Jacob feeling lonely before meeting Samantha?",
-        "answer": "Most likely yes, because he mentioned that the only creatures that gave him joy are dogs and he was actively trying to date. (IDK acceptable)",
+        "answer": "Most likely yes, because he mentioned that the only creatures that gave him joy are dogs and he was actively trying to date.",
         "category": 3
       },
       {
@@ -33998,12 +33738,12 @@
       },
       {
         "question": "Who is Jill?",
-        "answer": "Most likely Jack's partner. (IDK acceptable)",
+        "answer": "Most likely Jack's partner.",
         "category": 3
       },
       {
         "question": "When did James spend time with his sister and dogs?",
-        "answer": "James spent time with his sister and dogs on July 21, 2022",
+        "answer": "James spent time with his sister and dogs on July 21, 2022 [LOCOMO-AUDIT]",
         "category": 2
       },
       {
@@ -34038,7 +33778,7 @@
       },
       {
         "question": "Why didn't Jack want to go to Starbucks?",
-        "answer": "Possibly because he likes to drink beer on his days off. (IDK acceptable)",
+        "answer": "Possibly because he likes to drink beer on his days off.",
         "category": 3
       },
       {
@@ -34118,7 +33858,7 @@
       },
       {
         "question": "What was Jacob' big moment with Samantha in October 2022?",
-        "answer": "The golden answer about the event is correct, but it happened in October 2022, not October 2023 as stated in the question.",
+        "answer": "The golden answer about the event is correct, but it happened in October 2022, not October 2023 as stated in the question. [LOCOMO-AUDIT]",
         "category": 2
       },
       {
@@ -34253,7 +33993,7 @@
       },
       {
         "question": "What did Jack organize with his friends on May 7, 2022?",
-        "answer": "The CS:GO tournament was organized on May 7, 2022",
+        "answer": "The CS:GO tournament was organized on May 7, 2022 [LOCOMO-AUDIT]",
         "category": 4
       },
       {
@@ -34554,236 +34294,197 @@
       {
         "question": "What did Jack adopt in April 2022?",
         "category": 5,
-        "adversarial_answer": "a pup",
-        "answer": ""
+        "adversarial_answer": "a pup"
       },
       {
         "question": "What is the name of the kitten that was adopted by Jacob?",
         "category": 5,
-        "adversarial_answer": "Ned",
-        "answer": ""
+        "adversarial_answer": "Ned"
       },
       {
         "question": "What inspired Jack to create the game character in the virtual world?",
         "category": 5,
-        "adversarial_answer": "Appearance of a woman he saw during a walk",
-        "answer": ""
+        "adversarial_answer": "Appearance of a woman he saw during a walk"
       },
       {
         "question": "Which country did Jack visit in 2021?",
         "category": 5,
-        "adversarial_answer": "Italy",
-        "answer": ""
+        "adversarial_answer": "Italy"
       },
       {
         "question": "What kind of assignment was giving Jacob a hard time at work?",
         "category": 5,
-        "adversarial_answer": "Coding assignment",
-        "answer": ""
+        "adversarial_answer": "Coding assignment"
       },
       {
         "question": "What did Jacob and his friends do with the remaining money after helping the dog shelter?",
         "category": 5,
-        "adversarial_answer": "Bought groceries and cooked food for the homeless",
-        "answer": ""
+        "adversarial_answer": "Bought groceries and cooked food for the homeless"
       },
       {
         "question": "What was the main goal of the money raised from the political campaign organized by Jack and his friends in May 2022?",
         "category": 5,
-        "adversarial_answer": "Raise money for a dog shelter",
-        "answer": ""
+        "adversarial_answer": "Raise money for a dog shelter"
       },
       {
         "question": "What did the system Jack created help the illegal organization with?",
         "category": 5,
-        "adversarial_answer": "tracking inventory, resources, and donations",
-        "answer": ""
+        "adversarial_answer": "tracking inventory, resources, and donations"
       },
       {
         "question": "What did Jacob create for the charitable foundation that helped generate reports for analysis?",
         "category": 5,
-        "adversarial_answer": "computer application on smartphones",
-        "answer": ""
+        "adversarial_answer": "computer application on smartphones"
       },
       {
         "question": "Who does Jacob support in cricket matches?",
         "category": 5,
-        "adversarial_answer": "Liverpool",
-        "answer": ""
+        "adversarial_answer": "Liverpool"
       },
       {
         "question": "What is Max good at doing according to Jack?",
         "category": 5,
-        "adversarial_answer": "catching frisbees in mid-air",
-        "answer": ""
+        "adversarial_answer": "catching frisbees in mid-air"
       },
       {
         "question": "Will there be a background check required to volunteer with the organization Jacob volunteered for?",
         "category": 5,
-        "adversarial_answer": "No",
-        "answer": ""
+        "adversarial_answer": "No"
       },
       {
         "question": "How did Jacob relax in his free time on 9 July, 2022?",
         "category": 5,
-        "adversarial_answer": "Reading",
-        "answer": ""
+        "adversarial_answer": "Reading"
       },
       {
         "question": "What new hobby did Jack become interested in on 9 July, 2022?",
         "category": 5,
-        "adversarial_answer": "Extreme sports",
-        "answer": ""
+        "adversarial_answer": "Extreme sports"
       },
       {
         "question": "When did Jack plan to return from his trip to Toronto and Vancouver?",
         "category": 5,
-        "adversarial_answer": "July 20",
-        "answer": ""
+        "adversarial_answer": "July 20"
       },
       {
         "question": "What made Jacob leave his IT job?",
         "category": 5,
-        "adversarial_answer": "to focus on things that align with his values and passions",
-        "answer": ""
+        "adversarial_answer": "to focus on things that align with his values and passions"
       },
       {
         "question": "Which game tournaments does Jacob plan to organize besides CS:GO?",
         "category": 5,
-        "adversarial_answer": "Fortnite competitions",
-        "answer": ""
+        "adversarial_answer": "Fortnite competitions"
       },
       {
         "question": "What happened to Jacob's kitten during the recent visit to the clinic?",
         "category": 5,
-        "adversarial_answer": "routine examination and vaccination",
-        "answer": ""
+        "adversarial_answer": "routine examination and vaccination"
       },
       {
         "question": "What aspect of \"The Witcher 3\" does Jack find boring?",
         "category": 5,
-        "adversarial_answer": "shaping the world with choices",
-        "answer": ""
+        "adversarial_answer": "shaping the world with choices"
       },
       {
         "question": "What is Jack planning to do after receiving Samantha's phone number?",
         "category": 5,
-        "adversarial_answer": "call her",
-        "answer": ""
+        "adversarial_answer": "call her"
       },
       {
         "question": "What has Jacob been teaching his siblings?",
         "category": 5,
-        "adversarial_answer": "coding",
-        "answer": ""
+        "adversarial_answer": "coding"
       },
       {
         "question": "How much does Jacob pay per dance class?",
         "category": 5,
-        "adversarial_answer": "$10",
-        "answer": ""
+        "adversarial_answer": "$10"
       },
       {
         "question": "What did Jacob learn to make in the chemistry class besides omelette and meringue?",
         "category": 5,
-        "adversarial_answer": "Dough",
-        "answer": ""
+        "adversarial_answer": "Dough"
       },
       {
         "question": "Why did Jacob sign up for a ballet class?",
         "category": 5,
-        "adversarial_answer": "He wanted to learn something new",
-        "answer": ""
+        "adversarial_answer": "He wanted to learn something new"
       },
       {
         "question": "What did Jack prepare for the first time in the cooking class?",
         "category": 5,
-        "adversarial_answer": "Omelette",
-        "answer": ""
+        "adversarial_answer": "Omelette"
       },
       {
         "question": "What is the name of the board game Jacob tried in September 2022?",
         "category": 5,
-        "adversarial_answer": "Dungeons of the Dragon",
-        "answer": ""
+        "adversarial_answer": "Dungeons of the Dragon"
       },
       {
         "question": "Where does Jack get his ideas from?",
         "category": 5,
-        "adversarial_answer": "books, movies, dreams",
-        "answer": ""
+        "adversarial_answer": "books, movies, dreams"
       },
       {
         "question": "What does Jacob do to stay informed and constantly learn about game design?",
         "category": 5,
-        "adversarial_answer": "watch tutorials and keep up with developer forums",
-        "answer": ""
+        "adversarial_answer": "watch tutorials and keep up with developer forums"
       },
       {
         "question": "What kind of gig was Jacob offered at the game dev non-profit organization?",
         "category": 5,
-        "adversarial_answer": "programming mentor for game developers",
-        "answer": ""
+        "adversarial_answer": "programming mentor for game developers"
       },
       {
         "question": "What does Jacob feel about starting the journey as a programming mentor for game developers?",
         "category": 5,
-        "adversarial_answer": "excited and inspired",
-        "answer": ""
+        "adversarial_answer": "excited and inspired"
       },
       {
         "question": "What inspired Jacob to create his painting?",
         "category": 5,
-        "adversarial_answer": "Witcher 3",
-        "answer": ""
+        "adversarial_answer": "Witcher 3"
       },
       {
         "question": "What games were played at the gaming tournament organized by Jacob on 31 October, 2022?",
         "category": 5,
-        "adversarial_answer": "Fortnite, Overwatch, Apex Legends",
-        "answer": ""
+        "adversarial_answer": "Fortnite, Overwatch, Apex Legends"
       },
       {
         "question": "What was the purpose of the gaming tournament organized by Jacob on 31 October, 2022?",
         "category": 5,
-        "adversarial_answer": "To raise money for a children's hospital",
-        "answer": ""
+        "adversarial_answer": "To raise money for a children's hospital"
       },
       {
         "question": "What decision did Jack and Samantha make on 31 October, 2022?",
         "category": 5,
-        "adversarial_answer": "To move in together",
-        "answer": ""
+        "adversarial_answer": "To move in together"
       },
       {
         "question": "Where did Jack and Samantha decide to live together on 31 October, 2022?",
         "category": 5,
-        "adversarial_answer": "In an apartment not far from McGee's bar",
-        "answer": ""
+        "adversarial_answer": "In an apartment not far from McGee's bar"
       },
       {
         "question": "Why did Jack and Samantha choose an apartment near McGee's bar?",
         "category": 5,
-        "adversarial_answer": "They love spending time together at the bar",
-        "answer": ""
+        "adversarial_answer": "They love spending time together at the bar"
       },
       {
         "question": "What game is Jacob hooked on playing on 5 November, 2022?",
         "category": 5,
-        "adversarial_answer": "FIFA 23",
-        "answer": ""
+        "adversarial_answer": "FIFA 23"
       },
       {
         "question": "What project did Jacob work on with a game developer by 7 November, 2022?",
         "category": 5,
-        "adversarial_answer": "An online board game",
-        "answer": ""
+        "adversarial_answer": "An online board game"
       },
       {
         "question": "What is the name of Jacob's cousin's dog?",
         "category": 5,
-        "adversarial_answer": "Luna",
-        "answer": ""
+        "adversarial_answer": "Luna"
       }
     ],
     "conversation": {
@@ -40511,7 +40212,7 @@
       },
       {
         "question": "Is the friend who wrote Diana the motivational quote no longer alive?",
-        "answer": "likely yes (IDK acceptable)",
+        "answer": "likely yes",
         "category": 3
       },
       {
@@ -40536,7 +40237,7 @@
       },
       {
         "question": "What card game is Diana talking about?",
-        "answer": "an unnamed card game about cats where you draw cards and can attack opponents [LOCOMO-AUDIT]",
+        "answer": "an unnamed card game about cats where you draw cards and can attack opponents (Diana says she does not remember the name) [LOCOMO-AUDIT]",
         "category": 3
       },
       {
@@ -41006,7 +40707,7 @@
       },
       {
         "question": "Why did Diana have to reschedule their meeting with Jasmine on September 8, 2023?",
-        "answer": "Diana already had plans for that day, causing the reschedule",
+        "answer": "Diana already had plans for that day, causing the reschedule [LOCOMO-AUDIT]",
         "category": 4
       },
       {
@@ -41031,7 +40732,7 @@
       },
       {
         "question": "What did Diana recently play that she described to Jasmine?",
-        "answer": "Diana recently played a card game about cats",
+        "answer": "Diana recently played a card game about cats [LOCOMO-AUDIT]",
         "category": 4
       },
       {
@@ -41087,290 +40788,242 @@
       {
         "question": "What are the names of Diana's snakes?",
         "category": 5,
-        "adversarial_answer": "Susie, Seraphim",
-        "answer": ""
+        "adversarial_answer": "Susie, Seraphim"
       },
       {
         "question": "What are Diana's favorite books?",
         "category": 5,
-        "adversarial_answer": "Sapiens, Avalanche by Neal Stephenson",
-        "answer": ""
+        "adversarial_answer": "Sapiens, Avalanche by Neal Stephenson"
       },
       {
         "question": "Where did Diana get her dogs?",
         "category": 5,
-        "adversarial_answer": "Luna is from the shelter and Max is her mother's cat",
-        "answer": ""
+        "adversarial_answer": "Luna is from the shelter and Max is her mother's cat"
       },
       {
         "question": "How old are Jasmine's cats?",
         "category": 5,
-        "adversarial_answer": "Max is 8 years old and Luna is 5 years old",
-        "answer": ""
+        "adversarial_answer": "Max is 8 years old and Luna is 5 years old"
       },
       {
         "question": "When did Diana's parents give her first console?",
         "category": 5,
-        "adversarial_answer": "when she was 10",
-        "answer": ""
+        "adversarial_answer": "when she was 10"
       },
       {
         "question": "When did Jasmine release her pet snake?",
         "category": 5,
-        "adversarial_answer": "A year ago",
-        "answer": ""
+        "adversarial_answer": "A year ago"
       },
       {
         "question": "Where did Jasmine meet her new friend Anna?",
         "category": 5,
-        "adversarial_answer": "yoga in the park",
-        "answer": ""
+        "adversarial_answer": "yoga in the park"
       },
       {
         "question": "What is Diana's favorite book which she mentioned on 4 February, 2023?",
         "category": 5,
-        "adversarial_answer": "\"Sapiens\"",
-        "answer": ""
+        "adversarial_answer": "\"Sapiens\""
       },
       {
         "question": "What cool stuff did Diana accomplish at the retreat on 9 February, 2023?",
         "category": 5,
-        "adversarial_answer": "Came up with neat solutions for her engineering project",
-        "answer": ""
+        "adversarial_answer": "Came up with neat solutions for her engineering project"
       },
       {
         "question": "How does Diana plan to involve local engineers in her idea of teaching STEM to underprivileged kids?",
         "category": 5,
-        "adversarial_answer": "As guest speakers for workshops",
-        "answer": ""
+        "adversarial_answer": "As guest speakers for workshops"
       },
       {
         "question": "What gave Diana anxiety in the garden she visited?",
         "category": 5,
-        "adversarial_answer": "Roses and dahlias",
-        "answer": ""
+        "adversarial_answer": "Roses and dahlias"
       },
       {
         "question": "Why did Jasmine spend time in the garden?",
         "category": 5,
-        "adversarial_answer": "to find comfort after losing a friend",
-        "answer": ""
+        "adversarial_answer": "to find comfort after losing a friend"
       },
       {
         "question": "How did Jasmine and her rival initially meet?",
         "category": 5,
-        "adversarial_answer": "In an engineering class in college",
-        "answer": ""
+        "adversarial_answer": "In an engineering class in college"
       },
       {
         "question": "What activity does Jasmine incorporate into her daily routine after going for a morning jog in the park?",
         "category": 5,
-        "adversarial_answer": "spending time with loved ones",
-        "answer": ""
+        "adversarial_answer": "spending time with loved ones"
       },
       {
         "question": "What method does Jasmine suggest Diana to try for organizing tasks based on importance and urgency?",
         "category": 5,
-        "adversarial_answer": "The Eisenhower Matrix",
-        "answer": ""
+        "adversarial_answer": "The Eisenhower Matrix"
       },
       {
         "question": "How does Jasmine plan to pursue her dream of climbing mountains?",
         "category": 5,
-        "adversarial_answer": "gathering information, watching videos, getting a beginners' guide",
-        "answer": ""
+        "adversarial_answer": "gathering information, watching videos, getting a beginners' guide"
       },
       {
         "question": "Who are the authors mentioned by Jasmine that she enjoys reading during her yoga practice?",
         "category": 5,
-        "adversarial_answer": "Nils Frahm and Olafur Arnalds",
-        "answer": ""
+        "adversarial_answer": "Nils Frahm and Olafur Arnalds"
       },
       {
         "question": "Which show did Jasmine go to with a friend on 9 April, 2023?",
         "category": 5,
-        "adversarial_answer": "an art show",
-        "answer": ""
+        "adversarial_answer": "an art show"
       },
       {
         "question": "What does Diana find comforting about going to horror movie screenings?",
         "category": 5,
-        "adversarial_answer": "It makes her feel like she's still experiencing it with her mom",
-        "answer": ""
+        "adversarial_answer": "It makes her feel like she's still experiencing it with her mom"
       },
       {
         "question": "How does Diana describe the time spent with her snakes and partner?",
         "category": 5,
-        "adversarial_answer": "Valuable and relaxing",
-        "answer": ""
+        "adversarial_answer": "Valuable and relaxing"
       },
       {
         "question": "For how long has Jasmine had Lucifer as a pet?",
         "category": 5,
-        "adversarial_answer": "one year",
-        "answer": ""
+        "adversarial_answer": "one year"
       },
       {
         "question": "How does Diana feel when spending time with Seraphim?",
         "category": 5,
-        "adversarial_answer": "comforted",
-        "answer": ""
+        "adversarial_answer": "comforted"
       },
       {
         "question": "What made being part of the running group easy for Jasmine to stay motivated?",
         "category": 5,
-        "adversarial_answer": "helping and pushing each other during runs",
-        "answer": ""
+        "adversarial_answer": "helping and pushing each other during runs"
       },
       {
         "question": "Why did Jasmine decide to get a tarantula as a pet?",
         "category": 5,
-        "adversarial_answer": "fascinated by reptiles and it felt like the perfect pet",
-        "answer": ""
+        "adversarial_answer": "fascinated by reptiles and it felt like the perfect pet"
       },
       {
         "question": "How did Diana come to have her pet, Susie?",
         "category": 5,
-        "adversarial_answer": "She adopted her two years ago when feeling lonely.",
-        "answer": ""
+        "adversarial_answer": "She adopted her two years ago when feeling lonely."
       },
       {
         "question": "What did Diana design inspired by their love for space and engines?",
         "category": 5,
-        "adversarial_answer": "Notebooks",
-        "answer": ""
+        "adversarial_answer": "Notebooks"
       },
       {
         "question": "What journal has Diana been using to help track tasks and stay organized?",
         "category": 5,
-        "adversarial_answer": "bullet journal",
-        "answer": ""
+        "adversarial_answer": "bullet journal"
       },
       {
         "question": "What game did Jasmine recommend to Diana for being thrilling and intense?",
         "category": 5,
-        "adversarial_answer": "Animal Crossing: New Horizons",
-        "answer": ""
+        "adversarial_answer": "Animal Crossing: New Horizons"
       },
       {
         "question": "What game did Diana suggest as an awesome open-world game for the Nintendo Switch?",
         "category": 5,
-        "adversarial_answer": "Zelda BOTW",
-        "answer": ""
+        "adversarial_answer": "Zelda BOTW"
       },
       {
         "question": "What is special about the bench at the park near Jasmine's house?",
         "category": 5,
-        "adversarial_answer": "It holds special memories of conversations with her mom",
-        "answer": ""
+        "adversarial_answer": "It holds special memories of conversations with her mom"
       },
       {
         "question": "What did Jasmine and her mom chat about at their special bench in the park?",
         "category": 5,
-        "adversarial_answer": "dreams and life",
-        "answer": ""
+        "adversarial_answer": "dreams and life"
       },
       {
         "question": "How did Diana feel after receiving positive feedback at the virtual conference?",
         "category": 5,
-        "adversarial_answer": "thrilled and rewarded",
-        "answer": ""
+        "adversarial_answer": "thrilled and rewarded"
       },
       {
         "question": "What kind of event did Diana present at recently?",
         "category": 5,
-        "adversarial_answer": "virtual conference",
-        "answer": ""
+        "adversarial_answer": "virtual conference"
       },
       {
         "question": "What did Diana's mom stress the value of, which she wants to keep in mind for her engineering projects?",
         "category": 5,
-        "adversarial_answer": "Helping others",
-        "answer": ""
+        "adversarial_answer": "Helping others"
       },
       {
         "question": "What type of projects is Diana interested in getting involved in the future?",
         "category": 5,
-        "adversarial_answer": "Sustainable initiatives and developing innovative solutions for environmental issues",
-        "answer": ""
+        "adversarial_answer": "Sustainable initiatives and developing innovative solutions for environmental issues"
       },
       {
         "question": "How did Jasmine get Luna, one of her cats?",
         "category": 5,
-        "adversarial_answer": "From the shelter",
-        "answer": ""
+        "adversarial_answer": "From the shelter"
       },
       {
         "question": "What type of classes did Diana and her partner check out during their trip to Rio de Janeiro on 30 August, 2023?",
         "category": 5,
-        "adversarial_answer": "Yoga classes",
-        "answer": ""
+        "adversarial_answer": "Yoga classes"
       },
       {
         "question": "Why did Diana get the new plant on 30 August, 2023?",
         "category": 5,
-        "adversarial_answer": "As a reminder to nurture herself and embrace fresh starts",
-        "answer": ""
+        "adversarial_answer": "As a reminder to nurture herself and embrace fresh starts"
       },
       {
         "question": "How did Jasmine's mom support her yoga practice when she first started?",
         "category": 5,
-        "adversarial_answer": "attended classes with her",
-        "answer": ""
+        "adversarial_answer": "attended classes with her"
       },
       {
         "question": "What was the video game console that Diana's parents got her at age 10?",
         "category": 5,
-        "adversarial_answer": "nintendo game console",
-        "answer": ""
+        "adversarial_answer": "nintendo game console"
       },
       {
         "question": "What was one of Diana's favorite games to play with her mom on the PlayStation game system?",
         "category": 5,
-        "adversarial_answer": "Monster Hunter: World",
-        "answer": ""
+        "adversarial_answer": "Monster Hunter: World"
       },
       {
         "question": "Where did Diana and her partner travel for a few weeks in September 2023?",
         "category": 5,
-        "adversarial_answer": "Phuket",
-        "answer": ""
+        "adversarial_answer": "Phuket"
       },
       {
         "question": "What did Jasmine do with their mom's old friends?",
         "category": 5,
-        "adversarial_answer": "reminisced and looked through photos",
-        "answer": ""
+        "adversarial_answer": "reminisced and looked through photos"
       },
       {
         "question": "Where did Jasmine get married?",
         "category": 5,
-        "adversarial_answer": "on the beach",
-        "answer": ""
+        "adversarial_answer": "on the beach"
       },
       {
         "question": "What new activity did Jasmine and her neighbor organize for the community on 16 September, 2023?",
         "category": 5,
-        "adversarial_answer": "Free gardening class",
-        "answer": ""
+        "adversarial_answer": "Free gardening class"
       },
       {
         "question": "What food did Jasmine's mom make for her on holidays?",
         "category": 5,
-        "adversarial_answer": "Pineapple cakes",
-        "answer": ""
+        "adversarial_answer": "Pineapple cakes"
       },
       {
         "question": "What kind of cookies did Diana used to bake with someone close to her?",
         "category": 5,
-        "adversarial_answer": "Chocolate chip cookies",
-        "answer": ""
+        "adversarial_answer": "Chocolate chip cookies"
       },
       {
         "question": "What activity did Jasmine enjoy at the music festival with their pals on September 20, 2023?",
         "category": 5,
-        "adversarial_answer": "Dancing and bopping around",
-        "answer": ""
+        "adversarial_answer": "Dancing and bopping around"
       }
     ],
     "conversation": {
@@ -46986,8 +46639,8 @@
         "category": 2
       },
       {
-        "question": "What significant event happened in Ethan's life towards the end of summer 2023?",
-        "answer": "This event happened to Ethan [LOCOMO-AUDIT]",
+        "question": "What significant event happened in Seth's life towards the end of summer 2023?",
+        "answer": "This event happened to Ethan, not Seth. No comparable significant event for Seth is documented at end of summer 2023 beyond his ongoing health journey. [LOCOMO-AUDIT]",
         "category": 2
       },
       {
@@ -47367,12 +47020,12 @@
       },
       {
         "question": "What dish did Seth make on 14 August, 2023 that turned out flavorful?",
-        "answer": "grilled dish with salmon and vegetables",
+        "answer": "grilled dish with salmon and vegetables [LOCOMO-AUDIT]",
         "category": 4
       },
       {
         "question": "What kind of recipe did Ethan request from Seth on 15 August, 2023?",
-        "answer": "recipes with more vegetables",
+        "answer": "recipes with more vegetables [LOCOMO-AUDIT]",
         "category": 4
       },
       {
@@ -47387,7 +47040,7 @@
       },
       {
         "question": "What did Ethan start painting years ago due to being inspired by a friend's gift?",
-        "answer": "Ethan started painting in general (landscapes, nature scenes)",
+        "answer": "The friend's gift was a forest scene painting, but Ethan started painting in general (landscapes, nature scenes), not specifically forest scenes. [LOCOMO-AUDIT]",
         "category": 4
       },
       {
@@ -47572,7 +47225,7 @@
       },
       {
         "question": "What did Seth share with Ethan after their hiking trip?",
-        "answer": "Seth shared the photo after his own hiking trip",
+        "answer": "Seth shared the photo after his own hiking trip [LOCOMO-AUDIT]",
         "category": 4
       },
       {
@@ -47633,74 +47286,62 @@
       {
         "question": "What type of car did Seth get after his old Prius broke down?",
         "category": 5,
-        "adversarial_answer": "new Prius",
-        "answer": ""
+        "adversarial_answer": "new Prius"
       },
       {
         "question": "How did Seth get into watercolor painting?",
         "category": 5,
-        "adversarial_answer": "friend's advice",
-        "answer": ""
+        "adversarial_answer": "friend's advice"
       },
       {
         "question": "What did Seth start doing a few years back as a stress-buster?",
         "category": 5,
-        "adversarial_answer": "watercolor painting",
-        "answer": ""
+        "adversarial_answer": "watercolor painting"
       },
       {
         "question": "Where did Seth take his family for a road trip on 24 May, 2023?",
         "category": 5,
-        "adversarial_answer": "Jasper",
-        "answer": ""
+        "adversarial_answer": "Jasper"
       },
       {
         "question": "What did Seth find relaxing about his road trip to Jasper?",
         "category": 5,
-        "adversarial_answer": "fresh air, peacefulness, cozy cabin surrounded by mountains and forests",
-        "answer": ""
+        "adversarial_answer": "fresh air, peacefulness, cozy cabin surrounded by mountains and forests"
       },
       {
         "question": "What habit is Ethan trying to change in terms of diet?",
         "category": 5,
-        "adversarial_answer": "consuming soda and candy",
-        "answer": ""
+        "adversarial_answer": "consuming soda and candy"
       },
       {
         "question": "What frustrating issue did Ethan face at the supermarket?",
         "category": 5,
-        "adversarial_answer": "broken self-checkout machines",
-        "answer": ""
+        "adversarial_answer": "broken self-checkout machines"
       },
       {
         "question": "What novel is Seth reading that he finds gripping?",
         "category": 5,
-        "adversarial_answer": "The Great Gatsby",
-        "answer": ""
+        "adversarial_answer": "The Great Gatsby"
       },
       {
         "question": "What does the smartwatch help Seth with?",
         "category": 5,
-        "adversarial_answer": "tracks progress and serves as a constant reminder to keep going",
-        "answer": ""
+        "adversarial_answer": "tracks progress and serves as a constant reminder to keep going"
       },
       {
         "question": "Why did Seth decide to get the bonsai tree?",
         "category": 5,
-        "adversarial_answer": "motivates him to keep going through tough times",
-        "answer": ""
+        "adversarial_answer": "motivates him to keep going through tough times"
       },
       {
         "question": "What did Seth mention he had been searching for fruitlessly for half an hour?",
         "category": 5,
-        "adversarial_answer": "his keys",
-        "answer": ""
+        "adversarial_answer": "his keys"
       },
       {
         "question": "What class is Ethan taking to learn how to make healthier meals?",
         "category": 5,
-        "adversarial_answer": "cooking class",
-        "answer": ""
+        "adversarial_answer": "cooking class"
       },
       {
         "question": "What dish did Seth make on 14 August, 2023 that turned out bland?",
@@ -47711,164 +47352,137 @@
       {
         "question": "What food did Ethan share a photo of on 19 August, 2023?",
         "category": 5,
-        "adversarial_answer": "bowl of spinach, avocado, and strawberries",
-        "answer": ""
+        "adversarial_answer": "bowl of spinach, avocado, and strawberries"
       },
       {
         "question": "What did Ethan start sculpting years ago due to being inspired by a friend's gift?",
         "category": 5,
-        "adversarial_answer": "forest scene",
-        "answer": ""
+        "adversarial_answer": "forest scene"
       },
       {
         "question": "What nature concept do watercolor painting classes emphasize according to Seth?",
         "category": 5,
-        "adversarial_answer": "observing nature and painting what is seen",
-        "answer": ""
+        "adversarial_answer": "observing nature and painting what is seen"
       },
       {
         "question": "What type of landscapes does Seth love painting the most?",
         "category": 5,
-        "adversarial_answer": "sunsets over the ocean",
-        "answer": ""
+        "adversarial_answer": "sunsets over the ocean"
       },
       {
         "question": "What sports activity has Seth been doing to stay active while dealing with the knee injury?",
         "category": 5,
-        "adversarial_answer": "Swimming",
-        "answer": ""
+        "adversarial_answer": "Swimming"
       },
       {
         "question": "What activity does Seth do to keep himself busy while healing his knee?",
         "category": 5,
-        "adversarial_answer": "Watercolor painting",
-        "answer": ""
+        "adversarial_answer": "Watercolor painting"
       },
       {
         "question": "What kind of writing does Ethan enjoy as a form of expression?",
         "category": 5,
-        "adversarial_answer": "creative writing",
-        "answer": ""
+        "adversarial_answer": "creative writing"
       },
       {
         "question": "What electronics issue has been frustrating Ethan lately?",
         "category": 5,
-        "adversarial_answer": "malfunctioning navigation app on the new phone",
-        "answer": ""
+        "adversarial_answer": "malfunctioning navigation app on the new phone"
       },
       {
         "question": "What activity did Ethan quit one year ago?",
         "category": 5,
-        "adversarial_answer": "lifting weights",
-        "answer": ""
+        "adversarial_answer": "lifting weights"
       },
       {
         "question": "Where did Seth and his mate plan to try skydiving?",
         "category": 5,
-        "adversarial_answer": "Lake Tahoe",
-        "answer": ""
+        "adversarial_answer": "Lake Tahoe"
       },
       {
         "question": "What digestive issue did Ethan experience lately?",
         "category": 5,
-        "adversarial_answer": "Gastritis",
-        "answer": ""
+        "adversarial_answer": "Gastritis"
       },
       {
         "question": "How did Seth start his transformation journey two years ago?",
         "category": 5,
-        "adversarial_answer": "Changed his diet and started walking regularly",
-        "answer": ""
+        "adversarial_answer": "Changed his diet and started walking regularly"
       },
       {
         "question": "What gift did Seth receive from a close friend?",
         "category": 5,
-        "adversarial_answer": "1968 Kustom K-200A vintage guitar",
-        "answer": ""
+        "adversarial_answer": "1968 Kustom K-200A vintage guitar"
       },
       {
         "question": "How does Seth describe the island he grew up on?",
         "category": 5,
-        "adversarial_answer": "A happy place",
-        "answer": ""
+        "adversarial_answer": "A happy place"
       },
       {
         "question": "What was the main reason for Ethan's frustration with his new Prius getting stolen?",
         "category": 5,
-        "adversarial_answer": "He relied on it for his active lifestyle and road trips",
-        "answer": ""
+        "adversarial_answer": "He relied on it for his active lifestyle and road trips"
       },
       {
         "question": "What family event is Seth planning for next summer?",
         "category": 5,
-        "adversarial_answer": "big family reunion",
-        "answer": ""
+        "adversarial_answer": "big family reunion"
       },
       {
         "question": "What is the motto of Seth's family?",
         "category": 5,
-        "adversarial_answer": "'Bring it on Home'",
-        "answer": ""
+        "adversarial_answer": "'Bring it on Home'"
       },
       {
         "question": "Who helped Seth get the painting published in the exhibition?",
         "category": 5,
-        "adversarial_answer": "a close friend",
-        "answer": ""
+        "adversarial_answer": "a close friend"
       },
       {
         "question": "How did Seth feel when he painted the piece with the bird flying over it?",
         "category": 5,
-        "adversarial_answer": "a sense of joy and freedom",
-        "answer": ""
+        "adversarial_answer": "a sense of joy and freedom"
       },
       {
         "question": "How did Seth describe the process of creating the painting with the bird flying over it?",
         "category": 5,
-        "adversarial_answer": "embracing the creative process without restraint",
-        "answer": ""
+        "adversarial_answer": "embracing the creative process without restraint"
       },
       {
         "question": "What did Ethan and his partner keep from their extended family on January 5, 2024?",
         "category": 5,
-        "adversarial_answer": "their marriage",
-        "answer": ""
+        "adversarial_answer": "their marriage"
       },
       {
         "question": "What was Seth limiting himself to on his new diet?",
         "category": 5,
-        "adversarial_answer": "just two ginger snaps a day",
-        "answer": ""
+        "adversarial_answer": "just two ginger snaps a day"
       },
       {
         "question": "What dance activity did Ethan and his partner try in a recent weekend?",
         "category": 5,
-        "adversarial_answer": "Snowshoeing",
-        "answer": ""
+        "adversarial_answer": "Snowshoeing"
       },
       {
         "question": "What suggestions did Ethan give for high-impact exercises?",
         "category": 5,
-        "adversarial_answer": "swimming, yoga, walking",
-        "answer": ""
+        "adversarial_answer": "swimming, yoga, walking"
       },
       {
         "question": "What movie did Ethan watch that motivated him to keep up with his routine?",
         "category": 5,
-        "adversarial_answer": "The Godfather",
-        "answer": ""
+        "adversarial_answer": "The Godfather"
       },
       {
         "question": "What activity hindered Ethan's stress and flexibility?",
         "category": 5,
-        "adversarial_answer": "Yoga",
-        "answer": ""
+        "adversarial_answer": "Yoga"
       },
       {
         "question": "What did Seth share a photo of that was taken on a camping trip?",
         "category": 5,
-        "adversarial_answer": "a kayak",
-        "answer": ""
+        "adversarial_answer": "a kayak"
       }
     ],
     "conversation": {
@@ -52296,7 +51910,7 @@
       },
       {
         "question": "What are Derek's hobbies other than fixing cars?",
-        "answer": "take a walk, listen to favorite albums, live concerts, photography [LOCOMO-AUDIT]",
+        "answer": "take a walk, listen to favorite albums, live concerts, photography (hiking is aspirational, not confirmed as practiced hobby) [LOCOMO-AUDIT]",
         "category": 1
       },
       {
@@ -52496,7 +52110,7 @@
       },
       {
         "question": "Which band was Derek's favorite at the music festival in March 2023?",
-        "answer": "Aerosmith",
+        "answer": "Aerosmith [LOCOMO-AUDIT]",
         "category": 4
       },
       {
@@ -52686,7 +52300,7 @@
       },
       {
         "question": "What plans do Connor and Derek have for when Connor visits Boston?",
-        "answer": "Check out Derek's garage and maybe get some ideas for future projects (IDK acceptable)",
+        "answer": "Check out Derek's garage and maybe get some ideas for future projects",
         "category": 4
       },
       {
@@ -52933,272 +52547,228 @@
       {
         "question": "What advice did Connor receive from the chef at the music festival?",
         "category": 5,
-        "adversarial_answer": "to stay true to himself and sound unique",
-        "answer": ""
+        "adversarial_answer": "to stay true to himself and sound unique"
       },
       {
         "question": "What is Connor's new business venture as of 1 May, 2023?",
         "category": 5,
-        "adversarial_answer": "Car maintenance shop",
-        "answer": ""
+        "adversarial_answer": "Car maintenance shop"
       },
       {
         "question": "What type of cars does Connor work on at his shop?",
         "category": 5,
-        "adversarial_answer": "all kinds of cars, from regular maintenance to full restorations of classic cars",
-        "answer": ""
+        "adversarial_answer": "all kinds of cars, from regular maintenance to full restorations of classic cars"
       },
       {
         "question": "What did Derek receive as a gift from another artist?",
         "category": 5,
-        "adversarial_answer": "a gold necklace with a diamond pendant",
-        "answer": ""
+        "adversarial_answer": "a gold necklace with a diamond pendant"
       },
       {
         "question": "What was the necklace Derek received meant to remind him of?",
         "category": 5,
-        "adversarial_answer": "why he keeps hustling as a musician",
-        "answer": ""
+        "adversarial_answer": "why he keeps hustling as a musician"
       },
       {
         "question": "What did Connor open in May 2023?",
         "category": 5,
-        "adversarial_answer": "a car shop",
-        "answer": ""
+        "adversarial_answer": "a car shop"
       },
       {
         "question": "What gives Connor a sense of achievement and purpose?",
         "category": 5,
-        "adversarial_answer": "Fixing up things",
-        "answer": ""
+        "adversarial_answer": "Fixing up things"
       },
       {
         "question": "What sports activity is Derek planning to try after the tour with Frank Ocean?",
         "category": 5,
-        "adversarial_answer": "Skiing",
-        "answer": ""
+        "adversarial_answer": "Skiing"
       },
       {
         "question": "How does Connor describe his process of adding acoustic elements to his songs?",
         "category": 5,
-        "adversarial_answer": "gives them a fresh vibe",
-        "answer": ""
+        "adversarial_answer": "gives them a fresh vibe"
       },
       {
         "question": "What clothing brand does Connor own that he is proud of?",
         "category": 5,
-        "adversarial_answer": "Ferrari",
-        "answer": ""
+        "adversarial_answer": "Ferrari"
       },
       {
         "question": "What workshop did Connor get picked for on 11 August, 2023?",
         "category": 5,
-        "adversarial_answer": "Car mod workshop",
-        "answer": ""
+        "adversarial_answer": "Car mod workshop"
       },
       {
         "question": "What kind of modifications has Connor been working on in the car mod workshop?",
         "category": 5,
-        "adversarial_answer": "engine swaps, suspension modifications, and body modifications",
-        "answer": ""
+        "adversarial_answer": "engine swaps, suspension modifications, and body modifications"
       },
       {
         "question": "What type of car did Connor work on during the workshop?",
         "category": 5,
-        "adversarial_answer": "classic muscle car",
-        "answer": ""
+        "adversarial_answer": "classic muscle car"
       },
       {
         "question": "What did Derek and his friends record in August 2023?",
         "category": 5,
-        "adversarial_answer": "a podcast discussing the rap industry",
-        "answer": ""
+        "adversarial_answer": "a podcast discussing the rap industry"
       },
       {
         "question": "Where did Derek start shooting a video for his new album?",
         "category": 5,
-        "adversarial_answer": "Miami",
-        "answer": ""
+        "adversarial_answer": "Miami"
       },
       {
         "question": "What design is featured on Derek's guitar?",
         "category": 5,
-        "adversarial_answer": "octopus",
-        "answer": ""
+        "adversarial_answer": "octopus"
       },
       {
         "question": "Why did Derek get his guitar customized with a shiny finish?",
         "category": 5,
-        "adversarial_answer": "unique look",
-        "answer": ""
+        "adversarial_answer": "unique look"
       },
       {
         "question": "What color glow did Derek customize his guitar with?",
         "category": 5,
-        "adversarial_answer": "purple",
-        "answer": ""
+        "adversarial_answer": "purple"
       },
       {
         "question": "Where did Connor come back from with insights on car modification on 1st September 2023?",
         "category": 5,
-        "adversarial_answer": "San Francisco",
-        "answer": ""
+        "adversarial_answer": "San Francisco"
       },
       {
         "question": "What emotion does Connor mention feeling when he sees the relief of someone whose car he fixed?",
         "category": 5,
-        "adversarial_answer": "Proud",
-        "answer": ""
+        "adversarial_answer": "Proud"
       },
       {
         "question": "What did Derek book a flight ticket for on 1st September 2023?",
         "category": 5,
-        "adversarial_answer": "Boston",
-        "answer": ""
+        "adversarial_answer": "Boston"
       },
       {
         "question": "Which horror movie did Derek mention as one of his favorites?",
         "category": 5,
-        "adversarial_answer": "Ratatouille",
-        "answer": ""
+        "adversarial_answer": "Ratatouille"
       },
       {
         "question": "Which song from the childhood of Derek brings back memories of a road trip with his dad?",
         "category": 5,
-        "adversarial_answer": "\"California Love\"",
-        "answer": ""
+        "adversarial_answer": "\"California Love\""
       },
       {
         "question": "What car did Connor work on in the junkyard?",
         "category": 5,
-        "adversarial_answer": "Ford Mustang",
-        "answer": ""
+        "adversarial_answer": "Ford Mustang"
       },
       {
         "question": "What does Derek find satisfying about destroying old cars?",
         "category": 5,
-        "adversarial_answer": "Transforming something old and beat-up into something beautiful",
-        "answer": ""
+        "adversarial_answer": "Transforming something old and beat-up into something beautiful"
       },
       {
         "question": "What does working on boats represent for Derek?",
         "category": 5,
-        "adversarial_answer": "Therapy and a way to get away from everyday stress",
-        "answer": ""
+        "adversarial_answer": "Therapy and a way to get away from everyday stress"
       },
       {
         "question": "What does Derek aim to do with his passion for cooking?",
         "category": 5,
-        "adversarial_answer": "Take something broken and make it into something awesome",
-        "answer": ""
+        "adversarial_answer": "Take something broken and make it into something awesome"
       },
       {
         "question": "What did Connor recently get that is a \"masterpiece on canvas\"?",
         "category": 5,
-        "adversarial_answer": "Ferrari",
-        "answer": ""
+        "adversarial_answer": "Ferrari"
       },
       {
         "question": "Who headlined the music festival that Connor attended in October?",
         "category": 5,
-        "adversarial_answer": "The Fireworks",
-        "answer": ""
+        "adversarial_answer": "The Fireworks"
       },
       {
         "question": "Which part of Tokyo is described as Tokyo's Times Square by Derek?",
         "category": 5,
-        "adversarial_answer": "Shibuya Crossing",
-        "answer": ""
+        "adversarial_answer": "Shibuya Crossing"
       },
       {
         "question": "What specific location in Tokyo does Connor mention being excited to avoid?",
         "category": 5,
-        "adversarial_answer": "Shinjuku",
-        "answer": ""
+        "adversarial_answer": "Shinjuku"
       },
       {
         "question": "When did Connor sell the car he restored last year?",
         "category": 5,
-        "adversarial_answer": "Last year",
-        "answer": ""
+        "adversarial_answer": "Last year"
       },
       {
         "question": "When did Connor first get interested in motorcycles?",
         "category": 5,
         "adversarial_answer": "at an early age",
-        "answer": ""
+        "answer": "Cannot be determined from transcript"
       },
       {
         "question": "What realization did the nightclub experience bring to Derek?",
         "category": 5,
-        "adversarial_answer": "how much music means to him, it's like his passion and purpose",
-        "answer": ""
+        "adversarial_answer": "how much music means to him, it's like his passion and purpose"
       },
       {
         "question": "What did Derek do recently at his Japanese house?",
         "category": 5,
-        "adversarial_answer": "Threw a small party for his new album",
-        "answer": ""
+        "adversarial_answer": "Threw a small party for his new album"
       },
       {
         "question": "What did Connor recently start a blog about?",
         "category": 5,
-        "adversarial_answer": "Car mods",
-        "answer": ""
+        "adversarial_answer": "Car mods"
       },
       {
         "question": "What type of videos does Derek usually watch on his television?",
         "category": 5,
-        "adversarial_answer": "Music videos, concerts, documentaries about artists and their creative process",
-        "answer": ""
+        "adversarial_answer": "Music videos, concerts, documentaries about artists and their creative process"
       },
       {
         "question": "What type of art has Derek been getting into lately?",
         "category": 5,
-        "adversarial_answer": "Classic rock",
-        "answer": ""
+        "adversarial_answer": "Classic rock"
       },
       {
         "question": "What type of content does Derek post on his blog that inspired others to start their own cooking projects?",
         "category": 5,
-        "adversarial_answer": "How he made his car look like a beast",
-        "answer": ""
+        "adversarial_answer": "How he made his car look like a beast"
       },
       {
         "question": "What kind of impact does Derek's blog on vegan recipes have on people?",
         "category": 5,
-        "adversarial_answer": "It inspires others to start their DIY projects",
-        "answer": ""
+        "adversarial_answer": "It inspires others to start their DIY projects"
       },
       {
         "question": "Who did Derek invite to see him perform in Boston on 13 November, 2023?",
         "category": 5,
-        "adversarial_answer": "his old high school buddy",
-        "answer": ""
+        "adversarial_answer": "his old high school buddy"
       },
       {
         "question": "What new item did Connor buy recently?",
         "category": 5,
-        "adversarial_answer": "A vintage camera",
-        "answer": ""
+        "adversarial_answer": "A vintage camera"
       },
       {
         "question": "What type of photos does Connor like to capture with his new camera?",
         "category": 5,
-        "adversarial_answer": "Nature - sunsets, beaches, waves",
-        "answer": ""
+        "adversarial_answer": "Nature - sunsets, beaches, waves"
       },
       {
         "question": "What did Derek discuss with the cool artist he met at the gala?",
         "category": 5,
-        "adversarial_answer": "Music and art",
-        "answer": ""
+        "adversarial_answer": "Music and art"
       },
       {
         "question": "Where did Connor take a stunning photo of a waterfall?",
         "category": 5,
-        "adversarial_answer": "Nearby park",
-        "answer": ""
+        "adversarial_answer": "Nearby park"
       }
     ],
     "conversation": {

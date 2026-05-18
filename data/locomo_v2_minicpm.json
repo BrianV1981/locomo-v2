@@ -73,7 +73,7 @@
       },
       {
         "question": "Would Sarah still want to pursue counseling as a career if she hadn't received support growing up?",
-        "answer": "Likely no (IDK acceptable)",
+        "answer": "Likely no",
         "category": 3
       },
       {
@@ -133,7 +133,7 @@
       },
       {
         "question": "Would Sarah pursue writing as a career option?",
-        "answer": "LIkely no; though she likes reading, she wants to be a counselor (IDK acceptable)",
+        "answer": "LIkely no; though she likes reading, she wants to be a counselor",
         "category": 3
       },
       {
@@ -148,7 +148,7 @@
       },
       {
         "question": "Would Jessica be considered a member of the LGBTQ community?",
-        "answer": "Likely no, she does not refer to herself as part of it (IDK acceptable)",
+        "answer": "Likely no, she does not refer to herself as part of it",
         "category": 3
       },
       {
@@ -218,7 +218,7 @@
       },
       {
         "question": "Would Jessica be considered an ally to the transgender community?",
-        "answer": "Yes, she is supportive (IDK acceptable)",
+        "answer": "Yes, she is supportive",
         "category": 3
       },
       {
@@ -278,7 +278,7 @@
       },
       {
         "question": "Would Sarah be considered religious?",
-        "answer": "Somewhat, but not extremely religious (IDK acceptable)",
+        "answer": "Somewhat, but not extremely religious",
         "category": 3
       },
       {
@@ -323,7 +323,7 @@
       },
       {
         "question": "What personality traits might Jessica say Sarah has?",
-        "answer": "Thoughtful, authentic, driven (alternative valid answers accepted)",
+        "answer": "Thoughtful, authentic, driven",
         "category": 3
       },
       {
@@ -363,7 +363,7 @@
       },
       {
         "question": "Would Jessica go on another roadtrip soon?",
-        "answer": "Uncertain; although the trip started badly with the accident, the family continued and enjoyed the Grand Canyon, suggesting Jessica values family trips (IDK acceptable) [LOCOMO-AUDIT]",
+        "answer": "Uncertain; although the trip started badly with the accident, the family continued and enjoyed the Grand Canyon, suggesting Jessica values family trips [LOCOMO-AUDIT]",
         "category": 3
       },
       {
@@ -383,7 +383,7 @@
       },
       {
         "question": "Would Sarah want to move back to her home country soon?",
-        "answer": "No; she's in the process of adopting children. (IDK acceptable)",
+        "answer": "No; she's in the process of adopting children.",
         "category": 3
       },
       {
@@ -4768,7 +4768,7 @@
       },
       {
         "question": "What advice does Jon give to Gino about running a successful business?",
-        "answer": "build relationships with customers, create a strong brand image, stay positive",
+        "answer": "build relationships with customers, create a strong brand image, stay positive [LOCOMO-AUDIT]",
         "category": 4
       },
       {
@@ -4798,7 +4798,7 @@
       },
       {
         "question": "What kind of professional experience did Grace get accepted for on May 27, 2023?",
-        "answer": "fashion internship",
+        "answer": "fashion internship [LOCOMO-AUDIT]",
         "category": 4
       },
       {
@@ -8023,7 +8023,7 @@
       },
       {
         "question": "When did Mia donate her car?",
-        "answer": "21 December 2022",
+        "answer": "old car",
         "category": 2
       },
       {
@@ -8338,12 +8338,12 @@
       },
       {
         "question": "What type of workout class did Mia start doing in December 2022?",
-        "answer": "aerial yoga",
+        "answer": "aerial yoga [LOCOMO-AUDIT]",
         "category": 4
       },
       {
         "question": "What did Mia donate to a homeless shelter in December 2022?",
-        "answer": "old car",
+        "answer": "old car [LOCOMO-AUDIT]",
         "category": 4
       },
       {
@@ -8749,7 +8749,8 @@
       {
         "question": "What did Mia donate to a luxury store in December 2023?",
         "category": 5,
-        "adversarial_answer": "old car"
+        "adversarial_answer": "old car",
+        "answer": "old car"
       },
       {
         "question": "Who inspired Jack to start volunteering?",
@@ -14536,7 +14537,7 @@
       },
       {
         "question": "What pets wouldn't cause any discomfort to Julia?",
-        "answer": "The transcript does not suggest specific pets. Julia is allergic to reptiles, animals with fur, and cockroaches. [LOCOMO-AUDIT]",
+        "answer": "The transcript does not suggest specific pets. Julia is allergic to reptiles, animals with fur, and cockroaches (D2:23, D5:11). No specific safe pet types are proposed in the conversation. [LOCOMO-AUDIT]",
         "category": 3
       },
       {
@@ -14816,7 +14817,7 @@
       },
       {
         "question": "What alternative career might Noah consider after gaming?",
-        "answer": "Cannot be determined from transcript. [LOCOMO-AUDIT]",
+        "answer": "Cannot be determined from transcript. Noah is passionate about turtles and knows how to care for them, but he never discusses leaving gaming or pursuing animal care professionally. [LOCOMO-AUDIT]",
         "category": 3
       },
       {
@@ -14851,7 +14852,7 @@
       },
       {
         "question": "What state did Julia visit in summer 2022?",
-        "answer": "Indiana",
+        "answer": "Indiana [LOCOMO-AUDIT]",
         "category": 3
       },
       {
@@ -14926,7 +14927,7 @@
       },
       {
         "question": "What is Noah's favorite book series about?",
-        "answer": "Adventures, magic, and great characters . [LOCOMO-AUDIT]",
+        "answer": "Adventures, magic, and great characters (the specific subject 'dragons' is not stated in the transcript text). [LOCOMO-AUDIT]",
         "category": 4
       },
       {
@@ -20929,7 +20930,7 @@
       },
       {
         "question": "Who is Anthony?",
-        "answer": "likely Jack's friend, colleague or family (IDK acceptable)",
+        "answer": "likely Jack's friend, colleague or family",
         "category": 3
       },
       {
@@ -21518,7 +21519,7 @@
         "category": 4
       },
       {
-        "question": "What did Jack say about his injury on 16 November, 2023?",
+        "question": "What did Tom say about his injury on 16 November, 2023?",
         "answer": "Jack had an injury; the doctor said it's not too serious [LOCOMO-AUDIT]",
         "category": 4
       },
@@ -21664,7 +21665,7 @@
       },
       {
         "question": "What is Jack's favorite book series?",
-        "answer": "The Hobbit [LOCOMO-AUDIT]",
+        "answer": "The evidence does not support Harry Potter as Jack's favorite. Jack explicitly calls The Hobbit 'one of my favorites' (D20:20). [LOCOMO-AUDIT]",
         "category": 4
       },
       {
@@ -27668,7 +27669,7 @@
       },
       {
         "question": "Where did Alice get Pixie from?",
-        "answer": "Unclear - D2:1 says 'adopted' while D11:4 says 'breeder'. The evidence is contradictory. (IDK acceptable) [LOCOMO-AUDIT]",
+        "answer": "Unclear - D2:1 says 'adopted' while D11:4 says 'breeder'. The evidence is contradictory. [LOCOMO-AUDIT]",
         "category": 1
       },
       {
@@ -34070,7 +34071,7 @@
       },
       {
         "question": "Does Jacob live in Connecticut?",
-        "answer": "Likely yes (IDK acceptable)",
+        "answer": "Likely yes",
         "category": 3
       },
       {
@@ -34125,7 +34126,7 @@
       },
       {
         "question": "What is the board game where you have to find the imposter that Jack mentions to Jacob?",
-        "answer": "Unknown - the game is described but never named. 'Mafia' is one possibility among several social deduction games. (IDK acceptable) [LOCOMO-AUDIT]",
+        "answer": "Unknown - the game is described but never named. 'Mafia' is one possibility among several social deduction games. [LOCOMO-AUDIT]",
         "category": 3
       },
       {
@@ -34135,7 +34136,7 @@
       },
       {
         "question": "Was Jacob feeling lonely before meeting Samantha?",
-        "answer": "Most likely yes, because he mentioned that the only creatures that gave him joy are dogs and he was actively trying to date. (IDK acceptable)",
+        "answer": "Most likely yes, because he mentioned that the only creatures that gave him joy are dogs and he was actively trying to date.",
         "category": 3
       },
       {
@@ -34220,12 +34221,12 @@
       },
       {
         "question": "Who is Jill?",
-        "answer": "Most likely Jack's partner. (IDK acceptable)",
+        "answer": "Most likely Jack's partner.",
         "category": 3
       },
       {
         "question": "When did James spend time with his sister and dogs?",
-        "answer": "James spent time with his sister and dogs on July 21, 2022",
+        "answer": "James spent time with his sister and dogs on July 21, 2022 [LOCOMO-AUDIT]",
         "category": 2
       },
       {
@@ -34260,7 +34261,7 @@
       },
       {
         "question": "Why didn't Jack want to go to Starbucks?",
-        "answer": "Possibly because he likes to drink beer on his days off. (IDK acceptable)",
+        "answer": "Possibly because he likes to drink beer on his days off.",
         "category": 3
       },
       {
@@ -34340,7 +34341,7 @@
       },
       {
         "question": "What was Jacob' big moment with Samantha in October 2022?",
-        "answer": "The golden answer about the event is correct, but it happened in October 2022, not October 2023 as stated in the question.",
+        "answer": "The golden answer about the event is correct, but it happened in October 2022, not October 2023 as stated in the question. [LOCOMO-AUDIT]",
         "category": 2
       },
       {
@@ -34475,7 +34476,7 @@
       },
       {
         "question": "What did Jack organize with his friends on May 7, 2022?",
-        "answer": "The CS:GO tournament was organized on May 7, 2022",
+        "answer": "The CS:GO tournament was organized on May 7, 2022 [LOCOMO-AUDIT]",
         "category": 4
       },
       {
@@ -40770,7 +40771,7 @@
       },
       {
         "question": "Is the friend who wrote Diana the motivational quote no longer alive?",
-        "answer": "likely yes (IDK acceptable)",
+        "answer": "likely yes",
         "category": 3
       },
       {
@@ -40795,7 +40796,7 @@
       },
       {
         "question": "What card game is Diana talking about?",
-        "answer": "an unnamed card game about cats where you draw cards and can attack opponents [LOCOMO-AUDIT]",
+        "answer": "an unnamed card game about cats where you draw cards and can attack opponents (Diana says she does not remember the name) [LOCOMO-AUDIT]",
         "category": 3
       },
       {
@@ -41265,7 +41266,7 @@
       },
       {
         "question": "Why did Diana have to reschedule their meeting with Jasmine on September 8, 2023?",
-        "answer": "Diana already had plans for that day, causing the reschedule",
+        "answer": "Diana already had plans for that day, causing the reschedule [LOCOMO-AUDIT]",
         "category": 4
       },
       {
@@ -41290,7 +41291,7 @@
       },
       {
         "question": "What did Diana recently play that she described to Jasmine?",
-        "answer": "Diana recently played a card game about cats",
+        "answer": "Diana recently played a card game about cats [LOCOMO-AUDIT]",
         "category": 4
       },
       {
@@ -47296,8 +47297,8 @@
         "category": 2
       },
       {
-        "question": "What significant event happened in Ethan's life towards the end of summer 2023?",
-        "answer": "This event happened to Ethan [LOCOMO-AUDIT]",
+        "question": "What significant event happened in Seth's life towards the end of summer 2023?",
+        "answer": "This event happened to Ethan, not Seth. No comparable significant event for Seth is documented at end of summer 2023 beyond his ongoing health journey. [LOCOMO-AUDIT]",
         "category": 2
       },
       {
@@ -47677,12 +47678,12 @@
       },
       {
         "question": "What dish did Seth make on 14 August, 2023 that turned out flavorful?",
-        "answer": "grilled dish with salmon and vegetables",
+        "answer": "grilled dish with salmon and vegetables [LOCOMO-AUDIT]",
         "category": 4
       },
       {
         "question": "What kind of recipe did Ethan request from Seth on 15 August, 2023?",
-        "answer": "recipes with more vegetables",
+        "answer": "recipes with more vegetables [LOCOMO-AUDIT]",
         "category": 4
       },
       {
@@ -47697,7 +47698,7 @@
       },
       {
         "question": "What did Ethan start painting years ago due to being inspired by a friend's gift?",
-        "answer": "Ethan started painting in general (landscapes, nature scenes)",
+        "answer": "The friend's gift was a forest scene painting, but Ethan started painting in general (landscapes, nature scenes), not specifically forest scenes. [LOCOMO-AUDIT]",
         "category": 4
       },
       {
@@ -47882,7 +47883,7 @@
       },
       {
         "question": "What did Seth share with Ethan after their hiking trip?",
-        "answer": "Seth shared the photo after his own hiking trip",
+        "answer": "Seth shared the photo after his own hiking trip [LOCOMO-AUDIT]",
         "category": 4
       },
       {
@@ -52648,7 +52649,7 @@
       },
       {
         "question": "What are Derek's hobbies other than fixing cars?",
-        "answer": "take a walk, listen to favorite albums, live concerts, photography [LOCOMO-AUDIT]",
+        "answer": "take a walk, listen to favorite albums, live concerts, photography (hiking is aspirational, not confirmed as practiced hobby) [LOCOMO-AUDIT]",
         "category": 1
       },
       {
@@ -52848,7 +52849,7 @@
       },
       {
         "question": "Which band was Derek's favorite at the music festival in March 2023?",
-        "answer": "Aerosmith",
+        "answer": "Aerosmith [LOCOMO-AUDIT]",
         "category": 4
       },
       {
@@ -53038,7 +53039,7 @@
       },
       {
         "question": "What plans do Connor and Derek have for when Connor visits Boston?",
-        "answer": "Check out Derek's garage and maybe get some ideas for future projects (IDK acceptable)",
+        "answer": "Check out Derek's garage and maybe get some ideas for future projects",
         "category": 4
       },
       {
@@ -53445,7 +53446,8 @@
       {
         "question": "When did Connor first get interested in motorcycles?",
         "category": 5,
-        "adversarial_answer": "at an early age"
+        "adversarial_answer": "at an early age",
+        "answer": "Cannot be determined from transcript"
       },
       {
         "question": "What realization did the nightclub experience bring to Derek?",
