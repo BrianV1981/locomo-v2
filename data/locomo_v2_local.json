@@ -21450,8 +21450,8 @@
         "category": 4
       },
       {
-        "question": "What did Tom say about his injury on 16 November, 2023?",
-        "answer": "Tom did not have an injury. It was Jack's injury. Jack (not Tom) said the doctor said it's not too serious.",
+        "question": "What did Jack say about his injury on 16 November, 2023?",
+        "answer": "Jack had an injury; the doctor said it's not too serious",
         "category": 4
       },
       {
@@ -47437,7 +47437,7 @@
       },
       {
         "question": "What painting did Seth share with Ethan in October?",
-        "answer": "a cactus in the desert",
+        "answer": "a painting of a cactus in the desert",
         "category": 4
       },
       {
