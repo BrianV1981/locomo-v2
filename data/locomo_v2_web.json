@@ -73,7 +73,7 @@
       },
       {
         "question": "Would Sarah still want to pursue counseling as a career if she hadn't received support growing up?",
-        "answer": "Likely no",
+        "answer": "Likely no (IDK acceptable)",
         "category": 3
       },
       {
@@ -138,7 +138,7 @@
       },
       {
         "question": "Would Sarah pursue writing as a career option?",
-        "answer": "LIkely no; though she likes reading, she wants to be a counselor",
+        "answer": "LIkely no; though she likes reading, she wants to be a counselor (IDK acceptable)",
         "category": 3
       },
       {
@@ -153,7 +153,7 @@
       },
       {
         "question": "Would Jessica be considered a member of the LGBTQ community?",
-        "answer": "Likely no, she does not refer to herself as part of it",
+        "answer": "Likely no, she does not refer to herself as part of it (IDK acceptable)",
         "category": 3
       },
       {
@@ -223,7 +223,7 @@
       },
       {
         "question": "Would Jessica be considered an ally to the transgender community?",
-        "answer": "Yes, she is supportive",
+        "answer": "Yes, she is supportive (IDK acceptable)",
         "category": 3
       },
       {
@@ -283,7 +283,7 @@
       },
       {
         "question": "Would Sarah be considered religious?",
-        "answer": "Somewhat, but not extremely religious",
+        "answer": "Somewhat, but not extremely religious (IDK acceptable)",
         "category": 3
       },
       {
@@ -328,7 +328,7 @@
       },
       {
         "question": "What personality traits might Jessica say Sarah has?",
-        "answer": "Thoughtful, authentic, driven",
+        "answer": "Thoughtful, authentic, driven (alternative valid answers accepted)",
         "category": 3
       },
       {
@@ -368,7 +368,7 @@
       },
       {
         "question": "Would Jessica go on another roadtrip soon?",
-        "answer": "Uncertain; although the trip started badly with the accident, the family continued and enjoyed the Grand Canyon, suggesting Jessica values family trips [LOCOMO-AUDIT]",
+        "answer": "Uncertain; although the trip started badly with the accident, the family continued and enjoyed the Grand Canyon, suggesting Jessica values family trips [LOCOMO-AUDIT] (IDK acceptable)",
         "category": 3
       },
       {
@@ -388,7 +388,7 @@
       },
       {
         "question": "Would Sarah want to move back to her home country soon?",
-        "answer": "No; she's in the process of adopting children.",
+        "answer": "No; she's in the process of adopting children. (IDK acceptable)",
         "category": 3
       },
       {
@@ -452,8 +452,8 @@
         "category": 4
       },
       {
-        "question": "What is Jessica's hand-painted bowl a reminder of?",
-        "answer": "art and self-expression (but this is Sarah's bowl, not Jessica's) [LOCOMO-ISSUES]",
+        "question": "What is Sarah's hand-painted bowl a reminder of?",
+        "answer": "art and self-expression",
         "category": 4
       },
       {
@@ -14765,7 +14765,7 @@
       },
       {
         "question": "What is Noah's favorite book series about?",
-        "answer": "Adventures, magic, and great characters (the specific subject 'dragons' is not stated in the transcript text). [LOCOMO-AUDIT]",
+        "answer": "Adventures, magic, and great characters (the specific subject 'dragons' is not stated in the transcript text). [LOCOMO-AUDIT] (IDK acceptable)",
         "category": 4
       },
       {
@@ -20695,7 +20695,7 @@
       },
       {
         "question": "Who is Anthony?",
-        "answer": "likely Jack's friend, colleague or family",
+        "answer": "likely Jack's friend, colleague or family (IDK acceptable)",
         "category": 3
       },
       {
@@ -27320,7 +27320,7 @@
       },
       {
         "question": "Where did Alice get Pixie from?",
-        "answer": "Unclear - D2:1 says 'adopted' while D11:4 says 'breeder'. The evidence is contradictory. [LOCOMO-AUDIT]",
+        "answer": "Unclear - D2:1 says 'adopted' while D11:4 says 'breeder'. The evidence is contradictory. [LOCOMO-AUDIT] (IDK acceptable)",
         "category": 1
       },
       {
@@ -33586,7 +33586,7 @@
       },
       {
         "question": "Does Jacob live in Connecticut?",
-        "answer": "Likely yes",
+        "answer": "Likely yes (IDK acceptable)",
         "category": 3
       },
       {
@@ -33641,7 +33641,7 @@
       },
       {
         "question": "What is the board game where you have to find the imposter that Jack mentions to Jacob?",
-        "answer": "Unknown - the game is described but never named. 'Mafia' is one possibility among several social deduction games. [LOCOMO-AUDIT]",
+        "answer": "Unknown - the game is described but never named. 'Mafia' is one possibility among several social deduction games. [LOCOMO-AUDIT] (IDK acceptable)",
         "category": 3
       },
       {
@@ -33651,7 +33651,7 @@
       },
       {
         "question": "Was Jacob feeling lonely before meeting Samantha?",
-        "answer": "Most likely yes, because he mentioned that the only creatures that gave him joy are dogs and he was actively trying to date.",
+        "answer": "Most likely yes, because he mentioned that the only creatures that gave him joy are dogs and he was actively trying to date. (IDK acceptable)",
         "category": 3
       },
       {
@@ -33736,7 +33736,7 @@
       },
       {
         "question": "Who is Jill?",
-        "answer": "Most likely Jack's partner.",
+        "answer": "Most likely Jack's partner. (IDK acceptable)",
         "category": 3
       },
       {
@@ -33776,7 +33776,7 @@
       },
       {
         "question": "Why didn't Jack want to go to Starbucks?",
-        "answer": "Possibly because he likes to drink beer on his days off.",
+        "answer": "Possibly because he likes to drink beer on his days off. (IDK acceptable)",
         "category": 3
       },
       {
@@ -40210,7 +40210,7 @@
       },
       {
         "question": "Is the friend who wrote Diana the motivational quote no longer alive?",
-        "answer": "likely yes",
+        "answer": "likely yes (IDK acceptable)",
         "category": 3
       },
       {
@@ -52297,7 +52297,7 @@
       },
       {
         "question": "What plans do Connor and Derek have for when Connor visits Boston?",
-        "answer": "Check out Derek's garage and maybe get some ideas for future projects",
+        "answer": "Check out Derek's garage and maybe get some ideas for future projects (IDK acceptable)",
         "category": 4
       },
       {
