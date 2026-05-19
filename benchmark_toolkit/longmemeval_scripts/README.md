@@ -1,6 +1,6 @@
 # LongMemEval Scripts & Architecture (RAG 5.21)
 
-This directory serves as the definitive, centralized hub for all scripts used to test the A.I.M. architecture against the LongMemEval benchmark. These scripts are responsible for achieving the verified **95.6% Recall@10** score.
+This directory serves as the definitive, centralized hub for all scripts used to test the A.I.M. architecture against the LongMemEval benchmark. These scripts are responsible for achieving the verified **95.6% Recall@5** score.
 
 ## 🧠 The "Secret Sauce"
 This benchmark success was not achieved by brute-forcing a massive context window. It was achieved through a surgical, two-pillar RAG 5.21 architecture:
