@@ -45,12 +45,10 @@ Furthermore, due to the "Multi-Mention Flaw" (where R@K scripts graded perfect s
 * **Result:** `locomo_v2_base.json` is currently the most factually accurate text version of LoCoMo in the world, completely stripped of annotator metadata hallucinations, mathematical errors, and brittle string-matching evidence tags.
 
 ### Phase 2: Multimodal Ground Truth & Triage
-We forensically partitioned the 1,923 questions into three mathematically strict sets based on their evidence chains:
-1. **Pure Text Set (1,251 questions):** Guaranteed to have no images in their evidence chain.
+We forensically partitioned the 1,923 original questions. After removing the **Dead Image Set (63 questions)** which relied on permanently dead links, we were left with **1,860 questions** partitioned into two mathematically strict sets based on their evidence chains:
+1. **Pure Text Set (1,207 questions):** Guaranteed to have no images in their evidence chain.
 2. **Verifiable Image Set (653 questions):** Evidence relies *only* on the 787 surviving, live image URLs.
-3. **Dead Image Set (63 questions):** Evidence relies on permanently dead links (unanswerable).
 
-*(Note: We also discovered **377 unused ambient images** in the chat histories, which are being used to generate 63 brand-new replacement questions to restore the benchmark to a flawless 1,923 questions).*
 
 ### Phase 3: The Visual Translation Cache (Sister Repository)
 To prevent future link rot from destroying the benchmark again, we built a sister repository: [locomo-visual-ground-truth](https://github.com/BrianV1981/locomo-visual-ground-truth).
@@ -67,7 +65,7 @@ Developers can now plug this cache directly into their pipelines, completely byp
   - `locomo_v2_llava.json`: Text-only variant with LLaVA-7B OCR descriptions baked in as `llava_caption`.
   - `locomo_v2_minicpm.json`: Text-only variant with MiniCPM-V OCR descriptions baked in as `minicpm_caption`.
   - `locomo_v2_local.json`: Air-gapped variant. All img_urls use local relative paths (`../images/`).
-  - All five variants have identical QA sets: 1,923 questions (148 corrections + 82 replacements).
+  - All five variants have identical QA sets: 1,860 questions (148 corrections + 82 replacements).
 - **`/benchmarks/`**: Contains `policy/BENCHMARK_TEMPLATE_AGENTS.md`, the standardized persona prompt required for all LLM-as-a-Judge evaluations.
 - **`/judge/`**: The reference implementation for the A.I.M. Ghost Judge (`ghost_judge.py`) and its specific forensic policy.
 - **`/scripts/`**: The Python utilities used to programmatically map replacements, apply upstream fixes, and build the V2 dataset.
@@ -81,7 +79,7 @@ Developers can now plug this cache directly into their pipelines, completely byp
 
 To evaluate your memory agent against the cleaned text baseline (ignoring dead image links for now), simply point your ingestion pipeline to `locomo_v2_base.json`.
 
-*(The `locomo_v2_web.json` dataset provides the full 1,923-question multimodal evaluation).*
+*(The `locomo_v2_web.json` dataset provides the full 1,860-question multimodal evaluation).*
 
 ## Acknowledgments & Community Fixes
 * The original [LoCoMo researchers](https://github.com/snap-research/locomo) (Maharana et al.) for designing an incredibly ambitious and difficult benchmark.
