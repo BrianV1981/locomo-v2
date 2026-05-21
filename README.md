@@ -99,10 +99,16 @@ clean_q = q.replace("[V2_CORRECTION]", "").replace("[V2_REPLACEMENT]", "").strip
 ```
 
 
-## ⚖️ Standardizing the Agentic Judge
+## ⚖️ Standardizing the Agentic Judge & Epistemic Honesty (IDK)
 Traditional RAG benchmarks often rely on static Python string-matching or rigid "YES/NO" LLM wrappers to grade answers. During our live-agent benchmarking, we discovered this leads to the **Binary Judge Fallacy**. 
 
-Agents that provide highly detailed, context-rich answers, or agents that exhibit "epistemic honesty" (saying "I don't know" to unanswerable trick questions rather than hallucinating) are actively punished by naive evaluators. Furthermore, naive judges fail to process temporal math (e.g., matching an agent's output of "last month" with the ground truth's absolute calendar date).
+Agents that provide highly detailed, context-rich answers, or agents that exhibit "epistemic honesty" (saying "I don't know" to unanswerable trick questions rather than hallucinating) are actively punished by naive evaluators. 
+
+**The (IDK Acceptable) Ground Truth Fix:**
+In the original dataset, many questions asked the agent to infer or speculate on unstated facts, with Ground Truths listing speculative answers like "Likely no" or "Uncertain." A correctly disciplined agent refusing to hallucinate and stating "I don't know" was incorrectly marked as a failure.
+To fix this, we appended `(IDK acceptable)` to these subjective Ground Truth answers. The LLM-as-a-Judge is now explicitly instructed to reward epistemic honesty.
+
+Furthermore, naive judges fail to process temporal math (e.g., matching an agent's output of "last month" with the ground truth's absolute calendar date).
 
 To standardize the evaluation of LoCoMo V2, we have introduced a dedicated `judge/` directory to this repository:
 1. **Decoupled Prompting (`judge/AGENTS.md`):** This markdown file acts as the official persona for any evaluating LLM. It forces the grading model to respect epistemic honesty, ignore non-contradictory over-details, and grade based on true semantic accuracy rather than rigid string matching. 
