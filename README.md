@@ -25,8 +25,8 @@ LoCoMo is a multimodal benchmark where crucial facts (like the title of a book o
 Our massive triage script discovered that **exactly 10% (75 out of 862) of the unique image URLs in the dataset are now permanently dead (HTTP 404 Not Found or 402 Payment Required)**.
 * **Impact:** Exactly **63 questions** in the benchmark rely on these dead links. Because the original dataset provided basic `blip_caption` fallbacks that lack Optical Character Recognition (OCR) capabilities (e.g., describing a book simply as "a book with a coin"), it became mathematically impossible for any system to answer these 63 questions.
 
-### 3. The Illusion of 100% (The MemPalace Architecture)
-Due to the flaws listed above, it is physically impossible to score 100% on the V1 dataset using a legitimate retrieval engine. Recently, systems like **MemPalace** claimed a 100% reproducible score using a text-only, verbatim storage architecture. A deep forensic audit of their open-source codebase revealed three methodological choices that bypassed the core Information Retrieval challenge:
+### 3. The Challenges of Verification
+Achieving 100% on the V1 dataset using a legitimate retrieval engine is theoretically and practically improbable. Our analysis of alternative systems that claimed 100% reproducibility revealed that those systems utilized methodological choices that, in our assessment, bypassed the core Information Retrieval challenges:
 * **The "Text Leak" Visual Bypass:** MemPalace's ingestion script explicitly drops all images. They "passed" visual questions only because the dataset authors inadvertently leaked the answers into the surrounding text dialogue.
 * **Question Manipulation (Jerry-Rigging):** When visual questions couldn't be answered via text leaks, MemPalace actively altered the benchmark questions to inject the visual answer directly into the text prompt. For example, instead of asking "What book did Melanie read?", they altered the question to *"When did Melanie read the book 'Nothing is Impossible'?"*, artificially feeding their text-only engine the exact visual string it needed to search for.
 * **Top-K Dataset Stuffing:** MemPalace evaluated the 10-conversation dataset by setting their retrieval limit to `top-k=50`. Because the longest conversation only has 32 sessions, they completely bypassed the Information Retrieval challenge. The database simply returned the entire conversation, and they used an external API (Claude Sonnet) to perform brute-force reading comprehension over the whole transcript.
@@ -103,8 +103,8 @@ clean_q = q.replace("[V2_CORRECTION]", "").replace("[V2_REPLACEMENT]", "").strip
 ```
 
 
-## ⚖️ Experimental Agentic Judge & Epistemic Honesty (IDK)
-*Note: Our evaluation framework is currently a Work-In-Progress (WIP) and represents our specific approach to solving grading limitations, not an absolute standard.*
+## ⚖️ Agentic Judge & Epistemic Honesty (Work-In-Progress)
+*Note: Our evaluation framework is a Work-In-Progress. It represents our team's specific approach to addressing common grading limitations and should be viewed as an experimental methodology, not an industry standard.*
 
 Traditional RAG benchmarks often rely on static Python string-matching or rigid "YES/NO" LLM wrappers to grade answers. During our live-agent benchmarking, we observed that this can lead to what we call the **Binary Judge Fallacy**. 
 
@@ -123,7 +123,7 @@ To explore alternative evaluation methods for LoCoMo V2, we have introduced the 
 Researchers testing this dataset are welcome to experiment with our `AGENTS.md` forensic prompts to see if they provide a fairer assessment of actual reasoning and retrieval for their specific models.
 
 ## ⚖️ Forensic Evaluation Protocol (WIP Implementation Guide)
-If you wish to replicate our specific evaluation environment, we use the **Forensic Judge Persona** defined in `benchmark_toolkit/geminicli/evaluators/AGENTS.md`.
+This protocol represents our ongoing internal effort to address the limitations of static evaluation. We use a **Forensic Judge Persona** (defined in `benchmark_toolkit/geminicli/evaluators/AGENTS.md`) as a starting point for our own research. We encourage others to treat this as an experimental component of the codebase.
 
 ### Current Experimental Guidelines:
 1. **Persona Inheritance:** Scripts spawning our judge agent currently set the working directory (`cwd`) to their local `evaluators/` folder to ensure the agent loads our forensic persona.
