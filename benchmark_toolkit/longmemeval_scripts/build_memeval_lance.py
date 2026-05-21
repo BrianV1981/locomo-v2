@@ -14,7 +14,7 @@ from aim_core.lance_backend import VectorBackend
 from aim_core.plugins.datajack.forensic_utils import get_embedding
 
 MD_DIR = Path(__file__).parent / "data" / "flight_recorders"
-TARGET_LANCE = os.path.join(AIM_MEMEVAL_ROOT, "memory_lance")
+TARGET_LANCE = "/home/kingb/locomo-v2/benchmark_toolkit/database/longmemeval_lance_rag5.2/memory_lance"
 
 backend = VectorBackend(path=TARGET_LANCE)
 table = backend.get_table()
@@ -76,7 +76,7 @@ for md_file in all_files:
                         "fragment_id": rid, "session_id": session_id,
                         "type": "longmemeval_session", "content": chunk_content[:16000],
                         "timestamp": "", "metadata": json.dumps({"dataset": "longmemeval"}),
-                        "parent_id": 0, "source_db": "longmemeval_v2",
+                        "parent_id": 0, "source_db": "longmemeval_v1.1",
                         "vector": vec
                     })
                     rid += 1
@@ -97,7 +97,7 @@ for md_file in all_files:
                     "fragment_id": rid, "session_id": session_id,
                     "type": "longmemeval_session", "content": chunk_content[:16000],
                     "timestamp": "", "metadata": json.dumps({"dataset": "longmemeval"}),
-                    "parent_id": 0, "source_db": "longmemeval_v2",
+                    "parent_id": 0, "source_db": "longmemeval_v1.1",
                     "vector": vec
                 })
                 rid += 1

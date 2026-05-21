@@ -47,7 +47,7 @@ def main():
     
     for i, item in enumerate(questions):
         import time
-        time.sleep(1.0) # Pacing delay to prevent Ollama overload
+        time.sleep(2.0) # Pacing delay to prevent Ollama overload
         haystack = set(item["haystack_session_ids"])
         
         query = item["question"]

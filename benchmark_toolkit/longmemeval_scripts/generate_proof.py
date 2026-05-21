@@ -90,7 +90,9 @@ def main():
         })
         print(f"Processed {i+1}/{total}...", end="\r")
 
-    out_file = "/home/kingb/locomo-v2/benchmark_toolkit/database/longmemeval_lance_rag5.2/A_I_M_LONGMEMEVAL_PROOF_LOG.json"
+    import datetime
+    timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+    out_file = f"/home/kingb/locomo-v2/benchmark_toolkit/database/longmemeval_lance_rag5.2/A_I_M_LONGMEMEVAL_PROOF_LOG_{timestamp}.json"
     with open(out_file, "w") as f:
         json.dump({
             "benchmark": "LongMemEval (Cleaned S Dataset)",

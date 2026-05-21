@@ -13,7 +13,7 @@ TMUX_SESSION = "17"
 
 # Change this to locomo_v2_minicpm.json or locomo_v2_llava.json when testing flattened datasets
 DATA_FILE = "/home/kingb/locomo-v2/data/locomo_v2_web.json"
-PREDICTIONS_DIR = "/home/kingb/gemini-benchmarks/reports/locomo_v2/track_b/"
+PREDICTIONS_DIR = "/home/kingb/gemini-benchmarks/reports/locomo_v2/track_a/"
 # ==========================================
 
 def send_via_buffer(session, text):
@@ -48,11 +48,11 @@ def main():
         elif "question" in sample:
             questions.append(sample)
             
-    # The benchmark uses Track B Conv 1
-    questions = questions[199:304]
+    # The benchmark uses Track A Conv 26
+    questions = questions[0:199]
     
     # 2. Find latest prediction file
-    prediction_files = glob.glob(os.path.join(PREDICTIONS_DIR, "trackB_predictions_*.json"))
+    prediction_files = glob.glob(os.path.join(PREDICTIONS_DIR, "trackA_predictions_*.json"))
     if not prediction_files:
         print("No prediction files found to resume.")
         return
