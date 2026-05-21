@@ -106,8 +106,10 @@ clean_q = q.replace("[V2_CORRECTION]", "").replace("[V2_REPLACEMENT]", "").strip
 ```
 
 
-## ⚖️ Standardizing the Agentic Judge & Epistemic Honesty (IDK)
-Traditional RAG benchmarks often rely on static Python string-matching or rigid "YES/NO" LLM wrappers to grade answers. During our live-agent benchmarking, we discovered this leads to the **Binary Judge Fallacy**. 
+## ⚖️ Experimental Agentic Judge & Epistemic Honesty (IDK)
+*Note: Our evaluation framework is currently a Work-In-Progress (WIP) and represents our specific approach to solving grading limitations, not an absolute standard.*
+
+Traditional RAG benchmarks often rely on static Python string-matching or rigid "YES/NO" LLM wrappers to grade answers. During our live-agent benchmarking, we observed that this can lead to what we call the **Binary Judge Fallacy**. 
 
 Agents that provide highly detailed, context-rich answers, or agents that exhibit "epistemic honesty" (saying "I don't know" to unanswerable trick questions rather than hallucinating) are actively punished by naive evaluators. 
 
@@ -117,22 +119,22 @@ To fix this, we appended `(IDK acceptable)` to these subjective Ground Truth ans
 
 Furthermore, naive judges fail to process temporal math (e.g., matching an agent's output of "last month" with the ground truth's absolute calendar date).
 
-To standardize the evaluation of LoCoMo V2, we have introduced a dedicated `judge/` directory to this repository:
-1. **Decoupled Prompting (`judge/AGENTS.md`):** This markdown file acts as the official persona for any evaluating LLM. It forces the grading model to respect epistemic honesty, ignore non-contradictory over-details, and grade based on true semantic accuracy rather than rigid string matching. 
+To explore alternative evaluation methods for LoCoMo V2, we have introduced an experimental `judge/` directory to this repository:
+1. **Decoupled Prompting (`judge/AGENTS.md`):** This markdown file acts as an experimental persona for evaluating LLMs. It attempts to guide the grading model to respect epistemic honesty, ignore non-contradictory over-details, and grade based on true semantic accuracy rather than rigid string matching. 
 2. **Reference Implementation (`judge/ghost_judge.py`):** A reference Python execution loop that dynamically loads the `AGENTS.md` file and evaluates a predictions JSON file.
 
-When submitting scores to the leaderboard, researchers are strongly encouraged to use the `judge/AGENTS.md` prompt to ensure their models are graded fairly on actual reasoning and retrieval.
+Researchers testing this dataset are welcome to experiment with our `judge/AGENTS.md` prompt to see if it provides a fairer assessment of actual reasoning and retrieval for their specific models.
 
-## ⚖️ Forensic Evaluation Protocol (Implementation Guide)
-To ensure the integrity of the benchmark, all evaluations must use the **Forensic Judge Persona** defined in `/judge/AGENTS.md`.
+## ⚖️ Forensic Evaluation Protocol (WIP Implementation Guide)
+If you wish to replicate our specific evaluation environment, we use the **Forensic Judge Persona** defined in `/judge/AGENTS.md`.
 
-### Mandatory Implementation Rules:
-1. **Persona Inheritance:** Any script spawning a judge agent MUST set the working directory (`cwd`) to `/judge/`. This ensures the agent loads the correct forensic persona.
-2. **Standardized Execution:** Use `ghost_judge.py` for all evaluations. Do not create custom wrappers without opening a repository issue.
-3. **Paper Trail:** All modifications to the evaluation suite (model versioning, prompt refinements, persona tweaks) MUST be documented in `BENCHMARK_DEVELOPMENT_LOG.md` and preceded by an issue ticket.
+### Current Experimental Guidelines:
+1. **Persona Inheritance:** Scripts spawning our judge agent currently set the working directory (`cwd`) to `/judge/` to ensure the agent loads our forensic persona.
+2. **Reference Execution:** We use `ghost_judge.py` for our internal evaluations. You are welcome to adapt this wrapper for your own testing.
+3. **Paper Trail:** We track our internal modifications to the evaluation suite (model versioning, prompt refinements, persona tweaks) in `BENCHMARK_DEVELOPMENT_LOG.md`.
 
-## 🚀 Running the Benchmark (Standardized Policy)
-To run this benchmark with our verified forensic protocol, use the policy template located at `benchmarks/policy/BENCHMARK_TEMPLATE_AGENTS.md`. 
+## 🚀 Running the Benchmark (Experimental Policy)
+To run this benchmark using our work-in-progress forensic protocol, you can use the policy template located at `benchmarks/policy/BENCHMARK_TEMPLATE_AGENTS.md`. 
 
 ### Setup:
 1. Ensure your benchmark environment is configured for forensic evaluation.
