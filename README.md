@@ -1,4 +1,4 @@
-# LoCoMo V2: The Definitive Long-Term Conversational Memory Benchmark
+# LoCoMo V2: An Updated Long-Term Conversational Memory Benchmark
 
 <div align="center">
   <a href="https://www.buymeacoffee.com/BrianV1981" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
@@ -9,24 +9,24 @@
 
 **LoCoMo V2** is a community-corrected, 100% solvable version of the original [LoCoMo (Long-term Conversational Memory)](https://github.com/snap-research/locomo) benchmark (Maharana et al., ACL 2024). 
 
-This repository fixes fatal structural flaws in the original dataset that previously prevented accurate end-to-end multimodal evaluation, establishing the definitive "Gold Standard" for testing LLM and MLLM memory systems.
+This repository fixes fatal structural flaws in the original dataset that previously prevented accurate end-to-end multimodal evaluation, aiming to provide a clean, verifiable evaluation environment for testing LLM and MLLM memory systems.
 
 ## 🚨 The Problem with Original LoCoMo
 
 Despite being a phenomenal benchmark design, the original `locomo10.json` dataset suffered from two massive degradation issues that mathematically prevented any AI agent from scoring 100%, regardless of its actual reasoning capabilities:
 
-### 1. Ground Truth Hallucinations (The "Query Leakage" Scandal)
+### 1. Ground Truth Hallucinations (Query Leakage)
 A recent forensic audit by [dial481/locomo-audit](https://github.com/dial481/locomo-audit) discovered **99 score-corrupting errors** in the dataset's ground-truth answer keys. 
 When the original annotators wrote the QA questions, they frequently hallucinated answers based on their hidden internal search queries (e.g., copying the exact car model "Ferrari 488 GTB" from their search query, even though the image and conversation only showed a "red sports car"). 
 * **Impact:** Any memory system that faithfully extracted facts from the conversation was actively penalized for *not* hallucinating the same fabricated details as the annotators.
 
-### 2. Catastrophic Link Rot (The Multimodal Blindspot)
+### 2. Link Rot (The Multimodal Blindspot)
 LoCoMo is a multimodal benchmark where crucial facts (like the title of a book or the text on a sign) exist *exclusively* within the pixels of shared `img_url` attachments.
 Our massive triage script discovered that **exactly 10% (75 out of 862) of the unique image URLs in the dataset are now permanently dead (HTTP 404 Not Found or 402 Payment Required)**.
 * **Impact:** Exactly **63 questions** in the benchmark rely on these dead links. Because the original dataset provided basic `blip_caption` fallbacks that lack Optical Character Recognition (OCR) capabilities (e.g., describing a book simply as "a book with a coin"), it became mathematically impossible for any system to answer these 63 questions.
 
-### 3. The Illusion of 100% (The MemPalace Exploit)
-Due to the flaws listed above, it is physically impossible to score 100% on the V1 dataset using a legitimate retrieval engine. Recently, systems like **MemPalace** claimed a 100% reproducible score using a text-only, verbatim storage architecture. A deep forensic audit of their open-source codebase revealed three critical exploits they used to bypass the benchmark rather than solve it:
+### 3. The Illusion of 100% (The MemPalace Architecture)
+Due to the flaws listed above, it is physically impossible to score 100% on the V1 dataset using a legitimate retrieval engine. Recently, systems like **MemPalace** claimed a 100% reproducible score using a text-only, verbatim storage architecture. A deep forensic audit of their open-source codebase revealed three methodological choices that bypassed the core Information Retrieval challenge:
 * **The "Text Leak" Visual Bypass:** MemPalace's ingestion script explicitly drops all images. They "passed" visual questions only because the dataset authors inadvertently leaked the answers into the surrounding text dialogue.
 * **Question Manipulation (Jerry-Rigging):** When visual questions couldn't be answered via text leaks, MemPalace actively altered the benchmark questions to inject the visual answer directly into the text prompt. For example, instead of asking "What book did Melanie read?", they altered the question to *"When did Melanie read the book 'Nothing is Impossible'?"*, artificially feeding their text-only engine the exact visual string it needed to search for.
 * **Top-K Dataset Stuffing:** MemPalace evaluated the 10-conversation dataset by setting their retrieval limit to `top-k=50`. Because the longest conversation only has 32 sessions, they completely bypassed the Information Retrieval challenge. The database simply returned the entire conversation, and they used an external API (Claude Sonnet) to perform brute-force reading comprehension over the whole transcript.
@@ -81,11 +81,18 @@ Developers can now plug this cache directly into their pipelines, completely byp
 
 To evaluate your memory agent against the cleaned text baseline (ignoring dead image links for now), simply point your ingestion pipeline to `locomo_v2_base.json`.
 
-*(The `locomo_v2_web.json` dataset is the ultimate 1,923-question multimodal gold standard).*
+*(The `locomo_v2_web.json` dataset provides the full 1,923-question multimodal evaluation).*
 
-## Acknowledgments
+## Acknowledgments & Community Fixes
 * The original [LoCoMo researchers](https://github.com/snap-research/locomo) (Maharana et al.) for designing an incredibly ambitious and difficult benchmark.
 * The [dial481/locomo-audit](https://github.com/dial481/locomo-audit) team for their tireless manual verification of the 1,540 text questions.
+
+### Upstream Community Acknowledgments
+This repository integrates critical logic fixes directly from the community on the original `snap-research/locomo` issue tracker:
+* **@namespace-ERI** (Issue #21): Identified the "Sunrise vs. Sunset" BLIP caption conflict in Conv-26, allowing us to programmatically correct the Ground Truth to accept both.
+* **@dial481** (Issue #27): Identified multiple instances where the V1 answer key penalized correct reasoning due to temporal/speaker mismatches.
+* **@jordicor** (Issue #35): Uncovered severe structural flaws, including the "Transgender Symbol" hallucination (Q57) and Speaker Misattribution (Q95 - Melanie's vs. Caroline's bowl).
+*These specific community-driven fixes are tagged exclusively with `[LOCOMO-ISSUES]` in the `locomo_v2_base.json` dataset.*
 
 
 ## 🛡️ The Blind Evaluation Protocol
