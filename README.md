@@ -66,8 +66,7 @@ Developers can now plug this cache directly into their pipelines, completely byp
   - `locomo_v2_minicpm.json`: Text-only variant with MiniCPM-V OCR descriptions baked in as `minicpm_caption`.
   - `locomo_v2_local.json`: Air-gapped variant. All img_urls use local relative paths (`../images/`).
   - All five variants have identical QA sets: 1,860 questions (148 corrections + 82 replacements).
-- **`/benchmarks/`**: Contains `policy/BENCHMARK_TEMPLATE_AGENTS.md`, the standardized persona prompt required for all LLM-as-a-Judge evaluations.
-- **`/judge/`**: The reference implementation for the A.I.M. Ghost Judge (`ghost_judge.py`) and its specific forensic policy.
+- **`/benchmark_toolkit/`**: Contains the split `geminicli/` and `opencode/` testing environments, including the `runners/` and `evaluators/` (Ghost Judge scripts and `AGENTS.md` personas).
 - **`/scripts/`**: The Python utilities used to programmatically map replacements, apply upstream fixes, and build the V2 dataset.
 - **`/tests/`**: Unit tests to ensure the dataset patching logic behaves deterministically.
 - `BENCHMARK_DEVELOPMENT_LOG.md`: The immutable paper trail tracking all architectural and prompt-engineering changes to the Forensic Evaluation Suite.
@@ -117,18 +116,18 @@ To fix this, we appended `(IDK acceptable)` to these subjective Ground Truth ans
 
 Furthermore, naive judges fail to process temporal math (e.g., matching an agent's output of "last month" with the ground truth's absolute calendar date).
 
-To explore alternative evaluation methods for LoCoMo V2, we have introduced an experimental `judge/` directory to this repository:
-1. **Decoupled Prompting (`judge/AGENTS.md`):** This markdown file acts as an experimental persona for evaluating LLMs. It attempts to guide the grading model to respect epistemic honesty, ignore non-contradictory over-details, and grade based on true semantic accuracy rather than rigid string matching. 
-2. **Reference Implementation (`judge/ghost_judge.py`):** A reference Python execution loop that dynamically loads the `AGENTS.md` file and evaluates a predictions JSON file.
+To explore alternative evaluation methods for LoCoMo V2, we have introduced the `benchmark_toolkit/` directory to this repository, splitting evaluators between the `geminicli/` and `opencode/` namespaces:
+1. **Decoupled Prompting (`evaluators/AGENTS.md`):** This markdown file acts as an experimental persona for evaluating LLMs. It attempts to guide the grading model to respect epistemic honesty, ignore non-contradictory over-details, and grade based on true semantic accuracy rather than rigid string matching. 
+2. **Reference Implementation (`evaluators/ghost_judge_pro_tmux.py`):** A reference Python execution loop that dynamically loads the `AGENTS.md` file and evaluates a predictions JSON file.
 
-Researchers testing this dataset are welcome to experiment with our `judge/AGENTS.md` prompt to see if it provides a fairer assessment of actual reasoning and retrieval for their specific models.
+Researchers testing this dataset are welcome to experiment with our `AGENTS.md` forensic prompts to see if they provide a fairer assessment of actual reasoning and retrieval for their specific models.
 
 ## ⚖️ Forensic Evaluation Protocol (WIP Implementation Guide)
-If you wish to replicate our specific evaluation environment, we use the **Forensic Judge Persona** defined in `/judge/AGENTS.md`.
+If you wish to replicate our specific evaluation environment, we use the **Forensic Judge Persona** defined in `benchmark_toolkit/geminicli/evaluators/AGENTS.md`.
 
 ### Current Experimental Guidelines:
-1. **Persona Inheritance:** Scripts spawning our judge agent currently set the working directory (`cwd`) to `/judge/` to ensure the agent loads our forensic persona.
-2. **Reference Execution:** We use `ghost_judge.py` for our internal evaluations. You are welcome to adapt this wrapper for your own testing.
+1. **Persona Inheritance:** Scripts spawning our judge agent currently set the working directory (`cwd`) to their local `evaluators/` folder to ensure the agent loads our forensic persona.
+2. **Reference Execution:** We use `ghost_judge_pro_tmux.py` for our internal evaluations. You are welcome to adapt this wrapper for your own testing.
 3. **Paper Trail:** We track our internal modifications to the evaluation suite (model versioning, prompt refinements, persona tweaks) in `BENCHMARK_DEVELOPMENT_LOG.md`.
 
 ## 🚀 Running the Benchmark (Experimental Policy)
