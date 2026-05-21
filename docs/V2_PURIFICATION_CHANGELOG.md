@@ -72,3 +72,27 @@ The original LoCoMo benchmark suffered from severe link rot, data contamination 
 2. `/home/kingb/locomo-v2/data/locomo_v2_local.json` (Air-gapped paths)
 3. `/home/kingb/locomo-v2/data/locomo_v2_web.json` (GitHub raw URLs)
 4. A pristine, decontaminated, and 100% solvable 1,923-question benchmark.
+
+
+## Historical Audit & Community Issues
+These entries track known logic errors and community-reported discrepancies identified during the V2 build.
+
+### Category 2: 99 Community Audit Logic Errors
+Tag: `[LOCOMO-AUDIT]`
+These logic errors were identified via the `dial481/locomo-audit` repository. They primarily address 'Ground-Truth Hallucinations'—instances where original human annotators extrapolated facts absent from the dialogue text.
+
+*   **Logic:** 99 total questions affected.
+*   **Resolution:** Manual verification performed to filter out false positives (multimodal blindness vs. valid correction). Final verified count: 94 fixes applied.
+
+### Category 4: Community Issue Reports
+Tag: `[LOCOMO-ISSUES]`
+Issues sourced from upstream tickets regarding ambiguous phrasing or speaker misattributions.
+
+*   **Count:** 4 questions identified and corrected.
+
+### Personal User Corrections
+Tag: `[USER-AUDIT]`
+Specific issues identified during the V2 building process.
+
+*   **Issue 1:** Visual Entity Mismatch: In conversations involving the books "Charlotte's Web" and "Becoming Nicole", the visual ground truth contained the actual book covers, while the transcript had been decontaminated to "Matilda" and "Tomorrow Will Be Different."
+*   **Resolution:** Reverted "Matilda" back to "Charlotte's Web" and "Tomorrow Will Be Different" back to "Becoming Nicole" in all datasets to resolve visual hallucination.

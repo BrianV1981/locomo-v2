@@ -9,7 +9,8 @@ JUDGE_ROOT = "/home/kingb/gemini-benchmarks/evaluators"
 TMUX_SESSION = f"pro_judge_{int(time.time())}"
 INPUT_FILE = "/home/kingb/gemini-benchmarks/reports/locomo_v2/track_b/trackB_predictions_20260511_203738.json"
 OUTPUT_FILE = f"/home/kingb/gemini-benchmarks/reports/locomo_v2/track_b/trackB_FINAL_PRO_TMUX_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
-AGENTS_POLICY = "/home/kingb/gemini-benchmarks/evaluators/AGENTS.md"
+import os
+AGENTS_POLICY = os.path.join(os.path.dirname(os.path.abspath(__file__)), "AGENTS.md")
 
 def get_latest_transcript(session_name):
     # Search in all potential chat directories
