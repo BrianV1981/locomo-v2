@@ -39,9 +39,10 @@ LoCoMo V2 is designed to prevent these exploits, forcing systems to rely on true
 
 **LoCoMo V2** repairs both of these fatal flaws to create a pristine, verifiable evaluation environment.
 
-### Phase 1: Textual Ground Truth Correction
+### Phase 1: Textual Ground Truth Correction & Evidence Tag Amputation
 We programmatically merged the 156 corrections (99 score-corrupting errors + 57 citation-only errors) from the `locomo-audit` repository directly into the dataset. 
-* **Result:** `locomo_v2_base.json` is currently the most factually accurate text version of LoCoMo in the world, completely stripped of annotator metadata hallucinations and mathematical errors.
+Furthermore, due to the "Multi-Mention Flaw" (where R@K scripts graded perfect semantic retrievals as 0% failures because they didn't match the hardcoded `dia_id` tag from the first mention of a fact), the `evidence` arrays were **deleted (1,923 times)**. The benchmark is now strictly evaluated via **End-to-End LLM-as-a-Judge**.
+* **Result:** `locomo_v2_base.json` is currently the most factually accurate text version of LoCoMo in the world, completely stripped of annotator metadata hallucinations, mathematical errors, and brittle string-matching evidence tags.
 
 ### Phase 2: Multimodal Ground Truth & Triage
 We forensically partitioned the 1,923 questions into three mathematically strict sets based on their evidence chains:
