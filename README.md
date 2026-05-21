@@ -61,7 +61,7 @@ Developers can now plug this cache directly into their pipelines, completely byp
 
 - **`/data/`**: The core datasets. Includes the `errors.json` audit file, the V1 original `locomo10.json`, and all five production-ready V2 variants:
   - `locomo_v2_base.json`: Text-only variant with blip_captions. All img_urls point to the preserved GitHub repo images.
-  - `locomo_v2_web.json`: The multimodal gold standard. All img_urls point to the preserved GitHub repo images. No model captions.
+  - `locomo_v2_web.json`: The multimodal benchmark. All img_urls point to the preserved GitHub repo images. No model captions.
   - `locomo_v2_llava.json`: Text-only variant with LLaVA-7B OCR descriptions baked in as `llava_caption`.
   - `locomo_v2_minicpm.json`: Text-only variant with MiniCPM-V OCR descriptions baked in as `minicpm_caption`.
   - `locomo_v2_local.json`: Air-gapped variant. All img_urls use local relative paths (`../images/`).
@@ -141,3 +141,7 @@ To run this benchmark using our work-in-progress forensic protocol, you can use 
 
 ### Community Contributions
 This project has benefited significantly from community engagement. We would like to explicitly acknowledge the contributions found in issues #23, #12, and #9. These discussions helped identify the "hallucination penalty" in the original dataset and led to the implementation of the Epistemic Honesty (IDK) logic.
+
+## Community Acknowledgments
+
+This benchmark has been significantly improved through community contributions and feedback, specifically regarding epistemic honesty and inference evaluation (e.g., issues #9 and #12). We appreciate the collaborative effort to make evaluation more representative of AI capabilities.
