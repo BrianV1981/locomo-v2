@@ -137,3 +137,7 @@ To run this benchmark using our work-in-progress forensic protocol, you can use 
 1. Ensure your benchmark environment is configured for forensic evaluation.
 2. When launching the agent, use the policy flag pointing to `benchmarks/policy/BENCHMARK_TEMPLATE_AGENTS.md`.
 3. Always check the `BENCHMARK_DEVELOPMENT_LOG.md` before submitting results to ensure your evaluation protocol is current.
+
+
+### Community Contributions
+This project has benefited significantly from community engagement. We would like to explicitly acknowledge the contributions found in issues #23, #12, and #9. These discussions helped identify the "hallucination penalty" in the original dataset and led to the implementation of the Epistemic Honesty (IDK) logic.
