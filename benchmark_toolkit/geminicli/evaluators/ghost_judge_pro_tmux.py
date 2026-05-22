@@ -5,7 +5,7 @@ import subprocess
 import glob
 from datetime import datetime
 
-JUDGE_ROOT = "/home/kingb/gemini-benchmarks/evaluators"
+JUDGE_ROOT = "/home/kingb/locomo-v2/benchmark_toolkit/geminicli/evaluators"
 TMUX_SESSION = f"pro_judge_{int(time.time())}"
 INPUT_FILE = "/home/kingb/gemini-benchmarks/reports/locomo_v2/track_b/trackB_predictions_20260511_203738.json"
 OUTPUT_FILE = f"/home/kingb/gemini-benchmarks/reports/locomo_v2/track_b/trackB_FINAL_PRO_TMUX_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
